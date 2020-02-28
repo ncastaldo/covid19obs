@@ -9,8 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "d3nic": "0.0.2",
-    "vue": "^2.6.11"
+    "d3-selection": "^1.4.1",
+    "d3-zoom": "^1.8.3",
+    "vue": "^2.6.11",
+    "vue-resize-directive": "^1.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.2.0",
