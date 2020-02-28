@@ -1,16 +1,24 @@
 <template>
   <div id="app">
-    <Map />
+    <v-app>
+      <Header />
+      <Map />
+      <TimeChart />
+    </v-app>
   </div>
 </template>
 
 <script>
+import Header from './components/Header'
 import Map from './components/Map'
+import TimeChart from './components/TimeChart'
 
 export default {
   name: 'App',
   components: {
-    Map
+    Header,
+    Map,
+    TimeChart
   }
 }
 </script>
