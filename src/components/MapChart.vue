@@ -1,5 +1,8 @@
 <template>
-  <div>
+  <div
+    ref="container"
+    style="width: 100% height:100%"
+  >
     <svg id="map-chart" />
     <ChartTooltip
       v-show="hover !== null"
@@ -13,14 +16,14 @@
 
 <script>
 import * as d3nic from 'd3nic'
-import { zoom } from 'd3-zoom'
+import { zoom, zoomIdentity } from 'd3-zoom'
 import { select, event } from 'd3-selection'
 
 import world from '../assets/map/world.json'
 import { mapMutations } from 'vuex'
 
 export default {
-  name: 'Map',
+  name: 'MapChart',
   data () {
     return {
       chart: null,
@@ -35,13 +38,20 @@ export default {
     }
   },
   mounted () {
+    const size = {
+      width: this.$refs.container.offsetWidth,
+      height: this.$refs.container.offsetHeight
+    }
+
     const fnZoom = zoom()
-      .scaleExtent([1, 8])
-      .translateExtent([[0, 0], Object.values(this.chart.size())])
+      .scaleExtent([1, 7])
+      .translateExtent([[0, 0], Object.values(size)])
       .on('zoom', this.zoomed)
+
     select('svg#map-chart').call(fnZoom)
 
     this.chart
+      .size(size)
       .data(world.features)
       .draw({ duration: 500 })
   },
@@ -65,7 +75,6 @@ export default {
       this.chart = d3nic.geoChart()
         .selector('#map-chart')
         .fnKey(d => d.properties.adm0_a3)
-        .size({ width: 800, height: 600 })
         .components([this.geoRegions])
     },
     zoomed () {

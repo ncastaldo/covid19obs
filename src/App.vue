@@ -1,35 +1,38 @@
 <template>
-  <div id="app">
-    <v-app>
-      <Header />
-      <Map />
-      <TimeChart />
-    </v-app>
-  </div>
+  <v-app
+    id="app"
+  >
+    <!--Header /-->
+    <Content />
+    <!--TimeChart /-->
+  </v-app>
 </template>
 
 <script>
-import Header from './components/Header'
-import Map from './components/Map'
-import TimeChart from './components/TimeChart'
+import Content from './components/Content'
 
 export default {
   name: 'App',
   components: {
-    Header,
-    Map,
-    TimeChart
+    // Header,
+    Content
+    // TimeChart
   }
 }
 </script>
 
 <style>
+body {
+    overflow: hidden;
+    height: 100vh;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #2c3e50;/*
+  margin-top: 60px;*/
 }
 </style>

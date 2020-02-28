@@ -1,11 +1,14 @@
 <template>
-  <div>
+  <div
+    ref="container"
+    style="width: 100%; height:100%"
+  >
     <svg id="time-chart" />
   </div>
 </template>
 
 <script>
-import { csv } from 'd3-fetch'
+import { dsv } from 'd3-fetch'
 import * as d3nic from 'd3nic'
 
 import { mapGetters } from 'vuex'
@@ -31,7 +34,8 @@ export default {
   },
   watch: {
     location (value) {
-      csv(`/assets/epi/EPI_${value.locationId}.csv`).then((data) => {
+      dsv(';', `/assets/infodemics/infodemics_${value.locationId}.csv`).then((data) => {
+        console.log(data)
         this.timeseries = data
       })
     },
@@ -45,6 +49,13 @@ export default {
     this.createComponents()
     this.createChart()
   },
+  mounted () {
+    const size = {
+      width: this.$refs.container.offsetWidth,
+      height: 300
+    }
+    this.chart.size(size)
+  },
   methods: {
     getBxLine (fnValue) {
       return d3nic.bxLine()
@@ -53,7 +64,7 @@ export default {
         .fnStrokeWidth(2)
     },
     createComponents () {
-      this.lineEpiConfirmed = this.getBxLine(d => d.EPI_confirmed_cum).fnStroke('orange')
+      this.lineEpiConfirmed = this.getBxLine(d => d.EPI_confirmed_cum).fnStroke('red')
       this.lineEpiDead = this.getBxLine(d => d.EPI_dead_cum).fnStroke('black')
       this.lineEpiRecovered = this.getBxLine(d => d.EPI_recovered_cum).fnStroke('green')
     },
@@ -61,9 +72,10 @@ export default {
       this.chart = d3nic.bxChart()
         .selector('#time-chart')
         .fnKey(d => d.date)
-        .fnBandValue(d => d.date)
-        .size({ width: 800, height: 300 })
+        .fnBandValue(d => new Date(d.date).toLocaleDateString())
         .components([
+          d3nic.bxAxisX().tickFormat((d, i) => i % 10 === 0 ? d : ''),
+          d3nic.bxAxisY(),
           this.lineEpiConfirmed,
           this.lineEpiDead,
           this.lineEpiRecovered
