@@ -9,7 +9,7 @@
     >
       <v-tooltip
         v-for="(d, i) in dimensions"
-        :key="d"
+        :key="d.id"
         bottom
       >
         <template
@@ -25,7 +25,7 @@
             </v-icon>
           </v-btn>
         </template>
-        <span>{{ dimensions[i] }}</span>
+        <span>{{ dimensions[i].name }}</span>
       </v-tooltip>
     </v-btn-toggle>
     <v-card-actions
@@ -39,6 +39,7 @@
 
 <script>
 
+import { stack } from 'd3-shape'
 import { format } from 'd3-format'
 import { schemeReds, schemeBlues, schemeGreens } from 'd3-scale-chromatic'
 
@@ -65,6 +66,8 @@ const dimensions = [
   }
 ]
 
+const toggleDimensions = dimensions.map((_, i) => i)
+
 const getBxBars = (fnLowValue, fnHighValue) => d3nic.bxBars()
   .fnLowValue(fnLowValue)
   .fnHighValue(fnHighValue)
@@ -74,15 +77,13 @@ export default {
   name: 'TimeChart',
   data () {
     return {
-      timeseries: null,
-
       chart: null,
       bxBarsComponents: [],
 
       chartData: null,
 
       dimensions,
-      toggleDimensions: null,
+      toggleDimensions,
 
       backgroundColor: config.colors.background,
 
@@ -95,13 +96,14 @@ export default {
     })
   },
   watch: {
-    dimensions (value) {
-      this.computeChartData()
-    },
     location (value) {
       this.computeChartData()
     },
+    toggleDimensions (value) {
+      this.computeChartData()
+    },
     chartData (value) {
+      console.log(value)
       this.chart
         .data(value)
         .draw({ duration: 500 })
@@ -122,11 +124,26 @@ export default {
   },
   methods: {
     computeChartData () {
-
+      const toggleDimensions = [...this.toggleDimensions].sort()
+      const fnStack = stack()
+        .keys(toggleDimensions.map(i => this.dimensions[i].id))
+      const stacked = fnStack(this.location.timeseries)
+      this.chartData = this.location && this.location.timeseries
+        ? this.location.timeseries
+          .map((ts, i) => ({
+            ...ts,
+            out: {
+              ...toggleDimensions.reduce((acc, j) => ({
+                ...acc,
+                [this.dimensions[j].id]: stacked[j][i]
+              }), {})
+            }
+          }))
+        : []
     },
     createComponents () {
       this.bxBarsComponents = this.dimensions.map((dim, i) =>
-        getBxBars(d => 0, d => d[dim])
+        getBxBars(d => dim.id in d.out ? d.out[dim.id][0] : 0, d => dim.id in d.out ? d.out[dim.id][1] : 0)
           .fnFill([schemeReds[9][7], schemeBlues[9][7], schemeGreens[9][7]][i])
       )
     },

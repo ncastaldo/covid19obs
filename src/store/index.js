@@ -49,7 +49,10 @@ const mutations = {
     state.ready = ready
   },
   setLocationId: (state, locationId) => { state.locationId = locationId },
-  setDateIndex: (state, dateIndex) => { state.dateIndex = dateIndex }
+  setDateIndex: (state, dateIndex) => { state.dateIndex = dateIndex },
+  setLocationTimeseries: (state, { locationId, timeseries }) => {
+    state.locations[locationId] = { ...state.locations[locationId], timeseries }
+  }
 }
 
 const actions = {
@@ -58,7 +61,7 @@ const actions = {
       .map(location =>
         dsv(';', `/assets/infodemics/infodemics_${location.locationId}.csv`)
           .then(data => {
-            location.timeseries = data
+            commit('setLocationTimeseries', { locationId: location.locationId, timeseries: data })
           })
           .catch(() => {
             location.timeseries = []
