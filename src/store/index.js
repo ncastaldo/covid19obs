@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
+import { utcDays } from 'd3-time'
+import { dsv } from 'd3-fetch'
+
+// static file
 import world from '../assets/map/world.json'
 
 Vue.use(Vuex)
@@ -8,32 +12,74 @@ Vue.use(Vuex)
 const locations = world.features
   .map(f => ({
     locationId: f.properties.adm0_a3,
-    locationName: f.properties.admin
+    locationName: f.properties.admin,
+    geometry: f.geometry
   }))
   .reduce((locations, l) => ({
     ...locations,
     [l.locationId]: l
   }), {})
 
+const dates = utcDays(new Date(2019, 12 - 1, 1), new Date(2020, 3 - 1, 1))
+
 const state = {
+  ready: false,
+
   locations,
-  locationId: null
+  locationId: null,
+
+  dates,
+  dateIndex: 0
 }
 
 const getters = {
+  isReady: ({ ready }) => ready,
+  getLocations: ({ locations }) => Object.values(locations),
   getLocation: ({ locationId, locations }) =>
     locationId in locations
       ? locations[locationId]
-      : null
+      : null,
+  getDates: ({ dates }) => dates,
+  getDateIndex: ({ dateIndex }) => dateIndex
 }
 
 const mutations = {
-  setLocationId: (state, locationId) => { state.locationId = locationId }
+  setReady: (state, ready) => {
+    console.log(state)
+    state.ready = ready
+  },
+  setLocationId: (state, locationId) => { state.locationId = locationId },
+  setDateIndex: (state, dateIndex) => { state.dateIndex = dateIndex }
+}
+
+const actions = {
+  init: ({ getters, commit }) => {
+    const promises = getters.getLocations
+      .map(location =>
+        dsv(';', `/assets/infodemics/infodemics_${location.locationId}.csv`)
+          .then(data => {
+            location.timeseries = data
+          })
+          .catch(() => {
+            location.timeseries = []
+          })
+          .finally(() => {
+            Promise.resolve()
+          })
+      )
+    Promise.all(promises).then(() => commit('setReady', true))
+  }
 }
 
 export default new Vuex.Store({
   strict: true,
   state,
   mutations,
-  getters
+  getters,
+  actions,
+  plugins: [
+    store => {
+      store.dispatch('init')
+    }
+  ]
 })

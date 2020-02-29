@@ -1,14 +1,18 @@
 <template>
   <v-app
     id="app"
+    :style="{'background-color': backgroundColor}"
   >
     <!--Header /-->
-    <Content />
+    <Content v-if="storeReady" />
     <!--TimeChart /-->
   </v-app>
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+
+import config from './config'
 import Content from './components/Content'
 
 export default {
@@ -17,6 +21,16 @@ export default {
     // Header,
     Content
     // TimeChart
+  },
+  data () {
+    return {
+      backgroundColor: config.colors.secondary
+    }
+  },
+  computed: {
+    ...mapGetters({
+      storeReady: 'isReady'
+    })
   }
 }
 </script>
@@ -35,4 +49,5 @@ body {
   color: #2c3e50;/*
   margin-top: 60px;*/
 }
+
 </style>
