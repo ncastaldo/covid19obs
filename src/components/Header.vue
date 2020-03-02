@@ -1,14 +1,15 @@
 <template>
   <v-app-bar
-    app
     color="#888"
-    dark
+    app
   >
-    <v-toolbar-title
-      class="ml-4 mr-8 font-weight-bold"
-    >
-      CoMuNe Lab - Coronavirus
-    </v-toolbar-title>
+    <v-container>
+      <v-toolbar-title
+        class="ml-4 mr-8 font-weight-bold"
+      >
+        CoMuNe Lab - Coronavirus
+      </v-toolbar-title>
+    </v-container>
   </v-app-bar>
 </template>
 

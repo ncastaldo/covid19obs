@@ -1,48 +1,59 @@
 <template>
-  <v-layout
-    fill-height
-  >
-    <v-flex
-      xs7
-      style="height:100vh"
-    >
-      <v-layout
-        column
-        wrap
-      >
-        <v-flex ref="title">
-          <DateSlider />
-        </v-flex>
-        <v-flex>
-          <MapContainer :size="mapContainerSize" />
-        </v-flex>
-      </v-layout>
-    </v-flex>
-    <v-flex
-      ref="section"
-      xs5
-      style="overflow-y: scroll; height:100vh"
-    >
-      <LocationLabel />
-      <TimeChart />
-    </v-flex>
-  </v-layout>
+  <v-content>
+    <v-container>
+      <v-toolbar ref="toolbar">
+        Things
+      </v-toolbar>
+      <v-row>
+        <v-col
+          cols="6"
+        >
+          <MapCard :size="mapContainerSize" />
+        </v-col>
+        <v-col
+          cols="6"
+        >
+          <v-row
+            no-gutters
+            class="fill-height flex-column"
+          >
+            <v-col class="my-2">
+              <TimeseriesCard
+                :id="'top-card'"
+                class="fill-height"
+              />
+            </v-col>
+            <v-col class="my-2">
+              <TimeseriesCard
+                :id="'center-card'"
+                class="fill-height"
+              />
+            </v-col>
+            <v-col class="pt-4">
+              <TimeseriesCard
+                :id="'bottom-card'"
+                class="fill-height"
+              />
+            </v-col>
+          </v-row>
+          <!--SelectionCard />
+          <TimeseriesRouter /-->
+        </v-col>
+      </v-row>
+    </v-container>
+    <v-content />
+  </v-content>
 </template>
 
 <script>
-import MapContainer from './map/MapContainer'
-
-import LocationLabel from './section/LocationLabel'
-import DateSlider from './map/DateSlider'
-
-import TimeChart from './section/TimeChart'
+import MapCard from './MapCard'
+import TimeseriesCard from './TimeseriesCard'
 
 export default {
   components: {
-    MapContainer,
-    TimeChart,
-    LocationLabel,
-    DateSlider
+    MapCard,
+    TimeseriesCard
+    // TimeseriesRouter
   },
   data () {
     return {
@@ -58,8 +69,8 @@ export default {
   methods: {
     updateHeight () {
       this.mapContainerSize = {
-        width: window.innerWidth - this.$refs.section.clientWidth,
-        height: window.innerHeight - this.$refs.title.clientHeight
+        width: 500, // window.innerWidth - this.$refs.toolbar.clientWidth,
+        height: window.innerHeight - this.$refs.toolbar.clientHeight
       }
       console.log(this.mapContainerSize)
     }

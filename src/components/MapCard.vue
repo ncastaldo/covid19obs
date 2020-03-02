@@ -1,14 +1,13 @@
 <template>
   <v-card
-    ref="container"
-    class="ma-4 mr-2 mt-0 p-0"
+    ref="card"
   >
-    <div
-      v-show="hover"
-      class="label"
-    >
-      {{ hover!== null ? hover.properties.admin : '' }}
-    </div>
+    <v-card-title>
+      {{ click!== null ? click.properties.admin : '- - -' }}
+    </v-card-title>
+    <v-card-subtitle>
+      {{ hover!== null ? hover.properties.admin : '- - -' }}
+    </v-card-subtitle>
     <v-card-actions class="pa-0">
       <svg
         id="map-chart"
@@ -23,12 +22,11 @@ import * as d3nic from 'd3nic'
 import { zoom } from 'd3-zoom'
 import { select, event } from 'd3-selection'
 
-import config from '../../config'
-import world from '../../assets/map/world.json'
+import world from '../assets/map/world.json'
 import { mapMutations } from 'vuex'
 
 export default {
-  name: 'MapContainer',
+  name: 'MapCard',
   props: {
     size: Object
   },
@@ -37,19 +35,10 @@ export default {
       chart: null,
       geoRegions: null,
 
-      backgroundColor: config.colors.background,
+      backgroundColor: this.$vuetify.theme.themes.dark.semiBackground,
 
       hover: null,
       click: null
-    }
-  },
-  computed: {
-    svgSize () {
-      console.log(this.size)
-      return {
-        width: this.size.width - 4 * 6,
-        height: this.size.height - 4 * 6
-      }
     }
   },
   watch: {
@@ -64,22 +53,24 @@ export default {
     }
   },
   mounted () {
-    this.$nextTick(() => {
-      console.log(this.svgSize)
-      this.chart
-        .size(this.svgSize)
-        .data(world.features)
-        .draw({ duration: 500 })
+    const size = {
+      width: this.$el.clientWidth,
+      height: this.$el.clientWidth // width => square
+    }
 
-      const fnZoom = zoom()
-        .scaleExtent([2, 8])
-        .translateExtent([[0, 0], Object.values(this.svgSize)])
-        .on('zoom', this.zoomed)
+    this.chart
+      .size(size)
+      .data(world.features)
+      .draw({ duration: 500 })
 
-      const svg = select('svg#map-chart').call(fnZoom)
+    const fnZoom = zoom()
+      .scaleExtent([2, 8])
+      .translateExtent([[0, 0], Object.values(size)])
+      .on('zoom', this.zoomed)
 
-      fnZoom.scaleTo(svg, 2)
-    })
+    const svg = select('svg#map-chart').call(fnZoom)
+
+    fnZoom.scaleTo(svg, 2)
   },
   created () {
     this.createComponents()
@@ -93,7 +84,7 @@ export default {
       // palette https://colorhunt.co/palette/156620
       this.geoRegions = d3nic.geoRegions()
         .fnValue(d => d.geometry)
-        .fnFill(d => config.colors.primary)
+        .fnFill(d => this.$vuetify.theme.themes.dark.primary)
         .fnStroke(d => '#fff')
         .fnBefore(s => s.style('vector-effect', 'non-scaling-stroke'))
         .fnOn('mouseover', d => { this.hover = d })
@@ -118,6 +109,8 @@ export default {
 .label {
   pointer-events: none;
   position: fixed;
+
+  bottom: 10;
 
   z-index: 1; /* In front of all */
 

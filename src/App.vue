@@ -3,7 +3,7 @@
     id="app"
     :style="{'background-color': backgroundColor}"
   >
-    <!--Header /-->
+    <Header />
     <Content v-if="storeReady" />
     <!--TimeChart /-->
   </v-app>
@@ -12,19 +12,19 @@
 <script>
 import { mapGetters } from 'vuex'
 
-import config from './config'
+import Header from './components/Header'
 import Content from './components/Content'
 
 export default {
   name: 'App',
   components: {
-    // Header,
+    Header,
     Content
     // TimeChart
   },
   data () {
     return {
-      backgroundColor: config.colors.secondary
+      backgroundColor: this.$vuetify.theme.themes.dark.background
     }
   },
   computed: {
@@ -36,17 +36,12 @@ export default {
 </script>
 
 <style>
-body {
-    overflow: hidden;
-    height: 100vh;
-}
-
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;/*
+  color: #fff;/*
   margin-top: 60px;*/
 }
 
