@@ -19,7 +19,7 @@
         :id="`${id}-svg`"
         :size="chartSize"
         :values="values"
-        :data="[1, 2, 3]"
+        :data="[1,1,1,1,1,1,1,1,1,1,1,1,].map(d => Math.random())"
       />
     </v-card-actions>
   </v-card>
@@ -50,7 +50,7 @@ export default {
     this.values = [
       {
         id: 'emo_1',
-        component: d3nic.bxBars()
+        component: d3nic.bxBars().fnFill(d => this.$vuetify.theme.themes.dark.primary)
       }
     ]
   },

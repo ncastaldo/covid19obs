@@ -17,19 +17,19 @@
             no-gutters
             class="fill-height flex-column"
           >
-            <v-col class="my-2">
+            <v-col>
               <TimeseriesCard
                 :id="'top-card'"
                 class="fill-height"
               />
             </v-col>
-            <v-col class="my-2">
+            <v-col class="mt-4">
               <TimeseriesCard
                 :id="'center-card'"
                 class="fill-height"
               />
             </v-col>
-            <v-col class="pt-4">
+            <v-col class="mt-4">
               <TimeseriesCard
                 :id="'bottom-card'"
                 class="fill-height"

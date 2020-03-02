@@ -1,7 +1,6 @@
 <template>
   <v-app
     id="app"
-    :style="{'background-color': backgroundColor}"
   >
     <Header />
     <Content v-if="storeReady" />
@@ -22,11 +21,6 @@ export default {
     Content
     // TimeChart
   },
-  data () {
-    return {
-      backgroundColor: this.$vuetify.theme.themes.dark.background
-    }
-  },
   computed: {
     ...mapGetters({
       storeReady: 'isReady'
@@ -41,8 +35,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #fff;/*
-  margin-top: 60px;*/
 }
 
 </style>
