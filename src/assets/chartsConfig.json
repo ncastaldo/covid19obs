@@ -1,5 +1,5 @@
 {
-  "EPI": [ 
+  "TOP": [
     {
       "id": "EPI",
       "name": "Epidemic",
@@ -7,53 +7,82 @@
       "values": [
         {
           "id": "EPI_confirmed_cum",
+          "name": "Confirmed",
           "type": "bxBars",
           "color": "red",
-          "fnsValue": [
+          "fns": [
             {
-              "type": "fnLowValue",
-              "fn": "d => 0"
+              "name": "fnLowValue",
+              "type": "scalar",
+              "value": 0
             },
             {
-              "type": "fnHighValue",
-              "fn": "d => d.EPI_confirmed_cum"
+              "name": "fnHighValue",
+              "type": "field",
+              "value": "EPI_confirmed_cum"
             }
           ]
         },
         {
           "id": "EPI_dead_cum",
+          "name": "Dead",
           "type": "bxBars",
-          "color": "yellow",
-          "fnsValue": [
+          "color": "lightblue",
+          "fns": [
             {
-              "type": "fnLowValue",
-              "fn": "d => 0"
+              "name": "fnLowValue",
+              "type": "scalar",
+              "value": 0
             },
             {
-              "type": "fnHighValue",
-              "fn": "d => d.EPI_dead_cum"
+              "name": "fnHighValue",
+              "type": "field",
+              "value": "EPI_dead_cum"
             }
           ]
         },
         {
           "id": "EPI_recovered_cum",
+          "name": "Recovered",
           "type": "bxBars",
-          "color": "green",
-          "fnsValue": [
+          "color": "lightgreen",
+          "fns": [
             {
-              "type": "fnLowValue",
-              "fn": "d => 0"
+              "name": "fnLowValue",
+              "type": "scalar",
+              "value": 0
             },
             {
-              "type": "fnHighValue",
-              "fn": "d => d.EPI_recovered_cum"
+              "name": "fnHighValue",
+              "type": "field",
+              "value": "EPI_recovered_cum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ECO",
+      "name": "Economy",
+      "type": "bxChart",
+      "values": [
+        {
+          "id": "ECO_price_close",
+          "name": "Closing price",
+          "type": "bxBars",
+          "color": "yellow",
+          "fns": [
+            {
+              "name": "fnValue",
+              "type": "field",
+              "value": "ECO_price_close"
             }
           ]
         }
       ]
     }
   ],
-  "EMO": [
+  "MIDDLE": [
     {
       "id": "VAD",
       "name": "Circumplex",
@@ -61,37 +90,40 @@
       "values": [
         {
           "id": "EMO_VAD_V",
+          "name": "Valence",
           "type": "bxLine",
-          "color": "red",
+          "color": "white",
           "fns": [
             { 
               "name": "fnValue",
-              "type": "function",
-              "field": "EMO_VAD_V"
+              "type": "field",
+              "value": "EMO_VAD_V"
             }
           ]
         },
         {
           "id": "EMO_VAD_A",
+          "name": "Arousal",
           "type": "bxLine",
           "color": "red",
           "fns": [
             { 
               "name": "fnValue",
-              "type": "function",
-              "field": "EMO_VAD_V"
+              "type": "field",
+              "value": "EMO_VAD_A"
             }
           ]
         },
         {
           "id": "EMO_VAD_D",
+          "name": "Dominance",
           "type": "bxLine",
-          "color": "red",
+          "color": "yellow",
           "fns": [
             { 
               "name": "fnValue",
-              "type": "function",
-              "field": "EMO_VAD_V"
+              "type": "field",
+              "value": "EMO_VAD_D"
             }
           ]
         }
@@ -104,61 +136,66 @@
       "values": [
         {
           "id": "EMO_Big5_O",
+          "name": "O",
           "type": "bxLine",
           "color": "red",
           "fns": [
             { 
               "name": "fnValue",
-              "type": "function",
-              "field": "EMO_Big5_O"
+              "type": "field",
+              "value": "EMO_Big5_O"
             }
           ]
         },
         {
           "id": "EMO_Big5_C",
+          "name": "C",
           "type": "bxLine",
-          "color": "red",
+          "color": "lightgreen",
           "fns": [
             { 
               "name": "fnValue",
-              "type": "function",
-              "field": "EMO_Big5_C"
+              "type": "field",
+              "value": "EMO_Big5_C"
             }
           ]
         },
         {
           "id": "EMO_Big5_E",
+          "name": "E",
           "type": "bxLine",
-          "color": "red",
+          "color": "lightblue",
           "fns": [
             { 
               "name": "fnValue",
-              "type": "function",
-              "field": "EMO_Big5_E"
+              "type": "field",
+              "value": "EMO_Big5_E"
             }
           ]
         },
         {
           "id": "EMO_Big5_A",
+          "name": "A",
           "type": "bxLine",
-          "color": "red",
+          "color": "orange",
           "fns": [
             { 
               "name": "fnValue",
-              "type": "function",
-              "field": "EMO_Big5_A"
+              "type": "field",
+              "value": "EMO_Big5_A"
             }
           ]
         },
         {
           "id": "EMO_Big5_N",
+          "name": "N",
           "type": "bxLine",
-          "color": "red",
+          "color": "yellow",
           "fns": [
             { 
               "name": "fnValue",
-              "type": "function",
-              "field": "EMO_Big5_N"
+              "type": "field",
+              "value": "EMO_Big5_N"
             }
           ]
         }

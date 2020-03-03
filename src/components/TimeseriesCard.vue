@@ -4,7 +4,13 @@
       ref="subtitle"
       class="pa-1"
     >
-      sub
+      <v-btn
+        v-for="bv in btnValues"
+        :key="bv.id"
+        :style="{ color: bv.color }"
+      >
+        {{ bv.name }}
+      </v-btn>
     </v-card-subtitle>
     <v-card-actions class="pa-0 ">
       <TimeseriesChart
@@ -40,6 +46,13 @@ export default {
     ...mapGetters({
       location: 'getLocation'
     }),
+    btnValues () {
+      return this.chartConfig.values.map(v => ({
+        id: v.id,
+        color: v.color,
+        name: v.name
+      }))
+    },
     chartData () {
       return this.location ? this.location.timeseries : []
     },
@@ -47,7 +60,8 @@ export default {
       return this.chartConfig.values.map(v => ({
         ...v,
         component: v.fns.reduce((component, fn) => {
-          return component[fn.name](d => d[fn.field])
+          console.log(fn.name)
+          return component[fn.name](d => fn.type === 'field' ? d[fn.value] : fn.value)
         }, d3nic[v.type]())
       }))
     }

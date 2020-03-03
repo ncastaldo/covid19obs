@@ -21,7 +21,7 @@ const locations = world.features
     [l.locationId]: l
   }), {})
 
-const dates = utcDays(new Date(2019, 12 - 1, 1), new Date(2020, 3 - 1, 1))
+const dates = utcDays(new Date(2019, 12 - 1, 1), new Date(2020, 2 - 1, 24))
 
 const state = {
   ready: false,
@@ -62,7 +62,7 @@ const actions = {
   init: ({ getters, commit }) => {
     const promises = getters.getLocations
       .map(location =>
-        dsv(';', `/assets/infodemics/infodemics_${location.locationId}.csv`)
+        dsv(';', `/assets/old/infodemics_2/infodemics_${location.locationId}.csv`)
           .then(data => {
             commit('setLocationTimeseries', { locationId: location.locationId, timeseries: data })
           })

@@ -22,6 +22,20 @@ export default {
       axes: null
     }
   },
+  computed: {
+    valueComponents () {
+      return this.values.map(v =>
+        v.type === 'bxLine'
+          ? v.component
+            .fnFillOpacity(0)
+            .fnStrokeWidth(2)
+            .fnStroke(v.color)
+          : v.component
+            .fnFill(v.color)
+            .fnStrokeWidth(0)
+      )
+    }
+  },
   watch: {
     values () {
       this.clear()
@@ -49,12 +63,15 @@ export default {
       this.chart = d3nic.bxChart()
         .selector(`#${this.id}`)
         .padding({ left: 40, right: 20, top: 10, bottom: 30 })
+        .fnKey(d => new Date(d.date))
+        .fnBandValue(d => new Date(d.date))
       // do not use spread for proxy: they would vanish, use concat instead
-        .components(this.axes.concat(this.values.map(v => v.component)))
+        .components(this.axes.concat(this.valueComponents))
     },
     draw () {
       // next tick to be sure to receive the size
       this.$nextTick(() => {
+        console.log(this.values)
         this.chart
           .size(this.size)
           .data(this.data)
