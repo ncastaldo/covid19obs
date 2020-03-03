@@ -1,0 +1,56 @@
+{
+  "EPI": [ 
+    {
+      "id": "EPI",
+      "name": "Epidemic",
+      "type": "bxChart",
+      "values": [
+        {
+          "id": "EPI_confirmed_cum",
+          "type": "bxBars",
+          "color": "red",
+          "fnsValue": [
+            {
+              "type": "fnLowValue",
+              "fn": "d => 0"
+            },
+            {
+              "type": "fnHighValue",
+              "fn": "d => d.EPI_confirmed_cum"
+            }
+          ]
+        },
+        {
+          "id": "EPI_dead_cum",
+          "type": "bxBars",
+          "color": "yellow",
+          "fnsValue": [
+            {
+              "type": "fnLowValue",
+              "fn": "d => 0"
+            },
+            {
+              "type": "fnHighValue",
+              "fn": "d => d.EPI_dead_cum"
+            }
+          ]
+        },
+        {
+          "id": "EPI_recovered_cum",
+          "type": "bxBars",
+          "color": "green",
+          "fnsValue": [
+            {
+              "type": "fnLowValue",
+              "fn": "d => 0"
+            },
+            {
+              "type": "fnHighValue",
+              "fn": "d => d.EPI_recovered_cum"
+            }
+          ]
+        }
+      ]
+    }
+  ] 
+}

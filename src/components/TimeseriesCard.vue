@@ -1,13 +1,5 @@
 <template>
   <v-card>
-    <v-tabs
-      ref="tabs"
-      height="40"
-      fixed-tabs
-    >
-      <v-tab>ciao</v-tab>
-      <v-tab>ciao2</v-tab>
-    </v-tabs>
     <v-card-subtitle
       ref="subtitle"
       class="pa-1"
@@ -35,7 +27,8 @@ export default {
     TimeseriesChart
   },
   props: {
-    id: String
+    id: String,
+    charts: Array
   },
   data () {
     return {
@@ -45,6 +38,7 @@ export default {
   },
   mounted () {
     this.updateChartSize()
+    console.log(this.charts)
   },
   created () {
     this.values = [
@@ -58,9 +52,9 @@ export default {
     updateChartSize () {
       this.chartSize = {
         width: this.$el.clientWidth,
-        height: this.$el.clientHeight -
-          (this.$refs.tabs.$el.clientHeight + this.$refs.subtitle.clientHeight)
+        height: this.$el.clientHeight - this.$refs.subtitle.clientHeight
       }
+      console.log(this.chartSize)
     }
   }
 }

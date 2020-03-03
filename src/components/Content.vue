@@ -18,10 +18,27 @@
             class="fill-height flex-column"
           >
             <v-col>
-              <TimeseriesCard
-                :id="'top-card'"
-                class="fill-height"
-              />
+              <v-row
+                no-gutters
+                class="fill-height flex-column"
+              >
+                <v-col class="flex-grow-0">
+                  <v-tabs
+                    ref="header"
+                    fixed-tabs
+                  >
+                    <v-tab>ciao</v-tab>
+                    <v-tab>ciao2</v-tab>
+                  </v-tabs>
+                </v-col>
+                <v-col class="flex-grow-1">
+                  <TimeseriesCard
+                    :id="'EPI'"
+                    style="height: 100%"
+                    :charts="chartsConfig.EPI"
+                  />
+                </v-col>
+              </v-row>
             </v-col>
             <v-col class="mt-4">
               <TimeseriesCard
@@ -49,6 +66,8 @@
 import MapCard from './MapCard'
 import TimeseriesCard from './TimeseriesCard'
 
+import chartsConfig from '../assets/chartsConfig.json'
+
 export default {
   components: {
     MapCard,
@@ -57,6 +76,7 @@ export default {
   },
   data () {
     return {
+      chartsConfig,
       mapContainerSize: null
     }
   },
