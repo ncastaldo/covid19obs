@@ -8,12 +8,21 @@
         <v-col
           cols="6"
         >
-          <MapCard :size="mapContainerSize" />
+          <v-row
+            class="fill-height flex-column"
+            no-gutters
+          >
+            <v-col class="mb-4">
+              <DateSlider />
+            </v-col>
+            <v-col><MapCard :size="mapContainerSize" /></v-col>
+          </v-row>
         </v-col>
         <v-col
           cols="6"
         >
           <v-row
+            v-if="true"
             class="fill-height flex-column"
             no-gutters
           >
@@ -58,7 +67,10 @@
 </template>
 
 <script>
+
+import DateSlider from './DateSlider'
 import MapCard from './MapCard'
+
 import TimeseriesCard from './TimeseriesCard'
 
 import chartsConfig from '../assets/chartsConfig.json'
@@ -67,9 +79,9 @@ const tabs = chartsConfig.map((_, i) => 0)
 
 export default {
   components: {
+    DateSlider,
     MapCard,
     TimeseriesCard
-    // TimeseriesRouter
   },
   data () {
     return {

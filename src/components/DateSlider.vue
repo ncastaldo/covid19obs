@@ -1,8 +1,8 @@
 <template>
-  <v-card
-    class="mt-4 ml-4 mr-2 pt-2 pb-2"
-  >
-    <b>{{ dateString }}</b>
+  <v-card>
+    <div class="pt-2">
+      <b>{{ dateString }}</b>
+    </div>
     <v-card-actions>
       <v-slider
         class="ma-0"

@@ -3,10 +3,10 @@
     ref="card"
   >
     <v-card-title>
-      {{ click!== null ? click.properties.admin : '- - -' }}
+      {{ click!== null ? click.locationName : '- - -' }}
     </v-card-title>
     <v-card-subtitle>
-      {{ hover!== null ? hover.properties.admin : '- - -' }}
+      {{ hover!== null ? hover.locationName : '- - -' }}
     </v-card-subtitle>
     <v-card-actions class="pa-0">
       <svg
@@ -19,11 +19,16 @@
 
 <script>
 import * as d3nic from 'd3nic'
-import { zoom } from 'd3-zoom'
-import { select, event } from 'd3-selection'
 
-import world from '../assets/map/world.json'
-import { mapMutations } from 'vuex'
+import { scaleSequential, scaleLog } from 'd3-scale'
+import { interpolateViridis } from 'd3-scale-chromatic'
+import { zoom, zoomIdentity } from 'd3-zoom'
+import { select, selectAll, event, mouse } from 'd3-selection'
+
+import { mapMutations, mapGetters } from 'vuex'
+
+const fnScaleLog = scaleLog()
+const fnColor = scaleSequential(d => interpolateViridis(fnScaleLog(d)))
 
 export default {
   name: 'MapCard',
@@ -35,21 +40,23 @@ export default {
       chart: null,
       geoRegions: null,
 
+      svg: null,
+
       backgroundColor: this.$vuetify.theme.themes.dark.semiBackground,
 
       hover: null,
       click: null
     }
   },
+  computed: {
+    ...mapGetters({
+      locations: 'getLocations'
+    })
+  },
   watch: {
     hover (value) {
       this.geoRegions.join()
         .style('fill-opacity', d => d === value ? 0.7 : null)
-    },
-    click (value) {
-      this.setLocationId(value ? value.properties.adm0_a3 : null)
-      this.geoRegions.join()
-        .style('stroke-width', d => d === value ? 1 : null)
     }
   },
   mounted () {
@@ -58,19 +65,28 @@ export default {
       height: this.$el.clientWidth // width => square
     }
 
+    fnScaleLog.domain([
+      1,
+      this.locations
+        .map(l => l.timeseries[l.timeseries.length - 4].EPI_confirmed_cum)
+        .reduce((max, v) => max < v ? v : max, 1)
+    ])
+
     this.chart
       .size(size)
-      .data(world.features)
+      .data(this.locations)
       .draw({ duration: 500 })
 
-    const fnZoom = zoom()
-      .scaleExtent([2, 8])
+    // selectAll(this.geoRegions.join().nodes()).on('click', function () { console.log(event) })
+
+    this.fnZoom = zoom()
+      .scaleExtent([1, 8])
       .translateExtent([[0, 0], Object.values(size)])
-      .on('zoom', this.zoomed)
+      .on('zoom', this.onZoom)
 
-    const svg = select('svg#map-chart').call(fnZoom)
+    this.svg = select('svg#map-chart').call(this.fnZoom)
 
-    fnZoom.scaleTo(svg, 2)
+    this.fnZoom.scaleTo(this.svg, 1)
   },
   created () {
     this.createComponents()
@@ -84,24 +100,47 @@ export default {
       // palette https://colorhunt.co/palette/156620
       this.geoRegions = d3nic.geoRegions()
         .fnValue(d => d.geometry)
-        .fnFill(d => this.$vuetify.theme.themes.dark.primary)
+        .fnFill(d => {
+          console.log(d.timeseries[d.timeseries.length - 4])
+          return d.timeseries.length ? fnColor(d.timeseries[d.timeseries.length - 4].EPI_confirmed_cum) : 'grey'
+        })
         .fnStroke(d => '#fff')
         .fnBefore(s => s.style('vector-effect', 'non-scaling-stroke'))
         .fnOn('mouseover', d => { this.hover = d })
         .fnOn('mouseout', d => { this.hover = null })
-        .fnOn('click', d => { this.click = d === this.click ? null : d })
+        .fnOn('click', this.onClick)
     },
     createChart () {
       this.chart = d3nic.geoChart()
         .selector('#map-chart')
-        .fnKey(d => d.properties.adm0_a3)
+        .fnKey(d => d.locationId)
         .components([this.geoRegions])
     },
-    zoomed () {
+    onZoom () {
       this.chart.group().attr('transform', event.transform)
+    },
+    onClick (value) {
+      const currentEvent = this.geoRegions.event()
+
+      currentEvent.stopPropagation()
+
+      console.log(currentEvent)
+      console.log(event)
+      console.log(value)
+      this.setLocationId(value ? value.locationId : null)
+      this.geoRegions.join()
+        .style('stroke-width', d => d === value ? 1 : null)
+
+      // event.stopPropagation()
+      this.svg.transition().duration(750).call(
+        this.fnZoom.transform,
+        zoomIdentity.translate(40, 50).scale(8).translate(-10, -40),
+        [currentEvent.x, currentEvent.y]
+      )
     }
   }
 }
+
 </script>
 
 <style scoped>
