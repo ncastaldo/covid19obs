@@ -52,5 +52,117 @@
         }
       ]
     }
-  ] 
+  ],
+  "EMO": [
+    {
+      "id": "VAD",
+      "name": "Circumplex",
+      "type": "bxChart",
+      "values": [
+        {
+          "id": "EMO_VAD_V",
+          "type": "bxLine",
+          "color": "red",
+          "fns": [
+            { 
+              "name": "fnValue",
+              "type": "function",
+              "field": "EMO_VAD_V"
+            }
+          ]
+        },
+        {
+          "id": "EMO_VAD_A",
+          "type": "bxLine",
+          "color": "red",
+          "fns": [
+            { 
+              "name": "fnValue",
+              "type": "function",
+              "field": "EMO_VAD_V"
+            }
+          ]
+        },
+        {
+          "id": "EMO_VAD_D",
+          "type": "bxLine",
+          "color": "red",
+          "fns": [
+            { 
+              "name": "fnValue",
+              "type": "function",
+              "field": "EMO_VAD_V"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Big5",
+      "name": "Big Five",
+      "type": "bxChart",
+      "values": [
+        {
+          "id": "EMO_Big5_O",
+          "type": "bxLine",
+          "color": "red",
+          "fns": [
+            { 
+              "name": "fnValue",
+              "type": "function",
+              "field": "EMO_Big5_O"
+            }
+          ]
+        },
+        {
+          "id": "EMO_Big5_C",
+          "type": "bxLine",
+          "color": "red",
+          "fns": [
+            { 
+              "name": "fnValue",
+              "type": "function",
+              "field": "EMO_Big5_C"
+            }
+          ]
+        },
+        {
+          "id": "EMO_Big5_E",
+          "type": "bxLine",
+          "color": "red",
+          "fns": [
+            { 
+              "name": "fnValue",
+              "type": "function",
+              "field": "EMO_Big5_E"
+            }
+          ]
+        },
+        {
+          "id": "EMO_Big5_A",
+          "type": "bxLine",
+          "color": "red",
+          "fns": [
+            { 
+              "name": "fnValue",
+              "type": "function",
+              "field": "EMO_Big5_A"
+            }
+          ]
+        },
+        {
+          "id": "EMO_Big5_N",
+          "type": "bxLine",
+          "color": "red",
+          "fns": [
+            { 
+              "name": "fnValue",
+              "type": "function",
+              "field": "EMO_Big5_N"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

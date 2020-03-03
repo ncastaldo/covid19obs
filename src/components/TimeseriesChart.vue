@@ -22,16 +22,21 @@ export default {
       axes: null
     }
   },
+  watch: {
+    values () {
+      this.clear()
+      this.createAxes()
+      this.createChart()
+      this.draw()
+    },
+    data () {
+      this.draw()
+    }
+  },
   mounted () {
-    // next tick to receive the size
     this.createAxes()
     this.createChart()
-    this.$nextTick(() => {
-      this.chart
-        .size(this.size)
-        .data(this.data)
-        .draw({ duration: 500 })
-    })
+    this.draw()
   },
   methods: {
     createAxes () {
@@ -46,6 +51,18 @@ export default {
         .padding({ left: 40, right: 20, top: 10, bottom: 30 })
       // do not use spread for proxy: they would vanish, use concat instead
         .components(this.axes.concat(this.values.map(v => v.component)))
+    },
+    draw () {
+      // next tick to be sure to receive the size
+      this.$nextTick(() => {
+        this.chart
+          .size(this.size)
+          .data(this.data)
+          .draw({ duration: 500 })
+      })
+    },
+    clear () {
+      this.chart.group().remove()
     }
   }
 

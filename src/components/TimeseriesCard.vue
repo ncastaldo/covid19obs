@@ -10,8 +10,8 @@
       <TimeseriesChart
         :id="`${id}-svg`"
         :size="chartSize"
-        :values="values"
-        :data="[1,1,1,1,1,1,1,1,1,1,1,1,].map(d => Math.random())"
+        :values="chartValues"
+        :data="chartData"
       />
     </v-card-actions>
   </v-card>
@@ -19,6 +19,7 @@
 
 <script>
 import * as d3nic from 'd3nic'
+import { mapGetters } from 'vuex'
 
 import TimeseriesChart from './TimeseriesChart'
 
@@ -28,25 +29,31 @@ export default {
   },
   props: {
     id: String,
-    charts: Array
+    chartConfig: Object
   },
   data () {
     return {
-      values: null,
       chartSize: null
     }
   },
-  mounted () {
-    this.updateChartSize()
-    console.log(this.charts)
+  computed: {
+    ...mapGetters({
+      location: 'getLocation'
+    }),
+    chartData () {
+      return this.location ? this.location.timeseries : []
+    },
+    chartValues () {
+      return this.chartConfig.values.map(v => ({
+        ...v,
+        component: v.fns.reduce((component, fn) => {
+          return component[fn.name](d => d[fn.field])
+        }, d3nic[v.type]())
+      }))
+    }
   },
-  created () {
-    this.values = [
-      {
-        id: 'emo_1',
-        component: d3nic.bxBars().fnFill(d => this.$vuetify.theme.themes.dark.primary)
-      }
-    ]
+  mounted () {
+    this.updateChartSize() // since refs are not reactive
   },
   methods: {
     updateChartSize () {
@@ -54,7 +61,6 @@ export default {
         width: this.$el.clientWidth,
         height: this.$el.clientHeight - this.$refs.subtitle.clientHeight
       }
-      console.log(this.chartSize)
     }
   }
 }

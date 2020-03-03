@@ -24,34 +24,27 @@
               >
                 <v-col class="flex-grow-0">
                   <v-tabs
-                    ref="header"
+                    v-model="middleTab"
                     fixed-tabs
                   >
-                    <v-tab>ciao</v-tab>
-                    <v-tab>ciao2</v-tab>
+                    <v-tab
+                      v-for="chartConfig in chartsConfig.EMO"
+                      :key="chartConfig.id"
+                    >
+                      {{ chartConfig.name }}
+                    </v-tab>
                   </v-tabs>
                 </v-col>
                 <v-col class="flex-grow-1">
                   <TimeseriesCard
-                    :id="'EPI'"
-                    style="height: 100%"
-                    :charts="chartsConfig.EPI"
+                    :id="'middleCard'"
+                    class="fill-height"
+                    :chartConfig="chartsConfig.EMO[middleTab]"
                   />
                 </v-col>
               </v-row>
             </v-col>
-            <v-col class="mt-4">
-              <TimeseriesCard
-                :id="'center-card'"
-                class="fill-height"
-              />
-            </v-col>
-            <v-col class="mt-4">
-              <TimeseriesCard
-                :id="'bottom-card'"
-                class="fill-height"
-              />
-            </v-col>
+            <v-col class="mt-4" />
           </v-row>
           <!--SelectionCard />
           <TimeseriesRouter /-->
@@ -77,7 +70,8 @@ export default {
   data () {
     return {
       chartsConfig,
-      mapContainerSize: null
+      mapContainerSize: null,
+      middleTab: 0
     }
   },
   created () {

@@ -13,7 +13,8 @@ const locations = world.features
   .map(f => ({
     locationId: f.properties.adm0_a3,
     locationName: f.properties.admin,
-    geometry: f.geometry
+    geometry: f.geometry,
+    timeseries: []
   }))
   .reduce((locations, l) => ({
     ...locations,
@@ -34,11 +35,13 @@ const state = {
 
 const getters = {
   isReady: ({ ready }) => ready,
+
   getLocations: ({ locations }) => Object.values(locations),
   getLocation: ({ locationId, locations }) =>
     locationId in locations
       ? locations[locationId]
       : null,
+
   getDates: ({ dates }) => dates,
   getDateIndex: ({ dateIndex }) => dateIndex
 }
