@@ -218,14 +218,53 @@
         "values": [
           {
             "id": "TWI_num_unvhum",
-            "name": "Unverified Human",
+            "name": "U. Human",
+            "type": "bxLine",
+            "color": "lightgreen",
+            "fns": [
+              {
+                "name": "fnValue",
+                "type": "field",
+                "value": "TWI_num_unvhum"
+              }
+            ]
+          },
+          {
+            "id": "TWI_num_verhum",
+            "name": "V. Human",
             "type": "bxLine",
             "color": "green",
             "fns": [
               {
                 "name": "fnValue",
                 "type": "field",
-                "value": "TWI_num_unvhum"
+                "value": "TWI_num_verhum"
+              }
+            ]
+          },
+          {
+            "id": "TWI_num_unvbot",
+            "name": "U. Bot",
+            "type": "bxLine",
+            "color": "orange",
+            "fns": [
+              {
+                "name": "fnValue",
+                "type": "field",
+                "value": "TWI_num_unvbot"
+              }
+            ]
+          },
+          {
+            "id": "TWI_num_verbot",
+            "name": "V. Bot",
+            "type": "bxLine",
+            "color": "red",
+            "fns": [
+              {
+                "name": "fnValue",
+                "type": "field",
+                "value": "TWI_num_verbot"
               }
             ]
           }
