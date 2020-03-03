@@ -2,17 +2,25 @@
   <v-card>
     <v-card-subtitle
       ref="subtitle"
-      class="pa-1"
+      class=""
     >
       <v-btn
         v-for="bv in btnValues"
         :key="bv.id"
-        :style="{ color: bv.color }"
+        depressed
+        height="20"
       >
+        <v-icon
+          small
+          left
+          :color="bv.color"
+        >
+          mdi-square
+        </v-icon>
         {{ bv.name }}
       </v-btn>
     </v-card-subtitle>
-    <v-card-actions class="pa-0 ">
+    <v-card-actions class="pa-0">
       <TimeseriesChart
         :id="`${id}-svg`"
         :size="chartSize"

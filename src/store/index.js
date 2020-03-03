@@ -62,7 +62,7 @@ const actions = {
   init: ({ getters, commit }) => {
     const promises = getters.getLocations
       .map(location =>
-        dsv(';', `/assets/old/infodemics_2/infodemics_${location.locationId}.csv`)
+        dsv(';', `/assets/infodemics/infodemics_${location.locationId}.csv`)
           .then(data => {
             commit('setLocationTimeseries', { locationId: location.locationId, timeseries: data })
           })

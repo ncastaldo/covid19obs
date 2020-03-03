@@ -14,66 +14,42 @@
           cols="6"
         >
           <v-row
-            no-gutters
             class="fill-height flex-column"
+            no-gutters
           >
-            <v-col>
+            <v-col
+              v-for="(section, i) in chartsConfig"
+              :key="section.id"
+              :class="`fill-height flex-column ${i!==0 ? 'mt-4' : ''}`"
+            >
               <v-row
                 no-gutters
                 class="fill-height flex-column"
               >
                 <v-col class="flex-grow-0">
                   <v-tabs
-                    v-model="middleTab"
+                    v-model="tabs[i]"
+                    height="30"
                     fixed-tabs
                   >
                     <v-tab
-                      v-for="chartConfig in chartsConfig.TOP"
-                      :key="chartConfig.id"
+                      v-for="chart in section.charts"
+                      :key="chart.id"
                     >
-                      {{ chartConfig.name }}
+                      {{ chart.name }}
                     </v-tab>
                   </v-tabs>
                 </v-col>
                 <v-col class="flex-grow-1">
                   <TimeseriesCard
-                    :id="'top-card'"
+                    :id="section.id"
                     class="fill-height"
-                    :chartConfig="chartsConfig.TOP[middleTab]"
-                  />
-                </v-col>
-              </v-row>
-            </v-col>
-            <v-col class="mt-4">
-              <v-row
-                no-gutters
-                class="fill-height flex-column"
-              >
-                <v-col class="flex-grow-0">
-                  <v-tabs
-                    v-model="bottomTab"
-                    fixed-tabs
-                  >
-                    <v-tab
-                      v-for="chartConfig in chartsConfig.MIDDLE"
-                      :key="chartConfig.id"
-                    >
-                      {{ chartConfig.name }}
-                    </v-tab>
-                  </v-tabs>
-                </v-col>
-                <v-col class="flex-grow-1">
-                  <TimeseriesCard
-                    :id="'bottom-card'"
-                    class="fill-height"
-                    :chartConfig="chartsConfig.MIDDLE[bottomTab]"
+                    :chartConfig="section.charts[tabs[i]]"
                   />
                 </v-col>
               </v-row>
             </v-col>
           </v-row>
-          <!--SelectionCard />
-          <TimeseriesRouter /-->
         </v-col>
       </v-row>
     </v-container>
@@ -87,6 +63,8 @@ import TimeseriesCard from './TimeseriesCard'
 
 import chartsConfig from '../assets/chartsConfig.json'
 
+const tabs = chartsConfig.map((_, i) => 0)
+
 export default {
   components: {
     MapCard,
@@ -97,8 +75,7 @@ export default {
     return {
       chartsConfig,
       mapContainerSize: null,
-      middleTab: 0,
-      bottomTab: 0
+      tabs
     }
   },
   created () {

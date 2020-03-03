@@ -56,7 +56,7 @@ export default {
     createAxes () {
       this.axes = [
         d3nic.bxAxisX(),
-        d3nic.bxAxisY()
+        d3nic.bxAxisY().ticks(2)
       ]
     },
     createChart () {
