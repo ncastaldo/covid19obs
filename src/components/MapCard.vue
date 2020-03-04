@@ -1,9 +1,10 @@
 <template>
   <v-card class="fill-height">
     <v-card-title ref="title">
-      <span><i>Epidemic map</i></span>
+      <span>{{ location ? location.locationName : '- - -' }}</span>
       <v-spacer />
-      <span>{{ location !== null ? location.locationName : '- - -' }}</span>
+      <span class="px-2"><i>cases:</i></span>
+      <span>{{ location && location.timeseries ? location.timeseries[dateIndex].EPI_confirmed_cum : '-' }}</span>
     </v-card-title>
     <v-tooltip
       v-for="lc in legendColors"
@@ -37,7 +38,7 @@ import MapChart from './MapChart'
 
 import { scaleSequential, scaleLog } from 'd3-scale'
 import { quantize } from 'd3-interpolate'
-import { interpolateInferno } from 'd3-scale-chromatic'
+import { interpolateYlGnBu as interpolate } from 'd3-scale-chromatic'
 
 import { mapGetters } from 'vuex'
 
@@ -75,13 +76,13 @@ export default {
     },
     fnColor () {
       const fnScaleLog = scaleLog().domain([1, this.epiConfirmedMax])
-      return scaleSequential(d => interpolateInferno(fnScaleLog(d)))
+      return scaleSequential(d => interpolate(fnScaleLog(d)))
     },
     legendColors () {
       const fnScaleLog = scaleLog().domain([1, this.epiConfirmedMax])
       return [
         { color: '#444', label: 'No data' },
-        ...quantize(interpolateInferno, 10)
+        ...quantize(interpolate, 10)
           .map((c, i) => ({
             color: c,
             min: i > 0 ? Math.round(fnScaleLog.invert(i / 8)) : 0,
@@ -96,7 +97,7 @@ export default {
         [l.locationId]: l.timeseries
           ? +l.timeseries[this.dateIndex].EPI_confirmed_cum > 0
             ? this.fnColor(+l.timeseries[this.dateIndex].EPI_confirmed_cum)
-            : '#000'
+            : interpolate(0)
           : '#444'
       }), {})
     }

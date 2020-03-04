@@ -4,6 +4,13 @@
       <b>{{ dateString }}</b>
     </div>
     <v-card-actions>
+      <v-btn
+        icon
+        class="mr-2"
+        @click="onPlayClick"
+      >
+        <v-icon>{{ playIcon }}</v-icon>
+      </v-btn>
       <v-slider
         v-model="privateDateIndex"
         class="ma-0"
@@ -14,6 +21,7 @@
         :max="dates.length - 1"
         step="1"
         tick-size="0"
+        @mousedown="stopInterval"
       />
     </v-card-actions>
   </v-card>
@@ -28,7 +36,8 @@ export default {
   name: 'DateSlider',
   data () {
     return {
-      privateDateIndex: 0
+      privateDateIndex: 0,
+      interval: null
     }
   },
   computed: {
@@ -38,6 +47,13 @@ export default {
     }),
     dateString () {
       return this.dates[this.privateDateIndex].toLocaleDateString()
+    },
+    playIcon () {
+      return this.interval
+        ? 'mdi-pause'
+        : this.privateDateIndex >= this.dates.length - 1
+          ? 'mdi-restart'
+          : 'mdi-play'
     }
   },
   watch: {
@@ -51,7 +67,24 @@ export default {
   methods: {
     ...mapMutations({
       setDateIndex: 'setDateIndex'
-    })
+    }),
+    onPlayClick () {
+      this.interval ? this.stopInterval() : this.startInterval()
+    },
+    startInterval () {
+      if (this.privateDateIndex >= this.dates.length - 1) {
+        this.privateDateIndex = 0
+      }
+      this.interval = setInterval(() => this.moveDateIndex(), 500)
+    },
+    stopInterval: function () {
+      this.interval && clearInterval(this.interval)
+      this.interval = null
+    },
+    moveDateIndex () {
+      this.privateDateIndex += 1
+      this.privateDateIndex >= this.dates.length - 1 && this.stopInterval()
+    }
   }
 }
 </script>

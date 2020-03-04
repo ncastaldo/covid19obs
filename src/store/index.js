@@ -11,8 +11,8 @@ Vue.use(Vuex)
 
 const locations = world.features
   .map(f => ({
-    locationId: f.properties.adm0_a3,
-    locationName: f.properties.admin,
+    locationId: f.properties.ADM0_A3, // adm0_a3,
+    locationName: f.properties.ADMIN, // admin,
     geometry: f.geometry,
     timeseries: null
   }))

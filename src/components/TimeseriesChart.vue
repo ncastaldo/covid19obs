@@ -9,6 +9,8 @@
 <script>
 import * as d3nic from 'd3nic'
 
+import { format } from 'd3-format'
+
 export default {
   props: {
     id: String,
@@ -62,16 +64,17 @@ export default {
           .tickFormat(t => t)
           .fnBefore(s => s.classed('axis', true)),
         d3nic.bxAxisY()
-          // .tickSizeInner(0)
+          .tickSizeInner(4)
           .tickSizeOuter(0)
           .ticks(2)
+          .tickFormat(format('.1s'))
           .fnBefore(s => s.classed('axis', true))
       ]
     },
     createChart () {
       this.chart = d3nic.bxChart()
         .selector(`#${this.id}`)
-        .padding({ left: 40, right: 20, top: 10, bottom: 30 })
+        .padding({ left: 45, right: 20, top: 10, bottom: 30 })
         .fnKey(d => new Date(d.date))
         .fnBandValue(d => d.date)
       // do not use spread for proxy: they would vanish, use concat instead
@@ -80,6 +83,8 @@ export default {
     draw () {
       // next tick to be sure to receive the size
       this.$nextTick(() => {
+        console.log(this.valueComponents.map(vc => vc.fnsValue().map(f => f.toString())))
+
         this.chart
           .size(this.size)
           .data(this.data)

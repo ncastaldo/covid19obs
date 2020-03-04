@@ -43,6 +43,7 @@
 <script>
 import * as d3nic from 'd3nic'
 import { mapGetters } from 'vuex'
+import { stack } from 'd3-shape'
 
 import TimeseriesChart from './TimeseriesChart'
 
@@ -69,19 +70,34 @@ export default {
         color: v.color,
         label: v.label,
         tooltip: v.tooltip
-      }))
+      })).reverse()
     },
     chartData () {
-      return this.location && this.location.timeseries
-        ? this.location.timeseries
-        : []
+      if (!this.location || !this.location.timeseries) return []
+      if (!this.chartConfig.stacked) { return this.location.timeseries }
+      const keys = this.chartConfig.values.map(v => v.id)
+      const fnStack = stack().keys(keys)
+      const stackedData = fnStack(this.location.timeseries)
+      return this.location.timeseries.map((d, i) => ({
+        ...d,
+        ...keys.reduce((acc, k, j) => ({
+          ...acc,
+          [`stack_${k}`]: stackedData[j][i].filter((_, i) => i <= 1)
+        }), {})
+      }))
     },
     chartValues () {
       return this.chartConfig.values.map(v => ({
         ...v,
-        component: v.fns.reduce((component, fn) => {
-          return component[fn.name](d => fn.type === 'field' ? d[fn.value] : fn.value)
-        }, d3nic[v.type]())
+        component: this.chartConfig.stacked
+          ? d3nic[v.type]()
+            .fnLowValue(d => d[`stack_${v.id}`][0])
+            .fnHighValue(d => d[`stack_${v.id}`][1])
+            .fnDefined(d => d[`stack_${v.id}`])
+          : v.fns.reduce((component, fn, i) => {
+            return component[fn.name](d => fn.type === 'field' ? d[fn.value] : fn.value)
+              .fnDefined(d => fn.type === 'field' ? d[fn.value].length : true)
+          }, d3nic[v.type]())
       }))
     }
   },

@@ -6,32 +6,14 @@
         "id": "EPI",
         "label": "Epidemic",
         "type": "bxChart",
+        "stacked": true,
         "values": [
-          {
-            "id": "EPI_confirmed_cum",
-            "label": "C",
-            "tooltip": "# Confirmed cases",
-            "type": "bxBars",
-            "color": "red",
-            "fns": [
-              {
-                "name": "fnLowValue",
-                "type": "scalar",
-                "value": 0
-              },
-              {
-                "name": "fnHighValue",
-                "type": "field",
-                "value": "EPI_confirmed_cum"
-              }
-            ]
-          },
           {
             "id": "EPI_dead_cum",
             "label": "D",
             "tooltip": "# Dead cases",
             "type": "bxBars",
-            "color": "lightblue",
+            "color": "#80b1d3",
             "fns": [
               {
                 "name": "fnLowValue",
@@ -50,7 +32,7 @@
             "label": "R",
             "tooltip": "# Recovered cases",
             "type": "bxBars",
-            "color": "lightgreen",
+            "color": "#b3de69",
             "fns": [
               {
                 "name": "fnLowValue",
@@ -63,13 +45,33 @@
                 "value": "EPI_recovered_cum"
               }
             ]
-          }
+          },
+          {
+            "id": "EPI_confirmed_cum",
+            "label": "C",
+            "tooltip": "# Confirmed cases",
+            "type": "bxBars",
+            "color": "#fb8072",
+            "fns": [
+              {
+                "name": "fnLowValue",
+                "type": "scalar",
+                "value": 0
+              },
+              {
+                "name": "fnHighValue",
+                "type": "field",
+                "value": "EPI_confirmed_cum"
+              }
+            ]
+          }   
         ]
       },
       {
         "id": "ECO",
         "label": "Economy",
         "type": "bxChart",
+        "stacked": false,
         "values": [
           {
             "id": "ECO_price_close",
@@ -96,6 +98,7 @@
         "id": "EMO_VAD",
         "label": "Circumplex",
         "type": "bxChart",
+        "stacked": false,
         "values": [
           {
             "id": "EMO_VAD_V",
@@ -145,6 +148,7 @@
         "id": "EMO_Big5",
         "label": "Big Five",
         "type": "bxChart",
+        "stacked": false,
         "values": [
           {
             "id": "EMO_Big5_O",
@@ -227,6 +231,7 @@
         "id": "TWI_num",
         "label": "Bot/Hum tweets",
         "type": "bxChart",
+        "stacked": false,
         "values": [
           {
             "id": "TWI_num_unvhum",
