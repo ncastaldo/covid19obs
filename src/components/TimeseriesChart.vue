@@ -55,8 +55,17 @@ export default {
   methods: {
     createAxes () {
       this.axes = [
-        d3nic.bxAxisX(),
-        d3nic.bxAxisY().ticks(2)
+        d3nic.bxAxisX()
+          .ticks(3)
+          .tickSizeInner(0)
+          .tickSizeOuter(0)
+          .tickFormat(t => t)
+          .fnBefore(s => s.classed('axis', true)),
+        d3nic.bxAxisY()
+          // .tickSizeInner(0)
+          .tickSizeOuter(0)
+          .ticks(2)
+          .fnBefore(s => s.classed('axis', true))
       ]
     },
     createChart () {
@@ -64,7 +73,7 @@ export default {
         .selector(`#${this.id}`)
         .padding({ left: 40, right: 20, top: 10, bottom: 30 })
         .fnKey(d => new Date(d.date))
-        .fnBandValue(d => new Date(d.date))
+        .fnBandValue(d => d.date)
       // do not use spread for proxy: they would vanish, use concat instead
         .components(this.axes.concat(this.valueComponents))
     },

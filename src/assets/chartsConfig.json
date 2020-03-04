@@ -4,12 +4,13 @@
     "charts": [
       {
         "id": "EPI",
-        "name": "Epidemic",
+        "label": "Epidemic",
         "type": "bxChart",
         "values": [
           {
             "id": "EPI_confirmed_cum",
-            "name": "Confirmed",
+            "label": "C",
+            "tooltip": "# Confirmed cases",
             "type": "bxBars",
             "color": "red",
             "fns": [
@@ -27,7 +28,8 @@
           },
           {
             "id": "EPI_dead_cum",
-            "name": "Dead",
+            "label": "D",
+            "tooltip": "# Dead cases",
             "type": "bxBars",
             "color": "lightblue",
             "fns": [
@@ -45,7 +47,8 @@
           },
           {
             "id": "EPI_recovered_cum",
-            "name": "Recovered",
+            "label": "R",
+            "tooltip": "# Recovered cases",
             "type": "bxBars",
             "color": "lightgreen",
             "fns": [
@@ -65,12 +68,13 @@
       },
       {
         "id": "ECO",
-        "name": "Economy",
+        "label": "Economy",
         "type": "bxChart",
         "values": [
           {
             "id": "ECO_price_close",
-            "name": "Closing price",
+            "label": "CP",
+            "tooltip": "Stock market index Closing Price",
             "type": "bxLine",
             "color": "yellow",
             "fns": [
@@ -90,12 +94,13 @@
     "charts": [
       {
         "id": "EMO_VAD",
-        "name": "Circumplex",
+        "label": "Circumplex",
         "type": "bxChart",
         "values": [
           {
             "id": "EMO_VAD_V",
-            "name": "Valence",
+            "label": "V",
+            "tooltip": "Valence",
             "type": "bxLine",
             "color": "white",
             "fns": [
@@ -108,7 +113,8 @@
           },
           {
             "id": "EMO_VAD_A",
-            "name": "Arousal",
+            "label": "A",
+            "tooltip": "Arousal",
             "type": "bxLine",
             "color": "red",
             "fns": [
@@ -121,7 +127,8 @@
           },
           {
             "id": "EMO_VAD_D",
-            "name": "Dominance",
+            "label": "D",
+            "tooltip": "Dominance",
             "type": "bxLine",
             "color": "yellow",
             "fns": [
@@ -136,12 +143,13 @@
       },
       {
         "id": "EMO_Big5",
-        "name": "Big Five",
+        "label": "Big Five",
         "type": "bxChart",
         "values": [
           {
             "id": "EMO_Big5_O",
-            "name": "O",
+            "label": "O",
+            "tooltip": "Openness to experience",
             "type": "bxLine",
             "color": "red",
             "fns": [
@@ -154,7 +162,8 @@
           },
           {
             "id": "EMO_Big5_C",
-            "name": "C",
+            "label": "C",
+            "tooltip": "Conscientiousness",
             "type": "bxLine",
             "color": "lightgreen",
             "fns": [
@@ -167,7 +176,8 @@
           },
           {
             "id": "EMO_Big5_E",
-            "name": "E",
+            "label": "E",
+            "tooltip": "Extraversion",
             "type": "bxLine",
             "color": "lightblue",
             "fns": [
@@ -180,7 +190,8 @@
           },
           {
             "id": "EMO_Big5_A",
-            "name": "A",
+            "label": "A",
+            "tooltip": "Agreableness",
             "type": "bxLine",
             "color": "orange",
             "fns": [
@@ -193,7 +204,8 @@
           },
           {
             "id": "EMO_Big5_N",
-            "name": "N",
+            "label": "N",
+            "tooltip": "Neuroticism",
             "type": "bxLine",
             "color": "yellow",
             "fns": [
@@ -213,12 +225,13 @@
     "charts": [
       {
         "id": "TWI_num",
-        "name": "Bot/Hum tweets",
+        "label": "Bot/Hum tweets",
         "type": "bxChart",
         "values": [
           {
             "id": "TWI_num_unvhum",
-            "name": "U. Human",
+            "label": "UH",
+            "tooltip": "Unverified Humans",
             "type": "bxLine",
             "color": "lightgreen",
             "fns": [
@@ -231,7 +244,8 @@
           },
           {
             "id": "TWI_num_verhum",
-            "name": "V. Human",
+            "label": "VH",
+            "tooltip": "Verified Humans",
             "type": "bxLine",
             "color": "green",
             "fns": [
@@ -244,7 +258,8 @@
           },
           {
             "id": "TWI_num_unvbot",
-            "name": "U. Bot",
+            "label": "UB",
+            "tooltip": "Unverified Bots",
             "type": "bxLine",
             "color": "orange",
             "fns": [
@@ -257,7 +272,8 @@
           },
           {
             "id": "TWI_num_verbot",
-            "name": "V. Bot",
+            "label": "VB",
+            "tooltip": "Verified Bots",
             "type": "bxLine",
             "color": "red",
             "fns": [

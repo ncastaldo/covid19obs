@@ -4,22 +4,30 @@
       ref="subtitle"
       class=""
     >
-      <v-btn
+      <v-tooltip
         v-for="bv in btnValues"
         :key="bv.id"
-        depressed
-        height="20"
-        class="px-1 mx-1"
+        bottom
       >
-        <v-icon
-          small
-          left
-          :color="bv.color"
-        >
-          mdi-square
-        </v-icon>
-        {{ bv.name }}
-      </v-btn>
+        <template v-slot:activator="{ on }">
+          <v-btn
+            depressed
+            height="20"
+            class="px-1 mx-1"
+            v-on="on"
+          >
+            <v-icon
+              x-small
+              left
+              :color="bv.color"
+            >
+              mdi-square
+            </v-icon>
+            <span class=".overline">{{ bv.label }}</span>
+          </v-btn>
+        </template>
+        <span>{{ bv.tooltip }}</span>
+      </v-tooltip>
     </v-card-subtitle>
     <v-card-actions class="pa-0">
       <TimeseriesChart
@@ -59,7 +67,8 @@ export default {
       return this.chartConfig.values.map(v => ({
         id: v.id,
         color: v.color,
-        name: v.name
+        label: v.label,
+        tooltip: v.tooltip
       }))
     },
     chartData () {
@@ -69,7 +78,6 @@ export default {
       return this.chartConfig.values.map(v => ({
         ...v,
         component: v.fns.reduce((component, fn) => {
-          console.log(fn.name)
           return component[fn.name](d => fn.type === 'field' ? d[fn.value] : fn.value)
         }, d3nic[v.type]())
       }))

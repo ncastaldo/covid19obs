@@ -4,7 +4,7 @@
       <v-toolbar ref="toolbar">
         Things...
       </v-toolbar>
-      <v-row>
+      <v-row style="height: 600px">
         <v-col
           cols="6"
         >
@@ -12,10 +12,12 @@
             class="fill-height flex-column"
             no-gutters
           >
-            <v-col class="mb-4">
+            <v-col class="mb-4 flex-grow-0">
               <DateSlider />
             </v-col>
-            <v-col><MapCard :size="mapContainerSize" /></v-col>
+            <v-col class="flex-grow-1">
+              <MapCard class="fill-height" />
+            </v-col>
           </v-row>
         </v-col>
         <v-col
@@ -45,7 +47,7 @@
                       v-for="chart in section.charts"
                       :key="chart.id"
                     >
-                      {{ chart.name }}
+                      {{ chart.label }}
                     </v-tab>
                   </v-tabs>
                 </v-col>
@@ -88,21 +90,6 @@ export default {
       chartsConfig,
       mapContainerSize: null,
       tabs
-    }
-  },
-  created () {
-    window.addEventListener('resize', this.updateHeight)
-  },
-  mounted () {
-    this.updateHeight()
-  },
-  methods: {
-    updateHeight () {
-      this.mapContainerSize = {
-        width: 500, // window.innerWidth - this.$refs.toolbar.clientWidth,
-        height: window.innerHeight - this.$refs.toolbar.clientHeight
-      }
-      console.log(this.mapContainerSize)
     }
   }
 }

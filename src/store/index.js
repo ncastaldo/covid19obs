@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import { utcDays } from 'd3-time'
+import { utcDay } from 'd3-time'
 import { dsv } from 'd3-fetch'
 
 // static file
@@ -21,16 +21,14 @@ const locations = world.features
     [l.locationId]: l
   }), {})
 
-const dates = utcDays(new Date(2019, 12 - 1, 1), new Date(2020, 2 - 1, 24))
-
 const state = {
   ready: false,
 
   locations,
   locationId: null,
 
-  dates,
-  dateIndex: 0
+  dates: [],
+  dateIndex: null
 }
 
 const getters = {
@@ -52,7 +50,10 @@ const mutations = {
     state.ready = ready
   },
   setLocationId: (state, locationId) => { state.locationId = locationId },
+
   setDateIndex: (state, dateIndex) => { state.dateIndex = dateIndex },
+  setDates: (state, dates) => { state.dates = dates },
+
   setLocationTimeseries: (state, { locationId, timeseries }) => {
     state.locations[locationId] = { ...state.locations[locationId], timeseries }
   }
@@ -60,19 +61,20 @@ const mutations = {
 
 const actions = {
   init: ({ getters, commit }) => {
-    const promises = getters.getLocations
-      .map(location =>
-        dsv(';', `/assets/infodemics/infodemics_${location.locationId}.csv`)
-          .then(data => {
-            commit('setLocationTimeseries', { locationId: location.locationId, timeseries: data })
-          })
-          .catch(() => {
-            location.timeseries = []
-          })
-          .finally(() => {
-            Promise.resolve()
-          })
-      )
+    const promises = getters.getLocations.map((location) =>
+      dsv(';', `/assets/infodemics/infodemics_${location.locationId}.csv`)
+        .then(data => {
+          commit('setLocationTimeseries', { locationId: location.locationId, timeseries: data })
+          if (!getters.getDates.length) {
+            commit('setDates', data.map(d => utcDay(new Date(d.date))))
+          }
+        })
+        .catch(() => {
+          location.timeseries = []
+        })
+        .finally(() => {
+          Promise.resolve()
+        }))
     Promise.all(promises).then(() => commit('setReady', true))
   }
 }
