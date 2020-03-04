@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 import { utcDay } from 'd3-time'
-import { dsv } from 'd3-fetch'
+import { dsvFormat } from 'd3-dsv'
 
 // static file
 import world from '../assets/map/world.json'
@@ -14,7 +14,7 @@ const locations = world.features
     locationId: f.properties.adm0_a3,
     locationName: f.properties.admin,
     geometry: f.geometry,
-    timeseries: []
+    timeseries: null
   }))
   .reduce((locations, l) => ({
     ...locations,
@@ -28,7 +28,7 @@ const state = {
   locationId: null,
 
   dates: [],
-  dateIndex: null
+  dateIndex: 0
 }
 
 const getters = {
@@ -59,22 +59,27 @@ const mutations = {
   }
 }
 
+const fnDataParser = dsvFormat(';')
+
 const actions = {
   init: ({ getters, commit }) => {
-    const promises = getters.getLocations.map((location) =>
-      dsv(';', `/assets/infodemics/infodemics_${location.locationId}.csv`)
-        .then(data => {
-          commit('setLocationTimeseries', { locationId: location.locationId, timeseries: data })
+    const promises = getters.getLocations.map(async (location) => {
+      try {
+        const res = await fetch(`/assets/infodemics/infodemics_${location.locationId}.csv`)
+        if (res.headers.get('content-type').includes('text/csv')) {
+          const timeseries = fnDataParser.parse(await res.text())
+          commit('setLocationTimeseries', { locationId: location.locationId, timeseries })
           if (!getters.getDates.length) {
-            commit('setDates', data.map(d => utcDay(new Date(d.date))))
+            commit('setDates', timeseries.map(ts => utcDay(new Date(ts.date))))
           }
-        })
-        .catch(() => {
-          location.timeseries = []
-        })
-        .finally(() => {
-          Promise.resolve()
-        }))
+        } else {
+          console.log(`No infodemic data for ${location.locationId}`)
+        }
+      } catch (_) {
+        console.log('Problems resolving infodemic data from the public folder...')
+      }
+      return Promise.resolve()
+    })
     Promise.all(promises).then(() => commit('setReady', true))
   }
 }

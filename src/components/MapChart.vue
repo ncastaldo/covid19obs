@@ -68,7 +68,7 @@ export default {
     createComponents () {
       this.geoRegions = d3nic.geoRegions()
         .fnValue(d => d.geometry)
-        .fnFill(d => d.timeseries.length ? 'purple' : 'grey')
+        .fnFill(d => d.timeseries ? 'purple' : 'grey')
         .fnStroke(d => '#fff')
         .fnBefore(s => s.style('vector-effect', 'non-scaling-stroke'))
         .fnOn('mouseover', d => { this.hover = d })

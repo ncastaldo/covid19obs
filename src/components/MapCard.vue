@@ -15,14 +15,12 @@
 </template>
 
 <script>
-import * as d3nic from 'd3nic'
-
 import MapChart from './MapChart'
 
 import { scaleSequential, scaleLog } from 'd3-scale'
 import { interpolateViridis } from 'd3-scale-chromatic'
 
-import { mapMutations, mapGetters } from 'vuex'
+import { mapGetters } from 'vuex'
 
 const fnScaleLog = scaleLog()
 const fnColor = scaleSequential(d => interpolateViridis(fnScaleLog(d)))
@@ -45,12 +43,21 @@ export default {
   computed: {
     ...mapGetters({
       location: 'getLocation',
+      locations: 'getLocations',
       dateIndex: 'getDateIndex'
     })
   },
   watch: {
     dateIndex (value) {
-      console.log(value)
+      console.log(this.locations.map(l => l.timeseries))
+      const max = this.locations
+        .filter(l => l.timeseries)
+        .map(l => l.timeseries[this.dateIndex].EPI_confirmed_cum)
+      console.log(max)
+
+      // .reduce((max, value) => Math.max(max, value), 1)
+      // fnScaleLog.domain([1, max])
+      console.log(fnScaleLog.domain())
     }
   },
   mounted () {
