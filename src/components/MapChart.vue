@@ -54,7 +54,7 @@ export default {
   watch: {
     hover (value) {
       this.geoRegions.join()
-        .style('fill-opacity', d => d === value ? 0.7 : null)
+        .style('fill-opacity', d => d === value ? 0.5 : null)
     },
     colorMapping (value) {
       this.paintMap()

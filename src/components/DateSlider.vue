@@ -14,14 +14,14 @@
         :max="dates.length - 1"
         step="1"
         tick-size="0"
-        @mouseup="() => updateIndex(privateDateIndex)"
-        @end="updateIndex"
       />
     </v-card-actions>
   </v-card>
 </template>
 
 <script>
+import { debounce } from 'lodash'
+
 import { mapGetters, mapMutations } from 'vuex'
 
 export default {
@@ -40,16 +40,18 @@ export default {
       return this.dates[this.privateDateIndex].toLocaleDateString()
     }
   },
+  watch: {
+    privateDateIndex: debounce(function (value) {
+      this.setDateIndex(value)
+    }, 250)
+  },
   mounted () {
     this.privateDateIndex = this.dateIndex
   },
   methods: {
     ...mapMutations({
       setDateIndex: 'setDateIndex'
-    }),
-    updateIndex (value) {
-      this.setDateIndex(this.privateDateIndex)
-    }
+    })
   }
 }
 </script>

@@ -1,11 +1,27 @@
 <template>
   <v-card class="fill-height">
     <v-card-title ref="title">
-      {{ location !== null ? location.locationName : '- - -' }}
+      <span><i>Epidemic map</i></span>
+      <v-spacer />
+      <span>{{ location !== null ? location.locationName : '- - -' }}</span>
     </v-card-title>
-    <v-card-subtitle ref="subtitle">
-      {{ 'sub' }}
-    </v-card-subtitle>
+    <v-tooltip
+      v-for="lc in legendColors"
+      :key="lc.color"
+      bottom
+    >
+      <template v-slot:activator="{ on }">
+        <v-icon
+          :color="lc.color"
+          small
+          class="pb-2"
+          v-on="on"
+        >
+          mdi-square
+        </v-icon>
+      </template>
+      <span>{{ lc.label }}</span>
+    </v-tooltip>
     <v-card-actions class="pa-0">
       <MapChart
         :size="chartSize"
@@ -19,7 +35,8 @@
 <script>
 import MapChart from './MapChart'
 
-import { scaleSequentialLog } from 'd3-scale'
+import { scaleSequential, scaleLog } from 'd3-scale'
+import { quantize } from 'd3-interpolate'
 import { interpolateInferno } from 'd3-scale-chromatic'
 
 import { mapGetters } from 'vuex'
@@ -56,16 +73,31 @@ export default {
         geometry: l.geometry
       }))
     },
+    fnColor () {
+      const fnScaleLog = scaleLog().domain([1, this.epiConfirmedMax])
+      return scaleSequential(d => interpolateInferno(fnScaleLog(d)))
+    },
+    legendColors () {
+      const fnScaleLog = scaleLog().domain([1, this.epiConfirmedMax])
+      return [
+        { color: '#444', label: 'No data' },
+        ...quantize(interpolateInferno, 10)
+          .map((c, i) => ({
+            color: c,
+            min: i > 0 ? Math.round(fnScaleLog.invert(i / 8)) : 0,
+            max: Math.round(fnScaleLog.invert((i + 1) / 8))
+          }))
+          .map(lc => ({ color: lc.color, label: `${lc.min} - ${lc.max}` }))
+      ]
+    },
     colorMapping () {
-      const fnColor = scaleSequentialLog()
-        .domain([1, this.epiConfirmedMax])
-        .interpolator(interpolateInferno)
-
       return this.locations.reduce((mapping, l) => ({
         ...mapping,
-        [l.locationId]: l.timeseries && +l.timeseries[this.dateIndex].EPI_confirmed_cum > 0
-          ? fnColor(+l.timeseries[this.dateIndex].EPI_confirmed_cum)
-          : 'grey'
+        [l.locationId]: l.timeseries
+          ? +l.timeseries[this.dateIndex].EPI_confirmed_cum > 0
+            ? this.fnColor(+l.timeseries[this.dateIndex].EPI_confirmed_cum)
+            : '#000'
+          : '#444'
       }), {})
     }
   },
