@@ -4,6 +4,7 @@
     width="0"
     height="0"
     :style="{ 'background-color': backgroundColor }"
+    @click="() => onClick(null)"
   >
     <foreignObject
       id="map-chart__hover"
@@ -25,7 +26,7 @@
 <script>
 import * as d3nic from 'd3nic'
 
-import { zoom, zoomIdentity } from 'd3-zoom'
+import { zoom, zoomIdentity, zoomTransform } from 'd3-zoom'
 import { select, event } from 'd3-selection'
 
 import { mapMutations, mapGetters } from 'vuex'
@@ -111,7 +112,7 @@ export default {
 
         this.svg = select('svg#map-chart').call(this.fnZoom)
 
-        this.fnZoom.scaleTo(this.svg, 1)
+        this.fnZoom.scaleTo(this.svg, ZOOM_SCALE_MIN)
       })
     },
     paintMap () {
@@ -122,19 +123,27 @@ export default {
       this.chart.group().attr('transform', event.transform)
     },
     onClick (value) {
+      this.geoRegions.event() &&
       this.geoRegions.event().stopPropagation()
 
-      this.setLocationId(value ? value.locationId : null)
+      const newLocationId = !value ||
+        (this.location && value.locationId === this.location.locationId)
+        ? null
+        : value.locationId
+
+      this.setLocationId(newLocationId)
 
       this.geoRegions.join()
         .style('stroke-width', null)
-        .filter(d => d === value)
+        .filter(d => d.locationId === newLocationId)
         .style('stroke-width', 1)
-        .raise()
 
       const width = this.chart.size().width
       const height = this.chart.size().height
-      const bounds = this.geoRegions.fnGeoPath().bounds(value.geometry)
+      const bounds = newLocationId
+        ? this.geoRegions.fnGeoPath().bounds(value.geometry)
+        : [[0, 0], [width, height]]
+
       const dx = bounds[1][0] - bounds[0][0]
       const dy = bounds[1][1] - bounds[0][1]
       const x = (bounds[0][0] + bounds[1][0]) / 2
@@ -142,10 +151,12 @@ export default {
       const scale = Math.max(ZOOM_SCALE_MIN, Math.min(ZOOM_SCALE_MAX, 0.8 / Math.max(dx / width, dy / height)))
       const translate = [width / 2 - scale * x, height / 2 - scale * y]
 
-      this.svg.transition().duration(750).call(
-        this.fnZoom.transform,
-        zoomIdentity.translate(translate[0], translate[1]).scale(scale)
-      )
+      this.svg.transition()
+        .duration(750)
+        .call(
+          this.fnZoom.transform,
+          zoomIdentity.translate(translate[0], translate[1]).scale(scale)
+        )
     }
   }
 }

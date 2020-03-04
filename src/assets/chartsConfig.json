@@ -9,23 +9,12 @@
         "stacked": true,
         "values": [
           {
-            "id": "EPI_dead_cum",
-            "label": "D",
-            "tooltip": "# Dead cases",
+            "id": "EPI_confirmed_cum",
+            "label": "C",
+            "tooltip": "# Confirmed cases",
             "type": "bxBars",
-            "color": "#80b1d3",
-            "fns": [
-              {
-                "name": "fnLowValue",
-                "type": "scalar",
-                "value": 0
-              },
-              {
-                "name": "fnHighValue",
-                "type": "field",
-                "value": "EPI_dead_cum"
-              }
-            ]
+            "color": "#fb8072",
+            "fns": []
           },
           {
             "id": "EPI_recovered_cum",
@@ -33,38 +22,44 @@
             "tooltip": "# Recovered cases",
             "type": "bxBars",
             "color": "#b3de69",
-            "fns": [
-              {
-                "name": "fnLowValue",
-                "type": "scalar",
-                "value": 0
-              },
-              {
-                "name": "fnHighValue",
-                "type": "field",
-                "value": "EPI_recovered_cum"
-              }
-            ]
+            "fns": []
           },
+
           {
-            "id": "EPI_confirmed_cum",
-            "label": "C",
-            "tooltip": "# Confirmed cases",
+            "id": "EPI_dead_cum",
+            "label": "D",
+            "tooltip": "# Dead cases",
             "type": "bxBars",
-            "color": "#fb8072",
+            "color": "#80b1d3",
+            "fns": []
+          }
+        ]
+      },
+      {
+        "id": "TWI",
+        "label": "Tweets",
+        "type": "bxChart",
+        "stacked": false,
+        "values": [
+          {
+            "id": "TWI_num",
+            "label": "TW",
+            "tooltip": "Number of tweets",
+            "type": "bxBars",
+            "color": "#80b1d3",
             "fns": [
               {
                 "name": "fnLowValue",
-                "type": "scalar",
+                "type": "value",
                 "value": 0
               },
               {
                 "name": "fnHighValue",
                 "type": "field",
-                "value": "EPI_confirmed_cum"
+                "value": "TWI_num"
               }
             ]
-          }   
+          }
         ]
       },
       {
@@ -229,7 +224,7 @@
     "charts": [
       {
         "id": "TWI_num",
-        "label": "Bot/Hum tweets",
+        "label": "Bot/Hum",
         "type": "bxChart",
         "stacked": false,
         "values": [
@@ -288,6 +283,30 @@
                 "value": "TWI_num_verbot"
               }
             ]
+          }
+        ]
+      },
+       {
+        "id": "FAC",
+        "label": "Facts",
+        "type": "bxChart",
+        "stacked": true,
+        "values": [
+          {
+            "id": "FAC_num_unreliable",
+            "label": "UF",
+            "tooltip": "Unreliable facts",
+            "type": "bxBars",
+            "color": "#fb8072",
+            "fns": []
+          },
+          {
+            "id": "FAC_num_reliable",
+            "label": "RF",
+            "tooltip": "Reliable facts",
+            "type": "bxBars",
+            "color": "#b3de69",
+            "fns": []
           }
         ]
       }

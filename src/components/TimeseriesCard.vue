@@ -70,12 +70,12 @@ export default {
         color: v.color,
         label: v.label,
         tooltip: v.tooltip
-      })).reverse()
+      }))
     },
     chartData () {
       if (!this.location || !this.location.timeseries) return []
       if (!this.chartConfig.stacked) { return this.location.timeseries }
-      const keys = this.chartConfig.values.map(v => v.id)
+      const keys = this.chartConfig.values.map(v => v.id).reverse()
       const fnStack = stack().keys(keys)
       const stackedData = fnStack(this.location.timeseries)
       return this.location.timeseries.map((d, i) => ({

@@ -83,8 +83,6 @@ export default {
     draw () {
       // next tick to be sure to receive the size
       this.$nextTick(() => {
-        console.log(this.valueComponents.map(vc => vc.fnsValue().map(f => f.toString())))
-
         this.chart
           .size(this.size)
           .data(this.data)
