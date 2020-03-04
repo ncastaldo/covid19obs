@@ -9,6 +9,7 @@
         :key="bv.id"
         depressed
         height="20"
+        class="px-1 mx-1"
       >
         <v-icon
           small

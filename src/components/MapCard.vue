@@ -23,7 +23,7 @@ import * as d3nic from 'd3nic'
 import { scaleSequential, scaleLog } from 'd3-scale'
 import { interpolateViridis } from 'd3-scale-chromatic'
 import { zoom, zoomIdentity } from 'd3-zoom'
-import { select, selectAll, event, mouse } from 'd3-selection'
+import { select, event } from 'd3-selection'
 
 import { mapMutations, mapGetters } from 'vuex'
 
@@ -101,7 +101,6 @@ export default {
       this.geoRegions = d3nic.geoRegions()
         .fnValue(d => d.geometry)
         .fnFill(d => {
-          console.log(d.timeseries[d.timeseries.length - 4])
           return d.timeseries.length ? fnColor(d.timeseries[d.timeseries.length - 4].EPI_confirmed_cum) : 'grey'
         })
         .fnStroke(d => '#fff')
@@ -123,19 +122,23 @@ export default {
       const currentEvent = this.geoRegions.event()
 
       currentEvent.stopPropagation()
-
-      console.log(currentEvent)
-      console.log(event)
-      console.log(value)
       this.setLocationId(value ? value.locationId : null)
       this.geoRegions.join()
         .style('stroke-width', d => d === value ? 1 : null)
 
-      // event.stopPropagation()
+      const width = this.chart.size().width
+      const height = this.chart.size().height
+      const bounds = this.geoRegions.fnGeoPath().bounds(value.geometry)
+      const dx = bounds[1][0] - bounds[0][0]
+      const dy = bounds[1][1] - bounds[0][1]
+      const x = (bounds[0][0] + bounds[1][0]) / 2
+      const y = (bounds[0][1] + bounds[1][1]) / 2
+      const scale = Math.max(1, Math.min(8, 0.9 / Math.max(dx / width, dy / height)))
+      const translate = [width / 2 - scale * x, height / 2 - scale * y]
+
       this.svg.transition().duration(750).call(
         this.fnZoom.transform,
-        zoomIdentity.translate(40, 50).scale(8).translate(-10, -40),
-        [currentEvent.x, currentEvent.y]
+        zoomIdentity.translate(translate[0], translate[1]).scale(scale)
       )
     }
   }
