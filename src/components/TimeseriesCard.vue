@@ -72,7 +72,9 @@ export default {
       }))
     },
     chartData () {
-      return this.location ? this.location.timeseries : []
+      return this.location && this.location.timeseries
+        ? this.location.timeseries
+        : []
     },
     chartValues () {
       return this.chartConfig.values.map(v => ({

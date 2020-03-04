@@ -29,7 +29,9 @@ import { mapMutations, mapGetters } from 'vuex'
 export default {
   name: 'MapCard',
   props: {
-    size: Object
+    size: Object,
+    data: Array,
+    colorMapping: Object
   },
   data () {
     return {
@@ -46,14 +48,16 @@ export default {
   },
   computed: {
     ...mapGetters({
-      location: 'getLocation',
-      locations: 'getLocations'
+      location: 'getLocation'
     })
   },
   watch: {
     hover (value) {
       this.geoRegions.join()
         .style('fill-opacity', d => d === value ? 0.7 : null)
+    },
+    colorMapping (value) {
+      this.paintMap()
     }
   },
   mounted () {
@@ -68,7 +72,7 @@ export default {
     createComponents () {
       this.geoRegions = d3nic.geoRegions()
         .fnValue(d => d.geometry)
-        .fnFill(d => d.timeseries ? 'purple' : 'grey')
+        .fnFill(d => 'grey')
         .fnStroke(d => '#fff')
         .fnBefore(s => s.style('vector-effect', 'non-scaling-stroke'))
         .fnOn('mouseover', d => { this.hover = d })
@@ -86,8 +90,10 @@ export default {
       this.$nextTick(() => {
         this.chart
           .size(this.size)
-          .data(this.locations)
+          .data(this.data)
           .draw({ duration: 500 })
+
+        this.paintMap()
 
         select('#map-chart__hover').raise()
 
@@ -100,6 +106,10 @@ export default {
 
         this.fnZoom.scaleTo(this.svg, 1)
       })
+    },
+    paintMap () {
+      this.geoRegions.join()
+        .style('fill', d => this.colorMapping[d.locationId])
     },
     onZoom () {
       this.chart.group().attr('transform', event.transform)

@@ -5,6 +5,7 @@
     </div>
     <v-card-actions>
       <v-slider
+        v-model="privateDateIndex"
         class="ma-0"
         :tick-labels="dates"
         min="0"
@@ -13,8 +14,8 @@
         :max="dates.length - 1"
         step="1"
         tick-size="0"
-        @end="onEnd"
-        @input="onInput"
+        @mouseup="() => updateIndex(privateDateIndex)"
+        @end="updateIndex"
       />
     </v-card-actions>
   </v-card>
@@ -39,20 +40,15 @@ export default {
       return this.dates[this.privateDateIndex].toLocaleDateString()
     }
   },
-  watch: {
-    dateIndex (value) {
-      this.privateDateIndex = value
-    }
+  mounted () {
+    this.privateDateIndex = this.dateIndex
   },
   methods: {
     ...mapMutations({
       setDateIndex: 'setDateIndex'
     }),
-    onInput (value) {
-      this.privateDateIndex = value
-    },
-    onEnd (value) {
-      this.setDateIndex(value)
+    updateIndex (value) {
+      this.setDateIndex(this.privateDateIndex)
     }
   }
 }

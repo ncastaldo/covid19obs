@@ -80,7 +80,6 @@ export default {
     draw () {
       // next tick to be sure to receive the size
       this.$nextTick(() => {
-        console.log(this.values)
         this.chart
           .size(this.size)
           .data(this.data)

@@ -6,7 +6,8 @@
       </v-toolbar>
       <v-row style="height: 600px">
         <v-col
-          cols="6"
+          md="6"
+          xs="12"
         >
           <v-row
             class="fill-height flex-column"
@@ -21,7 +22,9 @@
           </v-row>
         </v-col>
         <v-col
-          cols="6"
+
+          md="6"
+          xs="12"
         >
           <v-row
             v-if="true"

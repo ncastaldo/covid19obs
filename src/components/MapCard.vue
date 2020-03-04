@@ -4,11 +4,13 @@
       {{ location !== null ? location.locationName : '- - -' }}
     </v-card-title>
     <v-card-subtitle ref="subtitle">
-      {{ hover!== null ? hover.locationName : '- - -' }}
+      {{ 'sub' }}
     </v-card-subtitle>
     <v-card-actions class="pa-0">
       <MapChart
         :size="chartSize"
+        :data="chartData"
+        :colorMapping="colorMapping"
       />
     </v-card-actions>
   </v-card>
@@ -17,13 +19,10 @@
 <script>
 import MapChart from './MapChart'
 
-import { scaleSequential, scaleLog } from 'd3-scale'
-import { interpolateViridis } from 'd3-scale-chromatic'
+import { scaleSequentialLog } from 'd3-scale'
+import { interpolateInferno } from 'd3-scale-chromatic'
 
 import { mapGetters } from 'vuex'
-
-const fnScaleLog = scaleLog()
-const fnColor = scaleSequential(d => interpolateViridis(fnScaleLog(d)))
 
 export default {
   name: 'MapCard',
@@ -35,9 +34,7 @@ export default {
   },
   data () {
     return {
-      chartSize: null,
-      hover: null
-      // color scales
+      chartSize: null
     }
   },
   computed: {
@@ -45,19 +42,31 @@ export default {
       location: 'getLocation',
       locations: 'getLocations',
       dateIndex: 'getDateIndex'
-    })
-  },
-  watch: {
-    dateIndex (value) {
-      console.log(this.locations.map(l => l.timeseries))
-      const max = this.locations
+    }),
+    epiConfirmedMax () {
+      return this.locations
         .filter(l => l.timeseries)
-        .map(l => l.timeseries[this.dateIndex].EPI_confirmed_cum)
-      console.log(max)
+        .map(l => +l.timeseries[this.dateIndex].EPI_confirmed_cum)
+        .reduce((max, value) => Math.max(max, value), 1)
+    },
+    chartData () { // computed just once
+      return this.locations.map(l => ({
+        locationId: l.locationId,
+        locationName: l.locationName,
+        geometry: l.geometry
+      }))
+    },
+    colorMapping () {
+      const fnColor = scaleSequentialLog()
+        .domain([1, this.epiConfirmedMax])
+        .interpolator(interpolateInferno)
 
-      // .reduce((max, value) => Math.max(max, value), 1)
-      // fnScaleLog.domain([1, max])
-      console.log(fnScaleLog.domain())
+      return this.locations.reduce((mapping, l) => ({
+        ...mapping,
+        [l.locationId]: l.timeseries && +l.timeseries[this.dateIndex].EPI_confirmed_cum > 0
+          ? fnColor(+l.timeseries[this.dateIndex].EPI_confirmed_cum)
+          : 'grey'
+      }), {})
     }
   },
   mounted () {
