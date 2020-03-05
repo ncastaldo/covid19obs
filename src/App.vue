@@ -4,7 +4,7 @@
   >
     <Header />
     <Content v-if="storeReady" />
-    <!--TimeChart /-->
+    <Footer />
   </v-app>
 </template>
 
@@ -13,13 +13,14 @@ import { mapGetters } from 'vuex'
 
 import Header from './components/Header'
 import Content from './components/Content'
+import Footer from './components/Footer'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Content
-    // TimeChart
+    Content,
+    Footer
   },
   computed: {
     ...mapGetters({

@@ -1,19 +1,24 @@
 <template>
   <v-card>
     <v-card-title>
-      <b>Description</b>
+      {{ descriptionConfig.title }}
     </v-card-title>
+    <v-divider />
     <v-card-text class="text-left">
-      <p>
-        Nel mezzo del cammin di nostra vita mi ritrovai per una selva oscura, ché la diritta via era smarrita. Ahi quanto a dir qual era è cosa dura esta selva selvaggia e aspra e forte che nel pensier rinova la paura! Tant' è amara che poco è più morte; ma per trattar del ben ch'i' vi trovai, dirò de l'altre cose ch'i' v'ho scorte. Io non so ben ridir com' i' v'intrai, tant' era pien di sonno a quel punto che la verace via abbandonai. Ma poi ch'i' fui al piè d'un colle giunto, là dove terminava quella valle che m'avea di paura il cor compunto, guardai in alto e vidi le sue spalle vestite già de' raggi del pianeta che mena dritto altrui per ogne calle. Allor fu la paura un poco queta, che nel lago del cor m'era durata la notte ch'i' passai con tanta pieta. E come quei che con lena affannata, uscito fuor del pelago a la riva, si volge a l'acqua perigliosa e guata, così l'animo mio, ch'ancor fuggiva, si volse a retro a rimirar lo passo che non lasciò già mai persona viva. Poi ch'èi posato un poco il corpo lasso, ripresi via per la piaggia diserta, sì che 'l piè fermo sempre era 'l più basso.
-      </p>
+      {{ descriptionConfig.text }}
     </v-card-text>
   </v-card>
 </template>
 
 <script>
-export default {
+import descriptionConfig from '../assets/description.json'
 
+export default {
+  data () {
+    return {
+      descriptionConfig
+    }
+  }
 }
 </script>
 

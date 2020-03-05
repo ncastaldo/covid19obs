@@ -1,0 +1,45 @@
+{ 
+  "title": "Team and contacts",
+  "contacts": [
+    { 
+      "id": "MDD",
+      "name": "Manlio De Domenico",
+      "role": "Head of Research Unit",
+      "description": "Principal Investigator, CoMuNe Lab, FBK",
+      "links": {
+        "home": "https://comunelab.fbk.eu/manlio/index.php",
+        "email": "mailto:mdedomenico@fbk.eu"
+      }
+    },
+    { 
+      "id": "RG",
+      "name": "Riccardo Gallotti",
+      "role": "Senior Researcher",
+      "description": "CoMuNe Lab, FBK",
+      "links": {}
+    },
+    { 
+      "id": "PS",
+      "name": "Pierluigi Sacco",
+      "role": "Professor of Cultural Economics",
+      "description": "IULM/Harvard",
+      "links": {}
+    },
+    { 
+      "id": "NC",
+      "name": "Nicola Castaldo",
+      "role": "Technologist",
+      "description": "CoMuNe Lab, FBK",
+      "links": {
+        "github": "https://github.com/ncastaldo"
+      }
+    },
+    { 
+      "id": "FV",
+      "name": "Francesco Valle",
+      "role": "Junior Researcher",
+      "description": "CoMuNe Lab, FBK",
+      "links": {}
+    }
+  ]
+}

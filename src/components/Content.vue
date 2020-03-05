@@ -4,7 +4,7 @@
       <v-toolbar ref="toolbar">
         Things...
       </v-toolbar>
-      <v-row style="min-height: 100vh">
+      <v-row style="min-height: 600px">
         <v-col
           md="6"
           xs="12"
@@ -44,7 +44,7 @@
                   <v-tabs
                     v-model="tabs[i]"
                     height="30"
-                    fixed-tabs
+                    show-arrows
                   >
                     <v-tab
                       v-for="chart in section.charts"
@@ -67,12 +67,14 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col>
+        <v-col cols="12">
           <DescriptionCard />
+        </v-col>
+        <v-col cols="12">
+          <ContactsCard />
         </v-col>
       </v-row>
     </v-container>
-    <v-content />
   </v-content>
 </template>
 
@@ -83,6 +85,7 @@ import MapCard from './MapCard'
 
 import TimeseriesCard from './TimeseriesCard'
 import DescriptionCard from './DescriptionCard'
+import ContactsCard from './ContactsCard'
 
 import chartsConfig from '../assets/chartsConfig.json'
 
@@ -93,7 +96,8 @@ export default {
     DateSlider,
     MapCard,
     TimeseriesCard,
-    DescriptionCard
+    DescriptionCard,
+    ContactsCard
   },
   data () {
     return {

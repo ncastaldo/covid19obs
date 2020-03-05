@@ -91,7 +91,7 @@
     "charts": [
       {
         "id": "EMO_VAD",
-        "label": "Circumplex",
+        "label": "Emotional",
         "type": "bxChart",
         "stacked": false,
         "values": [
@@ -141,7 +141,7 @@
       },
       {
         "id": "EMO_Big5",
-        "label": "Big Five",
+        "label": "Personality Traits",
         "type": "bxChart",
         "stacked": false,
         "values": [
@@ -224,7 +224,7 @@
     "charts": [
       {
         "id": "TWI_num",
-        "label": "Bot/Hum",
+        "label": "Social Bots/Humans",
         "type": "bxChart",
         "stacked": false,
         "values": [
@@ -288,7 +288,7 @@
       },
        {
         "id": "FAC",
-        "label": "Facts",
+        "label": "News Reliability",
         "type": "bxChart",
         "stacked": true,
         "values": [

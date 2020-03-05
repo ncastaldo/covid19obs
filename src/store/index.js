@@ -71,6 +71,7 @@ const actions = {
           commit('setLocationTimeseries', { locationId: location.locationId, timeseries })
           if (!getters.getDates.length) {
             commit('setDates', timeseries.map(ts => utcDay(new Date(ts.date))))
+            commit('setDateIndex', timeseries.length - 1)
           }
         } else {
           console.log(`No infodemic data for ${location.locationId}`)

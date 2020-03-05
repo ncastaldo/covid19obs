@@ -4,17 +4,34 @@
     hide-on-scroll
   >
     <v-container>
-      <v-toolbar-title
-        class="ml-4 mr-8 font-weight-bold"
-      >
-        CoMuNe Lab - Coronavirus
-      </v-toolbar-title>
+      <v-row>
+        <v-row>
+          <v-img
+            class="mx-4"
+            :src="imgSrc"
+            max-height="100"
+            max-width="100"
+            contain
+          />
+          <v-toolbar-title
+            class="ml-4 text-left font-weight-bold"
+          >
+            COVID19 Digital Observatory
+          </v-toolbar-title>
+        </v-row>
+      </v-row>
     </v-container>
   </v-app-bar>
 </template>
 
 <script>
+
 export default {
-  name: 'Header'
+  name: 'Header',
+  data () {
+    return {
+      imgSrc: require('../assets/img/CoMuNe_lab_Bianco.png')
+    }
+  }
 }
 </script>
