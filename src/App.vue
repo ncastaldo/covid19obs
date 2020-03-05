@@ -4,7 +4,7 @@
   >
     <Header />
     <Content v-if="storeReady" />
-    <Footer />
+    <Footer v-if="storeReady" />
   </v-app>
 </template>
 

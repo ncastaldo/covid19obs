@@ -5,6 +5,7 @@
       {
         "id": "EPI",
         "label": "Epidemic",
+        "tooltip": "Description for this chart",
         "type": "bxChart",
         "stacked": true,
         "values": [
@@ -38,6 +39,7 @@
       {
         "id": "TWI",
         "label": "Tweets",
+        "tooltip": "Description for this chart",
         "type": "bxChart",
         "stacked": false,
         "values": [
@@ -65,6 +67,7 @@
       {
         "id": "ECO",
         "label": "Economy",
+        "tooltip": "Description for this chart",
         "type": "bxChart",
         "stacked": false,
         "values": [
@@ -92,6 +95,7 @@
       {
         "id": "EMO_VAD",
         "label": "Emotional",
+        "tooltip": "State-of-the-art emotional analysis is based on the V-A-D (Valence-Arousal-Dominance) decomposition. Valence deals with pleasure, Arousal deals with emotional intensity, Dominance deals with the sense of control, in response to stimuli.",
         "type": "bxChart",
         "stacked": false,
         "values": [
@@ -142,6 +146,7 @@
       {
         "id": "EMO_Big5",
         "label": "Personality Traits",
+        "tooltip": "State-of-the-art classification of personality traits is based on Big5 (O-C-E-A-N), identifying 5 fundamental units: Openness, Conscentiousness, Extraversion, Agreableness and Neuroticism.",
         "type": "bxChart",
         "stacked": false,
         "values": [
@@ -225,13 +230,14 @@
       {
         "id": "TWI_num",
         "label": "Social Bots/Humans",
+        "tooltip": "Description for this chart",
         "type": "bxChart",
         "stacked": false,
         "values": [
           {
             "id": "TWI_num_unvhum",
             "label": "UH",
-            "tooltip": "Nel mezzo del cammin di nostra vita mi ritrovai per una selva oscura, ché la diritta via era smarrita. Ahi quanto a dir qual era è cosa dura esta selva selvaggia e aspra e forte che nel pensier rinova la paura! Tant' è amara che poco è più morte; ma per trattar del ben c",
+            "tooltip": "Unverified Humans",
             "type": "bxLine",
             "color": "lightgreen",
             "fns": [

@@ -1,9 +1,11 @@
 <template>
   <v-content>
     <v-container>
-      <v-toolbar ref="toolbar">
-        Things...
-      </v-toolbar>
+      <v-row>
+        <v-col class="py-0">
+          <ToolbarCard />
+        </v-col>
+      </v-row>
       <v-row style="min-height: 600px">
         <v-col
           md="6"
@@ -32,7 +34,7 @@
             no-gutters
           >
             <v-col
-              v-for="(section, i) in chartsConfig"
+              v-for="(section, i) in timeseriesConfig"
               :key="section.id"
               :class="`fill-height flex-column ${i!==0 ? 'mt-4' : ''}`"
             >
@@ -71,6 +73,9 @@
           <DescriptionCard />
         </v-col>
         <v-col cols="12">
+          <DataSourcesCard />
+        </v-col>
+        <v-col cols="12">
           <ContactsCard />
         </v-col>
       </v-row>
@@ -83,25 +88,29 @@
 import DateSlider from './DateSlider'
 import MapCard from './MapCard'
 
+import ToolbarCard from './ToolbarCard'
 import TimeseriesCard from './TimeseriesCard'
 import DescriptionCard from './DescriptionCard'
 import ContactsCard from './ContactsCard'
+import DataSourcesCard from './DataSourcesCard'
 
-import chartsConfig from '../assets/chartsConfig.json'
+import timeseriesConfig from '../assets/timeseries.json'
 
-const tabs = chartsConfig.map((_, i) => 0)
+const tabs = timeseriesConfig.map((_, i) => 0)
 
 export default {
   components: {
+    ToolbarCard,
     DateSlider,
     MapCard,
     TimeseriesCard,
     DescriptionCard,
+    DataSourcesCard,
     ContactsCard
   },
   data () {
     return {
-      chartsConfig,
+      timeseriesConfig,
       mapContainerSize: null,
       tabs
     }

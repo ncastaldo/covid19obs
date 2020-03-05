@@ -17,7 +17,7 @@
             flat
             class="text-left"
           >
-            <v-card-title>
+            <v-card-title class="title">
               {{ c.name }}
             </v-card-title>
             <v-card-subtitle class="pb-1">

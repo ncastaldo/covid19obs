@@ -2,9 +2,12 @@
   <v-card>
     <v-card-subtitle
       ref="subtitle"
-      class=""
+      class="py-1"
     >
-      <v-tooltip bottom>
+      <v-tooltip
+        bottom
+        max-width="300"
+      >
         <template
           v-slot:activator="{ on }"
         >
@@ -14,12 +17,16 @@
             icon
             v-on="on"
           >
-            <v-icon>
+            <v-icon size="20">
               mdi-information-outline
             </v-icon>
           </v-btn>
         </template>
-        <span>descrizione qui</span>
+        <p
+          class="text-left"
+        >
+          {{ chartConfig.tooltip }}
+        </p>
       </v-tooltip>
       <v-tooltip
         v-for="bv in btnValues"
@@ -29,7 +36,9 @@
         <template v-slot:activator="{ on }">
           <v-btn
             depressed
-            class="px-0 mx-1"
+            height="20"
+            class="px-0 mx-0"
+            tile=""
             v-on="on"
           >
             <v-icon

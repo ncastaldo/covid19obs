@@ -1,11 +1,11 @@
 <template>
   <v-card>
     <v-card-title>
-      {{ descriptionConfig.title }}
+      {{ dataSourcesConfig.title }}
     </v-card-title>
     <v-divider />
     <v-card
-      v-for="(p,i) in descriptionConfig.paragraphs"
+      v-for="(p,i) in dataSourcesConfig.paragraphs"
       :key="i"
       flat
       class="text-left pb-0"
@@ -22,12 +22,12 @@
 </template>
 
 <script>
-import descriptionConfig from '../assets/description.json'
+import dataSourcesConfig from '../assets/dataSources.json'
 
 export default {
   data () {
     return {
-      descriptionConfig
+      dataSourcesConfig
     }
   }
 }
