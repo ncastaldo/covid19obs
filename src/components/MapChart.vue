@@ -26,7 +26,7 @@
 <script>
 import * as d3nic from 'd3nic'
 
-import { zoom, zoomIdentity, zoomTransform } from 'd3-zoom'
+import { zoom, zoomIdentity } from 'd3-zoom'
 import { select, event } from 'd3-selection'
 
 import { mapMutations, mapGetters } from 'vuex'
