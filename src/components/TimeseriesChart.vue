@@ -1,13 +1,51 @@
 <template>
-  <svg
-    :id="id"
-    width="0"
-    height="0"
-  />
+  <div
+    class="pa-0 ma-0 fill-height"
+  >
+    <svg
+      :id="id"
+      width="0"
+      height="0"
+    />
+    <v-tooltip
+      v-model="isHover"
+      transition="none"
+      absolute
+      :position-x="xTooltip"
+      :position-y="yTooltip"
+      top
+    >
+      <div
+        v-if="hover"
+        class="text-left"
+      >
+        <div>{{ hover.date }}</div>
+        <div
+          v-for="(hv, i) in hover.values"
+          :key="i"
+        >
+          <span>
+            <v-icon
+              x-small
+              :color="hv.color"
+              class="pr-1 pb-1"
+            >
+              mdi-square
+            </v-icon>
+            {{ hv.label }}
+          </span>
+          {{ hv.value }}
+        </div>
+      </div>
+    </v-tooltip>
+  </div>
 </template>
 
 <script>
 import * as d3nic from 'd3nic'
+import * as _ from 'lodash'
+
+import { select } from 'd3-selection'
 
 import { format } from 'd3-format'
 
@@ -21,7 +59,18 @@ export default {
   data () {
     return {
       chart: null,
-      axes: null
+      axes: null,
+      mouseBars: null,
+
+      svg: null,
+      topPadding: 10,
+
+      hover: null,
+
+      xTooltip: null,
+      yTooltip: null,
+
+      countMouseOver: 0
     }
   },
   computed: {
@@ -36,12 +85,16 @@ export default {
             .fnFill(v.color)
             .fnStrokeWidth(0)
       )
+    },
+    isHover () {
+      return this.hover !== null
     }
   },
   watch: {
     values () {
       this.clear()
       this.createAxes()
+      this.createMouseBars()
       this.createChart()
       this.draw()
     },
@@ -51,6 +104,7 @@ export default {
   },
   mounted () {
     this.createAxes()
+    this.createMouseBars()
     this.createChart()
     this.draw()
   },
@@ -71,14 +125,21 @@ export default {
           .fnBefore(s => s.classed('axis', true))
       ]
     },
+    createMouseBars () {
+      this.mouseBars = d3nic.bxMouseBars()
+        .fnOn('mouseover', this.onMouseover)
+        .fnOn('mouseout', this.onMouseout)
+    },
     createChart () {
       this.chart = d3nic.bxChart()
         .selector(`#${this.id}`)
-        .padding({ left: 45, right: 20, top: 10, bottom: 30 })
+        .padding({ left: 45, right: 20, top: this.topPadding, bottom: 30 })
         .fnKey(d => new Date(d.date))
         .fnBandValue(d => d.date)
       // do not use spread for proxy: they would vanish, use concat instead
-        .components(this.axes.concat(this.valueComponents))
+        .components(
+          this.axes.concat(this.valueComponents).concat([this.mouseBars])
+        )
     },
     draw () {
       // next tick to be sure to receive the size
@@ -87,11 +148,38 @@ export default {
           .size(this.size)
           .data(this.data)
           .draw({ duration: 500 })
+
+        this.svg = select(`#${this.id}`).node()
       })
     },
     clear () {
       this.chart.group().remove()
-    }
+    },
+    onMouseover (d, i, nodes) {
+      const top = this.svg.getBoundingClientRect().top + this.topPadding
+      const event = this.mouseBars.event()
+      this.xTooltip = event.x
+      this.yTooltip = top
+      this.hover = {
+        date: d.date,
+        values: this.values.map(v => ({
+          label: `${v.label}:`,
+          value: d[v.id],
+          color: v.color
+        }))
+          .sort((a, b) => b.value - a.value)
+      }
+      this.countMouseOver += 1
+    },
+    onMouseout (state) {
+      this.countMouseOver -= 1
+      this.debounceMouseOut()
+    },
+    debounceMouseOut: _.debounce(function () {
+      if (this.countMouseOver === 0) {
+        this.hover = null
+      }
+    }, 1)
   }
 
 }

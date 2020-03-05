@@ -1,26 +1,32 @@
 <template>
-  <svg
-    id="map-chart"
-    width="0"
-    height="0"
-    :style="{ 'background-color': backgroundColor }"
-    @click="() => onClick(null)"
+  <v-card
+    flat
+    class="pa-0 ma-0 fill-height"
+    style="min-height: 240px"
   >
-    <foreignObject
-      id="map-chart__hover"
-      x="0"
-      y="20"
-      :width="size ? size.width : 0"
-      :height="size ? size.height : 0"
-      style="pointer-events: none;"
+    <svg
+      id="map-chart"
+      width="0"
+      height="0"
+      :style="{ 'background-color': backgroundColor }"
+      @click="() => onClick(null)"
     >
-      <span
-        v-if="hover"
-        class="px-2 pt-4 pb-0"
-        style="background-color: rgba(0,0,0,0.4)"
-      >{{ hover.locationName }}</span>
-    </foreignObject>
-  </svg>
+      <foreignObject
+        id="map-chart__hover"
+        x="0"
+        y="20"
+        :width="size ? size.width : 0"
+        :height="size ? size.height : 0"
+        style="pointer-events: none;"
+      >
+        <span
+          v-if="hover"
+          class="px-2 pt-4 pb-0"
+          style="background-color: rgba(0,0,0,0.4)"
+        >{{ hover.locationName }}</span>
+      </foreignObject>
+    </svg>
+  </v-card>
 </template>
 
 <script>

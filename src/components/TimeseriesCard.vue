@@ -22,11 +22,11 @@
             </v-icon>
           </v-btn>
         </template>
-        <p
+        <div
           class="text-left"
         >
           {{ chartConfig.tooltip }}
-        </p>
+        </div>
       </v-tooltip>
       <v-tooltip
         v-for="bv in btnValues"
@@ -37,13 +37,13 @@
           <v-btn
             depressed
             height="20"
-            class="px-0 mx-0"
+            class="px-0 mx-0 "
             tile=""
             v-on="on"
           >
             <v-icon
               x-small
-              left
+              class="pr-1"
               :color="bv.color"
             >
               mdi-square

@@ -6,22 +6,22 @@
     },
     { 
       "id": "PCT_HUM",
-      "name": "%Human Tweets",
-      "value": 0.77
+      "name": "%Human",
+      "value": "77%"
     },
     { 
       "id": "PCT_BOT",
-      "name": "%Bot Tweets",
-      "value": 0.23
+      "name": "%Bot",
+      "value": "23%"
     },
     { 
       "id": "PCT_FACTS_REL",
       "name": "%Reliable News",
-      "value": 0.87
+      "value": "87%"
     },
     { 
       "id": "PCT_FACTS_UN",
       "name": "%Unreliable News",
-      "value": 0.13
+      "value": "13%"
     }
   ]
