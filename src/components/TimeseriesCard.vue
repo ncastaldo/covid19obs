@@ -4,6 +4,23 @@
       ref="subtitle"
       class=""
     >
+      <v-tooltip bottom>
+        <template
+          v-slot:activator="{ on }"
+        >
+          <v-btn
+            depressed
+            class="px-0 mr-2"
+            icon
+            v-on="on"
+          >
+            <v-icon>
+              mdi-information-outline
+            </v-icon>
+          </v-btn>
+        </template>
+        <span>descrizione qui</span>
+      </v-tooltip>
       <v-tooltip
         v-for="bv in btnValues"
         :key="bv.id"
@@ -12,8 +29,7 @@
         <template v-slot:activator="{ on }">
           <v-btn
             depressed
-            height="20"
-            class="px-1 mx-1"
+            class="px-0 mx-1"
             v-on="on"
           >
             <v-icon
@@ -115,6 +131,6 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>

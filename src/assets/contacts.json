@@ -4,10 +4,10 @@
     { 
       "id": "MDD",
       "name": "Manlio De Domenico",
-      "role": "Head of Research Unit",
-      "description": "Principal Investigator, CoMuNe Lab, FBK",
+      "role": "Principal Investigator",
+      "description": "Head of CoMuNe Lab, FBK",
       "links": {
-        "home": "https://comunelab.fbk.eu/manlio/index.php",
+        "home": "https://comunelab.fbk.eu",
         "email": "mailto:mdedomenico@fbk.eu"
       }
     },

@@ -28,7 +28,7 @@
       <v-divider />
 
       <v-card-text class="white--text">
-        Copyright?
+        Copyright @ 2020 - All right reserved, CoMuNe Lab, FBK
       </v-card-text>
     </v-card>
   </v-footer>
