@@ -8,14 +8,21 @@
       class="text-center"
     >
       <v-card-text>
-        <v-img
-          v-for="logo in logos"
-          :key="logo.id"
-          max-height="30"
-          max-width="120"
-          :href="logo.link"
-          :src="logo.src"
-        />
+        <v-row
+          align="center"
+          justify="center"
+        >
+          <v-img
+            v-for="logo in logos"
+            :key="logo.id"
+            contain
+            max-height="50"
+            max-width="120"
+            class="mx-2"
+            :href="logo.link"
+            :src="logo.src"
+          />
+        </v-row>
       </v-card-text>
 
       <v-divider />
@@ -31,8 +38,23 @@
 const logos = [
   {
     id: 'FBK',
-    src: require('../assets/img/logo-fbk_transp.svg'),
+    src: require('../assets/img/fbk.svg'),
     link: 'https://fbk.eu'
+  },
+  {
+    id: 'COMUNE_LAB',
+    src: require('../assets/img/CoMuNe_lab_Bianco.png'),
+    link: 'https://comunelab.fbk.eu'
+  },
+  {
+    id: 'HARVARD',
+    src: require('../assets/img/harvard.svg'),
+    link: 'https://www.harvard.edu/'
+  },
+  {
+    id: 'IULM',
+    src: require('../assets/img/iulm.png'),
+    link: 'https://www.iulm.it/'
   }
 ]
 
