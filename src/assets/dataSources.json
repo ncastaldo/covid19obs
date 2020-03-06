@@ -1,13 +1,17 @@
 { 
-  "title": "Data sources",
+  "title": "Data Sources",
   "paragraphs": [
     {
-      "title": "Twitter",
-      "html": "<p>Twitter is the new Facebook</p>" 
+      "title": "Infodemics Data",
+      "html": "Public posts on Twitter, analyzed with state-of-the-art machine learning techniques for: <b>(1)</b> <b>population emotional state</b> (circumplex and OCEAN psychological decomposition); <b>(2)</b> <b>bot/human classification</b>; <b>(3)</b> <b>news reliability</b>." 
     },
     {
-      "title": "FValleCompany",
-      "html": "<p>Francesco Valle the statistician</p>" 
+      "title": "Other Data",
+      "html": "<ul><li><b>Epidemics</b>: publicly available <a href='https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6'>data repository</a> operated by the Johns Hopkins University Center for Systems Science and Engineering, based on data fusion from different sources, including WHO, CDC, ECDC, NHC and DXY. </li><li><b>Financial</b>: TODO</li></ul>" 
+    },
+    {
+      "title": "License",
+      "html": "All rights for the content of this website, including data, maps, analysis and charts ('Research') are reserved, where not explicitly stated otherwise. The Research is made public for educational and academic research purposes. The Research rely upon publicly available data from multiple sources (see the list above), that might not always agree or might not be updated to the last available event. The Research can be used under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>CC BY-NC-SA license</a>. FBK makes no representations about the suitability, use, or performance of this database or about any content or information made accessible via the Research, for any purpose. The Research is provided 'as is', without express or implied warranties including, but not limited to, any implied warranties of accuracy, merchantability, fitness for a particular purpose, or noninfringement. Reliance on the Research for any medical, policy and decision guidance or use of the Research in commerce is strictly prohibited." 
     }
   ] 
 }

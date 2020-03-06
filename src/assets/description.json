@@ -2,12 +2,12 @@
   "title": "Description",
   "paragraphs": [
     {
-      "title": "Epidemic Data",
-      "html": "<p>The data has beeen collected by <b>CoMuNe Lab</b> ecc.</p>" 
+      "title": "Infodemics",
+      "html": "The outbreak due to <a href='https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2'>SARS-CoV-2</a> hit 85 countries worldwide. According to WHO (<a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports'>Situation report 13</a>, 2 Feb 2020), <i>the 2019-nCoV outbreak and response has been accompanied by a massive ‘infodemic’ - an over-abundance of information – some accurate and some not – that makes it hard for people to find trustworthy sources and reliable guidance when they need it.</i><br>The <a href='https://comunelab.fbk.eu/'>Complex Multilayer Networks (CoMuNe) Lab</a>, <a href='https://www.fbk.eu/en/'>FBK</a>’s Research Unit for the analysis of Complex Systems in response to “shocks”, in collaboration with the <a href='https://cyber.harvard.edu/'>Harvard’s Berkman Center for Internet & Society</a> and <a href='https://www.iulm.it/en/home'>IULM University of Milan</a, reports the analysis of massive human activity in the online social platform <a href='https://twitter.com/home'>Twitter</a>." 
     },
     {
-      "title": "Infodemic Data",
-      "html": "<p><i>Becmap</i> rocks!</p>" 
+      "title": "Analysis",
+      "html": "About 100M public messages have been collected and analyzed to understand the digital response in online social media to <a href='https://en.wikipedia.org/wiki/Coronavirus_disease_2019'>COVID-19</a> outbreak. Specifically, we used machine learning techniques to quantify: <ul><li><b>COLLECTIVE SENTIMENT & PSYCHOLOGY:</b>lexicon-based and rule-based emotional and psychological state</li><li><b>SOCIAL BOT POLLUTION:</b>The fraction oc activities due to social bots and the exposure of the Twitterverse to unreliable news</li><li><b>NEWS RELIABILITY:</b> the fraction of URLs pointing to reliable news and scientific sources</li></ul>" 
     }
   ] 
 }

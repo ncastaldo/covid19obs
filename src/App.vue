@@ -31,15 +31,21 @@ export default {
 </script>
 
 <style>
-.axis {
-  font-size: 14px
-}
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+}
+
+.axis {
+  font-size: 14px
+}
+
+.v-tooltip__content {
+  background: rgba(97, 97, 97, 1) !important;
+  opacity: 1 !important
 }
 
 </style>

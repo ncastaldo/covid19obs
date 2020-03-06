@@ -86,6 +86,15 @@ export default {
             .fnStrokeWidth(0)
       )
     },
+    circles () {
+      return this.values.filter(v => v.type === 'bxLine')
+        .map(v => d3nic.bxCircles()
+          .fnDefined(d => d[v.id].length)
+          .fnValue(d => d[v.id])
+          .fnFill(v.color)
+          .fnOpacity(0)
+          .fnRadius(4))
+    },
     isHover () {
       return this.hover !== null
     }
@@ -100,6 +109,15 @@ export default {
     },
     data () {
       this.draw()
+    },
+    hover (value) {
+      this.circles.map(c =>
+        c.join().style('opacity', d => value && value.date === d.date ? 1 : null)
+      )
+      this.values.map((v, i) => // awful but works
+        v.type === 'bxBars' &&
+        this.valueComponents[i].join().style('opacity', d => value && value.date === d.date ? 0.8 : null)
+      )
     }
   },
   mounted () {
@@ -133,12 +151,14 @@ export default {
     createChart () {
       this.chart = d3nic.bxChart()
         .selector(`#${this.id}`)
-        .padding({ left: 45, right: 20, top: this.topPadding, bottom: 30 })
+        .padding({ left: 50, right: 20, top: this.topPadding, bottom: 30 })
         .fnKey(d => new Date(d.date))
         .fnBandValue(d => d.date)
       // do not use spread for proxy: they would vanish, use concat instead
         .components(
-          this.axes.concat(this.valueComponents).concat([this.mouseBars])
+          this.axes.concat(this.valueComponents)
+            .concat(this.circles)
+            .concat([this.mouseBars])
         )
     },
     draw () {
