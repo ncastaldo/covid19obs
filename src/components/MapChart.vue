@@ -2,10 +2,10 @@
   <v-card
     flat
     class="pa-0 ma-0 fill-height"
-    style="min-height: 240px"
   >
     <svg
       id="map-chart"
+      style="min-height: 240px"
       width="0"
       height="0"
       :style="{ 'background-color': backgroundColor }"

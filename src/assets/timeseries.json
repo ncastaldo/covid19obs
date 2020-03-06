@@ -311,7 +311,7 @@
       },
        {
         "id": "FAC",
-        "label": "News Reliability",
+        "label": "Reliability",
         "type": "bxChart",
         "tooltip": "Analysis of URLs present in tweets to determine if they are trustworthy (e.g., mainstream media, recognized scientific institutions and magazines) or not (fake news/hoax, satire, clickbait, etc.).",
         "yFormat": ".1s",
@@ -330,6 +330,33 @@
             "id": "FAC_num_reliable",
             "label": "RF",
             "tooltip": "Reliable facts",
+            "type": "bxBars",
+            "color": "#b3de69",
+            "fns": []
+          }
+        ]
+      },
+      {
+        "id": "EXP",
+        "label": "Exposure",
+        "type": "bxChart",
+        "tooltip": "Analysis of potential number of users exposed to trustworthy (or not) URLs present in tweets.",
+        "yFormat": ".1s",
+        "valueFormat": ".0f",
+        "stacked": true,
+        "values": [
+          {
+            "id": "FAC_fol_unreliable",
+            "label": "EUF",
+            "tooltip": "Exposure of Unreliable facts",
+            "type": "bxBars",
+            "color": "#fb8072",
+            "fns": []
+          },
+          {
+            "id": "FAC_fol_reliable",
+            "label": "ERF",
+            "tooltip": "Exposure of Reliable facts",
             "type": "bxBars",
             "color": "#b3de69",
             "fns": []

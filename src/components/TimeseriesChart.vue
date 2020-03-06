@@ -4,6 +4,7 @@
   >
     <svg
       :id="id"
+      style="min-height: 60px"
       width="0"
       height="0"
     />
@@ -46,8 +47,15 @@ import * as d3nic from 'd3nic'
 import * as _ from 'lodash'
 
 import { select } from 'd3-selection'
+import { scaleLinear, scaleLog, scaleSymlog } from 'd3-scale'
 
 import { format } from 'd3-format'
+
+const scaleTypes = {
+  scaleLinear: scaleLinear(),
+  scaleLog: scaleLog(),
+  scaleSymlog: scaleSymlog()
+}
 
 export default {
   props: {
@@ -158,6 +166,7 @@ export default {
         .padding({ left: 50, right: 20, top: this.topPadding, bottom: 30 })
         .fnKey(d => new Date(d.date))
         .fnBandValue(d => d.date)
+        .fnContScale(scaleTypes[this.chartConfig.scaleType] || scaleLinear())
       // do not use spread for proxy: they would vanish, use concat instead
         .components(
           this.axes.concat(this.valueComponents)

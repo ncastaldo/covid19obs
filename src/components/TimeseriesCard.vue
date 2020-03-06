@@ -113,12 +113,12 @@ export default {
       }))
     },
     chartValues () {
-      return this.chartConfig.values.map(v => ({
+      return this.chartConfig.values.map((v, k) => ({
         ...v,
         component: this.chartConfig.stacked
           ? d3nic[v.type]()
-            .fnLowValue(d => d[`stack_${v.id}`][0])
-            .fnHighValue(d => d[`stack_${v.id}`][1])
+            .fnLowValue(d => (d[`stack_${v.id}`][0]) + (this.chartConfig.scaleType === 'scaleLog' ? 1 : 0))
+            .fnHighValue(d => (d[`stack_${v.id}`][1]) + (this.chartConfig.scaleType === 'scaleLog' ? 1 : 0))
             .fnDefined(d => d[`stack_${v.id}`])
           : v.fns.reduce((component, fn, i) => {
             return component[fn.name](d => fn.type === 'field' ? d[fn.value] : fn.value)

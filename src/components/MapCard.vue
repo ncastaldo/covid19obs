@@ -59,13 +59,15 @@ export default {
     ...mapGetters({
       location: 'getLocation',
       locations: 'getLocations',
+      dates: 'getDates',
       dateIndex: 'getDateIndex'
     }),
-    epiConfirmedMax () {
-      return this.locations
+    epiConfirmedMaxs () {
+      return this.dates.map((d, i) => this.locations
         .filter(l => l.timeseries)
-        .map(l => +l.timeseries[this.dateIndex].EPI_confirmed_cum)
+        .map(l => +l.timeseries[i].EPI_confirmed_cum)
         .reduce((max, value) => Math.max(max, value), 1)
+      )
     },
     chartData () { // computed just once
       return this.locations.map(l => ({
@@ -74,13 +76,11 @@ export default {
         geometry: l.geometry
       }))
     },
-    fnColor () {
-      const fnScaleLog = scaleLog().domain([1, this.epiConfirmedMax])
-      return scaleSequential(d => interpolate(fnScaleLog(d)))
+    fnsScaleLog () {
+      return this.epiConfirmedMaxs.map(epiConfirmedMax => scaleLog().domain([1, epiConfirmedMax]))
     },
-    legendColors () {
-      const fnScaleLog = scaleLog().domain([1, this.epiConfirmedMax])
-      return [
+    legendsColors () {
+      return this.fnsScaleLog.map(fnScaleLog => [
         { color: '#444', label: 'No data' },
         ...quantize(interpolate, 10)
           .map((c, i) => ({
@@ -89,17 +89,31 @@ export default {
             max: Math.round(fnScaleLog.invert((i + 1) / 8))
           }))
           .map(lc => ({ color: lc.color, label: `${lc.min} - ${lc.max}` }))
-      ]
+      ])
+    },
+    legendColors () {
+      return this.dateIndex !== null
+        ? this.legendsColors[this.dateIndex]
+        : []
+    },
+    fnsColor () {
+      return this.fnsScaleLog.map(fnScaleLog => scaleSequential(d => interpolate(fnScaleLog(d))))
+    },
+    colorMappings () {
+      return this.fnsColor.map((fnColor, i) =>
+        this.locations.reduce((mapping, l) => ({
+          ...mapping,
+          [l.locationId]: l.timeseries
+            ? +l.timeseries[i].EPI_confirmed_cum > 0
+              ? fnColor(+l.timeseries[i].EPI_confirmed_cum)
+              : interpolate(0)
+            : '#444'
+        }), {}))
     },
     colorMapping () {
-      return this.locations.reduce((mapping, l) => ({
-        ...mapping,
-        [l.locationId]: l.timeseries
-          ? +l.timeseries[this.dateIndex].EPI_confirmed_cum > 0
-            ? this.fnColor(+l.timeseries[this.dateIndex].EPI_confirmed_cum)
-            : interpolate(0)
-          : '#444'
-      }), {})
+      return this.dateIndex !== null
+        ? this.colorMappings[this.dateIndex]
+        : null
     }
   },
   mounted () {
