@@ -82,7 +82,7 @@
             "label": "CP%",
             "tooltip": "Stock market index Closing Price % change",
             "type": "bxBars",
-            "color": "yellow",
+            "color": "#FFED6F",
             "fns": [
               {
                 "name": "fnLowValue",
@@ -117,7 +117,7 @@
             "label": "V",
             "tooltip": "Valence",
             "type": "bxLine",
-            "color": "white",
+            "color": "#B3DE69",
             "fns": [
               {
                 "name": "fnValue",
@@ -131,7 +131,7 @@
             "label": "A",
             "tooltip": "Arousal",
             "type": "bxLine",
-            "color": "red",
+            "color": "#FB8072",
             "fns": [
               {
                 "name": "fnValue",
@@ -145,7 +145,7 @@
             "label": "D",
             "tooltip": "Dominance",
             "type": "bxLine",
-            "color": "yellow",
+            "color": "#BC80BD",
             "fns": [
               {
                 "name": "fnValue",
@@ -170,7 +170,7 @@
             "label": "O",
             "tooltip": "Openness to experience",
             "type": "bxLine",
-            "color": "red",
+            "color": "#80B1D3",
             "fns": [
               {
                 "name": "fnValue",
@@ -184,7 +184,7 @@
             "label": "C",
             "tooltip": "Conscientiousness",
             "type": "bxLine",
-            "color": "lightgreen",
+            "color": "#B3DE69",
             "fns": [
               {
                 "name": "fnValue",
@@ -198,7 +198,7 @@
             "label": "E",
             "tooltip": "Extraversion",
             "type": "bxLine",
-            "color": "lightblue",
+            "color": "#FFED6F",
             "fns": [
               {
                 "name": "fnValue",
@@ -212,7 +212,7 @@
             "label": "A",
             "tooltip": "Agreableness",
             "type": "bxLine",
-            "color": "orange",
+            "color": "#BC80BD",
             "fns": [
               {
                 "name": "fnValue",
@@ -226,7 +226,7 @@
             "label": "N",
             "tooltip": "Neuroticism",
             "type": "bxLine",
-            "color": "yellow",
+            "color": "#FB8072",
             "fns": [
               {
                 "name": "fnValue",
@@ -256,7 +256,7 @@
             "label": "UH",
             "tooltip": "Unverified Humans",
             "type": "bxLine",
-            "color": "lightgreen",
+            "color": "#B3DE69",
             "fns": [
               {
                 "name": "fnValue",
@@ -270,7 +270,7 @@
             "label": "VH",
             "tooltip": "Verified Humans",
             "type": "bxLine",
-            "color": "green",
+            "color": "#80B1D3",
             "fns": [
               {
                 "name": "fnValue",
@@ -284,7 +284,7 @@
             "label": "UB",
             "tooltip": "Unverified Bots",
             "type": "bxLine",
-            "color": "orange",
+            "color": "#FDB462",
             "fns": [
               {
                 "name": "fnValue",
@@ -298,7 +298,7 @@
             "label": "VB",
             "tooltip": "Verified Bots",
             "type": "bxLine",
-            "color": "red",
+            "color": "#FB8072",
             "fns": [
               {
                 "name": "fnValue",

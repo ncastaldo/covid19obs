@@ -9,6 +9,9 @@
       :headers="headers"
       :items="items"
       :items-per-page="5"
+      :footer-props="{
+        'items-per-page-options': [5, 10, 20]
+      }"
     />
   </v-card>
 </template>
