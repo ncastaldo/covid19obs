@@ -7,7 +7,7 @@
     },
     {
       "title": "Other Data",
-      "html": "<ul><li><b>Epidemics</b>: publicly available <a href='https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6'>data repository</a> operated by the Johns Hopkins University Center for Systems Science and Engineering, based on data fusion from different sources, including WHO, CDC, ECDC, NHC and DXY. </li><li><b>Financial</b>: TODO</li></ul>" 
+      "html": "<ul><li><b>Epidemics</b>: publicly available <a href='https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6'>data repository</a> operated by the Johns Hopkins University Center for Systems Science and Engineering, based on data fusion from different sources, including WHO, CDC, ECDC, NHC and DXY. </li><li><b>Financial</b>: publicly available data from <a href='https://stooq.com/t/>Stooq</a> and <a href='https://finance.yahoo.com/'>Yahoo Finance</a>.</li></ul>" 
     },
     {
       "title": "License",

@@ -1,7 +1,6 @@
 <template>
   <v-app-bar
     app
-    hide-on-scroll
   >
     <v-container>
       <v-row>

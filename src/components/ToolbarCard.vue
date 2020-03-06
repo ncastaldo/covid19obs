@@ -3,17 +3,17 @@
     <v-card-actions class="py-1">
       <v-row class="px-2">
         <v-card
-          v-for="t in toolbarConfig"
-          :key="t.id"
+          v-for="l in labels"
+          :key="l.id"
           class="my-1 pa-2 mx-2"
           flat
           outlined
         >
           <span>
-            {{ t.name }}:
+            {{ l.name }}:
           </span>
           <span class="font-weight-bold">
-            {{ t.value }}
+            {{ l.value }}
           </span>
         </v-card>
       </v-row>
@@ -22,12 +22,20 @@
 </template>
 
 <script>
-import toolbarConfig from '../assets/toolbar.json'
-
 export default {
   data () {
     return {
-      toolbarConfig
+      labels: []
+    }
+  },
+  created () {
+    this.fetchData()
+  },
+  methods: {
+    fetchData () {
+      fetch('/assets/general.json')
+        .then(res => res.json())
+        .then(data => { this.labels = data })
     }
   }
 }

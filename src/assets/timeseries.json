@@ -67,14 +67,14 @@
       {
         "id": "ECO",
         "label": "Economy",
-        "tooltip": "Time course of .....",
+        "tooltip": "Time course of the major stock market index Closing Price % change.",
         "type": "bxChart",
         "stacked": false,
         "values": [
           {
             "id": "ECO_price_close",
-            "label": "CP",
-            "tooltip": "Stock market index Closing Price",
+            "label": "CP%",
+            "tooltip": "Stock market index Closing Price % change",
             "type": "bxBars",
             "color": "yellow",
             "fns": [
