@@ -34,7 +34,7 @@
             </v-icon>
             {{ hv.label }}
           </span>
-          {{ hv.value }}
+          {{ fnValueFormat(hv.value) }}
         </div>
       </div>
     </v-tooltip>
@@ -53,6 +53,7 @@ export default {
   props: {
     id: String,
     size: Object,
+    chartConfig: Object,
     values: Array,
     data: Array
   },
@@ -97,6 +98,9 @@ export default {
     },
     isHover () {
       return this.hover !== null
+    },
+    fnValueFormat () {
+      return format(this.chartConfig.valueFormat)
     }
   },
   watch: {
@@ -139,7 +143,7 @@ export default {
           .tickSizeInner(4)
           .tickSizeOuter(0)
           .ticks(2)
-          .tickFormat(format('.1s'))
+          .tickFormat(format(this.chartConfig.yFormat))
           .fnBefore(s => s.classed('axis', true))
       ]
     },

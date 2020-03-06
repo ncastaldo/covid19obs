@@ -58,6 +58,7 @@
       <TimeseriesChart
         :id="`${id}-svg`"
         :size="chartSize"
+        :chartConfig="chartConfig"
         :values="chartValues"
         :data="chartData"
       />

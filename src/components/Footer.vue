@@ -27,8 +27,13 @@
 
       <v-divider />
 
-      <v-card-text class="white--text">
-        Copyright @ 2020 - All right reserved, CoMuNe Lab, FBK
+      <v-card-text>
+        <p class="mb-1">
+          Copyright @ 2020 - All right reserved, CoMuNe Lab, FBK
+        </p>
+        <p class="mb-1">
+          Designed by Nicola Castaldo with Vue.js, Vuetify, D3 and d3nic
+        </p>
       </v-card-text>
     </v-card>
   </v-footer>

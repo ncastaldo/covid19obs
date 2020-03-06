@@ -7,6 +7,8 @@
         "label": "Epidemic",
         "tooltip": "Time course of COVID-19 worldwide, with reported number of confirmed, recovered and dead cases.",
         "type": "bxChart",
+        "yFormat": ".1s",
+        "valueFormat": ".0f",
         "stacked": true,
         "values": [
           {
@@ -41,6 +43,8 @@
         "label": "Tweets",
         "tooltip": "Time course of the volume of messages posted to Twitter about Wuhan, nCov-19, SARS-CoV-19, COVID-19.",
         "type": "bxChart",
+        "yFormat": ".1s",
+        "valueFormat": ".0f",
         "stacked": false,
         "values": [
           {
@@ -69,6 +73,8 @@
         "label": "Economy",
         "tooltip": "Time course of the major stock market index Closing Price % change.",
         "type": "bxChart",
+        "yFormat": ".1%",
+        "valueFormat": ".1%",
         "stacked": false,
         "values": [
           {
@@ -102,6 +108,8 @@
         "label": "Emotional",
         "tooltip": "State-of-the-art emotional analysis is based on the V-A-D (Valence-Arousal-Dominance) decomposition. Valence deals with pleasure, Arousal deals with emotional intensity, Dominance deals with the sense of control, in response to stimuli.",
         "type": "bxChart",
+        "yFormat": ".2f",
+        "valueFormat": ".2f",
         "stacked": false,
         "values": [
           {
@@ -153,6 +161,8 @@
         "label": "Personality Traits",
         "tooltip": "State-of-the-art classification of personality traits is based on Big5 (O-C-E-A-N), identifying 5 fundamental units: Openness, Conscentiousness, Extraversion, Agreableness and Neuroticism.",
         "type": "bxChart",
+        "yFormat": ".3f",
+        "valueFormat": ".3f",
         "stacked": false,
         "values": [
           {
@@ -237,6 +247,8 @@
         "label": "Social Bots/Humans",
         "tooltip": "State-of-the-art detection of automated agents and humans, which can have Verified status on Twitter or not (in this case they are just Unverified). Verified bots include mainstream medias and, in some cases, extremely active VIP accounts. ",
         "type": "bxChart",
+        "yFormat": ".1s",
+        "valueFormat": ".0f",
         "stacked": false,
         "values": [
           {
@@ -302,6 +314,8 @@
         "label": "News Reliability",
         "type": "bxChart",
         "tooltip": "Analysis of URLs present in tweets to determine if they are trustworthy (e.g., mainstream media, recognized scientific institutions and magazines) or not (fake news/hoax, satire, clickbait, etc.).",
+        "yFormat": ".1s",
+        "valueFormat": ".0f",
         "stacked": true,
         "values": [
           {
