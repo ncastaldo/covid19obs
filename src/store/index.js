@@ -74,7 +74,7 @@ const actions = {
             commit('setDateIndex', timeseries.length - 1)
           }
         } else {
-          console.log(`No infodemic data for ${location.locationId}`)
+          // console.log(`No infodemic data for ${location.locationId}`)
         }
       } catch (_) {
         console.log('Problems resolving infodemic data from the public folder...')
