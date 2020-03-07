@@ -88,7 +88,7 @@ export default {
   },
   computed: {
     ...mapGetters({
-      location: 'getLocation'
+      timeseries: 'getTimeseries'
     }),
     btnValues () {
       return this.chartConfig.values.map(v => ({
@@ -99,12 +99,12 @@ export default {
       }))
     },
     chartData () {
-      if (!this.location || !this.location.timeseries) return []
-      if (!this.chartConfig.stacked) { return this.location.timeseries }
+      if (!this.timeseries) return []
+      if (!this.chartConfig.stacked) { return this.timeseries }
       const keys = this.chartConfig.values.map(v => v.id).reverse()
       const fnStack = stack().keys(keys)
-      const stackedData = fnStack(this.location.timeseries)
-      return this.location.timeseries.map((d, i) => ({
+      const stackedData = fnStack(this.timeseries)
+      return this.timeseries.map((d, i) => ({
         ...d,
         ...keys.reduce((acc, k, j) => ({
           ...acc,

@@ -1,10 +1,12 @@
 <template>
   <v-card class="fill-height">
     <v-card-title ref="title">
-      <span>{{ location ? location.locationName : '- - -' }}</span>
+      <span>{{ location ? location.locationName : 'World' }}</span>
       <v-spacer />
       <span class="px-2"><i>cases:</i></span>
-      <span>{{ location && location.timeseries ? location.timeseries[dateIndex].EPI_confirmed_cum : '-' }}</span>
+      <span>{{ location && mapConfirmed[location.locationId]
+        ? mapConfirmed[location.locationId][dateIndex] : '-' }}
+      </span>
     </v-card-title>
     <v-tooltip
       v-for="lc in legendColors"
@@ -42,6 +44,8 @@ import { interpolateYlGnBu as interpolate } from 'd3-scale-chromatic'
 
 import { mapGetters } from 'vuex'
 
+const GREY = '#666'
+
 export default {
   name: 'MapCard',
   components: {
@@ -52,7 +56,8 @@ export default {
   },
   data () {
     return {
-      chartSize: null
+      chartSize: null,
+      mapConfirmed: {}
     }
   },
   computed: {
@@ -63,11 +68,11 @@ export default {
       dateIndex: 'getDateIndex'
     }),
     epiConfirmedMaxs () {
-      return this.dates.map((d, i) => this.locations
-        .filter(l => l.timeseries)
-        .map(l => +l.timeseries[i].EPI_confirmed_cum)
-        .reduce((max, value) => Math.max(max, value), 1)
-      )
+      return Object.values(this.mapConfirmed)
+        .filter(v => Array.isArray(v))
+        .reduce((final, array) =>
+          final.map((f, i) => f < array[i] ? array[i] : f)
+        , this.dates.map(() => 0))
     },
     chartData () { // computed just once
       return this.locations.map(l => ({
@@ -81,7 +86,7 @@ export default {
     },
     legendsColors () {
       return this.fnsScaleLog.map(fnScaleLog => [
-        { color: '#444', label: 'No data' },
+        { color: GREY, label: 'No data' },
         ...quantize(interpolate, 10)
           .map((c, i) => ({
             color: c,
@@ -103,11 +108,11 @@ export default {
       return this.fnsColor.map((fnColor, i) =>
         this.locations.reduce((mapping, l) => ({
           ...mapping,
-          [l.locationId]: l.timeseries
-            ? +l.timeseries[i].EPI_confirmed_cum > 0
-              ? fnColor(+l.timeseries[i].EPI_confirmed_cum)
+          [l.locationId]: Array.isArray(this.mapConfirmed[l.locationId])
+            ? this.mapConfirmed[l.locationId][i] > 0
+              ? fnColor(this.mapConfirmed[l.locationId][i])
               : interpolate(0)
-            : '#444'
+            : GREY
         }), {}))
     },
     colorMapping () {
@@ -116,10 +121,18 @@ export default {
         : null
     }
   },
+  created () {
+    this.fetchData()
+  },
   mounted () {
     this.updateChartSize() // since refs are not reactive
   },
   methods: {
+    fetchData () {
+      fetch('/assets/map/confirmed.json')
+        .then(res => res.json())
+        .then(data => { this.mapConfirmed = data })
+    },
     updateChartSize () {
       this.chartSize = {
         width: this.$el.clientWidth,

@@ -101,7 +101,133 @@
     ]
   },
   {
-    "id": "MIDDLE",
+    "id": "CENTER",
+    "charts": [
+      {
+        "id": "TWI_num",
+        "label": "Social Bots/Humans",
+        "tooltip": "State-of-the-art detection of automated agents and humans, which can have Verified status on Twitter or not (in this case they are just Unverified). Verified bots include mainstream medias and, in some cases, extremely active VIP accounts. ",
+        "type": "bxChart",
+        "yFormat": ".1s",
+        "valueFormat": ".0f",
+        "stacked": false,
+        "values": [
+          {
+            "id": "TWI_num_unvhum",
+            "label": "UH",
+            "tooltip": "Unverified Humans",
+            "type": "bxLine",
+            "color": "#B3DE69",
+            "fns": [
+              {
+                "name": "fnValue",
+                "type": "field",
+                "value": "TWI_num_unvhum"
+              }
+            ]
+          },
+          {
+            "id": "TWI_num_verhum",
+            "label": "VH",
+            "tooltip": "Verified Humans",
+            "type": "bxLine",
+            "color": "#80B1D3",
+            "fns": [
+              {
+                "name": "fnValue",
+                "type": "field",
+                "value": "TWI_num_verhum"
+              }
+            ]
+          },
+          {
+            "id": "TWI_num_unvbot",
+            "label": "UB",
+            "tooltip": "Unverified Bots",
+            "type": "bxLine",
+            "color": "#FDB462",
+            "fns": [
+              {
+                "name": "fnValue",
+                "type": "field",
+                "value": "TWI_num_unvbot"
+              }
+            ]
+          },
+          {
+            "id": "TWI_num_verbot",
+            "label": "VB",
+            "tooltip": "Verified Bots",
+            "type": "bxLine",
+            "color": "#FB8072",
+            "fns": [
+              {
+                "name": "fnValue",
+                "type": "field",
+                "value": "TWI_num_verbot"
+              }
+            ]
+          }
+        ]
+      },
+       {
+        "id": "FAC",
+        "label": "Reliability",
+        "type": "bxChart",
+        "tooltip": "Analysis of URLs present in tweets to determine if they are trustworthy (e.g., mainstream media, recognized scientific institutions and magazines) or not (fake news/hoax, satire, clickbait, etc.).",
+        "yFormat": ".1s",
+        "valueFormat": ".0f",
+        "stacked": true,
+        "values": [
+          {
+            "id": "FAC_num_unreliable",
+            "label": "UF",
+            "tooltip": "Unreliable facts",
+            "type": "bxBars",
+            "color": "#fb8072",
+            "fns": []
+          },
+          {
+            "id": "FAC_num_reliable",
+            "label": "RF",
+            "tooltip": "Reliable facts",
+            "type": "bxBars",
+            "color": "#b3de69",
+            "fns": []
+          }
+        ]
+      },
+      {
+        "id": "EXP",
+        "label": "Exposure",
+        "type": "bxChart",
+        "tooltip": "Analysis of potential number of users exposed to trustworthy (or not) URLs present in tweets.",
+        "yFormat": ".1s",
+        "valueFormat": ".0f",
+        "stacked": true,
+        "values": [
+          {
+            "id": "FAC_fol_unreliable",
+            "label": "EUF",
+            "tooltip": "Exposure of Unreliable facts",
+            "type": "bxBars",
+            "color": "#fb8072",
+            "fns": []
+          },
+          {
+            "id": "FAC_fol_reliable",
+            "label": "ERF",
+            "tooltip": "Exposure of Reliable facts",
+            "type": "bxBars",
+            "color": "#b3de69",
+            "fns": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BOTTOM",
     "charts": [
       {
         "id": "EMO_VAD",
@@ -234,132 +360,6 @@
                 "value": "EMO_Big5_N"
               }
             ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "BOTTOM",
-    "charts": [
-      {
-        "id": "TWI_num",
-        "label": "Social Bots/Humans",
-        "tooltip": "State-of-the-art detection of automated agents and humans, which can have Verified status on Twitter or not (in this case they are just Unverified). Verified bots include mainstream medias and, in some cases, extremely active VIP accounts. ",
-        "type": "bxChart",
-        "yFormat": ".1s",
-        "valueFormat": ".0f",
-        "stacked": false,
-        "values": [
-          {
-            "id": "TWI_num_unvhum",
-            "label": "UH",
-            "tooltip": "Unverified Humans",
-            "type": "bxLine",
-            "color": "#B3DE69",
-            "fns": [
-              {
-                "name": "fnValue",
-                "type": "field",
-                "value": "TWI_num_unvhum"
-              }
-            ]
-          },
-          {
-            "id": "TWI_num_verhum",
-            "label": "VH",
-            "tooltip": "Verified Humans",
-            "type": "bxLine",
-            "color": "#80B1D3",
-            "fns": [
-              {
-                "name": "fnValue",
-                "type": "field",
-                "value": "TWI_num_verhum"
-              }
-            ]
-          },
-          {
-            "id": "TWI_num_unvbot",
-            "label": "UB",
-            "tooltip": "Unverified Bots",
-            "type": "bxLine",
-            "color": "#FDB462",
-            "fns": [
-              {
-                "name": "fnValue",
-                "type": "field",
-                "value": "TWI_num_unvbot"
-              }
-            ]
-          },
-          {
-            "id": "TWI_num_verbot",
-            "label": "VB",
-            "tooltip": "Verified Bots",
-            "type": "bxLine",
-            "color": "#FB8072",
-            "fns": [
-              {
-                "name": "fnValue",
-                "type": "field",
-                "value": "TWI_num_verbot"
-              }
-            ]
-          }
-        ]
-      },
-       {
-        "id": "FAC",
-        "label": "Reliability",
-        "type": "bxChart",
-        "tooltip": "Analysis of URLs present in tweets to determine if they are trustworthy (e.g., mainstream media, recognized scientific institutions and magazines) or not (fake news/hoax, satire, clickbait, etc.).",
-        "yFormat": ".1s",
-        "valueFormat": ".0f",
-        "stacked": true,
-        "values": [
-          {
-            "id": "FAC_num_unreliable",
-            "label": "UF",
-            "tooltip": "Unreliable facts",
-            "type": "bxBars",
-            "color": "#fb8072",
-            "fns": []
-          },
-          {
-            "id": "FAC_num_reliable",
-            "label": "RF",
-            "tooltip": "Reliable facts",
-            "type": "bxBars",
-            "color": "#b3de69",
-            "fns": []
-          }
-        ]
-      },
-      {
-        "id": "EXP",
-        "label": "Exposure",
-        "type": "bxChart",
-        "tooltip": "Analysis of potential number of users exposed to trustworthy (or not) URLs present in tweets.",
-        "yFormat": ".1s",
-        "valueFormat": ".0f",
-        "stacked": true,
-        "values": [
-          {
-            "id": "FAC_fol_unreliable",
-            "label": "EUF",
-            "tooltip": "Exposure of Unreliable facts",
-            "type": "bxBars",
-            "color": "#fb8072",
-            "fns": []
-          },
-          {
-            "id": "FAC_fol_reliable",
-            "label": "ERF",
-            "tooltip": "Exposure of Reliable facts",
-            "type": "bxBars",
-            "color": "#b3de69",
-            "fns": []
           }
         ]
       }

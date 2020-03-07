@@ -35,7 +35,7 @@ import * as d3nic from 'd3nic'
 import { zoom, zoomIdentity } from 'd3-zoom'
 import { select, event } from 'd3-selection'
 
-import { mapMutations, mapGetters } from 'vuex'
+import { mapActions, mapGetters } from 'vuex'
 
 const ZOOM_SCALE_MIN = 2
 const ZOOM_SCALE_MAX = 40
@@ -80,9 +80,6 @@ export default {
     this.draw()
   },
   methods: {
-    ...mapMutations({
-      setLocationId: 'setLocationId'
-    }),
     createComponents () {
       this.geoRegions = d3nic.geoRegions()
         .fnValue(d => d.geometry)
@@ -99,6 +96,9 @@ export default {
         .fnKey(d => d.locationId)
         .components([this.geoRegions])
     },
+    ...mapActions({
+      setLocationId: 'setLocationId'
+    }),
     draw () {
       // next tick to be sure to receive the size
       this.$nextTick(() => {
