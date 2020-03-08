@@ -132,9 +132,8 @@ export default {
       this.geoRegions.event() &&
       this.geoRegions.event().stopPropagation()
 
-      const newLocationId = !value ||
-        (this.location && value.locationId === this.location.locationId)
-        ? null
+      const newLocationId = !value || value.locationId === this.location.locationId
+        ? '_WORLD' // world is the default
         : value.locationId
 
       this.setLocationId(newLocationId)
@@ -146,7 +145,7 @@ export default {
 
       const width = this.chart.size().width
       const height = this.chart.size().height
-      const bounds = newLocationId
+      const bounds = newLocationId !== '_WORLD'
         ? this.geoRegions.fnGeoPath().bounds(value.geometry)
         : [[0, 0], [width, height]]
 

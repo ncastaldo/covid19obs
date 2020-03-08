@@ -4,7 +4,7 @@
   >
     <svg
       :id="id"
-      style="min-height: 60px"
+      style="min-height: 120px"
       width="0"
       height="0"
     />

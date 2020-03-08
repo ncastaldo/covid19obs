@@ -1,12 +1,14 @@
 <template>
   <v-card class="fill-height">
     <v-card-title ref="title">
-      <span>{{ location ? location.locationName : 'World' }}</span>
+      <span>{{ location.locationName }}</span>
       <v-spacer />
       <span class="px-2"><i>cases:</i></span>
-      <span>{{ location && mapConfirmed[location.locationId]
-        ? mapConfirmed[location.locationId][dateIndex] : '-' }}
-      </span>
+      <span>{{
+        mapConfirmed[location.locationId]
+          ? mapConfirmed[location.locationId][dateIndex]
+          : '-'
+      }}</span>
     </v-card-title>
     <v-tooltip
       v-for="lc in legendColors"
@@ -129,7 +131,7 @@ export default {
   },
   methods: {
     fetchData () {
-      fetch('/assets/map/confirmed.json')
+      fetch('/assets/dict_confirmed.json')
         .then(res => res.json())
         .then(data => { this.mapConfirmed = data })
     },

@@ -9,23 +9,30 @@ import world from '../assets/map/world.json'
 
 Vue.use(Vuex)
 
-const locations = world.features
-  .map(f => ({
-    locationId: f.properties.ADM0_A3, // adm0_a3,
-    locationName: f.properties.ADMIN, // admin,
-    geometry: f.geometry
-  }))
-  .reduce((locations, l) => ({
-    ...locations,
-    [l.locationId]: l
-  }), {})
+const locations = {
+  _WORLD: {
+    locationId: '_WORLD',
+    locationName: 'World',
+    geometry: null
+  },
+  ...world.features
+    .map(f => ({
+      locationId: f.properties.ADM0_A3, // adm0_a3,
+      locationName: f.properties.ADMIN, // admin,
+      geometry: f.geometry
+    }))
+    .reduce((locations, l) => ({
+      ...locations,
+      [l.locationId]: l
+    }), {})
+}
 
 const state = {
   ready: false,
   counter: 0,
 
   locations,
-  locationId: null,
+  locationId: '_WORLD',
 
   dates: [],
   dateIndex: 0,
@@ -41,7 +48,7 @@ const getters = {
   getLocation: ({ locationId, locations }) =>
     locationId in locations
       ? locations[locationId]
-      : null,
+      : null, // error in this case
 
   getDates: ({ dates }) => dates,
   getDateIndex: ({ dateIndex }) => dateIndex,
@@ -65,7 +72,7 @@ const fnDataParser = dsvFormat(';')
 
 const actions = {
   init: ({ getters, commit }) => {
-    fetch('/assets/infodemics/infodemics__WORLD.csv')
+    fetch('/assets/infodemics_iso3/infodemics__WORLD.csv')
       .then(res => res.text())
       .then(data => Promise.resolve(fnDataParser.parse(data)))
       .then(ts => {
@@ -80,7 +87,7 @@ const actions = {
     commit('incrementCounter')
     const c = getters.getCounter
     commit('setLocationId', locationId)
-    fetch(`/assets/infodemics/infodemics_${locationId || '_WORLD'}.csv`)
+    fetch(`/assets/infodemics_iso3/infodemics_${locationId || '_WORLD'}.csv`)
       .then(res => res.text())
       .then(data => Promise.resolve(fnDataParser.parse(data)))
       .then(ts => {

@@ -1,13 +1,14 @@
 <template>
   <v-card>
     <v-card-title>
-      Top countries infodemic summary
+      Top Countries Infodemic Summary
     </v-card-title>
     <v-divider class="pb-1" />
     <v-data-table
       calculate-widths
       :headers="headers"
       :items="items"
+      mobile-breakpoint="0"
       :items-per-page="5"
       :footer-props="{
         'items-per-page-options': [5, 10, 20]
