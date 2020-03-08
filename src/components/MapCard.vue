@@ -1,5 +1,8 @@
 <template>
-  <v-card class="fill-height">
+  <v-card
+    v-resize:debounce="updateChartSize"
+    class="fill-height"
+  >
     <v-card-title ref="title">
       <span>{{ location.locationName }}</span>
       <v-spacer />
@@ -29,8 +32,8 @@
     </v-tooltip>
     <v-card-actions class="pa-0">
       <MapChart
-        :size="chartSize"
         :data="chartData"
+        :size="chartSize"
         :colorMapping="colorMapping"
       />
     </v-card-actions>
@@ -46,15 +49,17 @@ import { interpolateYlGnBu as interpolate } from 'd3-scale-chromatic'
 
 import { mapGetters } from 'vuex'
 
+import resize from 'vue-resize-directive'
+
 const GREY = '#666'
 
 export default {
   name: 'MapCard',
+  directives: {
+    resize
+  },
   components: {
     MapChart
-  },
-  props: {
-    size: Object
   },
   data () {
     return {
@@ -121,6 +126,16 @@ export default {
       return this.dateIndex !== null
         ? this.colorMappings[this.dateIndex]
         : null
+    },
+    chartHeight () {
+      switch (this.$vuetify.breakpoint.name) {
+        case 'xs': return 330
+        case 'sm': return 330
+        case 'md': return 440
+        case 'lg': return 440
+        case 'xl': return 440
+        default: return 300
+      }
     }
   },
   created () {
@@ -138,9 +153,8 @@ export default {
     updateChartSize () {
       this.chartSize = {
         width: this.$el.clientWidth,
-        height: this.$el.clientHeight -
-          0// (this.$refs.title.clientHeight + this.$refs.subtitle.clientHeight)
-      } // height computed without considering the others
+        height: this.chartHeight
+      }
     }
   }
 }

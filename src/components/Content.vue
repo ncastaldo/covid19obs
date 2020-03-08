@@ -8,8 +8,9 @@
       </v-row>
       <v-row style="min-height: 600px">
         <v-col
+          cols="12"
           md="6"
-          xs="12"
+          lg="7"
         >
           <v-row
             class="fill-height flex-column"
@@ -24,9 +25,9 @@
           </v-row>
         </v-col>
         <v-col
-
+          cols="12"
           md="6"
-          xs="12"
+          lg="5"
         >
           <v-row
             v-if="true"
@@ -116,7 +117,6 @@ export default {
   data () {
     return {
       timeseriesConfig,
-      mapContainerSize: null,
       tabs
     }
   }

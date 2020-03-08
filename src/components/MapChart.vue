@@ -1,11 +1,9 @@
 <template>
-  <v-card
-    flat
-    class="pa-0 ma-0 fill-height"
+  <div
+    class="pa-0 ma-0 "
   >
     <svg
       id="map-chart"
-      style="min-height: 240px"
       width="0"
       height="0"
       :style="{ 'background-color': backgroundColor }"
@@ -26,7 +24,7 @@
         >{{ hover.locationName }}</span>
       </foreignObject>
     </svg>
-  </v-card>
+  </div>
 </template>
 
 <script>
@@ -36,6 +34,8 @@ import { zoom, zoomIdentity } from 'd3-zoom'
 import { select, event } from 'd3-selection'
 
 import { mapActions, mapGetters } from 'vuex'
+
+const HEIGHT = 300
 
 const ZOOM_SCALE_MIN = 2
 const ZOOM_SCALE_MAX = 40
@@ -66,6 +66,15 @@ export default {
     })
   },
   watch: {
+    size (value) {
+      if (this.chart.group()) {
+        this.chart
+          .size(value)
+          .draw()
+
+        this.svg.call(this.fnZoom.transform, this.getZoomIdentity())
+      }
+    },
     hover (value) {
       this.geoRegions.join()
         .style('fill-opacity', d => d === value ? 0.5 : null)
@@ -93,6 +102,7 @@ export default {
     createChart () {
       this.chart = d3nic.geoChart()
         .selector('#map-chart')
+        .padding({ top: 0, right: 0, bottom: 0, left: 0 })
         .fnKey(d => d.locationId)
         .components([this.geoRegions])
     },
@@ -128,6 +138,22 @@ export default {
     onZoom () {
       this.chart.group().attr('transform', event.transform)
     },
+    getZoomIdentity () {
+      const width = this.chart.size().width
+      const height = this.chart.size().height
+      console.log(this.location)
+      const bounds = this.location.locationId !== '_WORLD'
+        ? this.geoRegions.fnGeoPath().bounds(this.location.geometry)
+        : [[0, 0], [width, height]]
+
+      const dx = bounds[1][0] - bounds[0][0]
+      const dy = bounds[1][1] - bounds[0][1]
+      const x = (bounds[0][0] + bounds[1][0]) / 2
+      const y = (bounds[0][1] + bounds[1][1]) / 2
+      const scale = Math.max(ZOOM_SCALE_MIN, Math.min(ZOOM_SCALE_MAX, 0.8 / Math.max(dx / width, dy / height)))
+      const translate = [width / 2 - scale * x, height / 2 - scale * y]
+      return zoomIdentity.translate(translate[0], translate[1]).scale(scale)
+    },
     onClick (value) {
       this.geoRegions.event() &&
       this.geoRegions.event().stopPropagation()
@@ -143,24 +169,11 @@ export default {
         .filter(d => d.locationId === newLocationId)
         .style('stroke-width', 1)
 
-      const width = this.chart.size().width
-      const height = this.chart.size().height
-      const bounds = newLocationId !== '_WORLD'
-        ? this.geoRegions.fnGeoPath().bounds(value.geometry)
-        : [[0, 0], [width, height]]
-
-      const dx = bounds[1][0] - bounds[0][0]
-      const dy = bounds[1][1] - bounds[0][1]
-      const x = (bounds[0][0] + bounds[1][0]) / 2
-      const y = (bounds[0][1] + bounds[1][1]) / 2
-      const scale = Math.max(ZOOM_SCALE_MIN, Math.min(ZOOM_SCALE_MAX, 0.8 / Math.max(dx / width, dy / height)))
-      const translate = [width / 2 - scale * x, height / 2 - scale * y]
-
       this.svg.transition()
         .duration(750)
         .call(
           this.fnZoom.transform,
-          zoomIdentity.translate(translate[0], translate[1]).scale(scale)
+          this.getZoomIdentity()
         )
     }
   }

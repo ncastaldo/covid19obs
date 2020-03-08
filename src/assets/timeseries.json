@@ -284,7 +284,7 @@
       },
       {
         "id": "EMO_Big5",
-        "label": "Personality Traits",
+        "label": "Psychological",
         "tooltip": "State-of-the-art classification of personality traits is based on Big5 (O-C-E-A-N), identifying 5 fundamental units: Openness, Conscentiousness, Extraversion, Agreableness and Neuroticism.",
         "type": "bxChart",
         "yFormat": ".3f",
@@ -358,6 +358,31 @@
                 "name": "fnValue",
                 "type": "field",
                 "value": "EMO_Big5_N"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "RICK",
+        "label": "Ricgallotti",
+        "tooltip": "test",
+        "type": "bxChart",
+        "yFormat": ".3f",
+        "valueFormat": ".3f",
+        "stacked": false,
+        "values": [
+          {
+            "id": "EMO_Sentiment",
+            "label": "EMO",
+            "tooltip": "Openness to experience",
+            "type": "bxLine",
+            "color": "#80B1D3",
+            "fns": [
+              {
+                "name": "fnValue",
+                "type": "field",
+                "value": "EMO_Sentiment"
               }
             ]
           }

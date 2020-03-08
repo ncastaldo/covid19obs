@@ -120,7 +120,13 @@ export default {
       this.draw()
     },
     data () {
+      // todo on values selection
       this.draw()
+    },
+    size (value) {
+      this.chart
+        .size(value)
+        .draw()
     },
     hover (value) {
       this.circles.map(c =>

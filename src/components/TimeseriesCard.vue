@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card v-resize:debounce="updateChartSize">
     <v-card-subtitle
       ref="subtitle"
       class="py-1"
@@ -71,11 +71,16 @@ import * as d3nic from 'd3nic'
 import { mapGetters } from 'vuex'
 import { stack } from 'd3-shape'
 
+import resize from 'vue-resize-directive'
+
 import TimeseriesChart from './TimeseriesChart'
 
 export default {
   components: {
     TimeseriesChart
+  },
+  directives: {
+    resize
   },
   props: {
     id: String,
@@ -125,6 +130,16 @@ export default {
               .fnDefined(d => fn.type === 'field' ? d[fn.value].length : true)
           }, d3nic[v.type]())
       }))
+    },
+    chartHeight () {
+      switch (this.$vuetify.breakpoint.name) {
+        case 'xs': return 200
+        case 'sm': return 200
+        case 'md': return 120
+        case 'lg': return 120
+        case 'xl': return 120
+        default: return 300
+      }
     }
   },
   mounted () {
@@ -134,7 +149,7 @@ export default {
     updateChartSize () {
       this.chartSize = {
         width: this.$el.clientWidth,
-        height: this.$el.clientHeight - this.$refs.subtitle.clientHeight
+        height: this.chartHeight
       }
     }
   }

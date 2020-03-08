@@ -15,7 +15,7 @@
           <v-toolbar-title
             class="ml-4 text-left font-weight-bold"
           >
-            COVID19 Digital Observatory
+            COVID19 Infodemics Observatory
           </v-toolbar-title>
         </v-row>
       </v-row>
