@@ -182,14 +182,12 @@ export default {
     },
     draw () {
       // next tick to be sure to receive the size
-      this.$nextTick(() => {
-        this.chart
-          .size(this.size)
-          .data(this.data)
-          .draw({ duration: 500 })
+      this.chart
+        .size(this.size)
+        .data(this.data)
+        .draw({ duration: 500 })
 
-        this.svg = select(`#${this.id}`).node()
-      })
+      this.svg = select(`#${this.id}`).node()
     },
     clear () {
       this.chart.group().remove()

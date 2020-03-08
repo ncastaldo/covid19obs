@@ -1,5 +1,5 @@
 <template>
-  <v-card v-resize:debounce="updateChartSize">
+  <v-card v-resize:debounce.250="updateChartSize">
     <v-card-subtitle
       ref="subtitle"
       class="py-1"

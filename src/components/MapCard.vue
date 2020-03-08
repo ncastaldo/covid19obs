@@ -1,6 +1,6 @@
 <template>
   <v-card
-    v-resize:debounce="updateChartSize"
+    v-resize:debounce.250="updateChartSize"
     class="fill-height"
   >
     <v-card-title ref="title">
@@ -150,7 +150,7 @@ export default {
         .then(res => res.json())
         .then(data => { this.mapConfirmed = data })
     },
-    updateChartSize () {
+    updateChartSize (v) {
       this.chartSize = {
         width: this.$el.clientWidth,
         height: this.chartHeight
