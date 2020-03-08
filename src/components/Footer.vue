@@ -18,7 +18,7 @@
             contain
             max-height="50"
             max-width="120"
-            class="mx-2"
+            class="mx-2 my-1"
             :href="logo.link"
             :src="logo.src"
           />
