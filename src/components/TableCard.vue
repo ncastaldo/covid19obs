@@ -45,7 +45,7 @@ export default {
             align: 'left',
             text: c,
             value: c,
-            width: i === 0 ? 80 : 140
+            width: i === 0 ? 80 : i === 1 ? 170 : 160
           }))
         })
         .catch(e => { console.log(`NO file found at ${filePath}`) })
