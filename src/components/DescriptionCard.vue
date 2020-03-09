@@ -45,23 +45,21 @@
     </v-card>
     <v-card
       flat
-      class="text-left pa-2"
+      class="text-left pb-1"
     >
       <v-card-title class="subtitle-1 py-2">
         Images
       </v-card-title>
-      <v-card-actions>
-        <!-- v row here ? -->
-
+      <v-row class="ma-2 mt-0">
         <v-card
-          v-for="img in imagesConfig"
-          :key="img.id"
+          v-for="(img, i) in imagesConfig"
+          :key="i"
           flat
           class="text-left mx-2 px-2 outline-it"
           @click="imageOverlay = img"
         >
           <v-card-title
-            class="subtitle-2 py-2"
+            class="subtitle-2 py-2 px-0"
           >
             {{ img.title }}
           </v-card-title>
@@ -73,7 +71,7 @@
             :src="img.src"
           />
         </v-card>
-      </v-card-actions>
+      </v-row>
     </v-card>
 
     <v-dialog

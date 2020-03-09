@@ -141,7 +141,6 @@ export default {
     getZoomIdentity () {
       const width = this.chart.size().width
       const height = this.chart.size().height
-      console.log(this.location)
       const bounds = this.location.locationId !== '_WORLD'
         ? this.geoRegions.fnGeoPath().bounds(this.location.geometry)
         : [[0, 0], [width, height]]
