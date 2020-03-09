@@ -19,14 +19,14 @@
         :key="lc.color"
         style="display: inline-block"
       >
-        {{ lc.id }}
         <v-icon
           :color="lc.color"
           small
-          class="pb-1 my-1 ml-0 mr-2"
+          class="pb-1 my-1 ml-2 mr-0"
         >
           mdi-square
         </v-icon>
+        {{ lc.id }}
       </span>
     </div>
     <v-card-actions class="pa-0">

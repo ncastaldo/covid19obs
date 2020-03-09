@@ -2,24 +2,24 @@
   <v-app-bar
     app
   >
-    <v-container>
-      <v-row>
-        <v-row>
-          <v-img
-            class="mx-4"
-            :src="imgSrc"
-            max-height="100"
-            max-width="100"
-            contain
-          />
-          <v-toolbar-title
-            class="ml-4 text-left headline"
-          >
-            COVID19 Infodemics Observatory
-          </v-toolbar-title>
-        </v-row>
-      </v-row>
-    </v-container>
+    <v-toolbar-title class="ml-2 text-left headline">
+      <span class="font-weight-light">COVID19</span>
+      <span class="ml-2"> Infodemics Observatory</span>
+    </v-toolbar-title>
+    <v-spacer />
+    <a
+      v-if="breakpoint !== 'xs'"
+      href="https://comunelab.fbk.eu"
+      target="_blank"
+    >
+      <v-img
+        class="mx-2"
+        :src="imgSrc"
+        max-height="40"
+        max-width="140"
+        contain
+      />
+    </a>
   </v-app-bar>
 </template>
 
@@ -29,7 +29,22 @@ export default {
   name: 'Header',
   data () {
     return {
-      imgSrc: require('../assets/img/CoMuNe_lab_Bianco.png')
+      images: {
+        logo: require('../assets/img/comune_lab_logo.svg'),
+        full: require('../assets/img/CoMuNe_lab_Bianco_long.png')
+      }
+    }
+  },
+  computed: {
+    breakpoint () {
+      return this.$vuetify.breakpoint.name
+    },
+    imgSrc () {
+      switch (this.breakpoint) {
+        case 'xs': return this.images.logo
+        case 'sm': return this.images.logo
+        default: return this.images.full
+      }
     }
   }
 }

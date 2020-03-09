@@ -29,7 +29,10 @@
 
       <v-card-text>
         <p class="mb-1">
-          Copyright @ 2020 - All right reserved, CoMuNe Lab, FBK
+          Copyright @ 2020 - All right reserved, <a
+            href="https://comunelab.fbk.eu"
+            target="_blank"
+          >CoMuNe Lab</a>, FBK
         </p>
         <p class="mb-1">
           Designed by Nicola Castaldo with Vue.js, Vuetify, D3 and d3nic
@@ -48,7 +51,7 @@ const logos = [
   },
   {
     id: 'COMUNE_LAB',
-    src: require('../assets/img/CoMuNe_lab_Bianco.png'),
+    src: require('../assets/img/comune_lab_logo.svg'),
     link: 'https://comunelab.fbk.eu'
   },
   {
