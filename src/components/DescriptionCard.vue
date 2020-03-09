@@ -6,23 +6,26 @@
     <v-divider class="pb-1" />
     <v-card
       flat
-      class="text-left pb-1"
+      class="text-left pb-1 mx-1"
     >
       <v-card-title class="subtitle-1 py-2">
-        Download the Report
+        Report
       </v-card-title>
-      <v-card-actions
-        class="pb-2 ma-2"
-      >
+      <v-card-actions class="pt-1">
         <a
-          href="/assets/files/report.pdf"
+          href="assets/files/report.pdf"
+          target="_blank"
           download
         >
-          <v-img
-            width="200"
-            class="report"
-            :src="srcImg"
-          />
+          <div class="outline-it mx-2 px-2">
+            <div class="my-2">Report download</div>
+            <v-img
+              contain
+              width="180"
+              src="/assets/img/report.png"
+              alt="report"
+            />
+          </div>
         </a>
       </v-card-actions>
     </v-card>
@@ -40,6 +43,52 @@
         v-html="p.html"
       />
     </v-card>
+    <v-card
+      flat
+      class="text-left pa-2"
+    >
+      <v-card-title class="subtitle-1 py-2">
+        Images
+      </v-card-title>
+      <v-card-actions>
+        <!-- v row here ? -->
+
+        <v-card
+          v-for="img in imagesConfig"
+          :key="img.id"
+          flat
+          class="text-left mx-2 px-2 outline-it"
+          @click="imageOverlay = img"
+        >
+          <v-card-title
+            class="subtitle-2 py-2"
+          >
+            {{ img.title }}
+          </v-card-title>
+          <v-img
+            outline-it
+            width="140"
+            height="100"
+            contain
+            :src="img.src"
+          />
+        </v-card>
+      </v-card-actions>
+    </v-card>
+
+    <v-dialog
+      v-if="imageOverlay"
+      v-model="imageOverlay"
+
+      max-height="400px"
+      max-width="500px"
+    >
+      <v-img
+        :src="imageOverlay.src"
+        contain
+      />
+      <!--v-img :src="imageOverlay.src" /-->
+    </v-dialog>
   </v-card>
 </template>
 
@@ -49,12 +98,20 @@ import descriptionConfig from '../assets/description.json'
 export default {
   data () {
     return {
-      descriptionConfig
+      descriptionConfig,
+      imagesConfig: [],
+
+      imageOverlay: null
     }
   },
-  computed: {
-    srcImg () {
-      return require('../assets/img/report.png')
+  created () {
+    this.fetchImagesConfig()
+  },
+  methods: {
+    fetchImagesConfig () {
+      fetch('/assets/dict_images.json')
+        .then(res => res.json())
+        .then(data => { this.imagesConfig = data })
     }
   }
 }
@@ -62,11 +119,13 @@ export default {
 
 <style scoped>
 
-.report:hover {
-  opacity: 0.8;
-  outline: solid 2px #666;
-  outline-offset: 2px;
+.outline-it {
   box-sizing: border-box;
+}
+
+.outline-it:hover {
+  outline: solid 2px #666;
+  outline-offset: 0px;
 }
 
 </style>

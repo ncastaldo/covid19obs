@@ -1,0 +1,12 @@
+[
+  {
+    "id": "IMG_1",
+    "title": "Image 1",
+    "src": "/assets/img/image_1.png"
+  },
+  {
+    "id": "IULM",
+    "title": "Image 2",
+    "src": "/assets/img/iulm.png"
+  }
+]

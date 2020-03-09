@@ -2,9 +2,18 @@
   <v-app-bar
     app
   >
-    <v-toolbar-title class="ml-2 text-left headline">
-      <span class="font-weight-light">COVID19</span>
-      <span class="ml-2"> Infodemics Observatory</span>
+    <v-toolbar-title
+      class="ml-2 text-left headline"
+    >
+      <span
+        class="font-weight-light mr-2"
+        :style="style"
+      >
+        COVID19
+      </span>
+      <span :style="style">
+        Infodemics Observatory
+      </span>
     </v-toolbar-title>
     <v-spacer />
     <a
@@ -44,6 +53,11 @@ export default {
         case 'xs': return this.images.logo
         case 'sm': return this.images.logo
         default: return this.images.full
+      }
+    },
+    style () {
+      return {
+        'font-size': this.breakpoint === 'xs' ? '16px' : '24px'
       }
     }
   }

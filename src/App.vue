@@ -26,9 +26,6 @@ export default {
     ...mapGetters({
       storeReady: 'isReady'
     })
-  },
-  created () {
-    document.title = 'COVID19 Digital Observatory'
   }
 }
 </script>

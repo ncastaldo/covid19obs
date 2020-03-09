@@ -15,9 +15,9 @@
         >
           <v-card
             flat
-            class="text-left"
+            class="text-left py-1"
           >
-            <v-card-title class="title">
+            <v-card-title class="title pt-1">
               {{ c.name }}
             </v-card-title>
             <v-card-subtitle class="pb-1">
