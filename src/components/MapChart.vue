@@ -38,7 +38,7 @@ import { mapActions, mapGetters } from 'vuex'
 const HEIGHT = 300
 
 const ZOOM_SCALE_MIN = 2
-const ZOOM_SCALE_MAX = 40
+const ZOOM_SCALE_MAX = 70
 
 export default {
   name: 'MapCard',
