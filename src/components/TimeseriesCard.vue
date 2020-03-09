@@ -133,12 +133,12 @@ export default {
     },
     chartHeight () {
       switch (this.$vuetify.breakpoint.name) {
-        case 'xs': return 200
-        case 'sm': return 200
+        case 'xs': return 140
+        case 'sm': return 140
         case 'md': return 120
         case 'lg': return 120
         case 'xl': return 120
-        default: return 300
+        default: return 120
       }
     }
   },

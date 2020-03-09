@@ -6,30 +6,29 @@
     <v-card-title ref="title">
       <span>{{ location.locationName }}</span>
       <v-spacer />
-      <span class="px-2"><i>cases:</i></span>
+      <span class="font-italic font-weight-light px-2"><i>COVID19 cases:</i></span>
       <span>{{
         mapConfirmed[location.locationId]
           ? mapConfirmed[location.locationId][dateIndex]
           : '-'
       }}</span>
     </v-card-title>
-    <v-tooltip
-      v-for="lc in legendColors"
-      :key="lc.color"
-      bottom
-    >
-      <template v-slot:activator="{ on }">
+    <div>
+      <span
+        v-for="lc in legendColors"
+        :key="lc.color"
+        style="display: inline-block"
+      >
+        {{ lc.id }}
         <v-icon
           :color="lc.color"
           small
-          class="pb-2"
-          v-on="on"
+          class="pb-1 my-1 ml-0 mr-2"
         >
           mdi-square
         </v-icon>
-      </template>
-      <span>{{ lc.label }}</span>
-    </v-tooltip>
+      </span>
+    </div>
     <v-card-actions class="pa-0">
       <MapChart
         :data="chartData"
@@ -47,11 +46,16 @@ import { scaleSequential, scaleLog } from 'd3-scale'
 import { quantize } from 'd3-interpolate'
 import { interpolateYlGnBu as interpolate } from 'd3-scale-chromatic'
 
+import { format } from 'd3-format'
+
 import { mapGetters } from 'vuex'
 
 import resize from 'vue-resize-directive'
 
+const fnFormat = format('.0s')
+
 const GREY = '#666'
+const LEGEND = 6
 
 export default {
   name: 'MapCard',
@@ -93,14 +97,14 @@ export default {
     },
     legendsColors () {
       return this.fnsScaleLog.map(fnScaleLog => [
-        { color: GREY, label: 'No data' },
-        ...quantize(interpolate, 10)
+        { color: GREY, label: '0 or No data', id: 0 },
+        ...quantize(interpolate, LEGEND)
           .map((c, i) => ({
             color: c,
-            min: i > 0 ? Math.round(fnScaleLog.invert(i / 8)) : 0,
-            max: Math.round(fnScaleLog.invert((i + 1) / 8))
+            min: Math.round(fnScaleLog.invert(i / LEGEND)),
+            max: Math.round(fnScaleLog.invert((i + 1) / LEGEND))
           }))
-          .map(lc => ({ color: lc.color, label: `${lc.min} - ${lc.max}` }))
+          .map(lc => ({ color: lc.color, label: `${fnFormat(lc.min)} - ${fnFormat(lc.max)}`, id: fnFormat(lc.max) }))
       ])
     },
     legendColors () {
@@ -118,7 +122,7 @@ export default {
           [l.locationId]: Array.isArray(this.mapConfirmed[l.locationId])
             ? this.mapConfirmed[l.locationId][i] > 0
               ? fnColor(this.mapConfirmed[l.locationId][i])
-              : interpolate(0)
+              : GREY
             : GREY
         }), {}))
     },

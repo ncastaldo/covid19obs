@@ -13,7 +13,7 @@
             contain
           />
           <v-toolbar-title
-            class="ml-4 text-left font-weight-bold"
+            class="ml-4 text-left headline"
           >
             COVID19 Infodemics Observatory
           </v-toolbar-title>
