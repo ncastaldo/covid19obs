@@ -35,7 +35,10 @@
           >CoMuNe Lab</a>, FBK
         </p>
         <p class="mb-1">
-          Designed by Nicola Castaldo with Vue.js, Vuetify, D3 and d3nic
+          Designed by <a
+            href="https://github.com/ncastaldo"
+            target="_blank"
+          >Nicola Castaldo</a> with Vue.js, Vuetify, D3 and d3nic
         </p>
       </v-card-text>
     </v-card>

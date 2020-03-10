@@ -13,7 +13,7 @@
       </v-card-title>
       <v-card-actions class="pt-1">
         <a
-          href="assets/files/report.pdf"
+          href="assets/files/COVID19_INFODEMICS_REPORT.pdf"
           target="_blank"
           download
         >
@@ -55,7 +55,8 @@
           v-for="(img, i) in imagesConfig"
           :key="i"
           flat
-          class="text-left mx-2 px-2 outline-it"
+          class="text-left mx-2 px-2 pb-2 mb-2 outline-it"
+          width="180"
           @click="imageOverlay = img"
         >
           <v-card-title
@@ -65,7 +66,7 @@
           </v-card-title>
           <v-img
             outline-it
-            width="140"
+            class="white-bg"
             height="100"
             contain
             :src="img.src"
@@ -78,11 +79,14 @@
       v-if="imageOverlay"
       v-model="imageOverlay"
 
-      max-height="400px"
-      max-width="500px"
+      max-width="80vw"
+      max-height="80vh"
     >
       <v-img
+        class="white-bg"
         :src="imageOverlay.src"
+        max-width="80vw"
+        max-height="80vh"
         contain
       />
       <!--v-img :src="imageOverlay.src" /-->
@@ -116,6 +120,10 @@ export default {
 </script>
 
 <style scoped>
+
+.white-bg {
+  background-color: rgba(255,255,255, 0.95)
+}
 
 .outline-it {
   box-sizing: border-box;

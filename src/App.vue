@@ -48,4 +48,8 @@ export default {
   opacity: 1 !important
 }
 
+.v-card__text, .v-card__title {
+  word-break: normal; /* maybe !important  */
+}
+
 </style>

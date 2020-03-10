@@ -49,6 +49,8 @@ import * as _ from 'lodash'
 import { select } from 'd3-selection'
 import { scaleLinear, scaleLog, scaleSymlog } from 'd3-scale'
 
+import { stack } from 'd3-shape'
+
 import { format } from 'd3-format'
 
 const scaleTypes = {
@@ -62,14 +64,16 @@ export default {
     id: String,
     size: Object,
     chartConfig: Object,
-    values: Array,
-    data: Array
+    timeseries: Array
   },
   data () {
     return {
       chart: null,
       axes: null,
       mouseBars: null,
+
+      valueComponents: null,
+      data: null,
 
       svg: null,
       topPadding: 10,
@@ -79,24 +83,14 @@ export default {
       xTooltip: null,
       yTooltip: null,
 
+      newChart: false,
+
       countMouseOver: 0
     }
   },
   computed: {
-    valueComponents () {
-      return this.values.map(v =>
-        v.type === 'bxLine'
-          ? v.component
-            .fnFillOpacity(0)
-            .fnStrokeWidth(2)
-            .fnStroke(v.color)
-          : v.component
-            .fnFill(v.color)
-            .fnStrokeWidth(0)
-      )
-    },
     circles () {
-      return this.values.filter(v => v.type === 'bxLine')
+      return this.chartConfig.values.filter(v => v.type === 'bxLine')
         .map(v => d3nic.bxCircles()
           .fnDefined(d => d[v.id].length)
           .fnValue(d => d[v.id])
@@ -112,16 +106,28 @@ export default {
     }
   },
   watch: {
-    values () {
+    chartConfig () {
       this.clear()
+
+      this.computeValueComponents()
+
       this.createAxes()
       this.createMouseBars()
       this.createChart()
-      this.draw()
+
+      this.computeData()
+
+      this.chart
+        .size(this.size)
+        .data(this.data)
+        .draw({ duration: 500 })
     },
-    data () {
-      // todo on values selection
-      this.draw()
+    timeseries () {
+      this.computeData()
+
+      this.chart
+        .data(this.data)
+        .draw({ delay: 750, duration: 500 })
     },
     size (value) {
       this.chart
@@ -132,17 +138,27 @@ export default {
       this.circles.map(c =>
         c.join().style('opacity', d => value && value.date === d.date ? 1 : null)
       )
-      this.values.map((v, i) => // awful but works
+      this.chartConfig.values.map((v, i) => // awful but works
         v.type === 'bxBars' &&
         this.valueComponents[i].join().style('opacity', d => value && value.date === d.date ? 0.8 : null)
       )
     }
   },
   mounted () {
+    this.computeValueComponents()
+
     this.createAxes()
     this.createMouseBars()
     this.createChart()
-    this.draw()
+
+    this.computeData()
+
+    this.chart
+      .size(this.size)
+      .data(this.data)
+      .draw({ duration: 500 })
+
+    this.svg = select(`#${this.id}`).node()
   },
   methods: {
     createAxes () {
@@ -180,14 +196,42 @@ export default {
             .concat([this.mouseBars])
         )
     },
-    draw () {
-      // next tick to be sure to receive the size
-      this.chart
-        .size(this.size)
-        .data(this.data)
-        .draw({ duration: 500 })
-
-      this.svg = select(`#${this.id}`).node()
+    computeData () {
+      if (!this.chartConfig.stacked) {
+        this.data = this.timeseries
+      } else {
+        const keys = this.chartConfig.values.map(v => v.id).reverse()
+        const fnStack = stack().keys(keys)
+        const stackedData = fnStack(this.timeseries)
+        this.data = this.timeseries.map((d, i) => ({
+          ...d,
+          ...keys.reduce((acc, k, j) => ({
+            ...acc,
+            [`stack_${k}`]: stackedData[j][i].filter((_, i) => i <= 1)
+          }), {})
+        }))
+      }
+    },
+    computeValueComponents () {
+      this.valueComponents = this.chartConfig.values.map((v, k) => {
+        const component = this.chartConfig.stacked
+          ? d3nic[v.type]()
+            .fnLowValue(d => (d[`stack_${v.id}`][0]) + (this.chartConfig.scaleType === 'scaleLog' ? 1 : 0))
+            .fnHighValue(d => (d[`stack_${v.id}`][1]) + (this.chartConfig.scaleType === 'scaleLog' ? 1 : 0))
+            .fnDefined(d => d[`stack_${v.id}`])
+          : v.fns.reduce((component, fn, i) => {
+            return component[fn.name](d => fn.type === 'field' ? d[fn.value] : fn.value)
+              .fnDefined(d => fn.type === 'field' ? d[fn.value].length : true)
+          }, d3nic[v.type]())
+        return v.type === 'bxLine'
+          ? component
+            .fnFillOpacity(0)
+            .fnStrokeWidth(2)
+            .fnStroke(v.color)
+          : component
+            .fnFill(v.color)
+            .fnStrokeWidth(0)
+      })
     },
     clear () {
       this.chart.group().remove()
@@ -199,7 +243,7 @@ export default {
       this.yTooltip = top
       this.hover = {
         date: d.date,
-        values: this.values.map(v => ({
+        values: this.chartConfig.values.map(v => ({
           label: `${v.label}:`,
           value: d[v.id],
           color: v.color

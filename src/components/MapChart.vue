@@ -124,7 +124,9 @@ export default {
           .translateExtent([[0, 0], Object.values(this.size)])
           .on('zoom', this.onZoom)
 
-        this.svg = select('svg#map-chart').call(this.fnZoom)
+        this.svg = select('svg#map-chart')
+          .call(this.fnZoom)
+          .on('dblclick.zoom', null)
 
         this.fnZoom.scaleTo(this.svg, ZOOM_SCALE_MIN)
       })
