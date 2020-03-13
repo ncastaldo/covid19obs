@@ -88,7 +88,10 @@ const actions = {
     const c = getters.getCounter
     commit('setLocationId', locationId)
     fetch(`/assets/infodemics_iso3/infodemics_${locationId || '_WORLD'}.csv`)
-      .then(res => res.text())
+      .then(res => {
+        if (res.headers.get('content-type').includes('text/csv')) { return res.text() }
+        return Promise.reject(Error)
+      })
       .then(data => Promise.resolve(fnDataParser.parse(data)))
       .then(ts => {
         // check equality

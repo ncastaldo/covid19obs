@@ -9,6 +9,7 @@
       height="0"
     />
     <v-tooltip
+      v-if="hover !== null"
       v-model="isHover"
       transition="none"
       absolute
@@ -17,7 +18,7 @@
       top
     >
       <div
-        v-if="hover"
+        v-if="hover !== null"
         class="text-left"
       >
         <div>{{ hover.date }}</div>
@@ -92,7 +93,7 @@ export default {
     circles () {
       return this.chartConfig.values.filter(v => v.type === 'bxLine')
         .map(v => d3nic.bxCircles()
-          .fnDefined(d => d[v.id].length)
+          .fnDefined(d => v.id in d && d[v.id].length)
           .fnValue(d => d[v.id])
           .fnFill(v.color)
           .fnOpacity(0)
@@ -207,7 +208,9 @@ export default {
           ...d,
           ...keys.reduce((acc, k, j) => ({
             ...acc,
-            [`stack_${k}`]: stackedData[j][i].filter((_, i) => i <= 1)
+            [`stack_${k}`]: this.timeseries.length // considering []
+              ? stackedData[j][i].filter((_, i) => i <= 1)
+              : 0
           }), {})
         }))
       }
@@ -221,7 +224,7 @@ export default {
             .fnDefined(d => d[`stack_${v.id}`])
           : v.fns.reduce((component, fn, i) => {
             return component[fn.name](d => fn.type === 'field' ? d[fn.value] : fn.value)
-              .fnDefined(d => fn.type === 'field' ? d[fn.value].length : true)
+              .fnDefined(d => fn.type === 'field' ? fn.value in d && d[fn.value].length : true) // to be reviewed
           }, d3nic[v.type]())
         return v.type === 'bxLine'
           ? component
