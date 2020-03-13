@@ -7,7 +7,11 @@ import vuetify from './plugins/vuetify'
 
 import ChartTooltip from './components/base/ChartTooltip'
 
+import VueMobileDetection from 'vue-mobile-detection'
+
 Vue.config.productionTip = false
+
+Vue.use(VueMobileDetection)
 
 Vue.component('ChartTooltip', ChartTooltip)
 

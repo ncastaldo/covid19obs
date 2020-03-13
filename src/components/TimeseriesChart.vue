@@ -47,7 +47,7 @@
 import * as d3nic from 'd3nic'
 import * as _ from 'lodash'
 
-import { select } from 'd3-selection'
+import { select, touches, event } from 'd3-selection'
 import { scaleLinear, scaleLog, scaleSymlog } from 'd3-scale'
 
 import { stack } from 'd3-shape'
@@ -121,14 +121,14 @@ export default {
       this.chart
         .size(this.size)
         .data(this.data)
-        .draw({ duration: 500 })
+        .draw({ duration: this.$isMobile() ? 0 : 500 })
     },
     timeseries () {
       this.computeData()
 
       this.chart
         .data(this.data)
-        .draw({ delay: 750, duration: 500 })
+        .draw({ delay: this.$isMobile() ? 750 : 0, duration: this.$isMobile() ? 0 : 500 })
     },
     size (value) {
       this.chart
@@ -157,9 +157,12 @@ export default {
     this.chart
       .size(this.size)
       .data(this.data)
-      .draw({ duration: 500 })
+      .draw({ duration: this.$isMobile() ? 0 : 500 })
 
-    this.svg = select(`#${this.id}`).node()
+    this.svg = select(`#${this.id}`)
+      .on('touchstart touchmove', this.onTouch)
+      .on('touchend', this.onTouchend)
+      .node()
   },
   methods: {
     createAxes () {
@@ -239,11 +242,7 @@ export default {
     clear () {
       this.chart.group().remove()
     },
-    onMouseover (d, i, nodes) {
-      const top = this.svg.getBoundingClientRect().top + this.topPadding
-      const event = this.mouseBars.event()
-      this.xTooltip = event.x
-      this.yTooltip = top
+    setHover (d) {
       this.hover = {
         date: d.date,
         values: this.chartConfig.values.map(v => ({
@@ -255,7 +254,32 @@ export default {
       }
       this.countMouseOver += 1
     },
-    onMouseout (state) {
+    onTouch () {
+      // event && event.preventDefault()
+      const x = touches(this.svg)[0][0]
+      const extent = this.chart.extent()
+      if (x > extent[0][0] && x < extent[1][0]) {
+        const step = this.chart.fnBandScale().step()
+        const d = this.data[Math.floor((x - extent[0][0]) / step)]
+        const top = this.svg.getBoundingClientRect().top + this.topPadding
+        this.xTooltip = x
+        this.yTooltip = top
+        this.setHover(d)
+      } else {
+        this.onTouchend()
+      }
+    },
+    onTouchend () {
+      this.hover = null
+    },
+    onMouseover (d, i, nodes) {
+      const top = this.svg.getBoundingClientRect().top + this.topPadding
+      const rect = nodes[i].getBoundingClientRect()
+      this.xTooltip = (rect.right + rect.x) / 2
+      this.yTooltip = top
+      this.setHover(d)
+    },
+    onMouseout () {
       this.countMouseOver -= 1
       this.debounceMouseOut()
     },

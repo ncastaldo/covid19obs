@@ -70,7 +70,9 @@ export default {
           .size(value)
           .draw()
 
-        this.svg.call(this.fnZoom.transform, this.getZoomIdentity())
+        if (!this.$isMobile()) {
+          this.svg.call(this.fnZoom.transform, this.getZoomIdentity())
+        }
       }
     },
     hover (value) {
@@ -93,8 +95,8 @@ export default {
         .fnFill(d => 'grey')
         .fnStroke(d => '#000')
         .fnBefore(s => s.style('vector-effect', 'non-scaling-stroke'))
-        .fnOn('mouseover', d => { this.hover = d })
-        .fnOn('mouseout', d => { this.hover = null })
+        .fnOn('mouseover touchstart', d => { this.hover = d })
+        .fnOn('mouseout mouseup touchend', d => { this.hover = null })
         .fnOn('click', this.onClick)
     },
     createChart () {
@@ -113,7 +115,7 @@ export default {
         this.chart
           .size(this.size)
           .data(this.data)
-          .draw({ duration: 500 })
+          .draw({ duration: this.$isMobile() ? 0 : 500 })
 
         this.paintMap()
 
@@ -168,12 +170,15 @@ export default {
         .filter(d => d.locationId === newLocationId)
         .style('stroke-width', 1)
 
-      this.svg.transition()
-        .duration(750)
-        .call(
-          this.fnZoom.transform,
-          this.getZoomIdentity()
-        )
+      console.log(this.$isMobile())
+      if (!this.$isMobile()) {
+        this.svg.transition()
+          .duration(750)
+          .call(
+            this.fnZoom.transform,
+            this.getZoomIdentity()
+          )
+      }
     }
   }
 }
