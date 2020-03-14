@@ -170,7 +170,6 @@ export default {
         .filter(d => d.locationId === newLocationId)
         .style('stroke-width', 1)
 
-      console.log(this.$isMobile())
       if (!this.$isMobile()) {
         this.svg.transition()
           .duration(750)
