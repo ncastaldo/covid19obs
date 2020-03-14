@@ -47,7 +47,7 @@
 import * as d3nic from 'd3nic'
 import * as _ from 'lodash'
 
-import { select, touches, event } from 'd3-selection'
+import { select, touches } from 'd3-selection'
 import { scaleLinear, scaleLog, scaleSymlog } from 'd3-scale'
 
 import { stack } from 'd3-shape'
@@ -128,7 +128,7 @@ export default {
 
       this.chart
         .data(this.data)
-        .draw({ delay: this.$isMobile() ? 750 : 0, duration: this.$isMobile() ? 0 : 500 })
+        .draw({ delay: this.$isMobile() ? 0 : 750, duration: this.$isMobile() ? 0 : 500 })
     },
     size (value) {
       this.chart

@@ -3,15 +3,21 @@
     v-resize:debounce.250="updateChartSize"
     class="fill-height"
   >
-    <v-card-title ref="title">
+    <v-card-actions class="px-4">
+      <v-select
+        v-model="mapVariableId"
+        :items="mapDicts"
+        item-text="name"
+        item-value="id"
+        hide-details
+      />
+    </v-card-actions>
+    <v-card-title class="mr-4 py-2">
       <span>{{ location.locationName }}</span>
       <v-spacer />
-      <span class="font-italic font-weight-light px-2"><i>COVID19 cases:</i></span>
-      <span>{{
-        mapConfirmed[location.locationId]
-          ? mapConfirmed[location.locationId][dateIndex]
-          : '-'
-      }}</span>
+      <span>
+        {{ mapVariableCurrentValue }}
+      </span>
     </v-card-title>
     <div>
       <span
@@ -26,7 +32,7 @@
         >
           mdi-square
         </v-icon>
-        {{ lc.id }}
+        {{ lc.label }}
       </span>
     </div>
     <v-card-actions class="pa-0">
@@ -42,20 +48,24 @@
 <script>
 import MapChart from './MapChart'
 
-import { scaleSequential, scaleLog } from 'd3-scale'
-import { quantize } from 'd3-interpolate'
+import { scaleLog, scaleLinear, scaleSymlog } from 'd3-scale'
 import { interpolateYlGnBu as interpolate } from 'd3-scale-chromatic'
 
 import { format } from 'd3-format'
-
 import { mapGetters } from 'vuex'
 
 import resize from 'vue-resize-directive'
 
-const fnFormat = format('.0s')
+import mapDicts from '../assets/mapDicts'
+
+const scaleTypes = {
+  scaleLinear: scaleLinear(),
+  scaleLog: scaleLog(),
+  scaleSymlog: scaleSymlog()
+}
 
 const GREY = '#666'
-const LEGEND = 6
+const LEGEND = 4
 
 export default {
   name: 'MapCard',
@@ -68,7 +78,13 @@ export default {
   data () {
     return {
       chartSize: null,
-      mapConfirmed: {}
+
+      mapDicts,
+
+      mapVariableId: mapDicts[0].id, // just initial
+      mapVariable: mapDicts[0], // just initial
+
+      mapData: {}
     }
   },
   computed: {
@@ -78,12 +94,32 @@ export default {
       dates: 'getDates',
       dateIndex: 'getDateIndex'
     }),
-    epiConfirmedMaxs () {
-      return Object.values(this.mapConfirmed)
-        .filter(v => Array.isArray(v))
-        .reduce((final, array) =>
-          final.map((f, i) => f < array[i] ? array[i] : f)
-        , this.dates.map(() => 0))
+    fnFormat () {
+      return format(this.mapVariable.format)
+    },
+    mapVariableCurrentValue () {
+      return this.mapData[this.location.locationId] &&
+        this.mapData[this.location.locationId][this.dateIndex] !== null
+        ? this.fnFormat(this.mapData[this.location.locationId][this.dateIndex])
+        : '-'
+    },
+    mapVariableDomains () {
+      const variableDomains = []
+      for (const i in this.dates) {
+        const domain = 'fixedDomain' in this.mapVariable
+          ? [...this.mapVariable.fixedDomain]
+          : Object.keys(this.mapData)
+            .filter(k => k !== '_WORLD')
+            .map(k => this.mapData[k])
+            .filter(v => Array.isArray(v))
+            .map(v => v[i])
+            .reduce((domain, cur) => [
+              Math.min(domain[0], cur),
+              Math.max(domain[1], cur)
+            ], [...this.mapVariable.baseDomain]) // spread otherwise unchanged
+        variableDomains.push(domain)
+      }
+      return variableDomains
     },
     chartData () { // computed just once
       return this.locations.map(l => ({
@@ -92,19 +128,24 @@ export default {
         geometry: l.geometry
       }))
     },
-    fnsScaleLog () {
-      return this.epiConfirmedMaxs.map(epiConfirmedMax => scaleLog().domain([1, epiConfirmedMax]))
+    fnsScale () {
+      return this.mapVariableDomains
+        .map(domain => scaleTypes[this.mapVariable.scaleType].copy().clamp(true).domain(domain))
     },
     legendsColors () {
-      return this.fnsScaleLog.map(fnScaleLog => [
-        { color: GREY, label: '0 or No data', id: 0 },
-        ...quantize(interpolate, LEGEND)
-          .map((c, i) => ({
-            color: c,
-            min: Math.round(fnScaleLog.invert(i / LEGEND)),
-            max: Math.round(fnScaleLog.invert((i + 1) / LEGEND))
-          }))
-          .map(lc => ({ color: lc.color, label: `${fnFormat(lc.min)} - ${fnFormat(lc.max)}`, id: fnFormat(lc.max) }))
+      return this.fnsScale.map(fnScale => [
+        { color: GREY, label: 'No data' },
+        ...[...Array(LEGEND + 1).keys()]
+          .map((_, i) => i / LEGEND)
+          .map((d, i, array) => {
+            const a = i === 0 || (i === array.length - 1 && this.mapVariable.fixedDomain) ? '' : '≤'
+            const b = this.fnFormat(fnScale.invert(d))
+            const c = i === array.length - 1 && this.mapVariable.lastPlus ? '+' : ''
+            return {
+              color: interpolate(d),
+              label: `${a}${b}${c}`
+            }
+          })
       ])
     },
     legendColors () {
@@ -113,16 +154,14 @@ export default {
         : []
     },
     fnsColor () {
-      return this.fnsScaleLog.map(fnScaleLog => scaleSequential(d => interpolate(fnScaleLog(d))))
+      return this.fnsScale.map(fnScale => d => interpolate(fnScale(d)))
     },
     colorMappings () {
       return this.fnsColor.map((fnColor, i) =>
         this.locations.reduce((mapping, l) => ({
           ...mapping,
-          [l.locationId]: Array.isArray(this.mapConfirmed[l.locationId])
-            ? this.mapConfirmed[l.locationId][i] > 0
-              ? fnColor(this.mapConfirmed[l.locationId][i])
-              : GREY
+          [l.locationId]: Array.isArray(this.mapData[l.locationId])
+            ? fnColor(this.mapData[l.locationId][i])
             : GREY
         }), {}))
     },
@@ -142,6 +181,11 @@ export default {
       }
     }
   },
+  watch: {
+    mapVariableId (value) {
+      this.fetchData()
+    }
+  },
   created () {
     this.fetchData()
   },
@@ -150,9 +194,14 @@ export default {
   },
   methods: {
     fetchData () {
-      fetch('/assets/dict_confirmed.json')
+      console.log(this.mapVariableId)
+      fetch(`/assets/mapDicts/${this.mapVariableId}.json`)
         .then(res => res.json())
-        .then(data => { this.mapConfirmed = data })
+        .then(data => {
+          this.mapData = data
+          this.mapVariable = this.mapDicts
+            .find(md => md.id === this.mapVariableId)
+        })
     },
     updateChartSize (v) {
       this.chartSize = {

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "confirmed",
+    "name": "COVID19 Cases",
+    "scaleType": "scaleSymlog",
+    "format": ".0f",
+    "baseDomain": [0, 0]
+  },
+  {
+    "id": "bots",
+    "name": "Bots",
+    "scaleType": "scaleLinear",
+    "format": ".1%",
+    "baseDomain": [1, 0],
+    "fixedDomain": [0, 1]
+  },
+  {
+    "id": "unreliable",
+    "name": "Unreliable Facts",
+    "scaleType": "scaleLinear",
+    "format": ".1%",
+    "baseDomain": [1, 0],
+    "fixedDomain": [0, 1]
+  },
+  {
+    "id": "expUnreliable",
+    "name": "Unreliable Facts Exposure",
+    "scaleType": "scaleLinear",
+    "format": ".1%",
+    "baseDomain": [1, 0],
+    "fixedDomain": [0, 1]
+  },
+  {
+    "id": "negSentiment",
+    "name": "Negative Sentiment",
+    "scaleType": "scaleLinear",
+    "format": ".2f",
+    "baseDomain": [0, 0],
+    "fixedDomain": [0, 0.5],
+    "lastPlus": true
+  }
+]
