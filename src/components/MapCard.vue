@@ -138,7 +138,7 @@ export default {
         ...[...Array(LEGEND + 1).keys()]
           .map((_, i) => i / LEGEND)
           .map((d, i, array) => {
-            const a = i === 0 || (i === array.length - 1 && this.mapVariable.fixedDomain) ? '' : '≤'
+            const a = i === 0 || (i === array.length - 1 && this.mapVariable.lastPlus) ? '' : '≤'
             const b = this.fnFormat(fnScale.invert(d))
             const c = i === array.length - 1 && this.mapVariable.lastPlus ? '+' : ''
             return {

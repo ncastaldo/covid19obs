@@ -8,7 +8,7 @@
   },
   {
     "id": "bots",
-    "name": "Bots",
+    "name": "% Bots",
     "scaleType": "scaleLinear",
     "format": ".1%",
     "baseDomain": [1, 0],
@@ -16,17 +16,17 @@
   },
   {
     "id": "unreliable",
-    "name": "Unreliable Facts",
+    "name": "% Unreliable Facts",
     "scaleType": "scaleLinear",
     "format": ".1%",
     "baseDomain": [1, 0],
     "fixedDomain": [0, 1]
   },
   {
-    "id": "expUnreliable",
-    "name": "Unreliable Facts Exposure",
+    "id": "riskIndex",
+    "name": "Risk Index",
     "scaleType": "scaleLinear",
-    "format": ".1%",
+    "format": ".2f",
     "baseDomain": [1, 0],
     "fixedDomain": [0, 1]
   },

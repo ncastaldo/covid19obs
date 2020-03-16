@@ -14,7 +14,6 @@
       <v-card-actions class="pt-1">
         <a
           href="assets/files/COVID19_INFODEMICS_REPORT.pdf"
-          target="_blank"
           download
         >
           <div class="outline-it mx-2 px-2">
@@ -96,24 +95,15 @@
 
 <script>
 import descriptionConfig from '../assets/description.json'
+import imagesConfig from '../assets/images.json'
 
 export default {
   data () {
     return {
       descriptionConfig,
-      imagesConfig: [],
+      imagesConfig,
 
       imageOverlay: null
-    }
-  },
-  created () {
-    this.fetchImagesConfig()
-  },
-  methods: {
-    fetchImagesConfig () {
-      fetch('/assets/dict_images.json')
-        .then(res => res.json())
-        .then(data => { this.imagesConfig = data })
     }
   }
 }

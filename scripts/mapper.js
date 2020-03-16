@@ -17,7 +17,7 @@ const outs = {
   confirmed: {},
   bots: {},
   unreliable: {},
-  expUnreliable: {},
+  riskIndex: {},
   negSentiment: {}
 }
 
@@ -50,7 +50,7 @@ world.features
         return +(sumUnreliable / sumTot).toFixed(4) || null
       })
 
-      outs.expUnreliable[ADM0_A3] = rows.map(row => {
+      outs.riskIndex[ADM0_A3] = rows.map(row => {
         const sumExpUnreliable = +row.FAC_fol_unreliable
         const sumTot = sumExpUnreliable + +row.FAC_fol_reliable
         if (!sumTot) return null
@@ -68,7 +68,7 @@ world.features
       outs.confirmed[ADM0_A3] = null
       outs.bots[ADM0_A3] = null
       outs.unreliable[ADM0_A3] = null
-      outs.expUnreliable[ADM0_A3] = null
+      outs.riskIndex[ADM0_A3] = null
       outs.negSentiment[ADM0_A3] = null
     }
   })
