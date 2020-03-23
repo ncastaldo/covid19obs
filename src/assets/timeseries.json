@@ -318,8 +318,8 @@
         "label": "Psychological",
         "tooltip": "State-of-the-art classification of personality traits is based on Big5 (O-C-E-A-N), identifying 5 fundamental units: Openness, Conscentiousness, Extraversion, Agreableness and Neuroticism.",
         "type": "bxChart",
-        "yFormat": ".3f",
-        "valueFormat": ".3f",
+        "yFormat": ".2f",
+        "valueFormat": ".2f",
         "stacked": false,
         "values": [
           {
