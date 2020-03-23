@@ -195,7 +195,7 @@ export default {
   methods: {
     fetchData () {
       console.log(this.mapVariableId)
-      fetch(`/assets/mapDicts/${this.mapVariableId}.json`)
+      fetch(`/assets/map_dicts/${this.mapVariableId}.json`)
         .then(res => res.json())
         .then(data => {
           this.mapData = data

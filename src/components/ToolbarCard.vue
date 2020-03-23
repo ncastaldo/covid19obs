@@ -33,7 +33,7 @@ export default {
   },
   methods: {
     fetchData () {
-      fetch('/assets/dict_general.json')
+      fetch('/assets/general.json')
         .then(res => res.json())
         .then(data => { this.labels = data })
     }

@@ -68,16 +68,16 @@ const mutations = {
   setTimeseries: (state, timeseries) => { state.timeseries = timeseries }
 }
 
-const fnDataParser = dsvFormat(';')
+const fnDataParser = dsvFormat(',')
 
 const actions = {
   init: ({ getters, commit }) => {
-    fetch('/assets/infodemics_iso3/infodemics__WORLD.csv')
+    fetch('/assets/infodemics/_WORLD.csv')
       .then(res => res.text())
       .then(data => Promise.resolve(fnDataParser.parse(data)))
       .then(ts => {
         commit('setTimeseries', ts)
-        commit('setDates', ts.map(ts => utcDay(new Date(ts.date))))
+        commit('setDates', ts.map(ts => utcDay(new Date(ts.datetime))))
         commit('setDateIndex', ts.length - 1)
         return Promise.resolve()
       })
@@ -87,7 +87,7 @@ const actions = {
     commit('incrementCounter')
     const c = getters.getCounter
     commit('setLocationId', locationId)
-    fetch(`/assets/infodemics_iso3/infodemics_${locationId || '_WORLD'}.csv`)
+    fetch(`/assets/infodemics/${locationId || '_WORLD'}.csv`)
       .then(res => {
         if (res.headers.get('content-type').includes('text/csv')) { return res.text() }
         return Promise.reject(Error)

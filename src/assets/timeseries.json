@@ -3,16 +3,16 @@
     "id": "TOP",
     "charts": [
       {
-        "id": "EPI",
+        "id": "epi",
         "label": "Epidemic",
-        "tooltip": "Time course of COVID-19 worldwide, with reported number of confirmed, recovered and dead cases.",
+        "tooltip": "Time course of COVID-19 worldwide, with reported number of confirmed, recovered and death cases.",
         "type": "bxChart",
         "yFormat": ".1s",
         "valueFormat": ".0f",
         "stacked": true,
         "values": [
           {
-            "id": "EPI_confirmed_cum",
+            "id": "epi_confirmed",
             "label": "C",
             "tooltip": "# Confirmed cases",
             "type": "bxBars",
@@ -20,7 +20,7 @@
             "fns": []
           },
           {
-            "id": "EPI_recovered_cum",
+            "id": "epi_recovered",
             "label": "R",
             "tooltip": "# Recovered cases",
             "type": "bxBars",
@@ -29,9 +29,9 @@
           },
 
           {
-            "id": "EPI_dead_cum",
+            "id": "epi_dead",
             "label": "D",
-            "tooltip": "# Dead cases",
+            "tooltip": "# Death cases",
             "type": "bxBars",
             "color": "#80b1d3",
             "fns": []
@@ -39,7 +39,7 @@
         ]
       },
       {
-        "id": "TWI",
+        "id": "twi",
         "label": "Tweets",
         "tooltip": "Time course of the volume of messages posted to Twitter about Wuhan, nCov-19, SARS-CoV-19, COVID-19.",
         "type": "bxChart",
@@ -48,7 +48,7 @@
         "stacked": false,
         "values": [
           {
-            "id": "TWI_num",
+            "id": "info_tweets",
             "label": "TW",
             "tooltip": "Number of tweets",
             "type": "bxBars",
@@ -62,14 +62,14 @@
               {
                 "name": "fnHighValue",
                 "type": "field",
-                "value": "TWI_num"
+                "value": "info_tweets"
               }
             ]
           }
         ]
       },
       {
-        "id": "ECO",
+        "id": "eco",
         "label": "Economy",
         "tooltip": "Time course of the major stock market index Closing Price % change.",
         "type": "bxChart",
@@ -78,7 +78,7 @@
         "stacked": false,
         "values": [
           {
-            "id": "ECO_price_close",
+            "id": "eco_close_pct",
             "label": "CP%",
             "tooltip": "Stock market index Closing Price % change",
             "type": "bxBars",
@@ -92,7 +92,7 @@
               {
                 "name": "fnHighValue",
                 "type": "field",
-                "value": "ECO_price_close"
+                "value": "eco_close_pct"
               }
             ]
           }
@@ -104,17 +104,17 @@
     "id": "CENTER",
     "charts": [
       {
-        "id": "TWI_num",
+        "id": "info_bots_human",
         "label": "Social Bots/Humans",
         "tooltip": "State-of-the-art detection of automated agents and humans, which can have Verified status on Twitter or not (in this case they are just Unverified). Verified bots include mainstream medias and, in some cases, extremely active VIP accounts. ",
         "type": "bxChart",
-        "scaleType": "scaleLog",
+        "scaleType": "scaleSymlog",
         "yFormat": ".1s",
         "valueFormat": ".3s",
         "stacked": false,
         "values": [
           {
-            "id": "TWI_num_unvhum",
+            "id": "info_human_unverified",
             "label": "UH",
             "tooltip": "Unverified Humans",
             "type": "bxLine",
@@ -123,12 +123,12 @@
               {
                 "name": "fnValue",
                 "type": "field",
-                "value": "TWI_num_unvhum"
+                "value": "info_human_unverified"
               }
             ]
           },
           {
-            "id": "TWI_num_verhum",
+            "id": "info_human_verified",
             "label": "VH",
             "tooltip": "Verified Humans",
             "type": "bxLine",
@@ -137,12 +137,12 @@
               {
                 "name": "fnValue",
                 "type": "field",
-                "value": "TWI_num_verhum"
+                "value": "info_human_verified"
               }
             ]
           },
           {
-            "id": "TWI_num_unvbot",
+            "id": "info_bot_unverified",
             "label": "UB",
             "tooltip": "Unverified Bots",
             "type": "bxLine",
@@ -151,12 +151,12 @@
               {
                 "name": "fnValue",
                 "type": "field",
-                "value": "TWI_num_unvbot"
+                "value": "info_bot_unverified"
               }
             ]
           },
           {
-            "id": "TWI_num_verbot",
+            "id": "info_bot_verified",
             "label": "VB",
             "tooltip": "Verified Bots",
             "type": "bxLine",
@@ -165,14 +165,14 @@
               {
                 "name": "fnValue",
                 "type": "field",
-                "value": "TWI_num_verbot"
+                "value": "info_bot_verified"
               }
             ]
           }
         ]
       },
        {
-        "id": "FAC",
+        "id": "info_reliable_unreliable",
         "label": "Reliability",
         "type": "bxChart",
         "tooltip": "Analysis of URLs present in tweets to determine if they are trustworthy (e.g., mainstream media, recognized scientific institutions and magazines) or not (fake news/hoax, satire, clickbait, etc.).",
@@ -181,7 +181,7 @@
         "stacked": true,
         "values": [
           {
-            "id": "FAC_num_unreliable",
+            "id": "info_fact_unreliable",
             "label": "UF",
             "tooltip": "Unreliable facts",
             "type": "bxBars",
@@ -189,7 +189,7 @@
             "fns": []
           },
           {
-            "id": "FAC_num_reliable",
+            "id": "info_fact_reliable",
             "label": "RF",
             "tooltip": "Reliable facts",
             "type": "bxBars",
@@ -199,7 +199,7 @@
         ]
       },
       {
-        "id": "EXP",
+        "id": "info_exposure",
         "label": "Exposure",
         "type": "bxChart",
         "tooltip": "Analysis of potential number of users exposed to trustworthy (or not) URLs present in tweets.",
@@ -208,7 +208,7 @@
         "stacked": true,
         "values": [
           {
-            "id": "FAC_fol_unreliable",
+            "id": "info_exposure_fact_unreliable",
             "label": "EUF",
             "tooltip": "Exposure of Unreliable facts",
             "type": "bxBars",
@@ -216,7 +216,7 @@
             "fns": []
           },
           {
-            "id": "FAC_fol_reliable",
+            "id": "info_exposure_fact_reliable",
             "label": "ERF",
             "tooltip": "Exposure of Reliable facts",
             "type": "bxBars",
@@ -231,7 +231,7 @@
     "id": "BOTTOM",
     "charts": [
       {
-        "id": "EMO_SENT",
+        "id": "info_sentiment",
         "label": "Sentiment",
         "tooltip": "State-of-the-art lexicon and rule-based sentiment analysis ranging from Very Negative (-1) to Neutral (0) and Very Positive (+1)",
         "type": "bxChart",
@@ -240,7 +240,7 @@
         "stacked": false,
         "values": [
           {
-            "id": "EMO_Sentiment",
+            "id": "info_sentiment",
             "label": "S",
             "tooltip": "Sentiment",
             "type": "bxBars",
@@ -254,14 +254,14 @@
               {
                 "name": "fnHighValue",
                 "type": "field",
-                "value": "EMO_Sentiment"
+                "value": "info_sentiment"
               }
             ]
           }
         ]
       },
       {
-        "id": "EMO_VAD",
+        "id": "info_vad",
         "label": "Emotional",
         "tooltip": "State-of-the-art emotional analysis is based on the V-A-D (Valence-Arousal-Dominance) decomposition. Valence deals with pleasure, Arousal deals with emotional intensity, Dominance deals with the sense of control, in response to stimuli.",
         "type": "bxChart",
@@ -270,7 +270,7 @@
         "stacked": false,
         "values": [
           {
-            "id": "EMO_VAD_V",
+            "id": "info_vad_V",
             "label": "V",
             "tooltip": "Valence",
             "type": "bxLine",
@@ -279,12 +279,12 @@
               {
                 "name": "fnValue",
                 "type": "field",
-                "value": "EMO_VAD_V"
+                "value": "info_vad_V"
               }
             ]
           },
           {
-            "id": "EMO_VAD_A",
+            "id": "info_vad_A",
             "label": "A",
             "tooltip": "Arousal",
             "type": "bxLine",
@@ -293,12 +293,12 @@
               {
                 "name": "fnValue",
                 "type": "field",
-                "value": "EMO_VAD_A"
+                "value": "info_vad_A"
               }
             ]
           },
           {
-            "id": "EMO_VAD_D",
+            "id": "info_vad_D",
             "label": "D",
             "tooltip": "Dominance",
             "type": "bxLine",
@@ -307,14 +307,14 @@
               {
                 "name": "fnValue",
                 "type": "field",
-                "value": "EMO_VAD_D"
+                "value": "info_vad_D"
               }
             ]
           }
         ]
       },
       {
-        "id": "EMO_Big5",
+        "id": "info_big_5",
         "label": "Psychological",
         "tooltip": "State-of-the-art classification of personality traits is based on Big5 (O-C-E-A-N), identifying 5 fundamental units: Openness, Conscentiousness, Extraversion, Agreableness and Neuroticism.",
         "type": "bxChart",
@@ -323,7 +323,7 @@
         "stacked": false,
         "values": [
           {
-            "id": "EMO_Big5_O",
+            "id": "info_big_5_O",
             "label": "O",
             "tooltip": "Openness to experience",
             "type": "bxLine",
@@ -332,12 +332,12 @@
               {
                 "name": "fnValue",
                 "type": "field",
-                "value": "EMO_Big5_O"
+                "value": "info_big_5_O"
               }
             ]
           },
           {
-            "id": "EMO_Big5_C",
+            "id": "info_big_5_C",
             "label": "C",
             "tooltip": "Conscientiousness",
             "type": "bxLine",
@@ -346,12 +346,12 @@
               {
                 "name": "fnValue",
                 "type": "field",
-                "value": "EMO_Big5_C"
+                "value": "info_big_5_C"
               }
             ]
           },
           {
-            "id": "EMO_Big5_E",
+            "id": "info_big_5_E",
             "label": "E",
             "tooltip": "Extraversion",
             "type": "bxLine",
@@ -360,12 +360,12 @@
               {
                 "name": "fnValue",
                 "type": "field",
-                "value": "EMO_Big5_E"
+                "value": "info_big_5_E"
               }
             ]
           },
           {
-            "id": "EMO_Big5_A",
+            "id": "info_big_5_A",
             "label": "A",
             "tooltip": "Agreableness",
             "type": "bxLine",
@@ -374,12 +374,12 @@
               {
                 "name": "fnValue",
                 "type": "field",
-                "value": "EMO_Big5_A"
+                "value": "info_big_5_A"
               }
             ]
           },
           {
-            "id": "EMO_Big5_N",
+            "id": "info_big_5_N",
             "label": "N",
             "tooltip": "Neuroticism",
             "type": "bxLine",
@@ -388,7 +388,7 @@
               {
                 "name": "fnValue",
                 "type": "field",
-                "value": "EMO_Big5_N"
+                "value": "info_big_5_N"
               }
             ]
           }

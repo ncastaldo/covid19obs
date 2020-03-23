@@ -70,6 +70,9 @@
         </v-col>
       </v-row>
       <v-row>
+        <!--v-col cols="12">
+          <FactsCard />
+        </v-col-->
         <v-col cols="12">
           <DescriptionCard />
         </v-col>
@@ -94,6 +97,9 @@ import MapCard from './MapCard'
 
 import ToolbarCard from './ToolbarCard'
 import TimeseriesCard from './TimeseriesCard'
+
+// import FactsCard from './FactsCard'
+
 import DescriptionCard from './DescriptionCard'
 import TableCard from './TableCard'
 import ContactsCard from './ContactsCard'
@@ -109,6 +115,7 @@ export default {
     DateSlider,
     MapCard,
     TimeseriesCard,
+    // FactsCard,
     TableCard,
     DescriptionCard,
     DataSourcesCard,

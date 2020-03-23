@@ -23,7 +23,7 @@
     "fixedDomain": [0, 1]
   },
   {
-    "id": "riskIndex",
+    "id": "risk_index",
     "name": "Risk Index",
     "scaleType": "scaleLinear",
     "format": ".2f",
@@ -31,7 +31,7 @@
     "fixedDomain": [0, 1]
   },
   {
-    "id": "negSentiment",
+    "id": "neg_sentiment",
     "name": "Negative Sentiment",
     "scaleType": "scaleLinear",
     "format": ".2f",

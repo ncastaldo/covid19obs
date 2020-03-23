@@ -21,7 +21,7 @@
         v-if="hover !== null"
         class="text-left"
       >
-        <div>{{ hover.date }}</div>
+        <div>{{ hover.datetime }}</div>
         <div
           v-for="(hv, i) in hover.values"
           :key="i"
@@ -137,11 +137,11 @@ export default {
     },
     hover (value) {
       this.circles.map(c =>
-        c.join().style('opacity', d => value && value.date === d.date ? 1 : null)
+        c.join().style('opacity', d => value && value.datetime === d.datetime ? 1 : null)
       )
       this.chartConfig.values.map((v, i) => // awful but works
         v.type === 'bxBars' &&
-        this.valueComponents[i].join().style('opacity', d => value && value.date === d.date ? 0.8 : null)
+        this.valueComponents[i].join().style('opacity', d => value && value.datetime === d.datetime ? 0.8 : null)
       )
     }
   },
@@ -190,8 +190,8 @@ export default {
       this.chart = d3nic.bxChart()
         .selector(`#${this.id}`)
         .padding({ left: 50, right: 20, top: this.topPadding, bottom: 30 })
-        .fnKey(d => new Date(d.date))
-        .fnBandValue(d => d.date)
+        .fnKey(d => new Date(d.datetime))
+        .fnBandValue(d => d.datetime)
         .fnContScale(scaleTypes[this.chartConfig.scaleType] || scaleLinear())
       // do not use spread for proxy: they would vanish, use concat instead
         .components(
@@ -227,7 +227,7 @@ export default {
             .fnDefined(d => d[`stack_${v.id}`])
           : v.fns.reduce((component, fn, i) => {
             return component[fn.name](d => fn.type === 'field' ? d[fn.value] : fn.value)
-              .fnDefined(d => fn.type === 'field' ? fn.value in d && d[fn.value].length : true) // to be reviewed
+              .fnDefined(d => fn.type === 'field' ? d[fn.value].length > 0 : true) // to be reviewed
           }, d3nic[v.type]())
         return v.type === 'bxLine'
           ? component
@@ -244,7 +244,7 @@ export default {
     },
     setHover (d) {
       this.hover = {
-        date: d.date,
+        datetime: d.datetime,
         values: this.chartConfig.values.map(v => ({
           label: `${v.label}:`,
           value: d[v.id],
