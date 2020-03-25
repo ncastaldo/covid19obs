@@ -69,12 +69,12 @@
               </v-col>
             </v-row>
           </v-col>
+          <v-col class="pt-2">
+            <FactsCard />
+          </v-col>
         </v-row>
       </div>
       <v-row>
-        <!--v-col cols="12">
-          <FactsCard />
-        </v-col-->
         <v-col cols="12">
           <DescriptionCard />
         </v-col>
@@ -108,6 +108,8 @@ import TableCard from './TableCard'
 import ContactsCard from './ContactsCard'
 import DataSourcesCard from './DataSourcesCard'
 
+import FactsCard from './FactsCard'
+
 import timeseriesConfig from '../assets/timeseries.json'
 
 const tabs = timeseriesConfig.map((_, i) => 0)
@@ -119,7 +121,7 @@ export default {
     LocationCard,
     MapCard,
     TimeseriesCard,
-    // FactsCard,
+    FactsCard,
     TableCard,
     DescriptionCard,
     DataSourcesCard,

@@ -17,7 +17,7 @@
         <v-col class="flex-grow-0 mt-3">
           <div
             class="title"
-            style="min-width: 40px"
+            style="min-width: 80px"
           >
             {{ mapVariableCurrentValue }}
           </div>

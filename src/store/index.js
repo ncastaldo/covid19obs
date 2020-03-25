@@ -37,7 +37,9 @@ const state = {
   dates: [],
   dateIndex: 0,
 
-  timeseries: null // the current timeseries
+  timeseries: null, // the current INFODEMICS timeseries
+
+  factTable: null // the current fact table
 }
 
 const getters = {
@@ -53,7 +55,8 @@ const getters = {
   getDates: ({ dates }) => dates,
   getDateIndex: ({ dateIndex }) => dateIndex,
 
-  getTimeseries: ({ timeseries }) => timeseries
+  getTimeseries: ({ timeseries }) => timeseries,
+  getFactTable: ({ factTable }) => factTable
 }
 
 const mutations = {
@@ -65,14 +68,15 @@ const mutations = {
   setDateIndex: (state, dateIndex) => { state.dateIndex = dateIndex },
   setDates: (state, dates) => { state.dates = dates },
 
-  setTimeseries: (state, timeseries) => { state.timeseries = timeseries }
+  setTimeseries: (state, timeseries) => { state.timeseries = timeseries },
+  setFactTable: (state, factTable) => { state.factTable = factTable }
 }
 
 const fnDataParser = dsvFormat(',')
 
 const actions = {
   init: ({ getters, commit }) => {
-    fetch('/assets/infodemics/_WORLD.csv')
+    const promiseInfodemics = fetch('/assets/infodemics/_WORLD.csv')
       .then(res => res.text())
       .then(data => Promise.resolve(fnDataParser.parse(data)))
       .then(ts => {
@@ -81,25 +85,49 @@ const actions = {
         commit('setDateIndex', ts.length - 1)
         return Promise.resolve()
       })
+    const promiseFactTable = fetch('/assets/facts/tables/_WORLD.csv')
+      .then(res => res.text())
+      .then(data => Promise.resolve(fnDataParser.parse(data)))
+      .then(ft => {
+        commit('setFactTable', ft)
+        return Promise.resolve()
+      })
+    Promise.all([promiseInfodemics, promiseFactTable])
       .then(() => commit('setReady', true))
   },
   setLocationId: ({ getters, commit }, locationId) => {
     commit('incrementCounter')
     const c = getters.getCounter
     commit('setLocationId', locationId)
-    fetch(`/assets/infodemics/${locationId || '_WORLD'}.csv`)
+
+    const promiseInfodemics = fetch(`/assets/infodemics/${locationId || '_WORLD'}.csv`)
       .then(res => {
         if (res.headers.get('content-type').includes('text/csv')) { return res.text() }
         return Promise.reject(Error)
       })
       .then(data => Promise.resolve(fnDataParser.parse(data)))
-      .then(ts => {
-        // check equality
-        getters.getCounter === c && commit('setTimeseries', ts)
+
+    const promiseFactTable = fetch(`/assets/facts/tables/${locationId || '_WORLD'}.csv`)
+      .then(res => {
+        if (res.headers.get('content-type').includes('text/csv')) { return res.text() }
+        return Promise.reject(Error)
+      })
+      .then(data => Promise.resolve(fnDataParser.parse(data)))
+
+    Promise.all([promiseInfodemics, promiseFactTable])
+      .then(([ts, ft]) => {
+        commit('setReady', true)
+        if (getters.getCounter === c) {
+          commit('setTimeseries', ts)
+          commit('setFactTable', ft)
+        }
       })
       .catch(e => {
         console.log(`No data for locationId: ${locationId}`)
-        commit('setTimeseries', [])
+        if (getters.getCounter === c) {
+          commit('setTimeseries', [])
+          commit('setFactTable', [])
+        }
       })
   }
 }

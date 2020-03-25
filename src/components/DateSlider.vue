@@ -2,7 +2,7 @@
   <v-row
     align="center"
   >
-    <v-col class="flex-grow-1 mx-2">
+    <v-col class="flex-grow-1 ml-3 mr-1">
       <v-row align="center">
         <v-btn
           icon
@@ -25,8 +25,11 @@
         />
       </v-row>
     </v-col>
-    <v-col class="flex-grow-0 mx-2">
-      <div class="subtitle font-weight-light">
+    <v-col class="flex-grow-0 ml-1 mr-2">
+      <div
+        class="subtitle font-weight-light"
+        style="min-width: 80px"
+      >
         {{ dateString }}
       </div>
     </v-col>

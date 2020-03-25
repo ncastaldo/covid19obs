@@ -2,8 +2,9 @@
   <v-card
     tile
   >
-    <v-card-title class="py-2 justify-center font-weight-light">
-      {{ location.locationName }}
+    <v-card-title class="py-2 justify-center">
+      <span class="font-weight-light pr-2">Current location:</span>
+      <span>{{ location.locationName }}</span>
     </v-card-title>
   </v-card>
 </template>
