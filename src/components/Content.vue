@@ -1,74 +1,76 @@
 <template>
   <v-content>
     <v-container>
-      <v-row>
-        <v-col class="py-0">
-          <ToolbarCard />
-        </v-col>
-      </v-row>
-      <v-row style="min-height: 600px">
-        <v-col
-          cols="12"
-          md="6"
-          lg="7"
+      <ToolbarCard class="mb-3" />
+      <div sticky-container>
+        <div
+          v-sticky
+          sticky-z-index="4"
+          sticky-offset="stickyOffset"
         >
-          <v-row
-            class="fill-height flex-column"
-            no-gutters
+          <LocationCard />
+        </div>
+        <v-row style="min-height: 600px">
+          <v-col
+            cols="12"
+            md="6"
+            lg="7"
           >
-            <v-col class="mb-4 flex-grow-0">
-              <DateSlider />
-            </v-col>
-            <v-col class="flex-grow-1">
-              <MapCard class="fill-height" />
-            </v-col>
-          </v-row>
-        </v-col>
-        <v-col
-          cols="12"
-          md="6"
-          lg="5"
-        >
-          <v-row
-            v-if="true"
-            class="fill-height flex-column"
-            no-gutters
-          >
-            <v-col
-              v-for="(section, i) in timeseriesConfig"
-              :key="section.id"
-              :class="`fill-height flex-column ${i!==0 ? 'mt-4' : ''}`"
+            <v-row
+              class="fill-height flex-column"
+              no-gutters
             >
-              <v-row
-                no-gutters
-                class="fill-height flex-column"
+              <v-col class="flex-grow-1">
+                <MapCard class="fill-height" />
+              </v-col>
+            </v-row>
+          </v-col>
+          <v-col
+            cols="12"
+            md="6"
+            lg="5"
+          >
+            <v-row
+              v-if="true"
+              class="fill-height flex-column"
+              no-gutters
+            >
+              <v-col
+                v-for="(section, i) in timeseriesConfig"
+                :key="section.id"
+                :class="`fill-height flex-column ${i!==0 ? 'mt-4' : ''}`"
               >
-                <v-col class="flex-grow-0">
-                  <v-tabs
-                    v-model="tabs[i]"
-                    height="30"
-                    show-arrows
-                  >
-                    <v-tab
-                      v-for="chart in section.charts"
-                      :key="chart.id"
+                <v-row
+                  no-gutters
+                  class="fill-height flex-column"
+                >
+                  <v-col class="flex-grow-0">
+                    <v-tabs
+                      v-model="tabs[i]"
+                      height="30"
+                      show-arrows
                     >
-                      {{ chart.label }}
-                    </v-tab>
-                  </v-tabs>
-                </v-col>
-                <v-col class="flex-grow-1">
-                  <TimeseriesCard
-                    :id="section.id"
-                    class="fill-height"
-                    :chartConfig="section.charts[tabs[i]]"
-                  />
-                </v-col>
-              </v-row>
-            </v-col>
-          </v-row>
-        </v-col>
-      </v-row>
+                      <v-tab
+                        v-for="chart in section.charts"
+                        :key="chart.id"
+                      >
+                        {{ chart.label }}
+                      </v-tab>
+                    </v-tabs>
+                  </v-col>
+                  <v-col class="flex-grow-1">
+                    <TimeseriesCard
+                      :id="section.id"
+                      class="fill-height"
+                      :chartConfig="section.charts[tabs[i]]"
+                    />
+                  </v-col>
+                </v-row>
+              </v-col>
+            </v-row>
+          </v-col>
+        </v-row>
+      </div>
       <v-row>
         <!--v-col cols="12">
           <FactsCard />
@@ -92,13 +94,14 @@
 
 <script>
 
-import DateSlider from './DateSlider'
+import Sticky from 'vue-sticky-directive'
+
 import MapCard from './MapCard'
 
 import ToolbarCard from './ToolbarCard'
 import TimeseriesCard from './TimeseriesCard'
 
-// import FactsCard from './FactsCard'
+import LocationCard from './LocationCard'
 
 import DescriptionCard from './DescriptionCard'
 import TableCard from './TableCard'
@@ -110,9 +113,10 @@ import timeseriesConfig from '../assets/timeseries.json'
 const tabs = timeseriesConfig.map((_, i) => 0)
 
 export default {
+  directives: { Sticky },
   components: {
     ToolbarCard,
-    DateSlider,
+    LocationCard,
     MapCard,
     TimeseriesCard,
     // FactsCard,
@@ -124,7 +128,8 @@ export default {
   data () {
     return {
       timeseriesConfig,
-      tabs
+      tabs,
+      stickyOffset: { top: 60 }
     }
   }
 }

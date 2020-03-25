@@ -1,30 +1,36 @@
 <template>
-  <v-card>
-    <div class="pt-2">
-      <b>{{ dateString }}</b>
-    </div>
-    <v-card-actions>
-      <v-btn
-        icon
-        class="mr-2"
-        @click="onPlayClick"
-      >
-        <v-icon>{{ playIcon }}</v-icon>
-      </v-btn>
-      <v-slider
-        v-model="privateDateIndex"
-        class="ma-0"
-        :tick-labels="dates"
-        min="0"
-        label=""
-        hide-details
-        :max="dates.length - 1"
-        step="1"
-        tick-size="0"
-        @mousedown="stopInterval"
-      />
-    </v-card-actions>
-  </v-card>
+  <v-row
+    align="center"
+  >
+    <v-col class="flex-grow-1 mx-2">
+      <v-row align="center">
+        <v-btn
+          icon
+          class="mr-2"
+          @click="onPlayClick"
+        >
+          <v-icon>{{ playIcon }}</v-icon>
+        </v-btn>
+        <v-slider
+          v-model="privateDateIndex"
+          class="ma-0"
+          :tick-labels="dates"
+          min="0"
+          label=""
+          hide-details
+          :max="dates.length - 1"
+          step="1"
+          tick-size="0"
+          @mousedown="stopInterval"
+        />
+      </v-row>
+    </v-col>
+    <v-col class="flex-grow-0 mx-2">
+      <div class="subtitle font-weight-light">
+        {{ dateString }}
+      </div>
+    </v-col>
+  </v-row>
 </template>
 
 <script>

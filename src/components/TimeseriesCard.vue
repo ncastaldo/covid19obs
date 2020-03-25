@@ -100,8 +100,13 @@ export default {
         label: v.label,
         tooltip: v.tooltip
       }))
-    },
-    chartHeight () {
+    }
+  },
+  mounted () {
+    this.updateChartSize() // since refs are not reactive
+  },
+  methods: {
+    getChartHeight () {
       switch (this.$vuetify.breakpoint.name) {
         case 'xs': return 140
         case 'sm': return 140
@@ -110,16 +115,11 @@ export default {
         case 'xl': return 120
         default: return 120
       }
-    }
-  },
-  mounted () {
-    this.updateChartSize() // since refs are not reactive
-  },
-  methods: {
+    },
     updateChartSize () {
       this.chartSize = {
         width: this.$el.clientWidth,
-        height: this.chartHeight
+        height: this.getChartHeight()
       }
     }
   }

@@ -3,23 +3,31 @@
     v-resize:debounce.250="updateChartSize"
     class="fill-height"
   >
-    <v-card-actions class="px-4">
-      <v-select
-        v-model="mapVariableId"
-        :items="mapDicts"
-        item-text="name"
-        item-value="id"
-        hide-details
-      />
-    </v-card-actions>
-    <v-card-title class="mr-4 py-2">
-      <span>{{ location.locationName }}</span>
-      <v-spacer />
-      <span>
-        {{ mapVariableCurrentValue }}
-      </span>
-    </v-card-title>
-    <div>
+    <div class="mx-3 px-2">
+      <v-row align="center">
+        <v-col class="flex-grow-1 pt-0">
+          <v-select
+            v-model="mapVariableId"
+            :items="mapDicts"
+            item-text="name"
+            item-value="id"
+            hide-details
+          />
+        </v-col>
+        <v-col class="flex-grow-0 mt-3">
+          <div
+            class="title"
+            style="min-width: 40px"
+          >
+            {{ mapVariableCurrentValue }}
+          </div>
+        </v-col>
+      </v-row>
+    </div>
+    <div class="py-1 mx-3">
+      <DateSlider />
+    </div>
+    <div class="py-1">
       <span
         v-for="lc in legendColors"
         :key="lc.color"
@@ -46,6 +54,7 @@
 </template>
 
 <script>
+import DateSlider from './DateSlider'
 import MapChart from './MapChart'
 
 import { scaleLog, scaleLinear, scaleSymlog } from 'd3-scale'
@@ -73,7 +82,8 @@ export default {
     resize
   },
   components: {
-    MapChart
+    MapChart,
+    DateSlider
   },
   data () {
     return {
@@ -169,16 +179,6 @@ export default {
       return this.dateIndex !== null
         ? this.colorMappings[this.dateIndex]
         : null
-    },
-    chartHeight () {
-      switch (this.$vuetify.breakpoint.name) {
-        case 'xs': return 330
-        case 'sm': return 330
-        case 'md': return 440
-        case 'lg': return 440
-        case 'xl': return 440
-        default: return 300
-      }
     }
   },
   watch: {
@@ -203,10 +203,20 @@ export default {
             .find(md => md.id === this.mapVariableId)
         })
     },
+    getChartHeight () {
+      switch (this.$vuetify.breakpoint.name) {
+        case 'xs': return 330
+        case 'sm': return 330
+        case 'md': return 450
+        case 'lg': return 450
+        case 'xl': return 450
+        default: return 300
+      }
+    },
     updateChartSize (v) {
       this.chartSize = {
         width: this.$el.clientWidth,
-        height: this.chartHeight
+        height: this.getChartHeight()
       }
     }
   }

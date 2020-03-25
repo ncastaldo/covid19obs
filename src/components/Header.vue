@@ -1,6 +1,7 @@
 <template>
   <v-app-bar
     app
+    height="60"
   >
     <v-toolbar-title
       class="ml-2 text-left headline"
