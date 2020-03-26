@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,51,cnn.it,https://cnn.it/2vw6cjq
-2,POLITICAL,40,cnn.it,https://cnn.it/2qmv5pf
-3,CLICKBAIT,34,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-4,POLITICAL,27,cnn.it,https://cnn.it/3942kes
-5,POLITICAL,20,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-6,POLITICAL,19,cnn.it,https://cnn.it/37zvbvy
-7,POLITICAL,14,es.rt.com,https://es.rt.com/7fjk
-8,POLITICAL,13,eldiario.es,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-9,POLITICAL,13,cnn.it,https://cnn.it/3dfkugq
-10,POLITICAL,11,eldiario.es,https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
-11,POLITICAL,10,actualidad.rt.com,https://actualidad.rt.com/actualidad/340726-prohibir-salir-wuhan-originarse-coronavirus
-12,POLITICAL,10,es.rt.com,https://es.rt.com/7bph
-13,POLITICAL,10,es.rt.com,https://es.rt.com/7d3m
-14,POLITICAL,9,cnn.it,https://cnn.it/2vzqpse
-15,POLITICAL,9,es.rt.com,https://es.rt.com/7fd4
-16,POLITICAL,8,es.rt.com,https://es.rt.com/7b0p
-17,POLITICAL,8,es.rt.com,https://es.rt.com/7eej
-18,POLITICAL,8,es.rt.com,https://es.rt.com/7f2w
-19,POLITICAL,7,cnn.it,https://cnn.it/30pwybm
-20,POLITICAL,7,es.rt.com,https://es.rt.com/7bnk
+rank,fact_type,count,domain,title,url
+1,POLITICAL,51,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vw6cjq
+2,POLITICAL,40,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
+3,CLICKBAIT,34,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+4,POLITICAL,27,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3942kes
+5,POLITICAL,20,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+6,POLITICAL,19,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37zvbvy
+7,POLITICAL,14,es.rt.com,Una persona muere cada 10 minutos por coronavirus en Irán,https://es.rt.com/7fjk
+8,POLITICAL,13,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
+9,POLITICAL,13,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3dfkugq
+10,POLITICAL,11,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
+11,POLITICAL,10,actualidad.rt.com,"China prohíbe a 11 millones de ciudadanos salir de Wuhan, donde se originó el nuevo coronavirus",https://actualidad.rt.com/actualidad/340726-prohibir-salir-wuhan-originarse-coronavirus
+12,POLITICAL,10,es.rt.com,China informa de un brote de gripe aviar en medio de la batalla contra el coronavirus 2019-nCoV,https://es.rt.com/7bph
+13,POLITICAL,10,es.rt.com,Corea del Sur anuncia que el coronavirus se está propagando por el este del país,https://es.rt.com/7d3m
+14,POLITICAL,9,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vzqpse
+15,POLITICAL,9,es.rt.com,China aprueba una vacuna contra el coronavirus para ensayos clínicos,https://es.rt.com/7fd4
+16,POLITICAL,8,es.rt.com,Aumentan a 25 las víctimas mortales y a 830 los infectados por el coronavirus en China,https://es.rt.com/7b0p
+17,POLITICAL,8,es.rt.com,China asegura que casi el 70 % de los enfermos de coronavirus se han recuperado,https://es.rt.com/7eej
+18,POLITICAL,8,es.rt.com,"Italia recluta a médicos de Cuba, Venezuela y China para luchar contra el coronavirus",https://es.rt.com/7f2w
+19,POLITICAL,7,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30pwybm
+20,POLITICAL,7,es.rt.com,Confirman el primer caso del coronavirus en España,https://es.rt.com/7bnk

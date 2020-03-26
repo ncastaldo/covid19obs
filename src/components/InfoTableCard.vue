@@ -21,14 +21,51 @@
 
 import { dsvFormat } from 'd3-dsv'
 
-const filePath = '/assets/table/country_infodemics_summary_top.csv'
+const filePath = '/assets/table/infodemic_table.csv'
+const headers = [
+  {
+    value: 'rank',
+    text: 'Rank',
+    width: 80
+  },
+  {
+    value: 'country',
+    text: 'Country',
+    width: 170
+  },
+  {
+    value: 'tweets_day',
+    text: 'Avg. tweets/day',
+    width: 160
+  },
+  {
+    value: 'risk_index',
+    text: 'Risk index',
+    width: 150
+  },
+  {
+    value: 'reliability',
+    text: 'Native reliability',
+    width: 160
+  },
+  {
+    value: 'reliability_exposure',
+    text: 'Exposure reliable news',
+    width: 190
+  },
+  {
+    value: 'bot_unverified',
+    text: 'Unv. bot pollution',
+    width: 160
+  }
+]
 
-const fnDataParser = dsvFormat(';')
+const fnDataParser = dsvFormat(',')
 
 export default {
   data () {
     return {
-      headers: [],
+      headers: headers,
       items: []
     }
   },
@@ -41,12 +78,6 @@ export default {
         .then(res => res.text())
         .then(data => {
           this.items = fnDataParser.parse(data)
-          this.headers = this.items.columns.map((c, i) => ({
-            align: 'left',
-            text: c,
-            value: c,
-            width: i === 0 ? 80 : i === 1 ? 170 : 160
-          }))
         })
         .catch(e => { console.log(`NO file found at ${filePath}`) })
     }

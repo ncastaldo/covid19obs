@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,21,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,13,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-3,POLITICAL,8,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-4,CONSPIRACY/JUNKSCI,7,voxnews.info,https://voxnews.info/2020/02/24/coronavirus-conte-rifiuta-di-ripristinare-controlli-alle-frontiere-non-serve/
-5,POLITICAL,7,bfmtv.com,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-italie-chine-carte-symptomes-mort-cas-psg-dortmund-huis-clos-paris-oise-morbihan-lyon/
-6,POLITICAL,7,rollingstone.com,https://rol.st/396qdge
-7,POLITICAL,6,rappler.com,http://rappler.com/world
-8,CONSPIRACY/JUNKSCI,5,zerohedge.com,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
-9,SATIRE,5,scienceinfo.fr,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-10,CLICKBAIT,4,soompi.com,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
-11,POLITICAL,4,oglobo.globo.com,https://oglobo.globo.com/fato-ou-fake/e-fake-que-tigela-de-agua-com-alho-recem-fervida-cura-coronavirus-1-24308518?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-12,FAKE/HOAX,3,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-13,CONSPIRACY/JUNKSCI,3,zerohedge.com,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-14,FAKE/HOAX,3,dailymail.co.uk,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
-15,POLITICAL,3,eldiario.es,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-16,POLITICAL,3,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-17,POLITICAL,3,bfmtv.com,https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-18,CLICKBAIT,3,soompi.com,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-19,CLICKBAIT,3,entertain.v.daum.net,https://entertain.v.daum.net/v/20200305112918512
-20,POLITICAL,3,fxn.ws,https://fxn.ws/32wghm1
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,21,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,POLITICAL,13,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+3,POLITICAL,8,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+4,CONSPIRACY/JUNKSCI,7,voxnews.info,"Coronavirus, Conte rifiuta di ripristinare controlli alle frontiere: “Non serve”",https://voxnews.info/2020/02/24/coronavirus-conte-rifiuta-di-ripristinare-controlli-alle-frontiere-non-serve/
+5,POLITICAL,7,bfmtv.com,Coronavirus: le chef de l'ONU appelle tous les pays à « redoubler d'efforts immédiatement,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-italie-chine-carte-symptomes-mort-cas-psg-dortmund-huis-clos-paris-oise-morbihan-lyon/
+6,POLITICAL,7,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+7,POLITICAL,6,rappler.com,World,http://rappler.com/world
+8,CONSPIRACY/JUNKSCI,5,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+9,SATIRE,5,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
+10,CLICKBAIT,4,soompi.com,BTS’s Fans ARMY Donate Refunds From Concert Cancelation To Help Coronavirus Prevention,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
+11,POLITICAL,4,oglobo.globo.com,É #FAKE que tigela de água com alho recém-fervida cura o coronavírus,https://oglobo.globo.com/fato-ou-fake/e-fake-que-tigela-de-agua-com-alho-recem-fervida-cura-coronavirus-1-24308518?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+12,FAKE/HOAX,3,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+13,CONSPIRACY/JUNKSCI,3,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+14,FAKE/HOAX,3,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+15,POLITICAL,3,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
+16,POLITICAL,3,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+17,POLITICAL,3,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
+18,CLICKBAIT,3,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
+19,CLICKBAIT,3,entertain.v.daum.net,BTS 슈가 1억 기부에 팬들 성금만 5억..'선한 영향력' 시너지,https://entertain.v.daum.net/v/20200305112918512
+20,POLITICAL,3,fxn.ws,Fox News,https://fxn.ws/32wghm1

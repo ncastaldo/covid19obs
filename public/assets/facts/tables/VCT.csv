@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,5,rollingstone.com,https://rol.st/396qdge
-2,POLITICAL,2,dailykos.com,https://www.dailykos.com/story/2020/1/25/1913998/-wuhan-coronavirus-an-update-and-its-prognosis
-3,POLITICAL,2,vox.com,https://www.vox.com/2020/2/25/21150574/trump-coronavirus-cdc-cuts
-4,POLITICAL,2,rawstory.com,https://www.rawstory.com/2020/02/trump-isnt-managing-the-coronavirus-crisis-or-anything-else-he-just-spent-an-hour-in-the-white-house-with-diamond-silk/
-5,POLITICAL,2,msnbc.com,https://www.msnbc.com/rachel-maddow/watch/trump-dissembling-mixed-messages-hurt-u-s-coronavirus-response-79588421960
-6,POLITICAL,2,rawstory.com,https://www.rawstory.com/2020/02/trump-directing-his-coronavirus-task-force-to-launch-attacks-on-democrats-to-avoid-blame-report/
-7,FAKE/HOAX,2,politicususa.com,https://www.politicususa.com/2020/03/04/pelosi-humiliates-trump-with-coronavirus-response-bill.html
-8,POLITICAL,2,msnbc.com,https://www.msnbc.com/morning-joe/watch/why-it-s-not-a-time-for-trump-s-hunches-on-coronavirus-80053317632
-9,CLICKBAIT,2,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-10,POLITICAL,2,dailykos.com,https://www.dailykos.com/story/2020/3/10/1926224/-conservatives-furious-that-cpac-has-been-giving-vips-and-only-vips-personal-coronavirus-updates
-11,POLITICAL,2,rawstory.com,https://www.rawstory.com/2020/03/heres-how-the-kushner-family-is-cashing-in-on-the-coronavirus/
-12,FAKE/HOAX,1,summit.news,https://summit.news/2020/01/22/professor-warns-new-coronavirus-has-same-kill-rate-as-the-spanish-flu/
-13,POLITICAL,1,dailycaller.com,https://dailycaller.com/2020/01/24/cdc-wuhan-coronavirus-travel/
-14,POLITICAL,1,foxnews.com,https://www.foxnews.com/us/ohio-customs-agents-seize-3700-invasive-mitten-crabs-hidden-in-shipments-from-china-hong-kong-officials
-15,POLITICAL,1,cnn.it,https://cnn.it/36oskni
-16,POLITICAL,1,thepostmillennial.com,https://www.thepostmillennial.com/watch-chinese-woman-eats-bat-in-midst-of-coronavirus-outbrake/
-17,POLITICAL,1,cnn.it,https://cnn.it/2uy6goo
-18,POLITICAL,1,cnn.it,https://cnn.it/38k29hj
-19,POLITICAL,1,mol.im,https://mol.im/a/7924241
-20,SATIRE,1,thebeaverton.com,https://www.thebeaverton.com/2020/01/man-worried-about-coronavirus-still-hasnt-gotten-flu-shot/
+rank,fact_type,count,domain,title,url
+1,POLITICAL,5,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+2,POLITICAL,2,dailykos.com,"Wuhan Coronavirus - An Update, Prognosis and Projections",https://www.dailykos.com/story/2020/1/25/1913998/-wuhan-coronavirus-an-update-and-its-prognosis
+3,POLITICAL,2,vox.com,Trump’s flailing incompetence makes coronavirus even scarier,https://www.vox.com/2020/2/25/21150574/trump-coronavirus-cdc-cuts
+4,POLITICAL,2,rawstory.com,,https://www.rawstory.com/2020/02/trump-isnt-managing-the-coronavirus-crisis-or-anything-else-he-just-spent-an-hour-in-the-white-house-with-diamond-silk/
+5,POLITICAL,2,msnbc.com,"Trump dissembling, mixed messages hurt U.S. coronavirus response",https://www.msnbc.com/rachel-maddow/watch/trump-dissembling-mixed-messages-hurt-u-s-coronavirus-response-79588421960
+6,POLITICAL,2,rawstory.com,,https://www.rawstory.com/2020/02/trump-directing-his-coronavirus-task-force-to-launch-attacks-on-democrats-to-avoid-blame-report/
+7,FAKE/HOAX,2,politicususa.com,,https://www.politicususa.com/2020/03/04/pelosi-humiliates-trump-with-coronavirus-response-bill.html
+8,POLITICAL,2,msnbc.com,Why it's not a time for Trump's hunches on coronavirus,https://www.msnbc.com/morning-joe/watch/why-it-s-not-a-time-for-trump-s-hunches-on-coronavirus-80053317632
+9,CLICKBAIT,2,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+10,POLITICAL,2,dailykos.com,"Conservatives furious that CPAC has been giving VIPs, and only VIPs, personal coronavirus updates",https://www.dailykos.com/story/2020/3/10/1926224/-conservatives-furious-that-cpac-has-been-giving-vips-and-only-vips-personal-coronavirus-updates
+11,POLITICAL,2,rawstory.com,Here’s how the Kushner family is cashing in on the coronavirus,https://www.rawstory.com/2020/03/heres-how-the-kushner-family-is-cashing-in-on-the-coronavirus/
+12,FAKE/HOAX,1,summit.news,Professor Warns New Coronavirus Has Same Kill Rate as the Spanish Flu,https://summit.news/2020/01/22/professor-warns-new-coronavirus-has-same-kill-rate-as-the-spanish-flu/
+13,POLITICAL,1,dailycaller.com,CDC Confirms Wuhan Coronavirus Case In Chicago As China Locks Down Travel In More Cities,https://dailycaller.com/2020/01/24/cdc-wuhan-coronavirus-travel/
+14,POLITICAL,1,foxnews.com,"Ohio customs agents seize 3,700 'invasive' mitten crabs hidden in shipments from China, Hong Kong: officials",https://www.foxnews.com/us/ohio-customs-agents-seize-3700-invasive-mitten-crabs-hidden-in-shipments-from-china-hong-kong-officials
+15,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36oskni
+16,POLITICAL,1,thepostmillennial.com,WATCH: Chinese woman eats bat in midst of coronavirus outbreak,https://www.thepostmillennial.com/watch-chinese-woman-eats-bat-in-midst-of-coronavirus-outbrake/
+17,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2uy6goo
+18,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38k29hj
+19,POLITICAL,1,mol.im,China spent crucial few days of coronavirus outbreak ARRESTING people,https://mol.im/a/7924241
+20,SATIRE,1,thebeaverton.com,Man worried about coronavirus still hasn’t gotten flu shot,https://www.thebeaverton.com/2020/01/man-worried-about-coronavirus-still-hasnt-gotten-flu-shot/

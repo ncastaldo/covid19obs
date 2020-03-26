@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,27,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,17,rappler.com,http://rappler.com/world
-3,POLITICAL,8,thedailybeast.com,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
-4,CONSPIRACY/JUNKSCI,7,naturalnews.com,http://naturalnews.com
-5,POLITICAL,7,eldiario.es,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-6,POLITICAL,7,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-7,POLITICAL,7,rollingstone.com,https://rol.st/396qdge
-8,CONSPIRACY/JUNKSCI,6,zerohedge.com,https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-9,POLITICAL,6,eldiario.es,https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
-10,POLITICAL,5,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-11,POLITICAL,5,eldiario.es,https://www.eldiario.es/consumoclaro/comer/pedir-comida-domicilio-confinamiento-covid19-precauciones_0_1006850334.html
-12,FAKE/HOAX,4,albertonews.com,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
-13,POLITICAL,4,cnn.it,https://cnn.it/2vtuxnv
-14,SATIRE,4,scienceinfo.fr,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-15,POLITICAL,4,cnn.it,https://cnn.it/2uqbf9j
-16,POLITICAL,4,eldiario.es,https://www.eldiario.es/sociedad/ultima-hora-coronavirus-mundo-espana_13_1000679924_39995.html
-17,FAKE/HOAX,4,rt.com,https://on.rt.com/acxi
-18,FAKE/HOAX,3,dailystar.co.uk,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
-19,POLITICAL,3,eldiario.es,https://www.eldiario.es/sociedad/gran-bretana-confirma-infectados-coronavirus_0_990751053.html
-20,CONSPIRACY/JUNKSCI,3,zerohedge.com,https://www.zerohedge.com/health/white-house-asks-scientists-investigate-whether-2019-ncov-was-bio-engineered
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,27,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,POLITICAL,17,rappler.com,World,http://rappler.com/world
+3,POLITICAL,8,thedailybeast.com,QAnon-ers’ Magic Cure for Coronavirus: Just Drink Bleach!,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
+4,CONSPIRACY/JUNKSCI,7,naturalnews.com,NaturalNews.com,http://naturalnews.com
+5,POLITICAL,7,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
+6,POLITICAL,7,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+7,POLITICAL,7,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+8,CONSPIRACY/JUNKSCI,6,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+9,POLITICAL,6,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
+10,POLITICAL,5,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+11,POLITICAL,5,eldiario.es,Pedir comida a domicilio: 5 prevenciones para evitar infectarnos por coronavirus,https://www.eldiario.es/consumoclaro/comer/pedir-comida-domicilio-confinamiento-covid19-precauciones_0_1006850334.html
+12,FAKE/HOAX,4,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+13,POLITICAL,4,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vtuxnv
+14,SATIRE,4,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
+15,POLITICAL,4,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2uqbf9j
+16,POLITICAL,4,eldiario.es,"Madrid confirma 16 fallecidos y 469 casos de coronavirus, el doble que hace 24 horas",https://www.eldiario.es/sociedad/ultima-hora-coronavirus-mundo-espana_13_1000679924_39995.html
+17,FAKE/HOAX,4,rt.com,"Bless me father, for I may be DRUNK! Russian church will DOUBLE communion wine servings to kill coronavirus",https://on.rt.com/acxi
+18,FAKE/HOAX,3,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+19,POLITICAL,3,eldiario.es,Gran Bretaña confirma sus dos primeros casos de infectados por coronavirus,https://www.eldiario.es/sociedad/gran-bretana-confirma-infectados-coronavirus_0_990751053.html
+20,CONSPIRACY/JUNKSCI,3,zerohedge.com,White House Asks Scientists To Investigate Whether 2019-nCoV Was Bio-Engineered,https://www.zerohedge.com/health/white-house-asks-scientists-investigate-whether-2019-ncov-was-bio-engineered

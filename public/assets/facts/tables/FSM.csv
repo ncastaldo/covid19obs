@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,FAKE/HOAX,3,mcmnt.com,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-2,POLITICAL,1,thesun.co.uk,https://www.thesun.co.uk/news/10814760/bill-gates-predicted-coronavirus-simulation-33-million-die/
-3,CONSPIRACY/JUNKSCI,1,zerohedge.com,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-4,POLITICAL,1,mazo4f.com,https://mazo4f.com/212132
-5,SATIRE,1,elmundotoday.com,https://www.elmundotoday.com/2020/02/horoscopo-de-la-semana-leo-tu-estas-a-salvo-porque-no-le-interesas-ni-al-coronavirus/
-6,FAKE/HOAX,1,rt.com,https://www.rt.com/russia/480518-coronavirus-prank-moscow-metro/
-7,FAKE/HOAX,1,rt.com,https://www.rt.com/russia/480447-taxi-hazmat-suit-coronavirus/
-8,POLITICAL,1,bfmtv.com,https://www.bfmtv.com/sante/coronavirusla-france-instaure-des-mesures-de-precaution-pour-les-personnes-revenant-d-italie-1863441.html
-9,POLITICAL,1,cnn.it,https://cnn.it/394liqo
-10,POLITICAL,1,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-11,CLICKBAIT,1,soompi.com,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-12,POLITICAL,1,es.rt.com,https://es.rt.com/7e38
-13,POLITICAL,1,haaretz.com,https://www.haaretz.com/middle-east-news/iran/iran-news-agency-death-toll-from-new-coronavirus-in-qom-rises-to-50-1.8568671
-14,POLITICAL,1,bfmtv.com,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
-15,POLITICAL,1,cnn.it,https://cnn.it/331jrtk
-16,POLITICAL,1,es.rt.com,https://es.rt.com/7ejh
-17,POLITICAL,1,thedailybeast.com,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-18,POLITICAL,1,thedailybeast.com,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing?source=twitter&via=desktop
-19,CONSPIRACY/JUNKSCI,1,peta.org,http://peta.vg/2ran
-20,POLITICAL,1,inthesetimes.com,https://inthesetimes.com/article/22397/democrats-bernie-sanders-coronavirus-covid-19-pelosi
+rank,fact_type,count,domain,title,url
+1,FAKE/HOAX,3,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+2,POLITICAL,1,thesun.co.uk,Bill Gates ‘predicted’ how coronavirus-like pandemic could spread killing 33 MILLION,https://www.thesun.co.uk/news/10814760/bill-gates-predicted-coronavirus-simulation-33-million-die/
+3,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+4,POLITICAL,1,mazo4f.com,,https://mazo4f.com/212132
+5,SATIRE,1,elmundotoday.com,"Horóscopo de la semana: Leo, tú estás a salvo porque no le interesas ni al coronavirus",https://www.elmundotoday.com/2020/02/horoscopo-de-la-semana-leo-tu-estas-a-salvo-porque-no-le-interesas-ni-al-coronavirus/
+6,FAKE/HOAX,1,rt.com,Sick joke: Blogger arrested after brutal coronavirus prank on Moscow subway (VIDEO),https://www.rt.com/russia/480518-coronavirus-prank-moscow-metro/
+7,FAKE/HOAX,1,rt.com,Infection-free taxi: Hazmat-suit-wearing cab driver helps passengers to laugh off coronavirus hysteria (VIDEO),https://www.rt.com/russia/480447-taxi-hazmat-suit-coronavirus/
+8,POLITICAL,1,bfmtv.com,Coronavirus: la France instaure des mesures de précaution pour les personnes revenant d'Italie,https://www.bfmtv.com/sante/coronavirusla-france-instaure-des-mesures-de-precaution-pour-les-personnes-revenant-d-italie-1863441.html
+9,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/394liqo
+10,POLITICAL,1,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+11,CLICKBAIT,1,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
+12,POLITICAL,1,es.rt.com,El Banco Mundial destina 12.000 millones de dólares para combatir el coronavirus,https://es.rt.com/7e38
+13,POLITICAL,1,haaretz.com,Iran lawmaker says 50 dead from new coronavirus in city of Qom; deputy health minister denies,https://www.haaretz.com/middle-east-news/iran/iran-news-agency-death-toll-from-new-coronavirus-in-qom-rises-to-50-1.8568671
+14,POLITICAL,1,bfmtv.com,Coronavirus: les ventes de La Peste de Camus bondissent,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
+15,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/331jrtk
+16,POLITICAL,1,es.rt.com,"Jefe de la OMS: ""La amenaza de la pandemia del coronavirus se hizo muy real""",https://es.rt.com/7ejh
+17,POLITICAL,1,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
+18,POLITICAL,1,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing?source=twitter&via=desktop
+19,CONSPIRACY/JUNKSCI,1,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+20,POLITICAL,1,inthesetimes.com,"While Mainstream Democrats Fumble, Bernie Sanders Is Modeling a Serious Response to Coronavirus",https://inthesetimes.com/article/22397/democrats-bernie-sanders-coronavirus-covid-19-pelosi

@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,18,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,16,es.rt.com,https://es.rt.com/7fd4
-3,POLITICAL,13,es.rt.com,https://es.rt.com/7dql
-4,POLITICAL,13,cnn.it,https://cnn.it/2qmv5pf
-5,POLITICAL,12,es.rt.com,https://es.rt.com/7d3m
-6,POLITICAL,10,es.rt.com,https://es.rt.com/7b26
-7,POLITICAL,10,es.rt.com,http://es.rt.com/7c4e
-8,POLITICAL,10,es.rt.com,https://es.rt.com/7fjk
-9,POLITICAL,9,cnn.it,https://cnn.it/2vzqpse
-10,POLITICAL,9,es.rt.com,https://es.rt.com/7eqx
-11,POLITICAL,8,cnn.it,https://cnn.it/37zvbvy
-12,POLITICAL,8,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-13,POLITICAL,8,es.rt.com,https://es.rt.com/7eko
-14,POLITICAL,8,cnn.it,https://cnn.it/3dfkugq
-15,POLITICAL,7,es.rt.com,https://es.rt.com/7dfz
-16,POLITICAL,7,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-17,POLITICAL,7,cnn.it,https://cnn.it/3942kes
-18,POLITICAL,7,es.rt.com,https://es.rt.com/7dwy
-19,POLITICAL,7,es.rt.com,https://es.rt.com/7ep8
-20,POLITICAL,6,es.rt.com,https://es.rt.com/7awm
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,18,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,POLITICAL,16,es.rt.com,China aprueba una vacuna contra el coronavirus para ensayos clínicos,https://es.rt.com/7fd4
+3,POLITICAL,13,es.rt.com,Confirman el primer caso del coronavirus en México,https://es.rt.com/7dql
+4,POLITICAL,13,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
+5,POLITICAL,12,es.rt.com,Corea del Sur anuncia que el coronavirus se está propagando por el este del país,https://es.rt.com/7d3m
+6,POLITICAL,10,es.rt.com,"Un hospital de 1.000 camas en seis días: China construye en tiempo récord un centro para tratar el coronavirus (VIDEO, FOTOS)",https://es.rt.com/7b26
+7,POLITICAL,10,es.rt.com,,http://es.rt.com/7c4e
+8,POLITICAL,10,es.rt.com,Una persona muere cada 10 minutos por coronavirus en Irán,https://es.rt.com/7fjk
+9,POLITICAL,9,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vzqpse
+10,POLITICAL,9,es.rt.com,La OMS declara el brote del coronavirus como pandemia,https://es.rt.com/7eqx
+11,POLITICAL,8,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37zvbvy
+12,POLITICAL,8,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+13,POLITICAL,8,es.rt.com,Panamá confirma el primer caso de coronavirus en el país,https://es.rt.com/7eko
+14,POLITICAL,8,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3dfkugq
+15,POLITICAL,7,es.rt.com,El viceministro de Salud iraní da positivo por coronavirus,https://es.rt.com/7dfz
+16,POLITICAL,7,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+17,POLITICAL,7,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3942kes
+18,POLITICAL,7,es.rt.com,Nueva York registra su primer caso de coronavirus,https://es.rt.com/7dwy
+19,POLITICAL,7,es.rt.com,Honduras confirma los primeros dos casos de infección por coronavirus en el país,https://es.rt.com/7ep8
+20,POLITICAL,6,es.rt.com,"China prohíbe a 11 millones de ciudadanos salir de Wuhan, donde se originó el nuevo coronavirus",https://es.rt.com/7awm

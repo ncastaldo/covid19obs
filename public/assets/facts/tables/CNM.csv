@@ -1,13 +1,13 @@
-rank,fact_type,count,domain,url
-1,FAKE/HOAX,2,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7928063/wuhan-doctor-dies-nine-days-contracting-deadly-coronavirus-battled-save-patients.html
-2,FAKE/HOAX,1,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
-3,POLITICAL,1,eluniversal.com.mx,https://www.eluniversal.com.mx/nacion/coronavirus-hay-2-casos-sospechosos-en-el-edomex
-4,FAKE/HOAX,1,dailymail.co.uk,https://www.dailymail.co.uk/news/article-7974593/coronavirus-whistle-blower-dies-deadly-disease-catching-patient.html
-5,FAKE/HOAX,1,dailymail.co.uk,https://www.dailymail.co.uk/news/article-8057395/liverpool-miss-premier-league-title-dozens-teams-miss-promotion-coronavirus.html
-6,FAKE/HOAX,1,dailymail.co.uk,https://www.dailymail.co.uk/news/article-8060407/health-chiefs-urge-60s-avoid-crowds-coronavirus-panic-spreads.html
-7,FAKE/HOAX,1,dailymail.co.uk,https://www.dailymail.co.uk/news/article-8072299/amp/condoms-sell-people-encouraged-fingers-avoid-coronavirus.html?__twitter_impression=true
-8,POLITICAL,1,aa.com.tr,https://www.aa.com.tr/en/health/first-coronavirus-case-reported-in-southern-cyprus/1759993
-9,POLITICAL,1,cnn.it,https://cnn.it/39jycun
-10,POLITICAL,1,cnn.com,https://www.cnn.com/2020/03/11/entertainment/tom-hanks-rita-wilson-coronavirus/index.html
-11,POLITICAL,1,newsweek.com,https://www.newsweek.com/italian-man-coronavirus-who-hid-symptoms-get-rhinoplasty-facing-12-years-prison-1492823
-12,POLITICAL,1,thesun.co.uk,https://www.thesun.co.uk/sport/football/11223818/football-agents-business-bust-premier-league-coronavirus/?utm_medium=social&utm_campaign=sunfootballtwitter&utm_source=twitter#echobox=1584797168
+rank,fact_type,count,domain,title,url
+1,FAKE/HOAX,2,dailymail.co.uk,Wuhan doctor dies nine days after contracting deadly coronavirus,https://www.dailymail.co.uk/health/article-7928063/wuhan-doctor-dies-nine-days-contracting-deadly-coronavirus-battled-save-patients.html
+2,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+3,POLITICAL,1,eluniversal.com.mx,Coronavirus: Hay 2 casos sospechosos en el Edomex,https://www.eluniversal.com.mx/nacion/coronavirus-hay-2-casos-sospechosos-en-el-edomex
+4,FAKE/HOAX,1,dailymail.co.uk,"Chinese doctor, 34, who sounded alarm over coronavirus DIES from it",https://www.dailymail.co.uk/news/article-7974593/coronavirus-whistle-blower-dies-deadly-disease-catching-patient.html
+5,FAKE/HOAX,1,dailymail.co.uk,Entire football season 'could be null and void' over coronavirus,https://www.dailymail.co.uk/news/article-8057395/liverpool-miss-premier-league-title-dozens-teams-miss-promotion-coronavirus.html
+6,FAKE/HOAX,1,dailymail.co.uk,Over-60s urged to avoid crowds as coronavirus panic spreads,https://www.dailymail.co.uk/news/article-8060407/health-chiefs-urge-60s-avoid-crowds-coronavirus-panic-spreads.html
+7,FAKE/HOAX,1,dailymail.co.uk,People buying up condoms to put them on FINGERS to avoid coronavirus,https://www.dailymail.co.uk/news/article-8072299/amp/condoms-sell-people-encouraged-fingers-avoid-coronavirus.html?__twitter_impression=true
+8,POLITICAL,1,aa.com.tr,First coronavirus case reported in Southern Cyprus,https://www.aa.com.tr/en/health/first-coronavirus-case-reported-in-southern-cyprus/1759993
+9,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39jycun
+10,POLITICAL,1,cnn.com,Tom Hanks and Rita Wilson diagnosed with coronavirus,https://www.cnn.com/2020/03/11/entertainment/tom-hanks-rita-wilson-coronavirus/index.html
+11,POLITICAL,1,newsweek.com,,https://www.newsweek.com/italian-man-coronavirus-who-hid-symptoms-get-rhinoplasty-facing-12-years-prison-1492823
+12,POLITICAL,1,thesun.co.uk,Football agents 'face going bust' as Premier League cashflow crisis hits game's most controversial figures,https://www.thesun.co.uk/sport/football/11223818/football-agents-business-bust-premier-league-coronavirus/?utm_medium=social&utm_campaign=sunfootballtwitter&utm_source=twitter#echobox=1584797168

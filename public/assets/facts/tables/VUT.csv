@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,FAKE/HOAX,2,ibtimes.sg,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-2,POLITICAL,1,cnn.it,https://cnn.it/2rhqfif
-3,POLITICAL,1,cnn.it,https://cnn.it/2sohumg
-4,FAKE/HOAX,1,rt.com,https://www.rt.com/news/478982-beijing-virus-new-year-cancellation/
-5,FAKE/HOAX,1,gnews.org,https://gnews.org/89737/
-6,POLITICAL,1,thesun.co.uk,https://www.thesun.co.uk/news/10812276/coronavirus-china-virus-bat-soup/
-7,FAKE/HOAX,1,albertonews.com,https://albertonews.com/internacionales/ultima-hora-eeuu-confirma-el-tercer-caso-de-coronavirus-en-el-condado-de-orange-26ene/
-8,POLITICAL,1,cnn.it,https://cnn.it/2uuajw1
-9,FAKE/HOAX,1,albertonews.com,https://albertonews.com/internacionales/lo-ultimo-asciende-a-81-la-cifra-de-muertos-por-el-coronavirus-y-la-cifra-de-infectados-llega-a-2-835-en-china/
-10,CONSPIRACY/JUNKSCI,1,zerohedge.com,https://www.zerohedge.com/geopolitical/wuhan-mayor-offers-resign-coronavirus-death-toll-accelerates-supply-shortages
-11,POLITICAL,1,es.rt.com,https://es.rt.com/7b6g
-12,FAKE/HOAX,1,albertonews.com,https://albertonews.com/internacionales/detectan-en-japon-el-primer-caso-de-coronavirus-contagiado-dentro-del-pais/
-13,FAKE/HOAX,1,rt.com,https://on.rt.com/a9vh
-14,CONSPIRACY/JUNKSCI,1,zerohedge.com,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
-15,FAKE/HOAX,1,tass.com,https://tass.com/society/1113589
-16,POLITICAL,1,oann.com,https://www.oann.com/johnson-johnson-to-create-coronavirus-vaccine/
-17,SATIRE,1,thebeaverton.com,https://thebeaverton.com/2020/01/report-outbreak-of-idiocy-spreading-10000-times-faster-than-coronavirus/
-18,POLITICAL,1,foxnews.com,https://www.foxnews.com/travel/7000-people-held-cruise-ship-coronavirus-passenger-suspected-symptoms-report
-19,CONSPIRACY/JUNKSCI,1,zerohedge.com,https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-20,FAKE/HOAX,1,albertonews.com,https://albertonews.com/nacionales/alerta-nacional/
+rank,fact_type,count,domain,title,url
+1,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+2,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rhqfif
+3,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2sohumg
+4,FAKE/HOAX,1,rt.com,Beijing city cancels major public events including Chinese New Year temple fairs due to coronavirus outbreak,https://www.rt.com/news/478982-beijing-virus-new-year-cancellation/
+5,FAKE/HOAX,1,gnews.org,,https://gnews.org/89737/
+6,POLITICAL,1,thesun.co.uk,Correction: Coronavirus,https://www.thesun.co.uk/news/10812276/coronavirus-china-virus-bat-soup/
+7,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-eeuu-confirma-el-tercer-caso-de-coronavirus-en-el-condado-de-orange-26ene/
+8,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2uuajw1
+9,FAKE/HOAX,1,albertonews.com,Asciende a 81 la cifra de muertos por el coronavirus y la cifra de infectados llega a 2.835 en China - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/lo-ultimo-asciende-a-81-la-cifra-de-muertos-por-el-coronavirus-y-la-cifra-de-infectados-llega-a-2-835-en-china/
+10,CONSPIRACY/JUNKSCI,1,zerohedge.com,"China Virus Cases Almost Double Overnight, Deaths Top 100 As North Korea Closes Border",https://www.zerohedge.com/geopolitical/wuhan-mayor-offers-resign-coronavirus-death-toll-accelerates-supply-shortages
+11,POLITICAL,1,es.rt.com,China prohíbe el comercio de vida silvestre en todo el país debido al coronavirus,https://es.rt.com/7b6g
+12,FAKE/HOAX,1,albertonews.com,Detectan en Japón el primer caso de coronavirus contagiado dentro del país - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/detectan-en-japon-el-primer-caso-de-coronavirus-contagiado-dentro-del-pais/
+13,FAKE/HOAX,1,rt.com,"‘Wuhan, you can do it!’: Quarantined residents sing from their balconies in stirring VIDEOS",https://on.rt.com/a9vh
+14,CONSPIRACY/JUNKSCI,1,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+15,FAKE/HOAX,1,tass.com,"Chinese coronavirus dangerous at 2 meter distance, expert says",https://tass.com/society/1113589
+16,POLITICAL,1,oann.com,,https://www.oann.com/johnson-johnson-to-create-coronavirus-vaccine/
+17,SATIRE,1,thebeaverton.com,"Report: Outbreak of idiocy spreading 10,000 times faster than coronavirus",https://thebeaverton.com/2020/01/report-outbreak-of-idiocy-spreading-10000-times-faster-than-coronavirus/
+18,POLITICAL,1,foxnews.com,"6,651 people held on cruise ship after passenger develops suspected coronavirus symptoms",https://www.foxnews.com/travel/7000-people-held-cruise-ship-coronavirus-passenger-suspected-symptoms-report
+19,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+20,FAKE/HOAX,1,albertonews.com,Cruz Roja Venezolana: No estamos preparados para combatir el coronavirus en el país - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/alerta-nacional/

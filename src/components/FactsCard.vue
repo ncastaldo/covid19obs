@@ -13,12 +13,13 @@
       :footer-props="{
         'items-per-page-options': [5, 10, 20]
       }"
+      @mouseover:row="onMouseover"
     >
       <template v-slot:item.url="{ item }">
         <span><a
           :href="item.url"
           target="_blank"
-        >{{ item.url }}</a></span>
+        >Link</a></span>
       </template>
     </v-data-table>
   </v-card>
@@ -26,21 +27,50 @@
 
 <script>
 import { mapGetters } from 'vuex'
+
+const headers = [
+  {
+    value: 'rank',
+    text: 'Rank',
+    width: 80
+  },
+  {
+    value: 'count',
+    text: 'Tweets',
+    width: 100
+  },
+  {
+    value: 'domain',
+    text: 'Domain',
+    width: 100
+  },
+  {
+    value: 'url',
+    text: 'Link',
+    width: 80
+  },
+  {
+    value: 'title',
+    text: 'Title [if available]',
+    width: 200
+  }
+]
+
 export default {
   data () {
     return {
-      headers: ['Rank', 'Tweets', 'Domain', 'URL'].map((c, i) => ({
-        align: 'left',
-        text: c,
-        value: ['rank', 'count', 'domain', 'url'][i],
-        width: [80, 100, 160, 400][i]
-      }))
+      headers: headers
     }
   },
   computed: {
     ...mapGetters({
       factTable: 'getFactTable'
     })
+  },
+  methods: {
+    onMouseover (e) {
+      console.log(e)
+    }
   }
 }
 </script>

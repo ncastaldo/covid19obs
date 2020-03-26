@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,39,soompi.com,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-2,CLICKBAIT,20,allkpop.com,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-3,CLICKBAIT,19,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-4,CLICKBAIT,18,allkpop.com,https://www.allkpop.com/article/2020/02/got7-cancels-kuala-lumpur-show-of-keep-spinning-due-to-the-coronavirus
-5,POLITICAL,11,cnn.com,https://www.cnn.com/
-6,POLITICAL,11,rollingstone.com,https://rol.st/396qdge
-7,CLICKBAIT,9,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228150259906
-8,CLICKBAIT,8,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228154650904
-9,POLITICAL,6,rappler.com,http://rappler.com/world
-10,FAKE/HOAX,6,ibtimes.sg,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-11,CLICKBAIT,5,allkpop.com,https://www.allkpop.com/article/2020/02/jyp-entertainment-cancels-or-postpones-its-artists-promotions-due-to-coronavirus-outbreak
-12,SATIRE,5,scienceinfo.fr,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-13,POLITICAL,5,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-14,CLICKBAIT,5,soompi.com,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-15,POLITICAL,5,rawstory.com,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-16,CLICKBAIT,4,soompi.com,https://www.soompi.com/article/1385621wpp/staff-member-of-popular-singer-reportedly-tests-positive-for-novel-coronavirus
-17,POLITICAL,4,cnn.com,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
-18,POLITICAL,3,thedailybeast.com,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
-19,CLICKBAIT,3,mirror.co.uk,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
-20,FAKE/HOAX,3,n.news.naver.com,https://n.news.naver.com/article/032/0002993787
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,39,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
+2,CLICKBAIT,20,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
+3,CLICKBAIT,19,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+4,CLICKBAIT,18,allkpop.com,GOT7 cancels Kuala Lumpur show of 'Keep Spinning' due to the coronavirus,https://www.allkpop.com/article/2020/02/got7-cancels-kuala-lumpur-show-of-keep-spinning-due-to-the-coronavirus
+5,POLITICAL,11,cnn.com,"CNN International - Breaking News, US News, World News and Video",https://www.cnn.com/
+6,POLITICAL,11,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+7,CLICKBAIT,9,entertain.v.daum.net,"[단독] 레드벨벳 웬디, 코로나19 성금 1억 기부..부상 중에도 빛난 선행",https://entertain.v.daum.net/v/20200228150259906
+8,CLICKBAIT,8,entertain.v.daum.net,,https://entertain.v.daum.net/v/20200228154650904
+9,POLITICAL,6,rappler.com,World,http://rappler.com/world
+10,FAKE/HOAX,6,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+11,CLICKBAIT,5,allkpop.com,JYP Entertainment cancels or postpones its artists' promotions due to coronavirus outbreak,https://www.allkpop.com/article/2020/02/jyp-entertainment-cancels-or-postpones-its-artists-promotions-due-to-coronavirus-outbreak
+12,SATIRE,5,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
+13,POLITICAL,5,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+14,CLICKBAIT,5,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
+15,POLITICAL,5,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
+16,CLICKBAIT,4,soompi.com,Staff Member Of Popular Singer Reportedly Tests Positive For Novel Coronavirus,https://www.soompi.com/article/1385621wpp/staff-member-of-popular-singer-reportedly-tests-positive-for-novel-coronavirus
+17,POLITICAL,4,cnn.com,Is coronavirus Donald Trump's Katrina?,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
+18,POLITICAL,3,thedailybeast.com,QAnon-ers’ Magic Cure for Coronavirus: Just Drink Bleach!,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
+19,CLICKBAIT,3,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
+20,FAKE/HOAX,3,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787

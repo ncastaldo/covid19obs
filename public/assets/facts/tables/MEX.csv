@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,1188,eluni.mx,http://eluni.mx/bef4jnxuv
-2,POLITICAL,1178,eluni.mx,http://eluni.mx/g1v-arkhb
-3,POLITICAL,1037,eluniversal.com.mx,https://www.eluniversal.com.mx/mundo/hospital-para-el-coronavirus-en-10-dias-y-otras-proezas-de-construccion-en-china
-4,CLICKBAIT,749,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-5,POLITICAL,675,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-6,POLITICAL,408,eluniversal.com.mx,https://www.eluniversal.com.mx/opinion/carlos-loret-de-mola/compran-caretas-de-albanil-para-enfrentar-el-coronavirus
-7,POLITICAL,375,telegraph.co.uk,https://www.telegraph.co.uk/news/2020/03/14/italians-80-will-left-die-country-overwhelmed-coronavirus/
-8,POLITICAL,245,m.excelsior.com.mx,https://m.excelsior.com.mx/global/llegara-a-mexico-tratamiento-cubano-contra-el-coronavirus/1366755
-9,POLITICAL,228,eluni.mx,http://eluni.mx/rlzbbli28
-10,POLITICAL,213,eluniversal.com.mx,https://www.eluniversal.com.mx/metropoli/cdmx/video-fallece-hombre-en-metro-deportivo-18-de-marzo
-11,CLICKBAIT,197,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228165328313
-12,POLITICAL,195,eluniversal.com.mx,https://www.eluniversal.com.mx/mundo/coronavirus-ofrecen-libras-esterlinas-para-contagiarse-de-covid-19
-13,POLITICAL,194,eluni.mx,http://eluni.mx/_ulfx-cer
-14,POLITICAL,176,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-15,POLITICAL,162,es.rt.com,https://es.rt.com/7b0y
-16,CLICKBAIT,161,koreaboo.com,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
-17,POLITICAL,154,es.rt.com,https://es.rt.com/7fd4
-18,POLITICAL,153,eluni.mx,http://eluni.mx/vgqpzvogj
-19,POLITICAL,151,eluniversal.com.mx,https://www.eluniversal.com.mx/nacion/la-mananera-identificados-dos-probables-casos-de-coronavirus-en-mexico-amlo
-20,POLITICAL,150,rollingstone.com,https://rol.st/396qdge
+rank,fact_type,count,domain,title,url
+1,POLITICAL,1188,eluni.mx,Coronavirus en México: confirman primer caso,http://eluni.mx/bef4jnxuv
+2,POLITICAL,1178,eluni.mx,"Inhumano, negar entrada de crucero por sospecha de coronavirus: AMLO",http://eluni.mx/g1v-arkhb
+3,POLITICAL,1037,eluniversal.com.mx,Hospital para el coronavirus en 10 días y otras proezas de construcción en China,https://www.eluniversal.com.mx/mundo/hospital-para-el-coronavirus-en-10-dias-y-otras-proezas-de-construccion-en-china
+4,CLICKBAIT,749,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+5,POLITICAL,675,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+6,POLITICAL,408,eluniversal.com.mx,Compran caretas de albañil para enfrentar el coronavirus,https://www.eluniversal.com.mx/opinion/carlos-loret-de-mola/compran-caretas-de-albanil-para-enfrentar-el-coronavirus
+7,POLITICAL,375,telegraph.co.uk,Italians over 80 'will be left to die' as country overwhelmed by coronavirus,https://www.telegraph.co.uk/news/2020/03/14/italians-80-will-left-die-country-overwhelmed-coronavirus/
+8,POLITICAL,245,m.excelsior.com.mx,,https://m.excelsior.com.mx/global/llegara-a-mexico-tratamiento-cubano-contra-el-coronavirus/1366755
+9,POLITICAL,228,eluni.mx,¿Cómo se transmite el coronavirus o virus de Wuhan?,http://eluni.mx/rlzbbli28
+10,POLITICAL,213,eluniversal.com.mx,Video. Fallece enfermo de tuberculosis en el Metro,https://www.eluniversal.com.mx/metropoli/cdmx/video-fallece-hombre-en-metro-deportivo-18-de-marzo
+11,CLICKBAIT,197,entertain.v.daum.net,"엑소 레이, 코로나19 사태에 2천만원 의미 있는 기부..""우리는 하나"" [단독]",https://entertain.v.daum.net/v/20200228165328313
+12,POLITICAL,195,eluniversal.com.mx,Coronavirus. Ofrecen libras esterlinas para contagiarse de Covid-19,https://www.eluniversal.com.mx/mundo/coronavirus-ofrecen-libras-esterlinas-para-contagiarse-de-covid-19
+13,POLITICAL,194,eluni.mx,"La Mañanera. Identificados, dos probables casos de coronavirus en México: AMLO",http://eluni.mx/_ulfx-cer
+14,POLITICAL,176,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+15,POLITICAL,162,es.rt.com,Identifican un posible caso de coronavirus en Ciudad de México,https://es.rt.com/7b0y
+16,CLICKBAIT,161,koreaboo.com,Baekhyun Praised For His Adorable Yet Smart Methods To Preventing The Coronavirus,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
+17,POLITICAL,154,es.rt.com,China aprueba una vacuna contra el coronavirus para ensayos clínicos,https://es.rt.com/7fd4
+18,POLITICAL,153,eluni.mx,Aumenta a 17 la cifra de muertos en China por nuevo coronavirus,http://eluni.mx/vgqpzvogj
+19,POLITICAL,151,eluniversal.com.mx,"La Mañanera. Identificados, dos probables casos de coronavirus en México: AMLO",https://www.eluniversal.com.mx/nacion/la-mananera-identificados-dos-probables-casos-de-coronavirus-en-mexico-amlo
+20,POLITICAL,150,rollingstone.com,Rolling Stone,https://rol.st/396qdge

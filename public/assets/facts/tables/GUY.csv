@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,3,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,2,cnn.it,https://cnn.it/38mjl1d
-3,POLITICAL,2,nymag.com,http://nymag.com/intelligencer/2020/01/why-stock-market-worried-coronavirus.html?utm_source=tw
-4,POLITICAL,2,deadstate.org,https://deadstate.org/christian-tv-host-god-sent-the-coronavirus-to-punish-the-vile-and-disgusting-people-in-this-country/
-5,POLITICAL,2,nymag.com,http://nymag.com/intelligencer/2020/01/qanon-supporters-are-drinking-bleach-to-fend-off-coronavirus.html?utm_source=tw
-6,POLITICAL,2,toi.in,http://toi.in/rlkzdz/a24gk
-7,CLICKBAIT,2,mirror.co.uk,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-8,POLITICAL,2,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-9,POLITICAL,2,rawstory.com,https://www.rawstory.com/2020/02/internet-stunned-by-breathless-and-exhausted-looking-trump-press-briefing-has-he-been-tested-for-covid-19/
-10,POLITICAL,2,rawstory.com,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-11,POLITICAL,2,mazo4f.com,https://mazo4f.com/214420
-12,POLITICAL,1,cnn.it,https://cnn.it/2tu3rle
-13,POLITICAL,1,cnn.com,https://www.cnn.com/2020/01/20/health/what-is-coronavirus-explained/index.html
-14,POLITICAL,1,cnn.it,https://cnn.it/38ym3rj
-15,POLITICAL,1,cnn.it,https://cnn.it/37nv0bb
-16,CLICKBAIT,1,mirror.co.uk,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
-17,POLITICAL,1,xhne.ws,http://xhne.ws/xdiqr
-18,POLITICAL,1,rollingstone.com,https://www.rollingstone.com/culture/culture-news/coronavirus-china-bat-patent-conspiracy-theory-942416/
-19,POLITICAL,1,cnn.it,https://cnn.it/2tu0d1h
-20,CONSPIRACY/JUNKSCI,1,zerohedge.com,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,3,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38mjl1d
+3,POLITICAL,2,nymag.com,Why the Stock Market Is So Worried About Coronavirus,http://nymag.com/intelligencer/2020/01/why-stock-market-worried-coronavirus.html?utm_source=tw
+4,POLITICAL,2,deadstate.org,Christian TV host: God sent the coronavirus to punish ‘the vile and disgusting people in this country’,https://deadstate.org/christian-tv-host-god-sent-the-coronavirus-to-punish-the-vile-and-disgusting-people-in-this-country/
+5,POLITICAL,2,nymag.com,QAnon Influencers Are Encouraging Followers to Drink Bleach to Avoid Coronavirus,http://nymag.com/intelligencer/2020/01/qanon-supporters-are-drinking-bleach-to-fend-off-coronavirus.html?utm_source=tw
+6,POLITICAL,2,toi.in,,http://toi.in/rlkzdz/a24gk
+7,CLICKBAIT,2,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
+8,POLITICAL,2,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+9,POLITICAL,2,rawstory.com,Internet stunned by breathless and exhausted-looking Trump press briefing:  ‘Has he been tested for Covid-19?’,https://www.rawstory.com/2020/02/internet-stunned-by-breathless-and-exhausted-looking-trump-press-briefing-has-he-been-tested-for-covid-19/
+10,POLITICAL,2,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
+11,POLITICAL,2,mazo4f.com,,https://mazo4f.com/214420
+12,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tu3rle
+13,POLITICAL,1,cnn.com,Coronavirus: Should you be worried?,https://www.cnn.com/2020/01/20/health/what-is-coronavirus-explained/index.html
+14,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38ym3rj
+15,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37nv0bb
+16,CLICKBAIT,1,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
+17,POLITICAL,1,xhne.ws,,http://xhne.ws/xdiqr
+18,POLITICAL,1,rollingstone.com,Coronavirus Is Spreading -- And So Are the Hoaxes and Conspiracy Theories Around It,https://www.rollingstone.com/culture/culture-news/coronavirus-china-bat-patent-conspiracy-theory-942416/
+19,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tu0d1h
+20,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it

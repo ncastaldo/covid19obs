@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,13,thepeninsulaqatar.com,https://thepeninsulaqatar.com/article/29/02/2020/qatar-reports-first-case-of-coronavirus
-2,POLITICAL,8,thepeninsulaqatar.com,https://thepeninsulaqatar.com/article/09/03/2020/qatar-suspends-schools-and-universities-due-to-coronavirus
-3,CLICKBAIT,7,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-4,POLITICAL,6,rappler.com,http://rappler.com/world
-5,POLITICAL,6,thepeninsulaqatar.com,"https://thepeninsulaqatar.com/article/03/03/2020/ministry-reports-another-coronavirus-case-in-qatar,-taking-total-to-8"
-6,FAKE/HOAX,5,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
-7,POLITICAL,5,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-8,POLITICAL,4,cnn.it,https://cnn.it/36atbqt
-9,POLITICAL,4,aajtak.intoday.in,https://aajtak.intoday.in/story/corona-virus-pakistan-economy-gdp-imran-khan-adb-report-1-1169955.html
-10,POLITICAL,4,thepeninsulaqatar.com,"https://thepeninsulaqatar.com/article/21/03/2020/qatar-prohibits-public-gatherings,-even-in-cars-additional-measures-to-combat-covid19"
-11,FAKE/HOAX,3,rt.com,https://on.rt.com/a9ok
-12,POLITICAL,3,cnn.it,https://cnn.it/2gvfl2s
-13,CLICKBAIT,3,soompi.com,https://www.soompi.com/article/1380061wpp/super-junior-donates-10000-masks-to-children-and-youth-for-coronavirus-prevention
-14,CLICKBAIT,3,mirror.co.uk,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-15,CONSPIRACY/JUNKSCI,3,zerohedge.com,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-16,POLITICAL,3,thepeninsulaqatar.com,http://www.thepeninsulaqatar.com/article/29/02/2020/qatar-reports-first-case-of-coronavirus
-17,POLITICAL,3,thepeninsulaqatar.com,https://thepeninsulaqatar.com/article/01/03/2020/two-more-coronavirus-cases-reported-in-qatar
-18,POLITICAL,3,thepeninsulaqatar.com,https://thepeninsulaqatar.com/article/11/03/2020/238-new-coronavirus-cases-reported-in-qatar-ministry
-19,POLITICAL,2,cnn.it,https://cnn.it/2tu0d1h
-20,CLICKBAIT,2,allkpop.com,https://www.allkpop.com/article/2020/01/nct-dream-and-sf9-fans-demand-their-labels-take-action-to-keep-artists-out-of-china-due-to-the-coronavirus
+rank,fact_type,count,domain,title,url
+1,POLITICAL,13,thepeninsulaqatar.com,Qatar reports first case of coronavirus,https://thepeninsulaqatar.com/article/29/02/2020/qatar-reports-first-case-of-coronavirus
+2,POLITICAL,8,thepeninsulaqatar.com,Qatar suspends schools and universities due to coronavirus,https://thepeninsulaqatar.com/article/09/03/2020/qatar-suspends-schools-and-universities-due-to-coronavirus
+3,CLICKBAIT,7,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+4,POLITICAL,6,rappler.com,World,http://rappler.com/world
+5,POLITICAL,6,thepeninsulaqatar.com,"Ministry reports another coronavirus case in Qatar, taking total to 8","https://thepeninsulaqatar.com/article/03/03/2020/ministry-reports-another-coronavirus-case-in-qatar,-taking-total-to-8"
+6,FAKE/HOAX,5,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
+7,POLITICAL,5,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+8,POLITICAL,4,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36atbqt
+9,POLITICAL,4,aajtak.intoday.in,"कोरोना वायरस: पाकिस्तान की इकोनॉमी को खतरा, 5 बिलियन डॉलर का हो सकता है नुकसान",https://aajtak.intoday.in/story/corona-virus-pakistan-economy-gdp-imran-khan-adb-report-1-1169955.html
+10,POLITICAL,4,thepeninsulaqatar.com,The Peninsula Qatar,"https://thepeninsulaqatar.com/article/21/03/2020/qatar-prohibits-public-gatherings,-even-in-cars-additional-measures-to-combat-covid19"
+11,FAKE/HOAX,3,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+12,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2gvfl2s
+13,CLICKBAIT,3,soompi.com,"Super Junior Donates 10,000 Masks To Children And Youth For Coronavirus Prevention",https://www.soompi.com/article/1380061wpp/super-junior-donates-10000-masks-to-children-and-youth-for-coronavirus-prevention
+14,CLICKBAIT,3,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
+15,CONSPIRACY/JUNKSCI,3,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+16,POLITICAL,3,thepeninsulaqatar.com,Qatar reports first case of coronavirus,http://www.thepeninsulaqatar.com/article/29/02/2020/qatar-reports-first-case-of-coronavirus
+17,POLITICAL,3,thepeninsulaqatar.com,Two more Coronavirus cases reported in Qatar,https://thepeninsulaqatar.com/article/01/03/2020/two-more-coronavirus-cases-reported-in-qatar
+18,POLITICAL,3,thepeninsulaqatar.com,238 new coronavirus cases reported in Qatar: Ministry,https://thepeninsulaqatar.com/article/11/03/2020/238-new-coronavirus-cases-reported-in-qatar-ministry
+19,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tu0d1h
+20,CLICKBAIT,2,allkpop.com,NCT Dream and SF9 fans demand their labels take action to keep artists out of China due to the coronavirus,https://www.allkpop.com/article/2020/01/nct-dream-and-sf9-fans-demand-their-labels-take-action-to-keep-artists-out-of-china-due-to-the-coronavirus

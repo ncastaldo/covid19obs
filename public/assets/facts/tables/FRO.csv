@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,9,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,8,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-3,POLITICAL,4,rollingstone.com,https://rol.st/396qdge
-4,POLITICAL,3,deadstate.org,https://deadstate.org/jim-bakker-you-can-kill-the-coronavirus-in-12-hours-with-my-silver-solution-ointment/
-5,POLITICAL,2,es.rt.com,https://es.rt.com/7b3v
-6,POLITICAL,2,thedailybeast.com,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
-7,FAKE/HOAX,2,rt.com,https://www.rt.com/news/479705-china-develop-coronavirus-rapid-test/
-8,POLITICAL,2,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-9,POLITICAL,2,bfmtv.com,https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-10,FAKE/HOAX,2,politicususa.com,https://www.politicususa.com/2020/02/27/rachel-maddow-destroys-trumps-coronavirus-lies-in-90-seconds.html
-11,POLITICAL,2,palmerreport.com,https://www.palmerreport.com/analysis/what-if-donald-trump-really-does-have-the-coronavirus/25949/
-12,POLITICAL,2,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/camara-dos-eua-aprova-teste-gratis-para-coronavirus-licenca-medica-remunerada-24305435?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-13,POLITICAL,2,eldiario.es,https://www.eldiario.es/sociedad/ultima-hora-coronavirus-mundo-espana_13_1000679924_40987.html
-14,POLITICAL,2,bfmtv.com,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
-15,FAKE/HOAX,1,rt.com,https://www.rt.com/news/478982-beijing-virus-new-year-cancellation/
-16,POLITICAL,1,cnn.com,https://www.cnn.com/2020/01/22/health/snakes-wuhan-coronavirus-outbreak-conversation-partner/index.html
-17,POLITICAL,1,mol.im,https://mol.im/a/7923913
-18,POLITICAL,1,cnn.it,https://cnn.it/3ad0pyy
-19,CLICKBAIT,1,allkpop.com,https://www.allkpop.com/article/2020/01/nct-dream-and-sf9-fans-demand-their-labels-take-action-to-keep-artists-out-of-china-due-to-the-coronavirus
-20,POLITICAL,1,eldiario.es,https://www.eldiario.es/internacional/aumentan-muertos-contagiados-coronavirus-china_0_989001122.html
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,9,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,POLITICAL,8,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+3,POLITICAL,4,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+4,POLITICAL,3,deadstate.org,Jim Bakker: You can kill the coronavirus in 12 hours with my ‘Silver Solution’ ointment,https://deadstate.org/jim-bakker-you-can-kill-the-coronavirus-in-12-hours-with-my-silver-solution-ointment/
+5,POLITICAL,2,es.rt.com,Australia confirma el primer caso de coronavirus en el país,https://es.rt.com/7b3v
+6,POLITICAL,2,thedailybeast.com,QAnon-ers’ Magic Cure for Coronavirus: Just Drink Bleach!,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
+7,FAKE/HOAX,2,rt.com,China develops rapid Coronavirus test that works in under 15 MINUTES,https://www.rt.com/news/479705-china-develop-coronavirus-rapid-test/
+8,POLITICAL,2,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+9,POLITICAL,2,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
+10,FAKE/HOAX,2,politicususa.com,,https://www.politicususa.com/2020/02/27/rachel-maddow-destroys-trumps-coronavirus-lies-in-90-seconds.html
+11,POLITICAL,2,palmerreport.com,What if Donald Trump really does have the coronavirus?,https://www.palmerreport.com/analysis/what-if-donald-trump-really-does-have-the-coronavirus/25949/
+12,POLITICAL,2,oglobo.globo.com,Câmara dos EUA aprova teste grátis para coronavírus e licença médica remunerada,https://oglobo.globo.com/sociedade/coronavirus/camara-dos-eua-aprova-teste-gratis-para-coronavirus-licenca-medica-remunerada-24305435?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+13,POLITICAL,2,eldiario.es,Isabel Díaz Ayuso da positivo por coronavirus,https://www.eldiario.es/sociedad/ultima-hora-coronavirus-mundo-espana_13_1000679924_40987.html
+14,POLITICAL,2,bfmtv.com,Coronavirus: les Hôpitaux de Paris lancent un appel aux dons sur Facebook,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
+15,FAKE/HOAX,1,rt.com,Beijing city cancels major public events including Chinese New Year temple fairs due to coronavirus outbreak,https://www.rt.com/news/478982-beijing-virus-new-year-cancellation/
+16,POLITICAL,1,cnn.com,Snakes could be the source of the Wuhan coronavirus outbreak,https://www.cnn.com/2020/01/22/health/snakes-wuhan-coronavirus-outbreak-conversation-partner/index.html
+17,POLITICAL,1,mol.im,Wuhan coronavirus: China shuts DISNEYLAND and 14 cities,https://mol.im/a/7923913
+18,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3ad0pyy
+19,CLICKBAIT,1,allkpop.com,NCT Dream and SF9 fans demand their labels take action to keep artists out of China due to the coronavirus,https://www.allkpop.com/article/2020/01/nct-dream-and-sf9-fans-demand-their-labels-take-action-to-keep-artists-out-of-china-due-to-the-coronavirus
+20,POLITICAL,1,eldiario.es,China inicia el desarrollo de una vacuna contra el coronavirus,https://www.eldiario.es/internacional/aumentan-muertos-contagiados-coronavirus-china_0_989001122.html

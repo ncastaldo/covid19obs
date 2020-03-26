@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,172,cnn.it,https://cnn.it/2wvldlv
-2,POLITICAL,80,cnn.it,https://cnn.it/2qmv5pf
-3,POLITICAL,65,cnn.it,https://cnn.it/3dfkugq
-4,POLITICAL,54,cnn.it,https://cnn.it/2wsmmrn
-5,POLITICAL,48,cnn.it,https://cnn.it/3942kes
-6,POLITICAL,38,es.rt.com,https://es.rt.com/7fjk
-7,POLITICAL,33,cnn.it,https://cnn.it/38nbz04
-8,POLITICAL,31,es.rt.com,https://es.rt.com/7dql
-9,POLITICAL,29,es.rt.com,https://es.rt.com/7fpl
-10,POLITICAL,26,es.rt.com,https://es.rt.com/7d3m
-11,POLITICAL,24,es.rt.com,https://es.rt.com/7fd4
-12,POLITICAL,18,cnn.it,https://cnn.it/39enong
-13,CLICKBAIT,18,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-14,POLITICAL,17,es.rt.com,https://es.rt.com/7b39
-15,POLITICAL,17,es.rt.com,https://es.rt.com/7ftu
-16,POLITICAL,16,es.rt.com,https://es.rt.com/7eej
-17,POLITICAL,16,es.rt.com,https://es.rt.com/7fmk
-18,POLITICAL,16,es.rt.com,https://es.rt.com/7fvu
-19,POLITICAL,15,cnn.it,https://cnn.it/2rhqfif
-20,POLITICAL,15,cnn.it,https://cnn.it/2vzqpse
+rank,fact_type,count,domain,title,url
+1,POLITICAL,172,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2wvldlv
+2,POLITICAL,80,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
+3,POLITICAL,65,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3dfkugq
+4,POLITICAL,54,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2wsmmrn
+5,POLITICAL,48,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3942kes
+6,POLITICAL,38,es.rt.com,Una persona muere cada 10 minutos por coronavirus en Irán,https://es.rt.com/7fjk
+7,POLITICAL,33,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38nbz04
+8,POLITICAL,31,es.rt.com,Confirman el primer caso del coronavirus en México,https://es.rt.com/7dql
+9,POLITICAL,29,es.rt.com,24 empleados de la ONU dan positivo por coronavirus,https://es.rt.com/7fpl
+10,POLITICAL,26,es.rt.com,Corea del Sur anuncia que el coronavirus se está propagando por el este del país,https://es.rt.com/7d3m
+11,POLITICAL,24,es.rt.com,China aprueba una vacuna contra el coronavirus para ensayos clínicos,https://es.rt.com/7fd4
+12,POLITICAL,18,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39enong
+13,CLICKBAIT,18,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+14,POLITICAL,17,es.rt.com,El coronavirus llega a Europa: Confirman tres casos de infectados en Francia,https://es.rt.com/7b39
+15,POLITICAL,17,es.rt.com,El Salvador decreta cuarentena obligatoria de 30 días por el coronavirus,https://es.rt.com/7ftu
+16,POLITICAL,16,es.rt.com,China asegura que casi el 70 % de los enfermos de coronavirus se han recuperado,https://es.rt.com/7eej
+17,POLITICAL,16,es.rt.com,Rusia anuncia el inicio de pruebas de una vacuna contra el coronavirus,https://es.rt.com/7fmk
+18,POLITICAL,16,es.rt.com,El coronavirus avanza en EE.UU.: más de 400 muertos y más de 33.000 infectados,https://es.rt.com/7fvu
+19,POLITICAL,15,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rhqfif
+20,POLITICAL,15,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vzqpse

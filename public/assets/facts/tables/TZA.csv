@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,FAKE/HOAX,59,mcmnt.com,https://mcmnt.com/tanzania-confirms-first-case-of-coronavirus/
-2,CLICKBAIT,15,mirror.co.uk,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
-3,CLICKBAIT,12,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-4,CONSPIRACY/JUNKSCI,7,zerohedge.com,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-5,POLITICAL,5,cnn.it,https://cnn.it/2grmghu
-6,POLITICAL,4,bfmtv.com,https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-7,CLICKBAIT,4,soompi.com,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-8,POLITICAL,4,china.org.cn,http://www.china.org.cn/world/off_the_wire/2020-03/21/content_75840634.htm
-9,POLITICAL,4,rollingstone.com,https://www.rollingstone.com/politics/politics-news/doj-suspend-constitutional-rights-coronavirus-970935/
-10,POLITICAL,4,cnn.it,https://cnn.it/3bnui97
-11,CONSPIRACY/JUNKSCI,3,zerohedge.com,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-12,POLITICAL,3,rappler.com,http://rappler.com/world
-13,POLITICAL,3,cnn.com,https://www.cnn.com/2020/01/30/politics/donald-trump-coronavirus-diversity-obama/index.html
-14,POLITICAL,3,telegraph.co.uk,https://www.telegraph.co.uk/news/2020/02/15/coronovirus-bill-gates-warns-10-million-deaths-virus-spreads/
-15,FAKE/HOAX,3,ibtimes.sg,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-16,POLITICAL,3,today.ng,https://www.today.ng/i/207948
-17,POLITICAL,3,theweek.com,https://theweek.com/speedreads/897799/harvard-scientist-predicts-coronavirus-infect-70-percent-humanity
-18,CLICKBAIT,3,allkpop.com,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-19,POLITICAL,3,rollingstone.com,https://rol.st/396qdge
-20,POLITICAL,3,bfmtv.com,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
+rank,fact_type,count,domain,title,url
+1,FAKE/HOAX,59,mcmnt.com,Tanzania confirms first case of Coronavirus - MCM,https://mcmnt.com/tanzania-confirms-first-case-of-coronavirus/
+2,CLICKBAIT,15,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
+3,CLICKBAIT,12,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+4,CONSPIRACY/JUNKSCI,7,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+5,POLITICAL,5,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2grmghu
+6,POLITICAL,4,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
+7,CLICKBAIT,4,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
+8,POLITICAL,4,china.org.cn,,http://www.china.org.cn/world/off_the_wire/2020-03/21/content_75840634.htm
+9,POLITICAL,4,rollingstone.com,DOJ Wants to Suspend Certain Constitutional Rights During Coronavirus Emergency,https://www.rollingstone.com/politics/politics-news/doj-suspend-constitutional-rights-coronavirus-970935/
+10,POLITICAL,4,cnn.it,The many faces of health workers around the globe fighting coronavirus,https://cnn.it/3bnui97
+11,CONSPIRACY/JUNKSCI,3,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+12,POLITICAL,3,rappler.com,World,http://rappler.com/world
+13,POLITICAL,3,cnn.com,Coronavirus task force another example of Trump administration's lack of diversity,https://www.cnn.com/2020/01/30/politics/donald-trump-coronavirus-diversity-obama/index.html
+14,POLITICAL,3,telegraph.co.uk,Bill Gates warns of 10 million deaths as Coronavirus  spreads to Africa,https://www.telegraph.co.uk/news/2020/02/15/coronovirus-bill-gates-warns-10-million-deaths-virus-spreads/
+15,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+16,POLITICAL,3,today.ng,"CDC: To be safe from coronavirus, shave your beard - TODAY",https://www.today.ng/i/207948
+17,POLITICAL,3,theweek.com,Harvard scientist predicts coronavirus will infect up to 70 percent of humanity,https://theweek.com/speedreads/897799/harvard-scientist-predicts-coronavirus-infect-70-percent-humanity
+18,CLICKBAIT,3,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
+19,POLITICAL,3,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+20,POLITICAL,3,bfmtv.com,Coronavirus: les Hôpitaux de Paris lancent un appel aux dons sur Facebook,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html

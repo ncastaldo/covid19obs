@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,1395,mirror.co.uk,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
-2,CLICKBAIT,102,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,POLITICAL,70,rollingstone.com,https://rol.st/396qdge
-4,POLITICAL,65,eluni.mx,http://eluni.mx/-i6i_xjod
-5,POLITICAL,34,cnn.com,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
-6,FAKE/HOAX,23,express.co.uk,https://www.express.co.uk/news/world/1233644/coronavirus-china-virus-vaccine-treatment-cure-symptoms
-7,POLITICAL,23,cnn.it,https://cnn.it/2ua0d7k
-8,POLITICAL,19,dailysabah.com,https://www.dailysabah.com/health/2020/02/02/thailand-cures-coronavirus-with-anti-hiv-drug-cocktail-in-48-hours/amp
-9,POLITICAL,14,es.rt.com,https://es.rt.com/7bph
-10,POLITICAL,14,thedailybeast.com,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-11,POLITICAL,13,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-12,POLITICAL,13,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-13,POLITICAL,12,es.rt.com,https://es.rt.com/7bby
-14,POLITICAL,12,es.rt.com,https://es.rt.com/7d3m
-15,POLITICAL,12,rawstory.com,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-16,POLITICAL,10,cnn.it,https://cnn.it/2o2wd9z
-17,POLITICAL,10,cnn.it,https://cnn.it/2uyebfa
-18,POLITICAL,10,oann.com,https://www.oann.com/johnson-johnson-to-create-coronavirus-vaccine/
-19,POLITICAL,10,actualidad.rt.com,https://actualidad.rt.com/actualidad/345364-futuros-petroleo-caer-fracaso-acuerdo-opep
-20,FAKE/HOAX,10,dailymail.co.uk,https://www.dailymail.co.uk/news/article-7987009/bird-flu-breaks-two-chinese-provinces-near-coronaviruss-epicentre.html
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,1395,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
+2,CLICKBAIT,102,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+3,POLITICAL,70,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+4,POLITICAL,65,eluni.mx,Porno gratis en Italia por coronavirus,http://eluni.mx/-i6i_xjod
+5,POLITICAL,34,cnn.com,Is coronavirus Donald Trump's Katrina?,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
+6,FAKE/HOAX,23,express.co.uk,Coronavirus CURE? China says new treatment tested on nurses 'successful',https://www.express.co.uk/news/world/1233644/coronavirus-china-virus-vaccine-treatment-cure-symptoms
+7,POLITICAL,23,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2ua0d7k
+8,POLITICAL,19,dailysabah.com,Thailand 'cures' coronavirus with anti-HIV drug cocktail in 48 hours,https://www.dailysabah.com/health/2020/02/02/thailand-cures-coronavirus-with-anti-hiv-drug-cocktail-in-48-hours/amp
+9,POLITICAL,14,es.rt.com,China informa de un brote de gripe aviar en medio de la batalla contra el coronavirus 2019-nCoV,https://es.rt.com/7bph
+10,POLITICAL,14,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
+11,POLITICAL,13,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+12,POLITICAL,13,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+13,POLITICAL,12,es.rt.com,El coronavirus puede infectar desde una distancia de 2 metros y a través de los ojos,https://es.rt.com/7bby
+14,POLITICAL,12,es.rt.com,Corea del Sur anuncia que el coronavirus se está propagando por el este del país,https://es.rt.com/7d3m
+15,POLITICAL,12,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
+16,POLITICAL,10,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2o2wd9z
+17,POLITICAL,10,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2uyebfa
+18,POLITICAL,10,oann.com,,https://www.oann.com/johnson-johnson-to-create-coronavirus-vaccine/
+19,POLITICAL,10,actualidad.rt.com,El petróleo se desploma un 30 % por el fracaso del acuerdo de la OPEP y el temor al coronavirus,https://actualidad.rt.com/actualidad/345364-futuros-petroleo-caer-fracaso-acuerdo-opep
+20,FAKE/HOAX,10,dailymail.co.uk,Bird flu breaks out in Chinese provinces near coronavirus's epicentre,https://www.dailymail.co.uk/news/article-7987009/bird-flu-breaks-two-chinese-provinces-near-coronaviruss-epicentre.html

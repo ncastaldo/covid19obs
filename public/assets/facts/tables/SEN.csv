@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,32,bfmtv.com,https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-2,POLITICAL,21,bfmtv.com,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
-3,SATIRE,20,scienceinfo.fr,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-4,POLITICAL,15,bfmtv.com,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
-5,POLITICAL,13,bfmtv.com,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
-6,POLITICAL,13,bfmtv.com,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-italie-chine-carte-symptomes-mort-cas-psg-dortmund-huis-clos-paris-oise-morbihan-lyon/
-7,POLITICAL,9,bfmtv.com,https://www.bfmtv.com/societe/coronavirus-macron-demande-aux-personnes-de-plus-de-70-ans-de-rester-a-leur-domicile-1874025.html
-8,CLICKBAIT,7,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-9,CONSPIRACY/JUNKSCI,6,zerohedge.com,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-10,POLITICAL,4,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-11,CLICKBAIT,3,mirror.co.uk,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
-12,POLITICAL,3,bfmtv.com,https://www.bfmtv.com/economie/coronavirus-des-billets-de-banque-mis-en-quarantaine-en-chine-1858441.html
-13,POLITICAL,3,eldiario.es,https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
-14,POLITICAL,3,rollingstone.com,https://rol.st/396qdge
-15,CONSPIRACY/JUNKSCI,2,zerohedge.com,https://www.zerohedge.com/geopolitical/please-help-us-supply-shortages-rock-wuhan-outbreak-overwhelms-chinese-healthcare
-16,POLITICAL,2,newsweek.com,https://www.newsweek.com/california-coronavirus-orange-county-china-symptons-wuhan-1484051?utm_term=autofeed&utm_medium=social&utm_source=twitter#echobox=1580032276
-17,CLICKBAIT,2,soompi.com,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-18,POLITICAL,2,bfmtv.com,https://www.bfmtv.com/international/coronavirus-le-bilan-s-eleve-a-plus-de-1000-morts-en-chine-1855805.html
-19,CLICKBAIT,2,mirror.co.uk,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-20,POLITICAL,2,eldiario.es,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
+rank,fact_type,count,domain,title,url
+1,POLITICAL,32,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
+2,POLITICAL,21,bfmtv.com,Coronavirus: les Hôpitaux de Paris lancent un appel aux dons sur Facebook,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
+3,SATIRE,20,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
+4,POLITICAL,15,bfmtv.com,Coronavirus: Castaner prévient que la violation des règles de confinement sera puni d'une amende de 38 €,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
+5,POLITICAL,13,bfmtv.com,Coronavirus: les ventes de La Peste de Camus bondissent,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
+6,POLITICAL,13,bfmtv.com,Coronavirus: le chef de l'ONU appelle tous les pays à « redoubler d'efforts immédiatement,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-italie-chine-carte-symptomes-mort-cas-psg-dortmund-huis-clos-paris-oise-morbihan-lyon/
+7,POLITICAL,9,bfmtv.com,Coronavirus: Macron demande aux personnes « de plus de 70 ans » de rester à leur domicile,https://www.bfmtv.com/societe/coronavirus-macron-demande-aux-personnes-de-plus-de-70-ans-de-rester-a-leur-domicile-1874025.html
+8,CLICKBAIT,7,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+9,CONSPIRACY/JUNKSCI,6,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+10,POLITICAL,4,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+11,CLICKBAIT,3,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
+12,POLITICAL,3,bfmtv.com,Coronavirus: des billets de banque mis en quarantaine en Chine,https://www.bfmtv.com/economie/coronavirus-des-billets-de-banque-mis-en-quarantaine-en-chine-1858441.html
+13,POLITICAL,3,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
+14,POLITICAL,3,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+15,CONSPIRACY/JUNKSCI,2,zerohedge.com,China Suddenly Increases Death Toll By Over 60% As Virus Jumps To Europe,https://www.zerohedge.com/geopolitical/please-help-us-supply-shortages-rock-wuhan-outbreak-overwhelms-chinese-healthcare
+16,POLITICAL,2,newsweek.com,,https://www.newsweek.com/california-coronavirus-orange-county-china-symptons-wuhan-1484051?utm_term=autofeed&utm_medium=social&utm_source=twitter#echobox=1580032276
+17,CLICKBAIT,2,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
+18,POLITICAL,2,bfmtv.com,Coronavirus: le bilan s'élève à plus de 1000 morts en Chine,https://www.bfmtv.com/international/coronavirus-le-bilan-s-eleve-a-plus-de-1000-morts-en-chine-1855805.html
+19,CLICKBAIT,2,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
+20,POLITICAL,2,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html

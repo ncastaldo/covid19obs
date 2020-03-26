@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CONSPIRACY/JUNKSCI,2,zerohedge.com,https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-2,CONSPIRACY/JUNKSCI,2,naturalnews.com,https://www.naturalnews.com/2020-02-03-the-coronavirus-was-engineered-by-scientists-in-a-lab.html
-3,POLITICAL,2,dailycaller.com,https://dailycaller.com/2020/03/03/trump-salary-coronavirus-hhs/
-4,CONSPIRACY/JUNKSCI,1,zerohedge.com,https://www.zerohedge.com/geopolitical/coronavirus-infections-climb-473-china-hong-kong-confirms-first-case
-5,POLITICAL,1,dailywire.com,https://www.dailywire.com/news/elizabeth-warren-to-deal-with-chinese-coronavirus-we-must-fight-climate-change/
-6,POLITICAL,1,rappler.com,http://rappler.com/world
-7,POLITICAL,1,dailycaller.com,https://dailycaller.com/2020/01/31/cnn-donald-trump-lack-diversity-coronavirus/
-8,POLITICAL,1,eldiario.es,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-9,POLITICAL,1,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-10,POLITICAL,1,dailycaller.com,https://dailycaller.com/2020/02/27/mike-pence-debbie-birx-white-house-coronavirus-response-coordinator-global-aids/
-11,POLITICAL,1,nationalreview.com,https://www.nationalreview.com/2020/02/coronavirus-pandemic-only-predictable-fallout-partisanship/#slide-1
-12,POLITICAL,1,freebeacon.com,https://freebeacon.com/columns/the-first-postmodern-pandemic/
-13,POLITICAL,1,nationalreview.com,https://www.nationalreview.com/the-morning-jolt/the-coronavirus-is-a-cause-for-concern/
-14,POLITICAL,1,slate.com,https://slate.com/technology/2020/02/coronavirus-silent-spread-actually-good-sign.html
-15,POLITICAL,1,dailycaller.com,https://dailycaller.com/2020/02/29/trump-coronavirus-aid-iran-cpac/
-16,POLITICAL,1,fxn.ws,https://fxn.ws/32gyyxn
-17,POLITICAL,1,dailycaller.com,https://dailycaller.com/2020/03/02/stock-market-coronavirus/
-18,POLITICAL,1,dailycaller.com,https://dailycaller.com/2020/03/03/charlie-kirk-presidential-leadership-on-display-with-the-coronavirus/
-19,POLITICAL,1,slate.com,https://slate.com/technology/2020/03/coronavirus-mortality-rate-lower-than-we-think.html
-20,POLITICAL,1,thepostmillennial.com,https://www.thepostmillennial.com/deranged-councilwoman-tweets-support-for-the-spread-of-coronavirus-to-trump-supporters/
+rank,fact_type,count,domain,title,url
+1,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+2,CONSPIRACY/JUNKSCI,2,naturalnews.com,"Irrefutable: The coronavirus was engineered by scientists in a lab using well documented genetic engineering vectors that leave behind a ""fingerprint""",https://www.naturalnews.com/2020-02-03-the-coronavirus-was-engineered-by-scientists-in-a-lab.html
+3,POLITICAL,2,dailycaller.com,Trump Donates Quarter 4 Salary To HHS To Help Fight Coronavirus,https://dailycaller.com/2020/03/03/trump-salary-coronavirus-hhs/
+4,CONSPIRACY/JUNKSCI,1,zerohedge.com,China Quarantines City Of 11 Million As Hong Kong Confirms Second Case Of Coronavirus,https://www.zerohedge.com/geopolitical/coronavirus-infections-climb-473-china-hong-kong-confirms-first-case
+5,POLITICAL,1,dailywire.com,Elizabeth Warren: To Deal With Chinese Coronavirus We Must Fight Climate Change,https://www.dailywire.com/news/elizabeth-warren-to-deal-with-chinese-coronavirus-we-must-fight-climate-change/
+6,POLITICAL,1,rappler.com,World,http://rappler.com/world
+7,POLITICAL,1,dailycaller.com,CNN Bashes Trump Admin For ‘Lack Of Diversity’ As Task Force Tries To Combat Deadly Coronavirus,https://dailycaller.com/2020/01/31/cnn-donald-trump-lack-diversity-coronavirus/
+8,POLITICAL,1,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
+9,POLITICAL,1,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+10,POLITICAL,1,dailycaller.com,Vice President Mike Pence Names Deborah Birx As The White House’s Coronavirus Response Coordinator,https://dailycaller.com/2020/02/27/mike-pence-debbie-birx-white-house-coronavirus-response-coordinator-global-aids/
+11,POLITICAL,1,nationalreview.com,The First Postmodern Pandemic | National Review,https://www.nationalreview.com/2020/02/coronavirus-pandemic-only-predictable-fallout-partisanship/#slide-1
+12,POLITICAL,1,freebeacon.com,The Only Predictable Fallout of Coronavirus? Partisanship,https://freebeacon.com/columns/the-first-postmodern-pandemic/
+13,POLITICAL,1,nationalreview.com,Coronavirus Chronicles | National Review,https://www.nationalreview.com/the-morning-jolt/the-coronavirus-is-a-cause-for-concern/
+14,POLITICAL,1,slate.com,Why the Silent Spread of Coronavirus Might Actually Be a Good Sign,https://slate.com/technology/2020/02/coronavirus-silent-spread-actually-good-sign.html
+15,POLITICAL,1,dailycaller.com,President Trump Offers Coronavirus Aid To Iran,https://dailycaller.com/2020/02/29/trump-coronavirus-aid-iran-cpac/
+16,POLITICAL,1,fxn.ws,Fox News,https://fxn.ws/32gyyxn
+17,POLITICAL,1,dailycaller.com,Stocks Roar Back From Coronavirus Plunge To Biggest Gain Since 2009,https://dailycaller.com/2020/03/02/stock-market-coronavirus/
+18,POLITICAL,1,dailycaller.com,CHARLIE KIRK: Presidential Leadership On Display With The Coronavirus,https://dailycaller.com/2020/03/03/charlie-kirk-presidential-leadership-on-display-with-the-coronavirus/
+19,POLITICAL,1,slate.com,COVID-19’s Mortality Rate Isn’t As High As We Think,https://slate.com/technology/2020/03/coronavirus-mortality-rate-lower-than-we-think.html
+20,POLITICAL,1,thepostmillennial.com,DERANGED: Councilwoman tweets support for the spread of coronavirus to Trump supporters,https://www.thepostmillennial.com/deranged-councilwoman-tweets-support-for-the-spread-of-coronavirus-to-trump-supporters/

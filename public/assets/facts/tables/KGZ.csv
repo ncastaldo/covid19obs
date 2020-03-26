@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,4,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228150259906
-2,FAKE/HOAX,3,ibtimes.sg,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-3,CLICKBAIT,3,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228165328313
-4,CLICKBAIT,2,allkpop.com,https://www.allkpop.com/article/2020/01/btss-v-shows-concerns-urges-fans-to-be-careful-of-the-coronavirus
-5,FAKE/HOAX,2,ibtimes.sg,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-6,CLICKBAIT,2,soompi.com,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-7,POLITICAL,2,mondoweiss.net,https://mondoweiss.net/2020/03/coronavirus-in-palestine-chaos-as-seven-cases-confirmed-in-bethlehem/?utm_source=mailpoet
-8,CLICKBAIT,2,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-9,CLICKBAIT,2,allkpop.com,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-10,POLITICAL,2,mondoweiss.net,https://mondoweiss.net/2020/03/the-situation-is-horrific-palestinians-face-coronavirus-threat-at-crowded-west-bank-checkpoints/?utm_source=mailpoet
-11,POLITICAL,1,mol.im,https://mol.im/a/7925475
-12,POLITICAL,1,cnn.com,https://www.cnn.com/2020/01/23/health/us-wuhan-coronavirus-doctor-interview/index.html
-13,POLITICAL,1,cnn.it,https://cnn.it/2uy6goo
-14,FAKE/HOAX,1,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-15,POLITICAL,1,vox.com,https://www.vox.com/2020/1/23/21078325/wuhan-china-coronavirus-travel-ban
-16,POLITICAL,1,investors.com,https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-stock-market-rally-coronavirus-apple-amd-tesla-earnings/
-17,FAKE/HOAX,1,dailymail.co.uk,https://www.dailymail.co.uk/news/article-7934751/shocking-footage-shows-medic-wuhan-crying-screaming-anymore.html
-18,POLITICAL,1,cnn.it,https://cnn.it/2gvfl2s
-19,FAKE/HOAX,1,breitbart.com,https://www.breitbart.com/asia/2020/01/28/chinese-villages-build-walls-to-keep-coronavirus-out/
-20,POLITICAL,1,vox.com,https://www.vox.com/future-perfect/2020/1/28/21083633/china-wuhan-coronavirus-uighur-muslim-internment-camps
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,4,entertain.v.daum.net,"[단독] 레드벨벳 웬디, 코로나19 성금 1억 기부..부상 중에도 빛난 선행",https://entertain.v.daum.net/v/20200228150259906
+2,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+3,CLICKBAIT,3,entertain.v.daum.net,"엑소 레이, 코로나19 사태에 2천만원 의미 있는 기부..""우리는 하나"" [단독]",https://entertain.v.daum.net/v/20200228165328313
+4,CLICKBAIT,2,allkpop.com,"BTS’s V Shows Concern, Urges Fans To Be Careful Of The Coronavirus.",https://www.allkpop.com/article/2020/01/btss-v-shows-concerns-urges-fans-to-be-careful-of-the-coronavirus
+5,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+6,CLICKBAIT,2,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
+7,POLITICAL,2,mondoweiss.net,Coronavirus in Palestine: Chaos as seven cases confirmed in Bethlehem – Mondoweiss,https://mondoweiss.net/2020/03/coronavirus-in-palestine-chaos-as-seven-cases-confirmed-in-bethlehem/?utm_source=mailpoet
+8,CLICKBAIT,2,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+9,CLICKBAIT,2,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
+10,POLITICAL,2,mondoweiss.net,‘The situation is horrific’: Palestinians face coronavirus crisis at West Bank checkpoints – Mondoweiss,https://mondoweiss.net/2020/03/the-situation-is-horrific-palestinians-face-coronavirus-threat-at-crowded-west-bank-checkpoints/?utm_source=mailpoet
+11,POLITICAL,1,mol.im,US health experts hosted fictional coronavirus simulation 3 months ago,https://mol.im/a/7925475
+12,POLITICAL,1,cnn.com,A man diagnosed with Wuhan coronavirus near Seattle is being treated largely by a robot,https://www.cnn.com/2020/01/23/health/us-wuhan-coronavirus-doctor-interview/index.html
+13,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2uy6goo
+14,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+15,POLITICAL,1,vox.com,The evidence on travel bans for diseases like coronavirus is clear: They don’t work,https://www.vox.com/2020/1/23/21078325/wuhan-china-coronavirus-travel-ban
+16,POLITICAL,1,investors.com,,https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-stock-market-rally-coronavirus-apple-amd-tesla-earnings/
+17,FAKE/HOAX,1,dailymail.co.uk,Shocking footage shows 'medic' in Wuhan crying and screaming,https://www.dailymail.co.uk/news/article-7934751/shocking-footage-shows-medic-wuhan-crying-screaming-anymore.html
+18,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2gvfl2s
+19,FAKE/HOAX,1,breitbart.com,Chinese Villages Build Walls to Keep Coronavirus Out,https://www.breitbart.com/asia/2020/01/28/chinese-villages-build-walls-to-keep-coronavirus-out/
+20,POLITICAL,1,vox.com,"""This could be a massive disaster"": What happens if the coronavirus hits China’s internment camps?",https://www.vox.com/future-perfect/2020/1/28/21083633/china-wuhan-coronavirus-uighur-muslim-internment-camps

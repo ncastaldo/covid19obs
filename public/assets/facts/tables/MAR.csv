@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,101,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,70,rollingstone.com,https://rol.st/396qdge
-3,POLITICAL,64,bfmtv.com,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-italie-chine-carte-symptomes-mort-cas-psg-dortmund-huis-clos-paris-oise-morbihan-lyon/
-4,POLITICAL,63,bfmtv.com,https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-5,POLITICAL,53,bfmtv.com,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
-6,POLITICAL,46,bfmtv.com,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
-7,POLITICAL,32,change.org,https://change.org/p/united-nations-call-for-the-resignation-of-tedros-adhanom-ghebreyesus-who-director-general
-8,SATIRE,31,scienceinfo.fr,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-9,POLITICAL,21,bfmtv.com,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
-10,POLITICAL,20,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-11,POLITICAL,17,thedailybeast.com,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-12,POLITICAL,16,rawstory.com,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-13,POLITICAL,15,thedailybeast.com,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
-14,CLICKBAIT,13,entertain.v.daum.net,https://entertain.v.daum.net/v/20200305112918512
-15,POLITICAL,13,bfmtv.com,https://www.bfmtv.com/societe/coronavirus-macron-demande-aux-personnes-de-plus-de-70-ans-de-rester-a-leur-domicile-1874025.html
-16,CLICKBAIT,11,soompi.com,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
-17,POLITICAL,11,cnn.com,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
-18,POLITICAL,11,rollingstone.com,https://www.rollingstone.com/politics/politics-news/doj-suspend-constitutional-rights-coronavirus-970935/
-19,POLITICAL,10,cnn.it,https://cnn.it/30uylfu
-20,POLITICAL,10,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,101,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,POLITICAL,70,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+3,POLITICAL,64,bfmtv.com,Coronavirus: le chef de l'ONU appelle tous les pays à « redoubler d'efforts immédiatement,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-italie-chine-carte-symptomes-mort-cas-psg-dortmund-huis-clos-paris-oise-morbihan-lyon/
+4,POLITICAL,63,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
+5,POLITICAL,53,bfmtv.com,Coronavirus: Castaner prévient que la violation des règles de confinement sera puni d'une amende de 38 €,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
+6,POLITICAL,46,bfmtv.com,Coronavirus: les Hôpitaux de Paris lancent un appel aux dons sur Facebook,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
+7,POLITICAL,32,change.org,Sign the Petition,https://change.org/p/united-nations-call-for-the-resignation-of-tedros-adhanom-ghebreyesus-who-director-general
+8,SATIRE,31,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
+9,POLITICAL,21,bfmtv.com,Coronavirus: les ventes de La Peste de Camus bondissent,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
+10,POLITICAL,20,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+11,POLITICAL,17,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
+12,POLITICAL,16,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
+13,POLITICAL,15,thedailybeast.com,QAnon-ers’ Magic Cure for Coronavirus: Just Drink Bleach!,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
+14,CLICKBAIT,13,entertain.v.daum.net,BTS 슈가 1억 기부에 팬들 성금만 5억..'선한 영향력' 시너지,https://entertain.v.daum.net/v/20200305112918512
+15,POLITICAL,13,bfmtv.com,Coronavirus: Macron demande aux personnes « de plus de 70 ans » de rester à leur domicile,https://www.bfmtv.com/societe/coronavirus-macron-demande-aux-personnes-de-plus-de-70-ans-de-rester-a-leur-domicile-1874025.html
+16,CLICKBAIT,11,soompi.com,BTS’s Fans ARMY Donate Refunds From Concert Cancelation To Help Coronavirus Prevention,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
+17,POLITICAL,11,cnn.com,Is coronavirus Donald Trump's Katrina?,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
+18,POLITICAL,11,rollingstone.com,DOJ Wants to Suspend Certain Constitutional Rights During Coronavirus Emergency,https://www.rollingstone.com/politics/politics-news/doj-suspend-constitutional-rights-coronavirus-970935/
+19,POLITICAL,10,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
+20,POLITICAL,10,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo

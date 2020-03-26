@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,FAKE/HOAX,384,ibtimes.sg,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-2,CLICKBAIT,170,mirror.co.uk,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-3,CONSPIRACY/JUNKSCI,140,zerohedge.com,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-4,CLICKBAIT,115,mirror.co.uk,https://www.mirror.co.uk/news/world-news/jamaica-refuses-accept-cruise-ship-21575235
-5,POLITICAL,96,rollingstone.com,https://rol.st/396qdge
-6,POLITICAL,74,today.ng,https://www.today.ng/i/207948
-7,FAKE/HOAX,36,dailymail.co.uk,https://www.dailymail.co.uk/news/article-7933719/incredible-footage-shows-chinas-1-000-bed-coronavirus-hospital-taking-shape-four-days.html?ito=amp_twitter_share-top
-8,POLITICAL,36,mol.im,https://mol.im/a/8115879
-9,CONSPIRACY/JUNKSCI,33,humansarefree.com,https://humansarefree.com/2020/02/connection-between-coronavirus-and-5g.html
-10,POLITICAL,33,dailysabah.com,https://www.dailysabah.com/world/mid-east/uae-leader-zayed-infected-by-coronavirus-israeli-media-claims
-11,CLICKBAIT,29,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-12,POLITICAL,23,cnn.it,https://cnn.it/2gcntzu
-13,FAKE/HOAX,23,dailymail.co.uk,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
-14,POLITICAL,22,nymag.com,https://nymag.com/intelligencer/amp/2020/03/the-story-of-a-coronavirus-infection.html?__twitter_impression=true
-15,POLITICAL,22,cnn.it,https://cnn.it/39ddrzk
-16,POLITICAL,20,telegraph.co.uk,https://www.telegraph.co.uk/news/2020/02/15/coronovirus-bill-gates-warns-10-million-deaths-virus-spreads/
-17,CLICKBAIT,20,mirror.co.uk,https://www.mirror.co.uk/sport/football/news/former-real-madrid-president-lorenzo-21732293
-18,POLITICAL,17,cnn.it,https://cnn.it/3anl9cl
-19,POLITICAL,14,cnn.it,https://cnn.it/2sqtrub
-20,FAKE/HOAX,14,dailystar.co.uk,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar
+rank,fact_type,count,domain,title,url
+1,FAKE/HOAX,384,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+2,CLICKBAIT,170,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
+3,CONSPIRACY/JUNKSCI,140,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+4,CLICKBAIT,115,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/jamaica-refuses-accept-cruise-ship-21575235
+5,POLITICAL,96,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+6,POLITICAL,74,today.ng,"CDC: To be safe from coronavirus, shave your beard - TODAY",https://www.today.ng/i/207948
+7,FAKE/HOAX,36,dailymail.co.uk,Amazing progress of China coronavirus hospital after four days,https://www.dailymail.co.uk/news/article-7933719/incredible-footage-shows-chinas-1-000-bed-coronavirus-hospital-taking-shape-four-days.html?ito=amp_twitter_share-top
+8,POLITICAL,36,mol.im,Australian researchers have found a CURE for coronavirus,https://mol.im/a/8115879
+9,CONSPIRACY/JUNKSCI,33,humansarefree.com,There's A Connection Between Coronavirus and 5G,https://humansarefree.com/2020/02/connection-between-coronavirus-and-5g.html
+10,POLITICAL,33,dailysabah.com,"UAE leader bin Zayed infected by coronavirus, Israeli media claims",https://www.dailysabah.com/world/mid-east/uae-leader-zayed-infected-by-coronavirus-israeli-media-claims
+11,CLICKBAIT,29,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+12,POLITICAL,23,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2gcntzu
+13,FAKE/HOAX,23,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+14,POLITICAL,22,nymag.com,The Story of a Coronavirus Infection,https://nymag.com/intelligencer/amp/2020/03/the-story-of-a-coronavirus-infection.html?__twitter_impression=true
+15,POLITICAL,22,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39ddrzk
+16,POLITICAL,20,telegraph.co.uk,Bill Gates warns of 10 million deaths as Coronavirus  spreads to Africa,https://www.telegraph.co.uk/news/2020/02/15/coronovirus-bill-gates-warns-10-million-deaths-virus-spreads/
+17,CLICKBAIT,20,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/former-real-madrid-president-lorenzo-21732293
+18,POLITICAL,17,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3anl9cl
+19,POLITICAL,14,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2sqtrub
+20,FAKE/HOAX,14,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar

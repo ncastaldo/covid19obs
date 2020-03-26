@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,1018,cnn.it,https://cnn.it/2rhd9u8
-2,POLITICAL,385,cnn.it,https://cnn.it/36qlfru
-3,POLITICAL,160,cnn.it,https://cnn.it/39enong
-4,POLITICAL,153,es.rt.com,https://es.rt.com/7bph
-5,POLITICAL,148,cnn.it,https://cnn.it/2rhqfif
-6,POLITICAL,144,cnn.it,https://cnn.it/2gvfoq0
-7,POLITICAL,138,es.rt.com,https://es.rt.com/7fd4
-8,POLITICAL,132,cnn.it,https://cnn.it/2i8kgxg
-9,POLITICAL,119,es.rt.com,https://es.rt.com/7b7v
-10,POLITICAL,109,es.rt.com,https://es.rt.com/7b6g
-11,POLITICAL,108,es.rt.com,https://es.rt.com/7dg7
-12,POLITICAL,102,cnn.it,https://cnn.it/37zvbvy
-13,POLITICAL,102,es.rt.com,https://es.rt.com/7f2w
-14,POLITICAL,99,cnn.it,https://cnn.it/3942kes
-15,POLITICAL,79,es.rt.com,https://es.rt.com/7bby
-16,POLITICAL,78,cnn.it,https://cnn.it/2qmv5pf
-17,POLITICAL,74,cnn.it,https://cnn.it/2vk19fr
-18,POLITICAL,70,cnn.it,https://cnn.it/2uz6cbr
-19,POLITICAL,68,es.rt.com,https://es.rt.com/7d3m
-20,POLITICAL,63,cnn.it,https://cnn.it/2thcpwr
+rank,fact_type,count,domain,title,url
+1,POLITICAL,1018,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rhd9u8
+2,POLITICAL,385,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36qlfru
+3,POLITICAL,160,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39enong
+4,POLITICAL,153,es.rt.com,China informa de un brote de gripe aviar en medio de la batalla contra el coronavirus 2019-nCoV,https://es.rt.com/7bph
+5,POLITICAL,148,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rhqfif
+6,POLITICAL,144,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2gvfoq0
+7,POLITICAL,138,es.rt.com,China aprueba una vacuna contra el coronavirus para ensayos clínicos,https://es.rt.com/7fd4
+8,POLITICAL,132,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2i8kgxg
+9,POLITICAL,119,es.rt.com,Ecuador investiga un posible caso de coronavirus de China,https://es.rt.com/7b7v
+10,POLITICAL,109,es.rt.com,China prohíbe el comercio de vida silvestre en todo el país debido al coronavirus,https://es.rt.com/7b6g
+11,POLITICAL,108,es.rt.com,"Trump: ""Estamos cerca de encontrar una vacuna contra el coronavirus""",https://es.rt.com/7dg7
+12,POLITICAL,102,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37zvbvy
+13,POLITICAL,102,es.rt.com,"Italia recluta a médicos de Cuba, Venezuela y China para luchar contra el coronavirus",https://es.rt.com/7f2w
+14,POLITICAL,99,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3942kes
+15,POLITICAL,79,es.rt.com,El coronavirus puede infectar desde una distancia de 2 metros y a través de los ojos,https://es.rt.com/7bby
+16,POLITICAL,78,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
+17,POLITICAL,74,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vk19fr
+18,POLITICAL,70,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2uz6cbr
+19,POLITICAL,68,es.rt.com,Corea del Sur anuncia que el coronavirus se está propagando por el este del país,https://es.rt.com/7d3m
+20,POLITICAL,63,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2thcpwr

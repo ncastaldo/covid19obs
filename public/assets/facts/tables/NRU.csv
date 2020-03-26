@@ -1,13 +1,13 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,8,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228150259906
-2,CLICKBAIT,4,allkpop.com,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-3,FAKE/HOAX,1,dailymail.co.uk,https://www.dailymail.co.uk/news/article-7923981/coronavirus-disturbing-videos-claim-people-collapsing-wuhan.html
-4,POLITICAL,1,cnn.it,https://cnn.it/2gzeuot
-5,CONSPIRACY/JUNKSCI,1,zerohedge.com,https://www.zerohedge.com/health/japan-will-use-hiv-drugs-treat-coronavirus
-6,POLITICAL,1,eluni.mx,http://eluni.mx/bef4jnxuv
-7,CLICKBAIT,1,soompi.com,https://www.soompi.com/article/1385621wpp/staff-member-of-popular-singer-reportedly-tests-positive-for-novel-coronavirus
-8,FAKE/HOAX,1,mcmnt.com,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-9,FAKE/HOAX,1,n.news.naver.com,https://n.news.naver.com/entertain/article/382/0000803486
-10,CLICKBAIT,1,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-11,POLITICAL,1,thesun.co.uk,https://www.thesun.co.uk/news/11159769/spain-queen-letizia-tested-coronavirus/
-12,POLITICAL,1,oglobo.globo.com,https://oglobo.globo.com/fato-ou-fake/e-fake-que-tigela-de-agua-com-alho-recem-fervida-cura-coronavirus-1-24308518?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,8,entertain.v.daum.net,"[단독] 레드벨벳 웬디, 코로나19 성금 1억 기부..부상 중에도 빛난 선행",https://entertain.v.daum.net/v/20200228150259906
+2,CLICKBAIT,4,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
+3,FAKE/HOAX,1,dailymail.co.uk,Coronavirus: Videos claim to show people collapsing in Wuhan,https://www.dailymail.co.uk/news/article-7923981/coronavirus-disturbing-videos-claim-people-collapsing-wuhan.html
+4,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2gzeuot
+5,CONSPIRACY/JUNKSCI,1,zerohedge.com,Japan Will Use HIV Drugs To Treat Coronavirus,https://www.zerohedge.com/health/japan-will-use-hiv-drugs-treat-coronavirus
+6,POLITICAL,1,eluni.mx,Coronavirus en México: confirman primer caso,http://eluni.mx/bef4jnxuv
+7,CLICKBAIT,1,soompi.com,Staff Member Of Popular Singer Reportedly Tests Positive For Novel Coronavirus,https://www.soompi.com/article/1385621wpp/staff-member-of-popular-singer-reportedly-tests-positive-for-novel-coronavirus
+8,FAKE/HOAX,1,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+9,FAKE/HOAX,1,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
+10,CLICKBAIT,1,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+11,POLITICAL,1,thesun.co.uk,Queen Letizia tested for coronavirus after meeting with infected minister,https://www.thesun.co.uk/news/11159769/spain-queen-letizia-tested-coronavirus/
+12,POLITICAL,1,oglobo.globo.com,É #FAKE que tigela de água com alho recém-fervida cura o coronavírus,https://oglobo.globo.com/fato-ou-fake/e-fake-que-tigela-de-agua-com-alho-recem-fervida-cura-coronavirus-1-24308518?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo

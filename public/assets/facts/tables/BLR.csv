@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,11,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,6,cnn.com,https://www.cnn.com/2020/02/28/health/coronavirus-us-updates-california-patient/index.html
-3,POLITICAL,6,msnbc.com,https://www.msnbc.com/msnbc/watch/dr-fauci-coronavirus-now-at-outbreak-and-likely-pandemic-proportions-79827013761
-4,POLITICAL,5,rollingstone.com,https://rol.st/396qdge
-5,POLITICAL,4,rappler.com,http://rappler.com/world
-6,POLITICAL,4,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-7,POLITICAL,4,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-8,POLITICAL,4,cnn.com,https://www.cnn.com/videos/health/2020/03/06/cooper-speaks-with-coronavirus-patient-town-hall-gupta-sot-ac360-vpx.cnn
-9,CONSPIRACY/JUNKSCI,3,zerohedge.com,https://www.zerohedge.com/geopolitical/10-very-important-questions-mainstream-media-should-be-asking-about-coronavirus
-10,POLITICAL,3,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-11,CLICKBAIT,3,koreaboo.com,https://www.koreaboo.com/news/blackpinks-march-comeback-reportedly-postponed-due-coronavirus-covid-19/
-12,POLITICAL,2,thepostmillennial.com,https://www.thepostmillennial.com/quebec-politician-praises-coronavirus-for-reducing-carbon-footprint-in-wuhan/
-13,CLICKBAIT,2,allkpop.com,https://www.allkpop.com/article/2020/01/nct-dream-and-sf9-fans-demand-their-labels-take-action-to-keep-artists-out-of-china-due-to-the-coronavirus
-14,CONSPIRACY/JUNKSCI,2,zerohedge.com,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
-15,CLICKBAIT,2,soompi.com,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-16,POLITICAL,2,cnn.com,https://www.cnn.com/2020/02/04/asia/coronavirus-japan-cruise-intl-hnk/index.html
-17,POLITICAL,2,cnn.com,https://www.cnn.com/asia/live-news/coronavirus-outbreak-02-24-20-hnk-intl/h_06ebecdfae27a16fd5400a8f8f2f3d53
-18,POLITICAL,2,eldiario.es,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-19,POLITICAL,2,eldiario.es,https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
-20,FAKE/HOAX,2,express.co.uk,https://www.express.co.uk/news/uk/1247688/coronavirus-canary-wharf-london-latest-update-man-coughing-collapse-video-chevron
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,11,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,POLITICAL,6,cnn.com,New coronavirus cases in California and Oregon are second and third of unknown origin in US,https://www.cnn.com/2020/02/28/health/coronavirus-us-updates-california-patient/index.html
+3,POLITICAL,6,msnbc.com,Dr. Fauci: Coronavirus now at 'outbreak' and 'likely pandemic proportions',https://www.msnbc.com/msnbc/watch/dr-fauci-coronavirus-now-at-outbreak-and-likely-pandemic-proportions-79827013761
+4,POLITICAL,5,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+5,POLITICAL,4,rappler.com,World,http://rappler.com/world
+6,POLITICAL,4,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+7,POLITICAL,4,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+8,POLITICAL,4,cnn.com,Anderson Cooper speaks to a man with coronavirus - CNN Video,https://www.cnn.com/videos/health/2020/03/06/cooper-speaks-with-coronavirus-patient-town-hall-gupta-sot-ac360-vpx.cnn
+9,CONSPIRACY/JUNKSCI,3,zerohedge.com,10 Very Important Questions That The Mainstream Media Should Be Asking About This Coronavirus Outbreak,https://www.zerohedge.com/geopolitical/10-very-important-questions-mainstream-media-should-be-asking-about-coronavirus
+10,POLITICAL,3,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+11,CLICKBAIT,3,koreaboo.com,BLACKPINK's March Comeback Has Reportedly Been Postponed Due To Coronavirus,https://www.koreaboo.com/news/blackpinks-march-comeback-reportedly-postponed-due-coronavirus-covid-19/
+12,POLITICAL,2,thepostmillennial.com,Quebec politician praises coronavirus for reducing carbon footprint in Wuhan,https://www.thepostmillennial.com/quebec-politician-praises-coronavirus-for-reducing-carbon-footprint-in-wuhan/
+13,CLICKBAIT,2,allkpop.com,NCT Dream and SF9 fans demand their labels take action to keep artists out of China due to the coronavirus,https://www.allkpop.com/article/2020/01/nct-dream-and-sf9-fans-demand-their-labels-take-action-to-keep-artists-out-of-china-due-to-the-coronavirus
+14,CONSPIRACY/JUNKSCI,2,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+15,CLICKBAIT,2,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
+16,POLITICAL,2,cnn.com,Japan quarantines cruise ship after passenger diagnosed with Wuhan coronavirus,https://www.cnn.com/2020/02/04/asia/coronavirus-japan-cruise-intl-hnk/index.html
+17,POLITICAL,2,cnn.com,"Other countries should ""jump on this"" to prevent coronavirus spread, health expert says ",https://www.cnn.com/asia/live-news/coronavirus-outbreak-02-24-20-hnk-intl/h_06ebecdfae27a16fd5400a8f8f2f3d53
+18,POLITICAL,2,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
+19,POLITICAL,2,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
+20,FAKE/HOAX,2,express.co.uk,Coronavirus Canary Wharf: Man collapses coughing in shopping centre as people 'run away',https://www.express.co.uk/news/uk/1247688/coronavirus-canary-wharf-london-latest-update-man-coughing-collapse-video-chevron

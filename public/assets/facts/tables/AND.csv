@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,21,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,9,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-3,CLICKBAIT,7,soompi.com,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-4,CLICKBAIT,6,allkpop.com,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-5,POLITICAL,6,rollingstone.com,https://rol.st/396qdge
-6,POLITICAL,5,eldiario.es,https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
-7,CLICKBAIT,4,soompi.com,https://www.soompi.com/article/1380150wpp/events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-8,POLITICAL,4,eldiario.es,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-9,POLITICAL,4,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-10,POLITICAL,4,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/camara-dos-eua-aprova-teste-gratis-para-coronavirus-licenca-medica-remunerada-24305435?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-11,CONSPIRACY/JUNKSCI,4,peta.org,http://peta.vg/2ran
-12,FAKE/HOAX,3,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-13,POLITICAL,3,rappler.com,http://rappler.com/world
-14,CLICKBAIT,3,koreaboo.com,https://www.koreaboo.com/news/blackpinks-march-comeback-reportedly-postponed-due-coronavirus-covid-19/
-15,POLITICAL,3,today.ng,https://www.today.ng/i/207948
-16,CLICKBAIT,3,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228165328313
-17,CONSPIRACY/JUNKSCI,3,zerohedge.com,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-18,CLICKBAIT,3,koreaboo.com,https://www.koreaboo.com/news/red-velvet-matches-half-companys-coronavirus-covid-19-donation-total-contribution-230-million-won/
-19,POLITICAL,3,rawstory.com,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-20,POLITICAL,3,oglobo.globo.com,https://oglobo.globo.com/economia/conferencia-sobre-coronavirus-cancelada-por-causa-do-coronavirus-24299063?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,21,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,POLITICAL,9,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+3,CLICKBAIT,7,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
+4,CLICKBAIT,6,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
+5,POLITICAL,6,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+6,POLITICAL,5,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
+7,CLICKBAIT,4,soompi.com,Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380150wpp/events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
+8,POLITICAL,4,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
+9,POLITICAL,4,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+10,POLITICAL,4,oglobo.globo.com,Câmara dos EUA aprova teste grátis para coronavírus e licença médica remunerada,https://oglobo.globo.com/sociedade/coronavirus/camara-dos-eua-aprova-teste-gratis-para-coronavirus-licenca-medica-remunerada-24305435?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+11,CONSPIRACY/JUNKSCI,4,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+12,FAKE/HOAX,3,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+13,POLITICAL,3,rappler.com,World,http://rappler.com/world
+14,CLICKBAIT,3,koreaboo.com,BLACKPINK's March Comeback Has Reportedly Been Postponed Due To Coronavirus,https://www.koreaboo.com/news/blackpinks-march-comeback-reportedly-postponed-due-coronavirus-covid-19/
+15,POLITICAL,3,today.ng,"CDC: To be safe from coronavirus, shave your beard - TODAY",https://www.today.ng/i/207948
+16,CLICKBAIT,3,entertain.v.daum.net,"엑소 레이, 코로나19 사태에 2천만원 의미 있는 기부..""우리는 하나"" [단독]",https://entertain.v.daum.net/v/20200228165328313
+17,CONSPIRACY/JUNKSCI,3,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+18,CLICKBAIT,3,koreaboo.com,Red Velvet Matches Half Of Their Company's Coronavirus Donation With A Total Contribution Of 230 Million Won,https://www.koreaboo.com/news/red-velvet-matches-half-companys-coronavirus-covid-19-donation-total-contribution-230-million-won/
+19,POLITICAL,3,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
+20,POLITICAL,3,oglobo.globo.com,Conferência sobre coronavírus é cancelada por causa do coronavírus,https://oglobo.globo.com/economia/conferencia-sobre-coronavirus-cancelada-por-causa-do-coronavirus-24299063?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo

@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,25,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,24,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-3,POLITICAL,14,rappler.com,http://rappler.com/world
-4,CLICKBAIT,13,mirror.co.uk,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-5,CLICKBAIT,13,soompi.com,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
-6,CLICKBAIT,10,soompi.com,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-7,CLICKBAIT,9,entertain.v.daum.net,http://entertain.v.daum.net/v/20200219144008670sbs
-8,POLITICAL,9,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-9,CLICKBAIT,9,entertain.v.daum.net,https://entertain.v.daum.net/v/20200305112918512
-10,POLITICAL,8,xhne.ws,http://xhne.ws/ttln6
-11,CLICKBAIT,8,entertain.v.daum.net,http://entertain.v.daum.net/v/20200214152739620
-12,CLICKBAIT,8,koreaboo.com,https://www.koreaboo.com/news/mnh-entertainment-confirms-2-chungha-staff-corona19-covid-19/
-13,POLITICAL,7,telegraph.co.uk,https://www.telegraph.co.uk/news/2020/03/02/exclusive-dirty-banknotes-may-spreading-coronavirus-world-health/
-14,POLITICAL,7,rollingstone.com,https://rol.st/396qdge
-15,POLITICAL,6,cnn.it,https://cnn.it/2sqtrub
-16,CLICKBAIT,6,allkpop.com,https://www.allkpop.com/article/2020/01/btss-v-shows-concerns-urges-fans-to-be-careful-of-the-coronavirus
-17,CLICKBAIT,6,koreaboo.com,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
-18,SATIRE,6,scienceinfo.fr,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-19,FAKE/HOAX,5,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-20,POLITICAL,5,cnn.it,https://cnn.it/38mjl1d
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,25,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,POLITICAL,24,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+3,POLITICAL,14,rappler.com,World,http://rappler.com/world
+4,CLICKBAIT,13,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
+5,CLICKBAIT,13,soompi.com,BTS’s Fans ARMY Donate Refunds From Concert Cancelation To Help Coronavirus Prevention,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
+6,CLICKBAIT,10,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
+7,CLICKBAIT,9,entertain.v.daum.net,,http://entertain.v.daum.net/v/20200219144008670sbs
+8,POLITICAL,9,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+9,CLICKBAIT,9,entertain.v.daum.net,BTS 슈가 1억 기부에 팬들 성금만 5억..'선한 영향력' 시너지,https://entertain.v.daum.net/v/20200305112918512
+10,POLITICAL,8,xhne.ws,,http://xhne.ws/ttln6
+11,CLICKBAIT,8,entertain.v.daum.net,대구시 코로나19 우려 속 대규모 K-POP 콘서트 강행,http://entertain.v.daum.net/v/20200214152739620
+12,CLICKBAIT,8,koreaboo.com,MNH Entertainment Confirms 2 Of Chungha's Staff Have Corona19 (COVID-19),https://www.koreaboo.com/news/mnh-entertainment-confirms-2-chungha-staff-corona19-covid-19/
+13,POLITICAL,7,telegraph.co.uk,"Dirty banknotes may be spreading the coronavirus, WHO suggests",https://www.telegraph.co.uk/news/2020/03/02/exclusive-dirty-banknotes-may-spreading-coronavirus-world-health/
+14,POLITICAL,7,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+15,POLITICAL,6,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2sqtrub
+16,CLICKBAIT,6,allkpop.com,"BTS’s V Shows Concern, Urges Fans To Be Careful Of The Coronavirus.",https://www.allkpop.com/article/2020/01/btss-v-shows-concerns-urges-fans-to-be-careful-of-the-coronavirus
+17,CLICKBAIT,6,koreaboo.com,Baekhyun Praised For His Adorable Yet Smart Methods To Preventing The Coronavirus,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
+18,SATIRE,6,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
+19,FAKE/HOAX,5,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+20,POLITICAL,5,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38mjl1d

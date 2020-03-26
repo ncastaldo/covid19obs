@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,10,rollingstone.com,https://rol.st/396qdge
-2,CLICKBAIT,5,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,POLITICAL,2,bfmtv.com,https://www.bfmtv.com/societe/coronavirus-macron-demande-aux-personnes-de-plus-de-70-ans-de-rester-a-leur-domicile-1874025.html
-4,CLICKBAIT,2,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-hunt-madeleine-mccann-could-21724854
-5,CONSPIRACY/JUNKSCI,2,peta.org,http://peta.vg/2ran
-6,POLITICAL,1,thesun.co.uk,https://www.thesun.co.uk/news/10813398/coronavirus-chinese-hospital-video?utm_source=twitter&utm_medium=social&utm_campaign=sharebarweb
-7,CLICKBAIT,1,mirror.co.uk,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
-8,POLITICAL,1,cnn.it,https://cnn.it/36cwa13
-9,POLITICAL,1,mashable.com,https://mashable.com/article/racist-fake-viral-coronavirus-post-sydney-food-contamination-china/
-10,CLICKBAIT,1,soompi.com,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-11,CLICKBAIT,1,soompi.com,https://www.soompi.com/article/1382066wpp/chungha-donates-masks-for-coronavirus-prevention-to-children-in-need-on-her-birthday
-12,SATIRE,1,thehardtimes.net,https://thehardtimes.net/culture/new-employee-too-afraid-to-take-sick-day-gives-entire-office-coronavirus/
-13,POLITICAL,1,bfmtv.com,https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-14,SATIRE,1,scienceinfo.fr,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-15,CLICKBAIT,1,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228165328313
-16,POLITICAL,1,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-17,CLICKBAIT,1,soompi.com,https://www.soompi.com/article/1385621wpp/staff-member-of-popular-singer-reportedly-tests-positive-for-novel-coronavirus
-18,CONSPIRACY/JUNKSCI,1,zerohedge.com,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-19,FAKE/HOAX,1,dailymail.co.uk,https://www.dailymail.co.uk/news/article-8059385/amazing-nasa-images-pollution-cleared-china.html
-20,CLICKBAIT,1,allkpop.com,https://www.allkpop.com/article/2020/03/pledis-confirms-minhyun-tested-negative-for-coronavirus
+rank,fact_type,count,domain,title,url
+1,POLITICAL,10,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+2,CLICKBAIT,5,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+3,POLITICAL,2,bfmtv.com,Coronavirus: Macron demande aux personnes « de plus de 70 ans » de rester à leur domicile,https://www.bfmtv.com/societe/coronavirus-macron-demande-aux-personnes-de-plus-de-70-ans-de-rester-a-leur-domicile-1874025.html
+4,CLICKBAIT,2,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/coronavirus-hunt-madeleine-mccann-could-21724854
+5,CONSPIRACY/JUNKSCI,2,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+6,POLITICAL,1,thesun.co.uk,Coronavirus chaos in Chinese hospital as shocking video appears to show DEAD BODIES clogging up corridors,https://www.thesun.co.uk/news/10813398/coronavirus-chinese-hospital-video?utm_source=twitter&utm_medium=social&utm_campaign=sharebarweb
+7,CLICKBAIT,1,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
+8,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36cwa13
+9,POLITICAL,1,mashable.com,"Watch out for this extremely fake, weirdly racist viral post about coronavirus",https://mashable.com/article/racist-fake-viral-coronavirus-post-sydney-food-contamination-china/
+10,CLICKBAIT,1,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
+11,CLICKBAIT,1,soompi.com,Chungha Donates Masks For Coronavirus Prevention To Children In Need On Her Birthday,https://www.soompi.com/article/1382066wpp/chungha-donates-masks-for-coronavirus-prevention-to-children-in-need-on-her-birthday
+12,SATIRE,1,thehardtimes.net,New Employee Too Afraid to Take Sick Day Gives Entire Office Coronavirus,https://thehardtimes.net/culture/new-employee-too-afraid-to-take-sick-day-gives-entire-office-coronavirus/
+13,POLITICAL,1,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
+14,SATIRE,1,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
+15,CLICKBAIT,1,entertain.v.daum.net,"엑소 레이, 코로나19 사태에 2천만원 의미 있는 기부..""우리는 하나"" [단독]",https://entertain.v.daum.net/v/20200228165328313
+16,POLITICAL,1,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+17,CLICKBAIT,1,soompi.com,Staff Member Of Popular Singer Reportedly Tests Positive For Novel Coronavirus,https://www.soompi.com/article/1385621wpp/staff-member-of-popular-singer-reportedly-tests-positive-for-novel-coronavirus
+18,CONSPIRACY/JUNKSCI,1,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+19,FAKE/HOAX,1,dailymail.co.uk,Amazing NASA images show how pollution has CLEARED over China,https://www.dailymail.co.uk/news/article-8059385/amazing-nasa-images-pollution-cleared-china.html
+20,CLICKBAIT,1,allkpop.com,Pledis confirms Minhyun tested negative for coronavirus,https://www.allkpop.com/article/2020/03/pledis-confirms-minhyun-tested-negative-for-coronavirus

@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,FAKE/HOAX,2,mcmnt.com,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-2,POLITICAL,2,bfmtv.com,https://www.bfmtv.com/sante/direct-coronavirus-france-covid-19-carte-symptome-cas-mort-morbihan-bretagne-oise-paris-italie-chine-monde-stade-3-epidemie/
-3,POLITICAL,2,bfmtv.com,https://www.bfmtv.com/sante/sante-publique/en-direct-coronavirus-une-epidemie-semble-desormais-inexorable-avertit-macron/
-4,FAKE/HOAX,1,sputniknews.com,https://sptnkne.ws/bebv
-5,FAKE/HOAX,1,dailystar.co.uk,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
-6,FAKE/HOAX,1,sputniknews.com,https://sptnkne.ws/beea
-7,POLITICAL,1,bfmtv.com,https://www.bfmtv.com/sante/coronavirus-comment-sont-analyses-les-cas-suspects-en-france-1846921.html
-8,POLITICAL,1,bfmtv.com,https://www.bfmtv.com/sante/coronavirus-chinois-pas-de-cas-douteux-en-france-selon-agnes-buzyn-1846102.html
-9,POLITICAL,1,cnn.it,https://cnn.it/2uxlxjk
-10,POLITICAL,1,bfmtv.com,https://www.bfmtv.com/international/la-chine-peut-remporter-la-bataille-contre-le-coronavirus-assure-xi-jinping-1847104.html
-11,POLITICAL,1,cnn.it,https://cnn.it/2rrlfyw
-12,POLITICAL,1,mol.im,https://mol.im/a/7929817
-13,POLITICAL,1,bfmtv.com,https://www.bfmtv.com/international/coronavirus-en-chine-la-ville-de-pekin-fait-etatde-son-premier-deces-lie-au-virus-1848056.html#content/contribution/edit
-14,FAKE/HOAX,1,rt.com,http://on.rt.com/a9vh
-15,POLITICAL,1,bfmtv.com,https://www.bfmtv.com/international/coronavirus-en-chine-le-bilan-de-l-epidemie-monte-a-106-morts-plus-de-4000-cas-confirmes-dans-le-pays-1848214.html
-16,POLITICAL,1,bfmtv.com,https://www.bfmtv.com/international/coronavirus-en-chine-le-bilan-grimpe-a-425-morts-et-19-950-personnes-infectees-dans-le-pays-1851784.html
-17,POLITICAL,1,bfmtv.com,https://www.bfmtv.com/international/coronavirus-le-bilan-s-eleve-a-plus-de-1000-morts-en-chine-1855805.html
-18,POLITICAL,1,bfmtv.com,https://www.bfmtv.com/tech/coronavirus-2000-iphone-distribues-aux-passagers-du-paquebot-diamond-princess-1859334.html#page/contribution/index
-19,POLITICAL,1,bfmtv.com,https://www.bfmtv.com/international/coronavirus-en-chine-avec-108-morts-supplementaires-dans-le-hubei-le-bilan-passe-a-2112-1861026.html
-20,POLITICAL,1,bfmtv.com,http://bfmtv.com/international/le-coronavirus-a-fait-deux-morts-en-iran-1860856.html
+rank,fact_type,count,domain,title,url
+1,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+2,POLITICAL,2,bfmtv.com,Coronavirus en France: deux cas confirmés à Marseille,https://www.bfmtv.com/sante/direct-coronavirus-france-covid-19-carte-symptome-cas-mort-morbihan-bretagne-oise-paris-italie-chine-monde-stade-3-epidemie/
+3,POLITICAL,2,bfmtv.com,Coronavirus: le plan blanc est déclenché partout en France dans les hôpitaux et les cliniques,https://www.bfmtv.com/sante/sante-publique/en-direct-coronavirus-une-epidemie-semble-desormais-inexorable-avertit-macron/
+4,FAKE/HOAX,1,sputniknews.com,First Russia-NATO Council Since June 2014 Kicks Off in Brussels,https://sptnkne.ws/bebv
+5,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+6,FAKE/HOAX,1,sputniknews.com,What a Dump! Sweden's West Coast Littered With Foreign Garbage,https://sptnkne.ws/beea
+7,POLITICAL,1,bfmtv.com,Coronavirus chinois: comment sont analysés les cas suspects en France?,https://www.bfmtv.com/sante/coronavirus-comment-sont-analyses-les-cas-suspects-en-france-1846921.html
+8,POLITICAL,1,bfmtv.com,Coronavirus chinois: « pas de cas douteux » en France selon Agnès Buzyn,https://www.bfmtv.com/sante/coronavirus-chinois-pas-de-cas-douteux-en-france-selon-agnes-buzyn-1846102.html
+9,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2uxlxjk
+10,POLITICAL,1,bfmtv.com,"Coronavirus: l'épidémie « s'accélère », la Chine « dans une situation grave », alerte le président Xi Jinping",https://www.bfmtv.com/international/la-chine-peut-remporter-la-bataille-contre-le-coronavirus-assure-xi-jinping-1847104.html
+11,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rrlfyw
+12,POLITICAL,1,mol.im,"UK Government searches for 2,000 people who flew to UK from Wuhan",https://mol.im/a/7929817
+13,POLITICAL,1,bfmtv.com,Coronavirus en Chine: la ville de Pékin fait état de son premier décès lié au virus,https://www.bfmtv.com/international/coronavirus-en-chine-la-ville-de-pekin-fait-etatde-son-premier-deces-lie-au-virus-1848056.html#content/contribution/edit
+14,FAKE/HOAX,1,rt.com,Error 404,http://on.rt.com/a9vh
+15,POLITICAL,1,bfmtv.com,"Coronavirus en Chine: le bilan de l'épidémie monte à 106 morts, plus de 4000 cas confirmés dans le pays",https://www.bfmtv.com/international/coronavirus-en-chine-le-bilan-de-l-epidemie-monte-a-106-morts-plus-de-4000-cas-confirmes-dans-le-pays-1848214.html
+16,POLITICAL,1,bfmtv.com,Coronavirus en Chine: le bilan grimpe à 425 morts et 20.400 personnes infectées dans le pays,https://www.bfmtv.com/international/coronavirus-en-chine-le-bilan-grimpe-a-425-morts-et-19-950-personnes-infectees-dans-le-pays-1851784.html
+17,POLITICAL,1,bfmtv.com,Coronavirus: le bilan s'élève à plus de 1000 morts en Chine,https://www.bfmtv.com/international/coronavirus-le-bilan-s-eleve-a-plus-de-1000-morts-en-chine-1855805.html
+18,POLITICAL,1,bfmtv.com,Coronavirus: 2000 iPhone distribués aux passagers du paquebot Diamond Princess,https://www.bfmtv.com/tech/coronavirus-2000-iphone-distribues-aux-passagers-du-paquebot-diamond-princess-1859334.html#page/contribution/index
+19,POLITICAL,1,bfmtv.com,Coronavirus en Chine: 108 morts de plus dans la province du Hubei,https://www.bfmtv.com/international/coronavirus-en-chine-avec-108-morts-supplementaires-dans-le-hubei-le-bilan-passe-a-2112-1861026.html
+20,POLITICAL,1,bfmtv.com,Le coronavirus a fait deux morts en Iran,http://bfmtv.com/international/le-coronavirus-a-fait-deux-morts-en-iran-1860856.html

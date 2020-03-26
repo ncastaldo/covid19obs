@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,38,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-2,POLITICAL,12,bfmtv.com,https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-3,POLITICAL,10,francais.rt.com,https://francais.rt.com/international/70642-epidemie-coronavirus-chine-en-continu
-4,SATIRE,8,scienceinfo.fr,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-5,POLITICAL,5,francais.rt.com,https://francais.rt.com/international/71465-coronavirus-deces-premier-europeen-italie-inquietude-oms-pour-contenir-epidemie
-6,POLITICAL,5,bfmtv.com,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
-7,POLITICAL,5,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/camara-dos-eua-aprova-teste-gratis-para-coronavirus-licenca-medica-remunerada-24305435?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-8,POLITICAL,4,rappler.com,http://rappler.com/world
-9,CONSPIRACY/JUNKSCI,4,zerohedge.com,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-10,CLICKBAIT,4,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-11,POLITICAL,4,oglobo.globo.com,https://oglobo.globo.com/sociedade/teste-de-bolsonaro-para-novo-coronavirus-da-negativo-24302029?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-12,POLITICAL,4,bfmtv.com,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
-13,POLITICAL,4,bfmtv.com,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
-14,CONSPIRACY/JUNKSCI,3,zerohedge.com,https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-15,CLICKBAIT,3,entertain.v.daum.net,http://entertain.v.daum.net/v/20200219144008670sbs
-16,FAKE/HOAX,3,mcmnt.com,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-17,POLITICAL,3,bfmtv.com,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-discours-emmanuel-macron-ecole-fermee-cas-symptomes-morts-quarantaine-confinement-disneyland-paris/#content/contribution/edit
-18,POLITICAL,3,oglobo.globo.com,https://oglobo.globo.com/brasil/herdeiro-da-familia-imperial-dom-antonio-esta-hospitalizado-com-coronavirus-24314291?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-19,POLITICAL,3,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus-novidade-no-brasil-implante-de-chips-aposta-da-medicina-24312618?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-20,FAKE/HOAX,2,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
+rank,fact_type,count,domain,title,url
+1,POLITICAL,38,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+2,POLITICAL,12,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
+3,POLITICAL,10,francais.rt.com,"Coronavirus chinois : trois cas confirmés en France, les premiers en Europe",https://francais.rt.com/international/70642-epidemie-coronavirus-chine-en-continu
+4,SATIRE,8,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
+5,POLITICAL,5,francais.rt.com,Coronavirus : plus de 20 000 morts recensés dans le monde,https://francais.rt.com/international/71465-coronavirus-deces-premier-europeen-italie-inquietude-oms-pour-contenir-epidemie
+6,POLITICAL,5,bfmtv.com,Coronavirus: les ventes de La Peste de Camus bondissent,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
+7,POLITICAL,5,oglobo.globo.com,Câmara dos EUA aprova teste grátis para coronavírus e licença médica remunerada,https://oglobo.globo.com/sociedade/coronavirus/camara-dos-eua-aprova-teste-gratis-para-coronavirus-licenca-medica-remunerada-24305435?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+8,POLITICAL,4,rappler.com,World,http://rappler.com/world
+9,CONSPIRACY/JUNKSCI,4,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+10,CLICKBAIT,4,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+11,POLITICAL,4,oglobo.globo.com,Teste de Bolsonaro para novo coronavírus dá negativo,https://oglobo.globo.com/sociedade/teste-de-bolsonaro-para-novo-coronavirus-da-negativo-24302029?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+12,POLITICAL,4,bfmtv.com,Coronavirus: Castaner prévient que la violation des règles de confinement sera puni d'une amende de 38 €,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
+13,POLITICAL,4,bfmtv.com,Coronavirus: les Hôpitaux de Paris lancent un appel aux dons sur Facebook,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
+14,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+15,CLICKBAIT,3,entertain.v.daum.net,,http://entertain.v.daum.net/v/20200219144008670sbs
+16,FAKE/HOAX,3,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+17,POLITICAL,3,bfmtv.com,Coronavirus: accord entre Trump et les démocrates sur des mesures de soutien à l'économie,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-discours-emmanuel-macron-ecole-fermee-cas-symptomes-morts-quarantaine-confinement-disneyland-paris/#content/contribution/edit
+18,POLITICAL,3,oglobo.globo.com,"Herdeiro da Família Imperial, Dom Antônio está hospitalizado com coronavírus",https://oglobo.globo.com/brasil/herdeiro-da-familia-imperial-dom-antonio-esta-hospitalizado-com-coronavirus-24314291?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+19,POLITICAL,3,oglobo.globo.com,"Coronavírus: novidade no Brasil, implante de chips é aposta da Medicina",https://oglobo.globo.com/sociedade/coronavirus-novidade-no-brasil-implante-de-chips-aposta-da-medicina-24312618?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+20,FAKE/HOAX,2,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html

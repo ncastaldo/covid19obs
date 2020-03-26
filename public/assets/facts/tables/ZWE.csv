@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,FAKE/HOAX,32,dailymail.co.uk,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
-2,CLICKBAIT,29,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,CONSPIRACY/JUNKSCI,24,zerohedge.com,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-4,CLICKBAIT,10,mirror.co.uk,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-5,POLITICAL,9,rollingstone.com,https://rol.st/396qdge
-6,POLITICAL,8,today.ng,https://www.today.ng/i/207948
-7,CLICKBAIT,6,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/volunteers-infected-coronavirus-3500-bid-21655442?utm_source=facebook.com&utm_medium=social&utm_campaign=mirror_main
-8,POLITICAL,5,cnn.it,https://cnn.it/30uylfu
-9,POLITICAL,5,rappler.com,http://rappler.com/world
-10,SATIRE,5,scienceinfo.fr,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-11,FAKE/HOAX,5,ibtimes.sg,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-12,CONSPIRACY/JUNKSCI,4,zerohedge.com,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-13,POLITICAL,4,mol.im,https://mol.im/a/8067521
-14,POLITICAL,3,thesun.co.uk,https://www.thesun.co.uk/news/10808633/coronavirus-wuhan-zombieland/?utm_medium=social&utm_campaign=sunmaintwitter&utm_source=twitter#echobox=1579860087
-15,CLICKBAIT,3,mirror.co.uk,https://www.mirror.co.uk/news/world-news/coronavirus-medics-wearing-adult-nappies-21361297?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar
-16,POLITICAL,3,cnn.it,https://cnn.it/3ajhzzs
-17,POLITICAL,3,cnn.it,https://cnn.it/3akwdqb
-18,POLITICAL,3,cnn.it,https://cnn.it/36zbnqq
-19,FAKE/HOAX,3,dailymail.co.uk,https://www.dailymail.co.uk/news/article-7939075/amp/chinas-coronavirus-hospital-opens-today.html?__twitter_impression=true
-20,POLITICAL,3,rappler.com,https://www.rappler.com/nation/186633-philippines-confirms-case-novel-coronavirus?utm_medium=social&utm_source=twitter#echobox=1580371766
+rank,fact_type,count,domain,title,url
+1,FAKE/HOAX,32,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+2,CLICKBAIT,29,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+3,CONSPIRACY/JUNKSCI,24,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+4,CLICKBAIT,10,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
+5,POLITICAL,9,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+6,POLITICAL,8,today.ng,"CDC: To be safe from coronavirus, shave your beard - TODAY",https://www.today.ng/i/207948
+7,CLICKBAIT,6,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/volunteers-infected-coronavirus-3500-bid-21655442?utm_source=facebook.com&utm_medium=social&utm_campaign=mirror_main
+8,POLITICAL,5,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
+9,POLITICAL,5,rappler.com,World,http://rappler.com/world
+10,SATIRE,5,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
+11,FAKE/HOAX,5,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+12,CONSPIRACY/JUNKSCI,4,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+13,POLITICAL,4,mol.im,Coronavirus: All the essential information you need,https://mol.im/a/8067521
+14,POLITICAL,3,thesun.co.uk,Coronavirus ground zero 'is now a zombieland with dead lying in streets',https://www.thesun.co.uk/news/10808633/coronavirus-wuhan-zombieland/?utm_medium=social&utm_campaign=sunmaintwitter&utm_source=twitter#echobox=1579860087
+15,CLICKBAIT,3,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-medics-wearing-adult-nappies-21361297?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar
+16,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3ajhzzs
+17,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3akwdqb
+18,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36zbnqq
+19,FAKE/HOAX,3,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/amp/chinas-coronavirus-hospital-opens-today.html?__twitter_impression=true
+20,POLITICAL,3,rappler.com,Philippines confirms 1st case of novel coronavirus,https://www.rappler.com/nation/186633-philippines-confirms-case-novel-coronavirus?utm_medium=social&utm_source=twitter#echobox=1580371766

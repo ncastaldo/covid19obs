@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,16,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,CONSPIRACY/JUNKSCI,6,zerohedge.com,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-3,POLITICAL,5,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-4,CONSPIRACY/JUNKSCI,4,zerohedge.com,https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-5,CLICKBAIT,4,mirror.co.uk,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-6,POLITICAL,4,bfmtv.com,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-italie-chine-carte-symptomes-mort-cas-psg-dortmund-huis-clos-paris-oise-morbihan-lyon/
-7,POLITICAL,4,rollingstone.com,https://rol.st/396qdge
-8,CONSPIRACY/JUNKSCI,4,peta.org,http://peta.vg/2ran
-9,SATIRE,3,scienceinfo.fr,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-10,FAKE/HOAX,2,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
-11,POLITICAL,2,today.ng,https://www.today.ng/o/206266
-12,FAKE/HOAX,2,dailymail.co.uk,https://www.dailymail.co.uk/health/article-8052295/nhs-sacrifice-vulnerable-patients-critical-care-coronavirus-surge-medics-admit.html
-13,POLITICAL,2,today.ng,https://www.today.ng/i/207948
-14,POLITICAL,2,change.org,https://www.change.org/p/world-health-organization-bring-back-draco-antiviral-against-coronavirus-disease-covid-19
-15,POLITICAL,2,bfmtv.com,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
-16,POLITICAL,1,es.rt.com,https://es.rt.com/7azw
-17,POLITICAL,1,cnn.com,https://www.cnn.com/asia/live-news/coronavirus-outbreak-intl-hnk/index.html
-18,POLITICAL,1,cnn.it,https://cnn.it/2rejvvw
-19,POLITICAL,1,washingtonexaminer.com,https://www.washingtonexaminer.com/news/cdc-monitoring-63-patients-in-22-states-for-coronavirus-and-expecting-more
-20,FAKE/HOAX,1,rt.com,https://www.rt.com/news/479031-china-coronavirus-global-emergency/
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,16,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,CONSPIRACY/JUNKSCI,6,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+3,POLITICAL,5,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+4,CONSPIRACY/JUNKSCI,4,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+5,CLICKBAIT,4,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
+6,POLITICAL,4,bfmtv.com,Coronavirus: le chef de l'ONU appelle tous les pays à « redoubler d'efforts immédiatement,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-italie-chine-carte-symptomes-mort-cas-psg-dortmund-huis-clos-paris-oise-morbihan-lyon/
+7,POLITICAL,4,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+8,CONSPIRACY/JUNKSCI,4,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+9,SATIRE,3,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
+10,FAKE/HOAX,2,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
+11,POLITICAL,2,today.ng,Coronavirus inflicts growing toll on China’s health workers - TODAY,https://www.today.ng/o/206266
+12,FAKE/HOAX,2,dailymail.co.uk,NHS could sacrifice vulnerable patients' critical care for coronavirus,https://www.dailymail.co.uk/health/article-8052295/nhs-sacrifice-vulnerable-patients-critical-care-coronavirus-surge-medics-admit.html
+13,POLITICAL,2,today.ng,"CDC: To be safe from coronavirus, shave your beard - TODAY",https://www.today.ng/i/207948
+14,POLITICAL,2,change.org,Sign the Petition,https://www.change.org/p/world-health-organization-bring-back-draco-antiviral-against-coronavirus-disease-covid-19
+15,POLITICAL,2,bfmtv.com,Coronavirus: les Hôpitaux de Paris lancent un appel aux dons sur Facebook,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
+16,POLITICAL,1,es.rt.com,"China cierra una cuarta ciudad, con una población de 2,5 millones de habitantes, para evitar la propagación del coronavirus",https://es.rt.com/7azw
+17,POLITICAL,1,cnn.com,January 23 coronavirus news - CNN,https://www.cnn.com/asia/live-news/coronavirus-outbreak-intl-hnk/index.html
+18,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rejvvw
+19,POLITICAL,1,washingtonexaminer.com,,https://www.washingtonexaminer.com/news/cdc-monitoring-63-patients-in-22-states-for-coronavirus-and-expecting-more
+20,FAKE/HOAX,1,rt.com,China coronavirus infections soar to 830 with 26 deaths as WHO says it’s too early to declare global emergency,https://www.rt.com/news/479031-china-coronavirus-global-emergency/

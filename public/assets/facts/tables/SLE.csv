@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,11,allkpop.com,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-2,FAKE/HOAX,5,ibtimes.sg,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-3,POLITICAL,4,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-4,CLICKBAIT,4,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228150259906
-5,CLICKBAIT,4,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228165328313
-6,CLICKBAIT,3,allkpop.com,https://www.allkpop.com/article/2020/01/nct-dream-and-sf9-fans-demand-their-labels-take-action-to-keep-artists-out-of-china-due-to-the-coronavirus
-7,POLITICAL,3,rappler.com,http://rappler.com/world
-8,FAKE/HOAX,3,n.news.naver.com,https://n.news.naver.com/article/032/0002993787
-9,FAKE/HOAX,3,ibtimes.sg,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-10,CLICKBAIT,2,allkpop.com,https://www.allkpop.com/article/2020/01/taeyeon-nct-dream-postpone-their-singapore-concerts-in-light-of-coronavirus-threats
-11,CLICKBAIT,2,koreaboo.com,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
-12,CLICKBAIT,2,soompi.com,https://www.soompi.com/article/1382066wpp/chungha-donates-masks-for-coronavirus-prevention-to-children-in-need-on-her-birthday
-13,CLICKBAIT,2,soompi.com,https://www.soompi.com/article/1385621wpp/staff-member-of-popular-singer-reportedly-tests-positive-for-novel-coronavirus
-14,CLICKBAIT,2,koreaboo.com,https://www.koreaboo.com/news/celebrities-companies-donated-help-fight-corona19-covid-19/
-15,CLICKBAIT,2,soompi.com,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-16,POLITICAL,2,bfmtv.com,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
-17,POLITICAL,2,rawstory.com,https://www.rawstory.com/2020/03/pathetic-trump-gets-blasted-after-he-blames-obama-for-problems-with-coronavirus-testing/
-18,CLICKBAIT,2,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-19,CLICKBAIT,2,koreaboo.com,https://www.koreaboo.com/news/exo-baekhyun-fans-devastated-message-coronavirus-covid-19/
-20,POLITICAL,1,foxnews.com,https://www.foxnews.com/health/first-case-coronavirus-us-seattle
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,11,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
+2,FAKE/HOAX,5,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+3,POLITICAL,4,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+4,CLICKBAIT,4,entertain.v.daum.net,"[단독] 레드벨벳 웬디, 코로나19 성금 1억 기부..부상 중에도 빛난 선행",https://entertain.v.daum.net/v/20200228150259906
+5,CLICKBAIT,4,entertain.v.daum.net,"엑소 레이, 코로나19 사태에 2천만원 의미 있는 기부..""우리는 하나"" [단독]",https://entertain.v.daum.net/v/20200228165328313
+6,CLICKBAIT,3,allkpop.com,NCT Dream and SF9 fans demand their labels take action to keep artists out of China due to the coronavirus,https://www.allkpop.com/article/2020/01/nct-dream-and-sf9-fans-demand-their-labels-take-action-to-keep-artists-out-of-china-due-to-the-coronavirus
+7,POLITICAL,3,rappler.com,World,http://rappler.com/world
+8,FAKE/HOAX,3,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
+9,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+10,CLICKBAIT,2,allkpop.com,Taeyeon & NCT Dream postpone their Singapore concerts in light of Coronavirus threats,https://www.allkpop.com/article/2020/01/taeyeon-nct-dream-postpone-their-singapore-concerts-in-light-of-coronavirus-threats
+11,CLICKBAIT,2,koreaboo.com,Baekhyun Praised For His Adorable Yet Smart Methods To Preventing The Coronavirus,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
+12,CLICKBAIT,2,soompi.com,Chungha Donates Masks For Coronavirus Prevention To Children In Need On Her Birthday,https://www.soompi.com/article/1382066wpp/chungha-donates-masks-for-coronavirus-prevention-to-children-in-need-on-her-birthday
+13,CLICKBAIT,2,soompi.com,Staff Member Of Popular Singer Reportedly Tests Positive For Novel Coronavirus,https://www.soompi.com/article/1385621wpp/staff-member-of-popular-singer-reportedly-tests-positive-for-novel-coronavirus
+14,CLICKBAIT,2,koreaboo.com,48 More Celebrities and Companies Who Have Donated To Help Fight Against Corona19 (COVID-19),https://www.koreaboo.com/news/celebrities-companies-donated-help-fight-corona19-covid-19/
+15,CLICKBAIT,2,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
+16,POLITICAL,2,bfmtv.com,Coronavirus: les ventes de La Peste de Camus bondissent,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
+17,POLITICAL,2,rawstory.com,‘Pathetic’ Trump gets blasted after he blames Obama for problems with coronavirus testing,https://www.rawstory.com/2020/03/pathetic-trump-gets-blasted-after-he-blames-obama-for-problems-with-coronavirus-testing/
+18,CLICKBAIT,2,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+19,CLICKBAIT,2,koreaboo.com,EXO's Baekhyun Comforts Fans Who Are Devastated That They Can't Meet Him,https://www.koreaboo.com/news/exo-baekhyun-fans-devastated-message-coronavirus-covid-19/
+20,POLITICAL,1,foxnews.com,"First case of China-linked coronavirus reported in US, federal officials say",https://www.foxnews.com/health/first-case-coronavirus-us-seattle

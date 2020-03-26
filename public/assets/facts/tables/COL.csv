@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,404,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,179,cnn.it,https://cnn.it/2tzyezs
-3,POLITICAL,175,cnn.it,https://cnn.it/37zvbvy
-4,FAKE/HOAX,173,albertonews.com,https://albertonews.com/coronavirus/argentina-construira-8-hospitales-de-emergencia-por-propagacion-del-covid-19/
-5,POLITICAL,156,cnn.it,https://cnn.it/38vegds
-6,POLITICAL,151,cnn.it,https://cnn.it/2rhqfif
-7,POLITICAL,148,vox.com,https://www.vox.com/2020/3/10/21171481/coronavirus-us-cases-quarantine-cancellation
-8,POLITICAL,133,cnn.it,https://cnn.it/3942kes
-9,POLITICAL,118,cnn.it,https://cnn.it/39enong
-10,POLITICAL,109,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-11,POLITICAL,109,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-12,POLITICAL,109,cnn.it,https://cnn.it/39z7nqm
-13,POLITICAL,106,es.rt.com,https://es.rt.com/7b6g
-14,POLITICAL,104,es.rt.com,https://es.rt.com/7f2w
-15,POLITICAL,103,cnn.it,https://cnn.it/2vk19fr
-16,POLITICAL,102,es.rt.com,https://es.rt.com/7fjk
-17,POLITICAL,99,rollingstone.com,https://rol.st/396qdge
-18,POLITICAL,92,es.rt.com,https://es.rt.com/7d3m
-19,POLITICAL,91,eluni.mx,http://eluni.mx/rlzbbli28
-20,POLITICAL,90,es.rt.com,https://es.rt.com/7bph
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,404,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,POLITICAL,179,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tzyezs
+3,POLITICAL,175,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37zvbvy
+4,FAKE/HOAX,173,albertonews.com,Argentina construirá 8 hospitales de emergencia por propagación del COVID-19 - AlbertoNews - Periodismo sin censura,https://albertonews.com/coronavirus/argentina-construira-8-hospitales-de-emergencia-por-propagacion-del-covid-19/
+5,POLITICAL,156,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38vegds
+6,POLITICAL,151,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rhqfif
+7,POLITICAL,148,vox.com,"How canceled events and self-quarantines save lives, in one chart",https://www.vox.com/2020/3/10/21171481/coronavirus-us-cases-quarantine-cancellation
+8,POLITICAL,133,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3942kes
+9,POLITICAL,118,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39enong
+10,POLITICAL,109,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+11,POLITICAL,109,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+12,POLITICAL,109,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39z7nqm
+13,POLITICAL,106,es.rt.com,China prohíbe el comercio de vida silvestre en todo el país debido al coronavirus,https://es.rt.com/7b6g
+14,POLITICAL,104,es.rt.com,"Italia recluta a médicos de Cuba, Venezuela y China para luchar contra el coronavirus",https://es.rt.com/7f2w
+15,POLITICAL,103,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vk19fr
+16,POLITICAL,102,es.rt.com,Una persona muere cada 10 minutos por coronavirus en Irán,https://es.rt.com/7fjk
+17,POLITICAL,99,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+18,POLITICAL,92,es.rt.com,Corea del Sur anuncia que el coronavirus se está propagando por el este del país,https://es.rt.com/7d3m
+19,POLITICAL,91,eluni.mx,¿Cómo se transmite el coronavirus o virus de Wuhan?,http://eluni.mx/rlzbbli28
+20,POLITICAL,90,es.rt.com,China informa de un brote de gripe aviar en medio de la batalla contra el coronavirus 2019-nCoV,https://es.rt.com/7bph

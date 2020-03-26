@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,23,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,CONSPIRACY/JUNKSCI,19,zerohedge.com,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-3,POLITICAL,15,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-4,POLITICAL,13,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-5,CLICKBAIT,8,allkpop.com,https://www.allkpop.com/article/2020/01/btss-v-shows-concerns-urges-fans-to-be-careful-of-the-coronavirus
-6,CLICKBAIT,6,koreaboo.com,https://www.koreaboo.com/news/blackpinks-march-comeback-reportedly-postponed-due-coronavirus-covid-19/
-7,CLICKBAIT,6,soompi.com,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
-8,FAKE/HOAX,5,dailymail.co.uk,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
-9,CLICKBAIT,5,entertain.v.daum.net,http://entertain.v.daum.net/v/20200214152739620
-10,CLICKBAIT,5,entertain.v.daum.net,https://entertain.v.daum.net/v/20200305112918512
-11,POLITICAL,4,rappler.com,http://rappler.com/world
-12,CLICKBAIT,4,entertain.v.daum.net,http://entertain.v.daum.net/v/20200219144008670sbs
-13,POLITICAL,4,bfmtv.com,https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-14,CLICKBAIT,3,soompi.com,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-15,CLICKBAIT,3,allkpop.com,https://www.allkpop.com/article/2020/02/bvlgari-event-that-lisa-was-scheduled-to-attend-is-canceled-due-to-the-coronavirus
-16,CLICKBAIT,3,mirror.co.uk,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-17,FAKE/HOAX,3,ibtimes.sg,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-18,POLITICAL,3,oglobo.globo.com,https://oglobo.globo.com/fato-ou-fake/e-fake-que-tigela-de-agua-com-alho-recem-fervida-cura-coronavirus-1-24308518?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-19,POLITICAL,3,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus-novidade-no-brasil-implante-de-chips-aposta-da-medicina-24312618?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-20,POLITICAL,2,newsweek.com,https://www.newsweek.com/starting-5-impeachment-arguments-zion-williamson-debut-conversion-therapy-ban-coronavirus-1483308
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,23,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,CONSPIRACY/JUNKSCI,19,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+3,POLITICAL,15,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+4,POLITICAL,13,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+5,CLICKBAIT,8,allkpop.com,"BTS’s V Shows Concern, Urges Fans To Be Careful Of The Coronavirus.",https://www.allkpop.com/article/2020/01/btss-v-shows-concerns-urges-fans-to-be-careful-of-the-coronavirus
+6,CLICKBAIT,6,koreaboo.com,BLACKPINK's March Comeback Has Reportedly Been Postponed Due To Coronavirus,https://www.koreaboo.com/news/blackpinks-march-comeback-reportedly-postponed-due-coronavirus-covid-19/
+7,CLICKBAIT,6,soompi.com,BTS’s Fans ARMY Donate Refunds From Concert Cancelation To Help Coronavirus Prevention,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
+8,FAKE/HOAX,5,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+9,CLICKBAIT,5,entertain.v.daum.net,대구시 코로나19 우려 속 대규모 K-POP 콘서트 강행,http://entertain.v.daum.net/v/20200214152739620
+10,CLICKBAIT,5,entertain.v.daum.net,BTS 슈가 1억 기부에 팬들 성금만 5억..'선한 영향력' 시너지,https://entertain.v.daum.net/v/20200305112918512
+11,POLITICAL,4,rappler.com,World,http://rappler.com/world
+12,CLICKBAIT,4,entertain.v.daum.net,,http://entertain.v.daum.net/v/20200219144008670sbs
+13,POLITICAL,4,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
+14,CLICKBAIT,3,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
+15,CLICKBAIT,3,allkpop.com,'BVLGARI' event that Lisa was scheduled to attend is canceled due to the Coronavirus,https://www.allkpop.com/article/2020/02/bvlgari-event-that-lisa-was-scheduled-to-attend-is-canceled-due-to-the-coronavirus
+16,CLICKBAIT,3,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
+17,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+18,POLITICAL,3,oglobo.globo.com,É #FAKE que tigela de água com alho recém-fervida cura o coronavírus,https://oglobo.globo.com/fato-ou-fake/e-fake-que-tigela-de-agua-com-alho-recem-fervida-cura-coronavirus-1-24308518?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+19,POLITICAL,3,oglobo.globo.com,"Coronavírus: novidade no Brasil, implante de chips é aposta da Medicina",https://oglobo.globo.com/sociedade/coronavirus-novidade-no-brasil-implante-de-chips-aposta-da-medicina-24312618?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+20,POLITICAL,2,newsweek.com,,https://www.newsweek.com/starting-5-impeachment-arguments-zion-williamson-debut-conversion-therapy-ban-coronavirus-1483308

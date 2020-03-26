@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,404,cnn.it,https://cnn.it/2qmv5pf
-2,POLITICAL,366,larepublica.pe,https://larepublica.pe/sociedad/2020/01/27/coronavirus-ministra-de-salud-confirma-que-hay-cuatro-probable-casos/
-3,POLITICAL,303,diariocorreo.pe,https://diariocorreo.pe/salud/contradicen-a-vizcarra-medicos-de-essalud-niegan-haber-sido-capacitados-por-coronavirus-noticia/
-4,POLITICAL,256,larepublica.pe,https://larepublica.pe/sociedad/2020/03/22/coronavirus-en-peru-ingenieros-peruanos-ofrecen-fabricar-100-ventiladores-pulmonares/
-5,POLITICAL,246,larepublica.pe,https://larepublica.pe/politica/2020/03/06/coronavirus-martin-vizcarra-confirma-primer-caso-de-covid-19-en-peru-video/
-6,POLITICAL,235,larepublica.pe,https://larepublica.pe/sociedad/2020/03/06/aerolineas-en-arequipa-se-niegan-a-transportar-muestras-sospechosas-de-coronavirus-lrsd/
-7,POLITICAL,230,larepublica.pe,https://larepublica.pe/mundo/2020/02/28/coronavirus-vacuna-para-la-epidemia-se-obtendria-en-unas-semanas-aseguran-cientificos-de-israel-mdga/
-8,POLITICAL,225,larepublica.pe,https://larepublica.pe/sociedad/2020/03/07/coronavirus-en-el-peru-minsa-confirma-cinco-nuevos-casos-de-covid-19/
-9,CLICKBAIT,211,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-10,POLITICAL,193,cnn.it,https://cnn.it/2uz6cbr
-11,POLITICAL,133,larepublica.pe,https://larepublica.pe/sociedad/2020/03/19/coronavirus-trabajador-de-konecta-dio-positivo-a-prueba-de-covid-19-video/
-12,POLITICAL,97,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-13,POLITICAL,97,larepublica.pe,https://larepublica.pe/sociedad/2020/03/08/coronavirus-en-peru-denuncian-que-clinica-delgado-cobraria-1700-soles-por-descarte-de-covid-19-minsa-video/
-14,POLITICAL,93,larepublica.pe,https://larepublica.pe/sociedad/2020/03/06/coronavirus-en-peru-quien-es-el-primer-caso-de-covid19-y-en-que-hospital-del-minsa-fue-detectado-martin-vizcarra-video/
-15,POLITICAL,90,larepublica.pe,https://larepublica.pe/mundo/2020/03/15/coronavirus-en-austria-reunion-de-mas-de-cinco-personas-queda-prohibida-por-covid-19/
-16,POLITICAL,83,diariocorreo.pe,https://diariocorreo.pe/edicion/lima/coronavirus-en-peru-gente-con-gripe-no-deberia-ir-a-su-trabajo-recomendaciones-ciro-maguina-vicedecano-del-colegio-medico-entrevista-video-noticia/
-17,POLITICAL,82,larepublica.pe,https://larepublica.pe/sociedad/2020/03/06/coronavirus-en-peru-personal-de-hospital-uldarico-roca-de-villa-el-salvador-denuncian-que-no-han-sido-capacitados-video-fotos/
-18,POLITICAL,77,es.rt.com,https://es.rt.com/7ba5
-19,POLITICAL,76,cnn.it,https://cnn.it/37zvbvy
-20,POLITICAL,76,larepublica.pe,https://larepublica.pe/politica/2020/03/23/coronavirus-en-peru-militar-christian-cueva-calle-no-sera-retirado-del-ejercito-peruano-ministerio-de-defensa-mdga/
+rank,fact_type,count,domain,title,url
+1,POLITICAL,404,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
+2,POLITICAL,366,larepublica.pe,Ministra de Salud confirma cuatro probable casos de coronavirus en el Perú,https://larepublica.pe/sociedad/2020/01/27/coronavirus-ministra-de-salud-confirma-que-hay-cuatro-probable-casos/
+3,POLITICAL,303,diariocorreo.pe,Contradicen al presidente: médicos de Essalud niegan haber sido capacitados por coronavirus,https://diariocorreo.pe/salud/contradicen-a-vizcarra-medicos-de-essalud-niegan-haber-sido-capacitados-por-coronavirus-noticia/
+4,POLITICAL,256,larepublica.pe,Ingenieros peruanos ofrecen fabricar 100 ventiladores pulmonares,https://larepublica.pe/sociedad/2020/03/22/coronavirus-en-peru-ingenieros-peruanos-ofrecen-fabricar-100-ventiladores-pulmonares/
+5,POLITICAL,246,larepublica.pe,Coronavirus en Perú: Vizcarra confirmó primer caso [VIDEO],https://larepublica.pe/politica/2020/03/06/coronavirus-martin-vizcarra-confirma-primer-caso-de-covid-19-en-peru-video/
+6,POLITICAL,235,larepublica.pe,Aerolíneas en Arequipa se niegan a transportar muestras sospechosas de coronavirus [VIDEO],https://larepublica.pe/sociedad/2020/03/06/aerolineas-en-arequipa-se-niegan-a-transportar-muestras-sospechosas-de-coronavirus-lrsd/
+7,POLITICAL,230,larepublica.pe,Especialistas en Israel trabajan para obtener la vacuna contra el coronavirus,https://larepublica.pe/mundo/2020/02/28/coronavirus-vacuna-para-la-epidemia-se-obtendria-en-unas-semanas-aseguran-cientificos-de-israel-mdga/
+8,POLITICAL,225,larepublica.pe,Minsa confirma cinco nuevos casos de coronavirus en el Perú [VIDEO],https://larepublica.pe/sociedad/2020/03/07/coronavirus-en-el-peru-minsa-confirma-cinco-nuevos-casos-de-covid-19/
+9,CLICKBAIT,211,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+10,POLITICAL,193,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2uz6cbr
+11,POLITICAL,133,larepublica.pe,Coronavirus: trabajador de Konecta dio positivo a prueba de COVID-19 [VIDEO],https://larepublica.pe/sociedad/2020/03/19/coronavirus-trabajador-de-konecta-dio-positivo-a-prueba-de-covid-19-video/
+12,POLITICAL,97,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+13,POLITICAL,97,larepublica.pe,Denuncian que clínica local cobraría 1700 soles por descarte de coronavirus [VIDEO],https://larepublica.pe/sociedad/2020/03/08/coronavirus-en-peru-denuncian-que-clinica-delgado-cobraria-1700-soles-por-descarte-de-covid-19-minsa-video/
+14,POLITICAL,93,larepublica.pe,Coronavirus en Perú: joven de 25 años que regresó de Europa es el primer infectado [VIDEO],https://larepublica.pe/sociedad/2020/03/06/coronavirus-en-peru-quien-es-el-primer-caso-de-covid19-y-en-que-hospital-del-minsa-fue-detectado-martin-vizcarra-video/
+15,POLITICAL,90,larepublica.pe,Coronavirus: Austria prohíbe las reuniones de más de cinco personas,https://larepublica.pe/mundo/2020/03/15/coronavirus-en-austria-reunion-de-mas-de-cinco-personas-queda-prohibida-por-covid-19/
+16,POLITICAL,83,diariocorreo.pe,"“Gente con gripe no debería ir a su trabajo ni al colegio”, recomienda el Colegio Médico",https://diariocorreo.pe/edicion/lima/coronavirus-en-peru-gente-con-gripe-no-deberia-ir-a-su-trabajo-recomendaciones-ciro-maguina-vicedecano-del-colegio-medico-entrevista-video-noticia/
+17,POLITICAL,82,larepublica.pe,Médicos de hospital Uldarico Roca afirman no estar capacitados para atender casos de coronavirus ,https://larepublica.pe/sociedad/2020/03/06/coronavirus-en-peru-personal-de-hospital-uldarico-roca-de-villa-el-salvador-denuncian-que-no-han-sido-capacitados-video-fotos/
+18,POLITICAL,77,es.rt.com,Perú informa de cuatro pacientes bajo sospecha de contagio por coronavirus,https://es.rt.com/7ba5
+19,POLITICAL,76,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37zvbvy
+20,POLITICAL,76,larepublica.pe,Ministro de Defensa: Militar que agredió a joven no será retirado de la institución,https://larepublica.pe/politica/2020/03/23/coronavirus-en-peru-militar-christian-cueva-calle-no-sera-retirado-del-ejercito-peruano-ministerio-de-defensa-mdga/

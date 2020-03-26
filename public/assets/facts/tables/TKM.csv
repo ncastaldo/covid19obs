@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,3,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-2,FAKE/HOAX,2,dailystar.co.uk,https://www.dailystar.co.uk/news/world-news/china-coronavirus-spread-through-eyes-21351718
-3,CLICKBAIT,2,soompi.com,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-4,SATIRE,2,scienceinfo.fr,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-5,CLICKBAIT,2,soompi.com,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-6,POLITICAL,1,cnn.it,https://cnn.it/2gcntzu
-7,POLITICAL,1,cnn.it,https://cnn.it/2sqd7mc
-8,POLITICAL,1,cnn.it,https://cnn.it/2rsp8nf
-9,POLITICAL,1,cnn.it,https://cnn.it/2rndsu7
-10,FAKE/HOAX,1,gnews.org,https://gnews.org/89749/
-11,POLITICAL,1,xhne.ws,http://xhne.ws/goqll
-12,POLITICAL,1,newstatesman.com,https://www.newstatesman.com/politics/health/2020/02/why-coronavirus-presents-global-political-danger
-13,POLITICAL,1,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-14,CLICKBAIT,1,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228154650904
-15,FAKE/HOAX,1,ibtimes.sg,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-16,CLICKBAIT,1,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228150259906
-17,POLITICAL,1,bfmtv.com,https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-18,CLICKBAIT,1,koreaboo.com,https://www.koreaboo.com/news/bts-cancels-map-soul-tour-in-seoul-due-coronavirus-outbreak/
-19,POLITICAL,1,eluni.mx,http://eluni.mx/g1v-arkhb
-20,CLICKBAIT,1,allkpop.com,https://www.allkpop.com/article/2020/03/pledis-confirms-minhyun-tested-negative-for-coronavirus
+rank,fact_type,count,domain,title,url
+1,POLITICAL,3,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+2,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/china-coronavirus-spread-through-eyes-21351718
+3,CLICKBAIT,2,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
+4,SATIRE,2,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
+5,CLICKBAIT,2,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
+6,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2gcntzu
+7,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2sqd7mc
+8,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rsp8nf
+9,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rndsu7
+10,FAKE/HOAX,1,gnews.org,,https://gnews.org/89749/
+11,POLITICAL,1,xhne.ws,,http://xhne.ws/goqll
+12,POLITICAL,1,newstatesman.com,Why the coronavirus presents a global political danger,https://www.newstatesman.com/politics/health/2020/02/why-coronavirus-presents-global-political-danger
+13,POLITICAL,1,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+14,CLICKBAIT,1,entertain.v.daum.net,,https://entertain.v.daum.net/v/20200228154650904
+15,FAKE/HOAX,1,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+16,CLICKBAIT,1,entertain.v.daum.net,"[단독] 레드벨벳 웬디, 코로나19 성금 1억 기부..부상 중에도 빛난 선행",https://entertain.v.daum.net/v/20200228150259906
+17,POLITICAL,1,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
+18,CLICKBAIT,1,koreaboo.com,"BTS Cancels ""MAP OF THE SOUL TOUR"" In Seoul Due to Coronavirus Outbreak",https://www.koreaboo.com/news/bts-cancels-map-soul-tour-in-seoul-due-coronavirus-outbreak/
+19,POLITICAL,1,eluni.mx,"Inhumano, negar entrada de crucero por sospecha de coronavirus: AMLO",http://eluni.mx/g1v-arkhb
+20,CLICKBAIT,1,allkpop.com,Pledis confirms Minhyun tested negative for coronavirus,https://www.allkpop.com/article/2020/03/pledis-confirms-minhyun-tested-negative-for-coronavirus

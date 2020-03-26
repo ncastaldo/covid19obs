@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,FAKE/HOAX,1340,albertonews.com,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
-2,FAKE/HOAX,1140,albertonews.com,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
-3,FAKE/HOAX,739,albertonews.com,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
-4,FAKE/HOAX,542,albertonews.com,https://albertonews.com/internacionales/ultima-hora-cientifico-de-harvard-predice-que-el-coronavirus-infectara-hasta-el-70-de-la-humanidad/
-5,FAKE/HOAX,469,albertonews.com,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
-6,POLITICAL,447,es.rt.com,https://es.rt.com/7bph
-7,POLITICAL,361,es.rt.com,https://es.rt.com/7dg7
-8,FAKE/HOAX,285,albertonews.com,https://albertonews.com/internacionales/lo-ultimo-medicos-chinos-hallan-anticuerpos-capaces-de-combatir-el-coronavirus/
-9,FAKE/HOAX,279,albertonews.com,https://albertonews.com/internacionales/ultima-hora-se-confirma-primer-caso-de-colombiano-con-coronavirus/
-10,FAKE/HOAX,253,albertonews.com,https://albertonews.com/internacionales/urgente-el-coronavirus-puede-infectar-desde-una-distancia-de-2-metros-y-a-traves-de-los-ojos/
-11,POLITICAL,226,mazo4f.com,https://mazo4f.com/211792
-12,POLITICAL,208,mazo4f.com,https://mazo4f.com/212133
-13,POLITICAL,185,mazo4f.com,https://mazo4f.com/212132
-14,POLITICAL,185,es.rt.com,https://es.rt.com/7ebr
-15,POLITICAL,179,es.rt.com,https://es.rt.com/7bvt
-16,POLITICAL,176,es.rt.com,https://es.rt.com/7eej
-17,FAKE/HOAX,173,albertonews.com,https://albertonews.com/nacionales/ultima-hora-tal-cual-aislada-paciente-con-sospecha-de-coronavirus-en-hospital-perez-carreno-de-caracas/
-18,POLITICAL,164,es.rt.com,https://es.rt.com/7fd4
-19,FAKE/HOAX,159,albertonews.com,https://albertonews.com/nacionales/alerta-nacional/
-20,POLITICAL,158,es.rt.com,https://es.rt.com/7d3m
+rank,fact_type,count,domain,title,url
+1,FAKE/HOAX,1340,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+2,FAKE/HOAX,1140,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+3,FAKE/HOAX,739,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
+4,FAKE/HOAX,542,albertonews.com,Científico de Harvard predice que el coronavirus infectará hasta el 70% de la humanidad - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/ultima-hora-cientifico-de-harvard-predice-que-el-coronavirus-infectara-hasta-el-70-de-la-humanidad/
+5,FAKE/HOAX,469,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
+6,POLITICAL,447,es.rt.com,China informa de un brote de gripe aviar en medio de la batalla contra el coronavirus 2019-nCoV,https://es.rt.com/7bph
+7,POLITICAL,361,es.rt.com,"Trump: ""Estamos cerca de encontrar una vacuna contra el coronavirus""",https://es.rt.com/7dg7
+8,FAKE/HOAX,285,albertonews.com,Médicos chinos hallan anticuerpos capaces de combatir el coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/lo-ultimo-medicos-chinos-hallan-anticuerpos-capaces-de-combatir-el-coronavirus/
+9,FAKE/HOAX,279,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-se-confirma-primer-caso-de-colombiano-con-coronavirus/
+10,FAKE/HOAX,253,albertonews.com,,https://albertonews.com/internacionales/urgente-el-coronavirus-puede-infectar-desde-una-distancia-de-2-metros-y-a-traves-de-los-ojos/
+11,POLITICAL,226,mazo4f.com,,https://mazo4f.com/211792
+12,POLITICAL,208,mazo4f.com,,https://mazo4f.com/212133
+13,POLITICAL,185,mazo4f.com,,https://mazo4f.com/212132
+14,POLITICAL,185,es.rt.com,Confirman el primer caso de coronavirus en Perú,https://es.rt.com/7ebr
+15,POLITICAL,179,es.rt.com,"La OMS asegura que el nuevo coronavirus aún no es una ""pandemia""",https://es.rt.com/7bvt
+16,POLITICAL,176,es.rt.com,China asegura que casi el 70 % de los enfermos de coronavirus se han recuperado,https://es.rt.com/7eej
+17,FAKE/HOAX,173,albertonews.com,Tal Cual: Aislada paciente con sospecha de coronavirus en hospital Pérez Carreño de Caracas - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-tal-cual-aislada-paciente-con-sospecha-de-coronavirus-en-hospital-perez-carreno-de-caracas/
+18,POLITICAL,164,es.rt.com,China aprueba una vacuna contra el coronavirus para ensayos clínicos,https://es.rt.com/7fd4
+19,FAKE/HOAX,159,albertonews.com,Cruz Roja Venezolana: No estamos preparados para combatir el coronavirus en el país - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/alerta-nacional/
+20,POLITICAL,158,es.rt.com,Corea del Sur anuncia que el coronavirus se está propagando por el este del país,https://es.rt.com/7d3m

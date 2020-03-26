@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,50,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-2,CLICKBAIT,28,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,POLITICAL,24,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-4,POLITICAL,19,eldiario.es,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-5,POLITICAL,18,eldiario.es,https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
-6,POLITICAL,17,actualidad.rt.com,https://actualidad.rt.com/actualidad/341518-oms-declarar-coronavirus-emergencia-internacional
-7,POLITICAL,16,actualidad.rt.com,https://actualidad.rt.com/actualidad/341028-xi-avance-coronavirus-acelera-china-grave
-8,POLITICAL,16,es.rt.com,https://es.rt.com/7fd4
-9,POLITICAL,15,eldiario.es,https://www.eldiario.es/politica/jorge-fernandez-diaz-coronavirus-rey_0_1006849391.html
-10,FAKE/HOAX,14,albertonews.com,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
-11,POLITICAL,13,actualidad.rt.com,https://actualidad.rt.com/actualidad/341082-tos-fiebre-son-unicos-sintomas-coronavirus
-12,POLITICAL,13,es.rt.com,https://es.rt.com/7d3m
-13,POLITICAL,13,es.rt.com,https://es.rt.com/7fmk
-14,FAKE/HOAX,12,albertonews.com,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
-15,POLITICAL,12,es.rt.com,https://es.rt.com/7ef6
-16,POLITICAL,11,actualidad.rt.com,https://actualidad.rt.com/actualidad/344015-viceministro-salud-irani-dar-positivo-coronavirus
-17,POLITICAL,11,es.rt.com,https://es.rt.com/7due
-18,POLITICAL,10,actualidad.rt.com,https://actualidad.rt.com/actualidad/340451-china-confirmar-transmision-coronavirus-humanos
-19,POLITICAL,10,es.rt.com,https://es.rt.com/7b39
-20,POLITICAL,10,actualidad.rt.com,https://actualidad.rt.com/actualidad/340947-china-confirmar-primera-paciente-curada-coronavirus
+rank,fact_type,count,domain,title,url
+1,POLITICAL,50,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+2,CLICKBAIT,28,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+3,POLITICAL,24,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+4,POLITICAL,19,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
+5,POLITICAL,18,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
+6,POLITICAL,17,actualidad.rt.com,"La OMS declara emergencia internacional ante la propagación del coronavirus, ¿qué va a pasar ahora?",https://actualidad.rt.com/actualidad/341518-oms-declarar-coronavirus-emergencia-internacional
+7,POLITICAL,16,actualidad.rt.com,"Xi Jinping advierte que el avance del coronavirus ""se acelera"" y China se enfrenta a una ""situación grave""",https://actualidad.rt.com/actualidad/341028-xi-avance-coronavirus-acelera-china-grave
+8,POLITICAL,16,es.rt.com,China aprueba una vacuna contra el coronavirus para ensayos clínicos,https://es.rt.com/7fd4
+9,POLITICAL,15,eldiario.es,"Jorge Fernández Díaz: ""Cuestionar la Monarquía es más letal para España que el coronavirus""",https://www.eldiario.es/politica/jorge-fernandez-diaz-coronavirus-rey_0_1006849391.html
+10,FAKE/HOAX,14,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+11,POLITICAL,13,actualidad.rt.com,No solo fiebre y tos: médicos chinos describen los síntomas del coronavirus,https://actualidad.rt.com/actualidad/341082-tos-fiebre-son-unicos-sintomas-coronavirus
+12,POLITICAL,13,es.rt.com,Corea del Sur anuncia que el coronavirus se está propagando por el este del país,https://es.rt.com/7d3m
+13,POLITICAL,13,es.rt.com,Rusia anuncia el inicio de pruebas de una vacuna contra el coronavirus,https://es.rt.com/7fmk
+14,FAKE/HOAX,12,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+15,POLITICAL,12,es.rt.com,Nueva York declara el estado de emergencia por el coronavirus,https://es.rt.com/7ef6
+16,POLITICAL,11,actualidad.rt.com,El viceministro de Salud iraní da positivo por coronavirus,https://actualidad.rt.com/actualidad/344015-viceministro-salud-irani-dar-positivo-coronavirus
+17,POLITICAL,11,es.rt.com,Confirman la primera muerte por coronavirus en EE.UU.,https://es.rt.com/7due
+18,POLITICAL,10,actualidad.rt.com,China confirma la transmisión del nuevo coronavirus entre humanos,https://actualidad.rt.com/actualidad/340451-china-confirmar-transmision-coronavirus-humanos
+19,POLITICAL,10,es.rt.com,El coronavirus llega a Europa: Confirman tres casos de infectados en Francia,https://es.rt.com/7b39
+20,POLITICAL,10,actualidad.rt.com,Las autoridades chinas confirman el primer caso de curación del nuevo coronavirus,https://actualidad.rt.com/actualidad/340947-china-confirmar-primera-paciente-curada-coronavirus

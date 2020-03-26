@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,20,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,17,oann.com,https://www.oann.com/johnson-johnson-to-create-coronavirus-vaccine/
-3,POLITICAL,15,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-4,POLITICAL,14,telegraph.co.uk,https://www.telegraph.co.uk/news/2020/02/15/coronovirus-bill-gates-warns-10-million-deaths-virus-spreads/
-5,POLITICAL,12,rappler.com,http://rappler.com/world
-6,POLITICAL,7,rollingstone.com,https://rol.st/396qdge
-7,POLITICAL,6,tvcnews.tv,https://tvcnews.tv/coronavirus-who-lists-nigeria-12-others-as-top-risk-african-nations/
-8,CLICKBAIT,6,soompi.com,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-9,CONSPIRACY/JUNKSCI,6,peta.org,http://peta.vg/2ran
-10,FAKE/HOAX,5,ibtimes.sg,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-11,CLICKBAIT,5,allkpop.com,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-12,POLITICAL,4,cnn.it,https://cnn.it/2rko8i0
-13,CLICKBAIT,4,koreaboo.com,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
-14,CONSPIRACY/JUNKSCI,4,scenarieconomici.it,https://scenarieconomici.it/banca-mondiale-e-birs-hanno-emesso-pandemic-bonds-nel-2017-per-pandemie-da-coronavirus/
-15,POLITICAL,4,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-16,SATIRE,4,scienceinfo.fr,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-17,CLICKBAIT,4,allkpop.com,https://www.allkpop.com/article/2020/03/exos-suho-donates-50-million-krw-to-aid-coronavirus-relief-efforts
-18,POLITICAL,4,rawstory.com,https://www.rawstory.com/2020/03/judges-blast-trump-administration-for-ordering-coronavirus-info-posters-taken-down-from-courts/
-19,POLITICAL,4,bfmtv.com,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
-20,FAKE/HOAX,4,rt.com,https://www.rt.com/news/483437-coronavirus-vaccine-trials-start-who/
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,20,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,POLITICAL,17,oann.com,,https://www.oann.com/johnson-johnson-to-create-coronavirus-vaccine/
+3,POLITICAL,15,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+4,POLITICAL,14,telegraph.co.uk,Bill Gates warns of 10 million deaths as Coronavirus  spreads to Africa,https://www.telegraph.co.uk/news/2020/02/15/coronovirus-bill-gates-warns-10-million-deaths-virus-spreads/
+5,POLITICAL,12,rappler.com,World,http://rappler.com/world
+6,POLITICAL,7,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+7,POLITICAL,6,tvcnews.tv,"Coronavirus: WHO lists Nigeria, 12 others as top-risk African nations",https://tvcnews.tv/coronavirus-who-lists-nigeria-12-others-as-top-risk-african-nations/
+8,CLICKBAIT,6,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
+9,CONSPIRACY/JUNKSCI,6,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+10,FAKE/HOAX,5,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+11,CLICKBAIT,5,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
+12,POLITICAL,4,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rko8i0
+13,CLICKBAIT,4,koreaboo.com,Baekhyun Praised For His Adorable Yet Smart Methods To Preventing The Coronavirus,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
+14,CONSPIRACY/JUNKSCI,4,scenarieconomici.it,Banca Mondiale e BIRS hanno emesso pandemic bonds nel 2017 per pandemie da coronavirus,https://scenarieconomici.it/banca-mondiale-e-birs-hanno-emesso-pandemic-bonds-nel-2017-per-pandemie-da-coronavirus/
+15,POLITICAL,4,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+16,SATIRE,4,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
+17,CLICKBAIT,4,allkpop.com,EXO's Suho donates 50 million KRW to aid coronavirus relief efforts,https://www.allkpop.com/article/2020/03/exos-suho-donates-50-million-krw-to-aid-coronavirus-relief-efforts
+18,POLITICAL,4,rawstory.com,,https://www.rawstory.com/2020/03/judges-blast-trump-administration-for-ordering-coronavirus-info-posters-taken-down-from-courts/
+19,POLITICAL,4,bfmtv.com,Coronavirus: Castaner prévient que la violation des règles de confinement sera puni d'une amende de 38 €,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
+20,FAKE/HOAX,4,rt.com,First vaccine trial for Covid-19 has begun – WHO,https://www.rt.com/news/483437-coronavirus-vaccine-trials-start-who/

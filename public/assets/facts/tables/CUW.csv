@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,20,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-2,FAKE/HOAX,15,albertonews.com,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
-3,FAKE/HOAX,14,albertonews.com,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
-4,POLITICAL,12,eldiario.es,https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
-5,CLICKBAIT,12,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-6,FAKE/HOAX,11,albertonews.com,https://albertonews.com/internacionales/ultima-hora-cientifico-de-harvard-predice-que-el-coronavirus-infectara-hasta-el-70-de-la-humanidad/
-7,POLITICAL,9,cnn.it,https://cnn.it/2rhd9u8
-8,POLITICAL,9,es.rt.com,https://es.rt.com/7bbe
-9,POLITICAL,8,eldiario.es,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-10,POLITICAL,8,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-11,POLITICAL,8,mol.im,https://mol.im/a/8073245
-12,FAKE/HOAX,5,albertonews.com,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
-13,FAKE/HOAX,5,albertonews.com,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
-14,POLITICAL,5,es.rt.com,https://es.rt.com/7ef6
-15,POLITICAL,5,cnn.it,https://cnn.it/2qmv5pf
-16,POLITICAL,5,eldiario.es,https://www.eldiario.es/sociedad/ultima-hora-coronavirus-mundo-espana_13_1000679924_40987.html
-17,POLITICAL,5,es.rt.com,https://es.rt.com/7fd4
-18,POLITICAL,4,cnn.it,https://cnn.it/3ad0pyy
-19,POLITICAL,4,cnn.it,https://cnn.it/36qlfru
-20,POLITICAL,4,es.rt.com,https://es.rt.com/7bao
+rank,fact_type,count,domain,title,url
+1,POLITICAL,20,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+2,FAKE/HOAX,15,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+3,FAKE/HOAX,14,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+4,POLITICAL,12,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
+5,CLICKBAIT,12,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+6,FAKE/HOAX,11,albertonews.com,Científico de Harvard predice que el coronavirus infectará hasta el 70% de la humanidad - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/ultima-hora-cientifico-de-harvard-predice-que-el-coronavirus-infectara-hasta-el-70-de-la-humanidad/
+7,POLITICAL,9,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rhd9u8
+8,POLITICAL,9,es.rt.com,Primeros casos de infección de coronavirus en personas que no visitaron China se registran en Japón y Alemania,https://es.rt.com/7bbe
+9,POLITICAL,8,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
+10,POLITICAL,8,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+11,POLITICAL,8,mol.im,Venice streets lie empty as coronavirus scares people away,https://mol.im/a/8073245
+12,FAKE/HOAX,5,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
+13,FAKE/HOAX,5,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
+14,POLITICAL,5,es.rt.com,Nueva York declara el estado de emergencia por el coronavirus,https://es.rt.com/7ef6
+15,POLITICAL,5,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
+16,POLITICAL,5,eldiario.es,Isabel Díaz Ayuso da positivo por coronavirus,https://www.eldiario.es/sociedad/ultima-hora-coronavirus-mundo-espana_13_1000679924_40987.html
+17,POLITICAL,5,es.rt.com,China aprueba una vacuna contra el coronavirus para ensayos clínicos,https://es.rt.com/7fd4
+18,POLITICAL,4,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3ad0pyy
+19,POLITICAL,4,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36qlfru
+20,POLITICAL,4,es.rt.com,Balance del coronavirus en China: 106 fallecidos y más de 4.500 casos confirmados,https://es.rt.com/7bao

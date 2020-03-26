@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,128,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,7,rollingstone.com,https://rol.st/396qdge
-3,POLITICAL,6,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-4,POLITICAL,5,thedailybeast.com,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
-5,POLITICAL,5,bfmtv.com,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
-6,POLITICAL,5,thedailybeast.com,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-7,FAKE/HOAX,4,dailymail.co.uk,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
-8,POLITICAL,4,bfmtv.com,https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-9,FAKE/HOAX,4,ibtimes.sg,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-10,CONSPIRACY/JUNKSCI,3,zerohedge.com,https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-11,POLITICAL,3,theepochtimes.com,https://www.theepochtimes.com/involvement-of-wuhan-p4-lab-questioned_3230182.html
-12,SATIRE,3,scienceinfo.fr,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-13,FAKE/HOAX,3,ibtimes.sg,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-14,POLITICAL,3,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-15,POLITICAL,3,rawstory.com,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-16,POLITICAL,3,rawstory.com,https://www.rawstory.com/2020/03/watch-rick-santelli-suggests-infecting-everyone-with-coronavirus-to-lessen-the-economic-impact/
-17,POLITICAL,3,oglobo.globo.com,https://oglobo.globo.com/economia/conferencia-sobre-coronavirus-cancelada-por-causa-do-coronavirus-24299063?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-18,POLITICAL,3,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/camara-dos-eua-aprova-teste-gratis-para-coronavirus-licenca-medica-remunerada-24305435?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-19,POLITICAL,3,cnn.it,https://cnn.it/3bnui97
-20,CLICKBAIT,2,mirror.co.uk,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,128,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,POLITICAL,7,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+3,POLITICAL,6,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+4,POLITICAL,5,thedailybeast.com,QAnon-ers’ Magic Cure for Coronavirus: Just Drink Bleach!,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
+5,POLITICAL,5,bfmtv.com,Coronavirus: Castaner prévient que la violation des règles de confinement sera puni d'une amende de 38 €,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
+6,POLITICAL,5,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
+7,FAKE/HOAX,4,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+8,POLITICAL,4,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
+9,FAKE/HOAX,4,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+10,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+11,POLITICAL,3,theepochtimes.com,Chinese Netizens Question Source of the Coronavirus Outbreak,https://www.theepochtimes.com/involvement-of-wuhan-p4-lab-questioned_3230182.html
+12,SATIRE,3,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
+13,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+14,POLITICAL,3,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+15,POLITICAL,3,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
+16,POLITICAL,3,rawstory.com,,https://www.rawstory.com/2020/03/watch-rick-santelli-suggests-infecting-everyone-with-coronavirus-to-lessen-the-economic-impact/
+17,POLITICAL,3,oglobo.globo.com,Conferência sobre coronavírus é cancelada por causa do coronavírus,https://oglobo.globo.com/economia/conferencia-sobre-coronavirus-cancelada-por-causa-do-coronavirus-24299063?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+18,POLITICAL,3,oglobo.globo.com,Câmara dos EUA aprova teste grátis para coronavírus e licença médica remunerada,https://oglobo.globo.com/sociedade/coronavirus/camara-dos-eua-aprova-teste-gratis-para-coronavirus-licenca-medica-remunerada-24305435?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+19,POLITICAL,3,cnn.it,The many faces of health workers around the globe fighting coronavirus,https://cnn.it/3bnui97
+20,CLICKBAIT,2,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510

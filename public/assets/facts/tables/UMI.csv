@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,FAKE/HOAX,5,gnews.org,https://gnews.org/89737/
-2,FAKE/HOAX,4,gnews.org,https://gnews.org/89749/
-3,POLITICAL,4,oann.com,https://www.oann.com/johnson-johnson-to-create-coronavirus-vaccine/
-4,CONSPIRACY/JUNKSCI,4,zerohedge.com,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
-5,FAKE/HOAX,3,gnews.org,https://gnews.org/102055/
-6,FAKE/HOAX,3,gnews.org,https://gnews.org/117803/
-7,POLITICAL,3,rawstory.com,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-8,FAKE/HOAX,2,thegatewaypundit.com,https://www.thegatewaypundit.com/2020/01/china-update-some-predictions-indicate-wuhan-coronavirus-could-turn-into-major-pandemic/
-9,FAKE/HOAX,2,gnews.org,https://gnews.org/89751/
-10,POLITICAL,2,theepochtimes.com,https://www.theepochtimes.com/trump-administration-forms-coronavirus-task-force_3221590.html
-11,CONSPIRACY/JUNKSCI,2,zerohedge.com,https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-12,CONSPIRACY/JUNKSCI,2,zerohedge.com,https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon#wuhancoronavirus
-13,POLITICAL,2,cnn.it,https://cnn.it/2grtheh
-14,POLITICAL,2,cnn.com,https://www.cnn.com/2020/02/03/asia/coronavirus-doctor-whistle-blower-intl-hnk/index.html
-15,CONSPIRACY/JUNKSCI,2,zerohedge.com,https://www.zerohedge.com/geopolitical/president-xi-says-china-has-coronavirus-under-control-nearly-2000-quarantined-hong
-16,FAKE/HOAX,2,gnews.org,https://gnews.org/103864/
-17,POLITICAL,2,cnn.com,https://www.cnn.com/2020/02/06/asia/honeymoon-quarantine-ship-japan-coronavirus-intl-scli/index.html
-18,CONSPIRACY/JUNKSCI,2,zerohedge.com,https://www.zerohedge.com/health/white-house-asks-scientists-investigate-whether-2019-ncov-was-bio-engineered
-19,FAKE/HOAX,2,gnews.org,https://gnews.org/107065/
-20,FAKE/HOAX,2,gnews.org,https://gnews.org/107610/
+rank,fact_type,count,domain,title,url
+1,FAKE/HOAX,5,gnews.org,,https://gnews.org/89737/
+2,FAKE/HOAX,4,gnews.org,,https://gnews.org/89749/
+3,POLITICAL,4,oann.com,,https://www.oann.com/johnson-johnson-to-create-coronavirus-vaccine/
+4,CONSPIRACY/JUNKSCI,4,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+5,FAKE/HOAX,3,gnews.org,,https://gnews.org/102055/
+6,FAKE/HOAX,3,gnews.org,,https://gnews.org/117803/
+7,POLITICAL,3,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
+8,FAKE/HOAX,2,thegatewaypundit.com,China Update: Some Predictions Indicate Wuhan Coronavirus Could Turn Into Major Pandemic,https://www.thegatewaypundit.com/2020/01/china-update-some-predictions-indicate-wuhan-coronavirus-could-turn-into-major-pandemic/
+9,FAKE/HOAX,2,gnews.org,,https://gnews.org/89751/
+10,POLITICAL,2,theepochtimes.com,Trump Administration Forms Coronavirus Task Force,https://www.theepochtimes.com/trump-administration-forms-coronavirus-task-force_3221590.html
+11,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+12,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon#wuhancoronavirus
+13,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2grtheh
+14,POLITICAL,2,cnn.com,"This Chinese doctor tried to save lives, but was silenced. Now he has coronavirus",https://www.cnn.com/2020/02/03/asia/coronavirus-doctor-whistle-blower-intl-hnk/index.html
+15,CONSPIRACY/JUNKSCI,2,zerohedge.com,"China Confirms 70 New Deaths, Raising Global Total To 562, As 10 More Cases Confirmed Aboard 'Diamond Princess'",https://www.zerohedge.com/geopolitical/president-xi-says-china-has-coronavirus-under-control-nearly-2000-quarantined-hong
+16,FAKE/HOAX,2,gnews.org,,https://gnews.org/103864/
+17,POLITICAL,2,cnn.com,US honeymooners are stuck on coronavirus cruise ship -- and they don't know when they'll get to leave,https://www.cnn.com/2020/02/06/asia/honeymoon-quarantine-ship-japan-coronavirus-intl-scli/index.html
+18,CONSPIRACY/JUNKSCI,2,zerohedge.com,White House Asks Scientists To Investigate Whether 2019-nCoV Was Bio-Engineered,https://www.zerohedge.com/health/white-house-asks-scientists-investigate-whether-2019-ncov-was-bio-engineered
+19,FAKE/HOAX,2,gnews.org,,https://gnews.org/107065/
+20,FAKE/HOAX,2,gnews.org,,https://gnews.org/107610/

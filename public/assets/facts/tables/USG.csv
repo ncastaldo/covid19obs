@@ -1,2 +1,2 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,1,dailywire.com,https://www.dailywire.com/news/chinese-ambassador-does-not-deny-coronavirus-came-from-biological-warfare-program/
+rank,fact_type,count,domain,title,url
+1,POLITICAL,1,dailywire.com,WATCH: Chinese Ambassador Asked If Coronavirus Came From Biological Warfare Program,https://www.dailywire.com/news/chinese-ambassador-does-not-deny-coronavirus-came-from-biological-warfare-program/

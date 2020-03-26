@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,487,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,SATIRE,277,theshovel.com.au,http://www.theshovel.com.au/2020/01/30/most-coronavirus-cases-caused-by-arson-the-australian-claims/
-3,POLITICAL,186,rollingstone.com,https://rol.st/396qdge
-4,SATIRE,174,chaser.com.au,https://chaser.com.au/national/morrison-says-no-need-to-act-on-covid-19-as-australia-only-contributes-1-of-infections/
-5,CONSPIRACY/JUNKSCI,168,zerohedge.com,https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-6,SATIRE,161,theshovel.com.au,http://www.theshovel.com.au/2020/02/27/coalition-unwilling-to-address-coronavirus-until-it-knows-cost/
-7,POLITICAL,152,rawstory.com,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-8,POLITICAL,145,change.org,https://www.change.org/p/peter-dutton-bring-priya-back-to-biloela/u/25667015
-9,POLITICAL,129,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-10,CONSPIRACY/JUNKSCI,126,zerohedge.com,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-11,SATIRE,125,chaser.com.au,https://chaser.com.au/national/scott-morrison-brings-lump-of-coronavirus-into-parliament/
-12,FAKE/HOAX,125,mcmnt.com,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-13,POLITICAL,123,thedailybeast.com,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
-14,FAKE/HOAX,101,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
-15,POLITICAL,100,thedailybeast.com,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-16,POLITICAL,87,rappler.com,http://rappler.com/world
-17,POLITICAL,83,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-18,SATIRE,83,chaser.com.au,https://chaser.com.au/national/widespread-panic-hits-as-corona-virus-found-to-transmit-via-toilet-paper/
-19,SATIRE,82,theshovel.com.au,http://www.theshovel.com.au/2020/02/27/doubts-cast-over-coronavirus-only-97-of-scientists-claim-real/
-20,POLITICAL,78,telegraph.co.uk,https://www.telegraph.co.uk/news/2020/01/25/quick-burials-lack-tests-raise-fears-cornavirus-outbreak-much/
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,487,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,SATIRE,277,theshovel.com.au,,http://www.theshovel.com.au/2020/01/30/most-coronavirus-cases-caused-by-arson-the-australian-claims/
+3,POLITICAL,186,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+4,SATIRE,174,chaser.com.au,Morrison says no need to act on Covid-19 as Australia only contributes 1% of infections,https://chaser.com.au/national/morrison-says-no-need-to-act-on-covid-19-as-australia-only-contributes-1-of-infections/
+5,CONSPIRACY/JUNKSCI,168,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+6,SATIRE,161,theshovel.com.au,,http://www.theshovel.com.au/2020/02/27/coalition-unwilling-to-address-coronavirus-until-it-knows-cost/
+7,POLITICAL,152,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
+8,POLITICAL,145,change.org,Statement re: Coronavirus/Christmas Island,https://www.change.org/p/peter-dutton-bring-priya-back-to-biloela/u/25667015
+9,POLITICAL,129,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+10,CONSPIRACY/JUNKSCI,126,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+11,SATIRE,125,chaser.com.au,Scott Morrison brings lump of coronavirus into parliament,https://chaser.com.au/national/scott-morrison-brings-lump-of-coronavirus-into-parliament/
+12,FAKE/HOAX,125,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+13,POLITICAL,123,thedailybeast.com,QAnon-ers’ Magic Cure for Coronavirus: Just Drink Bleach!,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
+14,FAKE/HOAX,101,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+15,POLITICAL,100,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
+16,POLITICAL,87,rappler.com,World,http://rappler.com/world
+17,POLITICAL,83,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+18,SATIRE,83,chaser.com.au,Widespread panic hits as Corona Virus found to transmit via toilet paper,https://chaser.com.au/national/widespread-panic-hits-as-corona-virus-found-to-transmit-via-toilet-paper/
+19,SATIRE,82,theshovel.com.au,,http://www.theshovel.com.au/2020/02/27/doubts-cast-over-coronavirus-only-97-of-scientists-claim-real/
+20,POLITICAL,78,telegraph.co.uk,Quick burials and lack of tests raise fears coronavirus outbreak is much bigger than China admits,https://www.telegraph.co.uk/news/2020/01/25/quick-burials-lack-tests-raise-fears-cornavirus-outbreak-much/

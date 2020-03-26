@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,243,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,SATIRE,92,waterfordwhispersnews.com,https://waterfordwhispersnews.com/2020/02/27/sinn-fein-have-coronavirus-pass-it-on-varadkar-tells-media/
-3,POLITICAL,63,rollingstone.com,https://rol.st/396qdge
-4,CLICKBAIT,61,mirror.co.uk,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-5,CLICKBAIT,53,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-hunt-madeleine-mccann-could-21724854
-6,POLITICAL,49,rawstory.com,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-7,CLICKBAIT,48,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-cheltenham-racegoers-claim-theyve-21713032
-8,SATIRE,42,waterfordwhispersnews.com,https://waterfordwhispersnews.com/2020/03/12/ireland-officially-changes-covid-19-status-from-be-grand-to-alright-fair-enough/
-9,CLICKBAIT,31,mirror.co.uk,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
-10,POLITICAL,27,thedailybeast.com,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
-11,CONSPIRACY/JUNKSCI,27,zerohedge.com,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-12,POLITICAL,26,change.org,https://www.change.org/p/irish-government-cancel-the-2020-st-patrick-s-day-parades-in-ireland-to-help-reduce-the-spread-of-covid-19
-13,POLITICAL,26,washingtonexaminer.com,https://www.washingtonexaminer.com/opinion/coronavirus-is-exposing-trumps-unsuitability-to-handle-a-crisis?_amp=true&__twitter_impression=true
-14,CONSPIRACY/JUNKSCI,23,zerohedge.com,https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-15,SATIRE,22,waterfordwhispersnews.com,https://waterfordwhispersnews.com/2020/03/17/saint-patrick-is-back-to-banish-covid-19-this-time-hes-pissed/
-16,POLITICAL,21,vox.com,https://www.vox.com/2020/3/10/21171481/coronavirus-us-cases-quarantine-cancellation
-17,CLICKBAIT,20,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/doctor-blunt-advice-those-wearing-21587946
-18,CLICKBAIT,20,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-cheltenham-racegoers-claim-theyve-21713032.amp?__twitter_impression=true
-19,SATIRE,19,scienceinfo.fr,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-20,POLITICAL,19,bfmtv.com,https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,243,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,SATIRE,92,waterfordwhispersnews.com,"“Sinn Féin Have Coronavirus, Pass It On” Varadkar Tells Media",https://waterfordwhispersnews.com/2020/02/27/sinn-fein-have-coronavirus-pass-it-on-varadkar-tells-media/
+3,POLITICAL,63,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+4,CLICKBAIT,61,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
+5,CLICKBAIT,53,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/coronavirus-hunt-madeleine-mccann-could-21724854
+6,POLITICAL,49,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
+7,CLICKBAIT,48,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/coronavirus-cheltenham-racegoers-claim-theyve-21713032
+8,SATIRE,42,waterfordwhispersnews.com,"Ireland Officially Changes Covid-19 Status From “Be Grand” To “Alright, Fair Enough”",https://waterfordwhispersnews.com/2020/03/12/ireland-officially-changes-covid-19-status-from-be-grand-to-alright-fair-enough/
+9,CLICKBAIT,31,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
+10,POLITICAL,27,thedailybeast.com,QAnon-ers’ Magic Cure for Coronavirus: Just Drink Bleach!,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
+11,CONSPIRACY/JUNKSCI,27,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+12,POLITICAL,26,change.org,Sign the Petition,https://www.change.org/p/irish-government-cancel-the-2020-st-patrick-s-day-parades-in-ireland-to-help-reduce-the-spread-of-covid-19
+13,POLITICAL,26,washingtonexaminer.com,,https://www.washingtonexaminer.com/opinion/coronavirus-is-exposing-trumps-unsuitability-to-handle-a-crisis?_amp=true&__twitter_impression=true
+14,CONSPIRACY/JUNKSCI,23,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+15,SATIRE,22,waterfordwhispersnews.com,Saint Patrick Is Back To Banish Covid-19 & This Time He’s Pissed,https://waterfordwhispersnews.com/2020/03/17/saint-patrick-is-back-to-banish-covid-19-this-time-hes-pissed/
+16,POLITICAL,21,vox.com,"How canceled events and self-quarantines save lives, in one chart",https://www.vox.com/2020/3/10/21171481/coronavirus-us-cases-quarantine-cancellation
+17,CLICKBAIT,20,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/doctor-blunt-advice-those-wearing-21587946
+18,CLICKBAIT,20,mirror.co.uk,Cheltenham staff had coronavirus symptoms while working at racing festival,https://www.mirror.co.uk/news/uk-news/coronavirus-cheltenham-racegoers-claim-theyve-21713032.amp?__twitter_impression=true
+19,SATIRE,19,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
+20,POLITICAL,19,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index

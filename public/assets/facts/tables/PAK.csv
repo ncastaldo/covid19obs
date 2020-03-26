@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,191,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,FAKE/HOAX,113,rt.com,https://www.rt.com/news/482623-italy-coronavirus-chief-of-staff/
-3,POLITICAL,51,cnn.it,https://cnn.it/3agzbvy
-4,POLITICAL,41,cnn.it,https://cnn.it/3d98qjp
-5,FAKE/HOAX,40,presstv.com,https://www.presstv.com/detail/2020/03/05/620213/coronavirus-was-produced-in-a-laboratory
-6,CONSPIRACY/JUNKSCI,30,zerohedge.com,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-7,FAKE/HOAX,26,nation.com.pk,https://nation.com.pk/31-jan-2020/ppp-demands-parliamentary-committee-on-coronavirus
-8,CLICKBAIT,26,mirror.co.uk,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-9,POLITICAL,26,rollingstone.com,https://rol.st/396qdge
-10,FAKE/HOAX,24,nation.com.pk,https://nation.com.pk/07-feb-2020/pak-china-friendship-coronavirus
-11,POLITICAL,24,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-12,POLITICAL,24,aa.com.tr,https://www.aa.com.tr/en/asia-pacific/covid-19-who-asks-bangladesh-to-declare-lockdown/1774758
-13,FAKE/HOAX,23,nation.com.pk,https://nation.com.pk/25-jan-2020/senior-health-official-says-no-truth-in-reports-of-coronavirus-in-pakistan
-14,FAKE/HOAX,21,rt.com,https://on.rt.com/a9ok
-15,CONSPIRACY/JUNKSCI,21,zerohedge.com,https://www.zerohedge.com/geopolitical/us-army-behind-covid-19-wuhan-chinas-foreign-ministry-levels-bombastic-charge
-16,FAKE/HOAX,19,nation.com.pk,https://nation.com.pk/01-feb-2020/coronavirus-natural-or-manmade-biological-warfare
-17,POLITICAL,19,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-18,POLITICAL,18,telegraph.co.uk,https://www.telegraph.co.uk/news/2020/03/02/exclusive-dirty-banknotes-may-spreading-coronavirus-world-health/
-19,FAKE/HOAX,17,rt.com,https://on.rt.com/a9lh
-20,FAKE/HOAX,17,rt.com,https://www.rt.com/news/483508-iran-coronavirus-deaths-infected/
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,191,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,FAKE/HOAX,113,rt.com,Italian army’s chief of staff tests positive for coronavirus,https://www.rt.com/news/482623-italy-coronavirus-chief-of-staff/
+3,POLITICAL,51,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3agzbvy
+4,POLITICAL,41,cnn.it,"Iran coronavirus deaths top 1,000 ",https://cnn.it/3d98qjp
+5,FAKE/HOAX,40,presstv.com,Coronavirus was produced in a laboratory: Former CIA intel officer,https://www.presstv.com/detail/2020/03/05/620213/coronavirus-was-produced-in-a-laboratory
+6,CONSPIRACY/JUNKSCI,30,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+7,FAKE/HOAX,26,nation.com.pk,,https://nation.com.pk/31-jan-2020/ppp-demands-parliamentary-committee-on-coronavirus
+8,CLICKBAIT,26,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
+9,POLITICAL,26,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+10,FAKE/HOAX,24,nation.com.pk,,https://nation.com.pk/07-feb-2020/pak-china-friendship-coronavirus
+11,POLITICAL,24,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+12,POLITICAL,24,aa.com.tr,COVID-19: WHO asks Bangladesh to declare lockdown,https://www.aa.com.tr/en/asia-pacific/covid-19-who-asks-bangladesh-to-declare-lockdown/1774758
+13,FAKE/HOAX,23,nation.com.pk,,https://nation.com.pk/25-jan-2020/senior-health-official-says-no-truth-in-reports-of-coronavirus-in-pakistan
+14,FAKE/HOAX,21,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+15,CONSPIRACY/JUNKSCI,21,zerohedge.com,'US Army Behind Covid-19 In Wuhan': China's Foreign Ministry Levels Bombastic Charge,https://www.zerohedge.com/geopolitical/us-army-behind-covid-19-wuhan-chinas-foreign-ministry-levels-bombastic-charge
+16,FAKE/HOAX,19,nation.com.pk,,https://nation.com.pk/01-feb-2020/coronavirus-natural-or-manmade-biological-warfare
+17,POLITICAL,19,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+18,POLITICAL,18,telegraph.co.uk,"Dirty banknotes may be spreading the coronavirus, WHO suggests",https://www.telegraph.co.uk/news/2020/03/02/exclusive-dirty-banknotes-may-spreading-coronavirus-world-health/
+19,FAKE/HOAX,17,rt.com,Did patient zero really catch new Chinese virus by eating infected bat soup? It’s actually perfectly possible,https://on.rt.com/a9lh
+20,FAKE/HOAX,17,rt.com,"One Iranian dies of coronavirus every 10 minutes, 50 get infected every hour – health ministry",https://www.rt.com/news/483508-iran-coronavirus-deaths-infected/

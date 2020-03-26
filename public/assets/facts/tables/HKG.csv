@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,400,democracynow.org,https://www.democracynow.org/2020/2/4/headlines/hong_kong_medical_workers_demand_border_closure_as_coronavirus_claims_life_of_hong_kong_man
-2,POLITICAL,295,vox.com,https://www.vox.com/2020/2/7/21124157/coronavirus-hong-kong-protests-china-carrie-lam?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter
-3,FAKE/HOAX,281,quillette.com,https://quillette.com/2020/02/22/losing-the-mandate-of-heaven/#menuopen
-4,FAKE/HOAX,248,breitbart.com,https://www.breitbart.com/national-security/2020/02/18/hundreds-hong-kong-protest-plans-coronavirus-centers-residential-areas/
-5,POLITICAL,227,cnn.it,https://cnn.it/2ucg1ar
-6,POLITICAL,197,fxn.ws,https://fxn.ws/2tjofwr
-7,POLITICAL,180,newsweek.com,https://www.newsweek.com/xinjiang-wuhan-uyghur-coronavirus-detention-camps-1486278?utm_term=autofeed&utm_medium=social&utm_source=twitter#echobox=1581118267
-8,FAKE/HOAX,160,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
-9,POLITICAL,146,thesun.co.uk,https://www.thesun.co.uk/news/10820227/coronavirus-two-day-waits-downplay-crisis/?utm_medium=social&utm_campaign=sunmaintwitter&utm_source=twitter#echobox=1579988309
-10,POLITICAL,143,newsweek.com,https://www.newsweek.com/xinjiang-wuhan-uyghur-coronavirus-detention-camps-1486278
-11,POLITICAL,142,thesun.co.uk,https://www.thesun.co.uk/news/10879070/coronavirus-china-comparing-travel-bans-jews-holocaust/?utm_medium=social&utm_campaign=sunmaintwitter&utm_source=twitter#echobox=1580725332
-12,POLITICAL,132,telegraph.co.uk,https://www.telegraph.co.uk/politics/2020/01/28/allowing-infrastructure-infected-huawei-far-bigger-risk-coronavirus/?utm_content=telegraph&utm_medium=social&utm_campaign=echobox&utm_source=twitter#echobox=1580217719
-13,POLITICAL,119,cnn.it,https://cnn.it/2tyuac2
-14,POLITICAL,106,fxn.ws,https://fxn.ws/2uub8d0
-15,POLITICAL,105,telegraph.co.uk,https://www.telegraph.co.uk/global-health/science-and-disease/coronavirus-chinas-increasing-global-power-could-influencing/?utm_content=telegraph&utm_medium=social&utm_campaign=echobox&utm_source=twitter#echobox=1579895994
-16,POLITICAL,87,thesun.co.uk,https://www.thesun.co.uk/news/10808633/coronavirus-wuhan-zombieland/
-17,CONSPIRACY/JUNKSCI,87,zerohedge.com,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-18,POLITICAL,84,telegraph.co.uk,https://www.telegraph.co.uk/news/2020/01/25/quick-burials-lack-tests-raise-fears-cornavirus-outbreak-much/
-19,POLITICAL,79,telegraph.co.uk,https://www.telegraph.co.uk/global-health/science-and-disease/coronavirus-chinas-increasing-global-power-could-influencing/
-20,POLITICAL,69,change.org,https://www.change.org/p/los-angeles-county-department-of-public-health-petition-to-postpone-2020-los-angeles-marathon-march-8-due-to-coronavirus-concerns
+rank,fact_type,count,domain,title,url
+1,POLITICAL,400,democracynow.org,Hong Kong Medical Workers Demand Border Closure as Coronavirus Claims Life of Hong Kong Man,https://www.democracynow.org/2020/2/4/headlines/hong_kong_medical_workers_demand_border_closure_as_coronavirus_claims_life_of_hong_kong_man
+2,POLITICAL,295,vox.com,How Hong Kong’s protests are shaping the response to the coronavirus,https://www.vox.com/2020/2/7/21124157/coronavirus-hong-kong-protests-china-carrie-lam?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter
+3,FAKE/HOAX,281,quillette.com,Losing the Mandate of Heaven - Quillette,https://quillette.com/2020/02/22/losing-the-mandate-of-heaven/#menuopen
+4,FAKE/HOAX,248,breitbart.com,Hong Kong Citizens Protest Plans for Coronavirus Centers,https://www.breitbart.com/national-security/2020/02/18/hundreds-hong-kong-protest-plans-coronavirus-centers-residential-areas/
+5,POLITICAL,227,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2ucg1ar
+6,POLITICAL,197,fxn.ws,Fox News,https://fxn.ws/2tjofwr
+7,POLITICAL,180,newsweek.com,,https://www.newsweek.com/xinjiang-wuhan-uyghur-coronavirus-detention-camps-1486278?utm_term=autofeed&utm_medium=social&utm_source=twitter#echobox=1581118267
+8,FAKE/HOAX,160,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+9,POLITICAL,146,thesun.co.uk,Coronavirus: Desperate patients face TWO-DAY wait to see doctor as China accused of bullying world to downplay crisis,https://www.thesun.co.uk/news/10820227/coronavirus-two-day-waits-downplay-crisis/?utm_medium=social&utm_campaign=sunmaintwitter&utm_source=twitter#echobox=1579988309
+10,POLITICAL,143,newsweek.com,,https://www.newsweek.com/xinjiang-wuhan-uyghur-coronavirus-detention-camps-1486278
+11,POLITICAL,142,thesun.co.uk,China sparks fury with coronavirus travel ban to treatment of Jews comparison,https://www.thesun.co.uk/news/10879070/coronavirus-china-comparing-travel-bans-jews-holocaust/?utm_medium=social&utm_campaign=sunmaintwitter&utm_source=twitter#echobox=1580725332
+12,POLITICAL,132,telegraph.co.uk,Allowing our infrastructure to be infected by Huawei is a far bigger risk than the coronavirus,https://www.telegraph.co.uk/politics/2020/01/28/allowing-infrastructure-infected-huawei-far-bigger-risk-coronavirus/?utm_content=telegraph&utm_medium=social&utm_campaign=echobox&utm_source=twitter#echobox=1580217719
+13,POLITICAL,119,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tyuac2
+14,POLITICAL,106,fxn.ws,Fox News,https://fxn.ws/2uub8d0
+15,POLITICAL,105,telegraph.co.uk,Coronavirus: How China's increasing global power could be influencing global virus response,https://www.telegraph.co.uk/global-health/science-and-disease/coronavirus-chinas-increasing-global-power-could-influencing/?utm_content=telegraph&utm_medium=social&utm_campaign=echobox&utm_source=twitter#echobox=1579895994
+16,POLITICAL,87,thesun.co.uk,Coronavirus ground zero 'is now a zombieland with dead lying in streets',https://www.thesun.co.uk/news/10808633/coronavirus-wuhan-zombieland/
+17,CONSPIRACY/JUNKSCI,87,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+18,POLITICAL,84,telegraph.co.uk,Quick burials and lack of tests raise fears coronavirus outbreak is much bigger than China admits,https://www.telegraph.co.uk/news/2020/01/25/quick-burials-lack-tests-raise-fears-cornavirus-outbreak-much/
+19,POLITICAL,79,telegraph.co.uk,Coronavirus: How China's increasing global power could be influencing global virus response,https://www.telegraph.co.uk/global-health/science-and-disease/coronavirus-chinas-increasing-global-power-could-influencing/
+20,POLITICAL,69,change.org,Sign the Petition,https://www.change.org/p/los-angeles-county-department-of-public-health-petition-to-postpone-2020-los-angeles-marathon-march-8-due-to-coronavirus-concerns

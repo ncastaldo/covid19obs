@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,54,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,34,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-3,POLITICAL,27,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-4,POLITICAL,26,rappler.com,http://rappler.com/world
-5,POLITICAL,26,rollingstone.com,https://rol.st/396qdge
-6,CLICKBAIT,18,allkpop.com,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-7,POLITICAL,17,bfmtv.com,https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-8,SATIRE,14,scienceinfo.fr,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-9,CLICKBAIT,12,koreaboo.com,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
-10,CLICKBAIT,12,allkpop.com,https://www.allkpop.com/article/2020/02/bvlgari-event-that-lisa-was-scheduled-to-attend-is-canceled-due-to-the-coronavirus
-11,CLICKBAIT,11,soompi.com,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-12,POLITICAL,10,eldiario.es,https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
-13,CLICKBAIT,10,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228150259906
-14,CLICKBAIT,9,soompi.com,https://www.soompi.com/article/1382066wpp/chungha-donates-masks-for-coronavirus-prevention-to-children-in-need-on-her-birthday
-15,POLITICAL,9,eldiario.es,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-16,CLICKBAIT,9,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228165328313
-17,CLICKBAIT,8,mirror.co.uk,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
-18,CLICKBAIT,8,entertain.v.daum.net,http://entertain.v.daum.net/v/20200219144008670sbs
-19,POLITICAL,8,bfmtv.com,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-italie-chine-carte-symptomes-mort-cas-psg-dortmund-huis-clos-paris-oise-morbihan-lyon/
-20,CONSPIRACY/JUNKSCI,8,peta.org,http://peta.vg/2ran
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,54,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,POLITICAL,34,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+3,POLITICAL,27,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+4,POLITICAL,26,rappler.com,World,http://rappler.com/world
+5,POLITICAL,26,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+6,CLICKBAIT,18,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
+7,POLITICAL,17,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
+8,SATIRE,14,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
+9,CLICKBAIT,12,koreaboo.com,Baekhyun Praised For His Adorable Yet Smart Methods To Preventing The Coronavirus,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
+10,CLICKBAIT,12,allkpop.com,'BVLGARI' event that Lisa was scheduled to attend is canceled due to the Coronavirus,https://www.allkpop.com/article/2020/02/bvlgari-event-that-lisa-was-scheduled-to-attend-is-canceled-due-to-the-coronavirus
+11,CLICKBAIT,11,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
+12,POLITICAL,10,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
+13,CLICKBAIT,10,entertain.v.daum.net,"[단독] 레드벨벳 웬디, 코로나19 성금 1억 기부..부상 중에도 빛난 선행",https://entertain.v.daum.net/v/20200228150259906
+14,CLICKBAIT,9,soompi.com,Chungha Donates Masks For Coronavirus Prevention To Children In Need On Her Birthday,https://www.soompi.com/article/1382066wpp/chungha-donates-masks-for-coronavirus-prevention-to-children-in-need-on-her-birthday
+15,POLITICAL,9,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
+16,CLICKBAIT,9,entertain.v.daum.net,"엑소 레이, 코로나19 사태에 2천만원 의미 있는 기부..""우리는 하나"" [단독]",https://entertain.v.daum.net/v/20200228165328313
+17,CLICKBAIT,8,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
+18,CLICKBAIT,8,entertain.v.daum.net,,http://entertain.v.daum.net/v/20200219144008670sbs
+19,POLITICAL,8,bfmtv.com,Coronavirus: le chef de l'ONU appelle tous les pays à « redoubler d'efforts immédiatement,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-italie-chine-carte-symptomes-mort-cas-psg-dortmund-huis-clos-paris-oise-morbihan-lyon/
+20,CONSPIRACY/JUNKSCI,8,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran

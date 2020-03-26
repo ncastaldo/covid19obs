@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,115,mirror.co.uk,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
-2,POLITICAL,78,cnn.it,https://cnn.it/37zvbvy
-3,POLITICAL,51,cnn.it,https://cnn.it/2vzqpse
-4,POLITICAL,50,cnn.it,https://cnn.it/2tgtsjy
-5,POLITICAL,41,cnn.it,https://cnn.it/2vk19fr
-6,POLITICAL,35,cnn.it,https://cnn.it/2rhqfif
-7,POLITICAL,33,cnn.it,https://cnn.it/3942kes
-8,POLITICAL,31,cnn.it,https://cnn.it/2qmv5pf
-9,POLITICAL,30,es.rt.com,https://es.rt.com/7d3m
-10,POLITICAL,28,cnn.it,https://cnn.it/39enong
-11,CLICKBAIT,28,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-12,POLITICAL,26,cnn.it,https://cnn.it/39zx6c5
-13,FAKE/HOAX,26,albertonews.com,https://albertonews.com/ultima-hora/ultima-hora-china-dice-haber-desarrollado-con-exito-la-vacuna-contra-el-coronavirus/
-14,POLITICAL,23,es.rt.com,https://es.rt.com/7c5j
-15,POLITICAL,18,cnn.it,https://cnn.it/39f0c6q
-16,POLITICAL,14,es.rt.com,https://es.rt.com/7b98
-17,POLITICAL,14,es.rt.com,https://es.rt.com/7d3n
-18,POLITICAL,14,cnn.it,https://cnn.it/2wytqij
-19,POLITICAL,13,cnn.it,https://cnn.it/2tj5ipd
-20,POLITICAL,13,deadstate.org,https://deadstate.org/jim-bakker-you-can-kill-the-coronavirus-in-12-hours-with-my-silver-solution-ointment/
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,115,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
+2,POLITICAL,78,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37zvbvy
+3,POLITICAL,51,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vzqpse
+4,POLITICAL,50,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tgtsjy
+5,POLITICAL,41,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vk19fr
+6,POLITICAL,35,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rhqfif
+7,POLITICAL,33,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3942kes
+8,POLITICAL,31,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
+9,POLITICAL,30,es.rt.com,Corea del Sur anuncia que el coronavirus se está propagando por el este del país,https://es.rt.com/7d3m
+10,POLITICAL,28,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39enong
+11,CLICKBAIT,28,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+12,POLITICAL,26,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39zx6c5
+13,FAKE/HOAX,26,albertonews.com,China dice haber desarrollado “con éxito” la vacuna contra el coronavirus y se prepara para su producción a gran escala - AlbertoNews - Periodismo sin censura,https://albertonews.com/ultima-hora/ultima-hora-china-dice-haber-desarrollado-con-exito-la-vacuna-contra-el-coronavirus/
+14,POLITICAL,23,es.rt.com,Japón confirma 61 casos de coronavirus en el crucero en cuarentena en Yokohama,https://es.rt.com/7c5j
+15,POLITICAL,18,cnn.it,Hospital confirma muerte del doctor que advirtió del coronavirus,https://cnn.it/39f0c6q
+16,POLITICAL,14,es.rt.com,La ciudad de Pekín registra la primera muerte por el brote de coronavirus,https://es.rt.com/7b98
+17,POLITICAL,14,es.rt.com,Mueren dos pasajeros del crucero Diamond Princess en cuarentena por el coronavirus,https://es.rt.com/7d3n
+18,POLITICAL,14,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2wytqij
+19,POLITICAL,13,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tj5ipd
+20,POLITICAL,13,deadstate.org,Jim Bakker: You can kill the coronavirus in 12 hours with my ‘Silver Solution’ ointment,https://deadstate.org/jim-bakker-you-can-kill-the-coronavirus-in-12-hours-with-my-silver-solution-ointment/

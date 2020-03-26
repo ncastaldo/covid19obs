@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,7,allkpop.com,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-2,FAKE/HOAX,6,ibtimes.sg,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-3,CLICKBAIT,6,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228150259906
-4,FAKE/HOAX,3,n.news.naver.com,https://n.news.naver.com/article/032/0002993787
-5,FAKE/HOAX,3,ibtimes.sg,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-6,FAKE/HOAX,3,mcmnt.com,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-7,CLICKBAIT,3,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-8,FAKE/HOAX,2,albertonews.com,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
-9,CLICKBAIT,2,mirror.co.uk,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-10,POLITICAL,2,today.ng,https://www.today.ng/i/207948
-11,CONSPIRACY/JUNKSCI,2,truepundit.com,https://truepundit.com/north-koreas-first-confirmed-coronavirus-patient-shot-dead/
-12,FAKE/HOAX,2,dailymail.co.uk,https://www.dailymail.co.uk/news/article-8077643/coronavirus-sees-brighton-college-ditch-handshake-thai-greeting.html?ito=facebook_share_fbia-middle
-13,POLITICAL,1,cnn.it,https://cnn.it/30kleqa
-14,POLITICAL,1,actualidad.rt.com,https://actualidad.rt.com/actualidad/340796-china-cerrar-tercera-ciudad-brote-coronavirus
-15,POLITICAL,1,thesun.co.uk,https://www.thesun.co.uk/news/10801901/coronavirus-outbreak-china-spread-bat-soup/?utm_medium=social&utm_campaign=sunmaintwitter&utm_source=twitter#echobox=1579773467
-16,POLITICAL,1,cnn.it,https://cnn.it/3azfjej
-17,FAKE/HOAX,1,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
-18,CLICKBAIT,1,koreaboo.com,https://www.koreaboo.com/news/super-junior-fan-wuhan-reveals-macau-concert-attending-seats-coronavirus-quarantine/
-19,FAKE/HOAX,1,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7924801/amp/chinese-woman-bragged-cheating-airport-coronavirus-screenings-tracked-france.html
-20,FAKE/HOAX,1,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7926243/amp/killer-coronavirus-spread-eyes.html?ito=amp_twitter_share-top&__twitter_impression=true
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,7,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
+2,FAKE/HOAX,6,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+3,CLICKBAIT,6,entertain.v.daum.net,"[단독] 레드벨벳 웬디, 코로나19 성금 1억 기부..부상 중에도 빛난 선행",https://entertain.v.daum.net/v/20200228150259906
+4,FAKE/HOAX,3,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
+5,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+6,FAKE/HOAX,3,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+7,CLICKBAIT,3,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+8,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
+9,CLICKBAIT,2,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
+10,POLITICAL,2,today.ng,"CDC: To be safe from coronavirus, shave your beard - TODAY",https://www.today.ng/i/207948
+11,CONSPIRACY/JUNKSCI,2,truepundit.com,North Korea's First Confirmed Coronavirus Patient Shot Dead – True Pundit,https://truepundit.com/north-koreas-first-confirmed-coronavirus-patient-shot-dead/
+12,FAKE/HOAX,2,dailymail.co.uk,Pupils find way around ban on handshakes amid coronavirus fears,https://www.dailymail.co.uk/news/article-8077643/coronavirus-sees-brighton-college-ditch-handshake-thai-greeting.html?ito=facebook_share_fbia-middle
+13,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30kleqa
+14,POLITICAL,1,actualidad.rt.com,"China cierra una tercera ciudad, de medio millón de habitantes, por el brote de coronavirus",https://actualidad.rt.com/actualidad/340796-china-cerrar-tercera-ciudad-brote-coronavirus
+15,POLITICAL,1,thesun.co.uk,Correction: coronavirus,https://www.thesun.co.uk/news/10801901/coronavirus-outbreak-china-spread-bat-soup/?utm_medium=social&utm_campaign=sunmaintwitter&utm_source=twitter#echobox=1579773467
+16,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3azfjej
+17,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+18,CLICKBAIT,1,koreaboo.com,Super Junior Fan From Wuhan Reveals Having Attended Macau Concerts And Warns Others Of Potential Contagion,https://www.koreaboo.com/news/super-junior-fan-wuhan-reveals-macau-concert-attending-seats-coronavirus-quarantine/
+19,FAKE/HOAX,1,dailymail.co.uk,Woman who 'bragged about cheating  coronavirus tests' is tracked down,https://www.dailymail.co.uk/health/article-7924801/amp/chinese-woman-bragged-cheating-airport-coronavirus-screenings-tracked-france.html
+20,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/amp/killer-coronavirus-spread-eyes.html?ito=amp_twitter_share-top&__twitter_impression=true

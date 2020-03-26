@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,12,rollingstone.com,https://rol.st/396qdge
-2,CLICKBAIT,7,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,CLICKBAIT,4,soompi.com,https://www.soompi.com/article/1384929wpp/2pms-wooyoung-discharged-few-days-early-as-part-of-military-protocol-to-combat-covid-19
-4,POLITICAL,4,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-5,POLITICAL,3,cnn.it,https://cnn.it/30uylfu
-6,POLITICAL,3,telegraph.co.uk,https://www.telegraph.co.uk/news/2020/01/28/denmark-refuses-apologise-china-coronavirus-cartoon/amp/
-7,SATIRE,3,scienceinfo.fr,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-8,POLITICAL,3,rawstory.com,https://www.rawstory.com/2020/02/stephen-millers-new-wife-is-in-charge-of-approving-all-coronavirus-communications/
-9,CLICKBAIT,3,allkpop.com,https://www.allkpop.com/article/2020/03/2pms-junho-donates-30-million-krw-for-coronavirus-relief-efforts
-10,POLITICAL,3,rawstory.com,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-11,POLITICAL,2,cnn.it,https://cnn.it/2takacx
-12,POLITICAL,2,thesun.co.uk,https://www.thesun.co.uk/news/10825868/china-blocks-uk-from-airlifting-brits/
-13,POLITICAL,2,oann.com,https://www.oann.com/johnson-johnson-to-create-coronavirus-vaccine/
-14,CLICKBAIT,2,soompi.com,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-15,CLICKBAIT,2,allkpop.com,https://www.allkpop.com/article/2020/02/2pm-wooyoungs-military-discharge-event-for-fans-cancelled-due-to-coronavirus-concerns
-16,POLITICAL,2,dailykos.com,https://www.dailykos.com/stories/2020/2/27/1922419/-did-trump-fire-the-us-pandemic-response-team
-17,POLITICAL,2,vox.com,https://www.vox.com/future-perfect/2020/2/28/21156128/coronavirus-prepare-outbreak-covid19-health
-18,CLICKBAIT,2,koreaboo.com,https://www.koreaboo.com/news/mnh-entertainment-confirms-2-chungha-staff-corona19-covid-19/
-19,FAKE/HOAX,2,n.news.naver.com,https://n.news.naver.com/entertain/now/article/609/0000253824
-20,CLICKBAIT,2,entertain.v.daum.net,https://entertain.v.daum.net/v/20200305112918512
+rank,fact_type,count,domain,title,url
+1,POLITICAL,12,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+2,CLICKBAIT,7,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+3,CLICKBAIT,4,soompi.com,2PM’s Wooyoung Discharged Few Days Early As Part Of Military Protocol To Combat COVID-19,https://www.soompi.com/article/1384929wpp/2pms-wooyoung-discharged-few-days-early-as-part-of-military-protocol-to-combat-covid-19
+4,POLITICAL,4,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+5,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
+6,POLITICAL,3,telegraph.co.uk,,https://www.telegraph.co.uk/news/2020/01/28/denmark-refuses-apologise-china-coronavirus-cartoon/amp/
+7,SATIRE,3,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
+8,POLITICAL,3,rawstory.com,,https://www.rawstory.com/2020/02/stephen-millers-new-wife-is-in-charge-of-approving-all-coronavirus-communications/
+9,CLICKBAIT,3,allkpop.com,2PM's Junho donates 30 million KRW for coronavirus relief efforts,https://www.allkpop.com/article/2020/03/2pms-junho-donates-30-million-krw-for-coronavirus-relief-efforts
+10,POLITICAL,3,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
+11,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2takacx
+12,POLITICAL,2,thesun.co.uk,China BLOCKS UK from airlifting Brits trapped in coronavirus-plagued Wuhan,https://www.thesun.co.uk/news/10825868/china-blocks-uk-from-airlifting-brits/
+13,POLITICAL,2,oann.com,,https://www.oann.com/johnson-johnson-to-create-coronavirus-vaccine/
+14,CLICKBAIT,2,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
+15,CLICKBAIT,2,allkpop.com,2PM Wooyoung's military discharge event for fans cancelled due to Coronavirus concerns,https://www.allkpop.com/article/2020/02/2pm-wooyoungs-military-discharge-event-for-fans-cancelled-due-to-coronavirus-concerns
+16,POLITICAL,2,dailykos.com,Did Trump Fire the US Pandemic Response Team?,https://www.dailykos.com/stories/2020/2/27/1922419/-did-trump-fire-the-us-pandemic-response-team
+17,POLITICAL,2,vox.com,It’s not overreacting to prepare for coronavirus. Here’s how.,https://www.vox.com/future-perfect/2020/2/28/21156128/coronavirus-prepare-outbreak-covid19-health
+18,CLICKBAIT,2,koreaboo.com,MNH Entertainment Confirms 2 Of Chungha's Staff Have Corona19 (COVID-19),https://www.koreaboo.com/news/mnh-entertainment-confirms-2-chungha-staff-corona19-covid-19/
+19,FAKE/HOAX,2,n.news.naver.com,"2PM 준호, 군복무 중 코로나19 확산 방지 위해 3천만원 기부",https://n.news.naver.com/entertain/now/article/609/0000253824
+20,CLICKBAIT,2,entertain.v.daum.net,BTS 슈가 1억 기부에 팬들 성금만 5억..'선한 영향력' 시너지,https://entertain.v.daum.net/v/20200305112918512

@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,15,rappler.com,http://rappler.com/world
-2,CLICKBAIT,14,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,POLITICAL,12,thedailybeast.com,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-4,POLITICAL,10,rawstory.com,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-5,POLITICAL,10,rollingstone.com,https://rol.st/396qdge
-6,FAKE/HOAX,8,rt.com,https://on.rt.com/abhe
-7,POLITICAL,7,bfmtv.com,https://www.bfmtv.com/sante/sante-publique/en-direct-coronavirus-la-france-se-prepare-a-atteindre-le-stade-epidemique/
-8,POLITICAL,6,cnn.it,http://cnn.it/3akwdqb
-9,POLITICAL,6,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-10,POLITICAL,6,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-11,POLITICAL,4,today.ng,https://www.today.ng/i/207948
-12,CLICKBAIT,4,soompi.com,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-13,FAKE/HOAX,4,politicalflare.com,https://www.politicalflare.com/2020/03/trump-supporter-says-she-doesnt-think-coronavirus-exists-because-she-doesnt-believe-anything-the-democrats-say/
-14,POLITICAL,4,cnn.com,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
-15,FAKE/HOAX,3,breitbart.com,https://www.breitbart.com/health/2020/01/26/calfornia-case-of-coronavirus-revealed-three-now-confirmed-in-u-s/
-16,POLITICAL,3,thedailybeast.com,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
-17,CONSPIRACY/JUNKSCI,3,zerohedge.com,https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-18,FAKE/HOAX,3,express.co.uk,https://www.express.co.uk/news/world/1241305/coronovirus-news-china-wuhan-drug-remdesivir-cure-ebola-gilead-spt
-19,CLICKBAIT,3,mirror.co.uk,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-20,CLICKBAIT,3,koreaboo.com,https://www.koreaboo.com/news/blackpinks-march-comeback-reportedly-postponed-due-coronavirus-covid-19/
+rank,fact_type,count,domain,title,url
+1,POLITICAL,15,rappler.com,World,http://rappler.com/world
+2,CLICKBAIT,14,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+3,POLITICAL,12,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
+4,POLITICAL,10,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
+5,POLITICAL,10,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+6,FAKE/HOAX,8,rt.com,Italy locks down 10 towns after 1st coronavirus death as cases jump to 17,https://on.rt.com/abhe
+7,POLITICAL,7,bfmtv.com,Coronavirus: un nouveau foyer de 9 cas identifié à Méry-sur-Oise,https://www.bfmtv.com/sante/sante-publique/en-direct-coronavirus-la-france-se-prepare-a-atteindre-le-stade-epidemique/
+8,POLITICAL,6,cnn.it,"CNN International - Breaking News, US News, World News and Video",http://cnn.it/3akwdqb
+9,POLITICAL,6,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+10,POLITICAL,6,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+11,POLITICAL,4,today.ng,"CDC: To be safe from coronavirus, shave your beard - TODAY",https://www.today.ng/i/207948
+12,CLICKBAIT,4,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
+13,FAKE/HOAX,4,politicalflare.com,Trump Supporter Says She Doesn't Think Coronavirus Exists Because She 'Doesn't Believe Anything the Democrats Say',https://www.politicalflare.com/2020/03/trump-supporter-says-she-doesnt-think-coronavirus-exists-because-she-doesnt-believe-anything-the-democrats-say/
+14,POLITICAL,4,cnn.com,Is coronavirus Donald Trump's Katrina?,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
+15,FAKE/HOAX,3,breitbart.com,California Case of Coronavirus Revealed: Three Now Confirmed in U.S.,https://www.breitbart.com/health/2020/01/26/calfornia-case-of-coronavirus-revealed-three-now-confirmed-in-u-s/
+16,POLITICAL,3,thedailybeast.com,QAnon-ers’ Magic Cure for Coronavirus: Just Drink Bleach!,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
+17,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+18,FAKE/HOAX,3,express.co.uk,Coronavirus breakthrough: China mass producing wonderdrug after 'promising' results,https://www.express.co.uk/news/world/1241305/coronovirus-news-china-wuhan-drug-remdesivir-cure-ebola-gilead-spt
+19,CLICKBAIT,3,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
+20,CLICKBAIT,3,koreaboo.com,BLACKPINK's March Comeback Has Reportedly Been Postponed Due To Coronavirus,https://www.koreaboo.com/news/blackpinks-march-comeback-reportedly-postponed-due-coronavirus-covid-19/

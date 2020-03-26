@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,122,epmundo.com,https://epmundo.com/2020/susto-turista-se-desploma-y-es-el-primer-muerto-por-coronavirus-en-europa-video/
-2,POLITICAL,114,epmundo.com,https://epmundo.com/2020/existe-una-via-secundaria-de-transmision-del-coronavirus-vea-cual-es/
-3,POLITICAL,111,epmundo.com,https://epmundo.com/2020/alerta-confirman-primer-caso-de-coronavirus-en-latinoamerica/
-4,POLITICAL,109,epmundo.com,https://epmundo.com/2020/alerta-confirman-primer-caso-de-coronavirus-de-latinoamericano/
-5,POLITICAL,106,epmundo.com,https://epmundo.com/2020/alarmante-advertencia-de-un-epidemiologo-sobre-el-coronavirus/
-6,POLITICAL,103,epmundo.com,https://epmundo.com/2020/alertan-que-el-coronavirus-podria-ser-una-arma-de-guerra-biologica/
-7,POLITICAL,102,epmundo.com,https://epmundo.com/2020/alerta-maxima-muere-el-primer-estadounidense-por-coronavirus/
-8,POLITICAL,102,epmundo.com,https://epmundo.com/2020/ejecutado-hombre-en-corea-del-norte-por-no-prevenir-contagio-de-coronavirus/
-9,POLITICAL,96,epmundo.com,https://epmundo.com/2020/coronavirus-causa-estragos-en-italia-ya-reportan-varios-muertos/
-10,POLITICAL,95,epmundo.com,https://epmundo.com/2020/alerta-confirmado-primer-colombiano-con-coronavirus/
-11,POLITICAL,88,epmundo.com,https://epmundo.com/2020/italia-adopta-medidas-extremas-por-propagacion-del-coronavirus/
-12,POLITICAL,87,epmundo.com,https://epmundo.com/2020/es-aterrador-el-nuevo-balance-de-muertos-por-coronavirus/
-13,POLITICAL,86,epmundo.com,https://epmundo.com/2020/atencion-pacientes-sin-sintomas-tambien-transmiten-coronavirus/
-14,POLITICAL,84,epmundo.com,https://epmundo.com/2020/alerta-tercer-pais-latino-que-registra-paciente-por-coronavirus-detalles/
-15,POLITICAL,83,epmundo.com,https://epmundo.com/2020/da-escalofrios-la-profecia-de-nostradamus-sobre-el-coronavirus/
-16,POLITICAL,82,epmundo.com,https://epmundo.com/2020/periodista-gregoria-diaz-en-peligro-por-caso-de-coronavirus/
-17,POLITICAL,79,epmundo.com,https://epmundo.com/2020/estan-sepultados-hotel-aislado-por-coronavirus-se-derrumba-el-video-es-aterrador/
-18,POLITICAL,78,epmundo.com,https://epmundo.com/2020/medico-italiano-lleva-el-coronavirus-a-espana-es-alarmante-hay-mil-afectados/
-19,POLITICAL,73,epmundo.com,https://epmundo.com/2020/la-nueva-teoria-de-maduro-lo-ultimo-que-dijo-del-coronavirus-te-dejara-loco/
-20,POLITICAL,72,epmundo.com,https://epmundo.com/2020/alerta-reportan-paciente-con-coronavirus-en-venezuela-detalles/
+rank,fact_type,count,domain,title,url
+1,POLITICAL,122,epmundo.com,Cae muerto en Francia. Terror por coronavirus en Europa es grande. Video,https://epmundo.com/2020/susto-turista-se-desploma-y-es-el-primer-muerto-por-coronavirus-en-europa-video/
+2,POLITICAL,114,epmundo.com,¡Preocupante! Descubren segunda vía transmisión del coronavirus,https://epmundo.com/2020/existe-una-via-secundaria-de-transmision-del-coronavirus-vea-cual-es/
+3,POLITICAL,111,epmundo.com,¡Confirmado! Coronavirus toca a Latinoamérica: se encienden las alarmas,https://epmundo.com/2020/alerta-confirman-primer-caso-de-coronavirus-en-latinoamerica/
+4,POLITICAL,109,epmundo.com,¡Confirmado! Coronavirus toca a Latinoamérica: se encienden las alarmas,https://epmundo.com/2020/alerta-confirman-primer-caso-de-coronavirus-de-latinoamericano/
+5,POLITICAL,106,epmundo.com,¡Alarma por coronavirus! Revelaciones de un epidemiólogo dan pánico,https://epmundo.com/2020/alarmante-advertencia-de-un-epidemiologo-sobre-el-coronavirus/
+6,POLITICAL,103,epmundo.com,¿Coronavirus es un arma de guerra biológica? ¡Esto dicen los científicos!,https://epmundo.com/2020/alertan-que-el-coronavirus-podria-ser-una-arma-de-guerra-biologica/
+7,POLITICAL,102,epmundo.com,!Alerta roja¡ Reportan la muerte del primer estadounidense por coronavirus,https://epmundo.com/2020/alerta-maxima-muere-el-primer-estadounidense-por-coronavirus/
+8,POLITICAL,102,epmundo.com,Ejecutado por violar cuarentena en Corea del Norte ¡Crimen atroz!,https://epmundo.com/2020/ejecutado-hombre-en-corea-del-norte-por-no-prevenir-contagio-de-coronavirus/
+9,POLITICAL,96,epmundo.com,¡Caos en Italia por Coronavirus! Muertos y varias ciudades en aislamiento,https://epmundo.com/2020/coronavirus-causa-estragos-en-italia-ya-reportan-varios-muertos/
+10,POLITICAL,95,epmundo.com,"¡Llegó el coronavirus! Colombia confirma un paciente, vea qué le pasó",https://epmundo.com/2020/alerta-confirmado-primer-colombiano-con-coronavirus/
+11,POLITICAL,88,epmundo.com,Italia protege a sus ciudadanos del coronavirus ¡11 ciudades aisladas!,https://epmundo.com/2020/italia-adopta-medidas-extremas-por-propagacion-del-coronavirus/
+12,POLITICAL,87,epmundo.com,"Cuántos muertos dejó el Coronavirus. Sepa, es aterrador",https://epmundo.com/2020/es-aterrador-el-nuevo-balance-de-muertos-por-coronavirus/
+13,POLITICAL,86,epmundo.com,¡Alarmante! Personas sin síntomas contagian coronavirus,https://epmundo.com/2020/atencion-pacientes-sin-sintomas-tambien-transmiten-coronavirus/
+14,POLITICAL,84,epmundo.com,¡Tomen previsiones! Reportan primer paciente con Coronavirus en México,https://epmundo.com/2020/alerta-tercer-pais-latino-que-registra-paciente-por-coronavirus-detalles/
+15,POLITICAL,83,epmundo.com,"Profecía del coronavirus: Nostradamus lo predijo, da miedo leerla",https://epmundo.com/2020/da-escalofrios-la-profecia-de-nostradamus-sobre-el-coronavirus/
+16,POLITICAL,82,epmundo.com,Caso de coronavirus en Maracay: ¡Periodista Gregoria Díaz en peligro!,https://epmundo.com/2020/periodista-gregoria-diaz-en-peligro-por-caso-de-coronavirus/
+17,POLITICAL,79,epmundo.com,"En video: Estaban en cuarentena por coronavirus, ¡el hotel los aplastó!",https://epmundo.com/2020/estan-sepultados-hotel-aislado-por-coronavirus-se-derrumba-el-video-es-aterrador/
+18,POLITICAL,78,epmundo.com,Inicio — EP | Mundo,https://epmundo.com/2020/medico-italiano-lleva-el-coronavirus-a-espana-es-alarmante-hay-mil-afectados/
+19,POLITICAL,73,epmundo.com,La teoría descabellada de Maduro sobre el coronavirus ¿Qué dijo?,https://epmundo.com/2020/la-nueva-teoria-de-maduro-lo-ultimo-que-dijo-del-coronavirus-te-dejara-loco/
+20,POLITICAL,72,epmundo.com,Paciente en Maracay ¿Conoravirus llega a Venezuela?. ¡Alerta máxima!,https://epmundo.com/2020/alerta-reportan-paciente-con-coronavirus-en-venezuela-detalles/

@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,30,rollingstone.com,https://rol.st/396qdge
-2,CLICKBAIT,18,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,POLITICAL,9,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-4,CONSPIRACY/JUNKSCI,8,beforeitsnews.com,https://beforeitsnews.com/health/2020/01/confirmed-this-is-a-bio-weapon-it-now-makes-perfect-sense-great-video-3005250.html
-5,CONSPIRACY/JUNKSCI,6,beforeitsnews.com,https://beforeitsnews.com/new-world-order/2020/01/fema-proposes-martial-law-to-contain-coronavirus-8697.html
-6,POLITICAL,6,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-7,POLITICAL,5,cnn.it,https://cnn.it/30uylfu
-8,POLITICAL,5,rappler.com,http://rappler.com/world
-9,POLITICAL,4,foxnews.com,https://www.foxnews.com/politics/trump-coronavirus-primetime-address
-10,FAKE/HOAX,3,presstv.com,https://www.presstv.com/detail/2020/02/05/617929/china-virus-death-toll
-11,CONSPIRACY/JUNKSCI,3,zerohedge.com,https://www.zerohedge.com/health/did-chinas-tencent-accidentally-leak-true-terrifying-coronavirus-statistics
-12,CONSPIRACY/JUNKSCI,3,wakingtimes.com,https://www.wakingtimes.com/2020/02/18/the-coronavirus-5g-connection-and-coverup/?utm_campaign=meetedgar&utm_medium=social&utm_source=meetedgar.com
-13,POLITICAL,3,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-14,FAKE/HOAX,3,strategic-culture.org,https://www.strategic-culture.org/news/2020/03/05/who-made-coronavirus-was-it-us-israel-or-china-itself/
-15,POLITICAL,3,cnn.com,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
-16,FAKE/HOAX,2,summit.news,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
-17,CLICKBAIT,2,mirror.co.uk,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
-18,POLITICAL,2,cnn.it,https://cnn.it/2tu0d1h
-19,POLITICAL,2,cnn.it,https://cnn.it/3akwdqb
-20,FAKE/HOAX,2,dailymail.co.uk,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+rank,fact_type,count,domain,title,url
+1,POLITICAL,30,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+2,CLICKBAIT,18,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+3,POLITICAL,9,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+4,CONSPIRACY/JUNKSCI,8,beforeitsnews.com,Confirmed! This Is a Bioweapon! It Now Makes Perfect Sense! - Great Video | Health | Before It's News,https://beforeitsnews.com/health/2020/01/confirmed-this-is-a-bio-weapon-it-now-makes-perfect-sense-great-video-3005250.html
+5,CONSPIRACY/JUNKSCI,6,beforeitsnews.com,FEMA Proposes Martial Law to Contain Coronavirus | New World Order | Before It's News,https://beforeitsnews.com/new-world-order/2020/01/fema-proposes-martial-law-to-contain-coronavirus-8697.html
+6,POLITICAL,6,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+7,POLITICAL,5,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
+8,POLITICAL,5,rappler.com,World,http://rappler.com/world
+9,POLITICAL,4,foxnews.com,"Trump says coronavirus vaccine coming along 'rapidly,' appoints Pence to head task force",https://www.foxnews.com/politics/trump-coronavirus-primetime-address
+10,FAKE/HOAX,3,presstv.com,China coronavirus outbreak: Death toll approaches 500,https://www.presstv.com/detail/2020/02/05/617929/china-virus-death-toll
+11,CONSPIRACY/JUNKSCI,3,zerohedge.com,Did China's Tencent Accidentally Leak The True Terrifying Coronavirus Statistics,https://www.zerohedge.com/health/did-chinas-tencent-accidentally-leak-true-terrifying-coronavirus-statistics
+12,CONSPIRACY/JUNKSCI,3,wakingtimes.com,,https://www.wakingtimes.com/2020/02/18/the-coronavirus-5g-connection-and-coverup/?utm_campaign=meetedgar&utm_medium=social&utm_source=meetedgar.com
+13,POLITICAL,3,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+14,FAKE/HOAX,3,strategic-culture.org,"Who Made Coronavirus? Was It the U.S., Israel or China Itself?",https://www.strategic-culture.org/news/2020/03/05/who-made-coronavirus-was-it-us-israel-or-china-itself/
+15,POLITICAL,3,cnn.com,Is coronavirus Donald Trump's Katrina?,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
+16,FAKE/HOAX,2,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
+17,CLICKBAIT,2,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
+18,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tu0d1h
+19,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3akwdqb
+20,FAKE/HOAX,2,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html

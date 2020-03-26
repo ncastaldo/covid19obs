@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,10,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,CLICKBAIT,8,koreaboo.com,https://www.koreaboo.com/news/blackpinks-march-comeback-reportedly-postponed-due-coronavirus-covid-19/
-3,SATIRE,8,scienceinfo.fr,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-4,CLICKBAIT,8,allkpop.com,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-5,POLITICAL,7,haaretz.com,https://www.haaretz.com/amp/israel-news/.premium-israeli-research-center-to-announce-it-developed-coronavirus-vaccine-sources-say-1.8665074?__twitter_impression=true
-6,POLITICAL,6,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-7,CLICKBAIT,6,soompi.com,https://www.soompi.com/article/1385621wpp/staff-member-of-popular-singer-reportedly-tests-positive-for-novel-coronavirus
-8,POLITICAL,5,haaretz.com,https://www.haaretz.com/israel-news/.premium-coronavirus-in-israel-over-1-000-high-school-students-put-in-quarantine-1.8627580
-9,POLITICAL,5,bfmtv.com,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-italie-chine-carte-symptomes-mort-cas-psg-dortmund-huis-clos-paris-oise-morbihan-lyon/
-10,POLITICAL,5,bfmtv.com,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
-11,POLITICAL,4,haaretz.com,https://www.haaretz.com/israel-news/health-ministry-korean-nationals-who-visited-israel-tested-positive-for-coronavirus-1.8564475
-12,CONSPIRACY/JUNKSCI,4,zerohedge.com,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-13,CLICKBAIT,4,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228150259906
-14,POLITICAL,4,haaretz.com,https://www.haaretz.com/israel-news/.premium-israeli-with-coronavirus-in-severe-condition-israel-may-quarantine-some-u-s-arrivals-1.8638322
-15,POLITICAL,3,legalinsurrection.com,https://legalinsurrection.com/2020/01/china-quarantines-wuhan-in-response-to-continuing-coronavirus-outbreaks/
-16,POLITICAL,3,bfmtv.com,https://www.bfmtv.com/economie/coronavirus-le-prix-des-masques-chirurgicaux-flambe-de-150percent-sur-amazon-1847999.html#page/contribution/index
-17,POLITICAL,3,oann.com,https://www.oann.com/johnson-johnson-to-create-coronavirus-vaccine/
-18,CLICKBAIT,3,allkpop.com,https://www.allkpop.com/article/2020/02/bvlgari-event-that-lisa-was-scheduled-to-attend-is-canceled-due-to-the-coronavirus
-19,POLITICAL,3,haaretz.com,https://www.haaretz.com/israel-news/.premium-two-hundred-israelis-quarantine-south-korea-test-coronavirus-1.8565500
-20,POLITICAL,3,eldiario.es,https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,10,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,CLICKBAIT,8,koreaboo.com,BLACKPINK's March Comeback Has Reportedly Been Postponed Due To Coronavirus,https://www.koreaboo.com/news/blackpinks-march-comeback-reportedly-postponed-due-coronavirus-covid-19/
+3,SATIRE,8,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
+4,CLICKBAIT,8,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
+5,POLITICAL,7,haaretz.com,"Israeli research center to announce it developed coronavirus vaccine, sources say",https://www.haaretz.com/amp/israel-news/.premium-israeli-research-center-to-announce-it-developed-coronavirus-vaccine-sources-say-1.8665074?__twitter_impression=true
+6,POLITICAL,6,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+7,CLICKBAIT,6,soompi.com,Staff Member Of Popular Singer Reportedly Tests Positive For Novel Coronavirus,https://www.soompi.com/article/1385621wpp/staff-member-of-popular-singer-reportedly-tests-positive-for-novel-coronavirus
+8,POLITICAL,5,haaretz.com,Israel may apply quarantine to some U.S. flights,https://www.haaretz.com/israel-news/.premium-coronavirus-in-israel-over-1-000-high-school-students-put-in-quarantine-1.8627580
+9,POLITICAL,5,bfmtv.com,Coronavirus: le chef de l'ONU appelle tous les pays à « redoubler d'efforts immédiatement,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-italie-chine-carte-symptomes-mort-cas-psg-dortmund-huis-clos-paris-oise-morbihan-lyon/
+10,POLITICAL,5,bfmtv.com,Coronavirus: Castaner prévient que la violation des règles de confinement sera puni d'une amende de 38 €,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
+11,POLITICAL,4,haaretz.com,"Korean nationals who visited Israel, West Bank tested positive for coronavirus",https://www.haaretz.com/israel-news/health-ministry-korean-nationals-who-visited-israel-tested-positive-for-coronavirus-1.8564475
+12,CONSPIRACY/JUNKSCI,4,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+13,CLICKBAIT,4,entertain.v.daum.net,"[단독] 레드벨벳 웬디, 코로나19 성금 1억 기부..부상 중에도 빛난 선행",https://entertain.v.daum.net/v/20200228150259906
+14,POLITICAL,4,haaretz.com,"Israel extends coronavirus quarantine orders to all arrivals, 58 cases confirmed",https://www.haaretz.com/israel-news/.premium-israeli-with-coronavirus-in-severe-condition-israel-may-quarantine-some-u-s-arrivals-1.8638322
+15,POLITICAL,3,legalinsurrection.com,China Quarantines Wuhan in Response to Continuing Coronavirus Outbreaks,https://legalinsurrection.com/2020/01/china-quarantines-wuhan-in-response-to-continuing-coronavirus-outbreaks/
+16,POLITICAL,3,bfmtv.com,Coronavirus: le prix des masques chirurgicaux flambe de 150% sur Amazon,https://www.bfmtv.com/economie/coronavirus-le-prix-des-masques-chirurgicaux-flambe-de-150percent-sur-amazon-1847999.html#page/contribution/index
+17,POLITICAL,3,oann.com,,https://www.oann.com/johnson-johnson-to-create-coronavirus-vaccine/
+18,CLICKBAIT,3,allkpop.com,'BVLGARI' event that Lisa was scheduled to attend is canceled due to the Coronavirus,https://www.allkpop.com/article/2020/02/bvlgari-event-that-lisa-was-scheduled-to-attend-is-canceled-due-to-the-coronavirus
+19,POLITICAL,3,haaretz.com,Netanyahu: No need to postpone election over coronavirus,https://www.haaretz.com/israel-news/.premium-two-hundred-israelis-quarantine-south-korea-test-coronavirus-1.8565500
+20,POLITICAL,3,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html

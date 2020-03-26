@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,CLICKBAIT,42,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,27,rappler.com,http://rappler.com/world
-3,POLITICAL,22,cnn.it,https://cnn.it/2szzuux
-4,POLITICAL,22,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-5,POLITICAL,20,nationalreview.com,https://www.nationalreview.com/2020/02/irans-incompetent-response-to-coronavirus-threatens-the-middle-east-and-the-world/
-6,POLITICAL,19,news.chosun.com,https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-7,CLICKBAIT,18,soompi.com,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
-8,POLITICAL,17,cnn.it,https://cnn.it/3d98qjp
-9,POLITICAL,15,bfmtv.com,https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-10,POLITICAL,15,rollingstone.com,https://rol.st/396qdge
-11,CLICKBAIT,12,allkpop.com,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-12,POLITICAL,10,bfmtv.com,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
-13,FAKE/HOAX,10,presstv.com,https://www.presstv.com/detail/2020/03/05/620213/coronavirus-was-produced-in-a-laboratory
-14,FAKE/HOAX,9,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-15,CLICKBAIT,9,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228150259906
-16,CLICKBAIT,9,entertain.v.daum.net,https://entertain.v.daum.net/v/20200228165328313
-17,CLICKBAIT,9,soompi.com,https://www.soompi.com/article/1385621wpp/staff-member-of-popular-singer-reportedly-tests-positive-for-novel-coronavirus
-18,CLICKBAIT,8,koreaboo.com,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
-19,POLITICAL,8,eldiario.es,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-20,POLITICAL,8,eldiario.es,https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+rank,fact_type,count,domain,title,url
+1,CLICKBAIT,42,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+2,POLITICAL,27,rappler.com,World,http://rappler.com/world
+3,POLITICAL,22,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2szzuux
+4,POLITICAL,22,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+5,POLITICAL,20,nationalreview.com,Iran’s Incompetent Response to Coronavirus Threatens the Middle East and the World | National Review,https://www.nationalreview.com/2020/02/irans-incompetent-response-to-coronavirus-threatens-the-middle-east-and-the-world/
+6,POLITICAL,19,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
+7,CLICKBAIT,18,soompi.com,BTS’s Fans ARMY Donate Refunds From Concert Cancelation To Help Coronavirus Prevention,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
+8,POLITICAL,17,cnn.it,"Iran coronavirus deaths top 1,000 ",https://cnn.it/3d98qjp
+9,POLITICAL,15,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
+10,POLITICAL,15,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+11,CLICKBAIT,12,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
+12,POLITICAL,10,bfmtv.com,Coronavirus: les ventes de La Peste de Camus bondissent,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
+13,FAKE/HOAX,10,presstv.com,Coronavirus was produced in a laboratory: Former CIA intel officer,https://www.presstv.com/detail/2020/03/05/620213/coronavirus-was-produced-in-a-laboratory
+14,FAKE/HOAX,9,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+15,CLICKBAIT,9,entertain.v.daum.net,"[단독] 레드벨벳 웬디, 코로나19 성금 1억 기부..부상 중에도 빛난 선행",https://entertain.v.daum.net/v/20200228150259906
+16,CLICKBAIT,9,entertain.v.daum.net,"엑소 레이, 코로나19 사태에 2천만원 의미 있는 기부..""우리는 하나"" [단독]",https://entertain.v.daum.net/v/20200228165328313
+17,CLICKBAIT,9,soompi.com,Staff Member Of Popular Singer Reportedly Tests Positive For Novel Coronavirus,https://www.soompi.com/article/1385621wpp/staff-member-of-popular-singer-reportedly-tests-positive-for-novel-coronavirus
+18,CLICKBAIT,8,koreaboo.com,Baekhyun Praised For His Adorable Yet Smart Methods To Preventing The Coronavirus,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
+19,POLITICAL,8,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
+20,POLITICAL,8,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html

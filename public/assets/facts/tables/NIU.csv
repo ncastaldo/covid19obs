@@ -1,12 +1,12 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,1,es.rt.com,https://es.rt.com/7bby
-2,POLITICAL,1,cnn.it,https://cnn.it/37f4p36
-3,POLITICAL,1,rappler.com,https://www.rappler.com/nation/186633-philippines-confirms-case-novel-coronavirus?utm_medium=social&utm_source=twitter#echobox=1580371766
-4,POLITICAL,1,rappler.com,https://www.rappler.com/nation/250603-netizens-reaction-philippines-coronavirus-case-china-travel-ban?utm_medium=social&utm_source=twitter#echobox=1580387415
-5,POLITICAL,1,eldiario.es,https://www.eldiario.es/sociedad/sanidad-confirma-caso-coronavirus-gomera_0_990751941.html
-6,POLITICAL,1,cnn.it,https://cnn.it/2p8g4je
-7,CLICKBAIT,1,koreaboo.com,https://www.koreaboo.com/news/mnh-entertainment-confirms-2-chungha-staff-corona19-covid-19/
-8,POLITICAL,1,xhne.ws,http://xhne.ws/4ksbw
-9,POLITICAL,1,xhne.ws,http://xhne.ws/xtaq1
-10,POLITICAL,1,slate.com,https://slate.com/news-and-politics/2020/03/injunction-snap-rule-change-coronavirus-pandemic.html
-11,POLITICAL,1,actualidad.rt.com,https://actualidad.rt.com/actualidad/346217-argentina-anunciar-medidas-combatir-propagacion-covid-19
+rank,fact_type,count,domain,title,url
+1,POLITICAL,1,es.rt.com,El coronavirus puede infectar desde una distancia de 2 metros y a través de los ojos,https://es.rt.com/7bby
+2,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37f4p36
+3,POLITICAL,1,rappler.com,Philippines confirms 1st case of novel coronavirus,https://www.rappler.com/nation/186633-philippines-confirms-case-novel-coronavirus?utm_medium=social&utm_source=twitter#echobox=1580371766
+4,POLITICAL,1,rappler.com,"Filipinos slam gov't, demand China travel ban amid 1st coronavirus case in PH",https://www.rappler.com/nation/250603-netizens-reaction-philippines-coronavirus-case-china-travel-ban?utm_medium=social&utm_source=twitter#echobox=1580387415
+5,POLITICAL,1,eldiario.es,"El contagiado por coronavirus de La Gomera se infectó en Alemania y se encuentra ""perfectamente""",https://www.eldiario.es/sociedad/sanidad-confirma-caso-coronavirus-gomera_0_990751941.html
+6,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2p8g4je
+7,CLICKBAIT,1,koreaboo.com,MNH Entertainment Confirms 2 Of Chungha's Staff Have Corona19 (COVID-19),https://www.koreaboo.com/news/mnh-entertainment-confirms-2-chungha-staff-corona19-covid-19/
+8,POLITICAL,1,xhne.ws,,http://xhne.ws/4ksbw
+9,POLITICAL,1,xhne.ws,,http://xhne.ws/xtaq1
+10,POLITICAL,1,slate.com,"Judge Blocks Trump Rule That Would Have Kicked 700,000 Off Food Stamps During a Pandemic",https://slate.com/news-and-politics/2020/03/injunction-snap-rule-change-coronavirus-pandemic.html
+11,POLITICAL,1,actualidad.rt.com,"Alberto Fernández ordena cierre de las fronteras, suspensión de los eventos públicos y clases para frenar la propagación del covid-19 en Argentina",https://actualidad.rt.com/actualidad/346217-argentina-anunciar-medidas-combatir-propagacion-covid-19

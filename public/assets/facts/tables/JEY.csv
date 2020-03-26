@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,30,rollingstone.com,https://rol.st/396qdge
-2,CLICKBAIT,8,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,POLITICAL,8,cnn.com,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
-4,POLITICAL,7,rawstory.com,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-5,POLITICAL,5,cnn.it,https://cnn.it/30uylfu
-6,POLITICAL,5,thedailybeast.com,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-7,POLITICAL,4,thedailybeast.com,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
-8,POLITICAL,4,rawstory.com,https://www.rawstory.com/2020/02/stephen-millers-new-wife-is-in-charge-of-approving-all-coronavirus-communications/
-9,FAKE/HOAX,3,dailystar.co.uk,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
-10,POLITICAL,3,telegraph.co.uk,https://www.telegraph.co.uk/science/2020/03/04/coronavirus-has-mutated-aggressive-disease-say-scientists/?utm_content=telegraph&utm_medium=social&utm_campaign=echobox&utm_source=twitter#echobox=1583342350
-11,POLITICAL,3,theintercept.com,https://theintercept.com/2020/03/12/matt-gaetz-florida-paid-sick-leave-coronavirus/
-12,POLITICAL,3,marxist.com,https://www.marxist.com/covid-19-pandemic-the-threatening-catastrophe-and-how-to-combat-it.htm
-13,CONSPIRACY/JUNKSCI,3,peta.org,http://peta.vg/2ran
-14,POLITICAL,2,thesun.co.uk,https://www.thesun.co.uk/news/10801901/china-coronavirus-outbreak-wuhan?utm_source=twitter&utm_medium=social&utm_campaign=sharebarweb
-15,POLITICAL,2,deadstate.org,https://deadstate.org/christian-tv-host-god-sent-the-coronavirus-to-punish-the-vile-and-disgusting-people-in-this-country/
-16,FAKE/HOAX,2,bongino.com,https://bongino.com/not-a-joke-cnn-upset-that-trumps-coronavirus-task-force-lacks-diversity/
-17,CONSPIRACY/JUNKSCI,2,zerohedge.com,https://www.zerohedge.com/markets/china-reports-huge-jump-new-coronavirus-infections-deaths-oil-stocks-tumble-gold-soars
-18,POLITICAL,2,nationalreview.com,https://www.nationalreview.com/2020/02/coronavirus-outbreak-chinese-communist-party-fallout/
-19,POLITICAL,2,dailywire.com,https://www.dailywire.com/news/report-suggests-that-details-point-to-coronavirus-coming-from-chinese-lab
-20,POLITICAL,2,msnbc.com,https://www.msnbc.com/rachel-maddow-show/white-house-starting-censor-public-health-officials-n1144411
+rank,fact_type,count,domain,title,url
+1,POLITICAL,30,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+2,CLICKBAIT,8,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+3,POLITICAL,8,cnn.com,Is coronavirus Donald Trump's Katrina?,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
+4,POLITICAL,7,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
+5,POLITICAL,5,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
+6,POLITICAL,5,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
+7,POLITICAL,4,thedailybeast.com,QAnon-ers’ Magic Cure for Coronavirus: Just Drink Bleach!,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
+8,POLITICAL,4,rawstory.com,,https://www.rawstory.com/2020/02/stephen-millers-new-wife-is-in-charge-of-approving-all-coronavirus-communications/
+9,FAKE/HOAX,3,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+10,POLITICAL,3,telegraph.co.uk,"Coronavirus has mutated into more aggressive disease, say scientists ",https://www.telegraph.co.uk/science/2020/03/04/coronavirus-has-mutated-aggressive-disease-say-scientists/?utm_content=telegraph&utm_medium=social&utm_campaign=echobox&utm_source=twitter#echobox=1583342350
+11,POLITICAL,3,theintercept.com,Gaetz Voted Against Florida Paid Sick Leave. He’s Using It in Congress.,https://theintercept.com/2020/03/12/matt-gaetz-florida-paid-sick-leave-coronavirus/
+12,POLITICAL,3,marxist.com,,https://www.marxist.com/covid-19-pandemic-the-threatening-catastrophe-and-how-to-combat-it.htm
+13,CONSPIRACY/JUNKSCI,3,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+14,POLITICAL,2,thesun.co.uk,Correction: coronavirus,https://www.thesun.co.uk/news/10801901/china-coronavirus-outbreak-wuhan?utm_source=twitter&utm_medium=social&utm_campaign=sharebarweb
+15,POLITICAL,2,deadstate.org,Christian TV host: God sent the coronavirus to punish ‘the vile and disgusting people in this country’,https://deadstate.org/christian-tv-host-god-sent-the-coronavirus-to-punish-the-vile-and-disgusting-people-in-this-country/
+16,FAKE/HOAX,2,bongino.com,Not a Joke: CNN Complains That Trump's Coronavirus Task Force Lacks Diversity | Dan Bongino,https://bongino.com/not-a-joke-cnn-upset-that-trumps-coronavirus-task-force-lacks-diversity/
+17,CONSPIRACY/JUNKSCI,2,zerohedge.com,"China Reports Huge Jump In New Coronavirus Infections And Deaths; Oil, Stocks Tumble",https://www.zerohedge.com/markets/china-reports-huge-jump-new-coronavirus-infections-deaths-oil-stocks-tumble-gold-soars
+18,POLITICAL,2,nationalreview.com,The Chinese Communist Party Struggles to Contain the Coronavirus Fallout | National Review,https://www.nationalreview.com/2020/02/coronavirus-outbreak-chinese-communist-party-fallout/
+19,POLITICAL,2,dailywire.com,Report Promotes Debunked Theory That Coronavirus Comes From Chinese Lab,https://www.dailywire.com/news/report-suggests-that-details-point-to-coronavirus-coming-from-chinese-lab
+20,POLITICAL,2,msnbc.com,Is the White House starting to censor public-health officials?,https://www.msnbc.com/rachel-maddow-show/white-house-starting-censor-public-health-officials-n1144411

@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,POLITICAL,5,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-2,CONSPIRACY/JUNKSCI,4,zerohedge.com,https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-3,CLICKBAIT,4,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-4,POLITICAL,3,cnn.it,https://cnn.it/3agzbvy
-5,POLITICAL,3,cnn.it,https://cnn.it/38mjl1d
-6,POLITICAL,3,cnn.com,https://www.cnn.com/2020/02/10/health/evacuee-wuhan-coronavirus-mistakenly-released/index.html
-7,POLITICAL,2,aajtak.intoday.in,https://aajtak.intoday.in/story/corona-virus-alert-china-kerala-mumbai-hyderabad-airport-1-1157934.html
-8,FAKE/HOAX,2,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7922379/amp/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html?__twitter_impression=true
-9,POLITICAL,2,cnn.it,https://cnn.it/2tu0d1h
-10,POLITICAL,2,thesun.co.uk,https://www.thesun.co.uk/news/10814760/bill-gates-predicted-coronavirus-simulation-33-million-die/
-11,FAKE/HOAX,2,dailymail.co.uk,https://www.dailymail.co.uk/news/article-7933405/wuhan-mayor-admits-withholding-information-coronavirus-outbreak.html?ito=amp_twitter_share-top
-12,POLITICAL,2,foxnews.com,https://www.foxnews.com/health/us-health-officials-on-coronavirus-outbreak
-13,FAKE/HOAX,2,rt.com,http://on.rt.com/a9vh
-14,POLITICAL,2,es.rt.com,https://es.rt.com/7bej
-15,POLITICAL,2,cnn.com,https://www.cnn.com/2020/01/30/asia/wuhan-coronavirus-update-china-spread-intl-hnk/index.html
-16,CLICKBAIT,2,soompi.com,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-17,CONSPIRACY/JUNKSCI,2,zerohedge.com,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
-18,POLITICAL,2,foxnews.com,https://www.foxnews.com/health/coronavirus-china-1400-military-doctors-nurses-wuhan-hospital-philippines-death
-19,POLITICAL,2,cnn.it,https://cnn.it/2rvlonc
-20,POLITICAL,2,mol.im,https://mol.im/a/7966081
+rank,fact_type,count,domain,title,url
+1,POLITICAL,5,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+2,CONSPIRACY/JUNKSCI,4,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+3,CLICKBAIT,4,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+4,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3agzbvy
+5,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38mjl1d
+6,POLITICAL,3,cnn.com,"CDC and hospital errors led to US coronavirus patient being sent back to military base, health official says",https://www.cnn.com/2020/02/10/health/evacuee-wuhan-coronavirus-mistakenly-released/index.html
+7,POLITICAL,2,aajtak.intoday.in,"कोरोना वायरस: केरल में अलर्ट, चीन से लौटे सात लोग निगरानी में ",https://aajtak.intoday.in/story/corona-virus-alert-china-kerala-mumbai-hyderabad-airport-1-1157934.html
+8,FAKE/HOAX,2,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/amp/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html?__twitter_impression=true
+9,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tu0d1h
+10,POLITICAL,2,thesun.co.uk,Bill Gates ‘predicted’ how coronavirus-like pandemic could spread killing 33 MILLION,https://www.thesun.co.uk/news/10814760/bill-gates-predicted-coronavirus-simulation-33-million-die/
+11,FAKE/HOAX,2,dailymail.co.uk,Wuhan mayor admits 'withholding information' on coronavirus outbreak,https://www.dailymail.co.uk/news/article-7933405/wuhan-mayor-admits-withholding-information-coronavirus-outbreak.html?ito=amp_twitter_share-top
+12,POLITICAL,2,foxnews.com,China spurned CDC offer to send team to help contain coronavirus: US Health Secretary,https://www.foxnews.com/health/us-health-officials-on-coronavirus-outbreak
+13,FAKE/HOAX,2,rt.com,Error 404,http://on.rt.com/a9vh
+14,POLITICAL,2,es.rt.com,Confirman el primer caso de coronavirus en Emiratos Árabes,https://es.rt.com/7bej
+15,POLITICAL,2,cnn.com,Global fears spread over coronavirus,https://www.cnn.com/2020/01/30/asia/wuhan-coronavirus-update-china-spread-intl-hnk/index.html
+16,CLICKBAIT,2,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
+17,CONSPIRACY/JUNKSCI,2,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+18,POLITICAL,2,foxnews.com,"China deploys 1,400 military doctors, nurses to staff makeshift hospitals in Wuhan",https://www.foxnews.com/health/coronavirus-china-1400-military-doctors-nurses-wuhan-hospital-philippines-death
+19,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rvlonc
+20,POLITICAL,2,mol.im,Wuhan medic says 'there are more coronavirus deaths and infections',https://mol.im/a/7966081

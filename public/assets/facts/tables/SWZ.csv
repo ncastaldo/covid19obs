@@ -1,21 +1,21 @@
-rank,fact_type,count,domain,url
-1,FAKE/HOAX,5,dailymail.co.uk,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
-2,CONSPIRACY/JUNKSCI,5,zerohedge.com,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-3,CLICKBAIT,5,mirror.co.uk,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-4,CONSPIRACY/JUNKSCI,4,dcclothesline.com,https://www.dcclothesline.com/2020/01/23/coronavirus-nightmare-chinese-hospitals-are-turning-away-hordes-of-sick-people-because-there-is-no-room-for-them/
-5,POLITICAL,3,rappler.com,http://rappler.com/world
-6,FAKE/HOAX,2,dailystar.co.uk,https://www.dailystar.co.uk/news/world-news/coronavirus-could-biological-attack-china-21642172
-7,CONSPIRACY/JUNKSCI,2,peta.org,http://peta.vg/2ran
-8,POLITICAL,1,cnn.it,https://cnn.it/38seimp
-9,CLICKBAIT,1,mirror.co.uk,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
-10,POLITICAL,1,cnn.it,https://cnn.it/2nvzkc6
-11,FAKE/HOAX,1,express.co.uk,https://www.express.co.uk/news/world/1231898/coronavirus-latest-chinese-woman-france-sneaked-in-infected-corona-virus-wuhan-weibo
-12,POLITICAL,1,cnn.it,https://cnn.it/2trrqsh
-13,FAKE/HOAX,1,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-14,POLITICAL,1,cnn.it,https://cnn.it/3alj9un
-15,POLITICAL,1,cnn.it,https://cnn.it/37gvets
-16,POLITICAL,1,cnn.it,https://cnn.it/311k9ux
-17,POLITICAL,1,cnn.com,https://www.cnn.com/2020/01/28/asia/wuhan-coronavirus-update-intl-hnk/index.html
-18,POLITICAL,1,cnn.it,https://cnn.it/2rwpcvh
-19,POLITICAL,1,cnn.it,https://cnn.it/36yggqk
-20,POLITICAL,1,cnn.it,https://cnn.it/2rsypli
+rank,fact_type,count,domain,title,url
+1,FAKE/HOAX,5,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+2,CONSPIRACY/JUNKSCI,5,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+3,CLICKBAIT,5,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
+4,CONSPIRACY/JUNKSCI,4,dcclothesline.com,Coronavirus Nightmare: Chinese Hospitals Are Turning Away Hordes Of Sick People Because There Is No Room For Them - DC Clothesline,https://www.dcclothesline.com/2020/01/23/coronavirus-nightmare-chinese-hospitals-are-turning-away-hordes-of-sick-people-because-there-is-no-room-for-them/
+5,POLITICAL,3,rappler.com,World,http://rappler.com/world
+6,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/coronavirus-could-biological-attack-china-21642172
+7,CONSPIRACY/JUNKSCI,2,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+8,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38seimp
+9,CLICKBAIT,1,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
+10,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2nvzkc6
+11,FAKE/HOAX,1,express.co.uk,‘She’s a TIMEBOMB’ Chinese woman hides Coronavirus to enter France - and brags online,https://www.express.co.uk/news/world/1231898/coronavirus-latest-chinese-woman-france-sneaked-in-infected-corona-virus-wuhan-weibo
+12,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2trrqsh
+13,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+14,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3alj9un
+15,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37gvets
+16,POLITICAL,1,cnn.it,CDC raises China travel precautions to highest level,https://cnn.it/311k9ux
+17,POLITICAL,1,cnn.com,Death toll from Wuhan coronavirus tops 100 as infection rate accelerates,https://www.cnn.com/2020/01/28/asia/wuhan-coronavirus-update-intl-hnk/index.html
+18,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rwpcvh
+19,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36yggqk
+20,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rsypli
