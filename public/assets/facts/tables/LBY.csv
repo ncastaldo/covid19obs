@@ -15,7 +15,7 @@ rank,fact_type,count,domain,url
 14,FAKE/HOAX,2,dailymail.co.uk,https://www.dailymail.co.uk/news/article-8104477/doctors-claim-new-coronavirus-cause-damage-mans-testicles.html
 15,POLITICAL,2,oglobo.globo.com,https://oglobo.globo.com/sociedade/coronavirus-novidade-no-brasil-implante-de-chips-aposta-da-medicina-24312618?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
 16,POLITICAL,2,rollingstone.com,https://rol.st/396qdge
-17,POLITICAL,1,dailycaller.com,https://dailycaller.com/2020/01/21/coronavirus-china-us-airports/
-18,POLITICAL,1,cnn.it,https://cnn.it/3axsjpy
-19,POLITICAL,1,oann.com,https://www.oann.com/cdc-confirms-first-case-of-coronavirus-in-the-u-s/
-20,POLITICAL,1,cnn.it,https://cnn.it/37htbrl
+17,CLICKBAIT,2,mirror.co.uk,https://www.mirror.co.uk/science/coronavirus-may-cause-damage-mens-21681342
+18,POLITICAL,1,dailycaller.com,https://dailycaller.com/2020/01/21/coronavirus-china-us-airports/
+19,POLITICAL,1,cnn.it,https://cnn.it/3axsjpy
+20,POLITICAL,1,oann.com,https://www.oann.com/cdc-confirms-first-case-of-coronavirus-in-the-u-s/

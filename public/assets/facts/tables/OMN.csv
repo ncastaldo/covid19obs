@@ -15,7 +15,7 @@ rank,fact_type,count,domain,url
 14,FAKE/HOAX,2,rt.com,https://www.rt.com/news/482623-italy-coronavirus-chief-of-staff/
 15,POLITICAL,2,cnn.it,https://cnn.it/2qmv5pf
 16,POLITICAL,2,theintercept.com,https://theintercept.com/2020/03/17/coronavirus-iran-sanctions/
-17,POLITICAL,1,cnn.it,https://cnn.it/2trbos9
-18,FAKE/HOAX,1,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7912457/chinese-doctor-investigating-virus-outbreak-says-infected.html
-19,POLITICAL,1,cnn.com,https://www.cnn.com/2020/01/21/health/wuhan-coronavirus-first-us-case-cdc-bn/index.html
-20,FAKE/HOAX,1,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7906281/sars-like-virus-spreads-china-nearly-140-new-cases.html
+17,CONSPIRACY/JUNKSCI,2,peta.org,http://peta.vg/2ran
+18,POLITICAL,1,cnn.it,https://cnn.it/2trbos9
+19,FAKE/HOAX,1,dailymail.co.uk,https://www.dailymail.co.uk/health/article-7912457/chinese-doctor-investigating-virus-outbreak-says-infected.html
+20,POLITICAL,1,cnn.com,https://www.cnn.com/2020/01/21/health/wuhan-coronavirus-first-us-case-cdc-bn/index.html

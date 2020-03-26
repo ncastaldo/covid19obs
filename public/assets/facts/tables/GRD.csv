@@ -15,7 +15,7 @@ rank,fact_type,count,domain,url
 14,POLITICAL,3,eldiario.es,https://www.eldiario.es/sociedad/ultima-hora-coronavirus-mundo-espana_13_1000679924_40032.html
 15,POLITICAL,3,eldiario.es,https://www.eldiario.es/sociedad/ultima-hora-coronavirus-mundo-espana_13_1000679924_40339.html
 16,POLITICAL,3,eldiario.es,https://www.eldiario.es/sociedad/ultima-hora-coronavirus-mundo-espana_13_1000679924_40830.html
-17,FAKE/HOAX,3,ikerjimenez.com,https://www.ikerjimenez.com/milenio-live-2x28-covid-19-la-noche-de-los-doctores-mayol-y-candel/
-18,POLITICAL,3,eldiario.es,https://www.eldiario.es/sociedad/ultima-hora-coronavirus-mundo-espana_13_1000679924_41771.html
-19,POLITICAL,2,thesun.co.uk,https://www.thesun.co.uk/news/10801901/coronavirus-outbreak-china-spread-bat-soup/?utm_medium=social&utm_campaign=sunmaintwitter&utm_source=twitter#echobox=1579773467
-20,POLITICAL,2,cnn.it,https://cnn.it/37xfdjd
+17,POLITICAL,3,eldiario.es,https://www.eldiario.es/politica/jorge-fernandez-diaz-coronavirus-rey_0_1006849391.html
+18,FAKE/HOAX,3,ikerjimenez.com,https://www.ikerjimenez.com/milenio-live-2x28-covid-19-la-noche-de-los-doctores-mayol-y-candel/
+19,POLITICAL,3,eldiario.es,https://www.eldiario.es/sociedad/ultima-hora-coronavirus-mundo-espana_13_1000679924_41771.html
+20,POLITICAL,2,thesun.co.uk,https://www.thesun.co.uk/news/10801901/coronavirus-outbreak-china-spread-bat-soup/?utm_medium=social&utm_campaign=sunmaintwitter&utm_source=twitter#echobox=1579773467
