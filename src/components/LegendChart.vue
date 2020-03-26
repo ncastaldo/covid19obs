@@ -21,8 +21,6 @@
 
 <script>
 import * as d3nic from 'd3nic'
-
-import { interpolate } from 'd3-interpolate'
 import { format } from 'd3-format'
 import * as d3scale from 'd3-scale'
 import * as d3scaleChromatic from 'd3-scale-chromatic'
@@ -31,7 +29,8 @@ export default {
   props: {
     mapVariable: Object,
     domain: Array,
-    size: Object
+    size: Object,
+    width: Number
   },
   data () {
     return {
@@ -42,40 +41,51 @@ export default {
   },
   computed: {
     fnInterpolator () {
-      console.log(this.mapVariable)
       return d3scaleChromatic[this.mapVariable.interpolator]
     },
-    fnFormat () {
-      return format(this.mapVariable.format)
-    }
-  },
-  watch: {
-    domain (value) {
-      this.chart
-        .data([this.domain])
-        .draw({ duration: 500 })
+    ticks () {
+      return this.mapVariable.ticks
     },
-    fnInterpolator (value) {
-      // recolor but not redraw
+    fnFormat () {
+      const f = 'legendFormat' in this.mapVariable
+        ? this.mapVariable.legendFormat
+        : this.mapVariable.format
+      return format(f)
     },
     fnContScale (value) {
       return d3scale[this.mapVariable.scaleType]()
     }
   },
+  watch: {
+    domain (value) {
+      this.byAxisX.tickFormat(this.fnFormat).ticks(this.ticks)
+      this.chart
+        .fnContScale(this.fnContScale)
+        .data([this.domain])
+        .draw({ duration: 0 })
+    },
+    width (value) {
+      this.chart.size({ width: value }).draw()
+    }
+  },
   mounted () {
     this.createComponents()
     this.createChart()
-    this.chart
-      .size({ width: 600, height: 45 })
-      .data([this.domain])
-      .draw({ duration: 0 })
+
+    this.$nextTick(() => {
+      this.chart
+        .size({ width: this.width, height: 45 })
+        .data([this.domain])
+        .draw({ duration: 0 })
+    })
   },
   methods: {
     createComponents () {
       this.byAxisX = d3nic.byAxisX()
-        .tickSizeInner(0)
-        .tickSizeOuter(0)
-        .ticks(4)
+        .tickSizeInner(-15)
+        .tickSizeOuter(-15)
+        .ticks(this.ticks)
+        .tickFormat(this.fnFormat)
         .fnBefore(s => s.classed('axis', true).select('.domain').style('opacity', 0))
       this.byBars = d3nic.byBars()
         .fnLowValue(d => d[0])

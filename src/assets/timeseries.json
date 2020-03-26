@@ -16,7 +16,7 @@
             "label": "C",
             "tooltip": "# Confirmed cases",
             "type": "bxBars",
-            "color": "#fb8072",
+            "color": "#fc8d59",
             "fns": []
           },
           {
@@ -24,7 +24,7 @@
             "label": "R",
             "tooltip": "# Recovered cases",
             "type": "bxBars",
-            "color": "#b3de69",
+            "color": "#74c476",
             "fns": []
           },
 
@@ -33,7 +33,7 @@
             "label": "D",
             "tooltip": "# Death cases",
             "type": "bxBars",
-            "color": "#80b1d3",
+            "color": "#969696",
             "fns": []
           }
         ]
@@ -52,7 +52,7 @@
             "label": "TW",
             "tooltip": "Number of tweets",
             "type": "bxBars",
-            "color": "#80b1d3",
+            "color": "#9ecae1",
             "fns": [
               {
                 "name": "fnLowValue",
@@ -185,7 +185,7 @@
             "label": "UF",
             "tooltip": "Unreliable facts",
             "type": "bxBars",
-            "color": "#fb8072",
+            "color": "#6a51a3",
             "fns": []
           },
           {
@@ -193,7 +193,7 @@
             "label": "RF",
             "tooltip": "Reliable facts",
             "type": "bxBars",
-            "color": "#b3de69",
+            "color": "#bcbddc",
             "fns": []
           }
         ]
@@ -212,7 +212,7 @@
             "label": "EUF",
             "tooltip": "Exposure of Unreliable facts",
             "type": "bxBars",
-            "color": "#fb8072",
+            "color": "#2171b5",
             "fns": []
           },
           {
@@ -220,7 +220,7 @@
             "label": "ERF",
             "tooltip": "Exposure of Reliable facts",
             "type": "bxBars",
-            "color": "#b3de69",
+            "color": "#9ecae1",
             "fns": []
           }
         ]
@@ -244,7 +244,7 @@
             "label": "S",
             "tooltip": "Sentiment",
             "type": "bxBars",
-            "color": "#80B1D3",
+            "color": "#FFED6F",
             "fns": [
               {
                 "name": "fnLowValue",

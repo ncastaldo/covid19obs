@@ -78,6 +78,7 @@ export default {
 
       svg: null,
       topPadding: 10,
+      leftPadding: 50,
 
       hover: null,
 
@@ -183,13 +184,17 @@ export default {
     },
     createMouseBars () {
       this.mouseBars = d3nic.bxMouseBars()
-        .fnOn('mouseover', this.onMouseover)
-        .fnOn('mouseout', this.onMouseout)
+
+      if (!this.$isMobile()) {
+        this.mouseBars
+          .fnOn('mouseover', this.onMouseover)
+          .fnOn('mouseout', this.$isMobile() || this.onMouseout)
+      }
     },
     createChart () {
       this.chart = d3nic.bxChart()
         .selector(`#${this.id}`)
-        .padding({ left: 50, right: 20, top: this.topPadding, bottom: 30 })
+        .padding({ left: this.leftPadding, right: 20, top: this.topPadding, bottom: 30 })
         .fnKey(d => new Date(d.datetime))
         .fnBandValue(d => d.datetime)
         .fnContScale(scaleTypes[this.chartConfig.scaleType] || scaleLinear())
@@ -262,7 +267,7 @@ export default {
         const step = this.chart.fnBandScale().step()
         const d = this.data[Math.floor((x - extent[0][0]) / step)]
         const top = this.svg.getBoundingClientRect().top + this.topPadding
-        this.xTooltip = x
+        this.xTooltip = x + this.topPadding
         this.yTooltip = top
         this.setHover(d)
       } else {

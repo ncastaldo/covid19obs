@@ -4,17 +4,21 @@
     "name": "COVID19 Cases",
     "scaleType": "scaleSymlog",
     "scaleColorType": "scaleSequentialSymlog", 
-    "interpolator": "interpolateYlGnBu",
+    "interpolator": "interpolateOrRd",
     "format": ".0f",
+    "legendFormat": ".1s",
+    "ticks": 2,
     "baseDomain": [0, 0]
   },
+
   {
-    "id": "bots",
-    "name": "% Bots",
+    "id": "risk_index",
+    "name": "Risk Index",
     "scaleType": "scaleLinear",
     "scaleColorType": "scaleSequential", 
-    "interpolator": "interpolateOranges",
-    "format": ".1%",
+    "interpolator": "interpolateBlues",
+    "format": ".2f",
+    "ticks": 7,
     "baseDomain": [1, 0],
     "fixedDomain": [0, 1]
   },
@@ -23,30 +27,22 @@
     "name": "% Unreliable Facts",
     "scaleType": "scaleLinear",
     "scaleColorType": "scaleSequential", 
-    "interpolator": "interpolateBlues",
+    "interpolator": "interpolatePurples",
     "format": ".1%",
+    "ticks": 7,
     "baseDomain": [1, 0],
     "fixedDomain": [0, 1]
   },
   {
-    "id": "risk_index",
-    "name": "Risk Index",
+    "id": "sentiment",
+    "name": "Sentiment",
     "scaleType": "scaleLinear",
     "scaleColorType": "scaleSequential", 
-    "interpolator": "interpolateYlOrRd",
+    "interpolator": "interpolateRdYlGn",
     "format": ".2f",
-    "baseDomain": [1, 0],
-    "fixedDomain": [0, 1]
-  },
-  {
-    "id": "neg_sentiment",
-    "name": "Negative Sentiment",
-    "scaleType": "scaleLinear",
-    "scaleColorType": "scaleSequential", 
-    "interpolator": "interpolateRdYlBu",
-    "format": ".2f",
+    "ticks": 7,
     "baseDomain": [0, 0],
-    "fixedDomain": [0, 0.5],
+    "fixedDomain": [-0.5, 0.5],
     "lastPlus": true
   }
 ]

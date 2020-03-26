@@ -28,10 +28,11 @@
       <DateSlider />
     </div>
     <div class="py-1">
-      <v-card-actions class="pa-0">
+      <v-card-actions class="pa-0 justify-center">
         <LegendChart
           :mapVariable="mapVariable"
           :domain="mapVariableDomains[dateIndex]"
+          :width="legendWidth"
         />
       </v-card-actions>
 
@@ -92,6 +93,7 @@ export default {
   data () {
     return {
       chartSize: null,
+      legendWidth: null,
 
       mapDicts,
 
@@ -144,7 +146,7 @@ export default {
     },
     fnsScale () {
       return this.mapVariableDomains
-        .map(domain => d3scale[this.mapVariable.scaleType]().domain(domain))
+        .map(domain => d3scale[this.mapVariable.scaleType]().clamp(true).domain(domain))
     },
     interpolator () {
       return d3scaleChromatic[this.mapVariable.interpolator]
@@ -182,8 +184,8 @@ export default {
       return this.fnsColor.map((fnColor, i) =>
         this.locations.reduce((mapping, l) => ({
           ...mapping,
-          [l.locationId]: Array.isArray(this.mapData[l.locationId])
-            ? fnColor(this.mapData[l.locationId][i])
+          [l.locationId]: Array.isArray(this.mapData[l.locationId]) &&
+           this.mapData[l.locationId] !== null ? fnColor(this.mapData[l.locationId][i])
             : GREY
         }), {}))
     },
@@ -206,7 +208,6 @@ export default {
   },
   methods: {
     fetchData () {
-      console.log(this.mapVariableId)
       fetch(`/assets/map_dicts/${this.mapVariableId}.json`)
         .then(res => res.json())
         .then(data => {
@@ -230,6 +231,7 @@ export default {
         width: this.$el.clientWidth,
         height: this.getChartHeight()
       }
+      this.legendWidth = this.$el.clientWidth < 500 ? this.$el.clientWidth : 500
     }
   }
 }

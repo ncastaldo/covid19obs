@@ -55,7 +55,7 @@ const headers = [
   {
     value: 'title',
     text: 'Title [if available]',
-    width: 200
+    width: 300
   }
 ]
 
