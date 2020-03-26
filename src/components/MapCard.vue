@@ -28,7 +28,14 @@
       <DateSlider />
     </div>
     <div class="py-1">
-      <span
+      <v-card-actions class="pa-0">
+        <LegendChart
+          :mapVariable="mapVariable"
+          :domain="mapVariableDomains[dateIndex]"
+        />
+      </v-card-actions>
+
+      <!--span
         v-for="lc in legendColors"
         :key="lc.color"
         style="display: inline-block"
@@ -41,7 +48,7 @@
           mdi-square
         </v-icon>
         {{ lc.label }}
-      </span>
+      </span-->
     </div>
     <v-card-actions class="pa-0">
       <MapChart
@@ -55,10 +62,12 @@
 
 <script>
 import DateSlider from './DateSlider'
+
+import LegendChart from './LegendChart'
 import MapChart from './MapChart'
 
-import { scaleLog, scaleLinear, scaleSymlog } from 'd3-scale'
-import { interpolateYlGnBu as interpolate } from 'd3-scale-chromatic'
+import * as d3scale from 'd3-scale'
+import * as d3scaleChromatic from 'd3-scale-chromatic'
 
 import { format } from 'd3-format'
 import { mapGetters } from 'vuex'
@@ -67,14 +76,8 @@ import resize from 'vue-resize-directive'
 
 import mapDicts from '../assets/mapDicts'
 
-const scaleTypes = {
-  scaleLinear: scaleLinear(),
-  scaleLog: scaleLog(),
-  scaleSymlog: scaleSymlog()
-}
-
 const GREY = '#666'
-const LEGEND = 4
+// const LEGEND = 4
 
 export default {
   name: 'MapCard',
@@ -82,6 +85,7 @@ export default {
     resize
   },
   components: {
+    LegendChart,
     MapChart,
     DateSlider
   },
@@ -140,8 +144,12 @@ export default {
     },
     fnsScale () {
       return this.mapVariableDomains
-        .map(domain => scaleTypes[this.mapVariable.scaleType].copy().clamp(true).domain(domain))
+        .map(domain => d3scale[this.mapVariable.scaleType]().domain(domain))
     },
+    interpolator () {
+      return d3scaleChromatic[this.mapVariable.interpolator]
+    },
+    /*
     legendsColors () {
       return this.fnsScale.map(fnScale => [
         { color: GREY, label: 'No data' },
@@ -162,9 +170,13 @@ export default {
       return this.dateIndex !== null
         ? this.legendsColors[this.dateIndex]
         : []
-    },
+    }, */
     fnsColor () {
-      return this.fnsScale.map(fnScale => d => interpolate(fnScale(d)))
+      return this.mapVariableDomains.map(domain =>
+        d3scale[this.mapVariable.scaleColorType]()
+          .domain(domain)
+          .interpolator(this.interpolator)
+      )
     },
     colorMappings () {
       return this.fnsColor.map((fnColor, i) =>
