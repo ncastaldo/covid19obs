@@ -5,7 +5,7 @@
       align="center"
     >
       <div class="title font-weight-light ml-2 px-2">
-        Global status:
+        Global tweets statistics:
       </div>
       <v-card
         v-for="l in labels"

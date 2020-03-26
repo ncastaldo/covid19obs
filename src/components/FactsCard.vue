@@ -8,6 +8,7 @@
       calculate-widths
       :headers="headers"
       :items="factTable"
+      disable-sort
       mobile-breakpoint="0"
       :items-per-page="5"
       :footer-props="{
@@ -15,11 +16,18 @@
       }"
       @mouseover:row="onMouseover"
     >
-      <template v-slot:item.url="{ item }">
-        <span><a
-          :href="item.url"
-          target="_blank"
-        >Link</a></span>
+      <template v-slot:item.title="{ item }">
+        <span class="pr-1">
+          {{ item.title }}
+        </span>
+        <span>
+          <a
+            :href="item.url"
+            target="_blank"
+          >
+            Link
+          </a>
+        </span>
       </template>
     </v-data-table>
   </v-card>
@@ -45,11 +53,6 @@ const headers = [
     width: 100
   },
   {
-    value: 'url',
-    text: 'Link',
-    width: 80
-  },
-  {
     value: 'title',
     text: 'Title [if available]',
     width: 200
@@ -69,7 +72,7 @@ export default {
   },
   methods: {
     onMouseover (e) {
-      console.log(e)
+      console.log('a', e)
     }
   }
 }
