@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,36,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-2,CLICKBAIT,30,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,CLICKBAIT,20,soompi.com,BTS’s Fans ARMY Donate Refunds From Concert Cancelation To Help Coronavirus Prevention,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
-4,CLICKBAIT,17,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-5,POLITICAL,17,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-6,POLITICAL,14,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-7,FAKE/HOAX,13,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-8,CLICKBAIT,13,entertain.v.daum.net,,http://entertain.v.daum.net/v/20200219144008670sbs
-9,POLITICAL,11,rappler.com,World,http://rappler.com/world
-10,SATIRE,11,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-11,POLITICAL,11,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-12,CLICKBAIT,11,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-13,CLICKBAIT,10,allkpop.com,"BTS’s V Shows Concern, Urges Fans To Be Careful Of The Coronavirus.",https://www.allkpop.com/article/2020/01/btss-v-shows-concerns-urges-fans-to-be-careful-of-the-coronavirus
-14,FAKE/HOAX,10,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
-15,POLITICAL,10,bfmtv.com,Coronavirus: le chef de l'ONU appelle tous les pays à « redoubler d'efforts immédiatement,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-italie-chine-carte-symptomes-mort-cas-psg-dortmund-huis-clos-paris-oise-morbihan-lyon/
-16,POLITICAL,9,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
-17,POLITICAL,9,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-18,CLICKBAIT,8,allkpop.com,NCT Dream and SF9 fans demand their labels take action to keep artists out of China due to the coronavirus,https://www.allkpop.com/article/2020/01/nct-dream-and-sf9-fans-demand-their-labels-take-action-to-keep-artists-out-of-china-due-to-the-coronavirus
-19,CLICKBAIT,8,soompi.com,Staff Member Of Popular Singer Reportedly Tests Positive For Novel Coronavirus,https://www.soompi.com/article/1385621wpp/staff-member-of-popular-singer-reportedly-tests-positive-for-novel-coronavirus
-20,POLITICAL,7,telegraph.co.uk,Quick burials and lack of tests raise fears coronavirus outbreak is much bigger than China admits,https://www.telegraph.co.uk/news/2020/01/25/quick-burials-lack-tests-raise-fears-cornavirus-outbreak-much/
+1,FAKE/HOAX,13,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+2,FAKE/HOAX,10,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+3,CONSPIRACY/JUNKSCI,7,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+4,CONSPIRACY/JUNKSCI,6,infowars.com,Shock Videos Reveal Chinese Collapsing on City Streets As Coronavirus Spreads,https://www.infowars.com/shock-videos-reveal-chinese-collapsing-on-city-streets-as-coronavirus-spreads
+5,CONSPIRACY/JUNKSCI,6,infowars.com,"Watch Live: Owen Shroyer Released From Jail, China Claims to Cure Coronavirus, and Trump Marches for Life",https://www.infowars.com/watch-live-coronavirus-a-manufactured-crisis
+6,CONSPIRACY/JUNKSCI,6,infowars.com,Bill and Melinda Gates Foundation & Others Predicted Up To 65 Million Deaths Via Coronavirus – In Simulation Ran 3 Months Ago!,https://www.infowars.com/bill-and-melinda-gates-foundation-others-predicted-up-to-65-million-deaths-via-coronavirus-in-simulation-ran-3-months-ago
+7,CONSPIRACY/JUNKSCI,6,infowars.com,"UK Researcher Predicts Over 250,000 Chinese Will Have Coronavirus In Ten Days",https://www.infowars.com/uk-researcher-predicts-over-250000-chinese-will-have-coronavirus-in-ten-days
+8,CONSPIRACY/JUNKSCI,6,infowars.com,Are You Prepared For A Global Pandemic?,https://www.infowars.com/coronavirus-update-44000-infected
+9,CONSPIRACY/JUNKSCI,6,infowars.com,Inflation-Driven Bubble Set to Pop – Even Without Coronavirus Panic,https://www.infowars.com/inflation-driven-bubble-set-to-pop-even-without-coronavirus-panic
+10,CONSPIRACY/JUNKSCI,6,infowars.com,Coronavirus: Chinese Espionage Behind Wuhan Bioweapon,https://www.infowars.com/coronavirus-chinese-espionage-behind-wuhan-bioweapon
+11,CONSPIRACY/JUNKSCI,6,infowars.com,Report: Woman in China Shot Dead For Attempting to Break Through Coronavirus Roadblock,https://www.infowars.com/report-woman-in-china-shot-dead-for-attempting-to-break-through-coronavirus-roadblock
+12,CONSPIRACY/JUNKSCI,6,infowars.com,Bioweapons Expert Delivers Urgent Message to Trump on Coronavirus Outbreak,https://www.infowars.com/bioweapons-expert-delivers-urgent-message-to-trump-on-coronavirus-outbreak
+13,CONSPIRACY/JUNKSCI,6,infowars.com,Breaking! Trump Calls For Investigation Of Coronavirus’ Origin,https://www.infowars.com/breaking-trump-calls-for-investigation-of-coronavirus-origin
+14,CONSPIRACY/JUNKSCI,6,infowars.com,"Cruise Liner Reports 66 New Coronavirus Infections, Bringing Total to 136",https://www.infowars.com/cruise-liner-reports-66-new-coronavirus-infections-bringing-total-to-136
+15,CONSPIRACY/JUNKSCI,6,infowars.com,Here Are 425 Million Reasons Why WHO Refuses To Call The Covid-19 Outbreak A Pandemic,https://www.infowars.com/here-are-425-million-reasons-why-who-refuses-to-call-the-covid-19-outbreak-a-pandemic
+16,CONSPIRACY/JUNKSCI,6,infowars.com,Sunday Live: NIH Confirms Community Outbreaks Of Coronavirus In U.S.,https://www.infowars.com/sunday-live-democrats-in-overdrive-to-blame-trump-for-coronavirus-following-first-death-in-u-s
+17,CONSPIRACY/JUNKSCI,6,infowars.com,"Sunday Live: U.S. Secretly Preparing Mass Quarantines, Shutdown Of U.S. Cities",https://www.infowars.com/sunday-live-hospitals-ready-doomsday-scenario-as-coronavirus-outbreak-spreads-nationwide
+18,FAKE/HOAX,5,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
+19,CONSPIRACY/JUNKSCI,5,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+20,FAKE/HOAX,4,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html

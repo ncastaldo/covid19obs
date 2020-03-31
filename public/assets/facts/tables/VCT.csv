@@ -1,21 +1,19 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,5,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-2,POLITICAL,2,dailykos.com,"Wuhan Coronavirus - An Update, Prognosis and Projections",https://www.dailykos.com/story/2020/1/25/1913998/-wuhan-coronavirus-an-update-and-its-prognosis
-3,POLITICAL,2,vox.com,Trump’s flailing incompetence makes coronavirus even scarier,https://www.vox.com/2020/2/25/21150574/trump-coronavirus-cdc-cuts
-4,POLITICAL,2,rawstory.com,,https://www.rawstory.com/2020/02/trump-isnt-managing-the-coronavirus-crisis-or-anything-else-he-just-spent-an-hour-in-the-white-house-with-diamond-silk/
-5,POLITICAL,2,msnbc.com,"Trump dissembling, mixed messages hurt U.S. coronavirus response",https://www.msnbc.com/rachel-maddow/watch/trump-dissembling-mixed-messages-hurt-u-s-coronavirus-response-79588421960
-6,POLITICAL,2,rawstory.com,,https://www.rawstory.com/2020/02/trump-directing-his-coronavirus-task-force-to-launch-attacks-on-democrats-to-avoid-blame-report/
-7,FAKE/HOAX,2,politicususa.com,,https://www.politicususa.com/2020/03/04/pelosi-humiliates-trump-with-coronavirus-response-bill.html
-8,POLITICAL,2,msnbc.com,Why it's not a time for Trump's hunches on coronavirus,https://www.msnbc.com/morning-joe/watch/why-it-s-not-a-time-for-trump-s-hunches-on-coronavirus-80053317632
-9,CLICKBAIT,2,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-10,POLITICAL,2,dailykos.com,"Conservatives furious that CPAC has been giving VIPs, and only VIPs, personal coronavirus updates",https://www.dailykos.com/story/2020/3/10/1926224/-conservatives-furious-that-cpac-has-been-giving-vips-and-only-vips-personal-coronavirus-updates
-11,POLITICAL,2,rawstory.com,Here’s how the Kushner family is cashing in on the coronavirus,https://www.rawstory.com/2020/03/heres-how-the-kushner-family-is-cashing-in-on-the-coronavirus/
-12,FAKE/HOAX,1,summit.news,Professor Warns New Coronavirus Has Same Kill Rate as the Spanish Flu,https://summit.news/2020/01/22/professor-warns-new-coronavirus-has-same-kill-rate-as-the-spanish-flu/
-13,POLITICAL,1,dailycaller.com,CDC Confirms Wuhan Coronavirus Case In Chicago As China Locks Down Travel In More Cities,https://dailycaller.com/2020/01/24/cdc-wuhan-coronavirus-travel/
-14,POLITICAL,1,foxnews.com,"Ohio customs agents seize 3,700 'invasive' mitten crabs hidden in shipments from China, Hong Kong: officials",https://www.foxnews.com/us/ohio-customs-agents-seize-3700-invasive-mitten-crabs-hidden-in-shipments-from-china-hong-kong-officials
-15,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36oskni
-16,POLITICAL,1,thepostmillennial.com,WATCH: Chinese woman eats bat in midst of coronavirus outbreak,https://www.thepostmillennial.com/watch-chinese-woman-eats-bat-in-midst-of-coronavirus-outbrake/
-17,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2uy6goo
-18,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38k29hj
-19,POLITICAL,1,mol.im,China spent crucial few days of coronavirus outbreak ARRESTING people,https://mol.im/a/7924241
-20,SATIRE,1,thebeaverton.com,Man worried about coronavirus still hasn’t gotten flu shot,https://www.thebeaverton.com/2020/01/man-worried-about-coronavirus-still-hasnt-gotten-flu-shot/
+1,FAKE/HOAX,2,politicususa.com,,https://www.politicususa.com/2020/03/04/pelosi-humiliates-trump-with-coronavirus-response-bill.html
+2,FAKE/HOAX,1,summit.news,Professor Warns New Coronavirus Has Same Kill Rate as the Spanish Flu,https://summit.news/2020/01/22/professor-warns-new-coronavirus-has-same-kill-rate-as-the-spanish-flu/
+3,CONSPIRACY/JUNKSCI,1,zerohedge.com,Number Of Coronavirus Cases Surpasses SARS As China Holds 60k Under 'Observation',https://www.zerohedge.com/geopolitical/china-curbs-travel-hong-kong-sends-6000-medics-hubei-death-toll-soars
+4,FAKE/HOAX,1,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+5,FAKE/HOAX,1,waynedupree.com,"[VIDEO] Warren Shunned and Dissed in New Hampshire Diner, ""I'm From Massachusetts, I know Allllll About YOU!""",https://www.waynedupree.com/liz-warren-new-hampshire-diner/
+6,FAKE/HOAX,1,davidharrisjr.com,State Department Employee in Japan Ignored President Trump’s Orders and Allowed Americans with Coronavirus to Fly Back to the US,https://davidharrisjr.com/steven/state-department-employee-in-japan-ignored-president-trumps-orders-and-allowed-americans-with-coronavirus-to-fly-back-to-the-us/
+7,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Schiff: ""US Is In A Gigantic Bubble... & Covid-19 Is Going To Be The Pin""",https://www.zerohedge.com/markets/schiff-us-gigantic-bubble-covid-19-going-be-pin
+8,FAKE/HOAX,1,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+9,FAKE/HOAX,1,politicalflare.com,CDC Takes Responsibility for Dementia Donnie's Huge Mistake Identifying First Coronavirus as a Woman,https://www.politicalflare.com/2020/02/cdc-takes-responsibility-for-dementia-donnies-huge-mistake-identifying-first-coronavirus-as-a-woman/
+10,FAKE/HOAX,1,politicususa.com,,https://www.politicususa.com/2020/02/27/trump-and-pence-launch-propaganda-war-to-muzzle-health-officials-on-coronavirus.html
+11,FAKE/HOAX,1,davidharrisjr.com,Secret Service Notified After Dem Government Official Stands Behind Idea To Attack Trump Supporters With Coronavirus,https://davidharrisjr.com/carmine/secret-service-notified-after-democrat-government-official-stands-behind-idea-to-disgustingly-attack-president-donald-trumps-supporters-with-the-deadly-coronavirus/
+12,FAKE/HOAX,1,politicususa.com,,https://www.politicususa.com/2020/03/09/white-house-coronavirus-safety-precautions.html
+13,FAKE/HOAX,1,redstate.com,WATCH: MSNBC Host Nicole Wallace Hopes Coronavirus Tanks Trump’s Presidency,https://www.redstate.com/jeffc/2020/03/09/795886/?utm_source=twitter&utm_medium=social&utm_term=795886&utm_content=0&utm_campaign=postpromoterpro
+14,FAKE/HOAX,1,politicususa.com,,https://www.politicususa.com/2020/03/09/trump-walks-away-from-reporters-after-they-ask-him-if-testred-for-coronavirus.html
+15,CONSPIRACY/JUNKSCI,1,zerohedge.com,Illinois Mayor Grants Herself Power To Ban Gun Sales And Alcohol During Coronavirus Epidemic,https://www.zerohedge.com/political/illinois-mayor-grants-herself-power-ban-gun-sales-and-alcohol-during-coronavirus-epidemic
+16,FAKE/HOAX,1,thenationalpulse.com,,https://thenationalpulse.com/editor/chinese-bots-flood-twitter-virus-theories/
+17,FAKE/HOAX,1,dailymail.co.uk,Videos show Iranians LICKING holy shrines despite coronavirus outbreak,https://www.dailymail.co.uk/news/article-8063267/videos-iranians-licking-holy-shrines-despite-coronavirus-outbreak.html
+18,FAKE/HOAX,1,politicususa.com,,https://www.politicususa.com/2020/03/27/trump-michigan-coronavirus-supplies.html

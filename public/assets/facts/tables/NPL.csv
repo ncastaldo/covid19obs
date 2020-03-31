@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,25,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,24,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-3,POLITICAL,14,rappler.com,World,http://rappler.com/world
-4,CLICKBAIT,13,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-5,CLICKBAIT,13,soompi.com,BTS’s Fans ARMY Donate Refunds From Concert Cancelation To Help Coronavirus Prevention,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
-6,CLICKBAIT,10,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-7,CLICKBAIT,9,entertain.v.daum.net,,http://entertain.v.daum.net/v/20200219144008670sbs
-8,POLITICAL,9,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-9,CLICKBAIT,9,entertain.v.daum.net,BTS 슈가 1억 기부에 팬들 성금만 5억..'선한 영향력' 시너지,https://entertain.v.daum.net/v/20200305112918512
-10,POLITICAL,8,xhne.ws,,http://xhne.ws/ttln6
-11,CLICKBAIT,8,entertain.v.daum.net,대구시 코로나19 우려 속 대규모 K-POP 콘서트 강행,http://entertain.v.daum.net/v/20200214152739620
-12,CLICKBAIT,8,koreaboo.com,MNH Entertainment Confirms 2 Of Chungha's Staff Have Corona19 (COVID-19),https://www.koreaboo.com/news/mnh-entertainment-confirms-2-chungha-staff-corona19-covid-19/
-13,POLITICAL,7,telegraph.co.uk,"Dirty banknotes may be spreading the coronavirus, WHO suggests",https://www.telegraph.co.uk/news/2020/03/02/exclusive-dirty-banknotes-may-spreading-coronavirus-world-health/
-14,POLITICAL,7,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-15,POLITICAL,6,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2sqtrub
-16,CLICKBAIT,6,allkpop.com,"BTS’s V Shows Concern, Urges Fans To Be Careful Of The Coronavirus.",https://www.allkpop.com/article/2020/01/btss-v-shows-concerns-urges-fans-to-be-careful-of-the-coronavirus
-17,CLICKBAIT,6,koreaboo.com,Baekhyun Praised For His Adorable Yet Smart Methods To Preventing The Coronavirus,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
-18,SATIRE,6,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-19,FAKE/HOAX,5,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-20,POLITICAL,5,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38mjl1d
+1,FAKE/HOAX,6,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+2,CONSPIRACY/JUNKSCI,5,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+3,FAKE/HOAX,5,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+4,FAKE/HOAX,4,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+5,FAKE/HOAX,4,dailymail.co.uk,Man who travelled to Nepal is Spain's first coronavirus death,https://www.dailymail.co.uk/news/article-8071139/spains-coronavirus-death-man-travelled-nepal-died-virus-month.html
+6,FAKE/HOAX,4,dailymail.co.uk,The Pope says he has asked God to stop the coronavirus epidemic,https://www.dailymail.co.uk/news/article-8125507/the-pope-says-asked-god-stop-coronavirus-epidemic.html
+7,CONSPIRACY/JUNKSCI,3,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+8,FAKE/HOAX,3,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/china-deploys-40-incinerators-wuhan-21529067
+9,FAKE/HOAX,3,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
+10,CONSPIRACY/JUNKSCI,3,globalresearch.ca,China's Coronavirus: A Shocking Update. Did The Virus Originate in the US? - Global Research,https://www.globalresearch.ca/china-coronavirus-shocking-update/5705196
+11,CONSPIRACY/JUNKSCI,3,neonnettle.com,Sheriff Clarke: George Soros is 'Involved' in Coronavirus Outbreak 'Panic',https://neonnettle.com/news/10643-sheriff-clarke-george-soros-is-involved-in-coronavirus-outbreak-panic-
+12,FAKE/HOAX,2,summit.news,Professor Warns New Coronavirus Has Same Kill Rate as the Spanish Flu,https://summit.news/2020/01/22/professor-warns-new-coronavirus-has-same-kill-rate-as-the-spanish-flu/
+13,CONSPIRACY/JUNKSCI,2,zerohedge.com,China Quarantines City Of 11 Million As Hong Kong Confirms Second Case Of Coronavirus,https://www.zerohedge.com/geopolitical/coronavirus-infections-climb-473-china-hong-kong-confirms-first-case
+14,FAKE/HOAX,2,rt.com,IMAGES of Chinese quarantine flood social media amid coronavirus outbreak,https://on.rt.com/a9le
+15,FAKE/HOAX,2,rt.com,Singapore confirms first case of deadly Chinese coronavirus – reports,https://on.rt.com/a9lf
+16,FAKE/HOAX,2,rt.com,Dozens of Indian students TRAPPED in Wuhan as China scrambles to stop spread of deadly coronavirus,https://on.rt.com/a9mm
+17,CONSPIRACY/JUNKSCI,2,zerohedge.com,Coronavirus Pandemic Simulation Run 3 Months Ago Predicts 65 Million People Could Die,https://www.zerohedge.com/health/coronavirus-pandemic-simulation-run-3-months-ago-predicts-65-million-people-could-die
+18,FAKE/HOAX,2,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/amp/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html?__twitter_impression=true
+19,FAKE/HOAX,2,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+20,FAKE/HOAX,2,rt.com,US orders charter flight to evacuate citizens and diplomats from virus-stricken Wuhan — report,https://on.rt.com/a9qm

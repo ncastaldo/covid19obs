@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,2322,rappler.com,World,http://rappler.com/world
-2,POLITICAL,746,rappler.com,Philippines confirms 1st case of novel coronavirus,https://www.rappler.com/nation/186633-philippines-confirms-case-novel-coronavirus?utm_medium=social&utm_source=twitter#echobox=1580371766
-3,POLITICAL,745,rappler.com,"Filipinos slam gov't, demand China travel ban amid 1st coronavirus case in PH",https://www.rappler.com/nation/250603-netizens-reaction-philippines-coronavirus-case-china-travel-ban?utm_medium=social&utm_source=twitter#echobox=1580387415
-4,POLITICAL,446,telegraph.co.uk,,https://www.telegraph.co.uk/news/2020/01/28/denmark-refuses-apologise-china-coronavirus-cartoon/amp/
-5,POLITICAL,445,cnn.it,The many faces of health workers around the globe fighting coronavirus,https://cnn.it/3bnui97
-6,CLICKBAIT,387,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-7,POLITICAL,304,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-8,POLITICAL,298,rappler.com,Coronavirus mass testing not needed for now – DOH,http://www.rappler.com/nation/255260-no-mass-testing-needed-for-now-doh
-9,POLITICAL,263,rappler.com,Germany to fly in Filipino nurses to care for their coronavirus patients – report,https://www.rappler.com/nation/255388-germany-hesse-filipino-nurses-coronavirus-patients-covid-19
-10,CLICKBAIT,242,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-11,CLICKBAIT,167,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-12,POLITICAL,166,change.org,Sign the Petition,https://www.change.org/p/president-rodrigo-duterte-covid-19-mass-testing-in-ph-now-our-demand-to-the-duterte-government?utm_content=cl_sharecopy_20881536_en-us%3av3&recruiter=1059042669&recruited_by_id=fb583da0-6c02-11ea-be80-3b8107ed50d4&utm_source=share_petition&utm_medium=copylink&utm_campaign=psf_combo_share_abi
-13,CLICKBAIT,164,koreaboo.com,BLACKPINK's March Comeback Has Reportedly Been Postponed Due To Coronavirus,https://www.koreaboo.com/news/blackpinks-march-comeback-reportedly-postponed-due-coronavirus-covid-19/
-14,CLICKBAIT,159,koreaboo.com,MNH Entertainment Confirms 2 Of Chungha's Staff Have Corona19 (COVID-19),https://www.koreaboo.com/news/mnh-entertainment-confirms-2-chungha-staff-corona19-covid-19/
-15,CLICKBAIT,148,koreaboo.com,Baekhyun Praised For His Adorable Yet Smart Methods To Preventing The Coronavirus,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
-16,CLICKBAIT,132,soompi.com,BTS’s Fans ARMY Donate Refunds From Concert Cancelation To Help Coronavirus Prevention,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
-17,CLICKBAIT,120,soompi.com,Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380150wpp/events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-18,CLICKBAIT,115,soompi.com,Chungha Donates Masks For Coronavirus Prevention To Children In Need On Her Birthday,https://www.soompi.com/article/1382066wpp/chungha-donates-masks-for-coronavirus-prevention-to-children-in-need-on-her-birthday
-19,POLITICAL,114,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-20,CLICKBAIT,109,entertain.v.daum.net,,http://entertain.v.daum.net/v/20200219144008670sbs
+1,FAKE/HOAX,111,dailymail.co.uk,"Italian grandmother, 95, recovers from coronavirus",https://www.dailymail.co.uk/news/article-8140609/italian-grandmother-95-recovers-coronavirus.html?ito=amp_twitter_share-top
+2,FAKE/HOAX,67,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+3,FAKE/HOAX,46,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+4,FAKE/HOAX,45,dailymail.co.uk,"Italian grandmother, 95, recovers from coronavirus",https://www.dailymail.co.uk/news/article-8140609/italian-grandmother-95-recovers-coronavirus.html
+5,CONSPIRACY/JUNKSCI,41,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+6,FAKE/HOAX,37,n.news.naver.com,"‘또또또 선행’ 위너 김진우, 코로나19에 1천만원 기부(공식)",https://n.news.naver.com/entertain/article/609/0000253852
+7,CONSPIRACY/JUNKSCI,33,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+8,FAKE/HOAX,29,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+9,FAKE/HOAX,28,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+10,FAKE/HOAX,27,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+11,FAKE/HOAX,27,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+12,CONSPIRACY/JUNKSCI,26,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+13,FAKE/HOAX,26,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
+14,CONSPIRACY/JUNKSCI,25,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+15,FAKE/HOAX,21,express.co.uk,‘She’s a TIMEBOMB’ Chinese woman hides Coronavirus to enter France - and brags online,https://www.express.co.uk/news/world/1231898/coronavirus-latest-chinese-woman-france-sneaked-in-infected-corona-virus-wuhan-weibo
+16,FAKE/HOAX,21,n.news.naver.com,"슈퍼주니어, 신종 코로나바이러스 예방 위해 마스크 1만개 기부(공식)",https://n.news.naver.com/entertain/article/609/0000239850
+17,FAKE/HOAX,21,n.news.naver.com,"[단독] 슈퍼주니어 은혁, 코로나19 성금 1억 원 기부 ""의료진에 도움되길""",https://n.news.naver.com/entertain/article/052/0001407888
+18,FAKE/HOAX,20,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+19,FAKE/HOAX,15,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/amp/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html?__twitter_impression=true
+20,FAKE/HOAX,14,dailymail.co.uk,Thailand admits it is 'unable to stop the spread' of the coronavirus,https://www.dailymail.co.uk/health/article-7938887/thailand-admits-unable-stop-spread-chinas-deadly-coronavirus.html

@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,27,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,17,rappler.com,World,http://rappler.com/world
-3,POLITICAL,8,thedailybeast.com,QAnon-ers’ Magic Cure for Coronavirus: Just Drink Bleach!,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
-4,CONSPIRACY/JUNKSCI,7,naturalnews.com,NaturalNews.com,http://naturalnews.com
-5,POLITICAL,7,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-6,POLITICAL,7,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-7,POLITICAL,7,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-8,CONSPIRACY/JUNKSCI,6,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-9,POLITICAL,6,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
-10,POLITICAL,5,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-11,POLITICAL,5,eldiario.es,Pedir comida a domicilio: 5 prevenciones para evitar infectarnos por coronavirus,https://www.eldiario.es/consumoclaro/comer/pedir-comida-domicilio-confinamiento-covid19-precauciones_0_1006850334.html
-12,FAKE/HOAX,4,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
-13,POLITICAL,4,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vtuxnv
-14,SATIRE,4,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-15,POLITICAL,4,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2uqbf9j
-16,POLITICAL,4,eldiario.es,"Madrid confirma 16 fallecidos y 469 casos de coronavirus, el doble que hace 24 horas",https://www.eldiario.es/sociedad/ultima-hora-coronavirus-mundo-espana_13_1000679924_39995.html
-17,FAKE/HOAX,4,rt.com,"Bless me father, for I may be DRUNK! Russian church will DOUBLE communion wine servings to kill coronavirus",https://on.rt.com/acxi
-18,FAKE/HOAX,3,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
-19,POLITICAL,3,eldiario.es,Gran Bretaña confirma sus dos primeros casos de infectados por coronavirus,https://www.eldiario.es/sociedad/gran-bretana-confirma-infectados-coronavirus_0_990751053.html
-20,CONSPIRACY/JUNKSCI,3,zerohedge.com,White House Asks Scientists To Investigate Whether 2019-nCoV Was Bio-Engineered,https://www.zerohedge.com/health/white-house-asks-scientists-investigate-whether-2019-ncov-was-bio-engineered
+1,CONSPIRACY/JUNKSCI,7,naturalnews.com,NaturalNews.com,http://naturalnews.com
+2,CONSPIRACY/JUNKSCI,6,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+3,FAKE/HOAX,4,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+4,FAKE/HOAX,4,rt.com,"Bless me father, for I may be DRUNK! Russian church will DOUBLE communion wine servings to kill coronavirus",https://on.rt.com/acxi
+5,FAKE/HOAX,3,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+6,CONSPIRACY/JUNKSCI,3,zerohedge.com,White House Asks Scientists To Investigate Whether 2019-nCoV Was Bio-Engineered,https://www.zerohedge.com/health/white-house-asks-scientists-investigate-whether-2019-ncov-was-bio-engineered
+7,FAKE/HOAX,3,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+8,CONSPIRACY/JUNKSCI,3,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+9,FAKE/HOAX,3,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+10,FAKE/HOAX,3,breitbart.com,Chloroquine Known as Effective Against Coronavirus Since 2005,https://www.breitbart.com/politics/2020/03/19/chloroquine-known-as-effective-against-coronavirus-since-2005/
+11,FAKE/HOAX,2,dailymail.co.uk,Chinese city will 'build a dedicated coronavirus hospital in SIX DAYS',https://www.dailymail.co.uk/news/article-7920937/chinese-city-build-dedicated-coronavirus-hospital-six-days.html
+12,FAKE/HOAX,2,albertonews.com,"""Sería un holocausto de la salud"", FMV alerta que Venezuela no está preparada para afrontar el coronavirus - AlbertoNews - Periodismo sin censura",https://albertonews.com/nacionales/fmv-alerta-que-venezuela-no-esta-preparada-para-afrontar-una-crisis-epidemiologica-como-el-coronavirus/
+13,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
+14,FAKE/HOAX,2,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+15,FAKE/HOAX,2,express.co.uk,Coronavirus cure: Silver solution ‘kills’ deadly infection in 12 hours - shock claim,https://www.express.co.uk/news/world/1242600/coronavirus-cure-news-china-wuhan-silver-solution-vaccine-latest-update
+16,CONSPIRACY/JUNKSCI,2,naturalnews.com,New study says novel coronavirus (CoVid-19) likely has R0 value as high as 6.6,https://www.naturalnews.com/2020-02-17-new-study-novel-coronavirus-r0-value-high.html
+17,FAKE/HOAX,2,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
+18,CONSPIRACY/JUNKSCI,2,zerohedge.com,Merkel Expects 60-70% Of Germans To Be Infected With Coronavirus,https://www.zerohedge.com/health/merkel-expects-60-70-germans-be-infected-coronavirus
+19,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/ultima-hora/ultima-hora-maduro-pide-credito-de-5-mil-millones-de-dolares-al-fmi-para-enfrentar-la-pandemia-del-coronavirus/
+20,CONSPIRACY/JUNKSCI,1,zerohedge.com,China Quarantines City Of 11 Million As Hong Kong Confirms Second Case Of Coronavirus,https://www.zerohedge.com/geopolitical/coronavirus-infections-climb-473-china-hong-kong-confirms-first-case

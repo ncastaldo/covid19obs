@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,182,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,68,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-3,CONSPIRACY/JUNKSCI,35,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-4,POLITICAL,24,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-5,POLITICAL,17,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-6,CLICKBAIT,14,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-7,FAKE/HOAX,12,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-8,POLITICAL,12,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-9,POLITICAL,12,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-10,POLITICAL,12,cnn.com,Is coronavirus Donald Trump's Katrina?,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
-11,POLITICAL,11,bfmtv.com,Coronavirus: les Hôpitaux de Paris lancent un appel aux dons sur Facebook,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
-12,POLITICAL,10,today.ng,"CDC: To be safe from coronavirus, shave your beard - TODAY",https://www.today.ng/i/207948
-13,POLITICAL,10,vox.com,Mark Zuckerberg and Bill Gates are stepping in on the coronavirus where the government has failed,https://www.vox.com/recode/2020/3/10/21173864/mark-zuckerberg-bill-gates-coronavirus-billionaire-philanthropy?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter
-14,POLITICAL,9,bfmtv.com,Coronavirus: les ventes de La Peste de Camus bondissent,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
-15,POLITICAL,8,rappler.com,World,http://rappler.com/world
-16,CONSPIRACY/JUNKSCI,8,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-17,POLITICAL,8,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-18,CLICKBAIT,8,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-19,POLITICAL,8,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-20,CLICKBAIT,7,soompi.com,Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380150wpp/events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
+1,CONSPIRACY/JUNKSCI,37,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+2,FAKE/HOAX,12,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+3,CONSPIRACY/JUNKSCI,8,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+4,FAKE/HOAX,6,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+5,FAKE/HOAX,4,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+6,CONSPIRACY/JUNKSCI,4,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+7,CONSPIRACY/JUNKSCI,4,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+8,FAKE/HOAX,4,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+9,FAKE/HOAX,4,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+10,FAKE/HOAX,3,rt.com,"Dozens of drugs available to treat ‘coronavirus,’ but global pandemic possible by March – Moscow experts",https://www.rt.com/russia/479293-coronavirus-epidemic-possible-march-russia/
+11,FAKE/HOAX,3,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+12,CONSPIRACY/JUNKSCI,3,naturalnews.com,"Bill Gates funded the PIRBRIGHT institute, which owns the patent on coronavirus",https://www.naturalnews.com/2020-01-27-bill-gates-funded-pirbright-institute-owns-coronavirus-patent.html
+13,CONSPIRACY/JUNKSCI,3,aim4truth.org,"Proof the Coronavirus is a bioweapon created by DARPA, Bill Gates, Defra, Wellcome Trust (UK), and European Commission (EU)",https://aim4truth.org/2020/01/28/proof-coronavirus-is-a-bioweapon/
+14,FAKE/HOAX,3,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+15,FAKE/HOAX,2,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
+16,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+17,FAKE/HOAX,2,dailymail.co.uk,Chinese city will 'build a dedicated coronavirus hospital in SIX DAYS',https://www.dailymail.co.uk/news/article-7920937/chinese-city-build-dedicated-coronavirus-hospital-six-days.html
+18,CONSPIRACY/JUNKSCI,2,zerohedge.com,This Is How China Is Hiding The True Number Of Coronavirus Deaths,https://www.zerohedge.com/economics/how-china-hiding-true-number-coronavirus-deaths
+19,FAKE/HOAX,2,rt.com,No more BATS & SNAKES for gourmands: China bans WILDLIFE trade after virus outbreak linked to agricultural producers,https://on.rt.com/a9ra
+20,FAKE/HOAX,2,dailymail.co.uk,China spent crucial few days of coronavirus outbreak ARRESTING people,https://www.dailymail.co.uk/news/article-7924241/china-spent-crucial-days-coronavirus-outbreak-arresting-people.html?ito=social-facebook

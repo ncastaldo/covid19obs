@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,93,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,CLICKBAIT,55,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-3,CLICKBAIT,54,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-4,POLITICAL,46,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-5,CLICKBAIT,40,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-6,CLICKBAIT,30,soompi.com,Chungha Donates Masks For Coronavirus Prevention To Children In Need On Her Birthday,https://www.soompi.com/article/1382066wpp/chungha-donates-masks-for-coronavirus-prevention-to-children-in-need-on-her-birthday
-7,CLICKBAIT,28,entertain.v.daum.net,BTS 슈가 1억 기부에 팬들 성금만 5억..'선한 영향력' 시너지,https://entertain.v.daum.net/v/20200305112918512
-8,POLITICAL,28,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-9,POLITICAL,27,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
-10,CLICKBAIT,21,soompi.com,"Super Junior Donates 10,000 Masks To Children And Youth For Coronavirus Prevention",https://www.soompi.com/article/1380061wpp/super-junior-donates-10000-masks-to-children-and-youth-for-coronavirus-prevention
-11,FAKE/HOAX,19,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
-12,FAKE/HOAX,19,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
-13,CLICKBAIT,19,koreaboo.com,MNH Entertainment Confirms 2 Of Chungha's Staff Have Corona19 (COVID-19),https://www.koreaboo.com/news/mnh-entertainment-confirms-2-chungha-staff-corona19-covid-19/
-14,CLICKBAIT,17,soompi.com,Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380150wpp/events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-15,POLITICAL,17,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-16,CLICKBAIT,17,allkpop.com,Pledis confirms Minhyun tested negative for coronavirus,https://www.allkpop.com/article/2020/03/pledis-confirms-minhyun-tested-negative-for-coronavirus
-17,CLICKBAIT,16,entertain.v.daum.net,"엑소 레이, 코로나19 사태에 2천만원 의미 있는 기부..""우리는 하나"" [단독]",https://entertain.v.daum.net/v/20200228165328313
-18,POLITICAL,15,telegraph.co.uk,Quick burials and lack of tests raise fears coronavirus outbreak is much bigger than China admits,https://www.telegraph.co.uk/news/2020/01/25/quick-burials-lack-tests-raise-fears-cornavirus-outbreak-much/
-19,CLICKBAIT,15,koreaboo.com,Baekhyun Praised For His Adorable Yet Smart Methods To Preventing The Coronavirus,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
-20,CLICKBAIT,14,allkpop.com,NCT Dream and SF9 fans demand their labels take action to keep artists out of China due to the coronavirus,https://www.allkpop.com/article/2020/01/nct-dream-and-sf9-fans-demand-their-labels-take-action-to-keep-artists-out-of-china-due-to-the-coronavirus
+1,FAKE/HOAX,19,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+2,FAKE/HOAX,19,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+3,FAKE/HOAX,11,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+4,CONSPIRACY/JUNKSCI,10,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+5,FAKE/HOAX,10,n.news.naver.com,"[단독] 슈퍼주니어 은혁, 코로나19 성금 1억 원 기부 ""의료진에 도움되길""",https://n.news.naver.com/entertain/article/052/0001407888
+6,CONSPIRACY/JUNKSCI,10,globalresearch.ca,China's Coronavirus: A Shocking Update. Did The Virus Originate in the US? - Global Research,https://www.globalresearch.ca/china-coronavirus-shocking-update/5705196
+7,FAKE/HOAX,9,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+8,CONSPIRACY/JUNKSCI,9,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+9,FAKE/HOAX,8,n.news.naver.com,"슈퍼주니어, 신종 코로나바이러스 예방 위해 마스크 1만개 기부(공식)",https://n.news.naver.com/entertain/article/609/0000239850
+10,CONSPIRACY/JUNKSCI,8,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+11,CONSPIRACY/JUNKSCI,8,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+12,FAKE/HOAX,8,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+13,FAKE/HOAX,8,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
+14,FAKE/HOAX,7,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+15,FAKE/HOAX,7,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+16,FAKE/HOAX,6,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
+17,FAKE/HOAX,6,gnews.org,,https://gnews.org/89749/
+18,FAKE/HOAX,6,dailymail.co.uk,The Pope says he has asked God to stop the coronavirus epidemic,https://www.dailymail.co.uk/news/article-8125507/the-pope-says-asked-god-stop-coronavirus-epidemic.html
+19,FAKE/HOAX,5,express.co.uk,‘She’s a TIMEBOMB’ Chinese woman hides Coronavirus to enter France - and brags online,https://www.express.co.uk/news/world/1231898/coronavirus-latest-chinese-woman-france-sneaked-in-infected-corona-virus-wuhan-weibo
+20,FAKE/HOAX,5,rt.com,Singapore confirms first case of deadly Chinese coronavirus – reports,https://on.rt.com/a9lf

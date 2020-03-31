@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,25,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,14,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-3,POLITICAL,14,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-4,POLITICAL,12,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-5,POLITICAL,12,rollingstone.com,'Everything Is in Chaos': The Concert Business Stands to Lose Billions From Coronavirus,https://www.rollingstone.com/music/music-features/live-music-concerts-coronavirus-risks-losses-965482/
-6,POLITICAL,9,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-7,POLITICAL,7,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-8,CLICKBAIT,6,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
-9,CONSPIRACY/JUNKSCI,6,zerohedge.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon,https://www.zerohedge.com/health/creator-bioweapons-act-says-coronavirus-biological-warfare-weapon
-10,CLICKBAIT,6,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-11,POLITICAL,5,rappler.com,World,http://rappler.com/world
-12,CLICKBAIT,5,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
-13,CLICKBAIT,5,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-14,POLITICAL,5,bfmtv.com,Coronavirus: les ventes de La Peste de Camus bondissent,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
-15,POLITICAL,5,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vid5ry
-16,POLITICAL,4,thepostmillennial.com,Quebec politician praises coronavirus for reducing carbon footprint in Wuhan,https://www.thepostmillennial.com/quebec-politician-praises-coronavirus-for-reducing-carbon-footprint-in-wuhan/
-17,POLITICAL,4,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-18,FAKE/HOAX,4,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-19,FAKE/HOAX,4,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-20,POLITICAL,4,bfmtv.com,"Coronavirus: « Il n'y a pas de sur-risque à aller voter » pour les municipales, assure Olivier Véran",https://www.bfmtv.com/sante/coronavirus-france-cas-carte-symptome-mort-bilan-paris-oise-mulhouse-morbihan-corse-ajaccio-stade-3-ecoles/
+1,CONSPIRACY/JUNKSCI,6,zerohedge.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon,https://www.zerohedge.com/health/creator-bioweapons-act-says-coronavirus-biological-warfare-weapon
+2,CONSPIRACY/JUNKSCI,4,zerohedge.com,"Coronavirus Kills Man In Shanghai As China Confirms Nearly 2,000 Cases",https://www.zerohedge.com/political/56-million-chinese-lockdown-virus-spreads-australia-malaysia
+3,FAKE/HOAX,4,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+4,FAKE/HOAX,4,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+5,FAKE/HOAX,4,tass.com,Russian researchers fully decode COVID-19 genome,https://tass.com/science/1132425
+6,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Latest: Over 2,800 Global Cases Resulting in 80 Fatalities",https://www.zerohedge.com/geopolitical/third-us-coronavirus-case-confirmed-orange-county
+7,FAKE/HOAX,3,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+8,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Global Stocks Crash As Coronavirus Pandemic Infects 3,000; China, Yuan Plummet",https://www.zerohedge.com/markets/global-stocks-crash-coronavirus-pandemic-infects-3000-china-yuan-plummet
+9,FAKE/HOAX,3,gnews.org,,http://gnews.org
+10,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+11,FAKE/HOAX,3,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+12,CONSPIRACY/JUNKSCI,2,zerohedge.com,China Quarantines City Of 11 Million As Hong Kong Confirms Second Case Of Coronavirus,https://www.zerohedge.com/geopolitical/coronavirus-infections-climb-473-china-hong-kong-confirms-first-case
+13,FAKE/HOAX,2,summit.news,Professor Warns New Coronavirus Has Same Kill Rate as the Spanish Flu,https://summit.news/2020/01/22/professor-warns-new-coronavirus-has-same-kill-rate-as-the-spanish-flu/
+14,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+15,CONSPIRACY/JUNKSCI,2,zerohedge.com,"The Real Umbrella Corp: Wuhan Ultra Biohazard Lab Was Studying ""The World's Most Dangerous Pathogens""",https://www.zerohedge.com/economics/real-umbrella-corp-wuhan-ultra-biohazard-lab-was-studying-worlds-most-dangerous-pathogens
+16,FAKE/HOAX,2,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+17,FAKE/HOAX,2,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+18,CONSPIRACY/JUNKSCI,2,zerohedge.com,"2nd Coronavirus Case Confirmed In San Diego As China Sends 2,600 Army ""Medical Staff"" To Wuhan",https://www.zerohedge.com/geopolitical/uk-hospital-admits-worker-who-tested-positive-coronavirus-treated-small-number
+19,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Covid-19 Contagion - An ""Unprecedented"" Moment For Our Hyper-Connected Planet",https://www.zerohedge.com/geopolitical/covid-19-contagion-unprecedented-moment-our-hyper-connected-planet
+20,CONSPIRACY/JUNKSCI,2,zerohedge.com,Hubei Doctors Warn Of Even-Deadlier Coronavirus Reinfection Causing Sudden Heart Attacks,https://www.zerohedge.com/health/hubei-doctors-warn-even-deadlier-coronavirus-reinfection-causing-sudden-heart-attacks

@@ -1,8 +1,2 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rko8i0
-2,POLITICAL,1,eldiario.es,China construye de urgencia un hospital para infectados por el coronavirus que quiere abrir en menos de dos semanas,https://www.eldiario.es/internacional/wuhan-levantar-hospital-infectados-coronavirus_0_988301300.html
-3,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/amp/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html?__twitter_impression=true
-4,CLICKBAIT,1,koreaboo.com,"Lee Si Eon Gets Cussed out for ""Only Donating ~$830 USD"" to the Coronavirus Cause",https://www.koreaboo.com/stories/lee-si-eon-hate-donation-830-usd-coronavirus-covid-19/
-5,CLICKBAIT,1,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-6,POLITICAL,1,oglobo.globo.com,"Coronavírus: novidade no Brasil, implante de chips é aposta da Medicina",https://oglobo.globo.com/sociedade/coronavirus-novidade-no-brasil-implante-de-chips-aposta-da-medicina-24312618?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-7,POLITICAL,1,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+1,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/amp/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html?__twitter_impression=true

@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,21,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,13,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-3,POLITICAL,8,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-4,CONSPIRACY/JUNKSCI,7,voxnews.info,"Coronavirus, Conte rifiuta di ripristinare controlli alle frontiere: “Non serve”",https://voxnews.info/2020/02/24/coronavirus-conte-rifiuta-di-ripristinare-controlli-alle-frontiere-non-serve/
-5,POLITICAL,7,bfmtv.com,Coronavirus: le chef de l'ONU appelle tous les pays à « redoubler d'efforts immédiatement,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-italie-chine-carte-symptomes-mort-cas-psg-dortmund-huis-clos-paris-oise-morbihan-lyon/
-6,POLITICAL,7,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-7,POLITICAL,6,rappler.com,World,http://rappler.com/world
-8,CONSPIRACY/JUNKSCI,5,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
-9,SATIRE,5,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-10,CLICKBAIT,4,soompi.com,BTS’s Fans ARMY Donate Refunds From Concert Cancelation To Help Coronavirus Prevention,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
-11,POLITICAL,4,oglobo.globo.com,É #FAKE que tigela de água com alho recém-fervida cura o coronavírus,https://oglobo.globo.com/fato-ou-fake/e-fake-que-tigela-de-agua-com-alho-recem-fervida-cura-coronavirus-1-24308518?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-12,FAKE/HOAX,3,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-13,CONSPIRACY/JUNKSCI,3,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-14,FAKE/HOAX,3,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
-15,POLITICAL,3,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-16,POLITICAL,3,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-17,POLITICAL,3,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-18,CLICKBAIT,3,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-19,CLICKBAIT,3,entertain.v.daum.net,BTS 슈가 1억 기부에 팬들 성금만 5억..'선한 영향력' 시너지,https://entertain.v.daum.net/v/20200305112918512
-20,POLITICAL,3,fxn.ws,Fox News,https://fxn.ws/32wghm1
+1,CONSPIRACY/JUNKSCI,7,voxnews.info,"Coronavirus, Conte rifiuta di ripristinare controlli alle frontiere: “Non serve”",https://voxnews.info/2020/02/24/coronavirus-conte-rifiuta-di-ripristinare-controlli-alle-frontiere-non-serve/
+2,CONSPIRACY/JUNKSCI,5,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+3,FAKE/HOAX,3,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+4,CONSPIRACY/JUNKSCI,3,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+5,FAKE/HOAX,3,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+6,CONSPIRACY/JUNKSCI,2,zerohedge.com,"There Are ""No Effective Remedies"" For Coronavirus, WHO Says",https://www.zerohedge.com/markets/there-are-no-effective-remedies-coronavirus-who-says
+7,FAKE/HOAX,2,gnews.org,,https://gnews.org/109102/
+8,CONSPIRACY/JUNKSCI,2,voxnews.info,"Coronavirus, decreto governo chiude 10 aree infette: cittadini saranno prigionieri come in Cina",https://voxnews.info/2020/02/23/coronavirus-decreto-governo-chiude-aree-infette-cittadini-saranno-prigionieri-come-in-cina/
+9,CONSPIRACY/JUNKSCI,2,voxnews.info,"Coronavirus, “paziente zero in Lombardia nella comunità cinese”: la soffiata al giornale",https://voxnews.info/2020/02/23/coronavirus-paziente-zero-in-lombardia-nella-comunita-cinese-la-soffiata-al-giornale/
+10,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+11,FAKE/HOAX,1,summit.news,Video Purports to Show Coronavirus Victim Collapsed on the Street in Wuhan,https://summit.news/2020/01/23/video-purports-to-show-coronavirus-victim-collapsed-on-the-street-in-wuhan/
+12,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+13,CONSPIRACY/JUNKSCI,1,nationalfile.com,,https://nationalfile.com/china-live-koalas-wolf-pups-peacocks-and-porcupines-sold-at-market-at-center-of-coronavirus-outbreak/
+14,FAKE/HOAX,1,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
+15,CONSPIRACY/JUNKSCI,1,zerohedge.com,"UK Researcher Predicts Over 250,000 Chinese Will Have Coronavirus In Ten Days",https://www.zerohedge.com/geopolitical/uk-researcher-predicts-over-250000-people-china-will-have-coronavirus-ten-days
+16,CONSPIRACY/JUNKSCI,1,zerohedge.com,"China Virus Cases Almost Double Overnight, Deaths Top 100 As North Korea Closes Border",https://www.zerohedge.com/geopolitical/wuhan-mayor-offers-resign-coronavirus-death-toll-accelerates-supply-shortages
+17,FAKE/HOAX,1,dailymail.co.uk,Deadly coronavirus outbreak DID start at the animal market in Wuhan,https://www.dailymail.co.uk/health/article-7935167/deadly-coronavirus-outbreak-did-start-animal-market-wuhan-tests-confirm.html
+18,FAKE/HOAX,1,rt.com,,https://on.rt.com/a9t0
+19,FAKE/HOAX,1,rt.com,City turned ghost town: Take a look inside sealed-off Wuhan amid coronavirus outbreak in China (VIDEO),https://on.rt.com/a9wi
+20,FAKE/HOAX,1,rt.com,"‘Wuhan, you can do it!’: Quarantined residents sing from their balconies in stirring VIDEOS",https://on.rt.com/a9vh

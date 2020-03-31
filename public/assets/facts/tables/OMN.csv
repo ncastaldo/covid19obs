@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,6,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,5,cnn.it,"Iran coronavirus deaths top 1,000 ",https://cnn.it/3d98qjp
-3,POLITICAL,4,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-4,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-5,POLITICAL,3,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-6,POLITICAL,3,telegraph.co.uk,"Coronavirus has mutated into more aggressive disease, say scientists ",https://www.telegraph.co.uk/science/2020/03/04/coronavirus-has-mutated-aggressive-disease-say-scientists/?utm_content=telegraph&utm_medium=social&utm_campaign=echobox&utm_source=twitter#echobox=1583342350
-7,POLITICAL,2,telegraph.co.uk,Quick burials and lack of tests raise fears coronavirus outbreak is much bigger than China admits,https://www.telegraph.co.uk/news/2020/01/25/quick-burials-lack-tests-raise-fears-cornavirus-outbreak-much/
-8,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tkdokv
-9,POLITICAL,2,cnn.com,American Airlines pilots sue to halt US-China flights amid coronavirus epidemic ,https://www.cnn.com/2020/01/30/business/american-airlines-pilots-coronavirus/index.html
-10,POLITICAL,2,aa.com.tr,Russia orders expulsion of foreigners with coronavirus,https://www.aa.com.tr/en/health/russia-orders-expulsion-of-foreigners-with-coronavirus/1722628
-11,CLICKBAIT,2,entertain.v.daum.net,대구시 코로나19 우려 속 대규모 K-POP 콘서트 강행,http://entertain.v.daum.net/v/20200214152739620
-12,POLITICAL,2,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-13,CLICKBAIT,2,entertain.v.daum.net,"[단독] 레드벨벳 웬디, 코로나19 성금 1억 기부..부상 중에도 빛난 선행",https://entertain.v.daum.net/v/20200228150259906
-14,FAKE/HOAX,2,rt.com,Italian army’s chief of staff tests positive for coronavirus,https://www.rt.com/news/482623-italy-coronavirus-chief-of-staff/
-15,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
-16,POLITICAL,2,theintercept.com,Coronavirus Is Killing Iranians. So Are Trump’s Brutal Sanctions.,https://theintercept.com/2020/03/17/coronavirus-iran-sanctions/
-17,CONSPIRACY/JUNKSCI,2,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-18,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2trbos9
-19,FAKE/HOAX,1,dailymail.co.uk,Chinese doctor investigating outbreak has caught the killer infection,https://www.dailymail.co.uk/health/article-7912457/chinese-doctor-investigating-virus-outbreak-says-infected.html
-20,POLITICAL,1,cnn.com,First US case of Wuhan coronavirus confirmed by CDC,https://www.cnn.com/2020/01/21/health/wuhan-coronavirus-first-us-case-cdc-bn/index.html
+1,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+2,FAKE/HOAX,2,rt.com,Italian army’s chief of staff tests positive for coronavirus,https://www.rt.com/news/482623-italy-coronavirus-chief-of-staff/
+3,CONSPIRACY/JUNKSCI,2,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+4,FAKE/HOAX,1,dailymail.co.uk,Chinese doctor investigating outbreak has caught the killer infection,https://www.dailymail.co.uk/health/article-7912457/chinese-doctor-investigating-virus-outbreak-says-infected.html
+5,FAKE/HOAX,1,dailymail.co.uk,British tourisy feared to be first western victim of new Chinese virus,https://www.dailymail.co.uk/health/article-7906281/sars-like-virus-spreads-china-nearly-140-new-cases.html
+6,FAKE/HOAX,1,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
+7,FAKE/HOAX,1,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/amp/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html?__twitter_impression=true
+8,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+9,FAKE/HOAX,1,davidharrisjr.com,Wuhan Mayor Says 5 Million People Escaped Quarantine During Coronavirus Outbreak,https://davidharrisjr.com/mark/wuhan-mayor-says-5-million-people-escaped-quarantine-during-coronavirus-outbreak/
+10,FAKE/HOAX,1,theonion.com,Xi Jinping Vows To Combat Coronavirus By Making It Illegal To Mention Within A Week,https://www.theonion.com/xi-jinping-vows-to-combat-coronavirus-by-making-it-ille-1841274319
+11,FAKE/HOAX,1,theonion.com,Xi Jinping Vows To Combat Coronavirus By Making It Illegal To Mention Within A Week,https://www.theonion.com/xi-jinping-vows-to-combat-coronavirus-by-making-it-ille-1841274319?utm_medium=sharefromsite&utm_source=theonion_twitter
+12,CONSPIRACY/JUNKSCI,1,zerohedge.com,"WHO Blames ""Human Error"" After Downplaying Coronavirus Risk, Will Reconvene Emergency Committee Thursday",https://www.zerohedge.com/geopolitical/who-blames-human-error-after-downplaying-coronavirus-risk-will-reconvene-emergency
+13,FAKE/HOAX,1,rt.com,,https://on.rt.com/aa19
+14,FAKE/HOAX,1,burrardstreetjournal.com,Corona Offer $15 Million To Help Change Coronavirus Name To BudLightvirus,https://www.burrardstreetjournal.com/corona-offer-15-million-to-change-coronavirus-name-to-budlightvirus/
+15,FAKE/HOAX,1,dailymail.co.uk,China accused of lying over true scale of coronavirus,https://www.dailymail.co.uk/news/article-7951279/china-accused-lying-true-scale-coronavirus.html
+16,FAKE/HOAX,1,rt.com,Clucking hell! New outbreak of BIRD FLU sees thousands of chickens culled in coronavirus-stricken China,https://on.rt.com/aa9r
+17,FAKE/HOAX,1,rt.com,"‘Cycle of panic & neglect’? US prepares for ‘pandemic’ as China coronavirus death toll reaches 427 with 20,000+ cases",https://on.rt.com/aadd
+18,FAKE/HOAX,1,rt.com,,https://on.rt.com/aany
+19,FAKE/HOAX,1,dailymail.co.uk,"Coronavirus has killed six health workers and infected 1,700 in China",https://www.dailymail.co.uk/news/article-8003389/coronavirus-killed-six-health-workers-infected-1-700-medical-staff-china.html
+20,FAKE/HOAX,1,presstv.com,Bill Gates warns coronavirus may kill over 10 million people in Africa,https://www.presstv.com/detail/2020/02/17/618896/bill-gates-us-china-coronavirus-africa

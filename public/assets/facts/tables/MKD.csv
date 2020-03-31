@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,14,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-2,CLICKBAIT,9,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,POLITICAL,6,oglobo.globo.com,"Coronavírus: novidade no Brasil, implante de chips é aposta da Medicina",https://oglobo.globo.com/sociedade/coronavirus-novidade-no-brasil-implante-de-chips-aposta-da-medicina-24312618?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-4,FAKE/HOAX,4,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-5,POLITICAL,4,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-6,POLITICAL,4,nymag.com,The Story of a Coronavirus Infection,https://nymag.com/intelligencer/2020/03/the-story-of-a-coronavirus-infection.html
-7,SATIRE,3,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-8,FAKE/HOAX,3,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-9,FAKE/HOAX,2,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
-10,POLITICAL,2,thesun.co.uk,Bill Gates ‘predicted’ how coronavirus-like pandemic could spread killing 33 MILLION,https://www.thesun.co.uk/news/10814760/bill-gates-predicted-coronavirus-simulation-33-million-die?utm_source=twitter&utm_medium=social&utm_campaign=sharebarweb
-11,FAKE/HOAX,2,dailymail.co.uk,"Have 'real' coronavirus death figures been leaked? 24,589",https://www.dailymail.co.uk/news/article-7971401/have-real-coronavirus-death-figures-leaked-chinese-conglomerate-lists-death-toll-24-589.html
-12,POLITICAL,2,lapatilla.com,Mercosur enciende las alarmas ante posible llegada del coronavirus a la región,https://www.lapatilla.com/2020/02/16/mercosur-enciende-las-alarmas-ante-posible-llegada-del-coronavirus-a-la-region/
-13,POLITICAL,2,lapatilla.com,"FMI asegura que la economía mundial podría caer hasta 0,2 % a causa del coronavirus",https://www.lapatilla.com/2020/02/17/fmi-asegura-que-la-economia-mundial-podria-caer-hasta-02-a-causa-del-coronavirus/
-14,POLITICAL,2,msnbc.com,"Cotton repeats coronavirus conspiracy theory, despite evidence",https://www.msnbc.com/rachel-maddow-show/cotton-repeats-coronavirus-conspiracy-theory-despite-evidence-n1137701
-15,FAKE/HOAX,2,rt.com,"Canary Islands resort with 1,000 tourists on LOCKDOWN after guest tests positive for coronavirus (VIDEOS)",https://on.rt.com/abmp
-16,POLITICAL,2,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-17,POLITICAL,2,telegraph.co.uk,"Dirty banknotes may be spreading the coronavirus, WHO suggests",https://www.telegraph.co.uk/news/2020/03/02/exclusive-dirty-banknotes-may-spreading-coronavirus-world-health/
-18,FAKE/HOAX,2,rt.com,"Coronavirus death toll in Italy rises by 100 for second day in a row, jumps from 366 to 463",https://www.rt.com/news/482676-italy-death-toll-jumps-coronavirus/
-19,POLITICAL,2,vox.com,"How canceled events and self-quarantines save lives, in one chart",https://www.vox.com/2020/3/10/21171481/coronavirus-us-cases-quarantine-cancellation
-20,POLITICAL,2,oglobo.globo.com,É #FAKE que tigela de água com alho recém-fervida cura o coronavírus,https://oglobo.globo.com/fato-ou-fake/e-fake-que-tigela-de-agua-com-alho-recem-fervida-cura-coronavirus-1-24308518?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+1,FAKE/HOAX,4,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+2,FAKE/HOAX,3,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+3,FAKE/HOAX,2,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+4,FAKE/HOAX,2,dailymail.co.uk,"Have 'real' coronavirus death figures been leaked? 24,589",https://www.dailymail.co.uk/news/article-7971401/have-real-coronavirus-death-figures-leaked-chinese-conglomerate-lists-death-toll-24-589.html
+5,FAKE/HOAX,2,rt.com,"Canary Islands resort with 1,000 tourists on LOCKDOWN after guest tests positive for coronavirus (VIDEOS)",https://on.rt.com/abmp
+6,FAKE/HOAX,2,rt.com,"Coronavirus death toll in Italy rises by 100 for second day in a row, jumps from 366 to 463",https://www.rt.com/news/482676-italy-death-toll-jumps-coronavirus/
+7,CONSPIRACY/JUNKSCI,1,infowars.com,Owen Shroyer Arrested for Silent Protest As Globalists Test Internet Kill Switch,https://www.infowars.com/watch-live-china-coronavirus-vs-forced-abortions-1-child-policy/
+8,FAKE/HOAX,1,rt.com,,https://www.rt.com/news/478842-chinese-coronavirus-global-screening/
+9,FAKE/HOAX,1,rt.com,McDonald's shuts down restaurants in five Chinese cities as coronavirus spreads,https://www.rt.com/business/479084-mcdonalds-suspends-operations-china/
+10,FAKE/HOAX,1,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://www.rt.com/news/479108-first-cononavirus-patient-cured/
+11,FAKE/HOAX,1,rt.com,Dozens of Indian students TRAPPED in Wuhan as China scrambles to stop spread of deadly coronavirus,https://www.rt.com/news/479038-coronavirus-25-indians-wuhan-china/
+12,FAKE/HOAX,1,rt.com,"Second case of Wuhan coronavirus confirmed in US, 63 still under investigation",https://www.rt.com/usa/479120-second-coronavirus-case-chicago-us/
+13,FAKE/HOAX,1,rt.com,Chinese authorities share FIRST PHOTOS of deadly coronavirus,https://www.rt.com/news/479057-chinese-authorities-share-coronavirus-photos/
+14,FAKE/HOAX,1,breaking911.com,"Los Angeles County Confirms First Case of Deadly Coronavirus, Fourth Case Confirmed In U.S. - Breaking911",https://breaking911.com/breaking-los-angeles-county-confirms-first-case-of-deadly-coronavirus-fourth-case-confirmed-in-u-s/
+15,CONSPIRACY/JUNKSCI,1,themindunleashed.com,"5 Million Potential Coronavirus Carriers Have Already Left Wuhan, Mayor Reveals",https://themindunleashed.com/2020/01/5-million-potential-coronavirus-carriers-have-already-left-wuhan-mayor-reveals.html
+16,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/amp/killer-coronavirus-spread-eyes.html?ito=amp_twitter_share-top&__twitter_impression=true
+17,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+18,FAKE/HOAX,1,rt.com,"Chinese health chiefs warn coronavirus is growing ‘stronger’, MUTATION closely monitored by scientists",https://www.rt.com/news/479211-china-virus-grown-stronger/
+19,CONSPIRACY/JUNKSCI,1,zerohedge.com,New Research Casts Doubt Coronavirus Epidemic Started At Wuhan Food Market,https://www.zerohedge.com/geopolitical/no-bat-soup-new-research-casts-doubt-links-shady-seafood-market
+20,FAKE/HOAX,1,rt.com,"Chinese virus death toll rises to 56, with nearly 2,000 infected nationwide & more cases confirmed abroad",https://www.rt.com/news/479199-hubei-coronavirus-death-toll/

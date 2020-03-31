@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,6,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,6,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-3,POLITICAL,2,foxnews.com,"Coronavirus infects 66 more passengers on Diamond Princess, bringing total to 130",https://www.foxnews.com/travel/coronavirus-infects-60-more-passengers-on-diamond-princess-bringing-total-to-130
-4,POLITICAL,2,theepochtimes.com,Chinese Falun Gong Practitioner Forcibly Held in Coronavirus Quarantine After Torture,https://www.theepochtimes.com/chinese-falun-gong-practitioner-forcibly-held-in-coronavirus-quarantine-after-torture_3232382.html
-5,POLITICAL,2,townhall.com,U.S. Sends the Iranian People Humanitarian Aid as Coronavirus Pummels the Country ,https://townhall.com/tipsheet/katiepavlich/2020/02/28/us-sends-iran-aid-as-coronavirus-pummels-the-country-n2562200
-6,CLICKBAIT,2,entertain.v.daum.net,BTS 슈가 1억 기부에 팬들 성금만 5억..'선한 영향력' 시너지,https://entertain.v.daum.net/v/20200305112918512
-7,SATIRE,2,thehardtimes.net,Mike Pence to Send All Infected Citizens to Coronavirus Conversion Therapy,https://thehardtimes.net/culture/mike-pence-to-send-all-infected-citizens-to-coronavirus-conversion-therapy/
-8,POLITICAL,2,rollingstone.com,DOJ Wants to Suspend Certain Constitutional Rights During Coronavirus Emergency,https://www.rollingstone.com/politics/politics-news/doj-suspend-constitutional-rights-coronavirus-970935/
-9,CONSPIRACY/JUNKSCI,2,canadafreepress.com,The COVID-19 Pandemic Panic A Betrayal Of The Masses,https://canadafreepress.com/article/the-covid-19-pandemic-panic-a-betrayal-of-the-masses#.xnejjyz0pbc.twitter
-10,POLITICAL,1,fxn.ws,Fox News,https://fxn.ws/2tjofwr
-11,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vgjlgz
-12,FAKE/HOAX,1,thegatewaypundit.com,GROSS: Scientists Blame Coronavirus on Bats -- In Chinese Province Where Bat Soup Is Served in Restaurants,https://www.thegatewaypundit.com/2020/01/gross-scientists-blame-coronavirus-on-bats-in-chinese-province-where-bat-soup-is-served-in-restaurants/
-13,POLITICAL,1,washingtonexaminer.com,,https://www.washingtonexaminer.com/news/cdc-monitoring-63-patients-in-22-states-for-coronavirus-and-expecting-more
-14,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Pandemic Simulation Run 3 Months Ago Predicts 65 Million People Could Die,https://www.zerohedge.com/health/coronavirus-pandemic-simulation-run-3-months-ago-predicts-65-million-people-could-die
-15,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rmawgp
-16,POLITICAL,1,mol.im,US testing 12 patients for coronavirus including Texas A&M student,https://mol.im/a/7925203
-17,POLITICAL,1,rollingstone.com,Coronavirus Is Spreading -- And So Are the Hoaxes and Conspiracy Theories Around It,https://www.rollingstone.com/culture/culture-news/coronavirus-china-bat-patent-conspiracy-theory-942416/
-18,FAKE/HOAX,1,breitbart.com,Wuhan: Chinese scientists trace coronavirus to snakes - Breitbart,https://www.breitbart.com/news/wuhan-chinese-scientists-trace-coronavirus-to-snakes/
-19,FAKE/HOAX,1,allnewspipeline.com,,http://allnewspipeline.com/is_coronavirus_a_concern_here_in_america.php#.xitnqrkkzay.twitter
-20,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+1,CONSPIRACY/JUNKSCI,2,canadafreepress.com,The COVID-19 Pandemic Panic A Betrayal Of The Masses,https://canadafreepress.com/article/the-covid-19-pandemic-panic-a-betrayal-of-the-masses#.xnejjyz0pbc.twitter
+2,FAKE/HOAX,1,thegatewaypundit.com,GROSS: Scientists Blame Coronavirus on Bats -- In Chinese Province Where Bat Soup Is Served in Restaurants,https://www.thegatewaypundit.com/2020/01/gross-scientists-blame-coronavirus-on-bats-in-chinese-province-where-bat-soup-is-served-in-restaurants/
+3,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Pandemic Simulation Run 3 Months Ago Predicts 65 Million People Could Die,https://www.zerohedge.com/health/coronavirus-pandemic-simulation-run-3-months-ago-predicts-65-million-people-could-die
+4,FAKE/HOAX,1,allnewspipeline.com,,http://allnewspipeline.com/is_coronavirus_a_concern_here_in_america.php#.xitnqrkkzay.twitter
+5,FAKE/HOAX,1,breitbart.com,Wuhan: Chinese scientists trace coronavirus to snakes - Breitbart,https://www.breitbart.com/news/wuhan-chinese-scientists-trace-coronavirus-to-snakes/
+6,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+7,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Geometric Progression Suggests 100,000 Infections In A Week",https://www.zerohedge.com/health/coronavirus-geometric-progression-suggests-100000-infections-week
+8,FAKE/HOAX,1,tass.com,IOC voices concern over spread of novel coronavirus ahead of 2020 Olympics in Japan,https://tass.com/sport/1114335
+9,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/232651/
+10,CONSPIRACY/JUNKSCI,1,activistpost.com,,https://www.activistpost.com/2020/01/scared-of-coronavirus-studies-reveal-simple-protection.html?utm_term=autofeed&utm_campaign=echobox&utm_medium=social&utm_source=twitter#echobox=1580544314
+11,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+12,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/rumours-swirl-after-president-xi-21445247?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar
+13,CONSPIRACY/JUNKSCI,1,zerohedge.com,White House Asks Scientists To Investigate Whether 2019-nCoV Was Bio-Engineered,https://www.zerohedge.com/health/white-house-asks-scientists-investigate-whether-2019-ncov-was-bio-engineered
+14,FAKE/HOAX,1,gnews.org,,https://gnews.org/107065/
+15,FAKE/HOAX,1,analyzingamerica.org,,https://www.analyzingamerica.org/newlywed-nightmare-couple-trapped-on-coronavirus-cruise-plead-for-help-say-theyre-desperate-2/?fbclid=iwar0m7sipialtaacjjl7rxjkexxt0obp0uvroczlryycf3quhxm2jy3rxxm8
+16,FAKE/HOAX,1,thegatewaypundit.com,"BREAKING: Washington Doctors SUCCESSFULLY Treat Coronavirus Patient with Experimental Anti-viral Medication -- ""Significantly"" Improved in Hours (VIDEO)",https://www.thegatewaypundit.com/2020/02/breaking-washington-doctors-successfully-treat-coronavirus-patient-with-experimental-anti-viral-medication-significantly-improved-in-hours-video/
+17,CONSPIRACY/JUNKSCI,1,creation.com,,https://creation.com/wuhan-coronavirus
+18,FAKE/HOAX,1,vdare.com,Pat's Protectionism | Articles,https://vdare.com/articles/pat-s-protectionism
+19,FAKE/HOAX,1,davidharrisjr.com,State Department Employee in Japan Ignored President Trump’s Orders and Allowed Americans with Coronavirus to Fly Back to the US,https://davidharrisjr.com/steven/state-department-employee-in-japan-ignored-president-trumps-orders-and-allowed-americans-with-coronavirus-to-fly-back-to-the-us/
+20,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/otras-noticias/coronavirus-un-libro-escrito-hace-40-anos-predijo-el-brote-de-un-arma-biologica-llamada-wuhan/

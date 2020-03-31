@@ -1,20 +1,4 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,2,rappler.com,World,http://rappler.com/world
-2,POLITICAL,1,rappler.com,Philippines confirms 1st case of novel coronavirus,https://www.rappler.com/nation/186633-philippines-confirms-case-novel-coronavirus?utm_medium=social&utm_source=twitter#echobox=1580371766
-3,POLITICAL,1,liberoquotidiano.it,"Coronavirus, Enrico Letta a DiMartedì contro Salvini e sovranisti: ""Alimentano la caccia all'untore""",https://www.liberoquotidiano.it/news/politica/13565465/coronavirus-enrico-letta-dimartedi-salvini-sovranisti-caccia-untore.html
-4,CLICKBAIT,1,allkpop.com,Actor Park Seo Joon donates over $80K to aid Daegu in midst of Coronavirus outbreak,https://www.allkpop.com/article/2020/02/actor-park-seo-joon-donates-over-80k-for-daegu-coronavirus-outbreak
-5,CLICKBAIT,1,koreaboo.com,"Park Seo Joon Donated ₩100,000,000 To ICU Ward In Desperate Need Of Equipment For Coronavirus (COVID-19) Patients",https://www.koreaboo.com/news/park-seo-joon-donated-100-million-won-isu-ward-coronavirus-covid-19-patients/
-6,CLICKBAIT,1,koreaboo.com,BLACKPINK's March Comeback Has Reportedly Been Postponed Due To Coronavirus,https://www.koreaboo.com/news/blackpinks-march-comeback-reportedly-postponed-due-coronavirus-covid-19/
-7,POLITICAL,1,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-8,POLITICAL,1,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-9,FAKE/HOAX,1,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-10,CLICKBAIT,1,allkpop.com,Kai becomes latest EXO member to make big donation on behalf of coronavirus relief,https://www.allkpop.com/article/2020/03/kai-becomes-latest-exo-member-to-make-big-donation-on-behalf-of-coronavirus-relief
-11,POLITICAL,1,liberoquotidiano.it,Home,https://www.liberoquotidiano.it/news/personaggi/13570401/coronavirus-rula-jebreal-luca-zaia-cinesi-mangiano-topi-vivi-ma-non-era-moderato.html
-12,CLICKBAIT,1,mirror.co.uk,Nearly 2 million low paid workers won't be eligible for Coronavirus sick pay,https://www.mirror.co.uk/news/politics/coronavirus-nearly-2-million-low-21625609.amp?__twitter_impression=true
-13,FAKE/HOAX,1,dailymail.co.uk,How coronavirus has caused cruise ship chaos around the world,https://www.dailymail.co.uk/news/article-8077471/how-coronavirus-caused-cruise-ship-chaos-world.html
-14,CLICKBAIT,1,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-15,POLITICAL,1,bfmtv.com,Coronavirus: Macron demande aux personnes « de plus de 70 ans » de rester à leur domicile,https://www.bfmtv.com/societe/coronavirus-macron-demande-aux-personnes-de-plus-de-70-ans-de-rester-a-leur-domicile-1874025.html
-16,POLITICAL,1,queerty.com,"Mayor bans orgies, threesomes, and gang bangs because of coronavirus",https://www.queerty.com/mayor-bans-orgies-threesomes-gang-bangs-coronavirus-20200313?fbclid=iwar345yo5k0kkyc4pfgthr67oxxxl7keluvmu7kxpnjruas_ufwlkrzwmaku
-17,POLITICAL,1,eldiario.es,"Jorge Fernández Díaz: ""Cuestionar la Monarquía es más letal para España que el coronavirus""",https://www.eldiario.es/politica/jorge-fernandez-diaz-coronavirus-rey_0_1006849391.html
-18,CONSPIRACY/JUNKSCI,1,imolaoggi.it,"Migranti, Ong Mediterranea: costretti a sospendere i “salvataggi” causa coronavirus - Imola Oggi",http://www.imolaoggi.it/2020/03/18/migranti-ong-mediterranea-costretti-a-sospendere-i-salvataggi-causa-coronavirus/
-19,POLITICAL,1,cnn.it,The many faces of health workers around the globe fighting coronavirus,https://cnn.it/3bnui97
+1,FAKE/HOAX,1,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+2,FAKE/HOAX,1,dailymail.co.uk,How coronavirus has caused cruise ship chaos around the world,https://www.dailymail.co.uk/news/article-8077471/how-coronavirus-caused-cruise-ship-chaos-world.html
+3,CONSPIRACY/JUNKSCI,1,imolaoggi.it,"Migranti, Ong Mediterranea: costretti a sospendere i “salvataggi” causa coronavirus - Imola Oggi",http://www.imolaoggi.it/2020/03/18/migranti-ong-mediterranea-costretti-a-sospendere-i-salvataggi-causa-coronavirus/

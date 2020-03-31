@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,82,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,46,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-3,POLITICAL,25,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-4,POLITICAL,22,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-5,POLITICAL,21,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-6,CONSPIRACY/JUNKSCI,19,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-7,POLITICAL,19,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-8,POLITICAL,17,thedailybeast.com,QAnon-ers’ Magic Cure for Coronavirus: Just Drink Bleach!,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
-9,POLITICAL,16,rappler.com,World,http://rappler.com/world
-10,CONSPIRACY/JUNKSCI,15,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-11,POLITICAL,15,cnn.com,Is coronavirus Donald Trump's Katrina?,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
-12,POLITICAL,14,cnn.com,Lessons from China's deadly SARS outbreak,https://www.cnn.com/2020/01/24/asia/china-sars-coronavirus-intl-hnk/index.html
-13,CONSPIRACY/JUNKSCI,14,zerohedge.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon,https://www.zerohedge.com/health/creator-bioweapons-act-says-coronavirus-biological-warfare-weapon
-14,FAKE/HOAX,13,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-15,POLITICAL,12,deadstate.org,Jim Bakker: You can kill the coronavirus in 12 hours with my ‘Silver Solution’ ointment,https://deadstate.org/jim-bakker-you-can-kill-the-coronavirus-in-12-hours-with-my-silver-solution-ointment/
-16,POLITICAL,12,rawstory.com,Stephen Miller’s new wife is in charge of approving all coronavirus communications,https://www.rawstory.com/2020/02/stephen-millers-new-wife-is-in-charge-of-approving-all-coronavirus-communications/
-17,FAKE/HOAX,12,politicalflare.com,Trump Supporter Says She Doesn't Think Coronavirus Exists Because She 'Doesn't Believe Anything the Democrats Say',https://www.politicalflare.com/2020/03/trump-supporter-says-she-doesnt-think-coronavirus-exists-because-she-doesnt-believe-anything-the-democrats-say/
-18,FAKE/HOAX,10,gnews.org,,https://gnews.org/89737/
-19,FAKE/HOAX,10,gnews.org,,https://gnews.org/89749
-20,SATIRE,10,thebeaverton.com,"Report: Outbreak of idiocy spreading 10,000 times faster than coronavirus",https://thebeaverton.com/2020/01/report-outbreak-of-idiocy-spreading-10000-times-faster-than-coronavirus/
+1,CONSPIRACY/JUNKSCI,20,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+2,CONSPIRACY/JUNKSCI,16,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+3,CONSPIRACY/JUNKSCI,14,zerohedge.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon,https://www.zerohedge.com/health/creator-bioweapons-act-says-coronavirus-biological-warfare-weapon
+4,FAKE/HOAX,14,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+5,FAKE/HOAX,12,politicalflare.com,Trump Supporter Says She Doesn't Think Coronavirus Exists Because She 'Doesn't Believe Anything the Democrats Say',https://www.politicalflare.com/2020/03/trump-supporter-says-she-doesnt-think-coronavirus-exists-because-she-doesnt-believe-anything-the-democrats-say/
+6,CONSPIRACY/JUNKSCI,11,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+7,FAKE/HOAX,10,gnews.org,,https://gnews.org/89737/
+8,FAKE/HOAX,10,gnews.org,,https://gnews.org/89749
+9,FAKE/HOAX,10,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+10,FAKE/HOAX,8,davidharrisjr.com,State Department Employee in Japan Ignored President Trump’s Orders and Allowed Americans with Coronavirus to Fly Back to the US,https://davidharrisjr.com/steven/state-department-employee-in-japan-ignored-president-trumps-orders-and-allowed-americans-with-coronavirus-to-fly-back-to-the-us/
+11,FAKE/HOAX,7,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+12,CONSPIRACY/JUNKSCI,7,zerohedge.com,"China Virus Cases Almost Double Overnight, Deaths Top 100 As North Korea Closes Border",https://www.zerohedge.com/geopolitical/wuhan-mayor-offers-resign-coronavirus-death-toll-accelerates-supply-shortages
+13,FAKE/HOAX,7,gnews.org,,https://gnews.org/89749/
+14,CONSPIRACY/JUNKSCI,7,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+15,CONSPIRACY/JUNKSCI,7,greenpeace.org,11 simple ways to care for each other during the COVID-19 Coronavirus pandemic - Greenpeace New Zealand,https://www.greenpeace.org/new-zealand/story/11-simple-ways-to-care-for-each-other-during-the-covid-19-coronavirus-pandemic/
+16,CONSPIRACY/JUNKSCI,6,off-guardian.org,,https://off-guardian.org/2020/01/24/reality-check-coronavirus-fear-porn/
+17,CONSPIRACY/JUNKSCI,6,zerohedge.com,Did China's Tencent Accidentally Leak The True Terrifying Coronavirus Statistics,https://www.zerohedge.com/health/did-chinas-tencent-accidentally-leak-true-terrifying-coronavirus-statistics
+18,CONSPIRACY/JUNKSCI,6,zerohedge.com,White House Asks Scientists To Investigate Whether 2019-nCoV Was Bio-Engineered,https://www.zerohedge.com/health/white-house-asks-scientists-investigate-whether-2019-ncov-was-bio-engineered
+19,FAKE/HOAX,6,dailymail.co.uk,Did coronavirus originate in Chinese government laboratory?,https://www.dailymail.co.uk/news/article-8009669/did-coronavirus-originate-chinese-government-laboratory.html
+20,CONSPIRACY/JUNKSCI,6,globalresearch.ca,China's Coronavirus: A Shocking Update. Did The Virus Originate in the US? - Global Research,https://www.globalresearch.ca/china-coronavirus-shocking-update/5705196

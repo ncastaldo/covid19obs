@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,3,rappler.com,World,http://rappler.com/world
-2,CLICKBAIT,3,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,POLITICAL,3,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-4,FAKE/HOAX,2,albertonews.com,"Aislados los primeros sospechosos de coronavirus en Cuba, confirma el MINSAP - AlbertoNews - Periodismo sin censura",https://albertonews.com/internacionales/ultima-hora-aislados-los-primeros-sospechosos-de-coronavirus-en-cuba-confirma-el-minsap/
-5,CONSPIRACY/JUNKSCI,2,zerohedge.com,Did China's Tencent Accidentally Leak The True Terrifying Coronavirus Statistics,https://www.zerohedge.com/health/did-chinas-tencent-accidentally-leak-true-terrifying-coronavirus-statistics
-6,CONSPIRACY/JUNKSCI,2,zerohedge.com,The Four Coronavirus Scenarios: The Bad; The Worse; The Ugly; And The Unthinkable,https://www.zerohedge.com/health/four-coronavirus-scenarios-bad-worse-ugly-and-unthinkable
-7,POLITICAL,2,newsweek.com,,https://www.newsweek.com/pastor-says-god-will-protect-us-coronavirus-because-trump-administration-sided-life-womb-1487583?utm_source=public&utm_medium=feed&utm_campaign=distribution
-8,POLITICAL,2,vox.com,"Trump Jr. said Democrats ""seemingly hope"" the coronavirus ""kills millions."" Pence defended him.",https://www.vox.com/policy-and-politics/2020/3/1/21160339/coronavirus-trump-pence-democrats-hoax?utm_campaign=vox&utm_content=entry&utm_medium=social&utm_source=twitter
-9,POLITICAL,2,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-10,POLITICAL,2,rawstory.com,CNN’s Sanjay Gupta left slack-jawed after hearing Trump’s comments about coronavirus patients going to work,https://www.rawstory.com/2020/03/cnns-sanjay-gupta-left-slack-jawed-after-hearing-trump-say-people-with-coronavirus-should-go-to-work/#.xmhqfahztae.twitter
-11,FAKE/HOAX,2,politicususa.com,,https://www.politicususa.com/2020/03/08/trump-coronavirus-testing-kits.html
-12,POLITICAL,2,rollingstone.com,DOJ Wants to Suspend Certain Constitutional Rights During Coronavirus Emergency,https://www.rollingstone.com/politics/politics-news/doj-suspend-constitutional-rights-coronavirus-970935/
-13,POLITICAL,1,xhne.ws,,http://xhne.ws/r23qx
-14,POLITICAL,1,cnn.com,First US case of Wuhan coronavirus confirmed by CDC,https://www.cnn.com/2020/01/21/health/wuhan-coronavirus-first-us-case-cdc-bn/index.html
-15,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rkkjzu
-16,POLITICAL,1,thedailybeast.com,China’s Deadly Coronavirus Cover-Up Is Getting Worse as First Case Hits U.S.,https://www.thedailybeast.com/chinas-deadly-coronavirus-cover-up-is-getting-worse
-17,POLITICAL,1,foxnews.com,"First case of China-linked coronavirus reported in US, federal officials say",https://www.foxnews.com/health/first-case-coronavirus-us-seattle
-18,FAKE/HOAX,1,summit.news,Professor Warns New Coronavirus Has Same Kill Rate as the Spanish Flu,https://summit.news/2020/01/22/professor-warns-new-coronavirus-has-same-kill-rate-as-the-spanish-flu/
-19,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38ym3rj
-20,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2gcntzu
+1,FAKE/HOAX,2,albertonews.com,"Aislados los primeros sospechosos de coronavirus en Cuba, confirma el MINSAP - AlbertoNews - Periodismo sin censura",https://albertonews.com/internacionales/ultima-hora-aislados-los-primeros-sospechosos-de-coronavirus-en-cuba-confirma-el-minsap/
+2,CONSPIRACY/JUNKSCI,2,zerohedge.com,Did China's Tencent Accidentally Leak The True Terrifying Coronavirus Statistics,https://www.zerohedge.com/health/did-chinas-tencent-accidentally-leak-true-terrifying-coronavirus-statistics
+3,CONSPIRACY/JUNKSCI,2,zerohedge.com,The Four Coronavirus Scenarios: The Bad; The Worse; The Ugly; And The Unthinkable,https://www.zerohedge.com/health/four-coronavirus-scenarios-bad-worse-ugly-and-unthinkable
+4,FAKE/HOAX,2,politicususa.com,,https://www.politicususa.com/2020/03/08/trump-coronavirus-testing-kits.html
+5,FAKE/HOAX,1,summit.news,Professor Warns New Coronavirus Has Same Kill Rate as the Spanish Flu,https://summit.news/2020/01/22/professor-warns-new-coronavirus-has-same-kill-rate-as-the-spanish-flu/
+6,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Latest: Over 2,800 Global Cases Resulting in 80 Fatalities",https://www.zerohedge.com/geopolitical/third-us-coronavirus-case-confirmed-orange-county
+7,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+8,FAKE/HOAX,1,breitbart.com,"Stores Across U.S. Sell Out of Face Masks, Hand Sanitizer as Coronavirus Spreads",https://www.breitbart.com/economy/2020/01/27/stores-sell-out-of-face-masks-hand-sanitizer-as-coronavirus-spreads/
+9,CONSPIRACY/JUNKSCI,1,zerohedge.com,Philippines To Deport 500 Chinese People To Prevent Spread Of Coronavirus,https://www.zerohedge.com/geopolitical/philippines-deport-500-chinese-people-prevent-spread-coronavirus
+10,FAKE/HOAX,1,pjmedia.com,,https://pjmedia.com/instapundit/356095/
+11,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Children With ""Stealth"" Coronavirus Infections Raise Fears Of 'Community Outbreaks'",https://www.zerohedge.com/geopolitical/children-stealth-coronavirus-infections-raise-fears-community-outbreaks
+12,FAKE/HOAX,1,breitbart.com,"15,000 Hong Kong Medical Workers Threaten Strike Unless Border Closed",https://www.breitbart.com/national-security/2020/01/29/15000-hong-kong-medical-workers-threaten-strike-unless-border-closed-coronavirus/
+13,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+14,CONSPIRACY/JUNKSCI,1,zerohedge.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon,https://www.zerohedge.com/health/creator-bioweapons-act-says-coronavirus-biological-warfare-weapon
+15,CONSPIRACY/JUNKSCI,1,zerohedge.com,White House Asks Scientists To Investigate Whether 2019-nCoV Was Bio-Engineered,https://www.zerohedge.com/health/white-house-asks-scientists-investigate-whether-2019-ncov-was-bio-engineered
+16,FAKE/HOAX,1,dailymail.co.uk,Shocking clip shows suspected coronavirus carriers dragged from homes,https://www.dailymail.co.uk/news/article-7980883/video-shows-officials-protective-suits-dragging-suspected-coronavirus-carriers-homes.html
+17,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus 'Super-Spreader' Infects 57 In Hospital As China Continues To Refuse CDC Help,https://www.zerohedge.com/health/coronavirus-super-spreader-infects-57-hospital-china-continues-refuse-cdc-help
+18,CONSPIRACY/JUNKSCI,1,zerohedge.com,Senator Cotton Demands Beijing Prove Coronavirus Isn't A Bioweapon As Another 'Conspiracy Theory' Goes Mainstream,https://www.zerohedge.com/geopolitical/tom-cotton-demands-beijing-prove-ncov-isnt-bioweapon-another-conspiracy-theory-goes
+19,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Hong Kong Coronavirus Expert Warns Outbreak Could Infect ""Between 60%-80%"" Of Humanity, Causing 51 Million Deaths",https://www.zerohedge.com/geopolitical/hong-kong-coronavirus-expert-warns-outbreak-could-infect-between-60-80-humanity
+20,FAKE/HOAX,1,newsmax.com,"Azar: Coronavirus Help Offered  '1,300 Deaths Ago'",https://www.newsmax.com/newsfront/azar-hhs-cdc/2020/02/14/id/954149/

@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,1018,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rhd9u8
-2,POLITICAL,385,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36qlfru
-3,POLITICAL,160,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39enong
-4,POLITICAL,153,es.rt.com,China informa de un brote de gripe aviar en medio de la batalla contra el coronavirus 2019-nCoV,https://es.rt.com/7bph
-5,POLITICAL,148,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rhqfif
-6,POLITICAL,144,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2gvfoq0
-7,POLITICAL,138,es.rt.com,China aprueba una vacuna contra el coronavirus para ensayos clínicos,https://es.rt.com/7fd4
-8,POLITICAL,132,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2i8kgxg
-9,POLITICAL,119,es.rt.com,Ecuador investiga un posible caso de coronavirus de China,https://es.rt.com/7b7v
-10,POLITICAL,109,es.rt.com,China prohíbe el comercio de vida silvestre en todo el país debido al coronavirus,https://es.rt.com/7b6g
-11,POLITICAL,108,es.rt.com,"Trump: ""Estamos cerca de encontrar una vacuna contra el coronavirus""",https://es.rt.com/7dg7
-12,POLITICAL,102,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37zvbvy
-13,POLITICAL,102,es.rt.com,"Italia recluta a médicos de Cuba, Venezuela y China para luchar contra el coronavirus",https://es.rt.com/7f2w
-14,POLITICAL,99,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3942kes
-15,POLITICAL,79,es.rt.com,El coronavirus puede infectar desde una distancia de 2 metros y a través de los ojos,https://es.rt.com/7bby
-16,POLITICAL,78,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
-17,POLITICAL,74,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vk19fr
-18,POLITICAL,70,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2uz6cbr
-19,POLITICAL,68,es.rt.com,Corea del Sur anuncia que el coronavirus se está propagando por el este del país,https://es.rt.com/7d3m
-20,POLITICAL,63,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2thcpwr
+1,FAKE/HOAX,51,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-analizan-a-cuatro-ciudadanos-que-llegaron-a-colombia-desde-italia-con-sintomas-de-coronavirus/
+2,FAKE/HOAX,23,albertonews.com,,https://albertonews.com/internacionales/infectados-con-coronavirus-intentan-propagar-virus-escupiendo-a-doctores-y-enfermeras-en-china/
+3,FAKE/HOAX,21,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+4,FAKE/HOAX,17,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+5,FAKE/HOAX,15,albertonews.com,Científico de Harvard predice que el coronavirus infectará hasta el 70% de la humanidad - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/ultima-hora-cientifico-de-harvard-predice-que-el-coronavirus-infectara-hasta-el-70-de-la-humanidad/
+6,FAKE/HOAX,14,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
+7,FAKE/HOAX,13,express.co.uk,Coronavirus: Why the latest coronavirus will struggle to survive,https://www.express.co.uk/life-style/health/1233100/coronavirus-outbreak-countries-where-is-coronavirus-travel-advice
+8,FAKE/HOAX,11,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
+9,FAKE/HOAX,8,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+10,CONSPIRACY/JUNKSCI,7,zerohedge.com,Did China's Tencent Accidentally Leak The True Terrifying Coronavirus Statistics,https://www.zerohedge.com/health/did-chinas-tencent-accidentally-leak-true-terrifying-coronavirus-statistics
+11,FAKE/HOAX,7,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+12,FAKE/HOAX,6,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
+13,FAKE/HOAX,6,albertonews.com,,https://albertonews.com/internacionales/lo-ultimo-aislan-a-260-personas-por-sospecha-de-coronavirus-en-chile/
+14,FAKE/HOAX,5,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+15,CONSPIRACY/JUNKSCI,5,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+16,CONSPIRACY/JUNKSCI,5,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+17,FAKE/HOAX,5,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-se-confirma-primer-caso-de-colombiano-con-coronavirus/
+18,FAKE/HOAX,5,albertonews.com,,https://albertonews.com/coronavirus/ultima-hora-bachelet-pidio-flexibilizar-sanciones-contra-venezuela-iran-cuba-y-corea-del-norte/
+19,FAKE/HOAX,4,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+20,FAKE/HOAX,4,albertonews.com,Médicos chinos hallan anticuerpos capaces de combatir el coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/lo-ultimo-medicos-chinos-hallan-anticuerpos-capaces-de-combatir-el-coronavirus/

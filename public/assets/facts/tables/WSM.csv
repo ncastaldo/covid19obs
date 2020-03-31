@@ -1,11 +1,3 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,1,cnn.com,Snakes could be the source of the Wuhan coronavirus outbreak,https://www.cnn.com/2020/01/22/health/snakes-wuhan-coronavirus-outbreak-conversation-partner/index.html
-2,CLICKBAIT,1,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
-3,POLITICAL,1,thesun.co.uk,Correction: coronavirus,https://www.thesun.co.uk/news/10801901/china-coronavirus-outbreak-wuhan?utm_source=twitter&utm_medium=social&utm_campaign=sharebarweb
-4,POLITICAL,1,rappler.com,World,http://rappler.com/world
-5,POLITICAL,1,xhne.ws,,http://xhne.ws/npxtf
-6,POLITICAL,1,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-7,CONSPIRACY/JUNKSCI,1,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-8,CLICKBAIT,1,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-9,POLITICAL,1,paulcraigroberts.org,,https://www.paulcraigroberts.org/2020/03/08/report-from-china-on-the-effectiveness-of-vitamin-c-in-preventing-curing-coronavirus/
-10,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2u6wvyr
+1,CONSPIRACY/JUNKSCI,1,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+2,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/tv/coronavirus-challenge-idiot-who-licked-21750964

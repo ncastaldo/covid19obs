@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,14,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-2,POLITICAL,8,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-3,CONSPIRACY/JUNKSCI,7,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-4,POLITICAL,7,change.org,Sign the Petition,https://www.change.org/p/hon-ratu-epeli-nailatikau-petition-to-protect-the-people-of-navua-serua-namosi-from-the-coronavirus?recruiter=1042955244&recruited_by_id=775a86f0-4f9e-11ea-acba-13aa619bab34&utm_source=share_petition&utm_medium=copylink&utm_campaign=petition_dashboard
-5,POLITICAL,5,rawstory.com,Stephen Miller’s new wife is in charge of approving all coronavirus communications,https://www.rawstory.com/2020/02/stephen-millers-new-wife-is-in-charge-of-approving-all-coronavirus-communications/
-6,CLICKBAIT,4,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-7,POLITICAL,4,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-8,POLITICAL,3,mol.im,China's first coronavirus hospital OPENS today,https://mol.im/a/7939075
-9,POLITICAL,3,rappler.com,World,http://rappler.com/world
-10,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-11,POLITICAL,3,deadstate.org,Christian pastor: I plan to ‘curse’ the coronavirus and ‘make it disappear’ from America,https://deadstate.org/christian-pastor-i-plan-to-curse-the-coronavirus-and-make-it-disappear-from-america/
-12,POLITICAL,3,thedailybeast.com,A U.S. Embassy Refused to Test Exposed Staff for Coronavirus,https://www.thedailybeast.com/the-us-embassy-in-tokyo-refused-to-test-exposed-staff-for-coronavirus
-13,POLITICAL,3,cnn.com,Is coronavirus Donald Trump's Katrina?,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
-14,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37htbrl
-15,CLICKBAIT,2,allkpop.com,"BTS’s V Shows Concern, Urges Fans To Be Careful Of The Coronavirus.",https://www.allkpop.com/article/2020/01/btss-v-shows-concerns-urges-fans-to-be-careful-of-the-coronavirus
-16,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3akvdm3
-17,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2gvfl2s
-18,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rxap8j
-19,POLITICAL,2,oann.com,,https://www.oann.com/johnson-johnson-to-create-coronavirus-vaccine/
-20,POLITICAL,2,theepochtimes.com,Trump Administration Forms Coronavirus Task Force,https://www.theepochtimes.com/trump-administration-forms-coronavirus-task-force_3221590.html
+1,CONSPIRACY/JUNKSCI,7,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+2,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+3,CONSPIRACY/JUNKSCI,2,themindunleashed.com,Scientist Who Simulated Global Coronavirus Outbreak 3 Months Ago Makes Chilling Statement,https://themindunleashed.com/2020/01/scientist-simulated-global-coronavirus-outbreak.html
+4,CONSPIRACY/JUNKSCI,2,zerohedge.com,White House Asks Scientists To Investigate Whether 2019-nCoV Was Bio-Engineered,https://www.zerohedge.com/health/white-house-asks-scientists-investigate-whether-2019-ncov-was-bio-engineered
+5,CONSPIRACY/JUNKSCI,2,zerohedge.com,"""Maybe This Was Man Made"" - CNBC Questions Coronavirus Origins As ZeroHedge Remains Banned On Twitter",https://www.zerohedge.com/political/after-zerohedge-twitter-ban-questioning-coronavirus-origins-cnbc-tweets-maybe-was-man
+6,FAKE/HOAX,2,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+7,FAKE/HOAX,2,breitbart.com,"Nancy Pelosi Proposes 1,400-Page Coronavirus Bill Stuffed with Pork",https://www.breitbart.com/politics/2020/03/23/nancy-pelosi-proposes-1120-page-coronavirus-bill-stuffed-with-pork/
+8,FAKE/HOAX,1,dailymail.co.uk,Chinese city will 'build a dedicated coronavirus hospital in SIX DAYS',https://www.dailymail.co.uk/news/article-7920937/chinese-city-build-dedicated-coronavirus-hospital-six-days.html
+9,FAKE/HOAX,1,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
+10,FAKE/HOAX,1,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+11,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/amp/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html?__twitter_impression=true
+12,CONSPIRACY/JUNKSCI,1,zerohedge.com,"UK Researcher Predicts Over 250,000 Chinese Will Have Coronavirus In Ten Days",https://www.zerohedge.com/geopolitical/uk-researcher-predicts-over-250000-people-china-will-have-coronavirus-ten-days
+13,CONSPIRACY/JUNKSCI,1,dcclothesline.com,The Numbers for the Wuhan Coronavirus Outbreak Just Don’t Add Up - DC Clothesline,https://www.dcclothesline.com/2020/01/25/the-numbers-for-the-wuhan-coronavirus-outbreak-just-dont-add-up/
+14,FAKE/HOAX,1,rt.com,US orders charter flight to evacuate citizens and diplomats from virus-stricken Wuhan — report,https://on.rt.com/a9qm
+15,FAKE/HOAX,1,rt.com,Chinese doctor battling coronavirus on ‘front line’ of outbreak epicenter in Hubei dies as death toll hits 41,https://www.rt.com/news/479145-chinese-doctor-coronavirus-epicenter/
+16,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/china-coronavirus-spread-through-eyes-21351718?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar
+17,FAKE/HOAX,1,rt.com,"Chinese health chiefs warn coronavirus is growing ‘stronger’, MUTATION closely monitored by scientists",https://on.rt.com/a9rf
+18,CONSPIRACY/JUNKSCI,1,offgridsurvival.com,Theoretical Coronavirus Simulation Showed 65 million deaths in Uncontrolled Outbreak,https://offgridsurvival.com/bill-gates-coronavirus-in-a-simulation-ran-just-three-months-ago/
+19,CONSPIRACY/JUNKSCI,1,blacklistednews.com,,https://www.blacklistednews.com/article/76093/did-china-steal-coronavirus-from-canada-and-weaponize.html
+20,CONSPIRACY/JUNKSCI,1,cbn.com,"100+ Dead, 4,500 Infected, 50M on Lockdown as Chinese Coronavirus Escalates",https://www1.cbn.com/cbnnews/world/2020/january/41-dead-1-200-infected-as-coronavirus-impact-escalates-china-city-on-lockdown

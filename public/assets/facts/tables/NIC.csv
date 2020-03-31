@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,51,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vw6cjq
-2,POLITICAL,40,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
-3,CLICKBAIT,34,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-4,POLITICAL,27,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3942kes
-5,POLITICAL,20,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-6,POLITICAL,19,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37zvbvy
-7,POLITICAL,14,es.rt.com,Una persona muere cada 10 minutos por coronavirus en Irán,https://es.rt.com/7fjk
-8,POLITICAL,13,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-9,POLITICAL,13,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3dfkugq
-10,POLITICAL,11,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
-11,POLITICAL,10,actualidad.rt.com,"China prohíbe a 11 millones de ciudadanos salir de Wuhan, donde se originó el nuevo coronavirus",https://actualidad.rt.com/actualidad/340726-prohibir-salir-wuhan-originarse-coronavirus
-12,POLITICAL,10,es.rt.com,China informa de un brote de gripe aviar en medio de la batalla contra el coronavirus 2019-nCoV,https://es.rt.com/7bph
-13,POLITICAL,10,es.rt.com,Corea del Sur anuncia que el coronavirus se está propagando por el este del país,https://es.rt.com/7d3m
-14,POLITICAL,9,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vzqpse
-15,POLITICAL,9,es.rt.com,China aprueba una vacuna contra el coronavirus para ensayos clínicos,https://es.rt.com/7fd4
-16,POLITICAL,8,es.rt.com,Aumentan a 25 las víctimas mortales y a 830 los infectados por el coronavirus en China,https://es.rt.com/7b0p
-17,POLITICAL,8,es.rt.com,China asegura que casi el 70 % de los enfermos de coronavirus se han recuperado,https://es.rt.com/7eej
-18,POLITICAL,8,es.rt.com,"Italia recluta a médicos de Cuba, Venezuela y China para luchar contra el coronavirus",https://es.rt.com/7f2w
-19,POLITICAL,7,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30pwybm
-20,POLITICAL,7,es.rt.com,Confirman el primer caso del coronavirus en España,https://es.rt.com/7bnk
+1,FAKE/HOAX,4,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
+2,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/china-registra-un-brote-de-gripe-aviar-en-zona-cercana-al-foco-del-coronavirus/
+3,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-23/
+4,FAKE/HOAX,2,rt.com,"China coronavirus death toll soars to 813 with 37,000+ cases worldwide",https://on.rt.com/aaov
+5,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/lo-ultimo-eeuu-florida-registra-dos-nuevos-presuntos-casos-de-coronavirus/
+6,CONSPIRACY/JUNKSCI,2,globalresearch.ca,COVID-19: Further Evidence that the Virus Originated in the US - Global Research,https://www.globalresearch.ca/covid-19-further-evidence-virus-originated-us/5706078
+7,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/ultima-hora/ultima-hora-maduro-pide-credito-de-5-mil-millones-de-dolares-al-fmi-para-enfrentar-la-pandemia-del-coronavirus/
+8,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/principales/ultima-hora-colombia-confirma-su-primera-muerte-por-el-coronavirus/
+9,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-canada-reportan-un-posible-caso-de-coronavirus-en-toronto/
+10,FAKE/HOAX,1,dailymail.co.uk,Chinese builders to turn a field into a coronavirus hospital in A WEEK,https://www.dailymail.co.uk/news/article-7924249/chinese-builders-work-day-night-turn-field-coronavirus-hospital-week.html
+11,FAKE/HOAX,1,sputniknews.com,Twice Lucky: FBI Drops Fight Against Apple Second Time Around,https://sptnkne.ws/bg4s
+12,FAKE/HOAX,1,rt.com,"China’s PM calls for ‘resolute fight’ against coronavirus outbreak as death toll climbs to 106 with over 1,700 new cases",https://on.rt.com/a9v1
+13,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
+14,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/infectados-con-coronavirus-intentan-propagar-virus-escupiendo-a-doctores-y-enfermeras-en-china/
+15,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-confirman-el-quinto-caso-de-coronavirus-en-alemania/
+16,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/oms-analiza-si-declara-la-emergencia-internacional-por-el-coronavirus/
+17,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/sport/football/salomon-rondon-snubs-man-utd-21403701
+18,CONSPIRACY/JUNKSCI,1,zerohedge.com,,http://zerohedge.com
+19,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/coronavirus-drone-army-deployed-spray-21399569
+20,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Won't Turn You Into A 'Zombie,' Says Malaysian Government",https://www.zerohedge.com/markets/coronavirus-wont-turn-you-zombie-says-malaysian-government

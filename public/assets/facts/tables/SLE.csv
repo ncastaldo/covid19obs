@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,11,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-2,FAKE/HOAX,5,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-3,POLITICAL,4,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-4,CLICKBAIT,4,entertain.v.daum.net,"[단독] 레드벨벳 웬디, 코로나19 성금 1억 기부..부상 중에도 빛난 선행",https://entertain.v.daum.net/v/20200228150259906
-5,CLICKBAIT,4,entertain.v.daum.net,"엑소 레이, 코로나19 사태에 2천만원 의미 있는 기부..""우리는 하나"" [단독]",https://entertain.v.daum.net/v/20200228165328313
-6,CLICKBAIT,3,allkpop.com,NCT Dream and SF9 fans demand their labels take action to keep artists out of China due to the coronavirus,https://www.allkpop.com/article/2020/01/nct-dream-and-sf9-fans-demand-their-labels-take-action-to-keep-artists-out-of-china-due-to-the-coronavirus
-7,POLITICAL,3,rappler.com,World,http://rappler.com/world
-8,FAKE/HOAX,3,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
-9,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-10,CLICKBAIT,2,allkpop.com,Taeyeon & NCT Dream postpone their Singapore concerts in light of Coronavirus threats,https://www.allkpop.com/article/2020/01/taeyeon-nct-dream-postpone-their-singapore-concerts-in-light-of-coronavirus-threats
-11,CLICKBAIT,2,koreaboo.com,Baekhyun Praised For His Adorable Yet Smart Methods To Preventing The Coronavirus,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
-12,CLICKBAIT,2,soompi.com,Chungha Donates Masks For Coronavirus Prevention To Children In Need On Her Birthday,https://www.soompi.com/article/1382066wpp/chungha-donates-masks-for-coronavirus-prevention-to-children-in-need-on-her-birthday
-13,CLICKBAIT,2,soompi.com,Staff Member Of Popular Singer Reportedly Tests Positive For Novel Coronavirus,https://www.soompi.com/article/1385621wpp/staff-member-of-popular-singer-reportedly-tests-positive-for-novel-coronavirus
-14,CLICKBAIT,2,koreaboo.com,48 More Celebrities and Companies Who Have Donated To Help Fight Against Corona19 (COVID-19),https://www.koreaboo.com/news/celebrities-companies-donated-help-fight-corona19-covid-19/
-15,CLICKBAIT,2,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-16,POLITICAL,2,bfmtv.com,Coronavirus: les ventes de La Peste de Camus bondissent,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
-17,POLITICAL,2,rawstory.com,‘Pathetic’ Trump gets blasted after he blames Obama for problems with coronavirus testing,https://www.rawstory.com/2020/03/pathetic-trump-gets-blasted-after-he-blames-obama-for-problems-with-coronavirus-testing/
-18,CLICKBAIT,2,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-19,CLICKBAIT,2,koreaboo.com,EXO's Baekhyun Comforts Fans Who Are Devastated That They Can't Meet Him,https://www.koreaboo.com/news/exo-baekhyun-fans-devastated-message-coronavirus-covid-19/
-20,POLITICAL,1,foxnews.com,"First case of China-linked coronavirus reported in US, federal officials say",https://www.foxnews.com/health/first-case-coronavirus-us-seattle
+1,FAKE/HOAX,5,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+2,FAKE/HOAX,3,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
+3,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+4,FAKE/HOAX,1,thegatewaypundit.com,GROSS: Scientists Blame Coronavirus on Bats -- In Chinese Province Where Bat Soup Is Served in Restaurants,https://www.thegatewaypundit.com/2020/01/gross-scientists-blame-coronavirus-on-bats-in-chinese-province-where-bat-soup-is-served-in-restaurants/
+5,FAKE/HOAX,1,rt.com,Did patient zero really catch new Chinese virus by eating infected bat soup? It’s actually perfectly possible,https://on.rt.com/a9lh
+6,FAKE/HOAX,1,dailymail.co.uk,Chinese city will 'build a dedicated coronavirus hospital in SIX DAYS',https://www.dailymail.co.uk/news/article-7920937/chinese-city-build-dedicated-coronavirus-hospital-six-days.html
+7,FAKE/HOAX,1,rt.com,"Chinese health chiefs warn coronavirus is growing ‘stronger’, MUTATION closely monitored by scientists",https://on.rt.com/a9rf
+8,FAKE/HOAX,1,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+9,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/urgente-el-coronavirus-puede-infectar-desde-una-distancia-de-2-metros-y-a-traves-de-los-ojos/
+10,FAKE/HOAX,1,breitbart.com,Two Miami University Students Tested for Coronavirus,https://www.breitbart.com/tech/2020/01/29/two-miami-university-students-tested-for-coronavirus/
+11,FAKE/HOAX,1,rt.com,WHO declares international health emergency over coronavirus outbreak,https://www.rt.com/news/479626-coronavirus-global-emergency-who/
+12,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+13,CONSPIRACY/JUNKSCI,1,jihadwatch.org,,https://www.jihadwatch.org/2020/02/muslim-clerics-fatwa-permits-muslims-to-celebrate-coronavirus-spread-and-pray-for-annihilation-of-chinese-people
+14,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+15,CONSPIRACY/JUNKSCI,1,zerohedge.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon,https://www.zerohedge.com/health/creator-bioweapons-act-says-coronavirus-biological-warfare-weapon
+16,FAKE/HOAX,1,breitbart.com,Report: Wuhan Coronavirus Patients Left to Die Without Medical Care,https://www.breitbart.com/national-security/2020/02/07/report-wuhan-coronavirus-patients-left-to-die-without-medical-care/
+17,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Beijing Under Partial Lock Down As Virus Death Toll Tops 900; More Than 40,000 Infected",https://www.zerohedge.com/geopolitical/were-totally-dark-japan-not-doing-enough-contain-outbreak-diamond-princess-passengers
+18,FAKE/HOAX,1,breitbart.com,Curtis Ellis: The Coronavirus Exposes the True Cost of the China Price,https://www.breitbart.com/economy/2020/02/07/curtis-ellis-the-coronavirus-exposes-the-true-cost-of-the-china-price/
+19,FAKE/HOAX,1,sputniknews.com,First Death From Coronavirus Confirmed in Europe,https://sputniknews.com/europe/202002151078322262-first-death-from-coronavirus-confirmed-in-europe/
+20,FAKE/HOAX,1,dcdirtylaundry.com,U.S. military preparing to implement medical martial law due to coronavirus pandemic - DC Dirty Laundry,https://dcdirtylaundry.com/u-s-military-preparing-to-implement-medical-martial-law-due-to-coronavirus-pandemic/

@@ -1,21 +1,12 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,44,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-2,CLICKBAIT,11,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,POLITICAL,11,oglobo.globo.com,"Coronavírus: novidade no Brasil, implante de chips é aposta da Medicina",https://oglobo.globo.com/sociedade/coronavirus-novidade-no-brasil-implante-de-chips-aposta-da-medicina-24312618?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-4,POLITICAL,6,oglobo.globo.com,É #FAKE que tigela de água com alho recém-fervida cura o coronavírus,https://oglobo.globo.com/fato-ou-fake/e-fake-que-tigela-de-agua-com-alho-recem-fervida-cura-coronavirus-1-24308518?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-5,CLICKBAIT,4,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-6,POLITICAL,4,oglobo.globo.com,Câmara dos EUA aprova teste grátis para coronavírus e licença médica remunerada,https://oglobo.globo.com/sociedade/coronavirus/camara-dos-eua-aprova-teste-gratis-para-coronavirus-licenca-medica-remunerada-24305435?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-7,FAKE/HOAX,3,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
-8,CLICKBAIT,3,entertain.v.daum.net,,http://entertain.v.daum.net/v/20200219144008670sbs
-9,CLICKBAIT,3,soompi.com,BTS’s Fans ARMY Donate Refunds From Concert Cancelation To Help Coronavirus Prevention,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
-10,CLICKBAIT,3,allkpop.com,Pledis confirms Minhyun tested negative for coronavirus,https://www.allkpop.com/article/2020/03/pledis-confirms-minhyun-tested-negative-for-coronavirus
-11,CLICKBAIT,3,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-12,POLITICAL,3,oglobo.globo.com,Coronavírus: ator de 'Gomorra' ficou isolado com o corpo infectado da irmã morta,https://oglobo.globo.com/cultura/coronavirus-ator-de-gomorra-esta-isolado-com-corpo-infectado-da-irma-morta-24298515?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-13,POLITICAL,3,oglobo.globo.com,Conferência sobre coronavírus é cancelada por causa do coronavírus,https://oglobo.globo.com/economia/conferencia-sobre-coronavirus-cancelada-por-causa-do-coronavirus-24299063?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-14,FAKE/HOAX,2,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-15,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rndsu7
-16,CLICKBAIT,2,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-17,CLICKBAIT,2,allkpop.com,GOT7 cancels Kuala Lumpur show of 'Keep Spinning' due to the coronavirus,https://www.allkpop.com/article/2020/02/got7-cancels-kuala-lumpur-show-of-keep-spinning-due-to-the-coronavirus
-18,CLICKBAIT,2,allkpop.com,South Korea becomes most infected country outside China for coronavirus,https://www.allkpop.com/article/2020/02/south-korea-becomes-most-infected-country-outside-china-for-coronavirus
-19,CONSPIRACY/JUNKSCI,2,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-20,CLICKBAIT,2,allkpop.com,2PM's Junho donates 30 million KRW for coronavirus relief efforts,https://www.allkpop.com/article/2020/03/2pms-junho-donates-30-million-krw-for-coronavirus-relief-efforts
+1,FAKE/HOAX,3,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+2,FAKE/HOAX,2,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+3,CONSPIRACY/JUNKSCI,2,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+4,CONSPIRACY/JUNKSCI,2,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+5,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/amp/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html?__twitter_impression=true
+6,FAKE/HOAX,1,theunionjournal.com,Conditions Put Xinjiang Internment Camps at Risk as Region Confirms First Coronavirus Cases | The Union Journal,https://theunionjournal.com/conditions-put-xinjiang-internment-camps-at-risk-as-region-confirms-first-coronavirus-cases/
+7,FAKE/HOAX,1,rt.com,No more BATS & SNAKES for gourmands: China bans WILDLIFE trade after virus outbreak linked to agricultural producers,https://on.rt.com/a9ra
+8,FAKE/HOAX,1,n.news.naver.com,"빅히트 측 “방탄소년단 3월 토크쇼 행사 잠정연기, 코로나19 확산 방지”(공식)",https://n.news.naver.com/entertain/now/article/609/0000252147
+9,FAKE/HOAX,1,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
+10,FAKE/HOAX,1,dailymail.co.uk,The trail of the Italian coronavirus super-spreader revealed,https://www.dailymail.co.uk/health/article-8050705/amp/trail-italian-coronavirus-super-spreader-marathon-runner-38-heart-crisis-europe.html
+11,FAKE/HOAX,1,dailymail.co.uk,Woman brutally bashed by thugs who accused her of having coronavirus,https://www.dailymail.co.uk/news/article-8149901/south-korean-woman-27-brutally-bashed-racist-thugs-accused-having-coronavirus.html

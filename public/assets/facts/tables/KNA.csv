@@ -1,21 +1,3 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,4,rappler.com,World,http://rappler.com/world
-2,POLITICAL,2,rappler.com,Philippines confirms 1st case of novel coronavirus,https://www.rappler.com/nation/186633-philippines-confirms-case-novel-coronavirus?utm_medium=social&utm_source=twitter#echobox=1580371766
-3,CLICKBAIT,2,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-4,POLITICAL,2,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-5,CLICKBAIT,1,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-woman-eats-whole-bat-21349468
-6,POLITICAL,1,mol.im,US health experts hosted fictional coronavirus simulation 3 months ago,https://mol.im/a/7925475
-7,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2ryausg
-8,POLITICAL,1,thesun.co.uk,Bill Gates ‘predicted’ how coronavirus-like pandemic could spread killing 33 MILLION,https://www.thesun.co.uk/news/10814760/bill-gates-predicted-coronavirus-simulation-33-million-die/amp/?__twitter_impression=true
-9,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2ua0d7k
-10,POLITICAL,1,rappler.com,"Filipinos slam gov't, demand China travel ban amid 1st coronavirus case in PH",https://www.rappler.com/nation/250603-netizens-reaction-philippines-coronavirus-case-china-travel-ban?utm_medium=social&utm_source=twitter#echobox=1580387415
-11,POLITICAL,1,haaretz.com,Netanyahu says Israel to begin developing coronavirus vaccine,https://www.haaretz.com/israel-news/.premium-netanyahu-says-israel-to-begin-developing-coronavirus-vaccine-1.8478612
-12,POLITICAL,1,telegraph.co.uk,China's Xi Jinping faces a battle for authority over coronavirus crisis,https://www.telegraph.co.uk/news/2020/02/07/chinas-xi-jinping-faces-battle-authority-coronavirus-crisis/
-13,FAKE/HOAX,1,express.co.uk,Coronavirus breakthrough: China mass producing wonderdrug after 'promising' results,https://www.express.co.uk/news/world/1241305/coronovirus-news-china-wuhan-drug-remdesivir-cure-ebola-gilead-spt
-14,SATIRE,1,lercio.it,"Coronavirus, Salvini brucia la felpa con scritto Codogno",https://www.lercio.it/coronavirus-salvini-brucia-la-felpa-con-scritto-codogno/
-15,POLITICAL,1,rawstory.com,,https://www.rawstory.com/2020/02/heres-why-mike-pence-is-the-worst-person-to-put-in-charge-of-the-coronavirus-task-force/
-16,CLICKBAIT,1,soompi.com,BTS’s Fans ARMY Donate Refunds From Concert Cancelation To Help Coronavirus Prevention,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
-17,POLITICAL,1,foxnews.com,Michael Moore suggests Trump is 'more dangerous' than coronavirus,https://www.foxnews.com/media/michael-moore-trump-coronavirus-dangerous
-18,POLITICAL,1,thedailybeast.com,Trump: Democrats’ Coronavirus Criticism a ‘New Hoax’,https://www.thedailybeast.com/trump-calls-democrats-coronavirus-criticism-a-new-hoax
-19,FAKE/HOAX,1,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-20,POLITICAL,1,vox.com,Wash your damn hands,https://www.vox.com/2020/2/28/21157769/how-to-prevent-the-coronavirus
+1,FAKE/HOAX,1,express.co.uk,Coronavirus breakthrough: China mass producing wonderdrug after 'promising' results,https://www.express.co.uk/news/world/1241305/coronovirus-news-china-wuhan-drug-remdesivir-cure-ebola-gilead-spt
+2,FAKE/HOAX,1,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/

@@ -1,21 +1,9 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2sqtrub
-2,POLITICAL,3,rappler.com,World,http://rappler.com/world
-3,POLITICAL,3,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-4,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2sqd7mc
-5,POLITICAL,2,cnn.com,New study an eye-opener on how coronavirus is spreading and how little we know,https://www.cnn.com/2020/02/08/health/coronavirus-hospital-infections-frieden/index.html
-6,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2twwrzd
-7,CLICKBAIT,2,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-8,POLITICAL,2,cnn.com,Here's a list of disinfectants you can use against coronavirus,https://www.cnn.com/2020/03/05/health/epa-disinfectants-coronavirus-trnd/index.html
-9,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tnkmlg
-10,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2nsx7rh
-11,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tofiwv
-12,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
-13,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37limca
-14,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rko8i0
-15,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3axsjpy
-16,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tsltoh
-17,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38b401w
-18,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36od97m
-19,CONSPIRACY/JUNKSCI,1,neonnettle.com,"Nurse Treating Coronavirus in China Claims 90,000 People Now Infected with Virus",https://neonnettle.com/news/10102-nurse-treating-coronavirus-in-china-claims-90-000-people-now-infected-with-virus
-20,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tywox2
+1,CONSPIRACY/JUNKSCI,1,neonnettle.com,"Nurse Treating Coronavirus in China Claims 90,000 People Now Infected with Virus",https://neonnettle.com/news/10102-nurse-treating-coronavirus-in-china-claims-90-000-people-now-infected-with-virus
+2,FAKE/HOAX,1,gnews.org,,https://gnews.org/89749/
+3,FAKE/HOAX,1,rt.com,Error 404,http://on.rt.com/a9vh
+4,CONSPIRACY/JUNKSCI,1,zerohedge.com,Apple Warns Coronavirus Could Jeopardize Orders For 45 Million Airpods,https://www.zerohedge.com/markets/apple-warns-coronavirus-could-jeopardize-order-45-million-airpods
+5,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Will Whack 2% From Global GDP Growth In Q1: Goldman,https://www.zerohedge.com/economics/coronavirus-will-whack-2-global-gdp-growth-q1-goldman
+6,CONSPIRACY/JUNKSCI,1,zerohedge.com,There Is Something Very Strange In The Latest Chinese Official Coronavirus Numbers,https://www.zerohedge.com/health/there-something-very-strange-latest-chinese-official-coronavirus-numbers
+7,FAKE/HOAX,1,chinadaily.com.cn,,http://www.chinadaily.com.cn/a/202002/11/ws5e41dfdfa31012821727673c.html
+8,FAKE/HOAX,1,dailymail.co.uk,The most googled questions about coronavirus disease (and the answers),https://www.dailymail.co.uk/news/article-8082967/the-googled-questions-disease-answers.html?ito=amp_twitter_share-top

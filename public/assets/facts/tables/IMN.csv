@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,4,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,CLICKBAIT,4,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/coronavirus-hunt-madeleine-mccann-could-21724854
-3,POLITICAL,3,americanmind.org,The Missionary Virus,https://americanmind.org/essays/rip-globalism-dead-of-coronavirus/
-4,POLITICAL,3,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-5,POLITICAL,3,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-6,CLICKBAIT,2,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
-7,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vzoogx
-8,POLITICAL,2,cnn.com,Is coronavirus Donald Trump's Katrina?,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
-9,FAKE/HOAX,1,summit.news,Videos Show Chinese People Eating Bats As Experts Link Animal to Coronavirus Outbreak,https://summit.news/2020/01/23/videos-show-chinese-people-eating-bats-as-experts-link-animal-to-coronavirus-outbreak/
-10,FAKE/HOAX,1,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
-11,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-12,POLITICAL,1,thesun.co.uk,Correction: coronavirus,https://www.thesun.co.uk/news/10801901/china-coronavirus-outbreak-wuhan?utm_source=twitter&utm_medium=social&utm_campaign=sharebarweb
-13,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Saudis Scramble As Aramco Hits Post-IPO Lows, Talk Down ""Psychological"" Coronavirus Fears",https://www.zerohedge.com/markets/aramco-nears-ipo-lows-oil-plummets-amid-coronavirus-fears
-14,CLICKBAIT,1,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
-15,POLITICAL,1,cnn.com,American Airlines pilots sue to halt US-China flights amid coronavirus epidemic ,https://www.cnn.com/2020/01/30/business/american-airlines-pilots-coronavirus/index.html
-16,POLITICAL,1,telegraph.co.uk,York hotel at the centre of Britain’s coronavirus scare after guests confirmed as first known cases in the country,https://www.telegraph.co.uk/news/2020/01/31/two-people-england-have-testedpositive-coronavirus/
-17,POLITICAL,1,moonofalabama.org,,https://www.moonofalabama.org/2020/02/coronaupdate.html
-18,POLITICAL,1,telegraph.co.uk,Coronavirus is the Black Swan that might finally sink the markets ,https://www.telegraph.co.uk/business/2020/02/05/chinas-coronavirus-not-remotely-control-world-economy-mounting2/
-19,POLITICAL,1,middleeastmonitor.com,Coronavirus: China requests 145m masks from Egypt,https://www.middleeastmonitor.com/20200205-coronavirus-china-requests-145m-masks-from-egypt/
-20,CLICKBAIT,1,allkpop.com,Super Junior postpones Kuala Lumpur concert due to coronavirus,https://www.allkpop.com/article/2020/02/super-junior-postpones-kuala-lumpur-concert-due-to-coronavirus
+1,FAKE/HOAX,1,summit.news,Videos Show Chinese People Eating Bats As Experts Link Animal to Coronavirus Outbreak,https://summit.news/2020/01/23/videos-show-chinese-people-eating-bats-as-experts-link-animal-to-coronavirus-outbreak/
+2,FAKE/HOAX,1,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
+3,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+4,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Saudis Scramble As Aramco Hits Post-IPO Lows, Talk Down ""Psychological"" Coronavirus Fears",https://www.zerohedge.com/markets/aramco-nears-ipo-lows-oil-plummets-amid-coronavirus-fears
+5,FAKE/HOAX,1,express.co.uk,Euro crisis: Markets sink just two weeks after Brexit as key industry marker plunges,https://www.express.co.uk/news/world/1241752/euro-to-pound-exchange-rate-dollar-gbp-sterling-brexit-coronavirus
+6,FAKE/HOAX,1,express.co.uk,Coronavirus to pose 'larger threat' to world – fears incubation period longer than thought,https://www.express.co.uk/news/world/1243873/coronavirus-latest-news-covid-19-symptoms-death-toll-china-virus-warning
+7,CONSPIRACY/JUNKSCI,1,zerohedge.com,Hubei Doctors Warn Of Even-Deadlier Coronavirus Reinfection Causing Sudden Heart Attacks,https://www.zerohedge.com/health/hubei-doctors-warn-even-deadlier-coronavirus-reinfection-causing-sudden-heart-attacks
+8,FAKE/HOAX,1,express.co.uk,Channel 4's Jon Snow in coronavirus ISOLATION and will be missing from TV for TWO WEEKS,https://www.express.co.uk/news/uk/1247257/channel-4-jon-snow-coronavirus-uk-latest-isolation-iran-outbreak-covid19-update
+9,FAKE/HOAX,1,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+10,FAKE/HOAX,1,ladbible.com,James Bond No Time To Die Release Delayed Due To Coronavirus ,https://www.ladbible.com/entertainment/tv-and-film-james-bond-no-time-to-die-release-delayed-due-to-coronavirus-20200304?c=1583342230857?source=twitter
+11,FAKE/HOAX,1,express.co.uk,Phillip Schofield fury: 'We're not stupid' Host demands answers from PM over coronavirus,https://www.express.co.uk/showbiz/tv-radio/1251240/phillip-schofield-fury-coronavirus-boris-johnson-this-morning-interview-covid-19-latest
+12,FAKE/HOAX,1,dailymail.co.uk,Coronavirus outbreak could peak in the UK at Easter,https://www.dailymail.co.uk/news/article-8085837/coronavirus-outbreak-peak-uk-easter-six-months.html
+13,FAKE/HOAX,1,dailymail.co.uk,Hotel in China holding coronavirus victims in quarantine collapses,https://www.dailymail.co.uk/news/article-8086077/hotel-china-holding-coronavirus-victims-quarantine-collapses.html
+14,FAKE/HOAX,1,dailymail.co.uk,Incubation period of new coronavirus 'can be as long as 24 DAYS',https://www.dailymail.co.uk/news/article-7986663/incubation-period-new-coronavirus-long-24-days-expert-claims.html?ito=amp_twitter_share-top
+15,FAKE/HOAX,1,express.co.uk,Jet2 flights cancelled: All flights to Spain cancelled as coronavirus fears grow,https://www.express.co.uk/travel/articles/1255159/jet2-cancelled-flights-spain-coronavirus-latest-news-uk
+16,FAKE/HOAX,1,dailymail.co.uk,Idris Elba met with Sophie Trudeau shortly before getting coronavirus,https://www.dailymail.co.uk/tvshowbiz/article-8122725/idris-elba-met-justin-trudeaus-wife-sophie-tested-positive-coronavirus.html?ito=push-notification&ci=10654&si=2492258
+17,FAKE/HOAX,1,dailymail.co.uk,The Queen is to self-isolate at Windsor Castle amid coronavirus fears,https://www.dailymail.co.uk/news/article-8121783/the-queen-self-isolate-windsor-castle-amid-coronavirus-fears.html
+18,FAKE/HOAX,1,rt.com,,https://www.rt.com/news/483414-eurovision-song-contest-canceled-coronavirus/
+19,FAKE/HOAX,1,express.co.uk,Chelsea owner Roman Abramavich offers hotel to NHS to house staff between shifts,https://www.express.co.uk/sport/football/1256775/chelsea-roman-abramovich-coronavirus-nhs-staff
+20,FAKE/HOAX,1,express.co.uk,Tesco end multi buy deals on 600 items in desperate bid to prevent shoppers stockpiling,https://www.express.co.uk/news/uk/1258607/tesco-price-hike-coronavirus-shopping-stockpiling-supermarkets-uk-covid-1

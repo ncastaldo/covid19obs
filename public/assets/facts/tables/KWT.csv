@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,18,thesun.co.uk,Is it safe to travel to Egypt? Latest advice as coronavirus cases hit 67,https://www.thesun.co.uk/travel/11087986/egypt-travel-advice-coronavirus-latest/
-2,FAKE/HOAX,9,dailymail.co.uk,Recovered coronavirus patient dies of the virus five days later,https://www.dailymail.co.uk/news/article-8077987/recovered-coronavirus-patient-dies-disease-five-days-discharged-hospital.html
-3,CLICKBAIT,8,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-4,FAKE/HOAX,6,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
-5,CLICKBAIT,6,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-6,POLITICAL,6,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-7,POLITICAL,5,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vzoogx
-8,CLICKBAIT,4,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-9,CLICKBAIT,4,soompi.com,"Update: Park Seo Joon, Lee Young Ae, And Jang Sung Kyu Donate To Daegu As City Combats COVID-19",https://www.soompi.com/article/1384451wpp/park-seo-joon-and-lee-young-ae-donate-to-daegu-as-city-combats-coronavirus-outbreak
-10,POLITICAL,4,haaretz.com,"Three more Israelis test positive for coronavirus, bringing total up to 10",https://www.haaretz.com/israel-news/.premium-third-israeli-tests-positive-for-coronavirus-in-israel-country-issues-mass-quarantine-1.8597347
-11,FAKE/HOAX,4,summit.news,Expert: U.S. Hospital Beds Will be Full by May 8 if Coronavirus Spread Continues at Current Rate,https://summit.news/2020/03/09/expert-u-s-hospital-beds-will-be-full-by-may-8-if-coronavirus-spread-continues-at-current-rate/
-12,POLITICAL,4,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2w4kluc
-13,CLICKBAIT,3,soompi.com,Korean Broadcasters Address Plans For Live Audience Filming Amidst Fears Of Coronavirus,https://www.soompi.com/article/1379795wpp/korean-broadcasters-address-plans-for-live-audience-filming-amidst-fears-of-coronavirus
-14,POLITICAL,3,rappler.com,World,http://rappler.com/world
-15,CLICKBAIT,3,koreaboo.com,"Park Seo Joon Donated ₩100,000,000 To ICU Ward In Desperate Need Of Equipment For Coronavirus (COVID-19) Patients",https://www.koreaboo.com/news/park-seo-joon-donated-100-million-won-isu-ward-coronavirus-covid-19-patients/
-16,POLITICAL,3,cnn.it,Biotech company Moderna says its coronavirus vaccine is ready for first tests ,https://cnn.it/395bg6z
-17,CLICKBAIT,3,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/breaking-pope-francis-taken-ill-21588694
-18,POLITICAL,3,cnn.com,The CDC has changed its criteria for testing patients for coronavirus after the first case of unknown origin was confirmed,https://www.cnn.com/2020/02/27/health/us-cases-coronavirus-community-transmission/index.html
-19,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2nsx7rh
-20,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36n2qfm
+1,FAKE/HOAX,9,dailymail.co.uk,Recovered coronavirus patient dies of the virus five days later,https://www.dailymail.co.uk/news/article-8077987/recovered-coronavirus-patient-dies-disease-five-days-discharged-hospital.html
+2,FAKE/HOAX,6,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
+3,FAKE/HOAX,4,summit.news,Expert: U.S. Hospital Beds Will be Full by May 8 if Coronavirus Spread Continues at Current Rate,https://summit.news/2020/03/09/expert-u-s-hospital-beds-will-be-full-by-may-8-if-coronavirus-spread-continues-at-current-rate/
+4,FAKE/HOAX,3,worldnewsdailyreport.com,COVID-19: Chinese health authorities confirm patient zero 'had sex with bats',https://worldnewsdailyreport.com/covid-19-chinese-health-authorities-confirm-patient-zero-had-sex-with-bats/
+5,FAKE/HOAX,2,rt.com,Canada confirms 1st ‘presumptive case’ of coronavirus in Toronto,https://on.rt.com/a9r2
+6,FAKE/HOAX,2,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/amp/chinas-coronavirus-hospital-opens-today.html?__twitter_impression=true
+7,FAKE/HOAX,2,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+8,FAKE/HOAX,2,rt.com,Italy locks down 10 towns after 1st coronavirus death as cases jump to 17,https://on.rt.com/abhe
+9,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+10,CONSPIRACY/JUNKSCI,2,themindunleashed.com,Study Shows People Can Transmit Coronavirus Without Showing Symptoms,https://themindunleashed.com/2020/02/study-shows-people-can-transmit-coronavirus-without-showing-symptoms.html?fbclid=iwar1qa59of2mshqbogcrxixitcwglmv7nmmaiiuqmxxws1fnerj7k6nycvvi
+11,FAKE/HOAX,2,dailymail.co.uk,Two British Airways baggage handlers test positive for coronavirus,https://www.dailymail.co.uk/news/article-8083017/two-british-airways-baggage-handlers-test-positive-coronavirus.html
+12,FAKE/HOAX,1,rt.com,Chinese authorities lock down Wuhan as killer virus spreads,https://on.rt.com/a9jk
+13,FAKE/HOAX,1,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+14,FAKE/HOAX,1,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/amp/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html?__twitter_impression=true
+15,FAKE/HOAX,1,express.co.uk,Coronavirus horror: Social media footage shows infected Wuhan residents 'act like zombies',https://www.express.co.uk/news/world/1232814/coronavirus-horror-china-virus-wuhan-zombies-epidemic-video
+16,CONSPIRACY/JUNKSCI,1,zerohedge.com,This Is How China Is Hiding The True Number Of Coronavirus Deaths,https://www.zerohedge.com/economics/how-china-hiding-true-number-coronavirus-deaths
+17,FAKE/HOAX,1,rt.com,"Killer coronavirus comes to Europe, 2 cases confirmed in France",https://on.rt.com/a9pe
+18,FAKE/HOAX,1,dailystar.co.uk,"Coronavirus medic claims China is lying as ‘100,000 people are infected’",https://www.dailystar.co.uk/news/world-news/coronavirus-medic-claims-china-lying-21358174.amp?utm_campaign=sharebar&__twitter_impression=true&utm_source=share&utm_medium=ios_app&utm_name=iossmf
+19,FAKE/HOAX,1,rt.com,38 infected coronavirus patients CURED in China as epidemic rages on,https://on.rt.com/a9po
+20,CONSPIRACY/JUNKSCI,1,beforeitsnews.com,Coronavirus Tracker Map & Latest Updates via Leak Project | Prophecy | Before It's News,https://beforeitsnews.com/prophecy/2020/01/coronavirus-tracker-map-latest-updates-via-leak-project-2509732.html

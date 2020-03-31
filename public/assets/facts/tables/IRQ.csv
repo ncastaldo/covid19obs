@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,12,aa.com.tr,,https://www.aa.com.tr/en/middle-east/iraq-reports-first-coronavirus-infection/1741593
-2,CLICKBAIT,11,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,POLITICAL,8,aa.com.tr,,https://www.aa.com.tr/en/middle-east/iraq-reports-first-coronavirus-infection/1741593#
-4,POLITICAL,7,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-5,FAKE/HOAX,6,presstv.com,Coronavirus was produced in a laboratory: Former CIA intel officer,https://www.presstv.com/detail/2020/03/05/620213/coronavirus-was-produced-in-a-laboratory
-6,POLITICAL,6,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-7,POLITICAL,5,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2h2uvg1
-8,POLITICAL,5,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-9,POLITICAL,4,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38d1v5c
-10,CLICKBAIT,4,soompi.com,"Super Junior Donates 10,000 Masks To Children And Youth For Coronavirus Prevention",https://www.soompi.com/article/1380061wpp/super-junior-donates-10000-masks-to-children-and-youth-for-coronavirus-prevention
-11,CLICKBAIT,4,soompi.com,Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380150wpp/events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-12,CONSPIRACY/JUNKSCI,4,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-13,FAKE/HOAX,4,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-14,CLICKBAIT,4,allkpop.com,Kai becomes latest EXO member to make big donation on behalf of coronavirus relief,https://www.allkpop.com/article/2020/03/kai-becomes-latest-exo-member-to-make-big-donation-on-behalf-of-coronavirus-relief
-15,POLITICAL,4,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-16,FAKE/HOAX,4,dailymail.co.uk,US hospitals should prepare for 96 MILLION coronavirus infections,https://www.dailymail.co.uk/news/article-8085175/us-hospitals-prepare-96-million-coronavirus-cases-half-million-deaths-leaked-papers-show.html?ito=amp_twitter_share-top
-17,FAKE/HOAX,3,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/amp/chinas-coronavirus-hospital-opens-today.html?__twitter_impression=true
-18,CLICKBAIT,3,koreaboo.com,Baekhyun Praised For His Adorable Yet Smart Methods To Preventing The Coronavirus,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
-19,POLITICAL,3,xhne.ws,,http://xhne.ws/mfbrt
-20,FAKE/HOAX,3,dailymail.co.uk,Did The Simpsons also predict coronavirus?,https://www.dailymail.co.uk/news/article-7956095/the-simpsons-predicted-deadly-coronavirus-outbreak-episode-27-years-ago.html
+1,FAKE/HOAX,6,presstv.com,Coronavirus was produced in a laboratory: Former CIA intel officer,https://www.presstv.com/detail/2020/03/05/620213/coronavirus-was-produced-in-a-laboratory
+2,CONSPIRACY/JUNKSCI,4,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+3,FAKE/HOAX,4,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+4,FAKE/HOAX,4,dailymail.co.uk,US hospitals should prepare for 96 MILLION coronavirus infections,https://www.dailymail.co.uk/news/article-8085175/us-hospitals-prepare-96-million-coronavirus-cases-half-million-deaths-leaked-papers-show.html?ito=amp_twitter_share-top
+5,FAKE/HOAX,3,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/amp/chinas-coronavirus-hospital-opens-today.html?__twitter_impression=true
+6,FAKE/HOAX,3,dailymail.co.uk,Did The Simpsons also predict coronavirus?,https://www.dailymail.co.uk/news/article-7956095/the-simpsons-predicted-deadly-coronavirus-outbreak-episode-27-years-ago.html
+7,FAKE/HOAX,2,ladbible.com,"Chinese City Is Building 1,000-Bed Hospital In Six Days For Coronavirus Patients",https://www.ladbible.com/news/news-china-is-building-hospital-in-six-days-for-coronavirus-patients-20200124?c=1579879796424?source=facebook
+8,FAKE/HOAX,2,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+9,FAKE/HOAX,2,dailymail.co.uk,Canada confirms coronavirus case while US confirms two cases,https://www.dailymail.co.uk/news/article-7928885/us-cities-high-alert-two-coronavirus-cases-confirmed-63-people-tested.html
+10,FAKE/HOAX,2,rt.com,"Chinese coronavirus spreads with no visible symptoms as death toll grows to 81, over 2,800 infected worldwide",https://on.rt.com/a9sp
+11,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Thai Doctors ""Cure"" Coronavirus Patient Using Powerful AIDS Drugs",https://www.zerohedge.com/geopolitical/thai-doctors-cure-coronavirus-patient-using-powerful-aids-drugs
+12,CONSPIRACY/JUNKSCI,2,zerohedge.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon,https://www.zerohedge.com/health/creator-bioweapons-act-says-coronavirus-biological-warfare-weapon
+13,FAKE/HOAX,2,unz.com,COVID-19: Accelerationism or Decelerationism?,https://www.unz.com/isteve/covid-19-accelerationism-or-decelerationism/
+14,FAKE/HOAX,2,ladbible.com,People In Iran Are Licking Shrines To Prove They’re Not Scared Of Coronavirus,https://www.ladbible.com/news/news-people-in-iran-are-licking-shrines-in-defiance-of-coronavirus-20200302?source=facebook
+15,FAKE/HOAX,2,rt.com,Irish goodbye? Indian police hunt for RUNAWAY coronavirus suspect as confirmed cases across country hit 30,https://on.rt.com/ac9k
+16,FAKE/HOAX,2,dailymail.co.uk,Recovered coronavirus patient dies of the virus five days later,https://www.dailymail.co.uk/news/article-8077987/amp/recovered-coronavirus-patient-dies-disease-five-days-discharged-hospital.html?__twitter_impression=true
+17,FAKE/HOAX,2,dailymail.co.uk,US hospitals should prepare for 96 MILLION coronavirus infections,https://www.dailymail.co.uk/news/article-8085175/us-hospitals-prepare-96-million-coronavirus-cases-half-million-deaths-leaked-papers-show.html
+18,FAKE/HOAX,2,rt.com,"Coronavirus death toll in Italy rises to 366 from 233 in one day, most cases in Lombardy",https://on.rt.com/ace6
+19,FAKE/HOAX,1,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/amp/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html?__twitter_impression=true
+20,FAKE/HOAX,1,dailymail.co.uk,Coronavirus fears in Scotland as two Chinese patients in hospital,https://www.dailymail.co.uk/health/article-7920907/coronavirus-fears-scotland-two-chinese-patients-rushed-hospital.html

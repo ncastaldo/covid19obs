@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,172,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2wvldlv
-2,POLITICAL,80,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
-3,POLITICAL,65,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3dfkugq
-4,POLITICAL,54,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2wsmmrn
-5,POLITICAL,48,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3942kes
-6,POLITICAL,38,es.rt.com,Una persona muere cada 10 minutos por coronavirus en Irán,https://es.rt.com/7fjk
-7,POLITICAL,33,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38nbz04
-8,POLITICAL,31,es.rt.com,Confirman el primer caso del coronavirus en México,https://es.rt.com/7dql
-9,POLITICAL,29,es.rt.com,24 empleados de la ONU dan positivo por coronavirus,https://es.rt.com/7fpl
-10,POLITICAL,26,es.rt.com,Corea del Sur anuncia que el coronavirus se está propagando por el este del país,https://es.rt.com/7d3m
-11,POLITICAL,24,es.rt.com,China aprueba una vacuna contra el coronavirus para ensayos clínicos,https://es.rt.com/7fd4
-12,POLITICAL,18,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39enong
-13,CLICKBAIT,18,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-14,POLITICAL,17,es.rt.com,El coronavirus llega a Europa: Confirman tres casos de infectados en Francia,https://es.rt.com/7b39
-15,POLITICAL,17,es.rt.com,El Salvador decreta cuarentena obligatoria de 30 días por el coronavirus,https://es.rt.com/7ftu
-16,POLITICAL,16,es.rt.com,China asegura que casi el 70 % de los enfermos de coronavirus se han recuperado,https://es.rt.com/7eej
-17,POLITICAL,16,es.rt.com,Rusia anuncia el inicio de pruebas de una vacuna contra el coronavirus,https://es.rt.com/7fmk
-18,POLITICAL,16,es.rt.com,El coronavirus avanza en EE.UU.: más de 400 muertos y más de 33.000 infectados,https://es.rt.com/7fvu
-19,POLITICAL,15,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rhqfif
-20,POLITICAL,15,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vzqpse
+1,FAKE/HOAX,4,rt.com,,https://on.rt.com/aamf
+2,CONSPIRACY/JUNKSCI,3,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+3,FAKE/HOAX,3,rt.com,Clucking hell! New outbreak of BIRD FLU sees thousands of chickens culled in coronavirus-stricken China,https://on.rt.com/aa9r
+4,FAKE/HOAX,3,dailymail.co.uk,Man becomes second U.S. death from coronavirus,https://www.dailymail.co.uk/news/article-8063669/new-york-confirmed-coronavirus-case-woman-contracted-disease-iran.html
+5,FAKE/HOAX,2,dailymail.co.uk,Coronavirus: Videos claim to show people collapsing in Wuhan,https://www.dailymail.co.uk/news/article-7923981/coronavirus-disturbing-videos-claim-people-collapsing-wuhan.html
+6,FAKE/HOAX,2,dailymail.co.uk,Amazing NASA images show how pollution has CLEARED over China,https://www.dailymail.co.uk/news/article-8059385/amazing-nasa-images-pollution-cleared-china.html
+7,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+8,FAKE/HOAX,2,n.news.naver.com,"‘또또또 선행’ 위너 김진우, 코로나19에 1천만원 기부(공식)",https://n.news.naver.com/entertain/article/609/0000253852
+9,FAKE/HOAX,2,sputniknews.com,"Over 3,000 Protest in Riga, Demanding More Funding for Schools, Healthcare",https://sptnkne.ws/bjqa
+10,CONSPIRACY/JUNKSCI,1,zerohedge.com,China Quarantines City Of 11 Million As Hong Kong Confirms Second Case Of Coronavirus,https://www.zerohedge.com/geopolitical/coronavirus-infections-climb-473-china-hong-kong-confirms-first-case
+11,FAKE/HOAX,1,sputniknews.com,Fear and Loathing in the Arabian Nights,https://sptnkne.ws/beq5
+12,FAKE/HOAX,1,dailymail.co.uk,Deadly Chinese coronavirus 'can spread through coughs and sneezes',https://www.dailymail.co.uk/health/article-7919847/shocking-footage-shows-chaos-wuhans-streets-chinese-city-lockdown.html
+13,FAKE/HOAX,1,dailymail.co.uk,US coronavirus patient 'had contact with at least 16 people',https://www.dailymail.co.uk/health/article-7919851/washington-coronavirus-patient-contact-16-people-us.html
+14,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+15,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/colombia-y-brasil-evaluan-posibles-casos-de-coronavirus/
+16,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-prohibe-a-11-millones-de-ciudadanos-salir-de-wuhan-donde-se-origino-el-nuevo-coronavirus/
+17,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Pandemic Simulation Run 3 Months Ago Predicts 65 Million People Could Die,https://www.zerohedge.com/health/coronavirus-pandemic-simulation-run-3-months-ago-predicts-65-million-people-could-die
+18,FAKE/HOAX,1,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+19,FAKE/HOAX,1,summit.news,Videos Show Chinese People Eating Bats As Experts Link Animal to Coronavirus Outbreak,https://summit.news/2020/01/23/videos-show-chinese-people-eating-bats-as-experts-link-animal-to-coronavirus-outbreak/
+20,FAKE/HOAX,1,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://www.rt.com/news/479108-first-cononavirus-patient-cured/

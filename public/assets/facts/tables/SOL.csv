@@ -1,23 +1,8 @@
 rank,fact_type,count,domain,title,url
 1,FAKE/HOAX,3,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
 2,CONSPIRACY/JUNKSCI,3,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-3,POLITICAL,2,telegraph.co.uk,"Men far more likely to die from coronavirus than women, analysis shows  
-
-",https://www.telegraph.co.uk/science/2020/03/05/men-far-likely-die-coronavirus-women-analysis-shows/?utm_content=telegraph&utm_medium=social&utm_campaign=echobox&utm_source=twitter#echobox=1583440869
-4,POLITICAL,2,bfmtv.com,Coronavirus: les Hôpitaux de Paris lancent un appel aux dons sur Facebook,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
-5,POLITICAL,1,telegraph.co.uk,Coronavirus tests come back negative on 14 people - but more are being tested ,https://www.telegraph.co.uk/news/2020/01/23/britain-braced-killer-coronavirus-says-health-secretary-infection/
-6,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
-7,POLITICAL,1,telegraph.co.uk,China has quarantined 20 million to contain the coronavirus – but it could be too late,https://www.telegraph.co.uk/global-health/science-and-disease/china-has-quarantined-20-million-contain-coronavirus-could/
-8,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36ojd6d
-9,POLITICAL,1,telegraph.co.uk,Hong Kong to close borders with mainland China as global alarm spreads over coronavirus,https://www.telegraph.co.uk/news/2020/01/28/hong-kong-close-borders-mainland-china-global-alarm-spreads/
-10,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2ubf7zl
-11,POLITICAL,1,liberoquotidiano.it,Home,http://liberoquotidiano.it
-12,POLITICAL,1,rappler.com,World,http://rappler.com/world
-13,POLITICAL,1,rappler.com,Philippines confirms 1st case of novel coronavirus,https://www.rappler.com/nation/186633-philippines-confirms-case-novel-coronavirus?utm_medium=social&utm_source=twitter#echobox=1580371766
-14,POLITICAL,1,newsweek.com,,https://www.newsweek.com/new-york-subway-attack-coronavirus-woman-mask-1485842
-15,POLITICAL,1,newsweek.com,,https://www.newsweek.com/xinjiang-wuhan-uyghur-coronavirus-detention-camps-1486278
-16,CLICKBAIT,1,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-17,POLITICAL,1,telegraph.co.uk,Bill Gates warns of 10 million deaths as Coronavirus  spreads to Africa,https://www.telegraph.co.uk/news/2020/02/15/coronovirus-bill-gates-warns-10-million-deaths-virus-spreads/
-18,CONSPIRACY/JUNKSCI,1,zerohedge.com,Harvard Professor Says 40-70% Of People Worldwide Will Be Infected With Covid-19,https://www.zerohedge.com/geopolitical/harvard-professor-says-40-70-people-worldwide-will-be-infected-covid-19
-19,POLITICAL,1,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-20,POLITICAL,1,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+3,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+4,CONSPIRACY/JUNKSCI,1,zerohedge.com,Harvard Professor Says 40-70% Of People Worldwide Will Be Infected With Covid-19,https://www.zerohedge.com/geopolitical/harvard-professor-says-40-70-people-worldwide-will-be-infected-covid-19
+5,CONSPIRACY/JUNKSCI,1,imolaoggi.it,"Coronavirus, moschea Mestre: non rispetta ordinanza, denunciato imam - Imola Oggi",http://www.imolaoggi.it/2020/02/29/coronavirus-moschea-mestre-non-rispetta-ordinanza-denunciato-imam/
+6,FAKE/HOAX,1,dailymail.co.uk,Recovered coronavirus patient dies of the virus five days later,https://www.dailymail.co.uk/news/article-8077987/amp/recovered-coronavirus-patient-dies-disease-five-days-discharged-hospital.html?__twitter_impression=true
+7,CONSPIRACY/JUNKSCI,1,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran

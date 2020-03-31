@@ -79,6 +79,9 @@
           <DescriptionCard />
         </v-col>
         <v-col cols="12">
+          <DisclaimerCard />
+        </v-col>
+        <v-col cols="12">
           <InfoTableCard />
         </v-col>
         <v-col cols="12">
@@ -104,6 +107,8 @@ import TimeseriesCard from './TimeseriesCard'
 import LocationCard from './LocationCard'
 
 import DescriptionCard from './DescriptionCard'
+import DisclaimerCard from './DisclaimerCard'
+
 import InfoTableCard from './InfoTableCard'
 import ContactsCard from './ContactsCard'
 import DataSourcesCard from './DataSourcesCard'
@@ -122,8 +127,9 @@ export default {
     MapCard,
     TimeseriesCard,
     FactsCard,
-    InfoTableCard,
     DescriptionCard,
+    DisclaimerCard,
+    InfoTableCard,
     DataSourcesCard,
     ContactsCard
   },

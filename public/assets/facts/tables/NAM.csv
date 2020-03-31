@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,23,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,CONSPIRACY/JUNKSCI,19,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-3,POLITICAL,15,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-4,POLITICAL,13,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-5,CLICKBAIT,8,allkpop.com,"BTS’s V Shows Concern, Urges Fans To Be Careful Of The Coronavirus.",https://www.allkpop.com/article/2020/01/btss-v-shows-concerns-urges-fans-to-be-careful-of-the-coronavirus
-6,CLICKBAIT,6,koreaboo.com,BLACKPINK's March Comeback Has Reportedly Been Postponed Due To Coronavirus,https://www.koreaboo.com/news/blackpinks-march-comeback-reportedly-postponed-due-coronavirus-covid-19/
-7,CLICKBAIT,6,soompi.com,BTS’s Fans ARMY Donate Refunds From Concert Cancelation To Help Coronavirus Prevention,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
-8,FAKE/HOAX,5,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
-9,CLICKBAIT,5,entertain.v.daum.net,대구시 코로나19 우려 속 대규모 K-POP 콘서트 강행,http://entertain.v.daum.net/v/20200214152739620
-10,CLICKBAIT,5,entertain.v.daum.net,BTS 슈가 1억 기부에 팬들 성금만 5억..'선한 영향력' 시너지,https://entertain.v.daum.net/v/20200305112918512
-11,POLITICAL,4,rappler.com,World,http://rappler.com/world
-12,CLICKBAIT,4,entertain.v.daum.net,,http://entertain.v.daum.net/v/20200219144008670sbs
-13,POLITICAL,4,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-14,CLICKBAIT,3,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-15,CLICKBAIT,3,allkpop.com,'BVLGARI' event that Lisa was scheduled to attend is canceled due to the Coronavirus,https://www.allkpop.com/article/2020/02/bvlgari-event-that-lisa-was-scheduled-to-attend-is-canceled-due-to-the-coronavirus
-16,CLICKBAIT,3,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-17,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-18,POLITICAL,3,oglobo.globo.com,É #FAKE que tigela de água com alho recém-fervida cura o coronavírus,https://oglobo.globo.com/fato-ou-fake/e-fake-que-tigela-de-agua-com-alho-recem-fervida-cura-coronavirus-1-24308518?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-19,POLITICAL,3,oglobo.globo.com,"Coronavírus: novidade no Brasil, implante de chips é aposta da Medicina",https://oglobo.globo.com/sociedade/coronavirus-novidade-no-brasil-implante-de-chips-aposta-da-medicina-24312618?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-20,POLITICAL,2,newsweek.com,,https://www.newsweek.com/starting-5-impeachment-arguments-zion-williamson-debut-conversion-therapy-ban-coronavirus-1483308
+1,CONSPIRACY/JUNKSCI,19,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+2,FAKE/HOAX,5,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+3,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+4,FAKE/HOAX,2,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+5,FAKE/HOAX,2,rt.com,Error 404,http://on.rt.com/a9vh
+6,FAKE/HOAX,2,dailymail.co.uk,,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html?ito=amp_twitter_share-related
+7,FAKE/HOAX,2,rt.com,Clucking hell! New outbreak of BIRD FLU sees thousands of chickens culled in coronavirus-stricken China,https://on.rt.com/aa9r
+8,FAKE/HOAX,2,rt.com,,https://on.rt.com/aa8s
+9,FAKE/HOAX,2,presstv.com,'2nd US coronavirus death signals undetected spread',https://www.presstv.com/detail/2020/03/02/619945/us-coronavirus-washington
+10,CONSPIRACY/JUNKSCI,2,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+11,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+12,FAKE/HOAX,1,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+13,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+14,FAKE/HOAX,1,rt.com,"Chinese health chiefs warn coronavirus is growing ‘stronger’, MUTATION closely monitored by scientists",https://on.rt.com/a9rf
+15,FAKE/HOAX,1,rt.com,,https://www.rt.com/business/479300-stock-markets-plunge-coronavirus/
+16,FAKE/HOAX,1,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/revolting-footage-shows-chinese-woman-eating-bat-scientists-link
+17,FAKE/HOAX,1,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+18,FAKE/HOAX,1,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/amp/chinas-coronavirus-hospital-opens-today.html?__twitter_impression=true
+19,FAKE/HOAX,1,rt.com,Russia closes its Far East border with China in attempt to prevent spread of new coronavirus,https://on.rt.com/aa1b
+20,FAKE/HOAX,1,reseauinternational.net,Virus 2019-nCoV - La piste de l'arme biologique se précise de plus en plus,https://reseauinternational.net/virus-2019-ncov-la-piste-de-larme-biologique-se-precise-de-plus-en-plus/

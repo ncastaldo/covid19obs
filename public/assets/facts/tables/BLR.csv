@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,11,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,6,cnn.com,New coronavirus cases in California and Oregon are second and third of unknown origin in US,https://www.cnn.com/2020/02/28/health/coronavirus-us-updates-california-patient/index.html
-3,POLITICAL,6,msnbc.com,Dr. Fauci: Coronavirus now at 'outbreak' and 'likely pandemic proportions',https://www.msnbc.com/msnbc/watch/dr-fauci-coronavirus-now-at-outbreak-and-likely-pandemic-proportions-79827013761
-4,POLITICAL,5,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-5,POLITICAL,4,rappler.com,World,http://rappler.com/world
-6,POLITICAL,4,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-7,POLITICAL,4,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-8,POLITICAL,4,cnn.com,Anderson Cooper speaks to a man with coronavirus - CNN Video,https://www.cnn.com/videos/health/2020/03/06/cooper-speaks-with-coronavirus-patient-town-hall-gupta-sot-ac360-vpx.cnn
-9,CONSPIRACY/JUNKSCI,3,zerohedge.com,10 Very Important Questions That The Mainstream Media Should Be Asking About This Coronavirus Outbreak,https://www.zerohedge.com/geopolitical/10-very-important-questions-mainstream-media-should-be-asking-about-coronavirus
-10,POLITICAL,3,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-11,CLICKBAIT,3,koreaboo.com,BLACKPINK's March Comeback Has Reportedly Been Postponed Due To Coronavirus,https://www.koreaboo.com/news/blackpinks-march-comeback-reportedly-postponed-due-coronavirus-covid-19/
-12,POLITICAL,2,thepostmillennial.com,Quebec politician praises coronavirus for reducing carbon footprint in Wuhan,https://www.thepostmillennial.com/quebec-politician-praises-coronavirus-for-reducing-carbon-footprint-in-wuhan/
-13,CLICKBAIT,2,allkpop.com,NCT Dream and SF9 fans demand their labels take action to keep artists out of China due to the coronavirus,https://www.allkpop.com/article/2020/01/nct-dream-and-sf9-fans-demand-their-labels-take-action-to-keep-artists-out-of-china-due-to-the-coronavirus
-14,CONSPIRACY/JUNKSCI,2,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
-15,CLICKBAIT,2,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-16,POLITICAL,2,cnn.com,Japan quarantines cruise ship after passenger diagnosed with Wuhan coronavirus,https://www.cnn.com/2020/02/04/asia/coronavirus-japan-cruise-intl-hnk/index.html
-17,POLITICAL,2,cnn.com,"Other countries should ""jump on this"" to prevent coronavirus spread, health expert says ",https://www.cnn.com/asia/live-news/coronavirus-outbreak-02-24-20-hnk-intl/h_06ebecdfae27a16fd5400a8f8f2f3d53
-18,POLITICAL,2,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-19,POLITICAL,2,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
-20,FAKE/HOAX,2,express.co.uk,Coronavirus Canary Wharf: Man collapses coughing in shopping centre as people 'run away',https://www.express.co.uk/news/uk/1247688/coronavirus-canary-wharf-london-latest-update-man-coughing-collapse-video-chevron
+1,CONSPIRACY/JUNKSCI,3,zerohedge.com,10 Very Important Questions That The Mainstream Media Should Be Asking About This Coronavirus Outbreak,https://www.zerohedge.com/geopolitical/10-very-important-questions-mainstream-media-should-be-asking-about-coronavirus
+2,CONSPIRACY/JUNKSCI,2,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+3,FAKE/HOAX,2,express.co.uk,Coronavirus Canary Wharf: Man collapses coughing in shopping centre as people 'run away',https://www.express.co.uk/news/uk/1247688/coronavirus-canary-wharf-london-latest-update-man-coughing-collapse-video-chevron
+4,FAKE/HOAX,1,express.co.uk,Coronavirus hell: Doctor dies as nurse reveals horror fighting on frontline of outbreak,https://www.express.co.uk/news/world/1233376/coronavirus-news-outbreak-china-hospitals-pandemic-outbreak-wuhan-who
+5,FAKE/HOAX,1,gnews.org,,https://gnews.org/89749/
+6,CONSPIRACY/JUNKSCI,1,zerohedge.com,Some Practical Questions About The Coronavirus Epidemic,https://www.zerohedge.com/health/some-practical-questions-about-coronavirus-epidemic
+7,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Latest: Over 2,800 Global Cases Resulting in 80 Fatalities",https://www.zerohedge.com/geopolitical/third-us-coronavirus-case-confirmed-orange-county
+8,FAKE/HOAX,1,rt.com,"Dozens of drugs available to treat ‘coronavirus,’ but global pandemic possible by March – Moscow experts",https://www.rt.com/russia/479293-coronavirus-epidemic-possible-march-russia/
+9,CONSPIRACY/JUNKSCI,1,zerohedge.com,Is The Market Grossly Underestimating The Potential Impact Of The Coronavirus Epidemic?,https://www.zerohedge.com/markets/market-grossly-underestimating-potential-impact-coronavirus-epidemic
+10,CONSPIRACY/JUNKSCI,1,activistpost.com,,https://www.activistpost.com/2020/01/did-bill-gates-world-economic-forum-predict-coronavirus-outbreak-an-inside-look-may-shock-you.html
+11,CONSPIRACY/JUNKSCI,1,zerohedge.com,Doctor Copper Catches Coronavirus With Worst Performance In 34 Years,https://www.zerohedge.com/markets/doctor-copper-catche-coronavirus-worst-performance-34-years
+12,FAKE/HOAX,1,rt.com,US tariffs will remain no matter what coronavirus does to China's economy – US trade advisor,https://www.rt.com/business/479562-us-tariffs-china-coronavirus/
+13,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+14,FAKE/HOAX,1,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+15,CONSPIRACY/JUNKSCI,1,eutimes.net,,https://www.eutimes.net/2020/01/romania-develops-coronavirus-vaccine-able-to-cure-white-people-only/
+16,CONSPIRACY/JUNKSCI,1,zerohedge.com,Wuhan Begins Human Trials Of New Gilead Coronavirus Vaccine,https://www.zerohedge.com/markets/wuhan-begins-human-trials-new-gilead-coronavirus-vaccine
+17,CONSPIRACY/JUNKSCI,1,zerohedge.com,"It Ain't Over Yet... Projecting ""Wave 2"" And ""Wave 3"" Of The Coronavirus Pandemic",https://www.zerohedge.com/health/it-aint-over-yet-projecting-wave-2-and-wave-3-coronavirus-pandemic
+18,FAKE/HOAX,1,rt.com,,https://www.rt.com/op-ed/479970-coronavirus-china-wuhan-hysteria-racist/amp/?__twitter_impression=true
+19,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Will Whack 2% From Global GDP Growth In Q1: Goldman,https://www.zerohedge.com/economics/coronavirus-will-whack-2-global-gdp-growth-q1-goldman
+20,CONSPIRACY/JUNKSCI,1,zerohedge.com,Scientists Warn: You Can Contract The Coronavirus More Than Once,https://www.zerohedge.com/health/scientists-warn-you-can-contract-coronavirus-more-once

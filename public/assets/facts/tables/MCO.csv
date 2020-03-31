@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,2,rappler.com,World,http://rappler.com/world
-2,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/31zqyum
-3,POLITICAL,2,liberoquotidiano.it,"Coronavirus, l'esperto americano: ""Verso la pandemia, ecco perché il caldo non lo fermerà""",https://www.liberoquotidiano.it/news/scienze---tech/13564874/coronavirus-esperto-americano-verso-pandemia-caldo-non-lo-fermera.html
-4,POLITICAL,2,bfmtv.com,Coronavirus: les Hôpitaux de Paris lancent un appel aux dons sur Facebook,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
-5,FAKE/HOAX,1,dailymail.co.uk,Deadly coronavirus 'could ALREADY be in Britain',https://www.dailymail.co.uk/health/article-7915845/killer-chinese-coronavirus-probably-way-britain.html
-6,POLITICAL,1,cnn.com,CNN crew scrambles to flee Wuhan before lockdown - CNN Video,https://www.cnn.com/videos/world/2020/01/23/china-wuhan-coronavirus-lockdown-culver-jiang-nr-vpx.cnn
-7,POLITICAL,1,eluni.mx,¿Cómo se transmite el coronavirus o virus de Wuhan?,http://eluni.mx/rlzbbli28
-8,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30nokkd
-9,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rofpah
-10,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30r6m07
-11,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2ntf91i
-12,POLITICAL,1,liberoquotidiano.it,"Coronavirus, l'ex militare isrealiano: ""A Wuhan il laboratorio di armi biologiche"". Migliaia di morti?",https://www.liberoquotidiano.it/news/esteri/13556737/coronavirus-wuhan-programma-segreto-armi-batteriologiche-militare-israeliano-sospetto-contagio.html
-13,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Pandemic Simulation Run 3 Months Ago Predicts 65 Million People Could Die,https://www.zerohedge.com/health/coronavirus-pandemic-simulation-run-3-months-ago-predicts-65-million-people-could-die
-14,CONSPIRACY/JUNKSCI,1,voxnews.info,"Coronavirus: cinese ‘infetta’ in Italia, autogrill in quarantena sulla Firenze mare",https://voxnews.info/2020/01/28/coronavirus-cinese-infetta-autogrill-in-quarantena-sulla-firenze-mare/
-15,POLITICAL,1,rappler.com,Philippines confirms 1st case of novel coronavirus,https://www.rappler.com/nation/186633-philippines-confirms-case-novel-coronavirus?utm_medium=social&utm_source=twitter#echobox=1580371766
-16,CONSPIRACY/JUNKSCI,1,voxnews.info,"Coronavirus, cinesi sbarcati oggi a Roma: controlli farsa,nessuna quarantena – VIDEO",https://voxnews.info/2020/01/31/coronavirus-cinesi-sbarcati-oggi-a-roma-nessuna-quarantena-video/
-17,POLITICAL,1,liberoquotidiano.it,"Massimo Giannini a Otto e mezzo: ""Coronavirus? Il vero untore è Salvini. Sono perplesso dai suoi elettori""",https://www.liberoquotidiano.it/news/personaggi/13559350/coronavirus-massimo-giannini-otto-mezzo-untore-salvini-elettori-leghisti-lilli-gruber.html
-18,POLITICAL,1,ilmessaggero.it,"Coronavirus, bomba-Africa pronta a scoppiare: controlli speciali sugli sbarchi di migranti",https://www.ilmessaggero.it/salute/focus/coronavirus_africa_ultime_notizie_migranti-5025018.html
-19,POLITICAL,1,gizmodo.com,That Video of Farts Captured by Thermal Cameras Looking For Coronavirus is Totally Fake,https://gizmodo.com/that-video-of-farts-captured-by-thermal-cameras-looking-1841442780
-20,POLITICAL,1,dailysabah.com,Thailand 'cures' coronavirus with anti-HIV drug cocktail in 48 hours,https://www.dailysabah.com/health/2020/02/02/thailand-cures-coronavirus-with-anti-hiv-drug-cocktail-in-48-hours
+1,FAKE/HOAX,1,dailymail.co.uk,Deadly coronavirus 'could ALREADY be in Britain',https://www.dailymail.co.uk/health/article-7915845/killer-chinese-coronavirus-probably-way-britain.html
+2,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Pandemic Simulation Run 3 Months Ago Predicts 65 Million People Could Die,https://www.zerohedge.com/health/coronavirus-pandemic-simulation-run-3-months-ago-predicts-65-million-people-could-die
+3,CONSPIRACY/JUNKSCI,1,voxnews.info,"Coronavirus: cinese ‘infetta’ in Italia, autogrill in quarantena sulla Firenze mare",https://voxnews.info/2020/01/28/coronavirus-cinese-infetta-autogrill-in-quarantena-sulla-firenze-mare/
+4,CONSPIRACY/JUNKSCI,1,voxnews.info,"Coronavirus, cinesi sbarcati oggi a Roma: controlli farsa,nessuna quarantena – VIDEO",https://voxnews.info/2020/01/31/coronavirus-cinesi-sbarcati-oggi-a-roma-nessuna-quarantena-video/
+5,FAKE/HOAX,1,rt.com,,https://on.rt.com/aamf
+6,FAKE/HOAX,1,dailymail.co.uk,Did coronavirus originate in Chinese government laboratory?,https://www.dailymail.co.uk/news/article-8009669/did-coronavirus-originate-chinese-government-laboratory.html
+7,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/cronaca/coronavirus-2-500-cinesi-stanno-per-arrivare-in-toscana-dopo-il-capodanno-in-patria-146206/
+8,CONSPIRACY/JUNKSCI,1,voxnews.info,"Coronavirus, medico ignorato: “Clandestini sbarcano ancora senza controlli” – VIDEO",https://voxnews.info/2020/02/18/coronavirus-medico-ignorato-clandestini-sbarcano-ancora-senza-controlli-video/
+9,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/politica/coronavirus-salvini-denuncia-presidente-toscana-rischio-salute-146839/
+10,CONSPIRACY/JUNKSCI,1,voxnews.info,Coronavirus: bloccato volo che doveva portare di nascosto clandestini africani in Italia,https://voxnews.info/2020/02/24/coronavirus-bloccato-volo-che-doveva-portare-di-nascosto-clandestini-africani-in-italia/
+11,CONSPIRACY/JUNKSCI,1,imolaoggi.it,"Coronavirus, la Casta si protegge: scattano misure al Senato - Imola Oggi",http://www.imolaoggi.it/2020/02/25/coronavirus-la-casta-si-protegge-scattano-misure-al-senato/
+12,CONSPIRACY/JUNKSCI,1,voxnews.info,"Coronavirus:”Era mio papà, non il ‘paziente 1’: ucciso dai protocolli”",https://voxnews.info/2020/02/26/coronavirusera-mio-papa-non-il-paziente-uno-ucciso-dai-protocolli/
+13,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/cronaca/coronavirus-meluzzi-avverte-vi-spiego-cosa-ce-dietro-laumento-dei-contagi-video-147680/
+14,FAKE/HOAX,1,dailymail.co.uk,"Coronavirus '1,000 times more infectious than SARS, scientists warn",https://www.dailymail.co.uk/health/article-8055401/coronavirus-1-000-times-infectious-sars-scientists-warn.html
+15,CONSPIRACY/JUNKSCI,1,imolaoggi.it,"Coronavirus, Meluzzi: lettini con ventilazione forzata mancheranno - Imola Oggi",https://www.imolaoggi.it/2020/03/01/coronavirus-meluzzi-lettini-con-ventilazione-forzata-mancheranno/
+16,CONSPIRACY/JUNKSCI,1,voxnews.info,"Coronavirus, africano caga in ospedale mentre viene sanificato – FOTO",https://voxnews.info/2020/03/03/coronavirus-africano-caga-in-ospedale-mentre-viene-sanificato/
+17,FAKE/HOAX,1,sputniknews.com,Nobel-Winning Economist Warns Canada to ‘Stay Away’ From TPP,https://sptnkne.ws/bapg
+18,CONSPIRACY/JUNKSCI,1,imolaoggi.it,"Coronavirus, Berlusconi dona 10 milioni a Regione Lombardia - Imola Oggi",http://www.imolaoggi.it/2020/03/17/coronavirus-berlusconi-dona-10-milioni-a-regione-lombardia/
+19,CONSPIRACY/JUNKSCI,1,imolaoggi.it,"La UE non esiste più, se non come bancomat di Germania e Francia - Imola Oggi",http://www.imolaoggi.it/2020/03/23/coronavirus-ue-non-esiste-piu-se-non-come-bancomat-germania-francia/
+20,CONSPIRACY/JUNKSCI,1,imolaoggi.it,"Coronavirus, 110 Economisti italiani scrivono atto d’accusa contro Lagarde e von der Leyen - Imola Oggi",http://www.imolaoggi.it/2020/03/27/coronavirus-110-economisti-italiani-scrivono-atto-daccusa-contro-lagarde-e-von-der-leyen/

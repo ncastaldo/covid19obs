@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,13,thepeninsulaqatar.com,Qatar reports first case of coronavirus,https://thepeninsulaqatar.com/article/29/02/2020/qatar-reports-first-case-of-coronavirus
-2,POLITICAL,8,thepeninsulaqatar.com,Qatar suspends schools and universities due to coronavirus,https://thepeninsulaqatar.com/article/09/03/2020/qatar-suspends-schools-and-universities-due-to-coronavirus
-3,CLICKBAIT,7,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-4,POLITICAL,6,rappler.com,World,http://rappler.com/world
-5,POLITICAL,6,thepeninsulaqatar.com,"Ministry reports another coronavirus case in Qatar, taking total to 8","https://thepeninsulaqatar.com/article/03/03/2020/ministry-reports-another-coronavirus-case-in-qatar,-taking-total-to-8"
-6,FAKE/HOAX,5,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
-7,POLITICAL,5,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-8,POLITICAL,4,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36atbqt
-9,POLITICAL,4,aajtak.intoday.in,"कोरोना वायरस: पाकिस्तान की इकोनॉमी को खतरा, 5 बिलियन डॉलर का हो सकता है नुकसान",https://aajtak.intoday.in/story/corona-virus-pakistan-economy-gdp-imran-khan-adb-report-1-1169955.html
-10,POLITICAL,4,thepeninsulaqatar.com,The Peninsula Qatar,"https://thepeninsulaqatar.com/article/21/03/2020/qatar-prohibits-public-gatherings,-even-in-cars-additional-measures-to-combat-covid19"
-11,FAKE/HOAX,3,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
-12,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2gvfl2s
-13,CLICKBAIT,3,soompi.com,"Super Junior Donates 10,000 Masks To Children And Youth For Coronavirus Prevention",https://www.soompi.com/article/1380061wpp/super-junior-donates-10000-masks-to-children-and-youth-for-coronavirus-prevention
-14,CLICKBAIT,3,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-15,CONSPIRACY/JUNKSCI,3,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-16,POLITICAL,3,thepeninsulaqatar.com,Qatar reports first case of coronavirus,http://www.thepeninsulaqatar.com/article/29/02/2020/qatar-reports-first-case-of-coronavirus
-17,POLITICAL,3,thepeninsulaqatar.com,Two more Coronavirus cases reported in Qatar,https://thepeninsulaqatar.com/article/01/03/2020/two-more-coronavirus-cases-reported-in-qatar
-18,POLITICAL,3,thepeninsulaqatar.com,238 new coronavirus cases reported in Qatar: Ministry,https://thepeninsulaqatar.com/article/11/03/2020/238-new-coronavirus-cases-reported-in-qatar-ministry
-19,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tu0d1h
-20,CLICKBAIT,2,allkpop.com,NCT Dream and SF9 fans demand their labels take action to keep artists out of China due to the coronavirus,https://www.allkpop.com/article/2020/01/nct-dream-and-sf9-fans-demand-their-labels-take-action-to-keep-artists-out-of-china-due-to-the-coronavirus
+1,FAKE/HOAX,5,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
+2,FAKE/HOAX,3,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+3,CONSPIRACY/JUNKSCI,3,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+4,FAKE/HOAX,2,rt.com,City turned ghost town: Take a look inside sealed-off Wuhan amid coronavirus outbreak in China (VIDEO),https://on.rt.com/a9wi
+5,FAKE/HOAX,2,rt.com,Clucking hell! New outbreak of BIRD FLU sees thousands of chickens culled in coronavirus-stricken China,https://on.rt.com/aa9r
+6,FAKE/HOAX,2,express.co.uk,Coronavirus LIVE: Two die after contracting DEADLY virus on board Japanese cruise ship,https://www.express.co.uk/news/uk/1244288/coronavirus-uk-latest-update-disease-outbreak-london-deaths-cruise-diamond-princess
+7,FAKE/HOAX,2,rt.com,,https://on.rt.com/ab8t
+8,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+9,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/latest-news/deadly-coronavirus-could-already-uk-21336004
+10,FAKE/HOAX,1,summit.news,Videos Show Chinese People Eating Bats As Experts Link Animal to Coronavirus Outbreak,https://summit.news/2020/01/23/videos-show-chinese-people-eating-bats-as-experts-link-animal-to-coronavirus-outbreak/
+11,FAKE/HOAX,1,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/amp/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html?__twitter_impression=true
+12,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+13,FAKE/HOAX,1,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
+14,FAKE/HOAX,1,rt.com,Did patient zero really catch new Chinese virus by eating infected bat soup? It’s actually perfectly possible,https://on.rt.com/a9lh
+15,FAKE/HOAX,1,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html?ito=amp_twitter_share-top
+16,FAKE/HOAX,1,dailymail.co.uk,Eerie similarities between movie Contagion and coronavirus outbreak,https://www.dailymail.co.uk/news/article-7923315/fans-movie-contagion-point-eerie-similarities-coronavirus-outbreak.html
+17,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+18,FAKE/HOAX,1,breitbart.com,Arizona Resident is Fifth Coronavirus Case in U.S.,https://www.breitbart.com/politics/2020/01/26/arizona-resident-5th-coronavirus-case-u-s/
+19,FAKE/HOAX,1,summit.news,Philippines to Deport 500 Chinese People to Prevent to Spread of Coronavirus,https://summit.news/2020/01/27/philippines-to-deport-500-chinese-people-to-prevent-to-spread-of-coronavirus/
+20,FAKE/HOAX,1,rt.com,Error 404,http://on.rt.com/a9vh

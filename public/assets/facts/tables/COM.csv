@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,36,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,12,newsweek.com,,https://www.newsweek.com/new-york-subway-attack-coronavirus-woman-mask-1485842
-3,POLITICAL,11,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-4,POLITICAL,9,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-5,POLITICAL,9,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-6,POLITICAL,9,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-7,POLITICAL,8,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-8,FAKE/HOAX,8,dailymail.co.uk,Daniel Dae Kim says antimalarial drug aided coronavirus recovery,https://www.dailymail.co.uk/tvshowbiz/article-8139205/losts-daniel-dae-kim-51-credits-antimalarial-drug-secret-weapon-against-coronavirus.html
-9,CONSPIRACY/JUNKSCI,7,globalresearch.ca,5G Danger: 13 Reasons 5G Wireless Technology Will Be a Catastrophe for Humanity - Global Research,https://globalresearch.ca/5g-danger-13-reasons-5g-wireless-technology-will-be-a-catastrophe-for-humanity/5680503
-10,POLITICAL,7,cnn.com,China is disinfecting and destroying cash to contain the coronavirus,https://www.cnn.com/2020/02/17/asia/china-is-disinfecting-cash-coronavirus-intl-hnk-scli/index.html
-11,POLITICAL,7,cnn.com,Apple needs a 5G iPhone now more than ever,https://www.cnn.com/2020/02/20/tech/apple-coronavirus-5g-iphone/index.html
-12,POLITICAL,7,cnn.com,Is coronavirus Donald Trump's Katrina?,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
-13,CONSPIRACY/JUNKSCI,6,nationalfile.com,,https://nationalfile.com/exclusive-usa-still-accepting-packages-from-wuhan-china-despite-coronavirus-quarantine/
-14,FAKE/HOAX,6,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-15,CONSPIRACY/JUNKSCI,6,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-16,POLITICAL,6,ussanews.com,,https://ussanews.com/news1/2020/03/10/mit-scientist-claims-coronavirus-is-a-deep-state-fraud/
-17,CONSPIRACY/JUNKSCI,5,zerohedge.com,"China Virus Cases Almost Double Overnight, Deaths Top 100 As North Korea Closes Border",https://www.zerohedge.com/geopolitical/wuhan-mayor-offers-resign-coronavirus-death-toll-accelerates-supply-shortages
-18,POLITICAL,5,rappler.com,World,http://rappler.com/world
-19,POLITICAL,5,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-20,FAKE/HOAX,5,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+1,FAKE/HOAX,8,dailymail.co.uk,Daniel Dae Kim says antimalarial drug aided coronavirus recovery,https://www.dailymail.co.uk/tvshowbiz/article-8139205/losts-daniel-dae-kim-51-credits-antimalarial-drug-secret-weapon-against-coronavirus.html
+2,CONSPIRACY/JUNKSCI,7,globalresearch.ca,5G Danger: 13 Reasons 5G Wireless Technology Will Be a Catastrophe for Humanity - Global Research,https://globalresearch.ca/5g-danger-13-reasons-5g-wireless-technology-will-be-a-catastrophe-for-humanity/5680503
+3,CONSPIRACY/JUNKSCI,6,nationalfile.com,,https://nationalfile.com/exclusive-usa-still-accepting-packages-from-wuhan-china-despite-coronavirus-quarantine/
+4,FAKE/HOAX,6,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+5,CONSPIRACY/JUNKSCI,6,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+6,CONSPIRACY/JUNKSCI,5,infowars.com,Bill and Melinda Gates Foundation & Others Predicted Up To 65 Million Deaths Via Coronavirus – In Simulation Ran 3 Months Ago!,https://www.infowars.com/bill-and-melinda-gates-foundation-others-predicted-up-to-65-million-deaths-via-coronavirus-in-simulation-ran-3-months-ago/
+7,CONSPIRACY/JUNKSCI,5,zerohedge.com,"China Virus Cases Almost Double Overnight, Deaths Top 100 As North Korea Closes Border",https://www.zerohedge.com/geopolitical/wuhan-mayor-offers-resign-coronavirus-death-toll-accelerates-supply-shortages
+8,FAKE/HOAX,5,gnews.org,,https://gnews.org/89749/
+9,FAKE/HOAX,5,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+10,CONSPIRACY/JUNKSCI,4,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+11,CONSPIRACY/JUNKSCI,4,zerohedge.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon,https://www.zerohedge.com/health/creator-bioweapons-act-says-coronavirus-biological-warfare-weapon
+12,CONSPIRACY/JUNKSCI,4,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+13,FAKE/HOAX,3,theblaze.com,Viral video of 'whistleblower' nurse suggests the coronavirus outbreak is much worse than Chinese gov't admits,https://www.theblaze.com/news/viral-video-of-whistleblower-nurse-suggests-the-coronavirus-outbreak-is-much-worse-than-chinese-govt-admits
+14,CONSPIRACY/JUNKSCI,3,zerohedge.com,Number Of Coronavirus Cases Surpasses SARS As China Holds 60k Under 'Observation',https://www.zerohedge.com/geopolitical/china-curbs-travel-hong-kong-sends-6000-medics-hubei-death-toll-soars
+15,FAKE/HOAX,3,thelastamericanvagabond.com,"Bats, Gene Editing and Bioweapons: Recent DARPA Experiments Raise Concerns Amid Coronavirus Outbreak",https://www.thelastamericanvagabond.com/top-news/bats-gene-editing-bioweapons-recent-darpa-experiments-raise-concerns-amid-coronavirus-outbreak/
+16,FAKE/HOAX,3,dailymail.co.uk,Thailand claims coronavirus break-through: Patient now 'disease-free',https://www.dailymail.co.uk/news/article-7957889/thai-medics-claim-coronavirus-break-patient-declared-disease-free-48-hours.html
+17,CONSPIRACY/JUNKSCI,3,truepundit.com,Hero Chinese doctor -- harassed by police after warning about coronavirus -- has died from the virus – True Pundit,https://truepundit.com/hero-chinese-doctor-harassed-by-police-after-warning-about-coronavirus-has-died-from-the-virus/
+18,CONSPIRACY/JUNKSCI,3,zerohedge.com,The Lies We Are Being Told About The Coronavirus,https://www.zerohedge.com/geopolitical/lies-we-are-being-told-about-coronavirus
+19,CONSPIRACY/JUNKSCI,3,naturalnews.com,"Coronavirus found to have up to 24-day incubation period; CDC releasing Wuhan evacuees in Texas, Nebraska and California after just 14 days",https://www.naturalnews.com/2020-02-11-coronavirus-found-to-have-up-to-24-day-incubation-cdc-releasing-evacuees-after-just-14.html
+20,FAKE/HOAX,3,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/

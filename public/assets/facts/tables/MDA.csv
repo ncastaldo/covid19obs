@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,12,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-2,CLICKBAIT,7,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,CLICKBAIT,4,soompi.com,2PM’s Wooyoung Discharged Few Days Early As Part Of Military Protocol To Combat COVID-19,https://www.soompi.com/article/1384929wpp/2pms-wooyoung-discharged-few-days-early-as-part-of-military-protocol-to-combat-covid-19
-4,POLITICAL,4,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-5,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
-6,POLITICAL,3,telegraph.co.uk,,https://www.telegraph.co.uk/news/2020/01/28/denmark-refuses-apologise-china-coronavirus-cartoon/amp/
-7,SATIRE,3,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-8,POLITICAL,3,rawstory.com,Stephen Miller’s new wife is in charge of approving all coronavirus communications,https://www.rawstory.com/2020/02/stephen-millers-new-wife-is-in-charge-of-approving-all-coronavirus-communications/
-9,CLICKBAIT,3,allkpop.com,2PM's Junho donates 30 million KRW for coronavirus relief efforts,https://www.allkpop.com/article/2020/03/2pms-junho-donates-30-million-krw-for-coronavirus-relief-efforts
-10,POLITICAL,3,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-11,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2takacx
-12,POLITICAL,2,thesun.co.uk,China BLOCKS UK from airlifting Brits trapped in coronavirus-plagued Wuhan,https://www.thesun.co.uk/news/10825868/china-blocks-uk-from-airlifting-brits/
-13,POLITICAL,2,oann.com,,https://www.oann.com/johnson-johnson-to-create-coronavirus-vaccine/
-14,CLICKBAIT,2,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-15,CLICKBAIT,2,allkpop.com,2PM Wooyoung's military discharge event for fans cancelled due to Coronavirus concerns,https://www.allkpop.com/article/2020/02/2pm-wooyoungs-military-discharge-event-for-fans-cancelled-due-to-coronavirus-concerns
-16,POLITICAL,2,dailykos.com,Did Trump Fire the US Pandemic Response Team?,https://www.dailykos.com/stories/2020/2/27/1922419/-did-trump-fire-the-us-pandemic-response-team
-17,POLITICAL,2,vox.com,It’s not overreacting to prepare for coronavirus. Here’s how.,https://www.vox.com/future-perfect/2020/2/28/21156128/coronavirus-prepare-outbreak-covid19-health
-18,CLICKBAIT,2,koreaboo.com,MNH Entertainment Confirms 2 Of Chungha's Staff Have Corona19 (COVID-19),https://www.koreaboo.com/news/mnh-entertainment-confirms-2-chungha-staff-corona19-covid-19/
-19,FAKE/HOAX,2,n.news.naver.com,"2PM 준호, 군복무 중 코로나19 확산 방지 위해 3천만원 기부",https://n.news.naver.com/entertain/now/article/609/0000253824
-20,CLICKBAIT,2,entertain.v.daum.net,BTS 슈가 1억 기부에 팬들 성금만 5억..'선한 영향력' 시너지,https://entertain.v.daum.net/v/20200305112918512
+1,FAKE/HOAX,2,n.news.naver.com,"2PM 준호, 군복무 중 코로나19 확산 방지 위해 3천만원 기부",https://n.news.naver.com/entertain/now/article/609/0000253824
+2,FAKE/HOAX,2,summit.news,Coronavirus Patient Zero in Italy Was Pakistani Migrant Who Refused to Self-Isolate,https://summit.news/2020/03/05/coronavirus-patient-zero-in-italy-was-pakistani-migrant-who-refused-to-self-isolate/
+3,FAKE/HOAX,1,summit.news,Professor Warns New Coronavirus Has Same Kill Rate as the Spanish Flu,https://summit.news/2020/01/22/professor-warns-new-coronavirus-has-same-kill-rate-as-the-spanish-flu/
+4,CONSPIRACY/JUNKSCI,1,zerohedge.com,China Is Already Blaming A Slowdown In 2020 On The Coronavirus Epidemic,https://www.zerohedge.com/economics/china-already-blaming-slowdown-2020-coronavirus-epidemic
+5,FAKE/HOAX,1,newsmax.com,CDC: 1st Case of Deadly China Virus Hits US; More Expected,https://www.newsmax.com/newsfront/wuhan-coronavirus-china-washington/2020/01/21/id/950662/
+6,FAKE/HOAX,1,express.co.uk,Coronavirus outbreak: China seals off SECOND major city - 18m people on lockdown,https://www.express.co.uk/news/world/1232244/coronavirus-outbreak-china-huanggang-wuhan-coronavirus-spread-latest
+7,FAKE/HOAX,1,dailymail.co.uk,Chinese city will 'build a dedicated coronavirus hospital in SIX DAYS',https://www.dailymail.co.uk/news/article-7920937/chinese-city-build-dedicated-coronavirus-hospital-six-days.html
+8,FAKE/HOAX,1,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+9,FAKE/HOAX,1,rt.com,38 infected coronavirus patients CURED in China as epidemic rages on,https://on.rt.com/a9po
+10,FAKE/HOAX,1,rt.com,Chinese doctor battling coronavirus on ‘front line’ of outbreak epicenter in Hubei dies as death toll hits 41,https://on.rt.com/a9pl
+11,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Kills Man In Shanghai As China Confirms Nearly 2,000 Cases",https://www.zerohedge.com/political/56-million-chinese-lockdown-virus-spreads-australia-malaysia
+12,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/everyone-infected-nurse-corpse-strewn-21353270
+13,FAKE/HOAX,1,allnewspipeline.com,,http://allnewspipeline.com/prepping_for_coronavirus_12_monkeys_captain_trips.php
+14,FAKE/HOAX,1,dailymail.co.uk,"Nurse treating coronavirus in China claims 90,000 people are infected",https://www.dailymail.co.uk/news/article-7929657/nurse-treating-coronavirus-sufferers-china-claims-90-000-people-infected.html?ito=amp_twitter_share-top
+15,FAKE/HOAX,1,rt.com,,https://on.rt.com/a9s3
+16,FAKE/HOAX,1,breaking911.com,Virginia Dept. Of Health Investigating 3 Potential Cases Of Coronavirus - Breaking911,https://breaking911.com/breaking-virginia-dept-of-health-investigating-3-potential-cases-of-coronavirus/
+17,FAKE/HOAX,1,theblaze.com,Medical simulation shows shocking number of people could die of coronavirus in just 18 months,https://www.theblaze.com/news/medical-simulation-shows-shocking-number-of-people-could-die-of-coronavirus-in-just-18-months
+18,CONSPIRACY/JUNKSCI,1,zerohedge.com,This Is How China Is Hiding The True Number Of Coronavirus Deaths,https://www.zerohedge.com/economics/how-china-hiding-true-number-coronavirus-deaths
+19,FAKE/HOAX,1,rt.com,,https://on.rt.com/a9tw
+20,FAKE/HOAX,1,breitbart.com,California Case of Coronavirus Revealed: Three Now Confirmed in U.S.,https://www.breitbart.com/health/2020/01/26/calfornia-case-of-coronavirus-revealed-three-now-confirmed-in-u-s/

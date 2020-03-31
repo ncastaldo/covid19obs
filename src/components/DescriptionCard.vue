@@ -13,7 +13,7 @@
       </v-card-title>
       <v-card-actions class="pt-1">
         <a
-          href="assets/files/COVID19_INFODEMICS_REPORT.pdf"
+          href="assets/static_files/COVID19_INFODEMICS_REPORT.pdf"
           download
         >
           <div class="outline-it mx-2 px-2">
@@ -21,7 +21,7 @@
             <v-img
               contain
               width="180"
-              src="/assets/img/report.png"
+              src="/assets/static_img/report.png"
               alt="report"
             />
           </div>

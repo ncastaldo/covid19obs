@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,6,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-2,POLITICAL,3,rappler.com,World,http://rappler.com/world
-3,CLICKBAIT,2,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
-4,CONSPIRACY/JUNKSCI,2,truepundit.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon – True Pundit,https://truepundit.com/creator-of-us-bioweapons-act-says-coronavirus-is-biological-warfare-weapon/
-5,POLITICAL,2,es.rt.com,Se eleva a más de 900 el número de víctimas mortales por el coronavirus,https://es.rt.com/7cby
-6,POLITICAL,2,bfmtv.com,"En Chine, répondre à un tweet sur le coronavirus peut mener à une arrestation",https://www.bfmtv.com/tech/en-chine-repondre-a-un-tweet-sur-le-coronavirus-peut-mener-a-une-arrestation-1864369.html
-7,SATIRE,2,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-8,POLITICAL,2,bfmtv.com,Coronavirus: Macron demande aux personnes « de plus de 70 ans » de rester à leur domicile,https://www.bfmtv.com/societe/coronavirus-macron-demande-aux-personnes-de-plus-de-70-ans-de-rester-a-leur-domicile-1874025.html
-9,POLITICAL,1,eldiario.es,Descartados los dos posibles casos de coronavirus que Sanidad estudiaba en España,https://www.eldiario.es/sociedad/sanidad-estudia-coronavirus-probabilidad-positivo_0_988301685.html
-10,POLITICAL,1,actualidad.rt.com,Pocos querrán saber lo que se vendía en el mercado chino con el que vinculan el brote en humanos del nuevo coronavirus,https://actualidad.rt.com/actualidad/340852-no-querras-saber-vendia-mercado-chino-coronavirus
-11,POLITICAL,1,fr.sputniknews.com,Un troisième cas de coronavirus confirmé en France,https://fr.sputniknews.com/france/202001241042957023-un-troisieme-cas-de-coronavirus-confirme-en-france/
-12,POLITICAL,1,es.rt.com,FOTO: Publican las primeras imágenes del mortal coronavirus originado en China,https://es.rt.com/7b1c
-13,FAKE/HOAX,1,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
-14,POLITICAL,1,thesun.co.uk,Correction: Coronavirus,https://www.thesun.co.uk/news/10812276/coronavirus-china-virus-bat-soup?utm_source=twitter&utm_medium=social&utm_campaign=sharebarweb
-15,FAKE/HOAX,1,ripostelaique.com,À bas le coronavirus migratoire et islamique ! - Riposte Laïque,https://ripostelaique.com/a-bas-le-coronavirus-migratoire-et-islamique.html
-16,FAKE/HOAX,1,reseauinternational.net,Coïncidence ? Le seul labo capable de traiter les coronavirus en Chine est à Wuhan,https://reseauinternational.net/coincidence-le-seul-labo-capable-de-traiter-les-coronavirus-en-chine-est-a-wuhan/?fbclid=iwar2revbzsifpd7xauoalo-1m5cpyhwgbtozhfy6ulcee9wlq0_joxqf9xs8
-17,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37xfdjd
-18,FAKE/HOAX,1,dreuz.info,"#Coronavirus : une Française en Chine témoigne : il faut être informé, sans mensonge",https://www.dreuz.info/2020/01/26/coronavirus-une-francaise-en-chine-temoigne-il-faut-etre-informe-sans-mensonge/
-19,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3amksuv
-20,POLITICAL,1,bfmtv.com,Coronavirus: le prix des masques chirurgicaux flambe de 150% sur Amazon,https://www.bfmtv.com/economie/coronavirus-le-prix-des-masques-chirurgicaux-flambe-de-150percent-sur-amazon-1847999.html#page/contribution/index
+1,CONSPIRACY/JUNKSCI,2,truepundit.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon – True Pundit,https://truepundit.com/creator-of-us-bioweapons-act-says-coronavirus-is-biological-warfare-weapon/
+2,FAKE/HOAX,1,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+3,FAKE/HOAX,1,reseauinternational.net,Coïncidence ? Le seul labo capable de traiter les coronavirus en Chine est à Wuhan,https://reseauinternational.net/coincidence-le-seul-labo-capable-de-traiter-les-coronavirus-en-chine-est-a-wuhan/?fbclid=iwar2revbzsifpd7xauoalo-1m5cpyhwgbtozhfy6ulcee9wlq0_joxqf9xs8
+4,FAKE/HOAX,1,ripostelaique.com,À bas le coronavirus migratoire et islamique ! - Riposte Laïque,https://ripostelaique.com/a-bas-le-coronavirus-migratoire-et-islamique.html
+5,FAKE/HOAX,1,dreuz.info,"#Coronavirus : une Française en Chine témoigne : il faut être informé, sans mensonge",https://www.dreuz.info/2020/01/26/coronavirus-une-francaise-en-chine-temoigne-il-faut-etre-informe-sans-mensonge/
+6,FAKE/HOAX,1,albertonews.com,"""Sería un holocausto de la salud"", FMV alerta que Venezuela no está preparada para afrontar el coronavirus - AlbertoNews - Periodismo sin censura",https://albertonews.com/nacionales/fmv-alerta-que-venezuela-no-esta-preparada-para-afrontar-una-crisis-epidemiologica-como-el-coronavirus/
+7,FAKE/HOAX,1,rt.com,"First two cases of coronavirus confirmed in Russia, both Chinese citizens",https://on.rt.com/aa5v
+8,FAKE/HOAX,1,dreuz.info,#Coronavirus : que cache la Chine ?,https://www.dreuz.info/2020/02/04/coronavirus-que-cache-la-chine/
+9,FAKE/HOAX,1,sputniknews.com,'Abnormal' Russia-US Relations Haven't Reached Cold War Chill,https://sptnkne.ws/bqqn
+10,CONSPIRACY/JUNKSCI,1,zerohedge.com,The Lessons We Have Learned From The Coronavirus So Far...,https://www.zerohedge.com/geopolitical/lessons-we-have-learned-coronavirus-so-far
+11,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Harvard Expert Warns, Coronavirus Likely Just Now ""Gathering Steam""",https://www.zerohedge.com/geopolitical/harvard-expert-warns-coronavirus-likely-just-now-gathering-steam
+12,FAKE/HOAX,1,ladbible.com,Head of Wuhan Hospital Dies Of Covid-19,https://www.ladbible.com/news/news-head-of-wuhan-hospital-dies-of-covid-19-20200217?source=twitter
+13,FAKE/HOAX,1,dreuz.info,#Coronavirus : celui par qui la théorie du complot est partie rompt le silence,https://www.dreuz.info/2020/02/19/coronavirus-celui-par-qui-la-theorie-du-complot-est-partie-rompt-le-silence/
+14,FAKE/HOAX,1,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
+15,CONSPIRACY/JUNKSCI,1,prepareforchange.net,C.I.A. PATENT US7220852B1 - CORONAVIRUS AKA SARS,https://prepareforchange.net/2020/01/24/c-i-a-patent-us7220852b1-coronavirus-aka-sars/
+16,FAKE/HOAX,1,ripostelaique.com,Je préfère le coronavirus à l'islamovirus - Riposte Laïque,https://ripostelaique.com/je-prefere-etre-emporte-par-le-coronavirus-plutot-que-par-lislamovirus.html
+17,CONSPIRACY/JUNKSCI,1,zerohedge.com,"China Reports Catastrophic Data: PMIs Crash To Record Low, Confirming Coronavirus Collapse",https://www.zerohedge.com/economics/china-reports-catastrophic-data-manufacturing-non-mfg-pmis-crash-record-lows
+18,FAKE/HOAX,1,thegatewaypundit.com,SICK! Media Falsely Accuses Trump of Saying Coronavirus is a Hoax,https://www.thegatewaypundit.com/2020/02/sick-media-falsely-accuses-trump-of-saying-coronavirus-is-a-hoax/
+19,FAKE/HOAX,1,ripostelaique.com,"Coronavirus : cette fois, le pire est possible... - Riposte Laïque",https://ripostelaique.com/coronavirus-cette-fois-le-pire-est-possible.html
+20,FAKE/HOAX,1,ripostelaique.com,Le 49-3 en plein coronavirus : du grand art ! - Riposte Laïque,https://ripostelaique.com/le-49-3-en-plein-coronavirus-du-grand-art.html

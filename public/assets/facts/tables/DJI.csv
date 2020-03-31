@@ -1,21 +1,10 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,10,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-2,CLICKBAIT,7,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-3,CLICKBAIT,3,soompi.com,Staff Member Of Popular Singer Reportedly Tests Positive For Novel Coronavirus,https://www.soompi.com/article/1385621wpp/staff-member-of-popular-singer-reportedly-tests-positive-for-novel-coronavirus
-4,CLICKBAIT,3,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-5,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2turdtj
-6,FAKE/HOAX,2,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
-7,CLICKBAIT,2,entertain.v.daum.net,"[단독] 레드벨벳 웬디, 코로나19 성금 1억 기부..부상 중에도 빛난 선행",https://entertain.v.daum.net/v/20200228150259906
-8,CLICKBAIT,2,allkpop.com,Pledis confirms Minhyun tested negative for coronavirus,https://www.allkpop.com/article/2020/03/pledis-confirms-minhyun-tested-negative-for-coronavirus
-9,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30kibjh
-10,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30neizg
-11,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rko8i0
-12,POLITICAL,1,bfmtv.com,"Coronavirus chinois: trois cas confirmés en France, à Bordeaux et Paris",https://www.bfmtv.com/sante/agnes-buzyn-confirme-deux-cas-de-patients-francais-infectes-par-le-coronavirus-1846867.html
-13,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2sqd7mc
-14,FAKE/HOAX,1,dailymail.co.uk,Hospital in China flooded with patients amid coronavirus outbreak,https://www.dailymail.co.uk/news/article-7921709/shocking-footage-shows-hospital-china-flooded-hundreds-patients-amid-coronavirus-outbreak.html?ito=social-facebook
-15,POLITICAL,1,thesun.co.uk,Bill Gates ‘predicted’ how coronavirus-like pandemic could spread killing 33 MILLION,https://www.thesun.co.uk/news/10814760/bill-gates-predicted-coronavirus-simulation-33-million-die/
-16,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38k42o4
-17,CLICKBAIT,1,allkpop.com,"Kim Woo Seok opens Twitter account, delays fan meeting due to Coronavirus",https://www.allkpop.com/article/2020/01/kim-woo-seok-opens-twitter-account-delays-fan-meeting-due-to-coronavirus
-18,POLITICAL,1,thedailybeast.com,QAnon-ers’ Magic Cure for Coronavirus: Just Drink Bleach!,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
-19,POLITICAL,1,rappler.com,World,http://rappler.com/world
-20,FAKE/HOAX,1,reseauinternational.net,Virus 2019-nCoV - La piste de l'arme biologique se précise de plus en plus,https://reseauinternational.net/virus-2019-ncov-la-piste-de-larme-biologique-se-precise-de-plus-en-plus/
+1,FAKE/HOAX,2,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
+2,FAKE/HOAX,1,dailymail.co.uk,Hospital in China flooded with patients amid coronavirus outbreak,https://www.dailymail.co.uk/news/article-7921709/shocking-footage-shows-hospital-china-flooded-hundreds-patients-amid-coronavirus-outbreak.html?ito=social-facebook
+3,FAKE/HOAX,1,reseauinternational.net,Virus 2019-nCoV - La piste de l'arme biologique se précise de plus en plus,https://reseauinternational.net/virus-2019-ncov-la-piste-de-larme-biologique-se-precise-de-plus-en-plus/
+4,FAKE/HOAX,1,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+5,FAKE/HOAX,1,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+6,FAKE/HOAX,1,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
+7,FAKE/HOAX,1,presstv.com,Coronavirus was produced in a laboratory: Former CIA intel officer,https://www.presstv.com/detail/2020/03/05/620213/coronavirus-was-produced-in-a-laboratory
+8,FAKE/HOAX,1,presstv.com,China does not rule out US role in coronavirus outbreak,https://www.presstv.com/detail/2020/03/13/620769/china-geng-shuang-coronavirus-outbreak-us
+9,FAKE/HOAX,1,firstpost.com,"Coronavirus Outbreak: China must pay for its cover-ups over spread of Covid-19, and its bullying - Firstpost",https://www.firstpost.com/health/coronavirus-outbreak-china-must-pay-for-its-cover-ups-over-spread-of-covid-19-and-its-bullying-8189191.html

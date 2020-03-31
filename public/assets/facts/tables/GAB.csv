@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,7,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,SATIRE,5,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-3,POLITICAL,5,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-4,POLITICAL,4,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-5,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tzyezs
-6,CLICKBAIT,3,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
-7,POLITICAL,3,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-8,CLICKBAIT,3,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-9,POLITICAL,3,bfmtv.com,Coronavirus: les Hôpitaux de Paris lancent un appel aux dons sur Facebook,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
-10,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
-11,FAKE/HOAX,2,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-12,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/breaking-brits-back-coronavirus-hit-21372347
-13,POLITICAL,2,bfmtv.com,Coronavirus: le prix des masques chirurgicaux flambe de 150% sur Amazon,https://www.bfmtv.com/economie/coronavirus-le-prix-des-masques-chirurgicaux-flambe-de-150percent-sur-amazon-1847999.html#page/contribution/index
-14,POLITICAL,2,rappler.com,Philippines confirms 1st case of novel coronavirus,https://www.rappler.com/nation/186633-philippines-confirms-case-novel-coronavirus?utm_medium=social&utm_source=twitter#echobox=1580371766
-15,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vpnoha
-16,CLICKBAIT,2,entertain.v.daum.net,"방탄소년단, 24일 컴백 기자간담회 개최 ""에어커튼+열감지카메라로 코로나 방지""",https://entertain.v.daum.net/v/20200217103305396
-17,FAKE/HOAX,2,theconservativetreehouse.com,White House Trade Advisor Peter Navarro Discusses Coronavirus as an Actual and Economic Contagion…,https://theconservativetreehouse.com/2020/02/24/white-house-trade-advisor-peter-navarro-discusses-coronavirus-as-an-actual-and-economic-contagion/
-18,FAKE/HOAX,2,westernjournal.com,"Numbers Show Coronavirus Appears Far Less Deadly Than Flu, But Gov't, Media Keep Promoting Panic",https://www.westernjournal.com/numbers-show-coronavirus-appears-far-less-deadly-flu-govt-media-keep-promoting-panic/
-19,POLITICAL,2,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-20,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+1,FAKE/HOAX,2,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+2,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/breaking-brits-back-coronavirus-hit-21372347
+3,FAKE/HOAX,2,theconservativetreehouse.com,White House Trade Advisor Peter Navarro Discusses Coronavirus as an Actual and Economic Contagion…,https://theconservativetreehouse.com/2020/02/24/white-house-trade-advisor-peter-navarro-discusses-coronavirus-as-an-actual-and-economic-contagion/
+4,FAKE/HOAX,2,westernjournal.com,"Numbers Show Coronavirus Appears Far Less Deadly Than Flu, But Gov't, Media Keep Promoting Panic",https://www.westernjournal.com/numbers-show-coronavirus-appears-far-less-deadly-flu-govt-media-keep-promoting-panic/
+5,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+6,FAKE/HOAX,2,thegatewaypundit.com,Calls Grow to Quarantine Senator Chris Murphy after Secret Meeting with Coronavirus Carriers from Iranian Regime,https://www.thegatewaypundit.com/2020/03/calls-grow-to-quarantine-senator-chris-murphy-after-secret-meeting-with-coronavirus-carriers-from-iranian-regime/
+7,FAKE/HOAX,2,thegatewaypundit.com,JUST IN: Second Senator Dumped Millions in Stock After Private Coronavirus Briefing,https://www.thegatewaypundit.com/2020/03/just-in-second-senator-dumped-millions-in-stock-after-private-coronavirus-briefing/
+8,FAKE/HOAX,2,breitbart.com,Four Swing-State Senate Dems Voted Against Coronavirus Relief for American Workers,https://www.breitbart.com/politics/2020/03/23/four-swing-state-senate-democrats-voted-against-coronavirus-relief-for-american-workers/amp/?__twitter_impression=true
+9,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/amp/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html?__twitter_impression=true
+10,CONSPIRACY/JUNKSCI,1,off-guardian.org,,https://off-guardian.org/2020/01/24/reality-check-coronavirus-fear-porn/?__cf_chl_jschl_tk__=38793f649e5a6416627fa3c90076b97950772583-1580054512-0-abgx6uv86b1ndjbnktlm1w1pchcigxep6mqijvrb_gycdvgererroeasbq9g9v2vcwujnrxbthbabeg9oeyoc90l0wzpg0vbhejzjzpejcf1eu7wyhcqdhfgcbjp3zpyerpasnv7blq_3lwk-6c9qlanteoc1cpjuilyhd0dbs6ffcjjpbbspzr-c3htpqu-gi1tnqtxihmicqrbot1nebnxuymgs1ucl5t5eql6qmc5rqkwyu__nb3ipp2spsk2tmoiv4b8qqx8gpg56wgume4cootdc76_xxngy2xee6iau1mk_wlja6u33lymxsjmmvxmvvyii94xmgudcqknosw
+11,CONSPIRACY/JUNKSCI,1,zerohedge.com,"5 Million Potential Carriers Have Left Wuhan As Coronavirus Appears To Mutate Into ""More Transmissable"" Form",https://www.zerohedge.com/economics/5-million-potential-corona-carriers-have-left-wuhan-virus-appears-mutate-more
+12,CONSPIRACY/JUNKSCI,1,zerohedge.com,Philippines To Deport 500 Chinese People To Prevent Spread Of Coronavirus,https://www.zerohedge.com/geopolitical/philippines-deport-500-chinese-people-prevent-spread-coronavirus
+13,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/coronavirus-panic-china-parents-abandon-21353335
+14,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/china-coronavirus-spread-through-eyes-21351718
+15,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/coronavirus-doomsday-blood-coughing-victims-21356120
+16,FAKE/HOAX,1,thegatewaypundit.com,"“90,000 Infected”: Chinese Nurse Claims Coronavirus Outbreak In Wuhan Is MUCH WORSE Than Reported (VIDEO)",https://www.thegatewaypundit.com/2020/01/90000-infected-chinese-nurse-claims-coronavirus-outbreak-in-wuhan-is-much-worse-than-reported-video/
+17,FAKE/HOAX,1,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+18,CONSPIRACY/JUNKSCI,1,zerohedge.com,The Ship Has Literally Sailed: Carnival Admits To Coronavirus Case 6 Days After Cruise,https://www.zerohedge.com/geopolitical/ship-has-literally-sailed-carnival-admits-coronavirus-case-6-days-after-cruise
+19,FAKE/HOAX,1,rt.com,"China coronavirus death toll passes 800 with 34,000+ confirmed cases worldwide",https://on.rt.com/aanr
+20,CONSPIRACY/JUNKSCI,1,beholdisrael.org,Chinese Official Announces that Coronavirus is Airborne - Behold Israel,https://beholdisrael.org/chinese-government-announces-that-coronavirus-is-airborne/

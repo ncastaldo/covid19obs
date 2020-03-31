@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,21,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,10,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-3,CLICKBAIT,7,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-4,POLITICAL,6,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-5,POLITICAL,5,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-6,POLITICAL,5,change.org,Sign the Petition,https://www.change.org/p/president-rodrigo-duterte-covid-19-mass-testing-in-ph-now-our-demand-to-the-duterte-government?utm_content=cl_sharecopy_20881536_en-us%3av3&recruiter=1059042669&recruited_by_id=fb583da0-6c02-11ea-be80-3b8107ed50d4&utm_source=share_petition&utm_medium=copylink&utm_campaign=psf_combo_share_abi
-7,CLICKBAIT,4,allkpop.com,"BTS’s V Shows Concern, Urges Fans To Be Careful Of The Coronavirus.",https://www.allkpop.com/article/2020/01/btss-v-shows-concerns-urges-fans-to-be-careful-of-the-coronavirus
-8,FAKE/HOAX,4,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-9,CLICKBAIT,4,soompi.com,Chungha Donates Masks For Coronavirus Prevention To Children In Need On Her Birthday,https://www.soompi.com/article/1382066wpp/chungha-donates-masks-for-coronavirus-prevention-to-children-in-need-on-her-birthday
-10,POLITICAL,4,thesun.co.uk,North Korea deals with coronavirus by EXECUTING patient,https://www.thesun.co.uk/news/10958147/north-korea-executes-coronavirus-patient/
-11,POLITICAL,4,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
-12,SATIRE,4,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-13,CLICKBAIT,4,allkpop.com,EXO's Suho donates 50 million KRW to aid coronavirus relief efforts,https://www.allkpop.com/article/2020/03/exos-suho-donates-50-million-krw-to-aid-coronavirus-relief-efforts
-14,POLITICAL,3,rappler.com,World,http://rappler.com/world
-15,POLITICAL,3,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-16,POLITICAL,3,eluni.mx,"Inhumano, negar entrada de crucero por sospecha de coronavirus: AMLO",http://eluni.mx/g1v-arkhb
-17,FAKE/HOAX,3,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-18,CLICKBAIT,3,koreaboo.com,MNH Entertainment Confirms 2 Of Chungha's Staff Have Corona19 (COVID-19),https://www.koreaboo.com/news/mnh-entertainment-confirms-2-chungha-staff-corona19-covid-19/
-19,POLITICAL,3,foxnews.com,,https://www.foxnews.com/media/john-price-coronavirus-vaccine-greffex.amp?__twitter_impression=true
-20,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rhqfif
+1,FAKE/HOAX,4,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+2,FAKE/HOAX,3,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+3,CONSPIRACY/JUNKSCI,2,zerohedge.com,"China Virus Cases Almost Double Overnight, Deaths Top 100 As North Korea Closes Border",https://www.zerohedge.com/geopolitical/wuhan-mayor-offers-resign-coronavirus-death-toll-accelerates-supply-shortages
+4,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-prohibe-a-11-millones-de-ciudadanos-salir-de-wuhan-donde-se-origino-el-nuevo-coronavirus/
+5,FAKE/HOAX,1,breaking911.com,Suspected Case Of Novel Coronavirus Being Investigated In Texas; Patient Being Isolated In Home - Breaking911,https://breaking911.com/breaking-suspected-case-of-novel-coronavirus-being-investigated-in-texas-patient-being-isolated-in-home/
+6,FAKE/HOAX,1,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
+7,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/hospital-de-1-000-camas-en-seis-dias-china-construye-en-tiempo-record-centro-para-tratar-el-coronavirus-fotosvideo/
+8,CONSPIRACY/JUNKSCI,1,endoftheamericandream.com,Just A Coincidence? A U.S. Patent For 'An Attenuated Coronavirus' Was Filed In 2015 And Granted In 2018,http://endoftheamericandream.com/archives/just-a-coincidence-a-u-s-patent-for-an-attenuated-coronavirus-was-filed-in-2015-and-granted-in-2018
+9,CONSPIRACY/JUNKSCI,1,dcclothesline.com,Coincidence? A U.S. Patent For ‘An Attenuated Coronavirus’ Was Filed In 2015 And Granted In 2018 - DC Clothesline,https://www.dcclothesline.com/2020/01/24/coincidence-a-u-s-patent-for-an-attenuated-coronavirus-was-filed-in-2015-and-granted-in-2018/
+10,FAKE/HOAX,1,allnewspipeline.com,,http://allnewspipeline.com/is_coronavirus_a_concern_here_in_america.php
+11,FAKE/HOAX,1,rt.com,38 infected coronavirus patients CURED in China as epidemic rages on,https://on.rt.com/a9po
+12,FAKE/HOAX,1,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+13,CONSPIRACY/JUNKSCI,1,dcclothesline.com,"Bill Gates funded the PIRBRIGHT institute, which owns the patent on coronavirus - DC Clothesline",https://www.dcclothesline.com/2020/01/28/bill-gates-funded-the-pirbright-institute-which-owns-the-patent-on-coronavirus/
+14,CONSPIRACY/JUNKSCI,1,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+15,FAKE/HOAX,1,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+16,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+17,FAKE/HOAX,1,rt.com,,https://on.rt.com/aad1
+18,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China's Tencent Accidentally Leak The True Terrifying Coronavirus Statistics,https://www.zerohedge.com/health/did-chinas-tencent-accidentally-leak-true-terrifying-coronavirus-statistics
+19,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Ignored To Protect Stock Market Rally,https://www.zerohedge.com/markets/coronavirus-ignored-protect-stock-market-rally
+20,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/regimen-de-corea-del-norte-ejecuto-a-un-funcionario-que-violo-la-cuarentena-por-el-coronavirus/

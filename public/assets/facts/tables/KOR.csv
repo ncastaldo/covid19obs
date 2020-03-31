@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,230,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-2,POLITICAL,129,newsweek.com,,https://www.newsweek.com/new-york-subway-attack-coronavirus-woman-mask-1485842
-3,CLICKBAIT,127,koreaboo.com,Baekhyun Praised For His Adorable Yet Smart Methods To Preventing The Coronavirus,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
-4,CLICKBAIT,112,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-5,CLICKBAIT,109,soompi.com,BTS’s Fans ARMY Donate Refunds From Concert Cancelation To Help Coronavirus Prevention,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
-6,CLICKBAIT,107,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-7,CLICKBAIT,105,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-8,CLICKBAIT,99,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-9,POLITICAL,80,vox.com,America’s shamefully slow coronavirus testing threatens all of us,https://www.vox.com/science-and-health/2020/3/12/21175034/coronavirus-covid-19-testing-usa
-10,CLICKBAIT,78,koreaboo.com,MNH Entertainment Confirms 2 Of Chungha's Staff Have Corona19 (COVID-19),https://www.koreaboo.com/news/mnh-entertainment-confirms-2-chungha-staff-corona19-covid-19/
-11,CLICKBAIT,78,entertain.v.daum.net,BTS 슈가 1억 기부에 팬들 성금만 5억..'선한 영향력' 시너지,https://entertain.v.daum.net/v/20200305112918512
-12,CLICKBAIT,75,allkpop.com,"BTS’s V Shows Concern, Urges Fans To Be Careful Of The Coronavirus.",https://www.allkpop.com/article/2020/01/btss-v-shows-concerns-urges-fans-to-be-careful-of-the-coronavirus
-13,CLICKBAIT,72,allkpop.com,NCT Dream and SF9 fans demand their labels take action to keep artists out of China due to the coronavirus,https://www.allkpop.com/article/2020/01/nct-dream-and-sf9-fans-demand-their-labels-take-action-to-keep-artists-out-of-china-due-to-the-coronavirus
-14,CLICKBAIT,70,entertain.v.daum.net,,http://entertain.v.daum.net/v/20200219144008670sbs
-15,CLICKBAIT,68,entertain.v.daum.net,"엑소 레이, 코로나19 사태에 2천만원 의미 있는 기부..""우리는 하나"" [단독]",https://entertain.v.daum.net/v/20200228165328313
-16,POLITICAL,65,rappler.com,World,http://rappler.com/world
-17,CLICKBAIT,64,allkpop.com,EXO's Suho donates 50 million KRW to aid coronavirus relief efforts,https://www.allkpop.com/article/2020/03/exos-suho-donates-50-million-krw-to-aid-coronavirus-relief-efforts
-18,CLICKBAIT,64,allkpop.com,Kai becomes latest EXO member to make big donation on behalf of coronavirus relief,https://www.allkpop.com/article/2020/03/kai-becomes-latest-exo-member-to-make-big-donation-on-behalf-of-coronavirus-relief
-19,CLICKBAIT,61,allkpop.com,Pledis confirms Minhyun tested negative for coronavirus,https://www.allkpop.com/article/2020/03/pledis-confirms-minhyun-tested-negative-for-coronavirus
-20,CLICKBAIT,58,entertain.v.daum.net,"[단독] 레드벨벳 웬디, 코로나19 성금 1억 기부..부상 중에도 빛난 선행",https://entertain.v.daum.net/v/20200228150259906
+1,FAKE/HOAX,58,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+2,FAKE/HOAX,48,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+3,FAKE/HOAX,45,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+4,FAKE/HOAX,40,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+5,FAKE/HOAX,37,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+6,FAKE/HOAX,33,dailymail.co.uk,Woman brutally bashed by thugs who accused her of having coronavirus,https://www.dailymail.co.uk/news/article-8149901/south-korean-woman-27-brutally-bashed-racist-thugs-accused-having-coronavirus.html
+7,FAKE/HOAX,21,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
+8,CONSPIRACY/JUNKSCI,19,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+9,FAKE/HOAX,19,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+10,FAKE/HOAX,17,n.news.naver.com,"2PM 준호, 군복무 중 코로나19 확산 방지 위해 3천만원 기부",https://n.news.naver.com/entertain/now/article/609/0000253824
+11,FAKE/HOAX,16,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
+12,FAKE/HOAX,12,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/?from=groupmessage&isappinstalled=0
+13,FAKE/HOAX,9,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+14,FAKE/HOAX,9,presstv.com,Coronavirus was produced in a laboratory: Former CIA intel officer,https://www.presstv.com/detail/2020/03/05/620213/coronavirus-was-produced-in-a-laboratory
+15,CONSPIRACY/JUNKSCI,8,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+16,FAKE/HOAX,8,n.news.naver.com,"[단독] 슈퍼주니어 은혁, 코로나19 성금 1억 원 기부 ""의료진에 도움되길""",https://n.news.naver.com/entertain/article/052/0001407888
+17,FAKE/HOAX,7,n.news.naver.com,"‘또또또 선행’ 위너 김진우, 코로나19에 1천만원 기부(공식)",https://n.news.naver.com/entertain/article/609/0000253852
+18,FAKE/HOAX,6,dailymail.co.uk,Chinese city will 'build a dedicated coronavirus hospital in SIX DAYS',https://www.dailymail.co.uk/news/article-7920937/chinese-city-build-dedicated-coronavirus-hospital-six-days.html
+19,FAKE/HOAX,6,dailymail.co.uk,Chinese put swastika on Danish flag over coronavirus flag row,https://www.dailymail.co.uk/news/article-7948913/chinese-swastika-danish-flag-pm-refuses-apologise-coronavirus-china-flag.html
+20,FAKE/HOAX,6,n.news.naver.com,"빅히트 측 “방탄소년단 3월 토크쇼 행사 잠정연기, 코로나19 확산 방지”(공식)",https://n.news.naver.com/entertain/now/article/609/0000252147

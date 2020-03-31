@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,155,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
-2,CLICKBAIT,92,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,POLITICAL,78,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37zvbvy
-4,POLITICAL,57,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tgtsjy
-5,POLITICAL,56,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vzqpse
-6,POLITICAL,46,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3942kes
-7,POLITICAL,33,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rhqfif
-8,POLITICAL,31,es.rt.com,Corea del Sur anuncia que el coronavirus se está propagando por el este del país,https://es.rt.com/7d3m
-9,POLITICAL,31,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vk19fr
-10,POLITICAL,29,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39zx6c5
-11,POLITICAL,27,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
-12,POLITICAL,25,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39enong
-13,POLITICAL,23,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-14,POLITICAL,22,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2wytqij
-15,POLITICAL,19,es.rt.com,Japón confirma 61 casos de coronavirus en el crucero en cuarentena en Yokohama,https://es.rt.com/7c5j
-16,POLITICAL,17,cnn.it,Hospital confirma muerte del doctor que advirtió del coronavirus,https://cnn.it/39f0c6q
-17,POLITICAL,17,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-18,POLITICAL,14,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-19,POLITICAL,14,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39ng0a2
-20,FAKE/HOAX,13,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+1,FAKE/HOAX,13,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+2,FAKE/HOAX,6,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
+3,FAKE/HOAX,5,gnews.org,,https://gnews.org/89749/
+4,FAKE/HOAX,5,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+5,CONSPIRACY/JUNKSCI,4,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+6,FAKE/HOAX,4,rt.com,"First two cases of coronavirus confirmed in Russia, both Chinese citizens",https://on.rt.com/aa5v
+7,CONSPIRACY/JUNKSCI,4,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+8,FAKE/HOAX,4,dailymail.co.uk,China admits it has no idea how many people have coronavirus in Wuhan,https://www.dailymail.co.uk/news/article-8001011/amp/china-admits-no-idea-people-infected-coronavirus-wuhan.html?ito=amp_twitter_share-top&__twitter_impression=true
+9,CONSPIRACY/JUNKSCI,4,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+10,FAKE/HOAX,4,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+11,FAKE/HOAX,4,n.news.naver.com,"2PM 준호, 군복무 중 코로나19 확산 방지 위해 3천만원 기부",https://n.news.naver.com/entertain/now/article/609/0000253824
+12,FAKE/HOAX,3,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-prohibe-a-11-millones-de-ciudadanos-salir-de-wuhan-donde-se-origino-el-nuevo-coronavirus/
+13,FAKE/HOAX,3,rt.com,Did patient zero really catch new Chinese virus by eating infected bat soup? It’s actually perfectly possible,https://on.rt.com/a9lh
+14,FAKE/HOAX,3,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+15,FAKE/HOAX,3,albertonews.com,,https://albertonews.com/internacionales/el-coronavirus-puede-infectar-desde-una-distancia-de-2-metros-y-a-traves-de-los-ojos/
+16,FAKE/HOAX,3,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html?ito=amp_twitter_share-top
+17,FAKE/HOAX,3,vdare.com,Do You Know All Coronavirus Victims Appear To Be Chinese? Thought Not! | Articles,https://vdare.com/articles/do-you-know-all-coronavirus-victims-appear-to-be-chinese-thought-not
+18,FAKE/HOAX,3,dailystar.co.uk,,https://www.dailystar.co.uk/news/latest-news/breaking-north-korea-executes-coronavirus-21488604
+19,FAKE/HOAX,3,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-se-confirma-primer-caso-de-colombiano-con-coronavirus/
+20,FAKE/HOAX,3,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/

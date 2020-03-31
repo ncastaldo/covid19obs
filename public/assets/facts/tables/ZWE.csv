@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
 1,FAKE/HOAX,32,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
-2,CLICKBAIT,29,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,CONSPIRACY/JUNKSCI,24,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-4,CLICKBAIT,10,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-5,POLITICAL,9,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-6,POLITICAL,8,today.ng,"CDC: To be safe from coronavirus, shave your beard - TODAY",https://www.today.ng/i/207948
-7,CLICKBAIT,6,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/volunteers-infected-coronavirus-3500-bid-21655442?utm_source=facebook.com&utm_medium=social&utm_campaign=mirror_main
-8,POLITICAL,5,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
-9,POLITICAL,5,rappler.com,World,http://rappler.com/world
-10,SATIRE,5,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-11,FAKE/HOAX,5,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-12,CONSPIRACY/JUNKSCI,4,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-13,POLITICAL,4,mol.im,Coronavirus: All the essential information you need,https://mol.im/a/8067521
-14,POLITICAL,3,thesun.co.uk,Coronavirus ground zero 'is now a zombieland with dead lying in streets',https://www.thesun.co.uk/news/10808633/coronavirus-wuhan-zombieland/?utm_medium=social&utm_campaign=sunmaintwitter&utm_source=twitter#echobox=1579860087
-15,CLICKBAIT,3,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-medics-wearing-adult-nappies-21361297?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar
-16,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3ajhzzs
-17,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3akwdqb
-18,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36zbnqq
-19,FAKE/HOAX,3,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/amp/chinas-coronavirus-hospital-opens-today.html?__twitter_impression=true
-20,POLITICAL,3,rappler.com,Philippines confirms 1st case of novel coronavirus,https://www.rappler.com/nation/186633-philippines-confirms-case-novel-coronavirus?utm_medium=social&utm_source=twitter#echobox=1580371766
+2,CONSPIRACY/JUNKSCI,24,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+3,FAKE/HOAX,5,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+4,CONSPIRACY/JUNKSCI,4,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+5,FAKE/HOAX,3,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/amp/chinas-coronavirus-hospital-opens-today.html?__twitter_impression=true
+6,FAKE/HOAX,3,dailymail.co.uk,15-minute coronavirus test is being used in China - but NOT in the UK,https://www.dailymail.co.uk/news/article-8083585/15-minute-coronavirus-blood-test-used-china-italy-japan-not-uk.html
+7,FAKE/HOAX,2,breaking911.com,Suspected Case Of Novel Coronavirus Being Investigated In Texas; Patient Being Isolated In Home - Breaking911,https://breaking911.com/breaking-suspected-case-of-novel-coronavirus-being-investigated-in-texas-patient-being-isolated-in-home/
+8,FAKE/HOAX,2,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+9,FAKE/HOAX,2,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+10,FAKE/HOAX,2,express.co.uk,Coronavirus CURE? China says new treatment tested on nurses 'successful',https://www.express.co.uk/news/world/1233644/coronavirus-china-virus-vaccine-treatment-cure-symptoms
+11,CONSPIRACY/JUNKSCI,2,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+12,FAKE/HOAX,2,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html?ito=facebook_share_article-top
+13,CONSPIRACY/JUNKSCI,2,cbn.com,'This Situation Is so Critical': A Chinese Pastor's Message to Christians From Ground Zero of the Coronavirus,https://www1.cbn.com/cbnnews/cwn/2020/january/this-situation-is-so-critical-a-chinese-pastors-message-to-christians-from-ground-zero-of-the-coronavirus?cid=eu_cwn-20200131-prod_dm38574&bid=841598385&inid=c5db370e-1955-40ed-97e8-e489e9eafa65
+14,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/latest-news/breaking-five-british-nationals-test-21455199
+15,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+16,FAKE/HOAX,2,rt.com,"Coronavirus death toll in Italy rises to 366 from 233 in one day, most cases in Lombardy",https://on.rt.com/ace6
+17,FAKE/HOAX,2,rt.com,,https://on.rt.com/ace7
+18,FAKE/HOAX,2,breitbart.com,Pollak: Democrats Pushed Impeachment While Coronavirus Spread,https://www.breitbart.com/politics/2020/03/13/pollak-democrats-pushed-impeachment-while-coronavirus-spread/
+19,CONSPIRACY/JUNKSCI,2,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+20,FAKE/HOAX,2,breitbart.com,"Boris Johnson Tests Positive for Coronavirus, Self-Isolating",https://www.breitbart.com/europe/2020/03/27/boris-johnson-tests-positive-for-coronavirus-self-isolating/

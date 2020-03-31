@@ -1,21 +1,14 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,3,rappler.com,World,http://rappler.com/world
-2,POLITICAL,3,today.ng,"CDC: To be safe from coronavirus, shave your beard - TODAY",https://www.today.ng/i/207948
-3,CLICKBAIT,2,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-4,FAKE/HOAX,2,dailymail.co.uk,Did coronavirus originate in Chinese government laboratory?,https://www.dailymail.co.uk/news/article-8009669/did-coronavirus-originate-chinese-government-laboratory.html
-5,POLITICAL,2,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-6,POLITICAL,2,bfmtv.com,Coronavirus: les ventes de La Peste de Camus bondissent,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
-7,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/33ifbbq
-8,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2sqtrub
-9,CONSPIRACY/JUNKSCI,1,nationalfile.com,,https://nationalfile.com/china-live-koalas-wolf-pups-peacocks-and-porcupines-sold-at-market-at-center-of-coronavirus-outbreak/
-10,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36od97m
-11,POLITICAL,1,fr.sputniknews.com,"""Quand on en aura fini avec Daech, nous renterons à la maison"" disent les réfugiés kurdes",https://sptnkne.ws/bg9k
-12,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2ueh0om
-13,FAKE/HOAX,1,express.co.uk,Coronavirus crisis: ‘Global pandemic’ fears as scientists warn vaccine could take a YEAR,https://www.express.co.uk/news/world/1234383/coronavirus-crisis-china-vaccine-johnson-johnson-symptoms-death-toll
-14,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",http://cnn.it/3akwdqb
-15,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rwytn9
-16,FAKE/HOAX,1,rt.com,"‘Wuhan, you can do it!’: Quarantined residents sing from their balconies in stirring VIDEOS",https://on.rt.com/a9vh
-17,CONSPIRACY/JUNKSCI,1,themindunleashed.com,"People Believe the Coronavirus and Corona Beer Are Related, Google Trends Show",https://themindunleashed.com/2020/01/coronavirus-and-corona-beer.html
-18,POLITICAL,1,change.org,Kampanyayı İmzala,https://www.change.org/p/çin-türkiye-arasındaki-uçuşlar-durdurulsun-coronavirus?recruiter=1039381727&utm_source=share_petition&utm_medium=twitter&recruited_by_id=d6f0b140-4295-11ea-93f7-6386a292506f
-19,CLICKBAIT,1,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/coronavirus-uk-brit-bus-driver-21403408
-20,POLITICAL,1,rappler.com,"Filipinos slam gov't, demand China travel ban amid 1st coronavirus case in PH",https://www.rappler.com/nation/250603-netizens-reaction-philippines-coronavirus-case-china-travel-ban?utm_medium=social&utm_source=twitter#echobox=1580387415
+1,FAKE/HOAX,2,dailymail.co.uk,Did coronavirus originate in Chinese government laboratory?,https://www.dailymail.co.uk/news/article-8009669/did-coronavirus-originate-chinese-government-laboratory.html
+2,CONSPIRACY/JUNKSCI,1,nationalfile.com,,https://nationalfile.com/china-live-koalas-wolf-pups-peacocks-and-porcupines-sold-at-market-at-center-of-coronavirus-outbreak/
+3,FAKE/HOAX,1,express.co.uk,Coronavirus crisis: ‘Global pandemic’ fears as scientists warn vaccine could take a YEAR,https://www.express.co.uk/news/world/1234383/coronavirus-crisis-china-vaccine-johnson-johnson-symptoms-death-toll
+4,FAKE/HOAX,1,rt.com,"‘Wuhan, you can do it!’: Quarantined residents sing from their balconies in stirring VIDEOS",https://on.rt.com/a9vh
+5,CONSPIRACY/JUNKSCI,1,themindunleashed.com,"People Believe the Coronavirus and Corona Beer Are Related, Google Trends Show",https://themindunleashed.com/2020/01/coronavirus-and-corona-beer.html
+6,CONSPIRACY/JUNKSCI,1,zerohedge.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon,https://www.zerohedge.com/health/creator-bioweapons-act-says-coronavirus-biological-warfare-weapon
+7,CONSPIRACY/JUNKSCI,1,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+8,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/breaking-disneyland-paris-staff-member-21658888
+9,FAKE/HOAX,1,breitbart.com,Coronavirus: Amsterdam Potheads Panic Buy Weed Before Shops Close,https://www.breitbart.com/europe/2020/03/17/dutch-priorities-amsterdam-potheads-panic-buy-marijuana-as-govt-orders-coronavirus-store-closures/
+10,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/latest-news/coronavirus-london-will-12-hour-21719143?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar
+11,FAKE/HOAX,1,breitbart.com,Turkey Finally Closes Border Over Coronavirus Fears,https://www.breitbart.com/europe/2020/03/20/coronavirus-causes-turkey-close-europe-border/
+12,FAKE/HOAX,1,dailymail.co.uk,The Pope says he has asked God to stop the coronavirus epidemic,https://www.dailymail.co.uk/news/article-8125507/amp/the-pope-says-asked-god-stop-coronavirus-epidemic.html#click=https://t.co/yelnlcm6pd
+13,FAKE/HOAX,1,quillette.com,COVID-19 Science Update for March 21st: What Is Germany Doing Right? - Quillette,https://quillette.com/2020/03/22/covid-19-statistical-and-science-update/

@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,30,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,19,haaretz.com,"Israeli research center to announce it developed coronavirus vaccine, sources say",https://www.haaretz.com/israel-news/.premium-israeli-research-center-to-announce-it-developed-coronavirus-vaccine-sources-say-1.8665074
-3,FAKE/HOAX,17,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-4,POLITICAL,12,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-5,POLITICAL,10,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-6,POLITICAL,10,middleeastmonitor.com,"Coronavirus: Israel closes borders with Syria, Lebanon",https://www.middleeastmonitor.com/20200306-coronavirus-israel-closes-borders-with-syria-lebanon/
-7,POLITICAL,8,bfmtv.com,Coronavirus: Castaner prévient que la violation des règles de confinement sera puni d'une amende de 38 €,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
-8,CLICKBAIT,7,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-9,CONSPIRACY/JUNKSCI,6,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-10,FAKE/HOAX,6,presstv.com,Coronavirus was produced in a laboratory: Former CIA intel officer,https://www.presstv.com/detail/2020/03/05/620213/coronavirus-was-produced-in-a-laboratory
-11,CLICKBAIT,5,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-12,POLITICAL,4,rappler.com,World,http://rappler.com/world
-13,POLITICAL,4,cnn.com,"Gilead Sciences drug remdesivir may help treat coronavirus symptoms, according to WHO",https://www.cnn.com/2020/02/24/investing/gilead-sciences-coronavirus-who-remdesivir/index.html
-14,SATIRE,4,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-15,POLITICAL,4,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-16,CLICKBAIT,4,soompi.com,BTS’s Fans ARMY Donate Refunds From Concert Cancelation To Help Coronavirus Prevention,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
-17,POLITICAL,4,newyorker.com,How Iran Became a New Epicenter of the Coronavirus Outbreak,https://www.newyorker.com/news/our-columnists/how-iran-became-a-new-epicenter-of-the-coronavirus-outbreak
-18,POLITICAL,4,bfmtv.com,Coronavirus: les ventes de La Peste de Camus bondissent,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
-19,CLICKBAIT,4,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/condoms-selling-out-people-put-21628212?fsdfsdf
-20,POLITICAL,4,dailysabah.com,Turkey leading example in fight against coronavirus,https://www.dailysabah.com/turkey/turkey-shining-example-in-fight-against-coronavirus/news
+1,FAKE/HOAX,18,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+2,CONSPIRACY/JUNKSCI,6,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+3,FAKE/HOAX,6,presstv.com,Coronavirus was produced in a laboratory: Former CIA intel officer,https://www.presstv.com/detail/2020/03/05/620213/coronavirus-was-produced-in-a-laboratory
+4,FAKE/HOAX,4,worldnewsdailyreport.com,COVID-19: Chinese health authorities confirm patient zero 'had sex with bats',https://worldnewsdailyreport.com/covid-19-chinese-health-authorities-confirm-patient-zero-had-sex-with-bats/
+5,FAKE/HOAX,3,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html?ito=native_share_article-masthead
+6,FAKE/HOAX,3,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+7,FAKE/HOAX,2,dailymail.co.uk,Donald Trump 'has a plan' to contain killer virus after spread to US,https://www.dailymail.co.uk/health/article-7915601/donald-trump-plan-contain-killer-virus-spread-us.html
+8,FAKE/HOAX,2,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/amp/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html?__twitter_impression=true
+9,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-se-confirma-primer-caso-de-colombiano-con-coronavirus/
+10,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/lo-ultimo-aislan-a-260-personas-por-sospecha-de-coronavirus-en-chile/
+11,FAKE/HOAX,2,n.news.naver.com,"빅히트 측 “방탄소년단 3월 토크쇼 행사 잠정연기, 코로나19 확산 방지”(공식)",https://n.news.naver.com/entertain/now/article/609/0000252147
+12,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/#coronavirus
+13,FAKE/HOAX,2,dailymail.co.uk,The Pope says he has asked God to stop the coronavirus epidemic,https://www.dailymail.co.uk/news/article-8125507/the-pope-says-asked-god-stop-coronavirus-epidemic.html
+14,CONSPIRACY/JUNKSCI,2,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+15,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-prohibe-a-11-millones-de-ciudadanos-salir-de-wuhan-donde-se-origino-el-nuevo-coronavirus/
+16,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/226888/
+17,FAKE/HOAX,1,dailymail.co.uk,Coronavirus fears in Scotland as two Chinese patients in hospital,https://www.dailymail.co.uk/health/article-7920907/coronavirus-fears-scotland-two-chinese-patients-rushed-hospital.html
+18,FAKE/HOAX,1,rt.com,,https://on.rt.com/a9kj
+19,FAKE/HOAX,1,express.co.uk,"Coronavirus LIVE: UK GPs told to LOCK UP suspected victims as 2,000 could be carriers",https://www.express.co.uk/news/world/1232338/coronavirus-latest-news-outbreak-china-huanggang-wuhan-spread-symptoms-uk
+20,FAKE/HOAX,1,express.co.uk,Coronavirus: Major travel warning issued across Asia as 18 killed - are holidays safe?,https://www.express.co.uk/travel/articles/1232305/coronavirus-holidays-2020-japan-thailand-philippines-foreign-office-travel-advice-latest

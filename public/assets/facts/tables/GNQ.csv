@@ -1,21 +1,8 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,3,oglobo.globo.com,"Coronavírus: novidade no Brasil, implante de chips é aposta da Medicina",https://oglobo.globo.com/sociedade/coronavirus-novidade-no-brasil-implante-de-chips-aposta-da-medicina-24312618?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-2,POLITICAL,2,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-3,CLICKBAIT,2,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-4,POLITICAL,2,oglobo.globo.com,Câmara dos EUA aprova teste grátis para coronavírus e licença médica remunerada,https://oglobo.globo.com/sociedade/coronavirus/camara-dos-eua-aprova-teste-gratis-para-coronavirus-licenca-medica-remunerada-24305435?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-5,POLITICAL,2,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-6,FAKE/HOAX,1,dailymail.co.uk,US coronavirus patient 'had contact with at least 16 people',https://www.dailymail.co.uk/health/article-7919851/washington-coronavirus-patient-contact-16-people-us.html
-7,POLITICAL,1,es.rt.com,"Xi Jinping advierte que el avance del coronavirus ""se acelera"" y China se enfrenta a una ""situación grave""",https://es.rt.com/7b50
-8,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-9,POLITICAL,1,es.rt.com,¿Por qué el nuevo coronavirus es una amenaza real para la economía china?,https://es.rt.com/7b51
-10,POLITICAL,1,foxnews.com,Dr. Marc Siegel sounds alarm over China's 'reckless' and 'really scary' response to coronavirus,https://www.foxnews.com/media/dr-marc-siegel-exposes-chinas-reckless-and-really-scary-response-to-coronavirus
-11,POLITICAL,1,es.rt.com,El coronavirus puede infectar desde una distancia de 2 metros y a través de los ojos,https://es.rt.com/7bby
-12,POLITICAL,1,newsweek.com,,https://www.newsweek.com/china-military-help-fight-coronavirus-1484269
-13,POLITICAL,1,fxn.ws,Fox News,https://fxn.ws/2gyw4qb
-14,POLITICAL,1,rappler.com,World,http://rappler.com/world
-15,POLITICAL,1,foxnews.com,"Doctor who sounded alarm on coronavirus dies, hospital says",https://www.foxnews.com/health/doctor-sounded-alarm-coronavirus-dies
-16,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39enong
-17,CLICKBAIT,1,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-18,FAKE/HOAX,1,dailymail.co.uk,Did coronavirus originate in Chinese government laboratory?,https://www.dailymail.co.uk/news/article-8009669/did-coronavirus-originate-chinese-government-laboratory.html?ito=social-twitter_mailonline
-19,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38pvjmk
-20,SATIRE,1,lercio.it,RAGAZZO RIFIUTA POMPINO NEL MILANESE,https://www.lercio.it/ragazzo-rifiuta-pompino/
+1,FAKE/HOAX,1,dailymail.co.uk,US coronavirus patient 'had contact with at least 16 people',https://www.dailymail.co.uk/health/article-7919851/washington-coronavirus-patient-contact-16-people-us.html
+2,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+3,FAKE/HOAX,1,dailymail.co.uk,Did coronavirus originate in Chinese government laboratory?,https://www.dailymail.co.uk/news/article-8009669/did-coronavirus-originate-chinese-government-laboratory.html?ito=social-twitter_mailonline
+4,FAKE/HOAX,1,express.co.uk,Macron SNUBBED: French leader's desperate coronavirus plea ignored by thousands of smurfs,https://www.express.co.uk/news/world/1252816/coronavirus-france-latest-news-emmanuel-macron-smurfs-world-record-video
+5,FAKE/HOAX,1,albertonews.com,Un hombre contrae coronavirus en un viaje secreto a Italia con su amante y ahora está aislado con su esposa - AlbertoNews - Periodismo sin censura,https://albertonews.com/otras-noticias/un-hombre-contrae-coronavirus-en-un-viaje-secreto-a-italia-con-su-amante-y-ahora-esta-aislado-con-su-esposa/
+6,CONSPIRACY/JUNKSCI,1,zerohedge.com,COVID-19 - Evidence Over Hysteria,https://www.zerohedge.com/health/covid-19-evidence-over-hysteria
+7,FAKE/HOAX,1,breitbart.com,Pelosi Slips Amnesty for DACA Illegal Aliens into Latest Coronavirus Plan,https://www.breitbart.com/politics/2020/03/24/pelosi-coronavirus-plan-daca-amnesty/

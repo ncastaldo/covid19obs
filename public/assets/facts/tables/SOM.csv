@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,4,advocate.com,Gays Must Stop Cheek-Kissing During the Coronavirus Outbreak,https://www.advocate.com/health/2020/3/05/gays-must-stop-cheek-kissing-during-coronavirus-outbreak?utm_source=twitter&utm_medium=social&utm_campaign=health
-2,CLICKBAIT,4,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,CLICKBAIT,3,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/coronavirus-hunt-madeleine-mccann-could-21724854
-4,CLICKBAIT,2,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-outbreak-fears-killer-virus-21338968?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar
-5,POLITICAL,2,thesun.co.uk,Correction: coronavirus,https://www.thesun.co.uk/news/10801901/coronavirus-outbreak-china-spread-bat-soup/?utm_medium=social&utm_campaign=sunmaintwitter&utm_source=twitter#echobox=1579773467
-6,FAKE/HOAX,2,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-7,POLITICAL,2,torontosun.com,WARMINGTON: No medical screening for arrivals from three China flights,https://torontosun.com/news/local-news/warmington-thousands-unchecked-for-coronavirus-at-pearson
-8,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2s6jlhh
-9,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rftssk
-10,POLITICAL,2,dailydot.com,,https://www.dailydot.com/layer8/hazmat-suit-meme/?tw=dd
-11,POLITICAL,2,eldiario.es,Gran Bretaña confirma sus dos primeros casos de infectados por coronavirus,https://www.eldiario.es/sociedad/gran-bretana-confirma-infectados-coronavirus_0_990751053.html
-12,POLITICAL,2,telegraph.co.uk,Coronavirus cruise ship passengers leave quarantine in Japan - but Britons warned about disembarking,https://www.telegraph.co.uk/global-health/science-and-disease/coronavirus-cruise-ship-passengers-leave-quarantine-japan/
-13,POLITICAL,2,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
-14,POLITICAL,2,cnn.com,Nigeria says it is more than capable of dealing with coronavirus,https://www.cnn.com/2020/02/28/africa/nigeria-confirms-first-case-of-coronavirus-intl/index.html
-15,CONSPIRACY/JUNKSCI,2,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-16,POLITICAL,2,dailysabah.com,"UAE leader bin Zayed infected by coronavirus, Israeli media claims",https://www.dailysabah.com/world/mid-east/uae-leader-zayed-infected-by-coronavirus-israeli-media-claims
-17,POLITICAL,2,aa.com.tr,COVID-19: Somalia bans entry from worst-hit countries,https://www.aa.com.tr/en/latest-on-coronavirus-outbreak/covid-19-somalia-bans-entry-from-worst-hit-countries/1766837
-18,CLICKBAIT,2,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-italian-grandma-95-becomes-21736877?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar
-19,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rarvhg
-20,POLITICAL,1,cnn.com,"Wuhan coronavirus death toll rises, as city imposes transport lockdown",https://www.cnn.com/2020/01/22/asia/china-wuhan-coronavirus-deadly-intl-hnk/index.html
+1,FAKE/HOAX,2,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+2,CONSPIRACY/JUNKSCI,2,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+3,FAKE/HOAX,1,dailymail.co.uk,Woman who 'bragged about cheating  coronavirus tests' is tracked down,https://www.dailymail.co.uk/health/article-7924801/chinese-woman-bragged-cheating-airport-coronavirus-screenings-tracked-france.html
+4,FAKE/HOAX,1,dailymail.co.uk,Woman who 'bragged about cheating  coronavirus tests' is tracked down,https://www.dailymail.co.uk/health/article-7924801/chinese-woman-bragged-cheating-airport-coronavirus-screenings-tracked-france.html?ito=amp_twitter_share-top
+5,FAKE/HOAX,1,rt.com,"Chinese coronavirus spreads with no visible symptoms as death toll grows to 81, over 2,800 infected worldwide",https://on.rt.com/a9sp
+6,CONSPIRACY/JUNKSCI,1,blacklistednews.com,,https://www.blacklistednews.com/article/76109/san-francisco-activates-emergency-operations-center-to-prepare-for.html?utm_source=dlvr.it&utm_medium=twitter
+7,FAKE/HOAX,1,rt.com,Russia closes its Far East border with China in attempt to prevent spread of new coronavirus,https://on.rt.com/aa1b
+8,FAKE/HOAX,1,dailymail.co.uk,Coronavirus fears hit UK as hazmat-clad medics treat man in face mask,https://www.dailymail.co.uk/health/article-7937887/coronavirus-fears-hit-birmingham-facemask-wearing-patient-escorted-ambulance.html?ito=native_share_article-masthead
+9,FAKE/HOAX,1,lewrockwell.com,Coronavirus: A Contrived Pandemic? Caused by a Gene Mutation or by a Meteorological Phenomenon? - LewRockwell LewRockwell.com,https://www.lewrockwell.com/2020/01/bill-sardi/coronavirus-a-contrived-pandemic-caused-by-a-gene-mutation-or-by-a-meteorological-phenomenon/
+10,FAKE/HOAX,1,rt.com,"First two cases of coronavirus confirmed in Russia, both Chinese citizens",https://on.rt.com/aa5v
+11,FAKE/HOAX,1,presstv.com,Coronavirus looks as if tailor-made to achieve US objectives: Scholar,https://www.presstv.com/detail/2020/01/31/617571/coronavirus-looks-as-if-tailor-made-to-achieve-us-objectives
+12,FAKE/HOAX,1,express.co.uk,Dog graveyard: Tens of thousands of pets in China to be SLAUGHTERED by authorities,https://www.express.co.uk/news/world/1236590/coronavirus-latest-china-pets-slaughtered-disease-virus-world-health-organisation-wuhan
+13,FAKE/HOAX,1,presstv.com,"China says coronavirus death toll rises to 361, confirmed cases 17,205",https://www.presstv.com/detail/2020/02/03/617741/coronavirus-death-350-china-hubei-province
+14,FAKE/HOAX,1,lewrockwell.com,The 2020 Coronavirus Scare: Better Than Any Horror Movie - LewRockwell LewRockwell.com,https://www.lewrockwell.com/2020/02/bill-sardi/the-2020-coronavirus-scare-better-than-any-horror-movie/
+15,CONSPIRACY/JUNKSCI,1,informationclearinghouse.info,,http://www.informationclearinghouse.info/52938.htm
+16,CONSPIRACY/JUNKSCI,1,zerohedge.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon,https://www.zerohedge.com/health/creator-bioweapons-act-says-coronavirus-biological-warfare-weapon
+17,FAKE/HOAX,1,express.co.uk,Cruise: Passengers quarantined on Coronavirus cruise ask ‘what's going to happen to us?’,https://www.express.co.uk/travel/articles/1238832/cruise-coronavirus-quarantine-princess-cruises-ship-japan
+18,FAKE/HOAX,1,russia-insider.com,Twitter Bans Zerohedge For Investigative Journalism About the Coronavirus - Zerohedge Responds,https://russia-insider.com/en/node/28244#.xjvocvgt8i4.twitter
+19,FAKE/HOAX,1,dailymail.co.uk,"Have 'real' coronavirus death figures been leaked? 24,589",https://www.dailymail.co.uk/news/article-7971401/have-real-coronavirus-death-figures-leaked-chinese-conglomerate-lists-death-toll-24-589.html
+20,FAKE/HOAX,1,russia-insider.com,Twitter Bans Zerohedge For Investigative Journalism About the Coronavirus - Zerohedge Responds,https://russia-insider.com/en/node/28244#.xjvluzyjhom.twitter

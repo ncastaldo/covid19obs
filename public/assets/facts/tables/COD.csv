@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,54,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-2,SATIRE,37,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-3,CLICKBAIT,37,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-4,POLITICAL,37,bfmtv.com,Coronavirus: le chef de l'ONU appelle tous les pays à « redoubler d'efforts immédiatement,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-italie-chine-carte-symptomes-mort-cas-psg-dortmund-huis-clos-paris-oise-morbihan-lyon/
-5,POLITICAL,33,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-6,POLITICAL,20,rappler.com,World,http://rappler.com/world
-7,POLITICAL,18,bfmtv.com,Coronavirus: Castaner prévient que la violation des règles de confinement sera puni d'une amende de 38 €,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
-8,CLICKBAIT,16,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-9,POLITICAL,15,francais.rt.com,"Coronavirus chinois : trois cas confirmés en France, les premiers en Europe",https://francais.rt.com/international/70642-epidemie-coronavirus-chine-en-continu
-10,POLITICAL,13,bfmtv.com,Coronavirus: les Hôpitaux de Paris lancent un appel aux dons sur Facebook,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
-11,CLICKBAIT,10,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-12,CLICKBAIT,9,entertain.v.daum.net,"[단독] 레드벨벳 웬디, 코로나19 성금 1억 기부..부상 중에도 빛난 선행",https://entertain.v.daum.net/v/20200228150259906
-13,POLITICAL,9,bfmtv.com,Coronavirus: Macron demande aux personnes « de plus de 70 ans » de rester à leur domicile,https://www.bfmtv.com/societe/coronavirus-macron-demande-aux-personnes-de-plus-de-70-ans-de-rester-a-leur-domicile-1874025.html
-14,POLITICAL,9,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-15,POLITICAL,8,rappler.com,Philippines confirms 1st case of novel coronavirus,https://www.rappler.com/nation/186633-philippines-confirms-case-novel-coronavirus?utm_medium=social&utm_source=twitter#echobox=1580371766
-16,POLITICAL,8,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-17,CLICKBAIT,8,soompi.com,Staff Member Of Popular Singer Reportedly Tests Positive For Novel Coronavirus,https://www.soompi.com/article/1385621wpp/staff-member-of-popular-singer-reportedly-tests-positive-for-novel-coronavirus
-18,POLITICAL,8,bfmtv.com,"Coronavirus: « Il n'y a pas de sur-risque à aller voter » pour les municipales, assure Olivier Véran",https://www.bfmtv.com/sante/coronavirus-france-cas-carte-symptome-mort-bilan-paris-oise-mulhouse-morbihan-corse-ajaccio-stade-3-ecoles/
-19,POLITICAL,7,bfmtv.com,Coronavirus: le prix des masques chirurgicaux flambe de 150% sur Amazon,https://www.bfmtv.com/economie/coronavirus-le-prix-des-masques-chirurgicaux-flambe-de-150percent-sur-amazon-1847999.html#page/contribution/index
-20,CLICKBAIT,7,koreaboo.com,43 Celebrities Who Have Donated To Help Fight Against Corona19 (COVID-19),https://www.koreaboo.com/news/celebrities-donated-help-fight-corona19-covid-19/
+1,FAKE/HOAX,8,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+2,CONSPIRACY/JUNKSCI,6,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+3,FAKE/HOAX,5,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+4,FAKE/HOAX,4,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+5,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+6,FAKE/HOAX,3,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+7,FAKE/HOAX,3,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
+8,FAKE/HOAX,3,redstate.com,WATCH: MSNBC Host Nicole Wallace Hopes Coronavirus Tanks Trump’s Presidency,https://www.redstate.com/jeffc/2020/03/09/795886/?utm_source=twitter&utm_medium=social&utm_term=795886&utm_content=0&utm_campaign=postpromoterpro
+9,CONSPIRACY/JUNKSCI,2,iflscience.com,Doctor Who Blew The Whistle On Coronavirus Cover-up Dies Of Coronavirus,https://www.iflscience.com/health-and-medicine/doctor-who-blew-the-whistle-on-coronavirus-cover-up-dies-of-coronavirus/
+10,FAKE/HOAX,2,rt.com,,https://www.rt.com/usa/480339-coronavirus-cruise-ship-chinese-new-jersey/
+11,FAKE/HOAX,2,chinadaily.com.cn,,https://www.chinadaily.com.cn/a/202002/08/ws5e3e7d97a310128217275fc3.html
+12,FAKE/HOAX,2,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+13,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/china-deploys-40-incinerators-wuhan-21529067
+14,FAKE/HOAX,2,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
+15,FAKE/HOAX,2,breitbart.com,Nancy Pelosi: 'Too Late' for Trump Admin to Stem Coronavirus Outbreak,https://www.breitbart.com/politics/2020/02/26/nancy-pelosi-trump-administration-response-to-coronavirus-is-too-late/
+16,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+17,CONSPIRACY/JUNKSCI,2,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+18,FAKE/HOAX,1,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html?ito=amp_twitter_share-top
+19,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+20,FAKE/HOAX,1,vdare.com,"Update: ""Snohomish County Man"" Who Brought Coronavirus Home From China Is Chinese Immigrant With Green Card | Blog Posts",https://vdare.com/posts/update-snohomish-county-man-who-brought-coronavirus-home-from-china-is-chinese-immigrant-with-green-card

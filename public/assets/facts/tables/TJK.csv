@@ -1,21 +1,3 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,3,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-2,POLITICAL,2,oglobo.globo.com,É #FAKE que tigela de água com alho recém-fervida cura o coronavírus,https://oglobo.globo.com/fato-ou-fake/e-fake-que-tigela-de-agua-com-alho-recem-fervida-cura-coronavirus-1-24308518?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-3,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rko8i0
-4,POLITICAL,1,dailywire.com,"China Quarantines 40 Million, 1,300+ Infected; Expert Predicted Coronavirus ‘Pandemic’ Could Kill 65 Million; U.S. Evacuation Underway In China",https://www.dailywire.com/news/china-quarantines-40-million-1300-infected-expert-predicted-coronavirus-pandemic-could-kill-65-million-u-s-evacuation-underway-in-china/
-5,POLITICAL,1,cnn.com,"Gold heading to $2,000? Prices surge on global fear",https://www.cnn.com/2020/01/27/investing/gold-prices-fear/index.html
-6,POLITICAL,1,foxnews.com,China slams Trump's coronavirus travel limits: 'Not a gesture of goodwill',https://www.foxnews.com/health/who-says-prepare-for-local-outbreaks-china-slams-us-control
-7,FAKE/HOAX,1,bigleaguepolitics.com,HMM: Coronavirus Patent is Owned by Vaccine-Production Institute Funded by Bill Gates - Big League Politics,https://bigleaguepolitics.com/hmm-coronavirus-patent-is-owned-by-vaccine-production-institute-funded-by-bill-gates/
-8,CLICKBAIT,1,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-actually-started-secret-wuhan-21506739
-9,POLITICAL,1,cnn.com,"They caught the coronavirus that's killed more than 1,700 people and survived",https://www.cnn.com/2020/02/16/asia/coronavirus-wuhan-china-recovery-intl-hnk/index.html
-10,POLITICAL,1,cnn.com,"A history of Wuhan, one-time Chinese capital and coronavirus epicenter",https://www.cnn.com/2020/02/22/asia/wuhan-history-hnk-intl/index.html
-11,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37zebti
-12,POLITICAL,1,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-13,FAKE/HOAX,1,strategic-culture.org,"Who Made Coronavirus? Was It the U.S., Israel or China Itself?",https://www.strategic-culture.org/news/2020/03/05/who-made-coronavirus-was-it-us-israel-or-china-itself/
-14,POLITICAL,1,cnn.com,Is coronavirus Donald Trump's Katrina?,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
-15,POLITICAL,1,cnn.com,Sen. Ted Cruz and Rep. Paul Gosar will self-quarantine after interacting with individual with coronavirus,https://www.cnn.com/2020/03/08/politics/ted-cruz-coronavirus-cpac/index.html
-16,POLITICAL,1,nymag.com,Coronavirus Shows Us America Is Broken,https://nymag.com/intelligencer/2020/03/coronavirus-shows-us-america-is-broken.html
-17,POLITICAL,1,oglobo.globo.com,Conferência sobre coronavírus é cancelada por causa do coronavírus,https://oglobo.globo.com/economia/conferencia-sobre-coronavirus-cancelada-por-causa-do-coronavirus-24299063?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-18,POLITICAL,1,theintercept.com,Gaetz Voted Against Florida Paid Sick Leave. He’s Using It in Congress.,https://theintercept.com/2020/03/12/matt-gaetz-florida-paid-sick-leave-coronavirus/
-19,POLITICAL,1,oglobo.globo.com,Câmara dos EUA aprova teste grátis para coronavírus e licença médica remunerada,https://oglobo.globo.com/sociedade/coronavirus/camara-dos-eua-aprova-teste-gratis-para-coronavirus-licenca-medica-remunerada-24305435?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-20,POLITICAL,1,oglobo.globo.com,Coronavírus: especial que reuniria o elenco de 'Friends' é adiado,https://oglobo.globo.com/cultura/coronavirus-especial-que-reuniria-elenco-de-friends-adiado-24313541?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+1,FAKE/HOAX,1,bigleaguepolitics.com,HMM: Coronavirus Patent is Owned by Vaccine-Production Institute Funded by Bill Gates - Big League Politics,https://bigleaguepolitics.com/hmm-coronavirus-patent-is-owned-by-vaccine-production-institute-funded-by-bill-gates/
+2,FAKE/HOAX,1,strategic-culture.org,"Who Made Coronavirus? Was It the U.S., Israel or China Itself?",https://www.strategic-culture.org/news/2020/03/05/who-made-coronavirus-was-it-us-israel-or-china-itself/

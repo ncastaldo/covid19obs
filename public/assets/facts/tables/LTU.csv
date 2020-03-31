@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,30,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-2,CLICKBAIT,18,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,POLITICAL,9,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-4,CONSPIRACY/JUNKSCI,8,beforeitsnews.com,Confirmed! This Is a Bioweapon! It Now Makes Perfect Sense! - Great Video | Health | Before It's News,https://beforeitsnews.com/health/2020/01/confirmed-this-is-a-bio-weapon-it-now-makes-perfect-sense-great-video-3005250.html
-5,CONSPIRACY/JUNKSCI,6,beforeitsnews.com,FEMA Proposes Martial Law to Contain Coronavirus | New World Order | Before It's News,https://beforeitsnews.com/new-world-order/2020/01/fema-proposes-martial-law-to-contain-coronavirus-8697.html
-6,POLITICAL,6,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-7,POLITICAL,5,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
-8,POLITICAL,5,rappler.com,World,http://rappler.com/world
-9,POLITICAL,4,foxnews.com,"Trump says coronavirus vaccine coming along 'rapidly,' appoints Pence to head task force",https://www.foxnews.com/politics/trump-coronavirus-primetime-address
-10,FAKE/HOAX,3,presstv.com,China coronavirus outbreak: Death toll approaches 500,https://www.presstv.com/detail/2020/02/05/617929/china-virus-death-toll
-11,CONSPIRACY/JUNKSCI,3,zerohedge.com,Did China's Tencent Accidentally Leak The True Terrifying Coronavirus Statistics,https://www.zerohedge.com/health/did-chinas-tencent-accidentally-leak-true-terrifying-coronavirus-statistics
-12,CONSPIRACY/JUNKSCI,3,wakingtimes.com,,https://www.wakingtimes.com/2020/02/18/the-coronavirus-5g-connection-and-coverup/?utm_campaign=meetedgar&utm_medium=social&utm_source=meetedgar.com
-13,POLITICAL,3,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-14,FAKE/HOAX,3,strategic-culture.org,"Who Made Coronavirus? Was It the U.S., Israel or China Itself?",https://www.strategic-culture.org/news/2020/03/05/who-made-coronavirus-was-it-us-israel-or-china-itself/
-15,POLITICAL,3,cnn.com,Is coronavirus Donald Trump's Katrina?,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
-16,FAKE/HOAX,2,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
-17,CLICKBAIT,2,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
-18,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tu0d1h
-19,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3akwdqb
-20,FAKE/HOAX,2,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+1,CONSPIRACY/JUNKSCI,8,beforeitsnews.com,Confirmed! This Is a Bioweapon! It Now Makes Perfect Sense! - Great Video | Health | Before It's News,https://beforeitsnews.com/health/2020/01/confirmed-this-is-a-bio-weapon-it-now-makes-perfect-sense-great-video-3005250.html
+2,CONSPIRACY/JUNKSCI,6,beforeitsnews.com,FEMA Proposes Martial Law to Contain Coronavirus | New World Order | Before It's News,https://beforeitsnews.com/new-world-order/2020/01/fema-proposes-martial-law-to-contain-coronavirus-8697.html
+3,FAKE/HOAX,3,presstv.com,China coronavirus outbreak: Death toll approaches 500,https://www.presstv.com/detail/2020/02/05/617929/china-virus-death-toll
+4,CONSPIRACY/JUNKSCI,3,zerohedge.com,Did China's Tencent Accidentally Leak The True Terrifying Coronavirus Statistics,https://www.zerohedge.com/health/did-chinas-tencent-accidentally-leak-true-terrifying-coronavirus-statistics
+5,CONSPIRACY/JUNKSCI,3,wakingtimes.com,,https://www.wakingtimes.com/2020/02/18/the-coronavirus-5g-connection-and-coverup/?utm_campaign=meetedgar&utm_medium=social&utm_source=meetedgar.com
+6,FAKE/HOAX,3,strategic-culture.org,"Who Made Coronavirus? Was It the U.S., Israel or China Itself?",https://www.strategic-culture.org/news/2020/03/05/who-made-coronavirus-was-it-us-israel-or-china-itself/
+7,FAKE/HOAX,2,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
+8,FAKE/HOAX,2,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+9,FAKE/HOAX,2,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+10,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+11,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/coronavirus-drone-army-deployed-spray-21399569
+12,FAKE/HOAX,2,dailymail.co.uk,"Have 'real' coronavirus death figures been leaked? 24,589",https://www.dailymail.co.uk/news/article-7971401/have-real-coronavirus-death-figures-leaked-chinese-conglomerate-lists-death-toll-24-589.html
+13,CONSPIRACY/JUNKSCI,2,forbiddenknowledgetv.net,,https://forbiddenknowledgetv.net/?p=67285
+14,FAKE/HOAX,2,rt.com,,https://www.rt.com/news/480901-coronavirus-shortages-unexpected-factories-china/
+15,FAKE/HOAX,2,presstv.com,Iran ramps up face mask production amid coronavirus outbreak,https://www.presstv.com/detail/2020/02/24/619427/iran-face-masks-productions-coronavirus-surge
+16,FAKE/HOAX,2,n.news.naver.com,"빅히트 측 “방탄소년단 3월 토크쇼 행사 잠정연기, 코로나19 확산 방지”(공식)",https://n.news.naver.com/entertain/now/article/609/0000252147
+17,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+18,CONSPIRACY/JUNKSCI,2,blacklistednews.com,,https://www.blacklistednews.com/article/76392/trump-sets-new-travel-restrictions-over-coronavirus-considering-southern-border.html?utm_source=dlvr.it&utm_medium=twitter
+19,FAKE/HOAX,2,rt.com,,https://www.rt.com/uk/483040-daily-mail-front-pages-coronavirus/
+20,CONSPIRACY/JUNKSCI,2,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran

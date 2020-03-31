@@ -1,14 +1,2 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,3,telegraph.co.uk,,https://www.telegraph.co.uk/news/2020/01/28/denmark-refuses-apologise-china-coronavirus-cartoon/amp/
-2,POLITICAL,1,eldiario.es,La OMS declara la emergencia sanitaria internacional por el brote de coronavirus en China,https://www.eldiario.es/internacional/oms-emergencia-internacional_0_990401932.html
-3,POLITICAL,1,rappler.com,World,http://rappler.com/world
-4,POLITICAL,1,aei.org,Stop a U.S. coronavirus outbreak before it starts | American Enterprise Institute - AEI,https://www.aei.org/op-eds/stop-a-u-s-coronavirus-outbreak-before-it-starts/
-5,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2scbuml
-6,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2ukcgiz
-7,POLITICAL,1,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-8,POLITICAL,1,bfmtv.com,Coronavirus: un troisième mort confirmé en France ,https://www.bfmtv.com/sante/direct-coronavirus-france-covid-19-carte-symptomes-cas-morts-paris-oise-lyon-ecole-masques-italie-chine-crepy-en-valois-haute-savoie-la-balme-de-sillingy/#content/contribution/index
-9,POLITICAL,1,telegraph.co.uk,Italians over 80 'will be left to die' as country overwhelmed by coronavirus,https://www.telegraph.co.uk/news/2020/03/14/italians-80-will-left-die-country-overwhelmed-coronavirus/
-10,POLITICAL,1,oglobo.globo.com,É #FAKE que tigela de água com alho recém-fervida cura o coronavírus,https://oglobo.globo.com/fato-ou-fake/e-fake-que-tigela-de-agua-com-alho-recem-fervida-cura-coronavirus-1-24308518?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-11,POLITICAL,1,rawstory.com,,https://www.rawstory.com/2020/03/avoid-taking-ibuprofen-for-covid-19-symptoms-who/
-12,CLICKBAIT,1,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/coronavirus-doctor-says-medics-been-21708802?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar
-13,FAKE/HOAX,1,sputniknews.com,Tory Austerity Cuts Have Left UK More Vulnerable to Deadly Covid-19,https://sputniknews.com/columnists/202003161078581896-tory-austerity-cuts-have-left-uk-more-vulnerable-to-deadly-covid-19/
+1,FAKE/HOAX,1,sputniknews.com,Tory Austerity Cuts Have Left UK More Vulnerable to Deadly Covid-19,https://sputniknews.com/columnists/202003161078581896-tory-austerity-cuts-have-left-uk-more-vulnerable-to-deadly-covid-19/

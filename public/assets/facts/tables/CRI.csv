@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,73,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,15,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
-3,POLITICAL,14,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3942kes
-4,CLICKBAIT,13,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
-5,POLITICAL,12,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39yejef
-6,POLITICAL,10,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rhqfif
-7,POLITICAL,10,es.rt.com,China informa de un brote de gripe aviar en medio de la batalla contra el coronavirus 2019-nCoV,https://es.rt.com/7bph
-8,POLITICAL,9,es.rt.com,China prohíbe el comercio de vida silvestre en todo el país debido al coronavirus,https://es.rt.com/7b6g
-9,FAKE/HOAX,9,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
-10,CONSPIRACY/JUNKSCI,9,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-11,POLITICAL,8,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2ny4ygt
-12,POLITICAL,8,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/394liqo
-13,POLITICAL,7,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vd7upl
-14,POLITICAL,7,oann.com,,https://www.oann.com/johnson-johnson-to-create-coronavirus-vaccine/
-15,POLITICAL,7,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2h0caeb
-16,POLITICAL,7,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-17,POLITICAL,7,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-18,POLITICAL,7,vox.com,"How canceled events and self-quarantines save lives, in one chart",https://www.vox.com/2020/3/10/21171481/coronavirus-us-cases-quarantine-cancellation
-19,POLITICAL,7,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-20,POLITICAL,6,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36jlxlz
+1,FAKE/HOAX,9,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+2,CONSPIRACY/JUNKSCI,9,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+3,FAKE/HOAX,6,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+4,FAKE/HOAX,5,thegatewaypundit.com,GROSS: Scientists Blame Coronavirus on Bats -- In Chinese Province Where Bat Soup Is Served in Restaurants,https://www.thegatewaypundit.com/2020/01/gross-scientists-blame-coronavirus-on-bats-in-chinese-province-where-bat-soup-is-served-in-restaurants/
+5,FAKE/HOAX,5,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
+6,CONSPIRACY/JUNKSCI,5,globalresearch.ca,China's Coronavirus: A Shocking Update. Did The Virus Originate in the US? - Global Research,https://www.globalresearch.ca/china-coronavirus-shocking-update/5705196
+7,CONSPIRACY/JUNKSCI,4,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+8,CONSPIRACY/JUNKSCI,4,iflscience.com,Coronavirus Cultured In Australian Lab For First Time In Step Towards A Vaccine,https://www.iflscience.com/health-and-medicine/coronavirus-cultured-in-australian-lab-for-first-time-in-step-towards-a-vaccine/
+9,CONSPIRACY/JUNKSCI,4,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+10,FAKE/HOAX,3,rt.com,US orders charter flight to evacuate citizens and diplomats from virus-stricken Wuhan — report,https://on.rt.com/a9qm
+11,FAKE/HOAX,3,gnews.org,,https://gnews.org/89749/
+12,CONSPIRACY/JUNKSCI,3,infowars.com,Bill and Melinda Gates Foundation & Others Predicted Up To 65 Million Deaths Via Coronavirus – In Simulation Ran 3 Months Ago!,https://www.infowars.com/bill-and-melinda-gates-foundation-others-predicted-up-to-65-million-deaths-via-coronavirus-in-simulation-ran-3-months-ago/
+13,FAKE/HOAX,3,dailymail.co.uk,Did coronavirus originate in Chinese government laboratory?,https://www.dailymail.co.uk/news/article-8009669/did-coronavirus-originate-chinese-government-laboratory.html?ito=amp_twitter_share-top
+14,FAKE/HOAX,3,davidharrisjr.com,State Department Employee in Japan Ignored President Trump’s Orders and Allowed Americans with Coronavirus to Fly Back to the US,https://davidharrisjr.com/steven/state-department-employee-in-japan-ignored-president-trumps-orders-and-allowed-americans-with-coronavirus-to-fly-back-to-the-us/
+15,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+16,FAKE/HOAX,3,albertonews.com,,https://albertonews.com/ultima-hora/ultima-hora-maduro-pide-credito-de-5-mil-millones-de-dolares-al-fmi-para-enfrentar-la-pandemia-del-coronavirus/
+17,FAKE/HOAX,3,breitbart.com,Top Biden Adviser Repeatedly Referred to Coronavirus as 'Wuhan Virus',https://www.breitbart.com/2020-election/2020/03/25/top-biden-adviser-repeatedly-referred-to-coronavirus-as-wuhan-virus/
+18,CONSPIRACY/JUNKSCI,2,usahitman.com,CORONAVIRUS is a Patented Virus - USAHITMAN Conspiracy News,https://usahitman.com/coronavirus-patented-virus/
+19,FAKE/HOAX,2,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html
+20,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997

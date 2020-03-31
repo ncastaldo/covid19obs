@@ -1,21 +1,11 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,7,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-2,POLITICAL,4,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-3,FAKE/HOAX,3,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
-4,CLICKBAIT,3,entertain.v.daum.net,"[단독] 레드벨벳 웬디, 코로나19 성금 1억 기부..부상 중에도 빛난 선행",https://entertain.v.daum.net/v/20200228150259906
-5,POLITICAL,2,xhne.ws,,http://xhne.ws/bqibu
-6,POLITICAL,2,newsweek.com,,https://www.newsweek.com/new-york-subway-attack-coronavirus-woman-mask-1485842
-7,POLITICAL,2,liberoquotidiano.it,"Pietro Senaldi contro Nicola Zingaretti: ""C'è il coronavirus e il Pd pensa a insultare Matteo Salvini""",https://www.liberoquotidiano.it/news/politica/13567323/pietro-senaldi-nicola-zingaretti-ce-coronavirus-pd-insulta-matteo-salvini.html
-8,CLICKBAIT,2,koreaboo.com,Red Velvet Matches Half Of Their Company's Coronavirus Donation With A Total Contribution Of 230 Million Won,https://www.koreaboo.com/news/red-velvet-matches-half-companys-coronavirus-covid-19-donation-total-contribution-230-million-won/
-9,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-10,FAKE/HOAX,2,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
-11,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2gifnij
-12,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rjl1hv
-13,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30kleqa
-14,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2nxfvur
-15,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rko8i0
-16,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3azfjej
-17,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2gojn84
-18,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36oskni
-19,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rrc9mw
-20,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2o07nr1
+1,FAKE/HOAX,3,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
+2,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+3,FAKE/HOAX,2,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
+4,FAKE/HOAX,1,dailymail.co.uk,Chinese put swastika on Danish flag over coronavirus flag row,https://www.dailymail.co.uk/news/article-7948913/chinese-swastika-danish-flag-pm-refuses-apologise-coronavirus-china-flag.html
+5,CONSPIRACY/JUNKSCI,1,voxnews.info,"Coronavirus: morto Frank Plummer, capo del laboratorio che inviò i virus a Wuhan",https://voxnews.info/2020/02/05/coronavirus-morto-frank-plummer-capo-del-laboratorio-che-invio-i-virus-a-wuhan/
+6,FAKE/HOAX,1,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+7,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/cronaca/coronavirus-le-priorita-della-bonino-garantire-salute-dei-richiedenti-asilo-148731/
+8,CONSPIRACY/JUNKSCI,1,voxnews.info,"Coronavirus, centri migranti bomba sanitaria: vanno rimpatriati",https://voxnews.info/2020/03/12/coronavirus-centri-migranti-bomba-sanitaria/
+9,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/cronaca/coronavirus-bergamo-morti-camere-mortuarie-piene-149380/
+10,CONSPIRACY/JUNKSCI,1,imolaoggi.it,Fabio Fazio: “coronavirus mi insegna che i porti devono essere sempre aperti” - Imola Oggi,http://www.imolaoggi.it/2020/03/16/fabio-fazio-coronavirus-mi-insegna-che-i-porti-devono-essere-sempre-aperti/

@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,221,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3aeo3sr
-2,POLITICAL,190,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37zvbvy
-3,POLITICAL,95,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3caxkal
-4,POLITICAL,84,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39enong
-5,CLICKBAIT,82,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-6,POLITICAL,65,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
-7,POLITICAL,63,es.rt.com,Una persona muere cada 10 minutos por coronavirus en Irán,https://es.rt.com/7fjk
-8,POLITICAL,60,r7.com,,http://r7.com/ribl
-9,POLITICAL,58,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2u3auxv
-10,POLITICAL,56,es.rt.com,El coronavirus puede infectar desde una distancia de 2 metros y a través de los ojos,https://es.rt.com/7bby
-11,POLITICAL,54,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39zow8w
-12,POLITICAL,53,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rhqfif
-13,POLITICAL,40,es.rt.com,,http://es.rt.com/7c4e
-14,POLITICAL,30,es.rt.com,"Coronavirus vs. gripe, malaria o sarampión: ¿De verdad es tan temible el impacto del 2019-nCoV? (INFOGRAFÍA)",https://es.rt.com/7c4e
-15,POLITICAL,26,es.rt.com,"""Momento crucial"": China advierte que el coronavirus se vuelve cada vez más contagioso",https://es.rt.com/7b6k
-16,POLITICAL,22,es.rt.com,China informa de un brote de gripe aviar en medio de la batalla contra el coronavirus 2019-nCoV,https://es.rt.com/7bph
-17,POLITICAL,19,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rwswun
-18,POLITICAL,19,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3baewv4
-19,POLITICAL,18,es.rt.com,El Ministerio de Salud de Brasil confirma que el caso en Minas Gerais no corresponde al coronavirus,https://es.rt.com/7awk
-20,POLITICAL,17,es.rt.com,VIDEO: Médicos chinos cantan a sus pacientes para apoyarlos en la lucha contra el coronavirus,https://es.rt.com/7bq8
+1,CONSPIRACY/JUNKSCI,11,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+2,FAKE/HOAX,9,theblaze.com,Media claim Trump called coronavirus a 'hoax.' But video shows that's not what Trump said at all.,https://www.theblaze.com/news/media-claim-trump-called-coronavirus-a-hoax-but-video-shows-thats-not-at-all-what-he-said
+3,FAKE/HOAX,5,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+4,CONSPIRACY/JUNKSCI,4,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+5,FAKE/HOAX,4,breitbart.com,AP Confirms: Democrats Are Lying to the Public About Coronavirus Readiness,https://www.breitbart.com/health/2020/02/27/ap-confirms-democrats-are-lying-to-the-public-about-coronavirus/
+6,FAKE/HOAX,3,albertonews.com,,https://albertonews.com/internacionales/infectados-con-coronavirus-intentan-propagar-virus-escupiendo-a-doctores-y-enfermeras-en-china/
+7,CONSPIRACY/JUNKSCI,3,zerohedge.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon,https://www.zerohedge.com/health/creator-bioweapons-act-says-coronavirus-biological-warfare-weapon
+8,FAKE/HOAX,3,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+9,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+10,FAKE/HOAX,3,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+11,FAKE/HOAX,3,albertonews.com,,https://albertonews.com/uncategorized/el-vodka-es-inutil-para-protegerse-contra-el-coronavirus-advierte-un-fabricante/
+12,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+13,FAKE/HOAX,2,albertonews.com,"Presidente de China advierte que el avance del coronavirus ""se acelera"" y China se enfrenta a una ""situación grave"" - AlbertoNews - Periodismo sin censura",https://albertonews.com/internacionales/presidente-de-china-advierte-que-el-avance-del-coronavirus-se-acelera-y-china-se-enfrenta-a-una-situacion-grave/
+14,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/urgente-el-coronavirus-puede-infectar-desde-una-distancia-de-2-metros-y-a-traves-de-los-ojos/
+15,FAKE/HOAX,2,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+16,FAKE/HOAX,2,rt.com,City turned ghost town: Take a look inside sealed-off Wuhan amid coronavirus outbreak in China (VIDEO),https://on.rt.com/a9wi
+17,FAKE/HOAX,2,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+18,CONSPIRACY/JUNKSCI,2,naturalhealth365.com,Coronavirus Scandal Exposed by Bioweapons Expert | NaturalHealth365,https://www.naturalhealth365.com/coronavirus-death-toll-3285.html
+19,CONSPIRACY/JUNKSCI,2,zerohedge.com,State-Backed Economist Says China Must Delay Trade-Deal Commitments,https://www.zerohedge.com/markets/state-backed-economist-says-china-must-delay-trade-deal-commitments
+20,FAKE/HOAX,2,davidharrisjr.com,State Department Employee in Japan Ignored President Trump’s Orders and Allowed Americans with Coronavirus to Fly Back to the US,https://davidharrisjr.com/steven/state-department-employee-in-japan-ignored-president-trumps-orders-and-allowed-americans-with-coronavirus-to-fly-back-to-the-us/

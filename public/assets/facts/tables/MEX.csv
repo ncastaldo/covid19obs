@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,1188,eluni.mx,Coronavirus en México: confirman primer caso,http://eluni.mx/bef4jnxuv
-2,POLITICAL,1178,eluni.mx,"Inhumano, negar entrada de crucero por sospecha de coronavirus: AMLO",http://eluni.mx/g1v-arkhb
-3,POLITICAL,1037,eluniversal.com.mx,Hospital para el coronavirus en 10 días y otras proezas de construcción en China,https://www.eluniversal.com.mx/mundo/hospital-para-el-coronavirus-en-10-dias-y-otras-proezas-de-construccion-en-china
-4,CLICKBAIT,749,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-5,POLITICAL,675,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-6,POLITICAL,408,eluniversal.com.mx,Compran caretas de albañil para enfrentar el coronavirus,https://www.eluniversal.com.mx/opinion/carlos-loret-de-mola/compran-caretas-de-albanil-para-enfrentar-el-coronavirus
-7,POLITICAL,375,telegraph.co.uk,Italians over 80 'will be left to die' as country overwhelmed by coronavirus,https://www.telegraph.co.uk/news/2020/03/14/italians-80-will-left-die-country-overwhelmed-coronavirus/
-8,POLITICAL,245,m.excelsior.com.mx,,https://m.excelsior.com.mx/global/llegara-a-mexico-tratamiento-cubano-contra-el-coronavirus/1366755
-9,POLITICAL,228,eluni.mx,¿Cómo se transmite el coronavirus o virus de Wuhan?,http://eluni.mx/rlzbbli28
-10,POLITICAL,213,eluniversal.com.mx,Video. Fallece enfermo de tuberculosis en el Metro,https://www.eluniversal.com.mx/metropoli/cdmx/video-fallece-hombre-en-metro-deportivo-18-de-marzo
-11,CLICKBAIT,197,entertain.v.daum.net,"엑소 레이, 코로나19 사태에 2천만원 의미 있는 기부..""우리는 하나"" [단독]",https://entertain.v.daum.net/v/20200228165328313
-12,POLITICAL,195,eluniversal.com.mx,Coronavirus. Ofrecen libras esterlinas para contagiarse de Covid-19,https://www.eluniversal.com.mx/mundo/coronavirus-ofrecen-libras-esterlinas-para-contagiarse-de-covid-19
-13,POLITICAL,194,eluni.mx,"La Mañanera. Identificados, dos probables casos de coronavirus en México: AMLO",http://eluni.mx/_ulfx-cer
-14,POLITICAL,176,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-15,POLITICAL,162,es.rt.com,Identifican un posible caso de coronavirus en Ciudad de México,https://es.rt.com/7b0y
-16,CLICKBAIT,161,koreaboo.com,Baekhyun Praised For His Adorable Yet Smart Methods To Preventing The Coronavirus,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
-17,POLITICAL,154,es.rt.com,China aprueba una vacuna contra el coronavirus para ensayos clínicos,https://es.rt.com/7fd4
-18,POLITICAL,153,eluni.mx,Aumenta a 17 la cifra de muertos en China por nuevo coronavirus,http://eluni.mx/vgqpzvogj
-19,POLITICAL,151,eluniversal.com.mx,"La Mañanera. Identificados, dos probables casos de coronavirus en México: AMLO",https://www.eluniversal.com.mx/nacion/la-mananera-identificados-dos-probables-casos-de-coronavirus-en-mexico-amlo
-20,POLITICAL,150,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+1,CONSPIRACY/JUNKSCI,45,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+2,FAKE/HOAX,41,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+3,CONSPIRACY/JUNKSCI,38,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+4,FAKE/HOAX,36,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+5,FAKE/HOAX,35,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+6,FAKE/HOAX,33,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+7,FAKE/HOAX,30,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+8,FAKE/HOAX,27,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+9,CONSPIRACY/JUNKSCI,21,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+10,CONSPIRACY/JUNKSCI,19,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+11,FAKE/HOAX,19,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
+12,FAKE/HOAX,19,albertonews.com,Científico de Harvard predice que el coronavirus infectará hasta el 70% de la humanidad - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/ultima-hora-cientifico-de-harvard-predice-que-el-coronavirus-infectara-hasta-el-70-de-la-humanidad/
+13,FAKE/HOAX,19,n.news.naver.com,"[단독] 슈퍼주니어 은혁, 코로나19 성금 1억 원 기부 ""의료진에 도움되길""",https://n.news.naver.com/entertain/article/052/0001407888
+14,FAKE/HOAX,18,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+15,CONSPIRACY/JUNKSCI,17,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+16,FAKE/HOAX,16,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+17,FAKE/HOAX,16,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+18,FAKE/HOAX,16,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+19,CONSPIRACY/JUNKSCI,15,globalresearch.ca,China's New Coronavirus: An Examination of the Facts - Global Research,https://www.globalresearch.ca/chinas-new-coronavirus-an-examination-of-the-facts/5701662
+20,CONSPIRACY/JUNKSCI,14,zerohedge.com,Russia Says It Can Weather $25 Oil For Up To 10 Years,https://www.zerohedge.com/energy/russia-says-it-can-weather-25-oil-10-years

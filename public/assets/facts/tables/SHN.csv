@@ -1,21 +1,10 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,4,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,CLICKBAIT,3,koreaboo.com,Red Velvet Matches Half Of Their Company's Coronavirus Donation With A Total Contribution Of 230 Million Won,https://www.koreaboo.com/news/red-velvet-matches-half-companys-coronavirus-covid-19-donation-total-contribution-230-million-won/
-3,CLICKBAIT,2,soompi.com,Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380150wpp/events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-4,POLITICAL,2,rappler.com,World,http://rappler.com/world
-5,CLICKBAIT,2,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-6,CLICKBAIT,2,soompi.com,Chungha Donates Masks For Coronavirus Prevention To Children In Need On Her Birthday,https://www.soompi.com/article/1382066wpp/chungha-donates-masks-for-coronavirus-prevention-to-children-in-need-on-her-birthday
-7,CLICKBAIT,2,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-8,CLICKBAIT,2,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-9,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2gjkn6m
-10,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Pandemic Simulation Run 3 Months Ago Predicts 65 Million People Could Die,https://www.zerohedge.com/health/coronavirus-pandemic-simulation-run-3-months-ago-predicts-65-million-people-could-die
-11,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36qlfru
-12,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-13,FAKE/HOAX,1,rt.com,"Chinese virus death toll rises to 56, with nearly 2,000 infected nationwide & more cases confirmed abroad",https://on.rt.com/a9r3
-14,CLICKBAIT,1,koreaboo.com,Super Junior Fan From Wuhan Reveals Having Attended Macau Concerts And Warns Others Of Potential Contagion,https://www.koreaboo.com/news/super-junior-fan-wuhan-reveals-macau-concert-attending-seats-coronavirus-quarantine/
-15,CLICKBAIT,1,allkpop.com,Music shows follow up with plans for audience in midst of Coronavirus warnings,https://www.allkpop.com/article/2020/01/music-shows-respond-to-plans-for-audience-in-midst-of-coronavirus-warnings
-16,POLITICAL,1,thedailybeast.com,QAnon-ers’ Magic Cure for Coronavirus: Just Drink Bleach!,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
-17,CLICKBAIT,1,soompi.com,Korean Broadcasters Address Plans For Live Audience Filming Amidst Fears Of Coronavirus,https://www.soompi.com/article/1379795wpp/korean-broadcasters-address-plans-for-live-audience-filming-amidst-fears-of-coronavirus
-18,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Geometric Progression Suggests 100,000 Infections In A Week",https://www.zerohedge.com/health/coronavirus-geometric-progression-suggests-100000-infections-week
-19,POLITICAL,1,mol.im,China accused of lying over true scale of coronavirus,https://mol.im/a/7951279
-20,CLICKBAIT,1,allkpop.com,"Pentagon cancel their fan showcase ahead of comeback, in light of Coronavirus threats",https://www.allkpop.com/article/2020/01/pentagon-cancel-their-fan-showcase-ahead-of-comeback-in-light-of-coronavirus-threats
+1,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Pandemic Simulation Run 3 Months Ago Predicts 65 Million People Could Die,https://www.zerohedge.com/health/coronavirus-pandemic-simulation-run-3-months-ago-predicts-65-million-people-could-die
+2,FAKE/HOAX,1,rt.com,"Chinese virus death toll rises to 56, with nearly 2,000 infected nationwide & more cases confirmed abroad",https://on.rt.com/a9r3
+3,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+4,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Geometric Progression Suggests 100,000 Infections In A Week",https://www.zerohedge.com/health/coronavirus-geometric-progression-suggests-100000-infections-week
+5,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Gordon Chang: ""Overwhelmed"" Chinese Authorities Are Falsifying Death Toll From Coronavirus",https://www.zerohedge.com/health/gordon-chang-overwhelmed-chinese-authorities-are-falsifying-death-toll-coronavirus
+6,FAKE/HOAX,1,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+7,FAKE/HOAX,1,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+8,FAKE/HOAX,1,n.news.naver.com,"2PM 준호, 군복무 중 코로나19 확산 방지 위해 3천만원 기부",https://n.news.naver.com/entertain/now/article/609/0000253824
+9,FAKE/HOAX,1,n.news.naver.com,"‘또또또 선행’ 위너 김진우, 코로나19에 1천만원 기부(공식)",https://n.news.naver.com/entertain/article/609/0000253852

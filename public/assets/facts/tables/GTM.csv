@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,62,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3942kes
-2,CLICKBAIT,38,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,POLITICAL,26,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
-4,POLITICAL,25,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-5,POLITICAL,24,es.rt.com,China aprueba una vacuna contra el coronavirus para ensayos clínicos,https://es.rt.com/7fd4
-6,POLITICAL,23,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39enong
-7,POLITICAL,20,cnn.it,Hospital confirma muerte del doctor que advirtió del coronavirus,https://cnn.it/39f0c6q
-8,POLITICAL,18,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/32bzspq
-9,POLITICAL,17,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37zvbvy
-10,POLITICAL,16,es.rt.com,Nueva York registra su primer caso de coronavirus,https://es.rt.com/7dwy
-11,POLITICAL,15,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2h0caeb
-12,POLITICAL,14,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3ad0pyy
-13,POLITICAL,12,es.rt.com,Identifican un posible caso de coronavirus en Ciudad de México,https://es.rt.com/7b0y
-14,POLITICAL,12,es.rt.com,El coronavirus puede infectar desde una distancia de 2 metros y a través de los ojos,https://es.rt.com/7bby
-15,POLITICAL,12,es.rt.com,Corea del Sur anuncia que el coronavirus se está propagando por el este del país,https://es.rt.com/7d3m
-16,POLITICAL,11,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36qlfru
-17,POLITICAL,11,es.rt.com,China informa de un brote de gripe aviar en medio de la batalla contra el coronavirus 2019-nCoV,https://es.rt.com/7bph
-18,POLITICAL,11,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
-19,POLITICAL,11,es.rt.com,Confirman el primer caso del coronavirus en México,https://es.rt.com/7dql
-20,POLITICAL,11,mol.im,Venice streets lie empty as coronavirus scares people away,https://mol.im/a/8073245
+1,FAKE/HOAX,8,sputniknews.com,Get Some Fresh Air! Scientist Reveal Deadly Effects of Indoor Pollution,https://sptnkne.ws/benk
+2,CONSPIRACY/JUNKSCI,7,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+3,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+4,FAKE/HOAX,3,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+5,FAKE/HOAX,3,breitbart.com,WHO Faces Calls for Leader to Resign over Coronavirus Failure,https://www.breitbart.com/national-security/2020/03/26/world-health-organization-faces-calls-for-leader-to-resign-over-coronavirus-failure/
+6,CONSPIRACY/JUNKSCI,2,zerohedge.com,"China Virus Cases Almost Double Overnight, Deaths Top 100 As North Korea Closes Border",https://www.zerohedge.com/geopolitical/wuhan-mayor-offers-resign-coronavirus-death-toll-accelerates-supply-shortages
+7,FAKE/HOAX,2,dailymail.co.uk,"7,000 trapped off Italian coast on cruise ship over coronavirus fears",https://www.dailymail.co.uk/news/article-7947003/6-000-trapped-cruise-ship-italy-two-people-board-tested-coronavirus.html
+8,CONSPIRACY/JUNKSCI,2,zerohedge.com,Did China's Tencent Accidentally Leak The True Terrifying Coronavirus Statistics,https://www.zerohedge.com/health/did-chinas-tencent-accidentally-leak-true-terrifying-coronavirus-statistics
+9,FAKE/HOAX,2,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+10,FAKE/HOAX,2,breitbart.com,AP Confirms: Democrats Are Lying to the Public About Coronavirus Readiness,https://www.breitbart.com/health/2020/02/27/ap-confirms-democrats-are-lying-to-the-public-about-coronavirus/
+11,FAKE/HOAX,2,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+12,CONSPIRACY/JUNKSCI,2,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+13,FAKE/HOAX,2,100percentfedup.com,,https://100percentfedup.com/house-republicans-walk-out-of-coronavirus-briefing-after-dem-delauro-gets-political-with-the-crisis/
+14,FAKE/HOAX,2,breitbart.com,Pollak: Democrats Pushed Impeachment While Coronavirus Spread,https://www.breitbart.com/politics/2020/03/13/pollak-democrats-pushed-impeachment-while-coronavirus-spread/
+15,FAKE/HOAX,2,albertonews.com,"Colectivos paramilitares asesinan a tres personas por ""no acatar la cuarentena"" en el 23 de enero de Caracas - AlbertoNews - Periodismo sin censura",https://albertonews.com/principales/ultima-hora-asesinan-a-tres-hombres-por-incumplir-la-cuarentena-en-el-23-de-enero-de-caracas-fotos-y-video/
+16,FAKE/HOAX,2,breitbart.com,Pelosi Slips Amnesty for DACA Illegal Aliens into Latest Coronavirus Plan,https://www.breitbart.com/politics/2020/03/24/pelosi-coronavirus-plan-daca-amnesty/
+17,CONSPIRACY/JUNKSCI,1,zerohedge.com,China Quarantines City Of 11 Million As Hong Kong Confirms Second Case Of Coronavirus,https://www.zerohedge.com/geopolitical/coronavirus-infections-climb-473-china-hong-kong-confirms-first-case
+18,FAKE/HOAX,1,newsmax.com,CDC: 1st Case of Deadly China Virus Hits US; More Expected,https://www.newsmax.com/newsfront/wuhan-coronavirus-china-washington/2020/01/21/id/950662/
+19,CONSPIRACY/JUNKSCI,1,infowars.com,Bill and Melinda Gates Foundation & Others Predicted Up To 65 Million Deaths Via Coronavirus – In Simulation Ran 3 Months Ago!,https://www.infowars.com/bill-and-melinda-gates-foundation-others-predicted-up-to-65-million-deaths-via-coronavirus-in-simulation-ran-3-months-ago/?__cf_chl_jschl_tk__=079d60379e381d317bebdfa0ec0a3d7dcdd8839e-1579826242-0-at8kt2hizttfjit9kn_wuicvedynjwyqqhfdhaeky5dm3vtf-yjkgregyhdwr-tqkguqsg7f7rqdm5x8uba2unkj7wcjniamqhzqe4kkm-yvzfjemdmhz_xchezfmwe6kaybp6vbasqcsgnlqicjldqlxm7tqczg-9kqjcxo8k33m91n-i8tuhsj6end7z4pj9jbp3c5qllifzwigd9rlv6zy1nqgce61bd4aufqak1_gseds3hladtdauhkmtdaorkbbmn5y7lz-wrb819vtk2mkhb0lgulbf0z8m8meezecfvo4xkbymk5ka5yl5k0trmhn1dgpnselof7vkpghoqqblkqd2qg2cnxmphutyakidbia9qomk4sfdfnqbojosnuwsipjykeeelbtmljlirepq0zmkj1-0i8ivjqegls
+20,FAKE/HOAX,1,summit.news,Video Purports to Show Coronavirus Victim Collapsed on the Street in Wuhan,https://summit.news/2020/01/23/video-purports-to-show-coronavirus-victim-collapsed-on-the-street-in-wuhan/

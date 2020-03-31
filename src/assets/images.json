@@ -1,23 +1,23 @@
 [
   {
     "title": "Sentiment",
-    "src": "/assets/img/sentiment.png"
+    "src": "/assets/static_img/sentiment.png"
   },
   {
     "title": "Sentiment in Italy",
-    "src": "/assets/img/sentiment_ITA.png"
+    "src": "/assets/static_img/sentiment_ITA.png"
   },
   {
     "title": "Unv. humans reachability",
-    "src": "/assets/img/unverified_humans_reach.png"
+    "src": "/assets/static_img/unverified_humans_reach.png"
   },
   {
     "title": "Unv. bots reachability",
-    "src": "/assets/img/unverified_bots_reach.png"
+    "src": "/assets/static_img/unverified_bots_reach.png"
   },
   {
     "title": "Unreliable reachability",
-    "src": "/assets/img/unreliable_reach.png"
+    "src": "/assets/static_img/unreliable_reach.png"
   }
   
 ]

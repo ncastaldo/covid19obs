@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
 1,CONSPIRACY/JUNKSCI,41,naturalnews.com,"HIDING THE OUTBREAK: Florida conceals number of people tested for coronavirus, then stupidly lies about the reason why",https://www.naturalnews.com/2020-02-18-florida-conceals-number-of-people-tested-for-coronavirus-then-lies.html
-2,CLICKBAIT,14,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,POLITICAL,12,rappler.com,World,http://rappler.com/world
-4,CLICKBAIT,10,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-5,POLITICAL,8,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-6,CLICKBAIT,7,allkpop.com,EXO's Suho donates 50 million KRW to aid coronavirus relief efforts,https://www.allkpop.com/article/2020/03/exos-suho-donates-50-million-krw-to-aid-coronavirus-relief-efforts
-7,CLICKBAIT,6,entertain.v.daum.net,"[단독] 레드벨벳 웬디, 코로나19 성금 1억 기부..부상 중에도 빛난 선행",https://entertain.v.daum.net/v/20200228150259906
-8,POLITICAL,6,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-9,CLICKBAIT,5,allkpop.com,NCT Dream and SF9 fans demand their labels take action to keep artists out of China due to the coronavirus,https://www.allkpop.com/article/2020/01/nct-dream-and-sf9-fans-demand-their-labels-take-action-to-keep-artists-out-of-china-due-to-the-coronavirus
-10,CLICKBAIT,5,koreaboo.com,Baekhyun Praised For His Adorable Yet Smart Methods To Preventing The Coronavirus,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
-11,POLITICAL,5,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-12,CLICKBAIT,5,koreaboo.com,MNH Entertainment Confirms 2 Of Chungha's Staff Have Corona19 (COVID-19),https://www.koreaboo.com/news/mnh-entertainment-confirms-2-chungha-staff-corona19-covid-19/
-13,CLICKBAIT,4,allkpop.com,"BTS’s V Shows Concern, Urges Fans To Be Careful Of The Coronavirus.",https://www.allkpop.com/article/2020/01/btss-v-shows-concerns-urges-fans-to-be-careful-of-the-coronavirus
-14,POLITICAL,4,rappler.com,Philippines confirms 1st case of novel coronavirus,https://www.rappler.com/nation/186633-philippines-confirms-case-novel-coronavirus?utm_medium=social&utm_source=twitter#echobox=1580371766
-15,CLICKBAIT,4,soompi.com,Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380150wpp/events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-16,CLICKBAIT,4,entertain.v.daum.net,"엑소 레이, 코로나19 사태에 2천만원 의미 있는 기부..""우리는 하나"" [단독]",https://entertain.v.daum.net/v/20200228165328313
-17,CLICKBAIT,4,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-18,CLICKBAIT,4,allkpop.com,Pledis confirms Minhyun tested negative for coronavirus,https://www.allkpop.com/article/2020/03/pledis-confirms-minhyun-tested-negative-for-coronavirus
-19,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2gcntzu
-20,CLICKBAIT,3,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
+2,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Scientists Discover HIV-Like ""Mutation"" Which Makes Coronavirus Extremely Infectious",https://www.zerohedge.com/health/coronavirus-hiv-mutation-suggests-nearly-1000x-more-likely-sars-infect
+3,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+4,FAKE/HOAX,3,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+5,FAKE/HOAX,2,express.co.uk,‘She’s a TIMEBOMB’ Chinese woman hides Coronavirus to enter France - and brags online,https://www.express.co.uk/news/world/1231898/coronavirus-latest-chinese-woman-france-sneaked-in-infected-corona-virus-wuhan-weibo
+6,FAKE/HOAX,2,dailymail.co.uk,Communities around China threaten to cull pets due to coronavirus,https://www.dailymail.co.uk/news/article-7952487/communities-china-threaten-cull-residents-pets-coronavirus.html
+7,CONSPIRACY/JUNKSCI,2,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+8,FAKE/HOAX,2,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
+9,FAKE/HOAX,1,summit.news,Professor Warns New Coronavirus Has Same Kill Rate as the Spanish Flu,https://summit.news/2020/01/22/professor-warns-new-coronavirus-has-same-kill-rate-as-the-spanish-flu/
+10,FAKE/HOAX,1,dailymail.co.uk,Chinese city will 'build a dedicated coronavirus hospital in SIX DAYS',https://www.dailymail.co.uk/news/article-7920937/chinese-city-build-dedicated-coronavirus-hospital-six-days.html?ito=social-facebook&fbclid=iwar1tduq8-zu4o5b_a9oss4abouviwezwrgx2ahe_soqmkip_rpq7m-w-cra
+11,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/china-coronavirus-infections-could-high-21344429
+12,FAKE/HOAX,1,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+13,FAKE/HOAX,1,rt.com,Singapore confirms first case of deadly Chinese coronavirus – reports,https://on.rt.com/a9lf
+14,FAKE/HOAX,1,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html?fbclid=iwar23xtoquv49iulugqpcd3yhenk9maqd6ewx8tndwjhs5-8qdth3eiahy_m
+15,FAKE/HOAX,1,dailymail.co.uk,Hospital in China flooded with patients amid coronavirus outbreak,https://www.dailymail.co.uk/news/article-7921709/shocking-footage-shows-hospital-china-flooded-hundreds-patients-amid-coronavirus-outbreak.html?ito=social-facebook
+16,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/amp/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html?__twitter_impression=true
+17,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Kills Man In Shanghai As China Confirms Nearly 2,000 Cases",https://www.zerohedge.com/political/56-million-chinese-lockdown-virus-spreads-australia-malaysia
+18,FAKE/HOAX,1,breaking911.com,"Los Angeles County Confirms First Case of Deadly Coronavirus, Fourth Case Confirmed In U.S. - Breaking911",https://breaking911.com/breaking-los-angeles-county-confirms-first-case-of-deadly-coronavirus-fourth-case-confirmed-in-u-s/
+19,FAKE/HOAX,1,theblaze.com,Medical simulation shows shocking number of people could die of coronavirus in just 18 months,https://www.theblaze.com/news/medical-simulation-shows-shocking-number-of-people-could-die-of-coronavirus-in-just-18-months
+20,FAKE/HOAX,1,dailymail.co.uk,Coronavirus fears hit UK as hazmat-clad medics treat man in face mask,https://www.dailymail.co.uk/health/article-7937887/coronavirus-fears-hit-birmingham-facemask-wearing-patient-escorted-ambulance.html?ito=amp_twitter_share-top

@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,126,thesun.co.uk,Is it safe to travel to Egypt? Latest advice as coronavirus cases hit 67,https://www.thesun.co.uk/travel/11087986/egypt-travel-advice-coronavirus-latest/
-2,CONSPIRACY/JUNKSCI,86,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-3,CLICKBAIT,59,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-4,CLICKBAIT,29,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/breaking-pope-francis-taken-ill-21588694
-5,FAKE/HOAX,26,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-6,POLITICAL,25,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-7,POLITICAL,18,rappler.com,World,http://rappler.com/world
-8,CLICKBAIT,18,koreaboo.com,BLACKPINK's March Comeback Has Reportedly Been Postponed Due To Coronavirus,https://www.koreaboo.com/news/blackpinks-march-comeback-reportedly-postponed-due-coronavirus-covid-19/
-9,POLITICAL,18,bfmtv.com,Coronavirus: le chef de l'ONU appelle tous les pays à « redoubler d'efforts immédiatement,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-italie-chine-carte-symptomes-mort-cas-psg-dortmund-huis-clos-paris-oise-morbihan-lyon/
-10,POLITICAL,16,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-11,POLITICAL,15,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-12,POLITICAL,14,bfmtv.com,Coronavirus: Castaner prévient que la violation des règles de confinement sera puni d'une amende de 38 €,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
-13,POLITICAL,14,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-14,CLICKBAIT,13,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-15,CONSPIRACY/JUNKSCI,11,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-16,SATIRE,10,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-17,CLICKBAIT,9,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-18,FAKE/HOAX,8,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-19,POLITICAL,8,newsweek.com,,https://www.newsweek.com/new-york-subway-attack-coronavirus-woman-mask-1485842
-20,POLITICAL,8,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/328l1hb
+1,CONSPIRACY/JUNKSCI,86,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+2,FAKE/HOAX,26,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+3,FAKE/HOAX,20,worldnewsdailyreport.com,COVID-19: Chinese health authorities confirm patient zero 'had sex with bats',https://worldnewsdailyreport.com/covid-19-chinese-health-authorities-confirm-patient-zero-had-sex-with-bats/
+4,CONSPIRACY/JUNKSCI,13,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+5,FAKE/HOAX,8,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+6,CONSPIRACY/JUNKSCI,7,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+7,FAKE/HOAX,7,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+8,FAKE/HOAX,7,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+9,FAKE/HOAX,6,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+10,FAKE/HOAX,6,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/#coronavirus
+11,FAKE/HOAX,6,dailymail.co.uk,Bird flu breaks out in Chinese provinces near coronavirus's epicentre,https://www.dailymail.co.uk/news/article-7987009/bird-flu-breaks-two-chinese-provinces-near-coronaviruss-epicentre.html
+12,FAKE/HOAX,5,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+13,FAKE/HOAX,4,dailymail.co.uk,Coronavirus patient sealed in a PLASTIC TUBE to avoid contamination,https://www.dailymail.co.uk/news/article-7916265/coronavirus-patient-sealed-plastic-tube-avoid-contaminating-others.html
+14,FAKE/HOAX,4,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+15,FAKE/HOAX,4,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+16,FAKE/HOAX,4,dailymail.co.uk,US scientists have completed a coronavirus vaccine ,https://www.dailymail.co.uk/health/article-8026293/us-scientists-completed-coronavirus-vaccine.html
+17,FAKE/HOAX,4,n.news.naver.com,"2PM 준호, 군복무 중 코로나19 확산 방지 위해 3천만원 기부",https://n.news.naver.com/entertain/now/article/609/0000253824
+18,FAKE/HOAX,3,dailymail.co.uk,Chinese city will 'build a dedicated coronavirus hospital in SIX DAYS',https://www.dailymail.co.uk/news/article-7920937/chinese-city-build-dedicated-coronavirus-hospital-six-days.html
+19,CONSPIRACY/JUNKSCI,3,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+20,FAKE/HOAX,3,dailymail.co.uk,Thailand admits it is 'unable to stop the spread' of the coronavirus,https://www.dailymail.co.uk/health/article-7938887/thailand-admits-unable-stop-spread-chinas-deadly-coronavirus.html

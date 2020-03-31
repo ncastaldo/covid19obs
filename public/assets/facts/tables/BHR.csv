@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,46,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-2,POLITICAL,15,oglobo.globo.com,"Coronavírus: novidade no Brasil, implante de chips é aposta da Medicina",https://oglobo.globo.com/sociedade/coronavirus-novidade-no-brasil-implante-de-chips-aposta-da-medicina-24312618?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-3,POLITICAL,12,oglobo.globo.com,É #FAKE que tigela de água com alho recém-fervida cura o coronavírus,https://oglobo.globo.com/fato-ou-fake/e-fake-que-tigela-de-agua-com-alho-recem-fervida-cura-coronavirus-1-24308518?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-4,CLICKBAIT,7,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-5,POLITICAL,6,oglobo.globo.com,Conferência sobre coronavírus é cancelada por causa do coronavírus,https://oglobo.globo.com/economia/conferencia-sobre-coronavirus-cancelada-por-causa-do-coronavirus-24299063?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-6,POLITICAL,5,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-7,POLITICAL,5,oglobo.globo.com,Câmara dos EUA aprova teste grátis para coronavírus e licença médica remunerada,https://oglobo.globo.com/sociedade/coronavirus/camara-dos-eua-aprova-teste-gratis-para-coronavirus-licenca-medica-remunerada-24305435?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-8,POLITICAL,4,oglobo.globo.com,"Herdeiro da Família Imperial, Dom Antônio está hospitalizado com coronavírus",https://oglobo.globo.com/brasil/herdeiro-da-familia-imperial-dom-antonio-esta-hospitalizado-com-coronavirus-24314291?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-9,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
-10,POLITICAL,3,rappler.com,World,http://rappler.com/world
-11,POLITICAL,3,theepochtimes.com,Hospital Director in Wuhan Dies of Coronavirus Infection,https://www.theepochtimes.com/hospital-director-in-coronavirus-epicenter-wuhan-dies-of-infection_3241461.html
-12,POLITICAL,3,theepochtimes.com,Coronavirus Outbreak 5 to 10 Times Worse Than China Admits: Study,https://www.theepochtimes.com/coronavirus-outbreak-5-to-10-times-worse-than-china-admits-study_3248190.html
-13,CLICKBAIT,3,soompi.com,BTS’s Fans ARMY Donate Refunds From Concert Cancelation To Help Coronavirus Prevention,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
-14,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3agzbvy
-15,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2oavjys
-16,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rjxoxi
-17,POLITICAL,2,newsweek.com,,https://www.newsweek.com/new-york-subway-attack-coronavirus-woman-mask-1485842
-18,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2hbdyqa
-19,CLICKBAIT,2,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-20,POLITICAL,2,theweek.com,Harvard scientist predicts coronavirus will infect up to 70 percent of humanity,https://theweek.com/speedreads/897799/harvard-scientist-predicts-coronavirus-infect-70-percent-humanity
+1,FAKE/HOAX,1,summit.news,Professor Warns New Coronavirus Has Same Kill Rate as the Spanish Flu,https://summit.news/2020/01/22/professor-warns-new-coronavirus-has-same-kill-rate-as-the-spanish-flu/
+2,FAKE/HOAX,1,rt.com,,https://www.rt.com/news/478997-bat-soup-china-virus-wuhan/
+3,FAKE/HOAX,1,rt.com,Did patient zero really catch new Chinese virus by eating infected bat soup? It’s actually perfectly possible,https://on.rt.com/a9lh
+4,FAKE/HOAX,1,rt.com,Chinese authorities share FIRST PHOTOS of deadly coronavirus,https://on.rt.com/a9n5
+5,FAKE/HOAX,1,rt.com,"China’s PM calls for ‘resolute fight’ against coronavirus outbreak as death toll climbs to 106 with over 1,700 new cases",https://on.rt.com/a9v1
+6,FAKE/HOAX,1,gnews.org,,https://gnews.org/89749/
+7,FAKE/HOAX,1,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+8,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+9,FAKE/HOAX,1,rt.com,City turned ghost town: Take a look inside sealed-off Wuhan amid coronavirus outbreak in China (VIDEO),https://on.rt.com/a9wi
+10,CONSPIRACY/JUNKSCI,1,iflscience.com,Youngest Person Diagnosed With Coronavirus Is A 30-Hour-Old Baby,https://www.iflscience.com/health-and-medicine/youngest-person-diagnosed-with-coronavirus-is-a-30hourold-baby/
+11,CONSPIRACY/JUNKSCI,1,globalresearch.ca,"Coronavirus Is Becoming a Western Excuse for Sinophobia and ""China-Bashing"" - Global Research",https://www.globalresearch.ca/coronavirus-western-excuse-sinophobia/5703277
+12,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/latest-news/breaking-north-korea-executes-coronavirus-21488604
+13,FAKE/HOAX,1,dailymail.co.uk,China admits it has no idea how many people have coronavirus in Wuhan,https://www.dailymail.co.uk/news/article-8001011/china-admits-no-idea-people-infected-coronavirus-wuhan.html
+14,FAKE/HOAX,1,gnews.org,,https://gnews.org/113221/
+15,FAKE/HOAX,1,gnews.org,,https://gnews.org/114050/
+16,CONSPIRACY/JUNKSCI,1,zerohedge.com,Hubei Doctors Warn Of Even-Deadlier Coronavirus Reinfection Causing Sudden Heart Attacks,https://www.zerohedge.com/health/hubei-doctors-warn-even-deadlier-coronavirus-reinfection-causing-sudden-heart-attacks
+17,FAKE/HOAX,1,ladbible.com,Head of Wuhan Hospital Dies Of Covid-19,https://www.ladbible.com/news/news-head-of-wuhan-hospital-dies-of-covid-19-20200217?source=twitter
+18,FAKE/HOAX,1,gnews.org,,https://gnews.org/117831/
+19,FAKE/HOAX,1,gnews.org,,https://gnews.org/118584/
+20,FAKE/HOAX,1,gnews.org,,https://gnews.org/119696/

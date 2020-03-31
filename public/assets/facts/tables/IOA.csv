@@ -1,21 +1,11 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,4,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,SATIRE,2,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-3,POLITICAL,2,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-4,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-5,POLITICAL,1,aftonbladet.se,,https://www.aftonbladet.se/nyheter/a/brbqwe/tva-misstankta-fall-av-coronavirus-i-malmo
-6,POLITICAL,1,rappler.com,World,http://rappler.com/world
-7,CONSPIRACY/JUNKSCI,1,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
-8,POLITICAL,1,foxnews.com,China slams Trump's coronavirus travel limits: 'Not a gesture of goodwill',https://www.foxnews.com/health/who-says-prepare-for-local-outbreaks-china-slams-us-control
-9,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/cronaca/immigrati-sbarcati-pozzallo-45-stati-sottoposti-test-coronavirus-147522/
-10,POLITICAL,1,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-11,CONSPIRACY/JUNKSCI,1,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-12,POLITICAL,1,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-13,FAKE/HOAX,1,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-14,CONSPIRACY/JUNKSCI,1,infowars.com,"Media, Democrats Spread Fake News That Trump Called Coronavirus ‘A Hoax’",https://www.infowars.com/media-democrats-spread-fake-news-that-trump-called-coronavirus-a-hoax/
-15,POLITICAL,1,fxn.ws,Fox News,https://fxn.ws/3cectid
-16,POLITICAL,1,deadstate.org,Christian megachurch cancels ‘faith healing’ service in response to coronavirus outbreak,https://deadstate.org/christian-megachurch-cancels-faith-healing-service-in-response-to-coronavirus-outbreak/
-17,FAKE/HOAX,1,bluntforcetruth.com,REPORT: New Border Wall Is Working – Illegal Crossings Way Down - Blunt Force Truth,https://bluntforcetruth.com/news/report-new-border-wall-is-working-illegal-crossings-way-down/
-18,FAKE/HOAX,1,theblaze.com,Report: Pelosi attempted to sneak taxpayer-funded abortions into the coronavirus relief bill,https://www.theblaze.com/news/report-pelosi-attempted-to-sneak-taxpayer-funded-abortions-into-the-coronavirus-relief-bill
-19,FAKE/HOAX,1,bluntforcetruth.com,New Orleans Mayor Grabs Authority to Ban Gun Sales With Coronavirus Emergency Declaration - Blunt Force Truth,https://bluntforcetruth.com/news/new-orleans-mayor-grabs-authority-to-ban-gun-sales-with-coronavirus-emergency-declaration/
-20,POLITICAL,1,dailycaller.com,Washington Post Corrects Jennifer Rubin Column Falsely Accusing McConnell Of Delaying Coronavirus Vote,https://dailycaller.com/2020/03/18/washington-post-jennifer-rubin-mcconnell-coronavirus-bill/
+1,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+2,CONSPIRACY/JUNKSCI,1,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+3,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/cronaca/immigrati-sbarcati-pozzallo-45-stati-sottoposti-test-coronavirus-147522/
+4,CONSPIRACY/JUNKSCI,1,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+5,FAKE/HOAX,1,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+6,CONSPIRACY/JUNKSCI,1,infowars.com,"Media, Democrats Spread Fake News That Trump Called Coronavirus ‘A Hoax’",https://www.infowars.com/media-democrats-spread-fake-news-that-trump-called-coronavirus-a-hoax/
+7,FAKE/HOAX,1,bluntforcetruth.com,REPORT: New Border Wall Is Working – Illegal Crossings Way Down - Blunt Force Truth,https://bluntforcetruth.com/news/report-new-border-wall-is-working-illegal-crossings-way-down/
+8,FAKE/HOAX,1,theblaze.com,Report: Pelosi attempted to sneak taxpayer-funded abortions into the coronavirus relief bill,https://www.theblaze.com/news/report-pelosi-attempted-to-sneak-taxpayer-funded-abortions-into-the-coronavirus-relief-bill
+9,FAKE/HOAX,1,bluntforcetruth.com,New Orleans Mayor Grabs Authority to Ban Gun Sales With Coronavirus Emergency Declaration - Blunt Force Truth,https://bluntforcetruth.com/news/new-orleans-mayor-grabs-authority-to-ban-gun-sales-with-coronavirus-emergency-declaration/
+10,FAKE/HOAX,1,breitbart.com,Nolte: Media Blackout of Trump Coronavirus Briefings Begins,https://www.breitbart.com/the-media/2020/03/24/nolte-media-blackout-of-trump-coronavirus-briefings-begins/

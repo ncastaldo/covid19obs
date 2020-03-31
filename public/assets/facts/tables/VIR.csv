@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,9,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,8,thenewcivilrightsmovement.com,,https://www.thenewcivilrightsmovement.com/2020/01/trump-loving-conspiracy-nuts-tout-drinking-bleach-as-a-miracle-cure-for-coronavirus/
-3,CONSPIRACY/JUNKSCI,6,zerohedge.com,"Philippines Reports First Death Due To Coronavirus Outside China; 137,600 Under Observation In China",https://www.zerohedge.com/geopolitical/second-chinese-city-bars-residents-leaving-their-homes-hong-kong-workers-demand-city
-4,POLITICAL,5,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-5,CONSPIRACY/JUNKSCI,4,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-6,CONSPIRACY/JUNKSCI,4,zerohedge.com,Why It's Too Late To Contain COVID-19,https://www.zerohedge.com/health/why-its-too-late-contain-covid-19
-7,POLITICAL,4,today.ng,"CDC: To be safe from coronavirus, shave your beard - TODAY",https://www.today.ng/i/207948
-8,POLITICAL,3,thedailybeast.com,QAnon-ers’ Magic Cure for Coronavirus: Just Drink Bleach!,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
-9,CONSPIRACY/JUNKSCI,3,zerohedge.com,Cruise Ship Coronavirus Cases Spike 30%; First Death Recorded In Europe,https://www.zerohedge.com/geopolitical/china-says-nearly-2000-doctors-nurses-infected-shortages-medical-supplies-persist
-10,POLITICAL,3,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-11,POLITICAL,3,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-12,POLITICAL,2,theepochtimes.com,Second US Case of Coronavirus Confirmed,https://www.theepochtimes.com/second-us-case-of-coronavirus-confirmed_3214646.html
-13,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tu0d1h
-14,POLITICAL,2,thesun.co.uk,Coronavirus leaves 56 MILLION on lockdown in 14 cities as surgeon who treated sick becomes 41st confirmed death,https://www.thesun.co.uk/news/10817933/coronavirus-deaths-lockdown-china?utm_source=twitter&utm_medium=social&utm_campaign=sharebarweb
-15,CONSPIRACY/JUNKSCI,2,zerohedge.com,Is The Market Grossly Underestimating The Potential Impact Of The Coronavirus Epidemic?,https://www.zerohedge.com/markets/market-grossly-underestimating-potential-impact-coronavirus-epidemic
-16,CONSPIRACY/JUNKSCI,2,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
-17,CLICKBAIT,2,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
-18,POLITICAL,2,rappler.com,Philippines confirms 1st case of novel coronavirus,https://www.rappler.com/nation/186633-philippines-confirms-case-novel-coronavirus?utm_medium=social&utm_source=twitter#echobox=1580371766
-19,POLITICAL,2,rappler.com,World,http://rappler.com/world
-20,CONSPIRACY/JUNKSCI,2,zerohedge.com,China Outraged As World Cancels Flights And Shuts Borders Amid Coronavirus Outbreak,https://www.zerohedge.com/geopolitical/china-outraged-world-cancels-flights-and-shut-borders-amid-coronavirus-outbreak
+1,CONSPIRACY/JUNKSCI,6,zerohedge.com,"Philippines Reports First Death Due To Coronavirus Outside China; 137,600 Under Observation In China",https://www.zerohedge.com/geopolitical/second-chinese-city-bars-residents-leaving-their-homes-hong-kong-workers-demand-city
+2,CONSPIRACY/JUNKSCI,4,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+3,CONSPIRACY/JUNKSCI,4,zerohedge.com,Why It's Too Late To Contain COVID-19,https://www.zerohedge.com/health/why-its-too-late-contain-covid-19
+4,CONSPIRACY/JUNKSCI,3,zerohedge.com,Cruise Ship Coronavirus Cases Spike 30%; First Death Recorded In Europe,https://www.zerohedge.com/geopolitical/china-says-nearly-2000-doctors-nurses-infected-shortages-medical-supplies-persist
+5,CONSPIRACY/JUNKSCI,2,zerohedge.com,Is The Market Grossly Underestimating The Potential Impact Of The Coronavirus Epidemic?,https://www.zerohedge.com/markets/market-grossly-underestimating-potential-impact-coronavirus-epidemic
+6,CONSPIRACY/JUNKSCI,2,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+7,CONSPIRACY/JUNKSCI,2,zerohedge.com,China Outraged As World Cancels Flights And Shuts Borders Amid Coronavirus Outbreak,https://www.zerohedge.com/geopolitical/china-outraged-world-cancels-flights-and-shut-borders-amid-coronavirus-outbreak
+8,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+9,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Japan Confirms 10 nCoV Cases Aboard Quarantined Cruise Ship; Hong Kong Warns Virus Could ""Spread Widely"" As Deaths Near 500: Virus Updates",https://www.zerohedge.com/geopolitical/president-xi-warns-ncov-outbreak-threatens-stability-top-who-official-disputes
+10,CONSPIRACY/JUNKSCI,2,zerohedge.com,Is This A Hospital Or A Coronavirus Deathatorium?,https://www.zerohedge.com/health/hospital-or-coronavirus-deathatorium
+11,CONSPIRACY/JUNKSCI,2,zerohedge.com,Apple Warns Coronavirus Could Jeopardize Orders For 45 Million Airpods,https://www.zerohedge.com/markets/apple-warns-coronavirus-could-jeopardize-order-45-million-airpods
+12,CONSPIRACY/JUNKSCI,2,zerohedge.com,White House Asks Scientists To Investigate Whether 2019-nCoV Was Bio-Engineered,https://www.zerohedge.com/health/white-house-asks-scientists-investigate-whether-2019-ncov-was-bio-engineered
+13,CONSPIRACY/JUNKSCI,2,zerohedge.com,North Korea Concealing Coronavirus Outbreak; Officials Ordered To 'Quickly Dispose Of Bodies',https://www.zerohedge.com/geopolitical/north-korea-concealing-massive-coronavirus-outbreak-report
+14,CONSPIRACY/JUNKSCI,2,naturalnews.com,We've already identified three natural molecules that inhibit coronavirus replication in the body... and they don't come from Big Pharma,https://www.naturalnews.com/2020-02-10-already-identified-three-natural-molecules-that-inhibit-coronavirus-replication.html
+15,CONSPIRACY/JUNKSCI,2,zerohedge.com,Beijing Hunts Down Chinese Citizens Challenging Official Coronavirus Narrative,https://www.zerohedge.com/geopolitical/beijing-hunts-down-chinese-citizens-challenging-official-coronavirus-narrative
+16,CONSPIRACY/JUNKSCI,2,usawatchdog.com,,https://usawatchdog.com/covid19-real-beast-causing-dangerous-pandemic-chris-martenson/
+17,CONSPIRACY/JUNKSCI,2,infowars.com,,http://infowars.com
+18,FAKE/HOAX,2,politicususa.com,,https://www.politicususa.com/2020/02/27/trump-and-pence-launch-propaganda-war-to-muzzle-health-officials-on-coronavirus.html
+19,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Scientists Discover HIV-Like ""Mutation"" Which Makes Coronavirus Extremely Infectious",https://www.zerohedge.com/health/coronavirus-hiv-mutation-suggests-nearly-1000x-more-likely-sars-infect
+20,FAKE/HOAX,2,politicususa.com,,https://www.politicususa.com/2020/02/28/trump-wants-to-use-a-tax-cut-to-fight-coronavirus.html

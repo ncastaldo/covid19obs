@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,148,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,CLICKBAIT,75,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-3,POLITICAL,59,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-4,POLITICAL,58,rappler.com,World,http://rappler.com/world
-5,CONSPIRACY/JUNKSCI,46,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
-6,CLICKBAIT,44,entertain.v.daum.net,"[단독] 레드벨벳 웬디, 코로나19 성금 1억 기부..부상 중에도 빛난 선행",https://entertain.v.daum.net/v/20200228150259906
-7,POLITICAL,41,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-8,POLITICAL,38,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-9,POLITICAL,37,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-10,FAKE/HOAX,34,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-11,CLICKBAIT,34,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-12,POLITICAL,33,newsweek.com,,https://www.newsweek.com/trump-says-chinese-president-xi-told-him-coronavirus-will-killed-heat-april-1486571
-13,CLICKBAIT,31,soompi.com,More Events Postponed Or Canceled In Korea And Around Asia Due To Coronavirus Concerns,https://www.soompi.com/article/1380327wpp/more-events-postponed-or-cancelled-in-korea-and-around-asia-due-to-coronavirus-concerns
-14,POLITICAL,30,bfmtv.com,Coronavirus: Castaner prévient que la violation des règles de confinement sera puni d'une amende de 38 €,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
-15,FAKE/HOAX,28,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-16,FAKE/HOAX,27,rt.com,Global oil demand to face 1st quarterly drop in more than a decade – IEA,https://www.rt.com/business/480738-oil-demand-drops-coronavirus/
-17,FAKE/HOAX,25,rt.com,Coronavirus likely to have minimal effect on Russia's economic growth — Alexei Kudrin,https://www.rt.com/business/480493-russian-economy-coronavirus-kudrin/
-18,FAKE/HOAX,25,rt.com,"ICYMI: Hey, coronavirus and the rest of the world, give China a break!",https://www.rt.com/news/480869-icymi-coronavirus-quarantine-secrecy-china/
-19,CLICKBAIT,25,soompi.com,Staff Member Of Popular Singer Reportedly Tests Positive For Novel Coronavirus,https://www.soompi.com/article/1385621wpp/staff-member-of-popular-singer-reportedly-tests-positive-for-novel-coronavirus
-20,FAKE/HOAX,24,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+1,CONSPIRACY/JUNKSCI,46,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+2,FAKE/HOAX,35,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+3,FAKE/HOAX,28,rt.com,Global oil demand to face 1st quarterly drop in more than a decade – IEA,https://www.rt.com/business/480738-oil-demand-drops-coronavirus/
+4,FAKE/HOAX,28,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+5,FAKE/HOAX,25,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+6,FAKE/HOAX,25,rt.com,Coronavirus likely to have minimal effect on Russia's economic growth — Alexei Kudrin,https://www.rt.com/business/480493-russian-economy-coronavirus-kudrin/
+7,FAKE/HOAX,25,rt.com,"ICYMI: Hey, coronavirus and the rest of the world, give China a break!",https://www.rt.com/news/480869-icymi-coronavirus-quarantine-secrecy-china/
+8,CONSPIRACY/JUNKSCI,24,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+9,FAKE/HOAX,23,rt.com,Sick joke: Blogger arrested after brutal coronavirus prank on Moscow subway (VIDEO),https://www.rt.com/russia/480518-coronavirus-prank-moscow-metro/
+10,FAKE/HOAX,23,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+11,FAKE/HOAX,22,dailymail.co.uk,China accused of lying over true scale of coronavirus,https://www.dailymail.co.uk/news/article-7951279/china-accused-lying-true-scale-coronavirus.html?ito=amp_twitter_share-top
+12,FAKE/HOAX,21,gnews.org,,https://gnews.org/89749/
+13,FAKE/HOAX,20,rt.com,,https://www.rt.com/news/480545-india-coronavirus-patients-recover/
+14,FAKE/HOAX,19,rt.com,"China coronavirus death toll passes 800 with 34,000+ confirmed cases worldwide",https://www.rt.com/newsline/480375-china-coronavirus-death-toll/
+15,FAKE/HOAX,19,rt.com,,https://www.rt.com/news/480622-musicians-influencers-coronavirus-fears/
+16,FAKE/HOAX,19,rt.com,,https://www.rt.com/business/480850-coronavirus-airlines-losses-worldwide/
+17,FAKE/HOAX,18,rt.com,Red flagged: Chinese Formula 1 Grand Prix officially postponed amid coronavirus fears,https://www.rt.com/sport/480684-formula-1-chinese-grand-prix-postponed-coronavirus/
+18,FAKE/HOAX,17,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+19,FAKE/HOAX,16,rt.com,,https://www.rt.com/business/481003-chinese-markets-recover-coronavirus/
+20,FAKE/HOAX,16,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787

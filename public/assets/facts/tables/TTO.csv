@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,23,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,13,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-3,POLITICAL,8,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3akwdqb
-4,FAKE/HOAX,7,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-5,CLICKBAIT,7,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-6,POLITICAL,5,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rarvhg
-7,POLITICAL,5,cnn.com,January 28 coronavirus news - CNN,https://www.cnn.com/asia/live-news/coronavirus-outbreak-01-28-20-intl-hnk/index.html
-8,POLITICAL,5,vox.com,What happens next in the coronavirus outbreak? We mapped 8 scenarios.,https://www.vox.com/2020/2/5/21122758/coronavirus-outcomes-pandemic-travel-china-map
-9,CONSPIRACY/JUNKSCI,5,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-10,POLITICAL,4,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rko8i0
-11,POLITICAL,4,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2uyebfa
-12,POLITICAL,4,cnn.com,February 15 coronavirus news - CNN,https://www.cnn.com/asia/live-news/coronavirus-outbreak-02-15-20-intl-hnk/index.html
-13,POLITICAL,4,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39jycun
-14,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3azfjej
-15,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2gxbkuh
-16,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rbtygt
-17,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37eilk4
-18,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
-19,POLITICAL,3,vox.com,"9 questions about the Covid-19 coronavirus pandemic, answered",https://www.vox.com/2020/1/31/21113178/what-is-coronavirus-symptoms-travel-china-map
-20,POLITICAL,3,rawstory.com,Trump lies about deadly coronavirus in Super Bowl interview: ‘We’ve pretty much shut it down’,https://www.rawstory.com/2020/02/weve-pretty-much-shut-it-down-trump-lies-to-fox-news-he-stopped-the-coronavirus-crisis-but-hes-made-it-worse/
+1,FAKE/HOAX,7,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+2,CONSPIRACY/JUNKSCI,5,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+3,FAKE/HOAX,2,dailymail.co.uk,"Nurse treating coronavirus in China claims 90,000 people are infected",https://www.dailymail.co.uk/news/article-7929657/nurse-treating-coronavirus-sufferers-china-claims-90-000-people-infected.html
+4,FAKE/HOAX,2,albertonews.com,Científico de Harvard predice que el coronavirus infectará hasta el 70% de la humanidad - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/ultima-hora-cientifico-de-harvard-predice-que-el-coronavirus-infectara-hasta-el-70-de-la-humanidad/
+5,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+6,FAKE/HOAX,1,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+7,FAKE/HOAX,1,presstv.com,Iran says suspected coronavirus case tested negative,https://www.presstv.com/detail/2020/01/25/617069/iran-coronavirus-suspected-case-airport-screening
+8,CONSPIRACY/JUNKSCI,1,zerohedge.com,This Is How China Is Hiding The True Number Of Coronavirus Deaths,https://www.zerohedge.com/economics/how-china-hiding-true-number-coronavirus-deaths
+9,CONSPIRACY/JUNKSCI,1,thetruthseeker.co.uk,,http://www.thetruthseeker.co.uk/?p=201417
+10,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/china-building-1000-bed-hospital-21349892?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar
+11,FAKE/HOAX,1,dcdirtylaundry.com,What a Coincidence! A U.S. Patent For ‘An Attenuated Coronavirus’ Was Filed In 2015 And Granted In 2018 - DC Dirty Laundry,https://dcdirtylaundry.com/what-a-coincidence-a-u-s-patent-for-an-attenuated-coronavirus-was-filed-in-2015-and-granted-in-2018/
+12,CONSPIRACY/JUNKSCI,1,zerohedge.com,"UK Schools Warned To Watch Out For ""Xenophobia"" As Coronavirus Spreads",https://www.zerohedge.com/political/uk-schools-warned-watch-out-xenophobia-coronavirus-spreads
+13,FAKE/HOAX,1,dailymail.co.uk,Thailand admits it is 'unable to stop the spread' of the coronavirus,https://www.dailymail.co.uk/health/article-7938887/thailand-admits-unable-stop-spread-chinas-deadly-coronavirus.html
+14,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/latest-news/infected-patients-deliberately-spreading-coronavirus-21384183?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar
+15,FAKE/HOAX,1,rt.com,,https://on.rt.com/aa19
+16,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
+17,FAKE/HOAX,1,rt.com,Russia's Ministry of Health names three drugs that can treat new Chinese coronavirus,https://www.rt.com/russia/479581-russia-health-ministry-coronavirus-vaccine/
+18,FAKE/HOAX,1,sputniknews.com,Istanbul Court Jails Two Opposition Reporters for Divulging State Secrets,https://sptnkne.ws/bmkm
+19,FAKE/HOAX,1,rt.com,,https://on.rt.com/aa4r
+20,FAKE/HOAX,1,sputniknews.com,Coronavirus: Pakistani Student Seeking Gov’t Help in Wuhan Posts Video of Indian Student Evacuation,https://sputniknews.com/india/202002011078201387-coronavirus-pakistani-student-seeking-govt-help-in-wuhan-posts-video-of-indian-student-evacuation/

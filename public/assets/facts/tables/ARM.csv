@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,6,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-2,CLICKBAIT,5,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,CONSPIRACY/JUNKSCI,2,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
-4,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-5,POLITICAL,2,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-6,POLITICAL,2,whitehouse.gov,"Remarks by President Trump, Vice President Pence, and Members of the Coronavirus Task Force in Press Conference | The White House",https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-members-coronavirus-task-force-press-conference/
-7,POLITICAL,1,es.rt.com,"La OMS podría declarar la emergencia sanitaria internacional por el coronavirus, que ya ha dejado 17 muertos",https://es.rt.com/7awr
-8,POLITICAL,1,mol.im,Deadly coronavirus 'could ALREADY be in Britain',https://mol.im/a/7915845
-9,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38vginl
-10,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38ftiqt
-11,POLITICAL,1,cnn.com,First US case of Wuhan coronavirus confirmed by CDC,https://www.cnn.com/2020/01/21/health/wuhan-coronavirus-first-us-case-cdc-bn/index.html
-12,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2nwalg6
-13,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Pandemic Simulation Run 3 Months Ago Predicts 65 Million People Could Die,https://www.zerohedge.com/health/coronavirus-pandemic-simulation-run-3-months-ago-predicts-65-million-people-could-die
-14,FAKE/HOAX,1,express.co.uk,Coronavirus outbreak: Has coronavirus hit UK? Is your area affected?,https://www.express.co.uk/life-style/health/1232590/coronavirus-outbreak-uk-cases-is-coronavirus-in-my-area-scotland-northern-ireland
-15,POLITICAL,1,bfmtv.com,"Coronavirus en Chine: trains et avions suspendus depuis la ville de Wuhan, où est apparu le virus",https://www.bfmtv.com/international/chine-trains-et-avions-suspendus-depuis-la-ville-de-wuhan-ou-est-apparu-le-virus-1845536.html
-16,POLITICAL,1,cnn.com,What it will take to stop the Wuhan coronavirus,https://www.cnn.com/2020/01/24/opinions/wuhan-coronavirus-china-strategy-garrett/index.html
-17,CONSPIRACY/JUNKSCI,1,off-guardian.org,,https://off-guardian.org/2020/01/24/reality-check-coronavirus-fear-porn/
-18,CONSPIRACY/JUNKSCI,1,wakingtimes.com,,https://www.wakingtimes.com/2020/01/25/8-things-to-consider-before-panicking-about-the-coronavirus/
-19,CLICKBAIT,1,allkpop.com,NCT Dream and SF9 fans demand their labels take action to keep artists out of China due to the coronavirus,https://www.allkpop.com/article/2020/01/nct-dream-and-sf9-fans-demand-their-labels-take-action-to-keep-artists-out-of-china-due-to-the-coronavirus
-20,POLITICAL,1,thepostmillennial.com,Quebec politician praises coronavirus for reducing carbon footprint in Wuhan,https://www.thepostmillennial.com/quebec-politician-praises-coronavirus-for-reducing-carbon-footprint-in-wuhan/
+1,CONSPIRACY/JUNKSCI,2,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+2,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+3,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Pandemic Simulation Run 3 Months Ago Predicts 65 Million People Could Die,https://www.zerohedge.com/health/coronavirus-pandemic-simulation-run-3-months-ago-predicts-65-million-people-could-die
+4,FAKE/HOAX,1,express.co.uk,Coronavirus outbreak: Has coronavirus hit UK? Is your area affected?,https://www.express.co.uk/life-style/health/1232590/coronavirus-outbreak-uk-cases-is-coronavirus-in-my-area-scotland-northern-ireland
+5,CONSPIRACY/JUNKSCI,1,off-guardian.org,,https://off-guardian.org/2020/01/24/reality-check-coronavirus-fear-porn/
+6,CONSPIRACY/JUNKSCI,1,zerohedge.com,"UK Researcher Predicts Over 250,000 Chinese Will Have Coronavirus In Ten Days",https://www.zerohedge.com/geopolitical/uk-researcher-predicts-over-250000-people-china-will-have-coronavirus-ten-days
+7,CONSPIRACY/JUNKSCI,1,wakingtimes.com,,https://www.wakingtimes.com/2020/01/25/8-things-to-consider-before-panicking-about-the-coronavirus/
+8,FAKE/HOAX,1,rt.com,"Dozens of drugs available to treat ‘coronavirus,’ but global pandemic possible by March – Moscow experts",https://www.rt.com/russia/479293-coronavirus-epidemic-possible-march-russia/
+9,FAKE/HOAX,1,dailymail.co.uk,China spent crucial few days of coronavirus outbreak ARRESTING people,https://www.dailymail.co.uk/news/article-7924241/china-spent-crucial-days-coronavirus-outbreak-arresting-people.html?ito=social-facebook
+10,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+11,CONSPIRACY/JUNKSCI,1,usahitman.com,CORONAVIRUS is a Patented Virus - USAHITMAN Conspiracy News,https://usahitman.com/coronavirus-patented-virus/
+12,FAKE/HOAX,1,rt.com,Russia closes its Far East border with China in attempt to prevent spread of new coronavirus,https://on.rt.com/aa1b
+13,FAKE/HOAX,1,rt.com,"First two cases of coronavirus confirmed in Russia, both Chinese citizens",https://on.rt.com/aa5v
+14,CONSPIRACY/JUNKSCI,1,blacklistednews.com,,https://www.blacklistednews.com/article/76139/bats-gene-editing-and-bioweapons-recent-darpa-experiments-raise-concerns-amid-coronavirus.html
+15,FAKE/HOAX,1,rt.com,City turned ghost town: Take a look inside sealed-off Wuhan amid coronavirus outbreak in China (VIDEO),https://on.rt.com/a9wi
+16,CONSPIRACY/JUNKSCI,1,zerohedge.com,Doctor Warns Up To 30% Of Medical Staff Working In Wuhan Hospital Now Infected With nCoV,https://www.zerohedge.com/geopolitical/doctor-warns-30-medical-staff-working-wuhan-hospital-now-infected-ncov
+17,FAKE/HOAX,1,dailymail.co.uk,Shocking clip shows suspected coronavirus carriers dragged from homes,https://www.dailymail.co.uk/news/article-7980883/video-shows-officials-protective-suits-dragging-suspected-coronavirus-carriers-homes.html
+18,FAKE/HOAX,1,theconservativetreehouse.com,Peter Navarro: Coronavirus Highlights Need for U.S. to Make Our Own Medical Products Again…,https://theconservativetreehouse.com/2020/02/10/peter-navarro-coronavirus-highlights-need-for-u-s-to-make-our-own-medical-products-again/
+19,FAKE/HOAX,1,express.co.uk,M6 traffic latest: M6 chaos as crash and flooding spark 12 miles of tailbacks - updates,https://www.express.co.uk/news/uk/1241695/m6-traffic-latest-m6-closed-crash-flooding-junctions-5-6-birmingham
+20,CONSPIRACY/JUNKSCI,1,wakingtimes.com,,https://www.wakingtimes.com/2020/02/17/coronavirus-run-here-come-the-experimental-drugs/

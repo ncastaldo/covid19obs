@@ -21,7 +21,7 @@
 
 import { dsvFormat } from 'd3-dsv'
 
-const filePath = '/assets/table/infodemic_table.csv'
+const filePath = '/assets/info_table/infodemic_table.csv'
 const headers = [
   {
     value: 'rank',
@@ -47,11 +47,6 @@ const headers = [
     value: 'reliability',
     text: 'Native reliability',
     width: 160
-  },
-  {
-    value: 'reliability_exposure',
-    text: 'Exposure reliable news',
-    width: 190
   },
   {
     value: 'bot_unverified',

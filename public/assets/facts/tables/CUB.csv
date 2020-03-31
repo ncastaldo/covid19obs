@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,50,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-2,CLICKBAIT,28,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-3,POLITICAL,24,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-4,POLITICAL,19,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-5,POLITICAL,18,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
-6,POLITICAL,17,actualidad.rt.com,"La OMS declara emergencia internacional ante la propagación del coronavirus, ¿qué va a pasar ahora?",https://actualidad.rt.com/actualidad/341518-oms-declarar-coronavirus-emergencia-internacional
-7,POLITICAL,16,actualidad.rt.com,"Xi Jinping advierte que el avance del coronavirus ""se acelera"" y China se enfrenta a una ""situación grave""",https://actualidad.rt.com/actualidad/341028-xi-avance-coronavirus-acelera-china-grave
-8,POLITICAL,16,es.rt.com,China aprueba una vacuna contra el coronavirus para ensayos clínicos,https://es.rt.com/7fd4
-9,POLITICAL,15,eldiario.es,"Jorge Fernández Díaz: ""Cuestionar la Monarquía es más letal para España que el coronavirus""",https://www.eldiario.es/politica/jorge-fernandez-diaz-coronavirus-rey_0_1006849391.html
-10,FAKE/HOAX,14,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
-11,POLITICAL,13,actualidad.rt.com,No solo fiebre y tos: médicos chinos describen los síntomas del coronavirus,https://actualidad.rt.com/actualidad/341082-tos-fiebre-son-unicos-sintomas-coronavirus
-12,POLITICAL,13,es.rt.com,Corea del Sur anuncia que el coronavirus se está propagando por el este del país,https://es.rt.com/7d3m
-13,POLITICAL,13,es.rt.com,Rusia anuncia el inicio de pruebas de una vacuna contra el coronavirus,https://es.rt.com/7fmk
-14,FAKE/HOAX,12,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
-15,POLITICAL,12,es.rt.com,Nueva York declara el estado de emergencia por el coronavirus,https://es.rt.com/7ef6
-16,POLITICAL,11,actualidad.rt.com,El viceministro de Salud iraní da positivo por coronavirus,https://actualidad.rt.com/actualidad/344015-viceministro-salud-irani-dar-positivo-coronavirus
-17,POLITICAL,11,es.rt.com,Confirman la primera muerte por coronavirus en EE.UU.,https://es.rt.com/7due
-18,POLITICAL,10,actualidad.rt.com,China confirma la transmisión del nuevo coronavirus entre humanos,https://actualidad.rt.com/actualidad/340451-china-confirmar-transmision-coronavirus-humanos
-19,POLITICAL,10,es.rt.com,El coronavirus llega a Europa: Confirman tres casos de infectados en Francia,https://es.rt.com/7b39
-20,POLITICAL,10,actualidad.rt.com,Las autoridades chinas confirman el primer caso de curación del nuevo coronavirus,https://actualidad.rt.com/actualidad/340947-china-confirmar-primera-paciente-curada-coronavirus
+1,FAKE/HOAX,14,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+2,FAKE/HOAX,12,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+3,FAKE/HOAX,5,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+4,FAKE/HOAX,5,dailymail.co.uk,Passengers from cruise ship hit by coronavirus board flights to UK,https://www.dailymail.co.uk/news/article-8130201/passengers-cruise-ship-hit-coronavirus-rejoice-cuba-board-flights-britain.html
+5,FAKE/HOAX,4,albertonews.com,Médicos chinos hallan anticuerpos capaces de combatir el coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/lo-ultimo-medicos-chinos-hallan-anticuerpos-capaces-de-combatir-el-coronavirus/
+6,FAKE/HOAX,4,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
+7,FAKE/HOAX,3,albertonews.com,Científico de Harvard predice que el coronavirus infectará hasta el 70% de la humanidad - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/ultima-hora-cientifico-de-harvard-predice-que-el-coronavirus-infectara-hasta-el-70-de-la-humanidad/
+8,FAKE/HOAX,3,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-el-comite-olimpico-internacional-abre-la-puerta-a-la-cancelacion-de-los-juegos-por-el-coronavirus/
+9,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+10,CONSPIRACY/JUNKSCI,3,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+11,FAKE/HOAX,3,albertonews.com,,https://albertonews.com/coronavirus/ultima-hora-faes-detuvo-a-reportera-de-caraota-digital-por-cubrir-cuarentena-en-catia/
+12,FAKE/HOAX,2,rt.com,Error 404,http://on.rt.com/a9vh
+13,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/urgente-el-coronavirus-puede-infectar-desde-una-distancia-de-2-metros-y-a-traves-de-los-ojos/
+14,FAKE/HOAX,2,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+15,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
+16,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-oms-declara-que-el-coronavirus-constituye-una-emergencia-de-salud-publica-de-preocupacion-internacional/
+17,FAKE/HOAX,2,rt.com,Clucking hell! New outbreak of BIRD FLU sees thousands of chickens culled in coronavirus-stricken China,https://on.rt.com/aa9r
+18,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-el-balance-de-muertos-en-china-por-el-coronavirus-aumento-a-560/
+19,FAKE/HOAX,2,sputniknews.com,‘March Against Monsanto’ Activists Rally in Cities Around the World (Video),https://sptnkne.ws/bs6s
+20,FAKE/HOAX,2,sputniknews.com,"Ankara Needs to 'Turn Moscow From Foe to Friend' Amid Tensions With EU, US",https://sptnkne.ws/bvtu

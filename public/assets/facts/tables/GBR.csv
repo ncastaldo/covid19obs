@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,5497,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,CLICKBAIT,1542,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/coronavirus-hunt-madeleine-mccann-could-21724854
-3,CLICKBAIT,1268,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
-4,CLICKBAIT,958,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-5,POLITICAL,822,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-6,CLICKBAIT,670,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/coronavirus-fit-healthy-nurse-36-21733903?ds
-7,POLITICAL,578,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-8,CONSPIRACY/JUNKSCI,575,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-9,CLICKBAIT,536,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/breaking-pope-francis-taken-ill-21588694
-10,POLITICAL,424,telegraph.co.uk,The EU's cack-handed response to coronavirus is proof we were right to get out,https://www.telegraph.co.uk/business/2020/03/15/eus-cack-handed-response-coronavirus-proof-right-get/?utm_content=telegraph&utm_medium=social&utm_campaign=echobox&utm_source=twitter#echobox=1584299891
-11,CLICKBAIT,388,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/breaking-coronavirus-super-spreader-scout-21473330
-12,POLITICAL,384,nymag.com,The Story of a Coronavirus Infection,https://nymag.com/intelligencer/2020/03/the-story-of-a-coronavirus-infection.html?utm_source=sailthru&utm_medium=email&utm_campaign=intelligencer%20-%20march%2021%2c%202020&utm_term=subscription%20list%20-%20daily%20intelligencer%20%281%20year%29
-13,POLITICAL,349,telegraph.co.uk,How to avoid the spread of coronavirus when travelling on public transport,https://www.telegraph.co.uk/global-health/science-and-disease/ticket-ride-protect-coronavirus-tube-bus-plane/
-14,POLITICAL,315,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-15,CLICKBAIT,309,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/doctor-blunt-advice-those-wearing-21587946
-16,CLICKBAIT,306,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/breaking-coronavirus-uk-cases-jump-21713865
-17,POLITICAL,295,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-18,POLITICAL,294,newsweek.com,,https://www.newsweek.com/nigel-farage-china-coronavirus-west-rethink-1493085
-19,FAKE/HOAX,282,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-20,POLITICAL,278,rollingstone.com,Rolling Stone,https://rol.st/33rtzth
+1,CONSPIRACY/JUNKSCI,575,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+2,FAKE/HOAX,289,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+3,CONSPIRACY/JUNKSCI,258,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+4,FAKE/HOAX,244,dailymail.co.uk,The Queen is to self-isolate at Windsor Castle amid coronavirus fears,https://www.dailymail.co.uk/news/article-8121783/the-queen-self-isolate-windsor-castle-amid-coronavirus-fears.html
+5,CONSPIRACY/JUNKSCI,234,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+6,FAKE/HOAX,215,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+7,FAKE/HOAX,187,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+8,CONSPIRACY/JUNKSCI,170,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+9,FAKE/HOAX,164,express.co.uk,Phillip Schofield coronavirus fears: This Morning host thinks he should ‘self-isolate' ,https://www.express.co.uk/showbiz/tv-radio/1247651/phillip-schofield-coronavirus-fears-this-morning-self-isolate-itv-video
+10,FAKE/HOAX,158,express.co.uk,Brexit DELAY: Hammond says EU trade talks could be POSTPONED due to coronavirus ,https://www.express.co.uk/news/politics/1252303/brexit-news-coronavirus-philip-hammond-talks-delays
+11,FAKE/HOAX,153,express.co.uk,BREXIT BLOCK: Labour hopeful calls for transitional period DELAY because of 'uncertainty',https://www.express.co.uk/news/uk/1253053/coronavirus-uk-brexit-latest-lisa-nandy-symptoms-labour-party-trevor-phillips
+12,FAKE/HOAX,152,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
+13,FAKE/HOAX,129,express.co.uk,Euro crisis: Markets sink just two weeks after Brexit as key industry marker plunges,https://www.express.co.uk/news/world/1241752/euro-to-pound-exchange-rate-dollar-gbp-sterling-brexit-coronavirus
+14,FAKE/HOAX,127,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+15,CONSPIRACY/JUNKSCI,127,zerohedge.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon,https://www.zerohedge.com/health/creator-bioweapons-act-says-coronavirus-biological-warfare-weapon
+16,FAKE/HOAX,125,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+17,FAKE/HOAX,121,dailymail.co.uk,Up to 100 migrants in facemasks cross English Channel,https://www.dailymail.co.uk/news/article-8150627/up-100-migrants-facemasks-tested-coronavirus-trying-cross-english-channel.html?ito=amp_twitter_share-top
+18,FAKE/HOAX,120,express.co.uk,Coronavirus POLL: Should Labour be allowed into No10 as part of an emergency coalition?,https://www.express.co.uk/news/politics/1260146/coronavirus-uk-covid19-uk-update-national-coalition-government-labour-party-boris-johnson?utm_campaign=apester&utm_source=twitter
+19,FAKE/HOAX,110,dailymail.co.uk,Migrants wearing coronavirus facemasks arrive in Dover,https://www.dailymail.co.uk/news/article-8131051/migrants-wearing-coronavirus-facemasks-arrive-dover-crossing-channel-dinghy.html?ito=amp_twitter_share-top
+20,FAKE/HOAX,91,express.co.uk,Channel 4's Jon Snow in coronavirus ISOLATION and will be missing from TV for TWO WEEKS,https://www.express.co.uk/news/uk/1247257/channel-4-jon-snow-coronavirus-uk-latest-isolation-iran-outbreak-covid19-update

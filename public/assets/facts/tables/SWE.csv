@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,273,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,237,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-3,POLITICAL,155,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
-4,POLITICAL,141,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-5,POLITICAL,99,rappler.com,World,http://rappler.com/world
-6,POLITICAL,94,eldiario.es,La ministra Irene Montero da positivo por coronavirus y Pablo Iglesias está en cuarentena,https://www.eldiario.es/sociedad/ultima-hora-coronavirus-mundo-espana_13_1000679924_40339.html
-7,POLITICAL,90,eldiario.es,Pedro Sánchez anuncia un plan de choque frente al coronavirus que elaborará con los sindicatos y la patronal,https://www.eldiario.es/economia/pedro-sanchez-coronavirus_0_1004049874.html
-8,POLITICAL,76,eldiario.es,"Madrid confirma 16 fallecidos y 469 casos de coronavirus, el doble que hace 24 horas",https://www.eldiario.es/sociedad/ultima-hora-coronavirus-mundo-espana_13_1000679924_39995.html
-9,POLITICAL,71,mol.im,Venice streets lie empty as coronavirus scares people away,https://mol.im/a/8073245
-10,POLITICAL,59,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-11,POLITICAL,58,aftonbladet.se,,https://www.aftonbladet.se/nyheter/a/brbqwe/tva-misstankta-fall-av-coronavirus-i-malmo
-12,POLITICAL,56,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-13,POLITICAL,55,eldiario.es,Gran Bretaña confirma sus dos primeros casos de infectados por coronavirus,https://www.eldiario.es/sociedad/gran-bretana-confirma-infectados-coronavirus_0_990751053.html
-14,FAKE/HOAX,53,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-15,POLITICAL,53,eldiario.es,Isabel Díaz Ayuso da positivo por coronavirus,https://www.eldiario.es/sociedad/ultima-hora-coronavirus-mundo-espana_13_1000679924_40987.html
-16,POLITICAL,52,eldiario.es,Vox comunica que Ortega Smith ha dado positivo por coronavirus,https://www.eldiario.es/sociedad/ultima-hora-coronavirus-mundo-espana_13_1000679924_40102.html
-17,CLICKBAIT,52,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-18,POLITICAL,50,epmundo.com,Cae muerto en Francia. Terror por coronavirus en Europa es grande. Video,https://epmundo.com/2020/susto-turista-se-desploma-y-es-el-primer-muerto-por-coronavirus-en-europa-video/
-19,POLITICAL,47,bfmtv.com,Coronavirus: Castaner prévient que la violation des règles de confinement sera puni d'une amende de 38 €,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
-20,POLITICAL,47,eldiario.es,El presidente y fundador de Huawei dona a España un millón de mascarillas,https://www.eldiario.es/sociedad/ultima-hora-coronavirus-mundo-espana_13_1000679924_41771.html
+1,FAKE/HOAX,54,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+2,FAKE/HOAX,44,breitbart.com,Sweden to Stop Publishing 'Not Important' Coronavirus Numbers,https://www.breitbart.com/europe/2020/03/14/sweden-to-stop-publishing-coronavirus-numbers-deems-them-not-important/
+3,FAKE/HOAX,26,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+4,CONSPIRACY/JUNKSCI,25,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+5,FAKE/HOAX,21,dailymail.co.uk,Swedish people disregard Covid-19 lockdown and go for a pint,https://www.dailymail.co.uk/news/article-8151111/swedish-people-disregarding-covid-19-lockdown-going-pint.html
+6,CONSPIRACY/JUNKSCI,20,zerohedge.com,Did China's Tencent Accidentally Leak The True Terrifying Coronavirus Statistics,https://www.zerohedge.com/health/did-chinas-tencent-accidentally-leak-true-terrifying-coronavirus-statistics
+7,FAKE/HOAX,19,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+8,FAKE/HOAX,18,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+9,FAKE/HOAX,18,ikerjimenez.com,Milenio Live – Covid-19: La noche de los doctores Mayol y Candel,https://www.ikerjimenez.com/milenio-live-2x28-covid-19-la-noche-de-los-doctores-mayol-y-candel/
+10,FAKE/HOAX,16,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+11,FAKE/HOAX,15,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+12,FAKE/HOAX,15,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
+13,CONSPIRACY/JUNKSCI,15,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+14,CONSPIRACY/JUNKSCI,14,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+15,FAKE/HOAX,13,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+16,FAKE/HOAX,12,dailymail.co.uk,Thousands of Britons face mass coronavirus testing,https://www.dailymail.co.uk/health/article-8045003/thousands-britons-face-mass-coronavirus-testing.html
+17,FAKE/HOAX,12,ikerjimenez.com,Milenio Live – Coronavirus: Dossier especial,https://www.ikerjimenez.com/milenio-live-2x24-coronavirus-dossier-especial/
+18,CONSPIRACY/JUNKSCI,9,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+19,FAKE/HOAX,9,summit.news,Coronavirus Patient Zero in Italy Was Pakistani Migrant Who Refused to Self-Isolate,https://summit.news/2020/03/05/coronavirus-patient-zero-in-italy-was-pakistani-migrant-who-refused-to-self-isolate/
+20,CONSPIRACY/JUNKSCI,8,zerohedge.com,"UK Researcher Predicts Over 250,000 Chinese Will Have Coronavirus In Ten Days",https://www.zerohedge.com/geopolitical/uk-researcher-predicts-over-250000-people-china-will-have-coronavirus-ten-days

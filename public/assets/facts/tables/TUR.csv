@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,229,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,93,fr.sputniknews.com,Nulle expansion de l'Otan dans les prochaines années?,https://sptnkne.ws/bffj
-3,FAKE/HOAX,75,dailymail.co.uk,Symptoms of China's coronavirus: Fevers and coughs not the only signs,https://www.dailymail.co.uk/news/article-7925981/symptoms-chinas-coronavirus-fevers-coughs-not-signs.html
-4,POLITICAL,63,aa.com.tr,AK Parti'li belediyelerden sağlık personellerine ücretsiz otopark ve ulaşım desteği,https://www.aa.com.tr/tr/koronavirus/ak-partili-belediyelerden-saglik-personellerine-ucretsiz-otopark-ve-ulasim-destegi/1773810
-5,POLITICAL,57,telegraph.co.uk,Italians over 80 'will be left to die' as country overwhelmed by coronavirus,https://www.telegraph.co.uk/news/2020/03/14/italians-80-will-left-die-country-overwhelmed-coronavirus/
-6,POLITICAL,55,cnn.com,Snakes could be the source of the Wuhan coronavirus outbreak,https://www.cnn.com/2020/01/22/health/snakes-wuhan-coronavirus-outbreak-conversation-partner/index.html
-7,FAKE/HOAX,52,sputniknews.com,"UK Foreign Secretary Arrives in Gibraltar to Discuss Defense Issues, Brexit",https://sptnkne.ws/bn8c
-8,FAKE/HOAX,41,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
-9,FAKE/HOAX,40,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-10,POLITICAL,39,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-11,POLITICAL,35,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-12,POLITICAL,33,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-13,CONSPIRACY/JUNKSCI,31,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-14,POLITICAL,29,bfmtv.com,Coronavirus: Castaner prévient que la violation des règles de confinement sera puni d'une amende de 38 €,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
-15,CLICKBAIT,28,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/coronavirus-hunt-madeleine-mccann-could-21724854
-16,CLICKBAIT,23,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/coronavirus-could-been-spread-bat-21340510
-17,CLICKBAIT,23,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/breaking-coronavirus-super-spreader-scout-21473330
-18,POLITICAL,22,telegraph.co.uk,"'I walked through the Wuhan fish market everyday and have not been tested for the coronavirus', says British teacher",https://www.telegraph.co.uk/news/2020/01/26/coronavirus-walked-fish-market-everyday-have-not-tested-says/
-19,POLITICAL,22,oann.com,,https://www.oann.com/johnson-johnson-to-create-coronavirus-vaccine/
-20,FAKE/HOAX,21,sputniknews.com,"US Mulls Loan to Ukraine, Warns Against Russian Intervention",https://sptnkne.ws/bj9j
+1,FAKE/HOAX,77,dailymail.co.uk,Symptoms of China's coronavirus: Fevers and coughs not the only signs,https://www.dailymail.co.uk/news/article-7925981/symptoms-chinas-coronavirus-fevers-coughs-not-signs.html
+2,FAKE/HOAX,52,sputniknews.com,"UK Foreign Secretary Arrives in Gibraltar to Discuss Defense Issues, Brexit",https://sptnkne.ws/bn8c
+3,FAKE/HOAX,41,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+4,FAKE/HOAX,40,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+5,CONSPIRACY/JUNKSCI,33,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+6,FAKE/HOAX,22,worldnewsdailyreport.com,COVID-19: Chinese health authorities confirm patient zero 'had sex with bats',https://worldnewsdailyreport.com/covid-19-chinese-health-authorities-confirm-patient-zero-had-sex-with-bats/
+7,FAKE/HOAX,20,sputniknews.com,"US Mulls Loan to Ukraine, Warns Against Russian Intervention",https://sptnkne.ws/bj9j
+8,FAKE/HOAX,20,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+9,FAKE/HOAX,19,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-hosted-fictional-coronavirus-simulation-three-months-ago.html
+10,CONSPIRACY/JUNKSCI,18,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+11,FAKE/HOAX,16,dailymail.co.uk,China quarantines BANK NOTES in bid to stop spread of coronavirus,https://www.dailymail.co.uk/news/article-8006897/china-quarantines-bank-notes-bid-stop-spread-coronavirus-death-toll-climbs-1-526.html
+12,CONSPIRACY/JUNKSCI,16,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+13,FAKE/HOAX,13,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+14,FAKE/HOAX,12,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+15,CONSPIRACY/JUNKSCI,12,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+16,FAKE/HOAX,11,gnews.org,,https://gnews.org/89749/
+17,CONSPIRACY/JUNKSCI,11,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+18,FAKE/HOAX,10,dailymail.co.uk,Australian researchers have found a CURE for coronavirus,https://www.dailymail.co.uk/news/article-8115879/amp/covid-19-australian-researchers-cure-coronavirus.html?__twitter_impression=true
+19,FAKE/HOAX,9,rt.com,,https://on.rt.com/aa4r
+20,FAKE/HOAX,8,rt.com,"‘Cycle of panic & neglect’? US prepares for ‘pandemic’ as China coronavirus death toll reaches 427 with 20,000+ cases",https://on.rt.com/aadd

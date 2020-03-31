@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,122,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-2,CLICKBAIT,48,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
-3,POLITICAL,34,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39enong
-4,CLICKBAIT,24,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-5,POLITICAL,23,actualidad.rt.com,Médicos chinos hallan anticuerpos que ayudan a tratar el coronavirus,https://actualidad.rt.com/actualidad/343008-medicos-chinos-hallar-forma-eficaz-tratar-coronavirus
-6,POLITICAL,18,actualidad.rt.com,,https://actualidad.rt.com/actualidad/343008-medicos-chinos-hallar-forma-eficaz-tratar-coronavirus/amp?__twitter_impression=true
-7,POLITICAL,17,es.rt.com,Nueva York registra su primer caso de coronavirus,https://es.rt.com/7dwy
-8,POLITICAL,17,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
-9,POLITICAL,17,es.rt.com,China aprueba una vacuna contra el coronavirus para ensayos clínicos,https://es.rt.com/7fd4
-10,POLITICAL,17,oglobo.globo.com,"Coronavírus: novidade no Brasil, implante de chips é aposta da Medicina",https://oglobo.globo.com/sociedade/coronavirus-novidade-no-brasil-implante-de-chips-aposta-da-medicina-24312618?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-11,POLITICAL,16,actualidad.rt.com,"China prohíbe a 11 millones de ciudadanos salir de Wuhan, donde se originó el nuevo coronavirus",https://actualidad.rt.com/actualidad/340726-prohibir-salir-wuhan-originarse-coronavirus
-12,POLITICAL,16,xhne.ws,,http://xhne.ws/xxiqs
-13,POLITICAL,15,es.rt.com,"China prohíbe a 11 millones de ciudadanos salir de Wuhan, donde se originó el nuevo coronavirus",https://es.rt.com/7awm
-14,POLITICAL,15,cnn.it,Hospital confirma muerte del doctor que advirtió del coronavirus,https://cnn.it/39f0c6q
-15,POLITICAL,15,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3942kes
-16,POLITICAL,15,es.rt.com,República Dominicana confirma el primer caso de coronavirus,https://es.rt.com/7dw2
-17,POLITICAL,14,es.rt.com,China prohíbe el comercio de vida silvestre en todo el país debido al coronavirus,https://es.rt.com/7b6g
-18,POLITICAL,13,es.rt.com,"Coronavirus vs. gripe, malaria o sarampión: ¿De verdad es tan temible el impacto del 2019-nCoV? (INFOGRAFÍA)",https://es.rt.com/7c4e
-19,FAKE/HOAX,13,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
-20,POLITICAL,13,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
+1,FAKE/HOAX,13,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+2,FAKE/HOAX,9,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+3,CONSPIRACY/JUNKSCI,8,offgridsurvival.com,Theoretical Coronavirus Simulation Showed 65 million deaths in Uncontrolled Outbreak,https://offgridsurvival.com/bill-gates-coronavirus-in-a-simulation-ran-just-three-months-ago/
+4,FAKE/HOAX,6,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+5,FAKE/HOAX,4,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-se-confirma-primer-caso-de-colombiano-con-coronavirus/
+6,CONSPIRACY/JUNKSCI,3,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+7,FAKE/HOAX,3,n.news.naver.com,"슈퍼주니어, 신종 코로나바이러스 예방 위해 마스크 1만개 기부(공식)",https://n.news.naver.com/entertain/article/609/0000239850
+8,FAKE/HOAX,3,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+9,FAKE/HOAX,3,albertonews.com,Médicos chinos hallan anticuerpos capaces de combatir el coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/lo-ultimo-medicos-chinos-hallan-anticuerpos-capaces-de-combatir-el-coronavirus/
+10,CONSPIRACY/JUNKSCI,2,globalresearch.ca,"Body Organs of Over 15,000 Syrians Sold in Six Years: Coroner's Office - Global Research",https://shar.es/a3emew
+11,FAKE/HOAX,2,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
+12,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/confirman-dos-casos-de-coronavirus-en-francia/
+13,CONSPIRACY/JUNKSCI,2,zerohedge.com,"WHO Blames ""Human Error"" After Downplaying Coronavirus Risk, Will Reconvene Emergency Committee Thursday",https://www.zerohedge.com/geopolitical/who-blames-human-error-after-downplaying-coronavirus-risk-will-reconvene-emergency
+14,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
+15,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+16,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/lo-ultimo-china-registra-un-brote-de-gripe-aviar-en-zona-cercana-al-foco-del-coronavirus/
+17,FAKE/HOAX,2,rt.com,Clucking hell! New outbreak of BIRD FLU sees thousands of chickens culled in coronavirus-stricken China,https://on.rt.com/aa9r
+18,FAKE/HOAX,2,summit.news,Coronavirus Model Predicts 183 Million Infections Before the End of February,https://summit.news/2020/01/30/coronavirus-model-predicts-183-million-infections-before-the-end-of-february/
+19,FAKE/HOAX,2,rt.com,,https://www.rt.com/russia/481133-russia-bans-china-visitors-coronavirus/
+20,FAKE/HOAX,2,albertonews.com,Científico de Harvard predice que el coronavirus infectará hasta el 70% de la humanidad - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/ultima-hora-cientifico-de-harvard-predice-que-el-coronavirus-infectara-hasta-el-70-de-la-humanidad/

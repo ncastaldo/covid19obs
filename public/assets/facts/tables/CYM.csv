@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,8,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-2,POLITICAL,4,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-3,FAKE/HOAX,3,dailymail.co.uk,Wuhan mayor admits 'withholding information' on coronavirus outbreak,https://www.dailymail.co.uk/news/article-7933405/wuhan-mayor-admits-withholding-information-coronavirus-outbreak.html
-4,POLITICAL,3,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-5,POLITICAL,2,thepostmillennial.com,Quebec politician praises coronavirus for reducing carbon footprint in Wuhan,https://www.thepostmillennial.com/quebec-politician-praises-coronavirus-for-reducing-carbon-footprint-in-wuhan/
-6,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",http://cnn.it/38qxaax
-7,POLITICAL,2,thedailybeast.com,QAnon-ers’ Magic Cure for Coronavirus: Just Drink Bleach!,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
-8,POLITICAL,2,deadstate.org,Jim Bakker: You can kill the coronavirus in 12 hours with my ‘Silver Solution’ ointment,https://deadstate.org/jim-bakker-you-can-kill-the-coronavirus-in-12-hours-with-my-silver-solution-ointment/
-9,POLITICAL,2,dailywire.com,Report Promotes Debunked Theory That Coronavirus Comes From Chinese Lab,https://www.dailywire.com/news/report-suggests-that-details-point-to-coronavirus-coming-from-chinese-lab
-10,POLITICAL,2,theweek.com,Top member of Trump's coronavirus task force asks Twitter for help accessing map of virus,https://theweek.com/speedreads/897826/member-trumps-coronavirus-task-force-asks-twitter-help-accessing-map-virus
-11,CLICKBAIT,2,soompi.com,Pledis Entertainment Denies Rumors That NU’EST’s Minhyun Was Infected With Coronavirus,https://www.soompi.com/article/1385869wpp/pledis-entertainment-denies-rumors-that-nuests-minhyun-was-infected-with-coronavirus
-12,POLITICAL,2,rawstory.com,,https://www.rawstory.com/2020/03/matt-gaetz-mocks-essential-coronavirus-funding-by-strapping-on-a-gas-mask/
-13,POLITICAL,2,vox.com,"Trump donated $100,000 of his salary to fight coronavirus. He’s made much more than that off the presidency.",https://www.vox.com/2020/3/4/21164477/trump-donates-salary-hhs-coronavirus
-14,CLICKBAIT,2,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-15,POLITICAL,2,deadstate.org,Christian megachurch cancels ‘faith healing’ service in response to coronavirus outbreak,https://deadstate.org/christian-megachurch-cancels-faith-healing-service-in-response-to-coronavirus-outbreak/
-16,POLITICAL,2,newyorker.com,What Went Wrong with Coronavirus Testing in the U.S.,https://www.newyorker.com/news/news-desk/what-went-wrong-with-coronavirus-testing-in-the-us
-17,POLITICAL,2,salon.com,"""Govern me, daddy"": Kentucky Governor Andy Beshear a clean-cut sex symbol for the coronavirus age ",https://www.salon.com/2020/03/21/govern-me-daddy-kentucky-governor-andy-beshear-a-clean-cut-sex-symbol-for-the-coronavirus-age/
-18,FAKE/HOAX,1,summit.news,Japanese Shopkeeper Hangs Sign in Response to Coronavirus Panic: “No Chinese Allowed”,https://summit.news/2020/01/22/japan-shopkeeper-hangs-sign-in-response-to-coronavirus-panic-no-chinese-allowed/
-19,POLITICAL,1,democracynow.org,Chinese Authorities Seal Off City of Wudan as Coronavirus Spreads,https://www.democracynow.org/2020/1/23/headlines/chinese_authorities_seal_off_city_of_wudan_as_coronavirus_spreaks
-20,FAKE/HOAX,1,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html
+1,FAKE/HOAX,3,dailymail.co.uk,Wuhan mayor admits 'withholding information' on coronavirus outbreak,https://www.dailymail.co.uk/news/article-7933405/wuhan-mayor-admits-withholding-information-coronavirus-outbreak.html
+2,FAKE/HOAX,1,summit.news,Japanese Shopkeeper Hangs Sign in Response to Coronavirus Panic: “No Chinese Allowed”,https://summit.news/2020/01/22/japan-shopkeeper-hangs-sign-in-response-to-coronavirus-panic-no-chinese-allowed/
+3,FAKE/HOAX,1,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html
+4,FAKE/HOAX,1,summit.news,Virologist Who Visited Wuhan Says Coronavirus is “Out of Control”,https://summit.news/2020/01/24/virologist-who-visited-wuhan-says-coronavirus-is-out-of-control/
+5,FAKE/HOAX,1,summit.news,Video Purports to Show Coronavirus Victim Collapsed on the Street in Wuhan,https://summit.news/2020/01/23/video-purports-to-show-coronavirus-victim-collapsed-on-the-street-in-wuhan/
+6,FAKE/HOAX,1,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
+7,FAKE/HOAX,1,summit.news,Videos Show Chinese People Eating Bats As Experts Link Animal to Coronavirus Outbreak,https://summit.news/2020/01/23/videos-show-chinese-people-eating-bats-as-experts-link-animal-to-coronavirus-outbreak/
+8,FAKE/HOAX,1,summit.news,Professor Warns New Coronavirus Has Same Kill Rate as the Spanish Flu,https://summit.news/2020/01/22/professor-warns-new-coronavirus-has-same-kill-rate-as-the-spanish-flu/
+9,FAKE/HOAX,1,summit.news,Chinese Government Forces TV Host Who Popularized Eating Bats to Apologize,https://summit.news/2020/01/25/chinese-government-forces-tv-host-who-popularized-eating-bats-to-apologize/
+10,FAKE/HOAX,1,summit.news,Philippines to Deport 500 Chinese People to Prevent to Spread of Coronavirus,https://summit.news/2020/01/27/philippines-to-deport-500-chinese-people-to-prevent-to-spread-of-coronavirus/
+11,FAKE/HOAX,1,summit.news,Analyst Says Cases of Coronavirus Probably 10 Times Higher Than Official Number,https://summit.news/2020/01/27/analyst-says-cases-of-coronavirus-probably-10-times-higher-than-official-number/
+12,FAKE/HOAX,1,gnews.org,,https://gnews.org/89749/
+13,CONSPIRACY/JUNKSCI,1,zerohedge.com,,http://zerohedge.com
+14,CONSPIRACY/JUNKSCI,1,blacklistednews.com,,https://www.blacklistednews.com/article/76139/bats-gene-editing-and-bioweapons-recent-darpa-experiments-raise-concerns-amid-coronavirus.html
+15,FAKE/HOAX,1,summit.news,China: Police Lock Potential Coronavirus Victim in Her Own Home,https://summit.news/2020/02/05/china-police-lock-potential-coronavirus-victim-in-her-own-home/
+16,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Triggers ""Biggest Shock"" To Oil Markets Since Lehman Crisis ",https://www.zerohedge.com/markets/opec-committee-fails-agree-proposed-production-cuts
+17,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/estudio-revela-via-secundaria-de-transmision-de-coronavirus-por-materia-fecal/
+18,CONSPIRACY/JUNKSCI,1,zerohedge.com,This Is How China Is Rigging The Number Of Coronavirus Infections,https://www.zerohedge.com/health/how-china-rigging-number-coronavirus-infections
+19,CONSPIRACY/JUNKSCI,1,infowars.com,BEIJING FALLS TO CORONAVIRUS… capital of China locked down under pandemic quarantine,https://www.infowars.com/beijing-falls-to-coronavirus-capital-of-china-locked-down-under-pandemic-quarantine/
+20,FAKE/HOAX,1,express.co.uk,Euro crisis: Markets sink just two weeks after Brexit as key industry marker plunges,https://www.express.co.uk/news/world/1241752/euro-to-pound-exchange-rate-dollar-gbp-sterling-brexit-coronavirus

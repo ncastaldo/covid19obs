@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,101,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,70,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-3,POLITICAL,64,bfmtv.com,Coronavirus: le chef de l'ONU appelle tous les pays à « redoubler d'efforts immédiatement,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-italie-chine-carte-symptomes-mort-cas-psg-dortmund-huis-clos-paris-oise-morbihan-lyon/
-4,POLITICAL,63,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-5,POLITICAL,53,bfmtv.com,Coronavirus: Castaner prévient que la violation des règles de confinement sera puni d'une amende de 38 €,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
-6,POLITICAL,46,bfmtv.com,Coronavirus: les Hôpitaux de Paris lancent un appel aux dons sur Facebook,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
-7,POLITICAL,32,change.org,Sign the Petition,https://change.org/p/united-nations-call-for-the-resignation-of-tedros-adhanom-ghebreyesus-who-director-general
-8,SATIRE,31,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-9,POLITICAL,21,bfmtv.com,Coronavirus: les ventes de La Peste de Camus bondissent,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
-10,POLITICAL,20,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-11,POLITICAL,17,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
-12,POLITICAL,16,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-13,POLITICAL,15,thedailybeast.com,QAnon-ers’ Magic Cure for Coronavirus: Just Drink Bleach!,https://www.thedailybeast.com/qanon-conspiracy-theorists-magic-cure-for-coronavirus-is-drinking-lethal-bleach?ref=author
-14,CLICKBAIT,13,entertain.v.daum.net,BTS 슈가 1억 기부에 팬들 성금만 5억..'선한 영향력' 시너지,https://entertain.v.daum.net/v/20200305112918512
-15,POLITICAL,13,bfmtv.com,Coronavirus: Macron demande aux personnes « de plus de 70 ans » de rester à leur domicile,https://www.bfmtv.com/societe/coronavirus-macron-demande-aux-personnes-de-plus-de-70-ans-de-rester-a-leur-domicile-1874025.html
-16,CLICKBAIT,11,soompi.com,BTS’s Fans ARMY Donate Refunds From Concert Cancelation To Help Coronavirus Prevention,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
-17,POLITICAL,11,cnn.com,Is coronavirus Donald Trump's Katrina?,https://www.cnn.com/2020/03/08/politics/2020-election-week-ahead/index.html
-18,POLITICAL,11,rollingstone.com,DOJ Wants to Suspend Certain Constitutional Rights During Coronavirus Emergency,https://www.rollingstone.com/politics/politics-news/doj-suspend-constitutional-rights-coronavirus-970935/
-19,POLITICAL,10,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
-20,POLITICAL,10,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+1,CONSPIRACY/JUNKSCI,10,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+2,FAKE/HOAX,9,santeplusmag.com,"Coronavirus : « Jusqu’à 70% de l’humanité sera infectée », affirme un scientifique de Harvard",https://www.santeplusmag.com/coronavirus-jusqua-70-de-lhumanite-sera-infectee-affirme-un-scientifique-de-harvard/
+3,CONSPIRACY/JUNKSCI,6,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+4,FAKE/HOAX,5,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+5,CONSPIRACY/JUNKSCI,4,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+6,FAKE/HOAX,4,dailymail.co.uk,Did coronavirus originate in Chinese government laboratory?,https://www.dailymail.co.uk/news/article-8009669/did-coronavirus-originate-chinese-government-laboratory.html
+7,FAKE/HOAX,4,politicalflare.com,Trump Supporter Says She Doesn't Think Coronavirus Exists Because She 'Doesn't Believe Anything the Democrats Say',https://www.politicalflare.com/2020/03/trump-supporter-says-she-doesnt-think-coronavirus-exists-because-she-doesnt-believe-anything-the-democrats-say/
+8,FAKE/HOAX,3,gnews.org,,https://gnews.org/89749/
+9,FAKE/HOAX,3,dailymail.co.uk,Shocking clip shows suspected coronavirus carriers dragged from homes,https://www.dailymail.co.uk/news/article-7980883/video-shows-officials-protective-suits-dragging-suspected-coronavirus-carriers-homes.html
+10,FAKE/HOAX,3,politicususa.com,,https://www.politicususa.com/2020/02/27/rachel-maddow-destroys-trumps-coronavirus-lies-in-90-seconds.html
+11,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+12,FAKE/HOAX,2,sputniknews.com,What a Dump! Sweden's West Coast Littered With Foreign Garbage,https://sptnkne.ws/beea
+13,FAKE/HOAX,2,rt.com,Chinese authorities share FIRST PHOTOS of deadly coronavirus,https://on.rt.com/a9n5
+14,FAKE/HOAX,2,reseauinternational.net,Coïncidence ? Le seul labo capable de traiter les coronavirus en Chine est à Wuhan,https://reseauinternational.net/coincidence-le-seul-labo-capable-de-traiter-les-coronavirus-en-chine-est-a-wuhan/
+15,FAKE/HOAX,2,thegatewaypundit.com,Patient Tests Positive For Coronavirus in Orange County in Third Known Case in US,https://www.thegatewaypundit.com/2020/01/patient-tests-positive-for-coronavirus-in-orange-county-in-third-known-case-in-us/
+16,FAKE/HOAX,2,bigleaguepolitics.com,WTF: Gates Foundation Sponsored Training for 'Fictional' Coronavirus Outbreak That Caused 65 Million Deaths Last Year - Big League Politics,https://bigleaguepolitics.com/wtf-gates-foundation-sponsored-training-for-fictional-coronavirus-outbreak-that-caused-65-million-deaths-last-year/
+17,FAKE/HOAX,2,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+18,CONSPIRACY/JUNKSCI,2,naturalnews.com,"Bill Gates funded the PIRBRIGHT institute, which owns the patent on coronavirus",https://www.naturalnews.com/2020-01-27-bill-gates-funded-pirbright-institute-owns-coronavirus-patent.html
+19,FAKE/HOAX,2,reseauinternational.net,Virus 2019-nCoV - La piste de l'arme biologique se précise de plus en plus,https://reseauinternational.net/virus-2019-ncov-la-piste-de-larme-biologique-se-precise-de-plus-en-plus/
+20,FAKE/HOAX,2,reseauinternational.net,Quand le Forum de Davos se préparait à une pandémie de coronavirus,https://reseauinternational.net/quand-le-forum-de-davos-se-preparait-a-une-pandemie-de-coronavirus/

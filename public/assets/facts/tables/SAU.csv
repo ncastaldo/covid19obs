@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,43,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,30,rappler.com,World,http://rappler.com/world
-3,POLITICAL,29,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-4,POLITICAL,21,cnn.com,Snakes could be the source of the Wuhan coronavirus outbreak,https://www.cnn.com/2020/01/22/health/snakes-wuhan-coronavirus-outbreak-conversation-partner/index.html
-5,POLITICAL,16,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-6,POLITICAL,15,theweek.com,Harvard scientist predicts coronavirus will infect up to 70 percent of humanity,https://theweek.com/speedreads/897799/harvard-scientist-predicts-coronavirus-infect-70-percent-humanity
-7,FAKE/HOAX,14,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-8,CLICKBAIT,14,soompi.com,"Super Junior Donates 10,000 Masks To Children And Youth For Coronavirus Prevention",https://www.soompi.com/article/1380061wpp/super-junior-donates-10000-masks-to-children-and-youth-for-coronavirus-prevention
-9,POLITICAL,14,telegraph.co.uk,Human trials on coronavirus vaccine to begin in April,https://www.telegraph.co.uk/science/2020/03/03/will-have-coronavirus-vaccine-human-trials-begin-april/
-10,POLITICAL,12,rollingstone.com,Clowns in the Time of Coronavirus,https://www.rollingstone.com/politics/political-commentary/trump-coronavirus-response-fail-959868/#utm_medium=social&utm_source=twitter&utm_campaign=social_bar&utm_content=bottom_amp&utm_id=959868
-11,POLITICAL,12,thesun.co.uk,Is it safe to travel to Egypt? Latest advice as coronavirus cases hit 67,https://www.thesun.co.uk/travel/11087986/egypt-travel-advice-coronavirus-latest/
-12,POLITICAL,11,newsweek.com,,https://www.newsweek.com/prophet-prayer-muhammad-covid-19-coronavirus-1492798
-13,CLICKBAIT,9,allkpop.com,"Super Junior donate 10,000 masks for youths and children in light of Coronavirus threats",https://www.allkpop.com/article/2020/01/super-junior-donate-10000-masks-for-youths-and-children-in-light-of-coronavirus-threats
-14,POLITICAL,9,rappler.com,Philippines confirms 1st case of novel coronavirus,https://www.rappler.com/nation/186633-philippines-confirms-case-novel-coronavirus?utm_medium=social&utm_source=twitter#echobox=1580371766
-15,FAKE/HOAX,8,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
-16,FAKE/HOAX,8,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-17,POLITICAL,8,bfmtv.com,Coronavirus: les ventes de La Peste de Camus bondissent,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
-18,POLITICAL,8,oglobo.globo.com,"Coronavírus: novidade no Brasil, implante de chips é aposta da Medicina",https://oglobo.globo.com/sociedade/coronavirus-novidade-no-brasil-implante-de-chips-aposta-da-medicina-24312618?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-19,POLITICAL,7,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
-20,POLITICAL,7,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3aq1ygd
+1,FAKE/HOAX,15,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+2,FAKE/HOAX,8,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
+3,FAKE/HOAX,8,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+4,FAKE/HOAX,7,worldnewsdailyreport.com,COVID-19: Chinese health authorities confirm patient zero 'had sex with bats',https://worldnewsdailyreport.com/covid-19-chinese-health-authorities-confirm-patient-zero-had-sex-with-bats/
+5,CONSPIRACY/JUNKSCI,6,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+6,FAKE/HOAX,5,express.co.uk,Coronavirus: Two kids ‘abandoned’ by parents at airport after son stopped from boarding,https://www.express.co.uk/news/world/1233142/coronavirus-latest-news-china-children-abandoned-parents-airport-screening-us-uk-update
+7,CONSPIRACY/JUNKSCI,5,zerohedge.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon,https://www.zerohedge.com/health/creator-bioweapons-act-says-coronavirus-biological-warfare-weapon
+8,FAKE/HOAX,4,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+9,FAKE/HOAX,4,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/amp/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html?__twitter_impression=true
+10,CONSPIRACY/JUNKSCI,4,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+11,FAKE/HOAX,4,politicususa.com,,https://www.politicususa.com/2020/02/26/trump-blindsided-his-hhs-secretary-with-pence-replacement-on-coronavirus.html
+12,FAKE/HOAX,4,rt.com,Italian army’s chief of staff tests positive for coronavirus,https://www.rt.com/news/482623-italy-coronavirus-chief-of-staff/
+13,FAKE/HOAX,3,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html?ito=amp_twitter_share-top
+14,FAKE/HOAX,3,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+15,FAKE/HOAX,3,dailymail.co.uk,Wuhan doctor dies nine days after contracting deadly coronavirus,https://www.dailymail.co.uk/health/article-7928063/amp/wuhan-doctor-dies-nine-days-contracting-deadly-coronavirus-battled-save-patients.html?__twitter_impression=true
+16,FAKE/HOAX,3,rt.com,"Chinese health chiefs warn coronavirus is growing ‘stronger’, MUTATION closely monitored by scientists",https://on.rt.com/a9rf
+17,CONSPIRACY/JUNKSCI,3,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+18,FAKE/HOAX,3,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+19,FAKE/HOAX,3,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+20,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042

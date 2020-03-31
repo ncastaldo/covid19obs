@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,115,mirror.co.uk,,https://www.mirror.co.uk/news/world-news/chinas-first-coronavirus-hospital-opens-21386164
-2,POLITICAL,78,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37zvbvy
-3,POLITICAL,51,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vzqpse
-4,POLITICAL,50,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tgtsjy
-5,POLITICAL,41,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vk19fr
-6,POLITICAL,35,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rhqfif
-7,POLITICAL,33,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3942kes
-8,POLITICAL,31,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
-9,POLITICAL,30,es.rt.com,Corea del Sur anuncia que el coronavirus se está propagando por el este del país,https://es.rt.com/7d3m
-10,POLITICAL,28,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39enong
-11,CLICKBAIT,28,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-12,POLITICAL,26,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/39zx6c5
-13,FAKE/HOAX,26,albertonews.com,China dice haber desarrollado “con éxito” la vacuna contra el coronavirus y se prepara para su producción a gran escala - AlbertoNews - Periodismo sin censura,https://albertonews.com/ultima-hora/ultima-hora-china-dice-haber-desarrollado-con-exito-la-vacuna-contra-el-coronavirus/
-14,POLITICAL,23,es.rt.com,Japón confirma 61 casos de coronavirus en el crucero en cuarentena en Yokohama,https://es.rt.com/7c5j
-15,POLITICAL,18,cnn.it,Hospital confirma muerte del doctor que advirtió del coronavirus,https://cnn.it/39f0c6q
-16,POLITICAL,14,es.rt.com,La ciudad de Pekín registra la primera muerte por el brote de coronavirus,https://es.rt.com/7b98
-17,POLITICAL,14,es.rt.com,Mueren dos pasajeros del crucero Diamond Princess en cuarentena por el coronavirus,https://es.rt.com/7d3n
-18,POLITICAL,14,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2wytqij
-19,POLITICAL,13,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tj5ipd
-20,POLITICAL,13,deadstate.org,Jim Bakker: You can kill the coronavirus in 12 hours with my ‘Silver Solution’ ointment,https://deadstate.org/jim-bakker-you-can-kill-the-coronavirus-in-12-hours-with-my-silver-solution-ointment/
+1,FAKE/HOAX,26,albertonews.com,China dice haber desarrollado “con éxito” la vacuna contra el coronavirus y se prepara para su producción a gran escala - AlbertoNews - Periodismo sin censura,https://albertonews.com/ultima-hora/ultima-hora-china-dice-haber-desarrollado-con-exito-la-vacuna-contra-el-coronavirus/
+2,CONSPIRACY/JUNKSCI,6,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+3,FAKE/HOAX,6,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+4,FAKE/HOAX,6,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+5,FAKE/HOAX,6,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+6,CONSPIRACY/JUNKSCI,5,zerohedge.com,"100,000 Chinese ""Under Observation"" As Coronavirus Deaths Soar; State Dept Issues ""Do Not Travel"" To China"" Advisory",https://www.zerohedge.com/geopolitical/6000-quarantined-italian-cruise-ship-due-virus-scare-russia-closes-border-china
+7,CONSPIRACY/JUNKSCI,5,wattsupwiththat.com,Diamond Princess Mysteries,https://wattsupwiththat.com/2020/03/16/diamond-princess-mysteries/
+8,CONSPIRACY/JUNKSCI,4,zerohedge.com,"Coronavirus Death Toll Hits 257 As Confirmed Cases Top 10,000",https://www.zerohedge.com/geopolitical/uk-confirms-first-cases-coronavirus-countries-ignore-who
+9,FAKE/HOAX,4,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-se-confirma-primer-caso-de-colombiano-con-coronavirus/
+10,CONSPIRACY/JUNKSCI,4,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+11,FAKE/HOAX,3,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html
+12,FAKE/HOAX,3,dailymail.co.uk,Wuhan coronavirus: China shuts DISNEYLAND and 14 cities,https://www.dailymail.co.uk/health/article-7923913/shanghai-disney-closed-saturday-help-prevent-spread-virus.html
+13,CONSPIRACY/JUNKSCI,3,sgtreport.com,LISTEN: The Coronavirus Is WORSE Than You've Been Told: Scientist Explains - SGT Report,https://www.sgtreport.com/2020/01/listen-the-coronavirus-is-worse-than-youve-been-told-scientist-explains/
+14,FAKE/HOAX,3,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+15,CONSPIRACY/JUNKSCI,3,infowars.com,WHO’s Ex-Emergency Response Director Dies Suddenly Amid Coronavirus Outbreak,https://www.infowars.com/whos-ex-emergency-response-director-dies-suddenly-amid-coronavirus-outbreak/
+16,FAKE/HOAX,3,gnews.org,,https://gnews.org/100720/
+17,FAKE/HOAX,3,dailymail.co.uk,Did coronavirus originate in Chinese government laboratory?,https://www.dailymail.co.uk/news/article-8009669/did-coronavirus-originate-chinese-government-laboratory.html
+18,FAKE/HOAX,3,breitbart.com,"Kudlow: Socialism, Not Coronavirus Will Sink the American Economy",https://www.breitbart.com/politics/2020/02/28/larry-kudlow-at-cpac-socialism-not-coronavirus-will-sink-the-american-economy/
+19,FAKE/HOAX,3,pjmedia.com,"Joe Biden Blasts Trump’s Coronavirus Response, Then Plagiarizes Trump’s Plan",https://pjmedia.com/trending/joe-biden-blasts-trumps-coronavirus-response-then-plagiarizes-trumps-plan/
+20,FAKE/HOAX,3,redstate.com,"Dr. Fauci Explains Testing Issues: Not Anyone's Fault, 'Certainly Not The President's'",https://www.redstate.com/nick-arama/2020/03/17/dr.-fauci-explains-the-delay-in-testing-not-anyones-fault-certainly-not-the-presidents?utm_source=twitter&utm_medium=social&utm_term=dr.-fauci-explains-the-delay-in-testing-not-anyones-fault-certainly-not-the-presidents&utm_content=0&utm_campaign=postpromoterpro

@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,404,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
-2,POLITICAL,366,larepublica.pe,Ministra de Salud confirma cuatro probable casos de coronavirus en el Perú,https://larepublica.pe/sociedad/2020/01/27/coronavirus-ministra-de-salud-confirma-que-hay-cuatro-probable-casos/
-3,POLITICAL,303,diariocorreo.pe,Contradicen al presidente: médicos de Essalud niegan haber sido capacitados por coronavirus,https://diariocorreo.pe/salud/contradicen-a-vizcarra-medicos-de-essalud-niegan-haber-sido-capacitados-por-coronavirus-noticia/
-4,POLITICAL,256,larepublica.pe,Ingenieros peruanos ofrecen fabricar 100 ventiladores pulmonares,https://larepublica.pe/sociedad/2020/03/22/coronavirus-en-peru-ingenieros-peruanos-ofrecen-fabricar-100-ventiladores-pulmonares/
-5,POLITICAL,246,larepublica.pe,Coronavirus en Perú: Vizcarra confirmó primer caso [VIDEO],https://larepublica.pe/politica/2020/03/06/coronavirus-martin-vizcarra-confirma-primer-caso-de-covid-19-en-peru-video/
-6,POLITICAL,235,larepublica.pe,Aerolíneas en Arequipa se niegan a transportar muestras sospechosas de coronavirus [VIDEO],https://larepublica.pe/sociedad/2020/03/06/aerolineas-en-arequipa-se-niegan-a-transportar-muestras-sospechosas-de-coronavirus-lrsd/
-7,POLITICAL,230,larepublica.pe,Especialistas en Israel trabajan para obtener la vacuna contra el coronavirus,https://larepublica.pe/mundo/2020/02/28/coronavirus-vacuna-para-la-epidemia-se-obtendria-en-unas-semanas-aseguran-cientificos-de-israel-mdga/
-8,POLITICAL,225,larepublica.pe,Minsa confirma cinco nuevos casos de coronavirus en el Perú [VIDEO],https://larepublica.pe/sociedad/2020/03/07/coronavirus-en-el-peru-minsa-confirma-cinco-nuevos-casos-de-covid-19/
-9,CLICKBAIT,211,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-10,POLITICAL,193,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2uz6cbr
-11,POLITICAL,133,larepublica.pe,Coronavirus: trabajador de Konecta dio positivo a prueba de COVID-19 [VIDEO],https://larepublica.pe/sociedad/2020/03/19/coronavirus-trabajador-de-konecta-dio-positivo-a-prueba-de-covid-19-video/
-12,POLITICAL,97,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-13,POLITICAL,97,larepublica.pe,Denuncian que clínica local cobraría 1700 soles por descarte de coronavirus [VIDEO],https://larepublica.pe/sociedad/2020/03/08/coronavirus-en-peru-denuncian-que-clinica-delgado-cobraria-1700-soles-por-descarte-de-covid-19-minsa-video/
-14,POLITICAL,93,larepublica.pe,Coronavirus en Perú: joven de 25 años que regresó de Europa es el primer infectado [VIDEO],https://larepublica.pe/sociedad/2020/03/06/coronavirus-en-peru-quien-es-el-primer-caso-de-covid19-y-en-que-hospital-del-minsa-fue-detectado-martin-vizcarra-video/
-15,POLITICAL,90,larepublica.pe,Coronavirus: Austria prohíbe las reuniones de más de cinco personas,https://larepublica.pe/mundo/2020/03/15/coronavirus-en-austria-reunion-de-mas-de-cinco-personas-queda-prohibida-por-covid-19/
-16,POLITICAL,83,diariocorreo.pe,"“Gente con gripe no debería ir a su trabajo ni al colegio”, recomienda el Colegio Médico",https://diariocorreo.pe/edicion/lima/coronavirus-en-peru-gente-con-gripe-no-deberia-ir-a-su-trabajo-recomendaciones-ciro-maguina-vicedecano-del-colegio-medico-entrevista-video-noticia/
-17,POLITICAL,82,larepublica.pe,Médicos de hospital Uldarico Roca afirman no estar capacitados para atender casos de coronavirus ,https://larepublica.pe/sociedad/2020/03/06/coronavirus-en-peru-personal-de-hospital-uldarico-roca-de-villa-el-salvador-denuncian-que-no-han-sido-capacitados-video-fotos/
-18,POLITICAL,77,es.rt.com,Perú informa de cuatro pacientes bajo sospecha de contagio por coronavirus,https://es.rt.com/7ba5
-19,POLITICAL,76,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37zvbvy
-20,POLITICAL,76,larepublica.pe,Ministro de Defensa: Militar que agredió a joven no será retirado de la institución,https://larepublica.pe/politica/2020/03/23/coronavirus-en-peru-militar-christian-cueva-calle-no-sera-retirado-del-ejercito-peruano-ministerio-de-defensa-mdga/
+1,FAKE/HOAX,37,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+2,FAKE/HOAX,31,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+3,FAKE/HOAX,23,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
+4,CONSPIRACY/JUNKSCI,21,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+5,FAKE/HOAX,19,albertonews.com,Científico de Harvard predice que el coronavirus infectará hasta el 70% de la humanidad - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/ultima-hora-cientifico-de-harvard-predice-que-el-coronavirus-infectara-hasta-el-70-de-la-humanidad/
+6,CONSPIRACY/JUNKSCI,15,informationclearinghouse.info,,http://www.informationclearinghouse.info/52988.htm
+7,CONSPIRACY/JUNKSCI,14,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+8,FAKE/HOAX,11,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+9,FAKE/HOAX,9,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-trump-pedira-al-congreso-2-500-millones-de-dolares-para-luchar-contra-el-coronavirus/
+10,FAKE/HOAX,9,n.news.naver.com,"[단독] 슈퍼주니어 은혁, 코로나19 성금 1억 원 기부 ""의료진에 도움되길""",https://n.news.naver.com/entertain/article/052/0001407888
+11,FAKE/HOAX,8,albertonews.com,,https://albertonews.com/internacionales/infectados-con-coronavirus-intentan-propagar-virus-escupiendo-a-doctores-y-enfermeras-en-china/
+12,FAKE/HOAX,8,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
+13,FAKE/HOAX,8,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-se-confirma-primer-caso-de-colombiano-con-coronavirus/
+14,FAKE/HOAX,8,albertonews.com,,https://albertonews.com/internacionales/lo-ultimo-aislan-a-260-personas-por-sospecha-de-coronavirus-en-chile/
+15,FAKE/HOAX,7,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+16,CONSPIRACY/JUNKSCI,6,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+17,FAKE/HOAX,6,albertonews.com,,https://albertonews.com/internacionales/urgente-el-coronavirus-puede-infectar-desde-una-distancia-de-2-metros-y-a-traves-de-los-ojos/
+18,FAKE/HOAX,6,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+19,FAKE/HOAX,6,albertonews.com,Médicos chinos hallan anticuerpos capaces de combatir el coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/lo-ultimo-medicos-chinos-hallan-anticuerpos-capaces-de-combatir-el-coronavirus/
+20,FAKE/HOAX,6,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-ministerio-de-salud-de-peru-analiza-tres-casos-sospechosos-de-coronavirus/

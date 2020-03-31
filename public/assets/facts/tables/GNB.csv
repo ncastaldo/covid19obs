@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,6,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-2,POLITICAL,6,bfmtv.com,Coronavirus: Castaner prévient que la violation des règles de confinement sera puni d'une amende de 38 €,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
-3,CONSPIRACY/JUNKSCI,5,brightside.me,,https://brightside.me/inspiration-health/a-teacher-did-an-experiment-to-show-the-power-of-handwashing-and-you-cant-stay-unimpressed-795485/?utm_source=fb_brightside&utm_medium=fb_organic&utm_campaign=fb_gr_brightside&fbclid=iwar01ccj_vwidixtz0vli-jy5cizz0zujjghgcuyijfodxzuen-biochuy7c
-4,POLITICAL,5,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-5,POLITICAL,4,eldiario.es,"Un hombre de 80 años que había sufrido un infarto, sexta víctima del coronavirus en Italia",https://www.eldiario.es/internacional/ultima-hora-coronavirus_13_999280065_39110.html
-6,POLITICAL,4,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-7,SATIRE,4,lercio.it,35enne muore per Coronavirus dopo essere stato ucciso in una sparatoria,https://www.lercio.it/35enne-muore-per-coronavirus-dopo-essere-stato-ucciso-in-una-sparatoria/
-8,POLITICAL,3,cnn.com,Death toll from Wuhan coronavirus tops 100 as infection rate accelerates,https://www.cnn.com/2020/01/28/asia/wuhan-coronavirus-update-intl-hnk/index.html
-9,POLITICAL,2,cnn.com,A fifth case of coronavirus is confirmed in the US as China struggles to contain outbreak,https://www.cnn.com/2020/01/26/us/coronavirus-orange-county/index.html
-10,FAKE/HOAX,2,gnews.org,,https://gnews.org/89749/
-11,POLITICAL,2,cnn.com,Americans evacuated from China amid coronavirus outbreak to be monitored for days ,https://www.cnn.com/2020/01/29/health/us-coronavirus-evacuation-wednesday/index.html
-12,CONSPIRACY/JUNKSCI,2,zerohedge.com,,http://zerohedge.com
-13,POLITICAL,2,cnn.com,February 1 coronavirus news - CNN,https://www.cnn.com/webview/asia/live-news/coronavirus-outbreak-02-01-20-intl-hnk/index.html
-14,POLITICAL,2,cnn.com,Wuhan coronavirus: Cases continue to rise rapidly as US bans travel from China,https://www.cnn.com/2020/01/31/asia/wuhan-coronavirus-update-intl-hnk/index.html
-15,POLITICAL,2,cnn.com,Wuhan people outcasts in their own country amid coronavirus outbreak,https://www.cnn.com/2020/02/01/asia/coronavirus-wuhan-discrimination-intl-hnk/index.html
-16,POLITICAL,2,cnn.com,This is what it was like to flee China on a charter plane bound for the US ,https://www.cnn.com/2020/02/06/us/wuhan-coronavirus-charter-flight-american/index.html
-17,POLITICAL,2,cnn.com,What's spreading faster than coronavirus in the US? Racist assaults and ignorant attacks against Asians,https://www.cnn.com/2020/02/20/us/coronavirus-racist-attacks-against-asian-americans/index.html
-18,SATIRE,2,lercio.it,"Coronavirus, Salvini brucia la felpa con scritto Codogno",https://www.lercio.it/coronavirus-salvini-brucia-la-felpa-con-scritto-codogno/
-19,SATIRE,2,lercio.it,"Coronavirus, Prada lancia la sua linea di ciabatte sanitarie",https://www.lercio.it/coronavirus-prada-lancia-la-sua-linea-di-ciabatte-sanitarie/
-20,POLITICAL,2,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
+1,CONSPIRACY/JUNKSCI,5,brightside.me,,https://brightside.me/inspiration-health/a-teacher-did-an-experiment-to-show-the-power-of-handwashing-and-you-cant-stay-unimpressed-795485/?utm_source=fb_brightside&utm_medium=fb_organic&utm_campaign=fb_gr_brightside&fbclid=iwar01ccj_vwidixtz0vli-jy5cizz0zujjghgcuyijfodxzuen-biochuy7c
+2,FAKE/HOAX,2,gnews.org,,https://gnews.org/89749/
+3,CONSPIRACY/JUNKSCI,2,zerohedge.com,,http://zerohedge.com
+4,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+5,FAKE/HOAX,1,theduran.com,,https://theduran.com/china-virus-cases-almost-double-overnight-deaths-top-100-as-north-korea-closes-border/
+6,FAKE/HOAX,1,rt.com,,https://www.rt.com/news/479394-wuhan-ghost-town-video-coronavirus/
+7,FAKE/HOAX,1,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+8,FAKE/HOAX,1,rt.com,"Dozens of drugs available to treat ‘coronavirus,’ but global pandemic possible by March – Moscow experts",https://www.rt.com/russia/479293-coronavirus-epidemic-possible-march-russia/
+9,FAKE/HOAX,1,rt.com,,https://www.rt.com/business/479300-stock-markets-plunge-coronavirus/
+10,CONSPIRACY/JUNKSCI,1,off-guardian.org,,https://off-guardian.org/2020/01/29/coronavirus-media-reveals-a-very-familiar-agenda/
+11,FAKE/HOAX,1,dailymail.co.uk,Bill Gates predicted a Coronavirus-like outbreak,https://www.dailymail.co.uk/news/article-7951293/bill-gates-predicted-coronavirus-like-outbreak-2019-netflix-documentary.html
+12,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Philippines Reports First Death Due To Coronavirus Outside China; 137,600 Under Observation In China",https://www.zerohedge.com/geopolitical/second-chinese-city-bars-residents-leaving-their-homes-hong-kong-workers-demand-city
+13,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Social Media Networks Vow To Censor ""Misinformation"" About Coronavirus",https://www.zerohedge.com/political/social-media-networks-vow-censor-misinformation-about-coronavirus
+14,CONSPIRACY/JUNKSCI,1,naturalnews.com,"In explosive interview, author of Bioweapons Act Dr. Francis Boyle confirms coronavirus is an ""offensive biological warfare weapon""",https://www.naturalnews.com/2020-02-04-dr-francis-boyle-confirms-coronavirus-an-offensive-biological-warfare-weapon.html
+15,CONSPIRACY/JUNKSCI,1,zerohedge.com,Wuhan-400 Coronavirus: 1981 Novel Predicts Virus Origin,https://www.zerohedge.com/geopolitical/wuhan-400-coronavirus-1981-novel-predicts-virus-origin
+16,FAKE/HOAX,1,gnews.org,,https://gnews.org/zh-hans/116227/
+17,CONSPIRACY/JUNKSCI,1,zerohedge.com,"If CDC Believes US Coronavirus Outbreak Is ""Imminent"", Why Have Only 400 People Been Tested?",https://www.zerohedge.com/geopolitical/expert-warns-dysfunctional-us-health-care-system-faces-critical-shortage-coronavirus
+18,CONSPIRACY/JUNKSCI,1,off-guardian.org,,https://off-guardian.org/2020/02/25/coronavirus-hysteria-reaches-tipping-point/
+19,CONSPIRACY/JUNKSCI,1,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+20,CONSPIRACY/JUNKSCI,1,off-guardian.org,,https://off-guardian.org/2020/02/29/media-whipping-covid19-panic-to-unprecedented-heights/

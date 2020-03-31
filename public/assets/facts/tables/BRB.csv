@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,26,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,CONSPIRACY/JUNKSCI,6,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-3,POLITICAL,5,rappler.com,World,http://rappler.com/world
-4,POLITICAL,5,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-5,POLITICAL,5,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-6,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/38xclfc
-7,POLITICAL,3,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tu0d1h
-8,CONSPIRACY/JUNKSCI,3,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-9,CLICKBAIT,3,mirror.co.uk,,https://www.mirror.co.uk/sport/football/news/odion-ighalo-involved-man-utd-21488840
-10,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36iundb
-11,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2tebmcr
-12,POLITICAL,2,theepochtimes.com,Chinese Social Media Depicts Chaos in Virus-Hit Wuhan,https://www.theepochtimes.com/chinese-social-media-depicts-chaos-in-virus-hit-wuhan_3215227.html
-13,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2ryhobo
-14,FAKE/HOAX,2,dailymail.co.uk,Wuhan mayor admits 'withholding information' on coronavirus outbreak,https://www.dailymail.co.uk/news/article-7933405/wuhan-mayor-admits-withholding-information-coronavirus-outbreak.html
-15,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
-16,POLITICAL,2,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3aq1ygd
-17,POLITICAL,2,dailywire.com,WATCH: Chinese Ambassador Asked If Coronavirus Came From Biological Warfare Program,https://www.dailywire.com/news/chinese-ambassador-does-not-deny-coronavirus-came-from-biological-warfare-program/
-18,POLITICAL,2,eldiario.es,El Gobierno de Canarias anuncia que un médico italiano ha dado positivo por coronavirus en Tenerife,https://www.eldiario.es/canariasahora/sociedad/medico-italiano-positivo-coronavirus-tenerife_0_999151062.html
-19,POLITICAL,2,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-20,FAKE/HOAX,2,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
+1,CONSPIRACY/JUNKSCI,6,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+2,CONSPIRACY/JUNKSCI,3,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+3,FAKE/HOAX,2,dailymail.co.uk,Wuhan mayor admits 'withholding information' on coronavirus outbreak,https://www.dailymail.co.uk/news/article-7933405/wuhan-mayor-admits-withholding-information-coronavirus-outbreak.html
+4,FAKE/HOAX,2,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
+5,CONSPIRACY/JUNKSCI,2,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+6,CONSPIRACY/JUNKSCI,1,disclose.tv,,https://www.disclose.tv/coronavirus-planned-history-of-virus-outbreaks-in-1720-1820-1920-now-2020-388526
+7,FAKE/HOAX,1,breitbart.com,California Case of Coronavirus Revealed: Three Now Confirmed in U.S.,https://www.breitbart.com/health/2020/01/26/calfornia-case-of-coronavirus-revealed-three-now-confirmed-in-u-s/
+8,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=social-facebook&fbclid=iwar1yawtez2sqhlpjknw_w9awgj5isjhowes-aukkrmdnjv9aa0_mw5naakq
+9,CONSPIRACY/JUNKSCI,1,activistpost.com,,https://www.activistpost.com/2020/01/did-bill-gates-world-economic-forum-predict-coronavirus-outbreak-an-inside-look-may-shock-you.html
+10,FAKE/HOAX,1,rt.com,Error 404,http://on.rt.com/a9vh
+11,CONSPIRACY/JUNKSCI,1,beholdisrael.org,Israeli Biological Warfare Expert Connects China’s Wuhan Virus to Covert Biological Warfare Laboratory - Behold Israel,https://beholdisrael.org/israeli-biological-warfare-expert-connects-chinas-wuhan-virus-to-covert-biological-warfare-laboratory/
+12,CONSPIRACY/JUNKSCI,1,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+13,FAKE/HOAX,1,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+14,FAKE/HOAX,1,bongino.com,Not a Joke: CNN Complains That Trump's Coronavirus Task Force Lacks Diversity | Dan Bongino,https://bongino.com/not-a-joke-cnn-upset-that-trumps-coronavirus-task-force-lacks-diversity/
+15,FAKE/HOAX,1,breitbart.com,Chinese Media: Coronavirus Chaos Proves Communism Is Good,https://www.breitbart.com/asia/2020/02/04/chinese-media-coronavirus-chaos-proves-communism-is-good/
+16,CONSPIRACY/JUNKSCI,1,zerohedge.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon,https://www.zerohedge.com/health/creator-bioweapons-act-says-coronavirus-biological-warfare-weapon
+17,CONSPIRACY/JUNKSCI,1,infowars.com,Breaking! Trump Calls For Investigation Of Coronavirus’ Origin,https://www.infowars.com/breaking-trump-calls-for-investigation-of-coronavirus-origin/
+18,FAKE/HOAX,1,dailymail.co.uk,Coronavirus 'could spread by lingering in the AIR',https://www.dailymail.co.uk/health/article-7990605/coronavirus-spread-lingering-air-chinese-official-claims.html
+19,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+20,CONSPIRACY/JUNKSCI,1,zerohedge.com,Hubei Doctors Warn Of Even-Deadlier Coronavirus Reinfection Causing Sudden Heart Attacks,https://www.zerohedge.com/health/hubei-doctors-warn-even-deadlier-coronavirus-reinfection-causing-sudden-heart-attacks

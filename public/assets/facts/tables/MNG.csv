@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,148,xhne.ws,,http://xhne.ws/tew8z
-2,POLITICAL,32,telegraaf.nl,Infectie-experts: ’Pandemie coronavirus ligt op de loer’,https://www.telegraaf.nl/nieuws/47716095/infectie-experts-pandemie-coronavirus-ligt-op-de-loer?utm_source=t.co&utm_medium=referral&utm_campaign=twitter
-3,POLITICAL,29,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vzoogx
-4,POLITICAL,28,mol.im,US health experts hosted fictional coronavirus simulation 3 months ago,https://mol.im/a/7925475
-5,CLICKBAIT,24,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-6,FAKE/HOAX,20,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
-7,CONSPIRACY/JUNKSCI,18,zerohedge.com,"Thai Government Admits ""Unable To Stop"" Spread Of Coronavirus",https://www.zerohedge.com/health/thai-government-admits-unable-stop-spread-coronavirus
-8,FAKE/HOAX,17,dailymail.co.uk,Chinese citizen journalist disappears from the streets of Wuhan,https://www.dailymail.co.uk/news/article-7981105/chinese-citizen-journalist-brought-world-truth-coronavirus-emergency-disappears.html
-9,POLITICAL,16,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37zebti
-10,FAKE/HOAX,14,rt.com,"First two cases of coronavirus confirmed in Russia, both Chinese citizens",https://on.rt.com/aa5v
-11,CLICKBAIT,13,mirror.co.uk,,https://www.mirror.co.uk/news/uk-news/expert-says-killer-coronavirus-spread-21352748
-12,FAKE/HOAX,12,dailymail.co.uk,"Up to 4,500 Chinese patients 'may have caught coronavirus'",https://www.dailymail.co.uk/health/article-7900047/scientists-fear-4-500-chinese-patients-caught-coronavirus.html
-13,POLITICAL,11,cnn.com,US chartering flight to evacuate American diplomats and citizens out of China amid coronavirus outbreak,https://www.cnn.com/2020/01/25/politics/coronavirus-us-evacuate-americans-china/index.html
-14,POLITICAL,10,xhne.ws,,http://xhne.ws/jcdel
-15,POLITICAL,10,bfmtv.com,Coronavirus: Air France suspend ses vols à destination de la Chine jusqu'au 9 février,https://www.bfmtv.com/economie/coronavirus-air-france-suspend-ses-vols-a-destination-de-la-chine-a-la-demande-des-salaries-1849691.html#/user/logout
-16,FAKE/HOAX,9,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-17,POLITICAL,8,thedailybeast.com,Iran Health Minister Who Played Down Coronavirus Threat Tests Positive for It,https://www.thedailybeast.com/iraj-harirchi-iran-health-minister-who-played-down-coronavirus-threat-tests-positive-for-it
-18,CONSPIRACY/JUNKSCI,7,globalresearch.ca,"Coronavirus Epidemic: WHO Declares a ""Fake"" Global Public Health Emergency - Global Research",https://www.globalresearch.ca/coronavirus-epidemic-who-declares-a-global-public-health-crisis-can-we-trust-the-who/5702360
-19,POLITICAL,7,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-20,POLITICAL,7,rollingstone.com,Rolling Stone,https://rol.st/396qdge
+1,FAKE/HOAX,20,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
+2,CONSPIRACY/JUNKSCI,18,zerohedge.com,"Thai Government Admits ""Unable To Stop"" Spread Of Coronavirus",https://www.zerohedge.com/health/thai-government-admits-unable-stop-spread-coronavirus
+3,FAKE/HOAX,17,dailymail.co.uk,Chinese citizen journalist disappears from the streets of Wuhan,https://www.dailymail.co.uk/news/article-7981105/chinese-citizen-journalist-brought-world-truth-coronavirus-emergency-disappears.html
+4,FAKE/HOAX,14,rt.com,"First two cases of coronavirus confirmed in Russia, both Chinese citizens",https://on.rt.com/aa5v
+5,FAKE/HOAX,12,dailymail.co.uk,"Up to 4,500 Chinese patients 'may have caught coronavirus'",https://www.dailymail.co.uk/health/article-7900047/scientists-fear-4-500-chinese-patients-caught-coronavirus.html
+6,FAKE/HOAX,9,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+7,CONSPIRACY/JUNKSCI,7,globalresearch.ca,"Coronavirus Epidemic: WHO Declares a ""Fake"" Global Public Health Emergency - Global Research",https://www.globalresearch.ca/coronavirus-epidemic-who-declares-a-global-public-health-crisis-can-we-trust-the-who/5702360
+8,FAKE/HOAX,6,rt.com,Shops stripped bare in scenes reminiscent of ‘zombie apocalypse’ as coronavirus fears sweep Italy (VIDEOS),https://on.rt.com/abk6
+9,FAKE/HOAX,5,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html?ito=amp_twitter_share-related
+10,FAKE/HOAX,5,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html?ito=amp_twitter_share-top
+11,FAKE/HOAX,4,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html
+12,CONSPIRACY/JUNKSCI,4,zerohedge.com,This Is How China Is Hiding The True Number Of Coronavirus Deaths,https://www.zerohedge.com/economics/how-china-hiding-true-number-coronavirus-deaths
+13,FAKE/HOAX,4,rt.com,Watch WHO chief cough & crack a ‘VIRAL’ joke... as watchdog tackles coronavirus (VIDEO),https://on.rt.com/aach
+14,CONSPIRACY/JUNKSCI,4,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+15,FAKE/HOAX,3,rt.com,"Chinese health chiefs warn coronavirus is growing ‘stronger’, MUTATION closely monitored by scientists",https://on.rt.com/a9rf
+16,CONSPIRACY/JUNKSCI,3,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+17,FAKE/HOAX,3,rt.com,"Mongolia closes border with China, shuts down ALL universities & training centers to stop coronavirus spread",https://www.rt.com/news/479271-mongolia-border-china-coronavirus/
+18,CONSPIRACY/JUNKSCI,3,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+19,FAKE/HOAX,3,breaking911.com,North Carolina Confirms First Case of Coronavirus - Breaking911,https://breaking911.com/just-in-north-carolina-confirms-first-case-of-coronavirus/
+20,CONSPIRACY/JUNKSCI,3,globalresearch.ca,China's Coronavirus: A Shocking Update. Did The Virus Originate in the US? - Global Research,https://www.globalresearch.ca/china-coronavirus-shocking-update/5705196

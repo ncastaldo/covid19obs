@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,18,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,POLITICAL,16,es.rt.com,China aprueba una vacuna contra el coronavirus para ensayos clínicos,https://es.rt.com/7fd4
-3,POLITICAL,13,es.rt.com,Confirman el primer caso del coronavirus en México,https://es.rt.com/7dql
-4,POLITICAL,13,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2qmv5pf
-5,POLITICAL,12,es.rt.com,Corea del Sur anuncia que el coronavirus se está propagando por el este del país,https://es.rt.com/7d3m
-6,POLITICAL,10,es.rt.com,"Un hospital de 1.000 camas en seis días: China construye en tiempo récord un centro para tratar el coronavirus (VIDEO, FOTOS)",https://es.rt.com/7b26
-7,POLITICAL,10,es.rt.com,,http://es.rt.com/7c4e
-8,POLITICAL,10,es.rt.com,Una persona muere cada 10 minutos por coronavirus en Irán,https://es.rt.com/7fjk
-9,POLITICAL,9,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2vzqpse
-10,POLITICAL,9,es.rt.com,La OMS declara el brote del coronavirus como pandemia,https://es.rt.com/7eqx
-11,POLITICAL,8,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37zvbvy
-12,POLITICAL,8,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-13,POLITICAL,8,es.rt.com,Panamá confirma el primer caso de coronavirus en el país,https://es.rt.com/7eko
-14,POLITICAL,8,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3dfkugq
-15,POLITICAL,7,es.rt.com,El viceministro de Salud iraní da positivo por coronavirus,https://es.rt.com/7dfz
-16,POLITICAL,7,eldiario.es,"Los nuevos positivos en Madrid, Catalunya y Andalucía elevan a diez los casos de coronavirus activos en España",https://www.eldiario.es/sociedad/madrid-confirma-primer-positivo-coronavirus_0_999501133.html
-17,POLITICAL,7,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/3942kes
-18,POLITICAL,7,es.rt.com,Nueva York registra su primer caso de coronavirus,https://es.rt.com/7dwy
-19,POLITICAL,7,es.rt.com,Honduras confirma los primeros dos casos de infección por coronavirus en el país,https://es.rt.com/7ep8
-20,POLITICAL,6,es.rt.com,"China prohíbe a 11 millones de ciudadanos salir de Wuhan, donde se originó el nuevo coronavirus",https://es.rt.com/7awm
+1,CONSPIRACY/JUNKSCI,3,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+2,FAKE/HOAX,2,bongino.com,Not a Joke: CNN Complains That Trump's Coronavirus Task Force Lacks Diversity | Dan Bongino,https://bongino.com/not-a-joke-cnn-upset-that-trumps-coronavirus-task-force-lacks-diversity/
+3,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+4,FAKE/HOAX,2,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
+5,CONSPIRACY/JUNKSCI,2,truepundit.com,North Korea's First Confirmed Coronavirus Patient Shot Dead – True Pundit,https://truepundit.com/north-koreas-first-confirmed-coronavirus-patient-shot-dead/
+6,FAKE/HOAX,2,davidharrisjr.com,Secret Service Notified After Dem Government Official Stands Behind Idea To Attack Trump Supporters With Coronavirus,https://davidharrisjr.com/carmine/secret-service-notified-after-democrat-government-official-stands-behind-idea-to-disgustingly-attack-president-donald-trumps-supporters-with-the-deadly-coronavirus/
+7,FAKE/HOAX,2,ikerjimenez.com,Milenio Live: Covid-19 Última hora y El encuentro,https://www.ikerjimenez.com/milenio-live-2x25-covid-19-ultima-hora-y-el-encuentro/
+8,FAKE/HOAX,2,quillette.com,"Don't Test, Don't Tell: The Bureaucratic Bungling of COVID-19 Tests - Quillette",https://quillette.com/2020/03/06/dont-test-dont-tell-the-bureaucratic-bungling-of-covid-19-tests/
+9,FAKE/HOAX,2,churchmilitant.com,Coronavirus: Rome Bows to State Decree Suspending All Public Masses,https://www.churchmilitant.com/news/article/rome-bows-to-coronavirus-state-decree-suspending-all-public-masses
+10,FAKE/HOAX,2,ikerjimenez.com,Milenio Live – Covid-19: Estado de alarma,https://www.ikerjimenez.com/milenio-live-covid-19-estado-de-alarma/
+11,FAKE/HOAX,2,ikerjimenez.com,Milenio Live – Covid-19: La noche de los doctores Mayol y Candel,https://www.ikerjimenez.com/milenio-live-2x28-covid-19-la-noche-de-los-doctores-mayol-y-candel/
+12,FAKE/HOAX,1,summit.news,Professor Warns New Coronavirus Has Same Kill Rate as the Spanish Flu,https://summit.news/2020/01/22/professor-warns-new-coronavirus-has-same-kill-rate-as-the-spanish-flu/
+13,CONSPIRACY/JUNKSCI,1,usahitman.com,CORONAVIRUS is a Patented Virus - USAHITMAN Conspiracy News,https://usahitman.com/coronavirus-patented-virus/
+14,FAKE/HOAX,1,rt.com,"Chinese virus death toll rises to 56, with nearly 2,000 infected nationwide & more cases confirmed abroad",https://on.rt.com/a9r3
+15,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Pandemic Simulation Run 3 Months Ago Predicts 65 Million People Could Die,https://www.zerohedge.com/health/coronavirus-pandemic-simulation-run-3-months-ago-predicts-65-million-people-could-die
+16,FAKE/HOAX,1,breitbart.com,Chicago Woman Diagnosed with China's Coronavirus,https://www.breitbart.com/health/2020/01/24/chicago-woman-diagnosed-with-chinas-coronavirus/
+17,FAKE/HOAX,1,ikerjimenez.com,Milenio Live – Coronavirus: miedo global,https://www.ikerjimenez.com/milenio-live-2x19-coronavirus-miedo-global/
+18,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+19,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Chinese Nurse Says 90,000 Already Infected In Emotional Plea For Help",https://www.zerohedge.com/markets/wuhan-nurse-fears-90000-infected-emotional-plea-help
+20,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Latest: Over 2,800 Global Cases Resulting in 80 Fatalities",https://www.zerohedge.com/geopolitical/third-us-coronavirus-case-confirmed-orange-county

@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,6,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-2,POLITICAL,3,bfmtv.com,Coronavirus: les Hôpitaux de Paris lancent un appel aux dons sur Facebook,https://www.bfmtv.com/tech/coronavirus-les-hopitaux-de-paris-lancent-un-appel-aux-dons-sur-facebook-1878319.html
-3,FAKE/HOAX,2,meteoweb.eu,"Coronavirus, la Cina inizia la sperimentazione di un possibile vaccino: Xi ammette la gravità della situazione - Meteo Web",http://www.meteoweb.eu/2020/02/coronavirus-vaccino-cina/1386939/
-4,FAKE/HOAX,2,meteoweb.eu,"Coronavirus, 910 morti e 40.652 contagi: il 99% dei casi in Cina, ""c'è una finestra di opportunità per batterlo"" - Meteo Web",http://www.meteoweb.eu/2020/02/coronavirus-910-morti-e-40-652-contagi-casi-cina-aggiornamenti/1386924/
-5,POLITICAL,2,xhne.ws,,http://xhne.ws/cs2ky
-6,POLITICAL,2,it.sputniknews.com,"Coronavirus, Israele verso chiusura delle frontiere ai turisti italiani",https://it.sputniknews.com/mondo/202002238768481-coronavirus-israele-verso-chiusura-delle-frontiere-ai-turisti-italiani/
-7,POLITICAL,2,ilmessaggero.it,"Coronavirus, la 56enne di Udine morta in Austria non aveva il Covid-19",https://www.ilmessaggero.it/mondo/coronavirus_italiana_morta_austria_udine_tampone_ultime_notizie-5075917.html
-8,POLITICAL,2,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-9,FAKE/HOAX,2,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/politica/monti-ha-trovato-ricetta-coronavirus-ci-serve-piu-europa-147681/
-10,FAKE/HOAX,2,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/economia/coronavirus-eravamo-comunque-destinati-recessione-147786/
-11,POLITICAL,2,bfmtv.com,Coronavirus: les ventes de La Peste de Camus bondissent,https://www.bfmtv.com/culture/coronavirus-les-ventes-de-la-peste-de-camus-bondissent-1867892.html
-12,POLITICAL,2,bfmtv.com,Coronavirus: Castaner prévient que la violation des règles de confinement sera puni d'une amende de 38 €,https://www.bfmtv.com/sante/direct-coronavirus-covid-19-france-symptome-cas-mort-confinement-quarantaine-ecole-fermee-report-municipales-second-tour-italie-espagne/#content/contribution/edit
-13,POLITICAL,1,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/30uylfu
-14,POLITICAL,1,bfmtv.com,"Coronavirus: le bilan grimpe à 41 morts en Chine, 1300 personnes contaminées",https://www.bfmtv.com/international/coronavirus-le-bilan-grimpe-a-au-moins-41-morts-en-chine1300-personnes-contaminees-1846937.html
-15,POLITICAL,1,ilmessaggero.it,,https://www.ilmessaggero.it/mondo/coronavirus_armi_biologiche_cina_laboratorio-5007038.html
-16,POLITICAL,1,xhne.ws,,http://xhne.ws/f6ldf
-17,POLITICAL,1,xhne.ws,,http://xhne.ws/abblg
-18,POLITICAL,1,xhne.ws,,http://xhne.ws/cte3g
-19,POLITICAL,1,xhne.ws,,http://xhne.ws/iht9c
-20,POLITICAL,1,xhne.ws,,http://xhne.ws/803ni
+1,FAKE/HOAX,2,meteoweb.eu,"Coronavirus, la Cina inizia la sperimentazione di un possibile vaccino: Xi ammette la gravità della situazione - Meteo Web",http://www.meteoweb.eu/2020/02/coronavirus-vaccino-cina/1386939/
+2,FAKE/HOAX,2,meteoweb.eu,"Coronavirus, 910 morti e 40.652 contagi: il 99% dei casi in Cina, ""c'è una finestra di opportunità per batterlo"" - Meteo Web",http://www.meteoweb.eu/2020/02/coronavirus-910-morti-e-40-652-contagi-casi-cina-aggiornamenti/1386924/
+3,FAKE/HOAX,2,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/politica/monti-ha-trovato-ricetta-coronavirus-ci-serve-piu-europa-147681/
+4,FAKE/HOAX,2,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/economia/coronavirus-eravamo-comunque-destinati-recessione-147786/
+5,FAKE/HOAX,1,bongino.com,Not a Joke: CNN Complains That Trump's Coronavirus Task Force Lacks Diversity | Dan Bongino,https://bongino.com/not-a-joke-cnn-upset-that-trumps-coronavirus-task-force-lacks-diversity/
+6,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+7,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/esteri/coronavirus-linea-dura-cina-prevista-pena-morte-infetta-144815/
+8,CONSPIRACY/JUNKSCI,1,imolaoggi.it,"Coronavirus, Meluzzi: “Chiudere subito i porti” - Imola Oggi",http://www.imolaoggi.it/2020/02/04/coronavirus-meluzzi-chiudere-subito-i-porti/
+9,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/cronaca/coronavirus-giudici-pace-rischio-contagio-immigrati-clandestini-144949/
+10,CONSPIRACY/JUNKSCI,1,imolaoggi.it,Coronavirus: 3 casi a Taiwan. Due rientrati da viaggio in Italia - Imola Oggi,http://www.imolaoggi.it/2020/02/07/coronavirus-3-casi-a-taiwan-due-rientrati-da-viaggio-in-italia/
+11,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/approfondimenti/coronavirus-cina-crudelta-animali-cani-pangolini-145207/?fbclid=iwar01pqcaxxll1apm_hv7358edo4f06gr8jyx9yoz5f4zv5c6g2sol7qf2z8
+12,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/esteri/coronavirus-muore-primo-cittadino-usa-vittime-722-145282/
+13,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/cronaca/coronavirus-litaliano-contagiato-tranquillizza-per-ora-sto-bene-non-ho-disagi-particolari-145239/
+14,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/cronaca/incubazione-coronavirus-24-giorni-nuovo-allarme-ricercatori-145529/
+15,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/primo-piano/coronavirus-allarme-africa-sappiamo-diagnosticarlo-epidemia-145474/
+16,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/esteri/coronavirus-kim-jong-un-applica-legge-marziale-fucilato-funzionario-che-non-ha-rispettato-la-quarantena-145955/
+17,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/cronaca/coronavirus-vittime-cina-psicosi-cani-uccisi-bastonate-145979/
+18,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/esteri/coronavirus-francia-primo-morto-fuori-asia-146143/
+19,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/esteri/coronavirus-sbarca-africa-primo-caso-egitto-146138/
+20,CONSPIRACY/JUNKSCI,1,imolaoggi.it,"Coronavirus, due morti in Iran - Imola Oggi",http://www.imolaoggi.it/2020/02/19/coronavirus-due-morti-in-iran/

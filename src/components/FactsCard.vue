@@ -18,7 +18,7 @@
     >
       <template v-slot:item.title="{ item }">
         <span class="pr-1">
-          {{ item.title }}
+          {{ item.title || `(${item.url})` }}
         </span>
         <span>
           <a
@@ -54,7 +54,7 @@ const headers = [
   },
   {
     value: 'title',
-    text: 'Title [if available]',
+    text: 'Title (or URL)',
     width: 300
   }
 ]

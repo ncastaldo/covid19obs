@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CLICKBAIT,728,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-2,SATIRE,276,der-postillon.com,Corona-Quarantäne für Gourmets: Die 10 besten Rezepte für Nudeln mit Klopapier,https://www.der-postillon.com/2020/03/corona-quarantaene.html
-3,POLITICAL,199,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
-4,SATIRE,196,der-postillon.com,"Wegen Coronavirus: Auswärtiges Amt kündigt an, Deutsche aus Bayern auszufliegen",https://www.der-postillon.com/2020/01/coronavirus-bayern.html
-5,POLITICAL,193,rollingstone.com,Rolling Stone,https://rol.st/396qdge
-6,SATIRE,157,der-postillon.com,Vorbild China: Berlin will Corona-Notklinik in nur 40 Jahren hochziehen,https://www.der-postillon.com/2020/02/wuhan-klinik.html
-7,SATIRE,136,der-postillon.com,"Impfgegner richten Coronaviruspartys aus, um sich anstecken zu lassen",https://www.der-postillon.com/2020/01/coronavirus-party.html
-8,CONSPIRACY/JUNKSCI,130,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-9,SATIRE,116,der-postillon.com,"Regierung will mit Maßnahmen wie in Italien sicherheitshalber warten, bis es zu spät ist",https://www.der-postillon.com/2020/03/zu-spaet-zu-spaet.html
-10,CLICKBAIT,104,allkpop.com,KBS building quarantined after employee 'A' tests positive for the Coronavirus,https://www.allkpop.com/article/2020/03/kbs-building-quarantined-after-employee-a-tests-positive-for-the-coronavirus
-11,SATIRE,98,der-postillon.com,Bundesliga-Genuss trotz Geisterspielen: Riesige Public Viewings geplant,https://www.der-postillon.com/2020/03/public-viewings.html
-12,POLITICAL,95,rappler.com,World,http://rappler.com/world
-13,SATIRE,93,scienceinfo.fr,Coronavirus : la fellation moins contagieuse qu’une poignée de main selon l’OMS - Science Info,http://www.scienceinfo.fr/coronavirus-la-fellation-moins-contagieuse-quune-poignee-de-main-selon-loms/
-14,FAKE/HOAX,91,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-15,POLITICAL,89,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-16,SATIRE,88,der-postillon.com,"Dealer im Park stellen auf Seife, Desinfektionsmittel und Klopapier um",https://www.der-postillon.com/2020/03/corona-dealer.html
-17,CONSPIRACY/JUNKSCI,84,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-18,POLITICAL,84,bfmtv.com,"Ce n'est plus une blague, la bière Corona souffre vraiment de son association avec le coronavirus",https://www.bfmtv.com/economie/ce-n-est-plus-une-blague-la-biere-corona-souffre-vraiment-de-son-association-avec-le-coronavirus-1865325.html#page/contribution/index
-19,POLITICAL,82,rawstory.com,GOP blocking coronavirus bill — because it limits how much drugmakers can charge for a vaccine: report,https://www.rawstory.com/2020/03/gop-blocking-coronavirus-bill-because-it-limits-how-much-drugmakers-can-charge-for-a-vaccine-report/
-20,POLITICAL,80,thedailybeast.com,Sen. Kelly Loeffler Dumped Millions in Stock After Coronavirus Briefing,https://www.thedailybeast.com/sen-kelly-loeffler-dumped-millions-in-stock-after-coronavirus-briefing
+1,CONSPIRACY/JUNKSCI,134,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+2,FAKE/HOAX,93,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+3,CONSPIRACY/JUNKSCI,86,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+4,CONSPIRACY/JUNKSCI,57,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+5,FAKE/HOAX,47,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+6,CONSPIRACY/JUNKSCI,41,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+7,FAKE/HOAX,40,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+8,FAKE/HOAX,38,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+9,FAKE/HOAX,36,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+10,CONSPIRACY/JUNKSCI,34,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+11,FAKE/HOAX,28,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+12,CONSPIRACY/JUNKSCI,26,zerohedge.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon,https://www.zerohedge.com/health/creator-bioweapons-act-says-coronavirus-biological-warfare-weapon
+13,FAKE/HOAX,25,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+14,FAKE/HOAX,24,gnews.org,,https://gnews.org/89749/
+15,FAKE/HOAX,21,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
+16,CONSPIRACY/JUNKSCI,18,zerohedge.com,Did China's Tencent Accidentally Leak The True Terrifying Coronavirus Statistics,https://www.zerohedge.com/health/did-chinas-tencent-accidentally-leak-true-terrifying-coronavirus-statistics
+17,CONSPIRACY/JUNKSCI,18,zerohedge.com,Hubei Doctors Warn Of Even-Deadlier Coronavirus Reinfection Causing Sudden Heart Attacks,https://www.zerohedge.com/health/hubei-doctors-warn-even-deadlier-coronavirus-reinfection-causing-sudden-heart-attacks
+18,FAKE/HOAX,17,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
+19,FAKE/HOAX,15,summit.news,Virologist Who Visited Wuhan Says Coronavirus is “Out of Control”,https://summit.news/2020/01/24/virologist-who-visited-wuhan-says-coronavirus-is-out-of-control/
+20,CONSPIRACY/JUNKSCI,15,zerohedge.com,"Scientists Discover HIV-Like ""Mutation"" Which Makes Coronavirus Extremely Infectious",https://www.zerohedge.com/health/coronavirus-hiv-mutation-suggests-nearly-1000x-more-likely-sars-infect

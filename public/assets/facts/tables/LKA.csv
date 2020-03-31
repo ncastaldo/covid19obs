@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,40,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2gcntzu
-2,POLITICAL,18,news.chosun.com,"[단독] ""방탄소년단 팬들, 콘서트 환불금→기부..무려 453건 2천만원"" (인터뷰)",https://news.chosun.com/site/data/html_dir/2020/02/28/2020022802911.html
-3,POLITICAL,13,cnn.com,Coronavirus: Should you be worried?,https://www.cnn.com/2020/01/20/health/what-is-coronavirus-explained/index.html
-4,POLITICAL,13,thesun.co.uk,"Coronavirus is spread through the EYES making surgical masks useless, expert claims",https://www.thesun.co.uk/news/10815241/coronavirus-spread-through-eyeballs-expert-warns?utm_source=twitter&utm_medium=social&utm_campaign=sharebarweb
-5,CLICKBAIT,12,mirror.co.uk,Coronavirus experts warn people to stop kissing as UK crisis continues to grow,https://www.mirror.co.uk/news/uk-news/coronavirus-experts-warn-people-stop-21629235
-6,POLITICAL,10,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2t362bh
-7,CLICKBAIT,9,soompi.com,BTS’s Fans ARMY Donate Refunds From Concert Cancelation To Help Coronavirus Prevention,https://www.soompi.com/article/1385652wpp/btss-fans-army-donate-refunds-from-concert-cancelation-to-help-coronavirus-prevention
-8,POLITICAL,8,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/2rdl4a2
-9,POLITICAL,7,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/37xfdjd
-10,FAKE/HOAX,7,rt.com,"China’s PM calls for ‘resolute fight’ against coronavirus outbreak as death toll climbs to 106 with over 1,700 new cases",https://on.rt.com/a9v1
-11,POLITICAL,7,rappler.com,World,http://rappler.com/world
-12,POLITICAL,6,cnn.it,"CNN International - Breaking News, US News, World News and Video",https://cnn.it/36tgd8f
-13,FAKE/HOAX,6,gnews.org,,https://gnews.org/89749/
-14,CLICKBAIT,6,koreaboo.com,MNH Entertainment Confirms 2 Of Chungha's Staff Have Corona19 (COVID-19),https://www.koreaboo.com/news/mnh-entertainment-confirms-2-chungha-staff-corona19-covid-19/
-15,FAKE/HOAX,5,rt.com,Did patient zero really catch new Chinese virus by eating infected bat soup? It’s actually perfectly possible,https://on.rt.com/a9lh
-16,CLICKBAIT,5,allkpop.com,"BTS’s V Shows Concern, Urges Fans To Be Careful Of The Coronavirus.",https://www.allkpop.com/article/2020/01/btss-v-shows-concerns-urges-fans-to-be-careful-of-the-coronavirus
-17,FAKE/HOAX,5,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html
-18,FAKE/HOAX,5,rt.com,Error 404,http://on.rt.com/a9vh
-19,CLICKBAIT,5,koreaboo.com,Baekhyun Praised For His Adorable Yet Smart Methods To Preventing The Coronavirus,https://www.koreaboo.com/news/exo-baekhyun-preventing-coronavirus/
-20,POLITICAL,5,oglobo.globo.com,"Nem um beijo? Contra coronavírus, autoridades pedem às pessoas que evitem contatos afetuosos",https://oglobo.globo.com/sociedade/coronavirus/nem-um-beijo-contra-coronavirus-autoridades-pedem-as-pessoas-que-evitem-contatos-afetuosos-24273210?utm_source=twitter&utm_medium=social&utm_campaign=o%20globo
+1,FAKE/HOAX,7,gnews.org,,https://gnews.org/89749/
+2,FAKE/HOAX,7,rt.com,"China’s PM calls for ‘resolute fight’ against coronavirus outbreak as death toll climbs to 106 with over 1,700 new cases",https://on.rt.com/a9v1
+3,FAKE/HOAX,5,rt.com,Did patient zero really catch new Chinese virus by eating infected bat soup? It’s actually perfectly possible,https://on.rt.com/a9lh
+4,FAKE/HOAX,5,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html
+5,FAKE/HOAX,5,rt.com,Error 404,http://on.rt.com/a9vh
+6,FAKE/HOAX,4,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+7,FAKE/HOAX,4,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html?ito=facebook_share_article-top
+8,FAKE/HOAX,4,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+9,FAKE/HOAX,3,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://www.rt.com/news/479108-first-cononavirus-patient-cured/
+10,FAKE/HOAX,3,rt.com,"Chinese coronavirus spreads with no visible symptoms as death toll grows to 81, over 2,800 infected worldwide",https://www.rt.com/usa/479257-china-coronavirus-death-cases/
+11,FAKE/HOAX,3,rt.com,"Chinese health chiefs warn coronavirus is growing ‘stronger’, MUTATION closely monitored by scientists",https://on.rt.com/a9rf
+12,FAKE/HOAX,3,rt.com,"‘Wuhan, you can do it!’: Quarantined residents sing from their balconies in stirring VIDEOS",https://on.rt.com/a9vh
+13,FAKE/HOAX,3,rt.com,Watch WHO chief cough & crack a ‘VIRAL’ joke... as watchdog tackles coronavirus (VIDEO),https://on.rt.com/aach
+14,FAKE/HOAX,3,rt.com,China's economy to grow 15% in Q2 as it recovers from coronavirus – JPMorgan,https://www.rt.com/business/481801-china-economy-recovery-jpmorgan/
+15,FAKE/HOAX,3,rt.com,"Сoronavirus may be a product of US ‘biological attack’ aimed at Iran & China, IRGC chief claims",https://www.rt.com/news/482405-iran-coronavirus-us-biological-weapon/
+16,FAKE/HOAX,3,presstv.com,Coronavirus was produced in a laboratory: Former CIA intel officer,https://www.presstv.com/detail/2020/03/05/620213/coronavirus-was-produced-in-a-laboratory
+17,CONSPIRACY/JUNKSCI,3,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+18,FAKE/HOAX,2,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html
+19,FAKE/HOAX,2,rt.com,Singapore confirms first case of deadly Chinese coronavirus – reports,https://on.rt.com/a9lf
+20,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/breaking-second-coronavirus-case-confirmed-21352865

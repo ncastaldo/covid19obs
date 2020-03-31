@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,POLITICAL,122,epmundo.com,Cae muerto en Francia. Terror por coronavirus en Europa es grande. Video,https://epmundo.com/2020/susto-turista-se-desploma-y-es-el-primer-muerto-por-coronavirus-en-europa-video/
-2,POLITICAL,114,epmundo.com,¡Preocupante! Descubren segunda vía transmisión del coronavirus,https://epmundo.com/2020/existe-una-via-secundaria-de-transmision-del-coronavirus-vea-cual-es/
-3,POLITICAL,111,epmundo.com,¡Confirmado! Coronavirus toca a Latinoamérica: se encienden las alarmas,https://epmundo.com/2020/alerta-confirman-primer-caso-de-coronavirus-en-latinoamerica/
-4,POLITICAL,109,epmundo.com,¡Confirmado! Coronavirus toca a Latinoamérica: se encienden las alarmas,https://epmundo.com/2020/alerta-confirman-primer-caso-de-coronavirus-de-latinoamericano/
-5,POLITICAL,106,epmundo.com,¡Alarma por coronavirus! Revelaciones de un epidemiólogo dan pánico,https://epmundo.com/2020/alarmante-advertencia-de-un-epidemiologo-sobre-el-coronavirus/
-6,POLITICAL,103,epmundo.com,¿Coronavirus es un arma de guerra biológica? ¡Esto dicen los científicos!,https://epmundo.com/2020/alertan-que-el-coronavirus-podria-ser-una-arma-de-guerra-biologica/
-7,POLITICAL,102,epmundo.com,!Alerta roja¡ Reportan la muerte del primer estadounidense por coronavirus,https://epmundo.com/2020/alerta-maxima-muere-el-primer-estadounidense-por-coronavirus/
-8,POLITICAL,102,epmundo.com,Ejecutado por violar cuarentena en Corea del Norte ¡Crimen atroz!,https://epmundo.com/2020/ejecutado-hombre-en-corea-del-norte-por-no-prevenir-contagio-de-coronavirus/
-9,POLITICAL,96,epmundo.com,¡Caos en Italia por Coronavirus! Muertos y varias ciudades en aislamiento,https://epmundo.com/2020/coronavirus-causa-estragos-en-italia-ya-reportan-varios-muertos/
-10,POLITICAL,95,epmundo.com,"¡Llegó el coronavirus! Colombia confirma un paciente, vea qué le pasó",https://epmundo.com/2020/alerta-confirmado-primer-colombiano-con-coronavirus/
-11,POLITICAL,88,epmundo.com,Italia protege a sus ciudadanos del coronavirus ¡11 ciudades aisladas!,https://epmundo.com/2020/italia-adopta-medidas-extremas-por-propagacion-del-coronavirus/
-12,POLITICAL,87,epmundo.com,"Cuántos muertos dejó el Coronavirus. Sepa, es aterrador",https://epmundo.com/2020/es-aterrador-el-nuevo-balance-de-muertos-por-coronavirus/
-13,POLITICAL,86,epmundo.com,¡Alarmante! Personas sin síntomas contagian coronavirus,https://epmundo.com/2020/atencion-pacientes-sin-sintomas-tambien-transmiten-coronavirus/
-14,POLITICAL,84,epmundo.com,¡Tomen previsiones! Reportan primer paciente con Coronavirus en México,https://epmundo.com/2020/alerta-tercer-pais-latino-que-registra-paciente-por-coronavirus-detalles/
-15,POLITICAL,83,epmundo.com,"Profecía del coronavirus: Nostradamus lo predijo, da miedo leerla",https://epmundo.com/2020/da-escalofrios-la-profecia-de-nostradamus-sobre-el-coronavirus/
-16,POLITICAL,82,epmundo.com,Caso de coronavirus en Maracay: ¡Periodista Gregoria Díaz en peligro!,https://epmundo.com/2020/periodista-gregoria-diaz-en-peligro-por-caso-de-coronavirus/
-17,POLITICAL,79,epmundo.com,"En video: Estaban en cuarentena por coronavirus, ¡el hotel los aplastó!",https://epmundo.com/2020/estan-sepultados-hotel-aislado-por-coronavirus-se-derrumba-el-video-es-aterrador/
-18,POLITICAL,78,epmundo.com,Inicio — EP | Mundo,https://epmundo.com/2020/medico-italiano-lleva-el-coronavirus-a-espana-es-alarmante-hay-mil-afectados/
-19,POLITICAL,73,epmundo.com,La teoría descabellada de Maduro sobre el coronavirus ¿Qué dijo?,https://epmundo.com/2020/la-nueva-teoria-de-maduro-lo-ultimo-que-dijo-del-coronavirus-te-dejara-loco/
-20,POLITICAL,72,epmundo.com,Paciente en Maracay ¿Conoravirus llega a Venezuela?. ¡Alerta máxima!,https://epmundo.com/2020/alerta-reportan-paciente-con-coronavirus-en-venezuela-detalles/
+1,FAKE/HOAX,3,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+2,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/urgente-el-coronavirus-puede-infectar-desde-una-distancia-de-2-metros-y-a-traves-de-los-ojos/
+3,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
+4,FAKE/HOAX,2,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
+5,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+6,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/nacionales/ultima-hora-reportan-primer-caso-del-coronavirus-en/
+7,FAKE/HOAX,1,rt.com,Chinese authorities share FIRST PHOTOS of deadly coronavirus,https://www.rt.com/news/479057-chinese-authorities-share-coronavirus-photos/
+8,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/salud/vacuna-contra-nuevo-coronavirus-estaria-lista-en-tres-meses-cientificos-estadounidenses/
+9,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-canada-reportan-un-posible-caso-de-coronavirus-en-toronto/
+10,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/china-toma-medidas-drasticas-por-temor-al-peligroso-coronavirus/
+11,FAKE/HOAX,1,express.co.uk,Coronavirus CURE? China says new treatment tested on nurses 'successful',https://www.express.co.uk/news/world/1233644/coronavirus-china-virus-vaccine-treatment-cure-symptoms
+12,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/video-asi-progresa-la-construccion-de-un-hospital-en-china-para-tratar-a-pacientes-con-el-coronavirus/
+13,FAKE/HOAX,1,rt.com,Russia closes its Far East border with China in attempt to prevent spread of new coronavirus,https://www.rt.com/russia/479567-russia-china-border-coronavirus/
+14,FAKE/HOAX,1,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html?ito=facebook_share_article-top
+15,FAKE/HOAX,1,reseauinternational.net,Virus 2019-nCoV - La piste de l'arme biologique se précise de plus en plus,https://reseauinternational.net/virus-2019-ncov-la-piste-de-larme-biologique-se-precise-de-plus-en-plus/
+16,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-italia-confirma-los-dos-primeros-casos-de-coronavirus-en-el-pais/
+17,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon?utm_source=feedburner&utm_medium=feed&utm_campaign=feed%3a+zerohedge%2ffeed+%28zero+hedge+-+on+a+long+enough+timeline%2c+the+survival+rate+for+everyone+drops+to+zero%29
+18,FAKE/HOAX,1,albertonews.com,"Aislados los primeros sospechosos de coronavirus en Cuba, confirma el MINSAP - AlbertoNews - Periodismo sin censura",https://albertonews.com/internacionales/ultima-hora-aislados-los-primeros-sospechosos-de-coronavirus-en-cuba-confirma-el-minsap/
+19,FAKE/HOAX,1,rt.com,Clear racist element to hysteria over new coronavirus – Slavoj Zizek,https://www.rt.com/op-ed/479970-coronavirus-china-wuhan-hysteria-racist/
+20,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/china-enfrenta-una-escasez-de-camas-para-los-mas-de-28-mil-pacientes-con-coronavirus-2/
