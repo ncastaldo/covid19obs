@@ -36,7 +36,7 @@
         <v-simple-table
           dense
           style="max-width: 500px"
-          class="pt-1 pb-4"
+          class="pt-1 pb-4 mx-auto"
         >
           <template v-slot:default>
             <thead>

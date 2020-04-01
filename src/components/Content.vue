@@ -69,7 +69,10 @@
               </v-col>
             </v-row>
           </v-col>
-          <v-col class="pt-2">
+          <v-col
+            v-if="false"
+            class="pt-2"
+          >
             <FactsCard />
           </v-col>
         </v-row>
