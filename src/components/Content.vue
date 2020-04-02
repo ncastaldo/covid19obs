@@ -88,6 +88,9 @@
           <InfoTableCard />
         </v-col>
         <v-col cols="12">
+          <PressCard />
+        </v-col>
+        <v-col cols="12">
           <DataSourcesCard />
         </v-col>
         <v-col cols="12">
@@ -116,6 +119,8 @@ import InfoTableCard from './InfoTableCard'
 import ContactsCard from './ContactsCard'
 import DataSourcesCard from './DataSourcesCard'
 
+import PressCard from './PressCard'
+
 import FactsCard from './FactsCard'
 
 import timeseriesConfig from '../assets/timeseries.json'
@@ -132,6 +137,7 @@ export default {
     FactsCard,
     DescriptionCard,
     DisclaimerCard,
+    PressCard,
     InfoTableCard,
     DataSourcesCard,
     ContactsCard

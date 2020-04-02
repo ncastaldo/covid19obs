@@ -1,0 +1,119 @@
+[
+  {
+    "title": "International",
+    "elements": [
+      {
+        "id": "THE_WASHINGTON_POST",
+        "text": "Analysis of millions of coronavirus tweets shows 'the whole world is sad'",
+        "logo": "assets/static_img/press_logo/THE_WASHINGTON_POST.svg",
+        "link": "https://www.washingtonpost.com/science/2020/03/17/analysis-millions-coronavirus-tweets-shows-whole-world-is-sad/"
+      },
+      {
+        "id": "NBC",
+        "text": "GLOBAL HANGOUT: Conversations on Coronavirus",
+        "logo": "assets/static_img/press_logo/NBC.svg",
+        "link": "https://www.facebook.com/watch/?v=207342360680414"
+      },
+      {
+        "id": "EL_PAIS",
+        "text": "La amenaza del coronavirus impulsa la demanda de información fiable frente a las 'fake news'",
+        "logo": "assets/static_img/press_logo/EL_PAIS.svg",
+        "link": "https://elpais.com/tecnologia/2020-03-25/la-amenaza-del-coronavirus-impulsa-la-demanda-de-informacion-confiable-frente-a-las-fake-news.html"
+      },
+      {
+        "id": "TORTOISE_MEDIA",
+        "text": "Fake news in the time of C-19",
+        "logo": "assets/static_img/press_logo/TORTOISE_MEDIA.svg",
+        "link": "https://members.tortoisemedia.com/2020/03/23/the-infodemic-fake-news-coronavirus/content.html"
+      },
+      {
+        "id": "MAP_BOX",
+        "text": "Notable maps visualizing COVID-19 and surrounding impacts",
+        "logo": "assets/static_img/press_logo/MAP_BOX.svg",
+        "link": "https://blog.mapbox.com/notable-maps-visualizing-covid-19-and-surrounding-impacts-951724cc4bd8"
+      },
+      {
+        "id": "POYNTER",
+        "text": "How a fast-moving crisis fuels rumor and speculation",
+        "logo": "assets/static_img/press_logo/POYNTER.svg",
+        "link": "https://www.poynter.org/fact-checking/2020/how-a-fast-moving-crisis-fuels-rumor-and-speculation/"
+      } 
+    ]
+  },
+  {
+    "title": "National",
+    "elements": [
+      {
+        "id": "LA_REPUBBLICA",
+        "text": "Conoravirus, l'epidemia sui social: ecco la mappa interattiva della paura",
+        "logo": "assets/static_img/press_logo/LA_REPUBBLICA.svg",
+        "link": "https://www.repubblica.it/tecnologia/social-network/2020/03/11/news/conoravirus_l_epidemia_diventa_social_e_a_trento_realizzano_una_mappa_interattiva-250885524/"
+      },
+      {
+        "id": "L_ECONOMIA_DEL_CORRIERE",
+        "text": "Il virus, l'«infodemia» e l'analisi della FBK",
+        "logo":"assets/static_img/press_logo/L_ECONOMIA_DEL_CORRIERE.svg",
+        "link": ""
+      },
+      {
+        "id": "IL_SOLE_24_ORE",
+        "text": "Il virus chiede di ripensare il concetto di postvirali",
+        "logo":"assets/static_img/press_logo/IL_SOLE_24_ORE.svg",
+        "link": ""
+      },
+      {
+        "id": "HUFFINGTON_POST",
+        "text": "Perché in Europa non hanno creduto alle real news italiane sul coronavirus",
+        "logo":"assets/static_img/press_logo/HUFFINGTON_POST.svg",
+        "link": "https://www.huffingtonpost.it/entry/perche-in-europa-non-hanno-creduto-alle-real-news-italiane-sul-coronavirus_it_5e6e0f7dc5b6bd8156f9284e"
+      },
+      {
+        "id": "WIRED",
+        "text": "Come si diffondono le fake news sul coronavirus",
+        "logo":"assets/static_img/press_logo/WIRED.svg",
+        "link": "https://www.wired.it/internet/web/2020/03/11/coronavirus-fake-news/"
+      },
+      {
+        "id": "GALILEO",
+        "text": "Coronavirus, una mappa anche per la febbre dell’informazione",
+        "logo":"assets/static_img/press_logo/GALILEO.svg",
+        "link": "https://www.galileonet.it/mappa-mondo-infodemia-coronavirus/"
+      },
+      {
+        "id": "SKY",
+        "text": "Coronavirus, Twitter eliminerà tutti i post pericolosi",
+        "logo":"assets/static_img/press_logo/SKY.svg",
+        "link": "https://tg24.sky.it/tecnologia/software-app/2020/03/19/coronavirus-twitter-fake-news.html"
+      }
+    ]
+  },
+  {
+    "title": "Local",
+    "elements": [
+      {
+        "id": "PROVINCIA_TRENTO",
+        "text": "Coronavirus e fake news nei social media",
+        "logo": "assets/static_img/press_logo/PROVINCIA_TRENTO.svg",
+        "link": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Coronavirus-e-fake-news-nei-social-media"
+      },
+      {
+        "id": "TGR_TRENTO",
+        "text": "Le fake news incidono sulla diffusione del coronavirus? Lo studio di Fbk",
+        "logo":"assets/static_img/press_logo/TGR_TRENTO.svg",
+        "link": "https://www.rainews.it/tgr/trento/articoli/2020/03/tnt-coronavirus-fbk-studio-infodemia-informazione-fake-news-49652f8a-8216-437a-9b0b-6b9f74091f44.html"
+      },
+      {
+        "id": "IL_DOLOMITI",
+        "text": "Coronavirus, lo studio di Fbk: 'I trentini meglio degli altoatesini nell'evitare le notizie non verificate. [...]'",
+        "logo":"assets/static_img/press_logo/IL_DOLOMITI.svg",
+        "link": ""
+      },
+      {
+        "id": "CORRIERE_DEL_TRENTINO",
+        "text": "La Fondazione Kessler di Trento e lo studio che svela l'«infodemia»",
+        "logo":"assets/static_img/press_logo/CORRIERE_DEL_TRENTINO.svg",
+        "link": ""
+      }
+    ]
+  }
+]
