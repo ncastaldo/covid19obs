@@ -21,7 +21,7 @@
             {{ v.text }}
             <a
               v-if="v.link"
-              :href="v.link"
+              :href="`${v.link}`"
               target="_blank"
             >
               Link
@@ -91,11 +91,11 @@
 const sources = [
   {
     text: 'M. Zimdar for the Washingtoin Post (2016).',
-    link: 'https://www.washingtonpost.com/posteverything/wp/2016/11/18/my-fake-news-list-went-viral-but-made-up-stories-are-only-part-of-the-problem/'
+    link: 'https://washingtonpost.com/posteverything/wp/2016/11/18/my-fake-news-list-went-viral-but-made-up-stories-are-only-part-of-the-problem/'
   },
   {
     text: 'C. Silverman for BuzzFeed News (2017).',
-    link: 'https://www.buzzfeednews.com/article/craigsilverman/inside-the-partisan-fight-for-your-news-feed'
+    link: 'https://buzzfeednews.com/article/craigsilverman/inside-the-partisan-fight-for-your-news-feed'
   },
   {
     text: 'Fake News Watch (2015).',
@@ -103,15 +103,14 @@ const sources = [
   },
   {
     text: 'PolitiFact (2017).',
-    link: 'https://www.politifact.com/article/2017/apr/20/politifacts-guide-fake-news-websites-and-what-they/'
+    link: 'https://politifact.com/article/2017/apr/20/politifacts-guide-fake-news-websites-and-what-they/'
   },
   {
     text: 'Bufale.net (2018).',
-    link: 'h​ttps://www.bufale.net/the-black-list-la-lista-nera-del-web/'
+    link: 'https://bufale.net/the-black-list-la-lista-nera-del-web/'
   },
   {
-    text: 'Starbird et al, ICWSM (2018)',
-    link: ''
+    text: 'Starbird et al, ICWSM (2018)'
   },
   {
     text: 'Fletcher et al, Factsheets, Reuters Institute and U. of Oxford (2018).',
@@ -122,7 +121,7 @@ const sources = [
   },
   {
     text: 'MediaBiasFactCheck (2020).',
-    link: '​https://mediabiasfactcheck.com/'
+    link: 'https://mediabiasfactcheck.com/'
   }
 ]
 
