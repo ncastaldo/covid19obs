@@ -19,11 +19,14 @@
         <v-col
           v-for="(el, j) in section.elements"
           :key="j"
-          class="col-6 col-sm-4 col-md-3 col-lg-2"
+          class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-1"
         >
-          <v-card flat>
+          <v-card
+            flat
+            class="justify-center"
+          >
             <v-img
-              height="40px"
+              height="36px"
               contain
               class="mx-1 py-1"
               :src="el.logo"

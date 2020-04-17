@@ -27,6 +27,12 @@
         "link": "https://members.tortoisemedia.com/2020/03/23/the-infodemic-fake-news-coronavirus/content.html"
       },
       {
+        "id": "SMITHSONIAN_MAGAZINE",
+        "text": "How to Avoid Misinformation About COVID-19",
+        "logo": "assets/static_img/press_logo/SMITHSONIAN_MAGAZINE.svg",
+        "link": "https://www.smithsonianmag.com/science-nature/how-avoid-misinformation-about-covid-19-180974615/?utm_content=buffercf94d&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
+      },
+      {
         "id": "MAP_BOX",
         "text": "Notable maps visualizing COVID-19 and surrounding impacts",
         "logo": "assets/static_img/press_logo/MAP_BOX.svg",
