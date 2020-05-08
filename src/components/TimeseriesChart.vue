@@ -122,7 +122,7 @@ export default {
 
       this.chart
         .data(this.data)
-        .draw({ delay: this.$isMobile() ? 0 : 750, duration: this.$isMobile() ? 0 : 500 })
+        .draw({ delay: this.$isMobile() ? 0 : (750 + 10), duration: this.$isMobile() ? 0 : 500 })
     },
     size (value) {
       this.chart

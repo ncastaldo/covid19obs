@@ -80,7 +80,7 @@ export default {
         .style('fill-opacity', d => d === value ? 0.5 : null)
     },
     colorMapping (value) {
-      this.paintMap()
+      this.chart.draw({ duration: 250 })
     }
   },
   mounted () {
@@ -92,7 +92,7 @@ export default {
     createComponents () {
       this.geoRegions = d3nic.geoRegions()
         .fnValue(d => d.geometry)
-        .fnFill(d => 'grey')
+        .fnFill(d => this.colorMapping[d.locationId])
         .fnStroke(d => '#000')
         .fnBefore(s => s.style('vector-effect', 'non-scaling-stroke'))
         .fnOn('mouseover touchstart', d => { this.hover = d })
@@ -117,8 +117,6 @@ export default {
           .data(this.data)
           .draw({ duration: this.$isMobile() ? 0 : 500 })
 
-        this.paintMap()
-
         select('#map-chart__hover').raise()
 
         this.fnZoom = zoom()
@@ -132,10 +130,6 @@ export default {
 
         this.fnZoom.scaleTo(this.svg, ZOOM_SCALE_MIN)
       })
-    },
-    paintMap () {
-      this.geoRegions.join()
-        .style('fill', d => this.colorMapping[d.locationId])
     },
     onZoom () {
       this.chart.group().attr('transform', event.transform)
@@ -169,6 +163,7 @@ export default {
         .style('stroke-width', null)
         .filter(d => d.locationId === newLocationId)
         .style('stroke-width', 1)
+        .raise()
 
       if (!this.$isMobile()) {
         this.svg.transition()

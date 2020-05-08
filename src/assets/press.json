@@ -3,6 +3,12 @@
     "title": "International",
     "elements": [
       {
+        "id": "UNESCO",
+        "text": "Journalism, press freedom and COVID-19",
+        "logo": "assets/static_img/press_logo/UNESCO.svg",
+        "link": "https://en.unesco.org/sites/default/files/unesco_covid_brief_en.pdf"
+      },
+      {
         "id": "THE_WASHINGTON_POST",
         "text": "Analysis of millions of coronavirus tweets shows 'the whole world is sad'",
         "logo": "assets/static_img/press_logo/THE_WASHINGTON_POST.svg",
@@ -19,6 +25,12 @@
         "text": "La amenaza del coronavirus impulsa la demanda de información fiable frente a las 'fake news'",
         "logo": "assets/static_img/press_logo/EL_PAIS.svg",
         "link": "https://elpais.com/tecnologia/2020-03-25/la-amenaza-del-coronavirus-impulsa-la-demanda-de-informacion-confiable-frente-a-las-fake-news.html"
+      },
+      {
+        "id": "ESQUIRE",
+        "text": "Fighting The Infodemic: How Fake News Is Making Coronavirus Even More Dangerous",
+        "logo": "assets/static_img/press_logo/ESQUIRE.svg",
+        "link": "https://www.esquire.com/uk/life/a32237839/fake-news-coronavirus-covid-19-infodemic/"
       },
       {
         "id": "TORTOISE_MEDIA",
