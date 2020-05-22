@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,FAKE/HOAX,11,amp.ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://amp.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-2,FAKE/HOAX,6,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
-3,CONSPIRACY/JUNKSCI,4,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-4,FAKE/HOAX,4,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-5,FAKE/HOAX,3,dailymail.co.uk,Mexico investigates a possible first case of China's coronavirus,https://www.dailymail.co.uk/health/article-7914885/china-virus-toll-rises-nine-pandemic-fears-grow.html?ito=social-facebook
-6,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-7,FAKE/HOAX,3,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/hundreds-animals-mysteriously-drop-dead-21547076
-8,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-9,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Coronavirus Kills Man In Shanghai As China Confirms Nearly 2,000 Cases",https://www.zerohedge.com/political/56-million-chinese-lockdown-virus-spreads-australia-malaysia
-10,FAKE/HOAX,2,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-11,CONSPIRACY/JUNKSCI,2,cbn.com,'This Situation Is so Critical': A Chinese Pastor's Message to Christians From Ground Zero of the Coronavirus,http://www1.cbn.com/cbnnews/cwn/2020/january/this-situation-is-so-critical-a-chinese-pastors-message-to-christians-from-ground-zero-of-the-coronavirus
-12,FAKE/HOAX,2,dailymail.co.uk,Incubation period of new coronavirus 'can be as long as 24 DAYS',https://www.dailymail.co.uk/news/article-7986663/incubation-period-new-coronavirus-long-24-days-expert-claims.html
-13,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
-14,FAKE/HOAX,2,express.co.uk,Coronavirus: High blood pressure 'key dangerous factor' in death from virus ,https://www.express.co.uk/life-style/health/1253277/coronavirus-news-update-symptoms-cases-high-blood-pressure-increase-risk-of-death
-15,CONSPIRACY/JUNKSCI,2,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-16,FAKE/HOAX,1,rt.com,"‘Adapting & mutating’: China confirms 9 deaths, 440 cases in coronavirus outbreak, vows close cooperation with WHO",https://on.rt.com/a9hc
-17,FAKE/HOAX,1,summit.news,Japanese Shopkeeper Hangs Sign in Response to Coronavirus Panic: “No Chinese Allowed”,https://summit.news/2020/01/22/japan-shopkeeper-hangs-sign-in-response-to-coronavirus-panic-no-chinese-allowed/
-18,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
-19,FAKE/HOAX,1,summit.news,Virologist Who Visited Wuhan Says Coronavirus is “Out of Control”,https://summit.news/2020/01/24/virologist-who-visited-wuhan-says-coronavirus-is-out-of-control/
-20,FAKE/HOAX,1,dailystar.co.uk,Infected people seen 'dead in streets' in quarantined Chinese virus city,https://www.dailystar.co.uk/news/world-news/infected-people-seen-dead-streets-21345585.amp?__twitter_impression=true
+1,FAKE/HOAX,120,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+2,FAKE/HOAX,11,amp.ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://amp.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+3,FAKE/HOAX,7,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
+4,FAKE/HOAX,6,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
+5,FAKE/HOAX,4,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+6,CONSPIRACY/JUNKSCI,4,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+7,FAKE/HOAX,4,n.news.naver.com,김재중 “코로나19 확진→만우절 농담”…도넘은 장난,https://n.news.naver.com/entertain/now/article/018/0004610638
+8,FAKE/HOAX,4,dailymail.co.uk,Third Russian doctor plunges from coronavirus hospital window,https://www.dailymail.co.uk/news/article-8282033/third-russian-doctor-plunges-coronavirus-hospital-window.html
+9,FAKE/HOAX,3,dailymail.co.uk,Mexico investigates a possible first case of China's coronavirus,https://www.dailymail.co.uk/health/article-7914885/china-virus-toll-rises-nine-pandemic-fears-grow.html?ito=social-facebook
+10,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+11,FAKE/HOAX,3,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/hundreds-animals-mysteriously-drop-dead-21547076
+12,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+13,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Coronavirus Kills Man In Shanghai As China Confirms Nearly 2,000 Cases",https://www.zerohedge.com/political/56-million-chinese-lockdown-virus-spreads-australia-malaysia
+14,FAKE/HOAX,2,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+15,CONSPIRACY/JUNKSCI,2,cbn.com,'This Situation Is so Critical': A Chinese Pastor's Message to Christians From Ground Zero of the Coronavirus,http://www1.cbn.com/cbnnews/cwn/2020/january/this-situation-is-so-critical-a-chinese-pastors-message-to-christians-from-ground-zero-of-the-coronavirus
+16,FAKE/HOAX,2,dailymail.co.uk,Incubation period of new coronavirus 'can be as long as 24 DAYS',https://www.dailymail.co.uk/news/article-7986663/incubation-period-new-coronavirus-long-24-days-expert-claims.html
+17,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+18,FAKE/HOAX,2,express.co.uk,Coronavirus: High blood pressure 'key dangerous factor' in death from virus ,https://www.express.co.uk/life-style/health/1253277/coronavirus-news-update-symptoms-cases-high-blood-pressure-increase-risk-of-death
+19,CONSPIRACY/JUNKSCI,2,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+20,FAKE/HOAX,2,dailymail.co.uk,Manchester United to refuse any taxpayer cash amid coronavirus crisis,https://www.dailymail.co.uk/sport/sportsnews/article-8189889/manchester-united-ready-resist-furloughing-900-non-playing-staff.html?ito=amp_twitter_share-top

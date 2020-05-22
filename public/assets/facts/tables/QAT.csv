@@ -2,20 +2,20 @@ rank,fact_type,count,domain,title,url
 1,FAKE/HOAX,5,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
 2,FAKE/HOAX,3,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
 3,CONSPIRACY/JUNKSCI,3,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-4,FAKE/HOAX,2,rt.com,City turned ghost town: Take a look inside sealed-off Wuhan amid coronavirus outbreak in China (VIDEO),https://on.rt.com/a9wi
-5,FAKE/HOAX,2,rt.com,Clucking hell! New outbreak of BIRD FLU sees thousands of chickens culled in coronavirus-stricken China,https://on.rt.com/aa9r
-6,FAKE/HOAX,2,express.co.uk,Coronavirus LIVE: Two die after contracting DEADLY virus on board Japanese cruise ship,https://www.express.co.uk/news/uk/1244288/coronavirus-uk-latest-update-disease-outbreak-london-deaths-cruise-diamond-princess
-7,FAKE/HOAX,2,rt.com,,https://on.rt.com/ab8t
-8,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-9,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/latest-news/deadly-coronavirus-could-already-uk-21336004
-10,FAKE/HOAX,1,summit.news,Videos Show Chinese People Eating Bats As Experts Link Animal to Coronavirus Outbreak,https://summit.news/2020/01/23/videos-show-chinese-people-eating-bats-as-experts-link-animal-to-coronavirus-outbreak/
-11,FAKE/HOAX,1,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/amp/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html?__twitter_impression=true
-12,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
-13,FAKE/HOAX,1,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
-14,FAKE/HOAX,1,rt.com,Did patient zero really catch new Chinese virus by eating infected bat soup? It’s actually perfectly possible,https://on.rt.com/a9lh
-15,FAKE/HOAX,1,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html?ito=amp_twitter_share-top
-16,FAKE/HOAX,1,dailymail.co.uk,Eerie similarities between movie Contagion and coronavirus outbreak,https://www.dailymail.co.uk/news/article-7923315/fans-movie-contagion-point-eerie-similarities-coronavirus-outbreak.html
-17,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-18,FAKE/HOAX,1,breitbart.com,Arizona Resident is Fifth Coronavirus Case in U.S.,https://www.breitbart.com/politics/2020/01/26/arizona-resident-5th-coronavirus-case-u-s/
-19,FAKE/HOAX,1,summit.news,Philippines to Deport 500 Chinese People to Prevent to Spread of Coronavirus,https://summit.news/2020/01/27/philippines-to-deport-500-chinese-people-to-prevent-to-spread-of-coronavirus/
-20,FAKE/HOAX,1,rt.com,Error 404,http://on.rt.com/a9vh
+4,FAKE/HOAX,3,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
+5,FAKE/HOAX,2,rt.com,City turned ghost town: Take a look inside sealed-off Wuhan amid coronavirus outbreak in China (VIDEO),https://on.rt.com/a9wi
+6,FAKE/HOAX,2,rt.com,Clucking hell! New outbreak of BIRD FLU sees thousands of chickens culled in coronavirus-stricken China,https://on.rt.com/aa9r
+7,FAKE/HOAX,2,express.co.uk,Coronavirus LIVE: Two die after contracting DEADLY virus on board Japanese cruise ship,https://www.express.co.uk/news/uk/1244288/coronavirus-uk-latest-update-disease-outbreak-london-deaths-cruise-diamond-princess
+8,FAKE/HOAX,2,rt.com,,https://on.rt.com/ab8t
+9,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+10,FAKE/HOAX,2,presstv.com,US gun sales explode as coronavirus outbreak worsens,https://www.presstv.com/detail/2020/03/27/621704/us-gun-sales-coronavirus-outbreak-
+11,FAKE/HOAX,2,dailymail.co.uk,What happened to those who spoke up about coronavirus in China?,https://www.dailymail.co.uk/news/article-8233203/chinas-disappeared-happened-dared-speak-coronavirus.html
+12,FAKE/HOAX,2,rt.com,"Driver who rammed police motorcyclists in Paris pledged allegiance to ISIS, prosecutor says",https://on.rt.com/afw6
+13,FAKE/HOAX,2,dailymail.co.uk,Antibody prevents the COVID-19 virus from infecting human cells,https://www.dailymail.co.uk/sciencetech/article-8285333/antibody-prevents-covid-19-virus-infecting-human-cells.html
+14,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/latest-news/deadly-coronavirus-could-already-uk-21336004
+15,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+16,FAKE/HOAX,1,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/amp/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html?__twitter_impression=true
+17,FAKE/HOAX,1,summit.news,Videos Show Chinese People Eating Bats As Experts Link Animal to Coronavirus Outbreak,https://summit.news/2020/01/23/videos-show-chinese-people-eating-bats-as-experts-link-animal-to-coronavirus-outbreak/
+18,FAKE/HOAX,1,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html?ito=amp_twitter_share-top
+19,FAKE/HOAX,1,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
+20,FAKE/HOAX,1,rt.com,Did patient zero really catch new Chinese virus by eating infected bat soup? It’s actually perfectly possible,https://on.rt.com/a9lh

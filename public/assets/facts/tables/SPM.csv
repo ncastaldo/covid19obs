@@ -2,3 +2,5 @@ rank,fact_type,count,domain,title,url
 1,FAKE/HOAX,1,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
 2,FAKE/HOAX,1,dailymail.co.uk,How coronavirus has caused cruise ship chaos around the world,https://www.dailymail.co.uk/news/article-8077471/how-coronavirus-caused-cruise-ship-chaos-world.html
 3,CONSPIRACY/JUNKSCI,1,imolaoggi.it,"Migranti, Ong Mediterranea: costretti a sospendere i “salvataggi” causa coronavirus - Imola Oggi",http://www.imolaoggi.it/2020/03/18/migranti-ong-mediterranea-costretti-a-sospendere-i-salvataggi-causa-coronavirus/
+4,FAKE/HOAX,1,dailymail.co.uk,Recovered coronavirus patients in South Korea test positive again,https://www.dailymail.co.uk/news/article-8213637/s-korea-reports-recovered-coronavirus-patients-testing-positive-again.html
+5,FAKE/HOAX,1,express.co.uk,Boris Johnson missed FIVE emergency cobra meetings in early stages of coronavirus response,https://www.express.co.uk/news/uk/1270841/boris-johnson-coronavirus-uk-news-cobra-meetings-covid19-government-response

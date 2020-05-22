@@ -1,21 +1,10 @@
 rank,fact_type,count,domain,title,url
-1,FAKE/HOAX,6,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-2,FAKE/HOAX,3,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
-3,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-4,FAKE/HOAX,3,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-5,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
-6,CONSPIRACY/JUNKSCI,2,truepundit.com,North Korea's First Confirmed Coronavirus Patient Shot Dead – True Pundit,https://truepundit.com/north-koreas-first-confirmed-coronavirus-patient-shot-dead/
-7,FAKE/HOAX,2,dailymail.co.uk,Pupils find way around ban on handshakes amid coronavirus fears,https://www.dailymail.co.uk/news/article-8077643/coronavirus-sees-brighton-college-ditch-handshake-thai-greeting.html?ito=facebook_share_fbia-middle
-8,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/amp/killer-coronavirus-spread-eyes.html?ito=amp_twitter_share-top&__twitter_impression=true
-9,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
-10,FAKE/HOAX,1,dailymail.co.uk,Woman who 'bragged about cheating  coronavirus tests' is tracked down,https://www.dailymail.co.uk/health/article-7924801/amp/chinese-woman-bragged-cheating-airport-coronavirus-screenings-tracked-france.html
-11,CONSPIRACY/JUNKSCI,1,zerohedge.com,"China Virus Cases Almost Double Overnight, Deaths Top 100 As North Korea Closes Border",https://www.zerohedge.com/geopolitical/wuhan-mayor-offers-resign-coronavirus-death-toll-accelerates-supply-shortages
-12,FAKE/HOAX,1,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html?ito=facebook_share_article-top
-13,FAKE/HOAX,1,dailymail.co.uk,First person-to-person case of coronavirus confirmed in the US,https://www.dailymail.co.uk/news/article-7948679/first-person-person-case-coronavirus-confirmed-us.html?ico=pushly-notifcation-small
-14,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/donald-trump-estamos-cerca-de-encontrar-una-vacuna-contra-el-coronavirus/
-15,FAKE/HOAX,1,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
-16,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-analizan-a-cuatro-ciudadanos-que-llegaron-a-colombia-desde-italia-con-sintomas-de-coronavirus/
-17,CONSPIRACY/JUNKSCI,1,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-18,FAKE/HOAX,1,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-19,FAKE/HOAX,1,n.news.naver.com,"2PM 준호, 군복무 중 코로나19 확산 방지 위해 3천만원 기부",https://n.news.naver.com/entertain/now/article/609/0000253824
-20,FAKE/HOAX,1,thehornnews.com,Nancy Pelosi accused of risking American lives in coronavirus scandal,https://thehornnews.com/nancy-pelosi-accused-of-risking-american-lives-in-coronavirus-scandal/
+1,CONSPIRACY/JUNKSCI,1,zerohedge.com,"China Virus Cases Almost Double Overnight, Deaths Top 100 As North Korea Closes Border",https://www.zerohedge.com/geopolitical/wuhan-mayor-offers-resign-coronavirus-death-toll-accelerates-supply-shortages
+2,FAKE/HOAX,1,thehornnews.com,Nancy Pelosi accused of risking American lives in coronavirus scandal,https://thehornnews.com/nancy-pelosi-accused-of-risking-american-lives-in-coronavirus-scandal/
+3,FAKE/HOAX,1,breitbart.com,MSNBC's Hayes: 'BS Artist' Trump Coronavirus Response 'Completely Failed',https://www.breitbart.com/clips/2020/03/06/msnbcs-hayes-bs-artist-trump-coronavirus-response-completely-failed/
+4,FAKE/HOAX,1,breitbart.com,Anthony Fauci: 'Of Course' I Would Use Chloroquine on Coronavirus Patients,https://www.breitbart.com/politics/2020/03/25/dr-anthony-fauci-of-course-i-would-prescribe-chloroquine-to-coronavirus-patients/
+5,FAKE/HOAX,1,westernjournal.com,CBS Used Fake COVID Video: 'NY Hospital' Footage Was From Italy's Hardest-Hit City,https://www.westernjournal.com/cbs-used-fake-covid-video-ny-hospital-footage-italys-hardest-hit-city/?utm_source=facebook&utm_medium=westernjournalism&utm_content=2020-03-29&utm_campaign=manualpost
+6,FAKE/HOAX,1,breitbart.com,Actual Hospitalizations Far Less than IHME Model Projects,https://www.breitbart.com/politics/2020/04/03/actual-hospitalizations-for-coronavirus-significantly-lower-than-projections-in-model/
+7,FAKE/HOAX,1,breitbart.com,Barr: 'Time to Start Rolling Back' Some Coronavirus Restrictions,https://www.breitbart.com/clips/2020/05/01/barr-time-to-start-rolling-back-some-coronavirus-restrictions/
+8,FAKE/HOAX,1,breitbart.com,Biden: Coronavirus an Opportunity to 'Fundamentally Transform' America,https://www.breitbart.com/politics/2020/05/04/joe-biden-coronavirus-an-incredible-opportunity-to-fundamentally-transform-america/
+9,CONSPIRACY/JUNKSCI,1,wikispooks.com,,https://wikispooks.com/wiki/anthony_fauci

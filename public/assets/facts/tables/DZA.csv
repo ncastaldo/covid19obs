@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,FAKE/HOAX,4,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-2,FAKE/HOAX,2,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
-3,FAKE/HOAX,2,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
-4,FAKE/HOAX,2,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html?ito=social-twitter_mailonline
-5,CONSPIRACY/JUNKSCI,2,zerohedge.com,Did China's Tencent Accidentally Leak The True Terrifying Coronavirus Statistics,https://www.zerohedge.com/health/did-chinas-tencent-accidentally-leak-true-terrifying-coronavirus-statistics
-6,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-7,FAKE/HOAX,1,rt.com,,https://on.rt.com/a9j3
-8,FAKE/HOAX,1,sputniknews.com,What a Dump! Sweden's West Coast Littered With Foreign Garbage,https://sptnkne.ws/beea
-9,FAKE/HOAX,1,rt.com,Chinese authorities share FIRST PHOTOS of deadly coronavirus,https://on.rt.com/a9n5
-10,FAKE/HOAX,1,dailymail.co.uk,'Nurse' claims dead bodies are left unattended at a Wuhan hospital,https://www.dailymail.co.uk/news/article-7924805/chinese-nurse-claims-dead-bodies-left-unattended-wuhan-hospital.html
-11,CONSPIRACY/JUNKSCI,1,infowars.com,Bill and Melinda Gates Foundation & Others Predicted Up To 65 Million Deaths Via Coronavirus – In Simulation Ran 3 Months Ago!,https://www.infowars.com/bill-and-melinda-gates-foundation-others-predicted-up-to-65-million-deaths-via-coronavirus-in-simulation-ran-3-months-ago/
-12,CONSPIRACY/JUNKSCI,1,off-guardian.org,,https://off-guardian.org/2020/01/24/reality-check-coronavirus-fear-porn/
-13,FAKE/HOAX,1,thegatewaypundit.com,China Update: Some Predictions Indicate Wuhan Coronavirus Could Turn Into Major Pandemic,https://www.thegatewaypundit.com/2020/01/china-update-some-predictions-indicate-wuhan-coronavirus-could-turn-into-major-pandemic/
-14,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Kills Man In Shanghai As China Confirms Nearly 2,000 Cases",https://www.zerohedge.com/political/56-million-chinese-lockdown-virus-spreads-australia-malaysia
-15,FAKE/HOAX,1,rt.com,"Chinese virus death toll rises to 56, with nearly 2,000 infected nationwide & more cases confirmed abroad",https://on.rt.com/a9r3
-16,FAKE/HOAX,1,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
-17,FAKE/HOAX,1,newsmax.com,China Accused of Covering up Severity of Wuhan Killer Virus,https://www.newsmax.com/platinum/wuhan-virus-health-crisis-coronavirus-china-virus/2020/01/23/id/951033/
-18,FAKE/HOAX,1,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/amp/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html?__twitter_impression=true
+1,FAKE/HOAX,11,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+2,FAKE/HOAX,5,express.co.uk,Germany’s daily coronavirus cases nearly TRIPLE - states bring back tougher measures,https://www.express.co.uk/news/world/1281241/germany-coronavirus-cases-jump-lockdown-lift-tougher-lockdown-rules-angela-merkel?fbclid=iwar2a4x4w6-ctx_gahgo6amaig4hkes0dlbgcnijwliq52q7ur8bslxz4piu
+3,FAKE/HOAX,4,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+4,FAKE/HOAX,2,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+5,FAKE/HOAX,2,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+6,FAKE/HOAX,2,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html?ito=social-twitter_mailonline
+7,CONSPIRACY/JUNKSCI,2,zerohedge.com,Did China's Tencent Accidentally Leak The True Terrifying Coronavirus Statistics,https://www.zerohedge.com/health/did-chinas-tencent-accidentally-leak-true-terrifying-coronavirus-statistics
+8,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+9,FAKE/HOAX,1,rt.com,,https://on.rt.com/a9j3
+10,FAKE/HOAX,1,sputniknews.com,What a Dump! Sweden's West Coast Littered With Foreign Garbage,https://sptnkne.ws/beea
+11,FAKE/HOAX,1,dailymail.co.uk,'Nurse' claims dead bodies are left unattended at a Wuhan hospital,https://www.dailymail.co.uk/news/article-7924805/chinese-nurse-claims-dead-bodies-left-unattended-wuhan-hospital.html
+12,FAKE/HOAX,1,rt.com,Chinese authorities share FIRST PHOTOS of deadly coronavirus,https://on.rt.com/a9n5
+13,FAKE/HOAX,1,rt.com,"Chinese virus death toll rises to 56, with nearly 2,000 infected nationwide & more cases confirmed abroad",https://on.rt.com/a9r3
+14,FAKE/HOAX,1,thegatewaypundit.com,China Update: Some Predictions Indicate Wuhan Coronavirus Could Turn Into Major Pandemic,https://www.thegatewaypundit.com/2020/01/china-update-some-predictions-indicate-wuhan-coronavirus-could-turn-into-major-pandemic/
+15,CONSPIRACY/JUNKSCI,1,off-guardian.org,,https://off-guardian.org/2020/01/24/reality-check-coronavirus-fear-porn/
+16,CONSPIRACY/JUNKSCI,1,infowars.com,Bill and Melinda Gates Foundation & Others Predicted Up To 65 Million Deaths Via Coronavirus – In Simulation Ran 3 Months Ago!,https://www.infowars.com/bill-and-melinda-gates-foundation-others-predicted-up-to-65-million-deaths-via-coronavirus-in-simulation-ran-3-months-ago/
+17,FAKE/HOAX,1,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
+18,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Kills Man In Shanghai As China Confirms Nearly 2,000 Cases",https://www.zerohedge.com/political/56-million-chinese-lockdown-virus-spreads-australia-malaysia
 19,FAKE/HOAX,1,rt.com,"1st ‘presumed case’ of coronavirus confirmed in Austria, number of infected in France rises to 3",https://on.rt.com/a9ry
-20,FAKE/HOAX,1,rt.com,"Dozens of drugs available to treat ‘coronavirus,’ but global pandemic possible by March – Moscow experts",https://www.rt.com/russia/479293-coronavirus-epidemic-possible-march-russia/
+20,FAKE/HOAX,1,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/amp/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html?__twitter_impression=true

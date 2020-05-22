@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,FAKE/HOAX,278,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
-2,CONSPIRACY/JUNKSCI,145,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-3,CONSPIRACY/JUNKSCI,107,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-4,CONSPIRACY/JUNKSCI,87,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-5,FAKE/HOAX,66,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
-6,CONSPIRACY/JUNKSCI,62,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-7,FAKE/HOAX,58,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-8,FAKE/HOAX,48,sputniknews.com,What a Dump! Sweden's West Coast Littered With Foreign Garbage,https://sptnkne.ws/beea
-9,FAKE/HOAX,48,lesobservateurs.ch,Italie. Coronavirus : l’argent des soins de santé a été dépensé pour l’accueil des migrants,https://lesobservateurs.ch/2020/03/05/italie-coronavirus-largent-des-soins-de-sante-a-ete-depense-pour-laccueil-des-migrants/
-10,FAKE/HOAX,47,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-11,FAKE/HOAX,45,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-12,FAKE/HOAX,40,dreuz.info,"#Coronavirus : au péril pour sa sécurité, un Chinois brave la censure et poste une vidéo sur la situation réelle (sous-titres français)",https://www.dreuz.info/2020/01/26/coronavirus-au-peril-pour-sa-securite-un-chinois-brave-la-censure-et-poste-une-video-sur-la-situation-reelle/
-13,FAKE/HOAX,36,dailymail.co.uk,Coronavirus fears in Scotland as two Chinese patients in hospital,https://www.dailymail.co.uk/health/article-7920907/coronavirus-fears-scotland-two-chinese-patients-rushed-hospital.html
-14,FAKE/HOAX,34,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
-15,FAKE/HOAX,34,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-16,FAKE/HOAX,30,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-17,FAKE/HOAX,28,express.co.uk,"Latest UK and World News, Sport and Comment | Express.co.uk",https://www.express.co.uk/news/world/1233644/coronavirus-china-virus-vaccine-treatment-cure-symptoms/
-18,CONSPIRACY/JUNKSCI,28,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
-19,FAKE/HOAX,28,dcdirtylaundry.com,U.S. military preparing to implement medical martial law due to coronavirus pandemic - DC Dirty Laundry,https://dcdirtylaundry.com/u-s-military-preparing-to-implement-medical-martial-law-due-to-coronavirus-pandemic/
-20,FAKE/HOAX,28,lesobservateurs.ch,Coronavirus: le monde d’après (première partie),https://lesobservateurs.ch/2020/02/24/coronavirus-le-monde-dapres-premiere-partie/
+1,FAKE/HOAX,672,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+2,FAKE/HOAX,274,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
+3,FAKE/HOAX,167,dailymail.co.uk,Malaria drug hydroxychloroquine 'best coronavirus treatment available',https://www.dailymail.co.uk/news/article-8184259/malaria-drug-hydroxychloroquine-effective-coronavirus-treatment-currently-available.html
+4,FAKE/HOAX,155,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
+5,CONSPIRACY/JUNKSCI,125,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+6,CONSPIRACY/JUNKSCI,69,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+7,CONSPIRACY/JUNKSCI,69,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+8,FAKE/HOAX,63,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+9,FAKE/HOAX,58,dreuz.info,Coronavirus : la fille de Brigitte Macron aurait été transportée d’urgence chez le Dr Raoult,https://www.dreuz.info/2020/04/15/coronavirus-la-fille-de-brigitte-macron-aurait-ete-transportee-durgence-chez-le-dr-raoult/
+10,FAKE/HOAX,56,dailymail.co.uk,Chinese medics critically ill with COVID-19 wake up with darkened skin,https://www.dailymail.co.uk/news/article-8237475/chinese-doctors-critically-ill-covid-19-wake-darkened-skin.html
+11,CONSPIRACY/JUNKSCI,55,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+12,FAKE/HOAX,54,dailymail.co.uk,Third Russian doctor plunges from coronavirus hospital window,https://www.dailymail.co.uk/news/article-8282033/third-russian-doctor-plunges-coronavirus-hospital-window.html
+13,FAKE/HOAX,47,sputniknews.com,What a Dump! Sweden's West Coast Littered With Foreign Garbage,https://sptnkne.ws/beea
+14,FAKE/HOAX,45,lesobservateurs.ch,Italie. Coronavirus : l’argent des soins de santé a été dépensé pour l’accueil des migrants,https://lesobservateurs.ch/2020/03/05/italie-coronavirus-largent-des-soins-de-sante-a-ete-depense-pour-laccueil-des-migrants/
+15,FAKE/HOAX,40,dreuz.info,"#Coronavirus : au péril pour sa sécurité, un Chinois brave la censure et poste une vidéo sur la situation réelle (sous-titres français)",https://www.dreuz.info/2020/01/26/coronavirus-au-peril-pour-sa-securite-un-chinois-brave-la-censure-et-poste-une-video-sur-la-situation-reelle/
+16,FAKE/HOAX,40,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+17,FAKE/HOAX,34,dailymail.co.uk,Coronavirus fears in Scotland as two Chinese patients in hospital,https://www.dailymail.co.uk/health/article-7920907/coronavirus-fears-scotland-two-chinese-patients-rushed-hospital.html
+18,FAKE/HOAX,34,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+19,FAKE/HOAX,34,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+20,FAKE/HOAX,32,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042

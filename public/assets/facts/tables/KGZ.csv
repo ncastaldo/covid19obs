@@ -1,8 +1,17 @@
 rank,fact_type,count,domain,title,url
 1,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
 2,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-3,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-4,FAKE/HOAX,1,dailymail.co.uk,Shocking footage shows 'medic' in Wuhan crying and screaming,https://www.dailymail.co.uk/news/article-7934751/shocking-footage-shows-medic-wuhan-crying-screaming-anymore.html
-5,FAKE/HOAX,1,breitbart.com,Chinese Villages Build Walls to Keep Coronavirus Out,https://www.breitbart.com/asia/2020/01/28/chinese-villages-build-walls-to-keep-coronavirus-out/
-6,FAKE/HOAX,1,dailymail.co.uk,Chinese put swastika on Danish flag over coronavirus flag row,https://www.dailymail.co.uk/news/article-7948913/chinese-swastika-danish-flag-pm-refuses-apologise-coronavirus-china-flag.html
-7,CONSPIRACY/JUNKSCI,1,truepundit.com,North Korea's First Confirmed Coronavirus Patient Shot Dead – True Pundit,https://truepundit.com/north-koreas-first-confirmed-coronavirus-patient-shot-dead/
+3,FAKE/HOAX,2,dailymail.co.uk,Corona beer suspends production due to coronavirus,https://www.dailymail.co.uk/news/article-8183477/corona-beer-suspends-production-coronavirus.html?ito=social-twitter_mailonline
+4,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+5,FAKE/HOAX,1,dailymail.co.uk,Shocking footage shows 'medic' in Wuhan crying and screaming,https://www.dailymail.co.uk/news/article-7934751/shocking-footage-shows-medic-wuhan-crying-screaming-anymore.html
+6,FAKE/HOAX,1,breitbart.com,Chinese Villages Build Walls to Keep Coronavirus Out,https://www.breitbart.com/asia/2020/01/28/chinese-villages-build-walls-to-keep-coronavirus-out/
+7,FAKE/HOAX,1,dailymail.co.uk,Chinese put swastika on Danish flag over coronavirus flag row,https://www.dailymail.co.uk/news/article-7948913/chinese-swastika-danish-flag-pm-refuses-apologise-coronavirus-china-flag.html
+8,CONSPIRACY/JUNKSCI,1,truepundit.com,North Korea's First Confirmed Coronavirus Patient Shot Dead – True Pundit,https://truepundit.com/north-koreas-first-confirmed-coronavirus-patient-shot-dead/
+9,FAKE/HOAX,1,n.news.naver.com,김재중 “코로나19 확진→만우절 농담”…도넘은 장난,https://n.news.naver.com/entertain/now/article/018/0004610638
+10,FAKE/HOAX,1,presstv.com,Anti-siege committee calls for intl. action to help Gaza amid coronavirus outbreak,https://www.presstv.com/detail/2020/04/02/622181/anti-siege-committee-calls-for-intl.-action-to-help-gaza-amid-coronavirus-outbreak
+11,FAKE/HOAX,1,n.news.naver.com,"'1억원 손소독제 기부' 조승연, 뷰티브랜드 모델 발탁 ""초고속 완판男""",https://n.news.naver.com/entertain/article/109/0004187608
+12,CONSPIRACY/JUNKSCI,1,iheartintelligence.com,"Wuhan Lab Was Performing Experiments On Bats From Coronavirus Caves, U.S. Funded Lab With $3.7 Million",https://iheartintelligence.com/wuhan-lab-performing-experiments-on-bats-from-coronavirus-caves-u-s-funded-lab-3-7-million/?fb=iis
+13,FAKE/HOAX,1,rt.com,Herd immunity? 1 in 3 test positive for Covid-19 ANTIBODIES in pilot Massachusetts street study,https://on.rt.com/af6j
+14,CONSPIRACY/JUNKSCI,1,dcclothesline.com,Bill Gates paralyzed half a million children with polio vaccines – do we really want him vaccinating the world for coronavirus? - DC Clothesline,https://www.dcclothesline.com/2020/04/30/bill-gates-paralyzed-half-a-million-children-with-polio-vaccines-do-we-really-want-him-vaccinating-the-world-for-coronavirus/
+15,FAKE/HOAX,1,sputniknews.com,Why Russia Won't Be Joining a Libyan Anti-Daesh Operation Any Time Soon,https://sptnkne.ws/ctyf
+16,FAKE/HOAX,1,sputniknews.com,Why Russia Won't Be Joining a Libyan Anti-Daesh Operation Any Time Soon,http://sptnkne.ws/ctyf

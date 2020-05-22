@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,FAKE/HOAX,106,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-2,CONSPIRACY/JUNKSCI,92,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-3,FAKE/HOAX,76,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
-4,FAKE/HOAX,63,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
-5,FAKE/HOAX,43,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
-6,CONSPIRACY/JUNKSCI,40,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-7,FAKE/HOAX,38,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
-8,FAKE/HOAX,38,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
-9,FAKE/HOAX,26,n.news.naver.com,"‘또또또 선행’ 위너 김진우, 코로나19에 1천만원 기부(공식)",https://n.news.naver.com/entertain/article/609/0000253852
-10,CONSPIRACY/JUNKSCI,23,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-11,FAKE/HOAX,19,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
-12,FAKE/HOAX,19,n.news.naver.com,"2PM 준호, 군복무 중 코로나19 확산 방지 위해 3천만원 기부",https://n.news.naver.com/entertain/now/article/609/0000253824
-13,FAKE/HOAX,18,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-14,FAKE/HOAX,18,summit.news,Islamic Scholar Who Said Coronavirus Was “Allah’s Punishment” Gets Coronavirus,https://summit.news/2020/03/11/islamic-scholar-who-said-coronavirus-was-allahs-punishment-gets-coronavirus/
-15,FAKE/HOAX,17,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar
-16,FAKE/HOAX,17,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-17,FAKE/HOAX,17,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
-18,FAKE/HOAX,14,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/china-coronavirus-spread-through-eyes-21351718
-19,CONSPIRACY/JUNKSCI,13,zerohedge.com,"The Real Umbrella Corp: Wuhan Ultra Biohazard Lab Was Studying ""The World's Most Dangerous Pathogens""",https://www.zerohedge.com/economics/real-umbrella-corp-wuhan-ultra-biohazard-lab-was-studying-worlds-most-dangerous-pathogens
-20,FAKE/HOAX,11,n.news.naver.com,"[단독] 슈퍼주니어 은혁, 코로나19 성금 1억 원 기부 ""의료진에 도움되길""",https://n.news.naver.com/entertain/article/052/0001407888
+1,FAKE/HOAX,811,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+2,FAKE/HOAX,86,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+3,CONSPIRACY/JUNKSCI,66,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+4,FAKE/HOAX,53,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+5,FAKE/HOAX,40,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+6,FAKE/HOAX,33,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+7,CONSPIRACY/JUNKSCI,31,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+8,FAKE/HOAX,30,n.news.naver.com,김재중 “코로나19 확진→만우절 농담”…도넘은 장난,https://n.news.naver.com/entertain/now/article/018/0004610638
+9,CONSPIRACY/JUNKSCI,17,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+10,FAKE/HOAX,15,summit.news,Islamic Scholar Who Said Coronavirus Was “Allah’s Punishment” Gets Coronavirus,https://summit.news/2020/03/11/islamic-scholar-who-said-coronavirus-was-allahs-punishment-gets-coronavirus/
+11,FAKE/HOAX,14,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+12,FAKE/HOAX,14,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+13,FAKE/HOAX,13,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+14,FAKE/HOAX,12,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+15,FAKE/HOAX,11,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar
+16,FAKE/HOAX,10,n.news.naver.com,"[단독]‘더 쇼’ 김민규, 코로나-19 ‘음성 판정’ 안도",https://n.news.naver.com/entertain/now/article/609/0000264343
+17,FAKE/HOAX,9,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
+18,FAKE/HOAX,9,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
+19,CONSPIRACY/JUNKSCI,8,zerohedge.com,"The Real Umbrella Corp: Wuhan Ultra Biohazard Lab Was Studying ""The World's Most Dangerous Pathogens""",https://www.zerohedge.com/economics/real-umbrella-corp-wuhan-ultra-biohazard-lab-was-studying-worlds-most-dangerous-pathogens
+20,FAKE/HOAX,8,dailymail.co.uk,Wuhan mayor admits 'withholding information' on coronavirus outbreak,https://www.dailymail.co.uk/news/article-7933405/wuhan-mayor-admits-withholding-information-coronavirus-outbreak.html

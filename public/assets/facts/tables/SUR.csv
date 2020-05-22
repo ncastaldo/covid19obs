@@ -1,16 +1,21 @@
 rank,fact_type,count,domain,title,url
 1,FAKE/HOAX,2,rt.com,"China coronavirus death toll soars to 813 with 37,000+ cases worldwide",https://on.rt.com/aaov
-2,FAKE/HOAX,1,rt.com,38 infected coronavirus patients CURED in China as epidemic rages on,https://on.rt.com/a9po
-3,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
-4,FAKE/HOAX,1,rt.com,"‘Cycle of panic & neglect’? US prepares for ‘pandemic’ as China coronavirus death toll reaches 427 with 20,000+ cases",https://on.rt.com/aadd
-5,FAKE/HOAX,1,dailymail.co.uk,Patients at Wuhan's coronavirus hospital are given TURTLES for dinner,https://www.dailymail.co.uk/news/article-7978611/amp/patients-wuhans-coronavirus-hospital-given-turtles-dinner.html?__twitter_impression=true
-6,FAKE/HOAX,1,dailymail.co.uk,Chinese citizen journalist disappears from the streets of Wuhan,https://www.dailymail.co.uk/news/article-7981105/amp/chinese-citizen-journalist-brought-world-truth-coronavirus-emergency-disappears.html?__twitter_impression=true
-7,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
-8,FAKE/HOAX,1,rt.com,,https://on.rt.com/ab9a
-9,FAKE/HOAX,1,rt.com,Austria stops passenger train traffic from and to Italy amid coronavirus panic,https://on.rt.com/abjr
-10,FAKE/HOAX,1,vdare.com,Pat's Protectionism | Articles,https://vdare.com/articles/pat-s-protectionism
-11,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/israel-espera-tener-en-unas-pocas-semanas-la-vacuna-contra-el-coronavirus/
+2,FAKE/HOAX,2,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+3,FAKE/HOAX,1,rt.com,38 infected coronavirus patients CURED in China as epidemic rages on,https://on.rt.com/a9po
+4,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
+5,FAKE/HOAX,1,rt.com,"‘Cycle of panic & neglect’? US prepares for ‘pandemic’ as China coronavirus death toll reaches 427 with 20,000+ cases",https://on.rt.com/aadd
+6,FAKE/HOAX,1,dailymail.co.uk,Patients at Wuhan's coronavirus hospital are given TURTLES for dinner,https://www.dailymail.co.uk/news/article-7978611/amp/patients-wuhans-coronavirus-hospital-given-turtles-dinner.html?__twitter_impression=true
+7,FAKE/HOAX,1,dailymail.co.uk,Chinese citizen journalist disappears from the streets of Wuhan,https://www.dailymail.co.uk/news/article-7981105/amp/chinese-citizen-journalist-brought-world-truth-coronavirus-emergency-disappears.html?__twitter_impression=true
+8,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+9,FAKE/HOAX,1,rt.com,,https://on.rt.com/ab9a
+10,FAKE/HOAX,1,rt.com,Austria stops passenger train traffic from and to Italy amid coronavirus panic,https://on.rt.com/abjr
+11,FAKE/HOAX,1,vdare.com,Pat's Protectionism | Articles,https://vdare.com/articles/pat-s-protectionism
 12,FAKE/HOAX,1,rt.com,,https://on.rt.com/abvg
-13,FAKE/HOAX,1,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-14,FAKE/HOAX,1,presstv.com,Russia gives Iran 50k coronavirus testing kits to help fight epidemic,"https://www.presstv.com/detail/2020/03/10/620543/russia,-iran,-coronavirus,-testing-kits"
-15,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/lo-ultimo-el-papa-francisco-otorgo-indulgencia-universal-por-el-coronavirus-en-esta-tormenta-estamos-todos/
+13,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/israel-espera-tener-en-unas-pocas-semanas-la-vacuna-contra-el-coronavirus/
+14,FAKE/HOAX,1,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+15,FAKE/HOAX,1,presstv.com,Russia gives Iran 50k coronavirus testing kits to help fight epidemic,"https://www.presstv.com/detail/2020/03/10/620543/russia,-iran,-coronavirus,-testing-kits"
+16,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/lo-ultimo-el-papa-francisco-otorgo-indulgencia-universal-por-el-coronavirus-en-esta-tormenta-estamos-todos/
+17,FAKE/HOAX,1,rt.com,India sees its biggest daily jump in Covid-19 cases as number of infected nears 900,https://on.rt.com/adpx
+18,FAKE/HOAX,1,dailymail.co.uk,Italy suffers another 756 coronavirus deaths in one day,https://www.dailymail.co.uk/news/article-8164629/amp/at-50-doctors-dead-coronavirus-italy.html?__twitter_impression=true
+19,FAKE/HOAX,1,egaliteetreconciliation.fr,Faits & Documents : l'émission #6 – Coronavirus : le Nouvel Ordre mondial à quitte ou double,https://www.egaliteetreconciliation.fr/faits-documents-l-emission-6-coronavirus-le-nouvel-ordre-mondial-a-quitte-ou-double-58819.html
+20,FAKE/HOAX,1,shtfplan.com,More People Died Of Suicide Last Week In Tennessee Than COVID-19,https://www.shtfplan.com/headline-news/more-people-died-of-suicide-last-week-in-tennessee-than-covid-19_04072020

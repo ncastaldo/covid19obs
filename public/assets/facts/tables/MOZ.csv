@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,FAKE/HOAX,5,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
-2,FAKE/HOAX,4,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-3,FAKE/HOAX,4,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
-4,FAKE/HOAX,4,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-5,CONSPIRACY/JUNKSCI,4,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-6,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-7,FAKE/HOAX,3,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
-8,FAKE/HOAX,3,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
-9,FAKE/HOAX,3,politicalflare.com,Two Attendees at AIPAC Just Tested Positive for Coronavirus — Pence and Pompeo Attended,https://www.politicalflare.com/2020/03/two-attendees-at-major-republican-conference-just-tested-positive-for-coronavirus-pence-and-pompeo-attended/
-10,FAKE/HOAX,2,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
-11,FAKE/HOAX,2,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
-12,FAKE/HOAX,2,breaking911.com,"Coronavirus Can Be Spread By People Who Aren’t Showing Symptoms, CDC Confirms - Breaking911",https://breaking911.com/breaking-coronavirus-can-be-spread-by-people-who-arent-showing-symptoms-cdc-confirms/
-13,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-14,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Illinois Reports Another ""Presumptive"" Case Of Coronavirus, Bringing US Total To 24; Washington Declares State Of Emergency After 1st US Death: Live Updates",https://www.zerohedge.com/geopolitical/fda-announces-plan-speed-coronavirus-testing-south-korea-reports-huge-jump-new-cases
-15,FAKE/HOAX,2,dailymail.co.uk,British scientists develop breath test to rapidly spot coronavirus,https://www.dailymail.co.uk/news/article-8072891/british-scientists-develop-breath-test-instantly-spot-coronavirus.html
-16,FAKE/HOAX,2,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
-17,FAKE/HOAX,1,rt.com,Singapore confirms first case of deadly Chinese coronavirus – reports,https://on.rt.com/a9lf
-18,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/urgente-gobierno-de-canada-afirma-que-hay-varios-posibles-casos-de-coronavirus-23ene/
-19,FAKE/HOAX,1,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
-20,FAKE/HOAX,1,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html
+1,FAKE/HOAX,17,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+2,FAKE/HOAX,5,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+3,FAKE/HOAX,4,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+4,FAKE/HOAX,4,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
+5,FAKE/HOAX,4,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+6,CONSPIRACY/JUNKSCI,4,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+7,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+8,FAKE/HOAX,3,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+9,FAKE/HOAX,3,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
+10,FAKE/HOAX,3,politicalflare.com,Two Attendees at AIPAC Just Tested Positive for Coronavirus — Pence and Pompeo Attended,https://www.politicalflare.com/2020/03/two-attendees-at-major-republican-conference-just-tested-positive-for-coronavirus-pence-and-pompeo-attended/
+11,FAKE/HOAX,3,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest?fbclid=iwar3piqce96nhzoohwwnppwu7j8y_zc_wqgtwlt2pyglgh3lcbd00cftzo-8
+12,FAKE/HOAX,2,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+13,FAKE/HOAX,2,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+14,FAKE/HOAX,2,breaking911.com,"Coronavirus Can Be Spread By People Who Aren’t Showing Symptoms, CDC Confirms - Breaking911",https://breaking911.com/breaking-coronavirus-can-be-spread-by-people-who-arent-showing-symptoms-cdc-confirms/
+15,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+16,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Illinois Reports Another ""Presumptive"" Case Of Coronavirus, Bringing US Total To 24; Washington Declares State Of Emergency After 1st US Death: Live Updates",https://www.zerohedge.com/geopolitical/fda-announces-plan-speed-coronavirus-testing-south-korea-reports-huge-jump-new-cases
+17,FAKE/HOAX,2,dailymail.co.uk,British scientists develop breath test to rapidly spot coronavirus,https://www.dailymail.co.uk/news/article-8072891/british-scientists-develop-breath-test-instantly-spot-coronavirus.html
+18,FAKE/HOAX,2,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
+19,FAKE/HOAX,2,express.co.uk,Paul McCartney on 'medieval' Chinese wet markets: 'Need to clean up their act',https://www.express.co.uk/celebrity-news/1269323/paul-mccartney-china-wet-markets-coronavirus-covid-19-news-latest-update
+20,CONSPIRACY/JUNKSCI,2,zerohedge.com,"COVID-19 Is A Man-Made Virus: HIV-Discoverer Says ""Could Only Have Been Created In A Lab""",https://www.zerohedge.com/health/covid-19-man-made-virus-hiv-discoverer-says-could-only-have-been-created-lab

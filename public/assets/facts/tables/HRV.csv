@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,FAKE/HOAX,3,dailymail.co.uk,Did coronavirus originate in Chinese government laboratory?,https://www.dailymail.co.uk/news/article-8009669/did-coronavirus-originate-chinese-government-laboratory.html?ito=social-twitter_mailonline
-2,FAKE/HOAX,3,dailymail.co.uk,Coronavirus outbreak is '52 TIMES worse in one Chinese province',https://www.dailymail.co.uk/news/article-8047793/coronavirus-outbreak-52-times-worse-one-chinese-province-officials-admit-report-claims.html
-3,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-4,CONSPIRACY/JUNKSCI,2,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-5,CONSPIRACY/JUNKSCI,2,zerohedge.com,"China Virus Cases Almost Double Overnight, Deaths Top 100 As North Korea Closes Border",https://www.zerohedge.com/geopolitical/wuhan-mayor-offers-resign-coronavirus-death-toll-accelerates-supply-shortages
-6,CONSPIRACY/JUNKSCI,2,beholdisrael.org,Israel & the White House Considering Suspension of Flights to China Amid Coronavirus Outbreak - Behold Israel,https://beholdisrael.org/israel-the-white-house-considering-suspension-of-all-us-flights-to-china-amid-coronavirus-outbreak/
-7,CONSPIRACY/JUNKSCI,2,zerohedge.com,,http://zerohedge.com
-8,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-9,CONSPIRACY/JUNKSCI,2,beholdisrael.org,Chinese Official Announces that Coronavirus is Airborne - Behold Israel,https://beholdisrael.org/chinese-government-announces-that-coronavirus-is-airborne/
-10,FAKE/HOAX,2,rt.com,,https://on.rt.com/ab8t
-11,CONSPIRACY/JUNKSCI,2,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-12,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-13,FAKE/HOAX,2,breitbart.com,"Mike Lee Rewrites Giveaway Bill, Helps India's Outsourcing Companies",https://www.breitbart.com/immigration/2020/03/03/mike-lee-rewrites-s-386-giveaway-bill-helps-indias-outsourcing-companies/
-14,FAKE/HOAX,2,dailymail.co.uk,The Pope says he has asked God to stop the coronavirus epidemic,https://www.dailymail.co.uk/news/article-8125507/the-pope-says-asked-god-stop-coronavirus-epidemic.html
-15,CONSPIRACY/JUNKSCI,2,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-16,CONSPIRACY/JUNKSCI,1,infowars.com,Videos Show Chinese People Eating Bats As Experts Link Animal to Coronavirus Outbreak,https://www.infowars.com/videos-show-chinese-people-eating-bats-as-experts-link-animal-to-coronavirus-outbreak/
-17,CONSPIRACY/JUNKSCI,1,iflscience.com,China’s Deadly Coronavirus Likely Jumped From Snakes To Humans,https://www.iflscience.com/health-and-medicine/china-s-deadly-coronavirus-likely-jumped-from-snakes-to-humans/
-18,FAKE/HOAX,1,breitbart.com,Chicago Woman Diagnosed with China's Coronavirus,https://www.breitbart.com/health/2020/01/24/chicago-woman-diagnosed-with-chinas-coronavirus/
-19,CONSPIRACY/JUNKSCI,1,endoftheamericandream.com,Just A Coincidence? A U.S. Patent For 'An Attenuated Coronavirus' Was Filed In 2015 And Granted In 2018,http://endoftheamericandream.com/archives/just-a-coincidence-a-u-s-patent-for-an-attenuated-coronavirus-was-filed-in-2015-and-granted-in-2018
-20,FAKE/HOAX,1,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+1,FAKE/HOAX,7,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+2,CONSPIRACY/JUNKSCI,5,ukcolumn.org,Who controls the British Government response to Covid–19?,https://www.ukcolumn.org/article/who-controls-british-government-response-covid19-part-one
+3,CONSPIRACY/JUNKSCI,4,off-guardian.org,Lockdown Therapy for Capitalism,https://off-guardian.org/2020/04/27/lockdown-therapy-for-capitalism/
+4,FAKE/HOAX,3,dailymail.co.uk,Did coronavirus originate in Chinese government laboratory?,https://www.dailymail.co.uk/news/article-8009669/did-coronavirus-originate-chinese-government-laboratory.html?ito=social-twitter_mailonline
+5,FAKE/HOAX,3,dailymail.co.uk,Coronavirus outbreak is '52 TIMES worse in one Chinese province',https://www.dailymail.co.uk/news/article-8047793/coronavirus-outbreak-52-times-worse-one-chinese-province-officials-admit-report-claims.html
+6,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+7,FAKE/HOAX,3,rt.com,"If the UK government brings in a new round of austerity to pay for Covid-19, it’ll spark civil unrest that will see cities burn",https://www.rt.com/op-ed/486806-uk-government-austerity-pay-covid-19/
+8,CONSPIRACY/JUNKSCI,3,off-guardian.org,LOKIN-20: The Lockdown Regime Causes Increasing Health Concerns,https://off-guardian.org/2020/04/29/lokin-20-the-lockdown-regime-causes-increasing-health-concerns/
+9,FAKE/HOAX,3,dailymail.co.uk,Third Russian doctor plunges from coronavirus hospital window,https://www.dailymail.co.uk/news/article-8282033/third-russian-doctor-plunges-coronavirus-hospital-window.html
+10,FAKE/HOAX,3,breitbart.com,Congressman: Pelosi Blocking Investigation into China Coronavirus Origins,https://www.breitbart.com/politics/2020/05/03/congressman-nancy-pelosi-blocking-investigation-chinese-coronavirus-origins/
+11,CONSPIRACY/JUNKSCI,3,collective-evolution.com,Freedom Advocate Explains How To Say NO If COVID-19 Vaccination Becomes Mandatory,https://www.collective-evolution.com/2020/04/28/freedom-advocate-explains-how-to-say-no-if-covid-19-vaccination-becomes-mandatory/?fbclid=iwar2cfb9yyijtqx_ljmsa2wtmedjuwvvyianyyyz6pbdvuretyqrnh_d-uou
+12,CONSPIRACY/JUNKSCI,3,off-guardian.org,,https://off-guardian.org/2020/05/10/covid19-the-big-pharma-players-behind-uk-government-lockdown/
+13,CONSPIRACY/JUNKSCI,2,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+14,CONSPIRACY/JUNKSCI,2,zerohedge.com,"China Virus Cases Almost Double Overnight, Deaths Top 100 As North Korea Closes Border",https://www.zerohedge.com/geopolitical/wuhan-mayor-offers-resign-coronavirus-death-toll-accelerates-supply-shortages
+15,CONSPIRACY/JUNKSCI,2,beholdisrael.org,Israel & the White House Considering Suspension of Flights to China Amid Coronavirus Outbreak - Behold Israel,https://beholdisrael.org/israel-the-white-house-considering-suspension-of-all-us-flights-to-china-amid-coronavirus-outbreak/
+16,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+17,CONSPIRACY/JUNKSCI,2,beholdisrael.org,Chinese Official Announces that Coronavirus is Airborne - Behold Israel,https://beholdisrael.org/chinese-government-announces-that-coronavirus-is-airborne/
+18,FAKE/HOAX,2,rt.com,,https://on.rt.com/ab8t
+19,CONSPIRACY/JUNKSCI,2,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+20,FAKE/HOAX,2,breitbart.com,"Mike Lee Rewrites Giveaway Bill, Helps India's Outsourcing Companies",https://www.breitbart.com/immigration/2020/03/03/mike-lee-rewrites-s-386-giveaway-bill-helps-indias-outsourcing-companies/

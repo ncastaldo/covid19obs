@@ -1,7 +1,12 @@
 rank,fact_type,count,domain,title,url
-1,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
-2,CONSPIRACY/JUNKSCI,1,zerohedge.com,Philippines To Deport 500 Chinese People To Prevent Spread Of Coronavirus,https://www.zerohedge.com/geopolitical/philippines-deport-500-chinese-people-prevent-spread-coronavirus
-3,FAKE/HOAX,1,summit.news,Coronavirus Model Predicts 183 Million Infections Before the End of February,https://summit.news/2020/01/30/coronavirus-model-predicts-183-million-infections-before-the-end-of-february/
-4,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Hong Kong Confirms 2nd Non-Mainland China Coronavirus Death As Hospital Workers Strike, Over 200,000 'Under Observation'",https://www.zerohedge.com/geopolitical/i-cant-let-my-mom-die-home-desperate-patients-swarm-wuhan-hospital-hong-kong-closes
-5,FAKE/HOAX,1,davidharrisjr.com,Associated Press Has Confirmed That The Democrats Are Lying About Coronavirus Readiness,https://davidharrisjr.com/rich/associated-press-has-confirmed-that-the-democrats-are-lying-about-coronavirus-readiness/
-6,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/locust-plague-reaches-coronavirus-hit-21513111
+1,FAKE/HOAX,3,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+2,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+3,CONSPIRACY/JUNKSCI,1,zerohedge.com,Philippines To Deport 500 Chinese People To Prevent Spread Of Coronavirus,https://www.zerohedge.com/geopolitical/philippines-deport-500-chinese-people-prevent-spread-coronavirus
+4,FAKE/HOAX,1,summit.news,Coronavirus Model Predicts 183 Million Infections Before the End of February,https://summit.news/2020/01/30/coronavirus-model-predicts-183-million-infections-before-the-end-of-february/
+5,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Hong Kong Confirms 2nd Non-Mainland China Coronavirus Death As Hospital Workers Strike, Over 200,000 'Under Observation'",https://www.zerohedge.com/geopolitical/i-cant-let-my-mom-die-home-desperate-patients-swarm-wuhan-hospital-hong-kong-closes
+6,FAKE/HOAX,1,davidharrisjr.com,Associated Press Has Confirmed That The Democrats Are Lying About Coronavirus Readiness,https://davidharrisjr.com/rich/associated-press-has-confirmed-that-the-democrats-are-lying-about-coronavirus-readiness/
+7,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/locust-plague-reaches-coronavirus-hit-21513111
+8,FAKE/HOAX,1,dailymail.co.uk,Malaria drug hydroxychloroquine 'best coronavirus treatment available',https://www.dailymail.co.uk/news/article-8184259/malaria-drug-hydroxychloroquine-effective-coronavirus-treatment-currently-available.html
+9,FAKE/HOAX,1,breaking911.com,Tiger at Bronx Zoo Tests Positive for COVID-19 - Breaking911,https://breaking911.com/breaking-tiger-at-bronx-zoo-tests-positive-for-covid-19/
+10,CONSPIRACY/JUNKSCI,1,zerohedge.com,"""Your Every Move Will Be Watched"": Post-COVID Offices To Resemble China's Social Credit System",https://www.zerohedge.com/health/your-every-move-will-be-watched-post-covid-offices-will-resemble-chinas-social-credit-system
+11,FAKE/HOAX,1,express.co.uk,Coronavirus: Campaigners cast light on role trafficking trade played in outbreak,https://www.express.co.uk/news/world/1280415/coronavirus-outbreak-south-africa-china-covid19-wuhan-spt

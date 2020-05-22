@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CONSPIRACY/JUNKSCI,7,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-2,FAKE/HOAX,4,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
-3,CONSPIRACY/JUNKSCI,4,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-4,FAKE/HOAX,4,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-china-llama-a-dialogo-para-solventar-la-crisis-en-venezuela/
-5,FAKE/HOAX,4,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+1,FAKE/HOAX,21,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+2,CONSPIRACY/JUNKSCI,6,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+3,FAKE/HOAX,5,n.news.naver.com,김재중 “코로나19 확진→만우절 농담”…도넘은 장난,https://n.news.naver.com/entertain/now/article/018/0004610638
+4,CONSPIRACY/JUNKSCI,5,zerohedge.com,Sweden's Approach To Coronavirus: Do Nothing,https://www.zerohedge.com/health/swedens-approach-coronavirus-do-nothing
+5,CONSPIRACY/JUNKSCI,4,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
 6,FAKE/HOAX,4,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
 7,CONSPIRACY/JUNKSCI,4,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
 8,FAKE/HOAX,4,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-9,FAKE/HOAX,3,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-10,CONSPIRACY/JUNKSCI,3,zerohedge.com,This Is How China Is Hiding The True Number Of Coronavirus Deaths,https://www.zerohedge.com/economics/how-china-hiding-true-number-coronavirus-deaths
-11,CONSPIRACY/JUNKSCI,3,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-12,FAKE/HOAX,3,albertonews.com,,https://albertonews.com/internacionales/urgente-el-coronavirus-puede-infectar-desde-una-distancia-de-2-metros-y-a-traves-de-los-ojos/
-13,CONSPIRACY/JUNKSCI,3,principia-scientific.org,Principia-Scientific International,http://principia-scientific.org
-14,FAKE/HOAX,3,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+9,FAKE/HOAX,4,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
+10,FAKE/HOAX,3,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+11,CONSPIRACY/JUNKSCI,3,zerohedge.com,This Is How China Is Hiding The True Number Of Coronavirus Deaths,https://www.zerohedge.com/economics/how-china-hiding-true-number-coronavirus-deaths
+12,CONSPIRACY/JUNKSCI,3,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+13,FAKE/HOAX,3,albertonews.com,,https://albertonews.com/internacionales/urgente-el-coronavirus-puede-infectar-desde-una-distancia-de-2-metros-y-a-traves-de-los-ojos/
+14,FAKE/HOAX,3,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
 15,FAKE/HOAX,3,albertonews.com,Científico de Harvard predice que el coronavirus infectará hasta el 70% de la humanidad - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/ultima-hora-cientifico-de-harvard-predice-que-el-coronavirus-infectara-hasta-el-70-de-la-humanidad/
 16,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-17,FAKE/HOAX,3,breitbart.com,Report: Joy Behar Taking Leave of Absence from 'The View' Due to Coronavirus,https://www.breitbart.com/entertainment/2020/03/12/report-joy-behar-taking-leave-of-absence-from-the-view-due-to-coronavirus/
-18,FAKE/HOAX,2,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/amp/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html?__twitter_impression=true
-19,FAKE/HOAX,2,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html
-20,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Coronavirus Kills Man In Shanghai As China Confirms Nearly 2,000 Cases",https://www.zerohedge.com/political/56-million-chinese-lockdown-virus-spreads-australia-malaysia
+17,FAKE/HOAX,3,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+18,FAKE/HOAX,3,breitbart.com,Report: Joy Behar Taking Leave of Absence from 'The View' Due to Coronavirus,https://www.breitbart.com/entertainment/2020/03/12/report-joy-behar-taking-leave-of-absence-from-the-view-due-to-coronavirus/
+19,FAKE/HOAX,3,dailymail.co.uk,U.S. gave $3.7million grant to lab at center coronavirus scandal,https://www.dailymail.co.uk/news/article-8211291/u-s-government-gave-3-7million-grant-wuhan-lab-experimented-coronavirus-source-bats.html
+20,FAKE/HOAX,3,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest?fbclid=iwar3piqce96nhzoohwwnppwu7j8y_zc_wqgtwlt2pyglgh3lcbd00cftzo-8

@@ -1,16 +1,21 @@
 rank,fact_type,count,domain,title,url
 1,FAKE/HOAX,2,dailymail.co.uk,British families trapped in Tenerife hotel over coronavirus fears,https://www.dailymail.co.uk/news/article-8040361/new-coronavirus-fears-tourists-italian-doctor-tests-positive-holidaying-tenerife.html?ito=social-twitter_mailonline
-2,CONSPIRACY/JUNKSCI,1,globalresearch.ca,,https://www.globalresearch.ca/flu-bigger-concern-wuhan-virus-grabs-headlines/5701932/amp?__twitter_impression=true
-3,FAKE/HOAX,1,theconservativetreehouse.com,President Trump Establishes Coronavirus Response Task Force – Headed by HHS Secretary Alex Azar…,https://theconservativetreehouse.com/2020/01/30/president-trump-establishes-coronavirus-response-task-force-headed-by-hhs-secretary-alex-azar/
-4,FAKE/HOAX,1,gnews.org,,https://gnews.org/89749/
-5,FAKE/HOAX,1,presstv.com,"New hospital, medical workers ready to receive coronavirus patients","https://www.presstv.com/detail/2020/02/03/617800/new-hospital,-medical-workers-ready-to-receive-coronavirus-patients"
-6,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/china-deploys-40-incinerators-wuhan-21529067?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar
-7,FAKE/HOAX,1,presstv.com,WHO warns African health systems ill-equipped to respond to coronavirus outbreak,https://www.presstv.com/detail/2020/02/22/619278/africa-who-coronavirus-african-union-china
-8,CONSPIRACY/JUNKSCI,1,globalresearch.ca,coronavirus Archives - Global Research,https://www.globalresearch.ca/tag/coronavirus
-9,FAKE/HOAX,1,breitbart.com,AP Confirms: Democrats Are Lying to the Public About Coronavirus Readiness,https://www.breitbart.com/health/2020/02/27/ap-confirms-democrats-are-lying-to-the-public-about-coronavirus/
-10,FAKE/HOAX,1,redstate.com,"Facebook Busts Claim that Trump Called Coronavirus a Hoax, Flags It as 'False Info'",https://www.redstate.com/nick-arama/2020/03/01/facebook-points-out-dems-spreading-false-info-against-trump-over-coronavirus/
-11,FAKE/HOAX,1,breitbart.com,Fed Announces Emergency Rate Cut to Fight Coronavirus Economic Risks,https://www.breitbart.com/economy/2020/03/03/fed-announces-emergency-rate-cut-to-fight-coronavirus-economic-risks/
-12,FAKE/HOAX,1,breitbart.com,Meghan McCain: Coronavirus Could Be 'Silver Bullet That Takes Out This Administration',https://www.breitbart.com/entertainment/2020/03/12/meghan-mccain-coronavirus-could-be-silver-bullet-that-takes-out-this-administration/
+2,FAKE/HOAX,2,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+3,CONSPIRACY/JUNKSCI,1,globalresearch.ca,,https://www.globalresearch.ca/flu-bigger-concern-wuhan-virus-grabs-headlines/5701932/amp?__twitter_impression=true
+4,FAKE/HOAX,1,theconservativetreehouse.com,President Trump Establishes Coronavirus Response Task Force – Headed by HHS Secretary Alex Azar…,https://theconservativetreehouse.com/2020/01/30/president-trump-establishes-coronavirus-response-task-force-headed-by-hhs-secretary-alex-azar/
+5,FAKE/HOAX,1,gnews.org,,https://gnews.org/89749/
+6,FAKE/HOAX,1,presstv.com,"New hospital, medical workers ready to receive coronavirus patients","https://www.presstv.com/detail/2020/02/03/617800/new-hospital,-medical-workers-ready-to-receive-coronavirus-patients"
+7,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/china-deploys-40-incinerators-wuhan-21529067?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar
+8,FAKE/HOAX,1,presstv.com,WHO warns African health systems ill-equipped to respond to coronavirus outbreak,https://www.presstv.com/detail/2020/02/22/619278/africa-who-coronavirus-african-union-china
+9,CONSPIRACY/JUNKSCI,1,globalresearch.ca,coronavirus Archives - Global Research,https://www.globalresearch.ca/tag/coronavirus
+10,FAKE/HOAX,1,breitbart.com,AP Confirms: Democrats Are Lying to the Public About Coronavirus Readiness,https://www.breitbart.com/health/2020/02/27/ap-confirms-democrats-are-lying-to-the-public-about-coronavirus/
+11,FAKE/HOAX,1,redstate.com,"Facebook Busts Claim that Trump Called Coronavirus a Hoax, Flags It as 'False Info'",https://www.redstate.com/nick-arama/2020/03/01/facebook-points-out-dems-spreading-false-info-against-trump-over-coronavirus/
+12,FAKE/HOAX,1,breitbart.com,Fed Announces Emergency Rate Cut to Fight Coronavirus Economic Risks,https://www.breitbart.com/economy/2020/03/03/fed-announces-emergency-rate-cut-to-fight-coronavirus-economic-risks/
 13,FAKE/HOAX,1,theblaze.com,Report: Pelosi attempted to sneak taxpayer-funded abortions into the coronavirus relief bill,https://www.theblaze.com/news/report-pelosi-attempted-to-sneak-taxpayer-funded-abortions-into-the-coronavirus-relief-bill
-14,FAKE/HOAX,1,breitbart.com,"Nancy Pelosi Proposes 1,400-Page Coronavirus Bill Stuffed with Pork",https://www.breitbart.com/politics/2020/03/23/nancy-pelosi-proposes-1120-page-coronavirus-bill-stuffed-with-pork/
+14,FAKE/HOAX,1,breitbart.com,Meghan McCain: Coronavirus Could Be 'Silver Bullet That Takes Out This Administration',https://www.breitbart.com/entertainment/2020/03/12/meghan-mccain-coronavirus-could-be-silver-bullet-that-takes-out-this-administration/
 15,FAKE/HOAX,1,theblaze.com,Doctor in Italy says he and other physicians are no longer permitted to put coronavirus patients who are over 60 on ventilators,https://www.theblaze.com/news/doctor-in-italy-says-he-and-other-physicians-are-no-longer-permitted-to-put-coronavirus-patients-who-are-over-60-on-ventilators
+16,FAKE/HOAX,1,breitbart.com,"Nancy Pelosi Proposes 1,400-Page Coronavirus Bill Stuffed with Pork",https://www.breitbart.com/politics/2020/03/23/nancy-pelosi-proposes-1120-page-coronavirus-bill-stuffed-with-pork/
+17,FAKE/HOAX,1,breitbart.com,Brain Freeze: Joe Biden Says Coronavirus Started in 'Luhan Province',https://www.breitbart.com/2020-election/2020/03/30/brain-freeze-joe-biden-says-coronavirus-started-in-luhan-province/
+18,FAKE/HOAX,1,breitbart.com,DCCC Chair Unloaded $50K in Stock After Coronavirus Briefing,https://www.breitbart.com/politics/2020/04/02/dccc-chair-unloaded-upwards-50k-stock-coronavirus-briefing/
+19,FAKE/HOAX,1,breitbart.com,CDC: Coronavirus Deaths Will Be 'Much Much Much Lower' than Projected,https://www.breitbart.com/health/2020/04/07/cdc-director-coronavirus-death-toll-will-be-much-much-much-lower-than-projected/
+20,FAKE/HOAX,1,breitbart.com,Adam Schiff Submits Bill to Create Commission Reviewing Trump's Coronavirus Response,https://www.breitbart.com/politics/2020/04/10/adam-schiff-submits-bill-to-create-commission-reviewing-trumps-coronavirus-response/

@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,FAKE/HOAX,3,dailymail.co.uk,Wuhan mayor admits 'withholding information' on coronavirus outbreak,https://www.dailymail.co.uk/news/article-7933405/wuhan-mayor-admits-withholding-information-coronavirus-outbreak.html
-2,FAKE/HOAX,1,summit.news,Japanese Shopkeeper Hangs Sign in Response to Coronavirus Panic: “No Chinese Allowed”,https://summit.news/2020/01/22/japan-shopkeeper-hangs-sign-in-response-to-coronavirus-panic-no-chinese-allowed/
-3,FAKE/HOAX,1,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html
-4,FAKE/HOAX,1,summit.news,Virologist Who Visited Wuhan Says Coronavirus is “Out of Control”,https://summit.news/2020/01/24/virologist-who-visited-wuhan-says-coronavirus-is-out-of-control/
-5,FAKE/HOAX,1,summit.news,Video Purports to Show Coronavirus Victim Collapsed on the Street in Wuhan,https://summit.news/2020/01/23/video-purports-to-show-coronavirus-victim-collapsed-on-the-street-in-wuhan/
-6,FAKE/HOAX,1,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
-7,FAKE/HOAX,1,summit.news,Videos Show Chinese People Eating Bats As Experts Link Animal to Coronavirus Outbreak,https://summit.news/2020/01/23/videos-show-chinese-people-eating-bats-as-experts-link-animal-to-coronavirus-outbreak/
-8,FAKE/HOAX,1,summit.news,Professor Warns New Coronavirus Has Same Kill Rate as the Spanish Flu,https://summit.news/2020/01/22/professor-warns-new-coronavirus-has-same-kill-rate-as-the-spanish-flu/
-9,FAKE/HOAX,1,summit.news,Chinese Government Forces TV Host Who Popularized Eating Bats to Apologize,https://summit.news/2020/01/25/chinese-government-forces-tv-host-who-popularized-eating-bats-to-apologize/
-10,FAKE/HOAX,1,summit.news,Philippines to Deport 500 Chinese People to Prevent to Spread of Coronavirus,https://summit.news/2020/01/27/philippines-to-deport-500-chinese-people-to-prevent-to-spread-of-coronavirus/
-11,FAKE/HOAX,1,summit.news,Analyst Says Cases of Coronavirus Probably 10 Times Higher Than Official Number,https://summit.news/2020/01/27/analyst-says-cases-of-coronavirus-probably-10-times-higher-than-official-number/
-12,FAKE/HOAX,1,gnews.org,,https://gnews.org/89749/
-13,CONSPIRACY/JUNKSCI,1,zerohedge.com,,http://zerohedge.com
-14,CONSPIRACY/JUNKSCI,1,blacklistednews.com,,https://www.blacklistednews.com/article/76139/bats-gene-editing-and-bioweapons-recent-darpa-experiments-raise-concerns-amid-coronavirus.html
-15,FAKE/HOAX,1,summit.news,China: Police Lock Potential Coronavirus Victim in Her Own Home,https://summit.news/2020/02/05/china-police-lock-potential-coronavirus-victim-in-her-own-home/
-16,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Triggers ""Biggest Shock"" To Oil Markets Since Lehman Crisis ",https://www.zerohedge.com/markets/opec-committee-fails-agree-proposed-production-cuts
-17,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/estudio-revela-via-secundaria-de-transmision-de-coronavirus-por-materia-fecal/
-18,CONSPIRACY/JUNKSCI,1,zerohedge.com,This Is How China Is Rigging The Number Of Coronavirus Infections,https://www.zerohedge.com/health/how-china-rigging-number-coronavirus-infections
-19,CONSPIRACY/JUNKSCI,1,infowars.com,BEIJING FALLS TO CORONAVIRUS… capital of China locked down under pandemic quarantine,https://www.infowars.com/beijing-falls-to-coronavirus-capital-of-china-locked-down-under-pandemic-quarantine/
-20,FAKE/HOAX,1,express.co.uk,Euro crisis: Markets sink just two weeks after Brexit as key industry marker plunges,https://www.express.co.uk/news/world/1241752/euro-to-pound-exchange-rate-dollar-gbp-sterling-brexit-coronavirus
+1,FAKE/HOAX,5,breaking911.com,Calif. Governor Announces $125M COVID-19 Relief For Illegal Immigrants - Breaking911,https://breaking911.com/breaking-calif-governor-announces-125m-covid-19-relief-for-illegal-immigrants/
+2,FAKE/HOAX,3,dailymail.co.uk,Wuhan mayor admits 'withholding information' on coronavirus outbreak,https://www.dailymail.co.uk/news/article-7933405/wuhan-mayor-admits-withholding-information-coronavirus-outbreak.html
+3,FAKE/HOAX,2,breitbart.com,Mike Pence Bans Coronavirus Task Force Officials from Appearing on CNN,https://www.breitbart.com/the-media/2020/04/09/mike-pence-bans-coronavirus-task-force-from-cnn-appearances-until-network-broadcasts-full-briefings/
+4,FAKE/HOAX,2,breitbart.com,Congressman: Pelosi Blocking Investigation into China Coronavirus Origins,https://www.breitbart.com/politics/2020/05/03/congressman-nancy-pelosi-blocking-investigation-chinese-coronavirus-origins/
+5,FAKE/HOAX,1,summit.news,Japanese Shopkeeper Hangs Sign in Response to Coronavirus Panic: “No Chinese Allowed”,https://summit.news/2020/01/22/japan-shopkeeper-hangs-sign-in-response-to-coronavirus-panic-no-chinese-allowed/
+6,FAKE/HOAX,1,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html
+7,FAKE/HOAX,1,summit.news,Video Purports to Show Coronavirus Victim Collapsed on the Street in Wuhan,https://summit.news/2020/01/23/video-purports-to-show-coronavirus-victim-collapsed-on-the-street-in-wuhan/
+8,FAKE/HOAX,1,summit.news,Chinese Government Forces TV Host Who Popularized Eating Bats to Apologize,https://summit.news/2020/01/25/chinese-government-forces-tv-host-who-popularized-eating-bats-to-apologize/
+9,FAKE/HOAX,1,summit.news,Professor Warns New Coronavirus Has Same Kill Rate as the Spanish Flu,https://summit.news/2020/01/22/professor-warns-new-coronavirus-has-same-kill-rate-as-the-spanish-flu/
+10,FAKE/HOAX,1,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
+11,FAKE/HOAX,1,summit.news,Videos Show Chinese People Eating Bats As Experts Link Animal to Coronavirus Outbreak,https://summit.news/2020/01/23/videos-show-chinese-people-eating-bats-as-experts-link-animal-to-coronavirus-outbreak/
+12,FAKE/HOAX,1,summit.news,Virologist Who Visited Wuhan Says Coronavirus is “Out of Control”,https://summit.news/2020/01/24/virologist-who-visited-wuhan-says-coronavirus-is-out-of-control/
+13,FAKE/HOAX,1,summit.news,Philippines to Deport 500 Chinese People to Prevent to Spread of Coronavirus,https://summit.news/2020/01/27/philippines-to-deport-500-chinese-people-to-prevent-to-spread-of-coronavirus/
+14,FAKE/HOAX,1,summit.news,Analyst Says Cases of Coronavirus Probably 10 Times Higher Than Official Number,https://summit.news/2020/01/27/analyst-says-cases-of-coronavirus-probably-10-times-higher-than-official-number/
+15,FAKE/HOAX,1,gnews.org,,https://gnews.org/89749/
+16,CONSPIRACY/JUNKSCI,1,zerohedge.com,,http://zerohedge.com
+17,CONSPIRACY/JUNKSCI,1,blacklistednews.com,,https://www.blacklistednews.com/article/76139/bats-gene-editing-and-bioweapons-recent-darpa-experiments-raise-concerns-amid-coronavirus.html
+18,FAKE/HOAX,1,summit.news,China: Police Lock Potential Coronavirus Victim in Her Own Home,https://summit.news/2020/02/05/china-police-lock-potential-coronavirus-victim-in-her-own-home/
+19,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Triggers ""Biggest Shock"" To Oil Markets Since Lehman Crisis ",https://www.zerohedge.com/markets/opec-committee-fails-agree-proposed-production-cuts
+20,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/estudio-revela-via-secundaria-de-transmision-de-coronavirus-por-materia-fecal/

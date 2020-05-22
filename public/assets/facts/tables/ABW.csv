@@ -8,13 +8,14 @@ rank,fact_type,count,domain,title,url
 7,FAKE/HOAX,1,tass.com,Two Russian citizens aboard Japanese cruise ship with confirmed coronavirus cases,https://tass.com/society/1116591
 8,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-francia-anuncia-primera-muerte-por-coronavirus-en-europa/
 9,FAKE/HOAX,1,albertonews.com,Cifra de muertos por el coronavirus llegó a 1.665 en China - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/lo-ultimo-cifra-de-muertos-por-el-coronavirus-llego-a-1-665-en-china/
-10,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-se-confirma-primer-caso-de-colombiano-con-coronavirus/
-11,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-el-numero-de-muertos-por-el-nuevo-coronavirus-llega-a-1-775-a-nivel-mundial/
+10,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-el-numero-de-muertos-por-el-nuevo-coronavirus-llega-a-1-775-a-nivel-mundial/
+11,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-se-confirma-primer-caso-de-colombiano-con-coronavirus/
 12,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-corea-del-sur-anuncia-que-el-coronavirus-empieza-a-propagarse-por-el-pais/
-13,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/nacionales/urgente-descartan-presunto-caso-de-coronavirus-en-aragua/
-14,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/de-maratones-a-veladas-nocturnas-asi-propago-el-paciente-1-el-coronavirus-en-italia-en-tan-solo-19-dias/
+13,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/de-maratones-a-veladas-nocturnas-asi-propago-el-paciente-1-el-coronavirus-en-italia-en-tan-solo-19-dias/
+14,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/nacionales/urgente-descartan-presunto-caso-de-coronavirus-en-aragua/
 15,FAKE/HOAX,1,albertonews.com,Científico de Harvard predice que el coronavirus infectará hasta el 70% de la humanidad - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/ultima-hora-cientifico-de-harvard-predice-que-el-coronavirus-infectara-hasta-el-70-de-la-humanidad/
 16,FAKE/HOAX,1,rt.com,,https://on.rt.com/acef
 17,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/coronavirus/cientificos-australianos-descubren-la-defensa-inmunologica-ante-el-covid-19/
 18,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/ultima-hora/ultima-hora-maduro-pide-credito-de-5-mil-millones-de-dolares-al-fmi-para-enfrentar-la-pandemia-del-coronavirus/
 19,FAKE/HOAX,1,politicususa.com,,https://www.politicususa.com/2020/03/23/white-house-throws-a-tantrum-after-cnn-and-msnbc-cut-off-trumps-coronavirus-briefing.html
+20,FAKE/HOAX,1,politicususa.com,,https://www.politicususa.com/2020/04/02/trump-fires-captain-uss-theodore-roosevelt.html

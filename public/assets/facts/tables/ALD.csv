@@ -1,11 +1,11 @@
 rank,fact_type,count,domain,title,url
 1,CONSPIRACY/JUNKSCI,2,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-2,FAKE/HOAX,1,rt.com,McDonald's shuts down restaurants in five Chinese cities as coronavirus spreads,https://on.rt.com/a9nw
-3,FAKE/HOAX,1,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
+2,FAKE/HOAX,1,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
+3,FAKE/HOAX,1,rt.com,McDonald's shuts down restaurants in five Chinese cities as coronavirus spreads,https://on.rt.com/a9nw
 4,FAKE/HOAX,1,gnews.org,,https://gnews.org/89737/
 5,FAKE/HOAX,1,rt.com,"1st ‘presumed case’ of coronavirus confirmed in Austria, number of infected in France rises to 3",https://on.rt.com/a9ry
-6,CONSPIRACY/JUNKSCI,1,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
-7,FAKE/HOAX,1,breitbart.com,China Has Not Accepted U.S. Offers to Send CDC Experts to Aid in Coronavirus Fight,https://www.breitbart.com/asia/2020/01/28/china-has-not-accepted-u-s-offers-to-send-cdc-experts-to-aid-in-coronavirus-fight/
+6,FAKE/HOAX,1,breitbart.com,China Has Not Accepted U.S. Offers to Send CDC Experts to Aid in Coronavirus Fight,https://www.breitbart.com/asia/2020/01/28/china-has-not-accepted-u-s-offers-to-send-cdc-experts-to-aid-in-coronavirus-fight/
+7,CONSPIRACY/JUNKSCI,1,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
 8,FAKE/HOAX,1,rt.com,Clucking hell! New outbreak of BIRD FLU sees thousands of chickens culled in coronavirus-stricken China,https://on.rt.com/aa9r
 9,FAKE/HOAX,1,unz.com,"Bats, Gene Editing and Bioweapons: Recent Darpa Experiments Raise Concerns Amid Coronavirus Outbreak",https://www.unz.com/wwebb/bats-gene-editing-and-bioweapons-recent-darpa-experiments-raise-concerns-amid-coronavirus-outbreak/
 10,FAKE/HOAX,1,rt.com,"Coronavirus death toll surpasses 1,000 in China with over 43,000 infected worldwide",https://on.rt.com/aasa
@@ -16,3 +16,6 @@ rank,fact_type,count,domain,title,url
 15,FAKE/HOAX,1,express.co.uk,Eurozone crisis: Merkel faces turmoil as Germany forecast to plunge into deep recession,https://www.express.co.uk/news/world/1248555/eurozone-crisis-angela-merkel-news-germany-economy-latest-recession-coronavirus-bbc-update
 16,FAKE/HOAX,1,rt.com,"Chinese hotel used as Covid-19 quarantine site COLLAPSES, trapping dozens under rubble (VIDEOS)",https://on.rt.com/accq
 17,FAKE/HOAX,1,rt.com,"Goodbye, globalism? Coronavirus sobers up Serbia to EU hypocrisy",https://on.rt.com/acxz
+18,FAKE/HOAX,1,dailymail.co.uk,What happened to those who spoke up about coronavirus in China?,https://www.dailymail.co.uk/news/article-8233203/chinas-disappeared-happened-dared-speak-coronavirus.html
+19,FAKE/HOAX,1,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
+20,FAKE/HOAX,1,theduran.com,Coronavirus Has Accelerated Decline of U.S. Global Hegemony,https://theduran.com/coronavirus-has-accelerated-decline-of-u-s-global-hegemony/

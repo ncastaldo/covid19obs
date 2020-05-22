@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CONSPIRACY/JUNKSCI,12,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-2,FAKE/HOAX,5,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-3,FAKE/HOAX,4,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-4,FAKE/HOAX,3,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
-5,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-6,CONSPIRACY/JUNKSCI,3,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-7,FAKE/HOAX,2,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
-8,FAKE/HOAX,2,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html
-9,FAKE/HOAX,2,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
-10,FAKE/HOAX,2,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
-11,FAKE/HOAX,2,dailymail.co.uk,Chinese put swastika on Danish flag over coronavirus flag row,https://www.dailymail.co.uk/news/article-7948913/chinese-swastika-danish-flag-pm-refuses-apologise-coronavirus-china-flag.html
-12,CONSPIRACY/JUNKSCI,2,naturalnews.com,"Irrefutable: The coronavirus was engineered by scientists in a lab using well documented genetic engineering vectors that leave behind a ""fingerprint""",https://www.naturalnews.com/2020-02-03-the-coronavirus-was-engineered-by-scientists-in-a-lab.html
-13,FAKE/HOAX,2,dailymail.co.uk,"Mustachioed men may be at greater risk of coronavirus, graphic warns",https://www.dailymail.co.uk/health/article-8048711/men-mustaches-greater-risk-coronavirus-cdc-graphic-warns.html?ito=social-facebook_australia
-14,FAKE/HOAX,2,dailymail.co.uk,WHO warns that coronavirus can spread through handling money,https://www.dailymail.co.uk/news/article-8084059/stop-touching-cash-officials-warn-coronavirus-spread-handling-money.html
-15,FAKE/HOAX,2,dailymail.co.uk,The Queen is to self-isolate at Windsor Castle amid coronavirus fears,https://www.dailymail.co.uk/news/article-8121783/the-queen-self-isolate-windsor-castle-amid-coronavirus-fears.html
-16,FAKE/HOAX,2,sputniknews.com,Bank of Japan Holds Negative Rates Steady Shocking Markets,https://sptnkne.ws/bhgk
-17,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Chinese Officials Warn Of ""Virus Mutation Spreading"" - 440 Cases Confirmed, 9 Dead",https://www.zerohedge.com/markets/stocks-slide-cnn-report-suggesting-coronavirus-has-reached-us
-18,FAKE/HOAX,1,summit.news,Professor Warns New Coronavirus Has Same Kill Rate as the Spanish Flu,https://summit.news/2020/01/22/professor-warns-new-coronavirus-has-same-kill-rate-as-the-spanish-flu/
-19,FAKE/HOAX,1,dailymail.co.uk,British tourisy feared to be first western victim of new Chinese virus,https://www.dailymail.co.uk/health/article-7906281/sars-like-virus-spreads-china-nearly-140-new-cases.html
-20,FAKE/HOAX,1,summit.news,Virologist Who Visited Wuhan Says Coronavirus is “Out of Control”,https://summit.news/2020/01/24/virologist-who-visited-wuhan-says-coronavirus-is-out-of-control/
+1,FAKE/HOAX,19,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+2,CONSPIRACY/JUNKSCI,12,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+3,FAKE/HOAX,8,newsmax.com,Newsmax.com - Breaking news from around the globe,http://newsmax.com
+4,FAKE/HOAX,5,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+5,FAKE/HOAX,3,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+6,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+7,CONSPIRACY/JUNKSCI,3,off-guardian.org,Why you can’t trust the UK’s “daily” Covid19 updates,https://off-guardian.org/2020/04/23/why-you-cant-trust-the-uks-daily-covid19-updates/
+8,FAKE/HOAX,3,n.news.naver.com,"[종합] YG, 송민호 클럽 공연 사과…""심려끼쳐 죄송, 사회적 거리두기 철저히 실천할 것"" (전문)",https://n.news.naver.com/entertain/now/article/117/0003361801
+9,FAKE/HOAX,2,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
+10,FAKE/HOAX,2,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html
+11,FAKE/HOAX,2,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+12,FAKE/HOAX,2,dailymail.co.uk,Chinese put swastika on Danish flag over coronavirus flag row,https://www.dailymail.co.uk/news/article-7948913/chinese-swastika-danish-flag-pm-refuses-apologise-coronavirus-china-flag.html
+13,CONSPIRACY/JUNKSCI,2,naturalnews.com,"Irrefutable: The coronavirus was engineered by scientists in a lab using well documented genetic engineering vectors that leave behind a ""fingerprint""",https://www.naturalnews.com/2020-02-03-the-coronavirus-was-engineered-by-scientists-in-a-lab.html
+14,FAKE/HOAX,2,dailymail.co.uk,"Mustachioed men may be at greater risk of coronavirus, graphic warns",https://www.dailymail.co.uk/health/article-8048711/men-mustaches-greater-risk-coronavirus-cdc-graphic-warns.html?ito=social-facebook_australia
+15,FAKE/HOAX,2,dailymail.co.uk,WHO warns that coronavirus can spread through handling money,https://www.dailymail.co.uk/news/article-8084059/stop-touching-cash-officials-warn-coronavirus-spread-handling-money.html
+16,FAKE/HOAX,2,dailymail.co.uk,The Queen is to self-isolate at Windsor Castle amid coronavirus fears,https://www.dailymail.co.uk/news/article-8121783/the-queen-self-isolate-windsor-castle-amid-coronavirus-fears.html
+17,FAKE/HOAX,2,sputniknews.com,Bank of Japan Holds Negative Rates Steady Shocking Markets,https://sptnkne.ws/bhgk
+18,FAKE/HOAX,2,dailymail.co.uk,Fox News 'willfully and maliciously deceived public' about coronavirus,https://www.dailymail.co.uk/news/article-8187883/fox-news-sued-willfully-maliciously-deceiving-public-dangers-coronavirus.html
+19,FAKE/HOAX,2,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
+20,FAKE/HOAX,2,newsmax.com,"CDC: Second, More Dangerous Coronavirus Wave May Hit This Winter",https://www.newsmax.com/newsfront/cdc-coronavirus-winter/2020/04/21/id/964022/

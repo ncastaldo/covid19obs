@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,FAKE/HOAX,2,politicususa.com,,https://www.politicususa.com/2020/03/02/white-house-demands-democrats-support-trump-on-coronavirus.html
-2,FAKE/HOAX,2,politicususa.com,,https://www.politicususa.com/2020/03/04/pelosi-humiliates-trump-with-coronavirus-response-bill.html
-3,FAKE/HOAX,1,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
-4,FAKE/HOAX,1,summit.news,Chinese Government Forces TV Host Who Popularized Eating Bats to Apologize,https://summit.news/2020/01/25/chinese-government-forces-tv-host-who-popularized-eating-bats-to-apologize/
-5,FAKE/HOAX,1,rt.com,Chinese doctor battling coronavirus on ‘front line’ of outbreak epicenter in Hubei dies as death toll hits 41,https://on.rt.com/a9pl
-6,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-7,FAKE/HOAX,1,dailymail.co.uk,"Nurse treating coronavirus in China claims 90,000 people are infected",https://www.dailymail.co.uk/news/article-7929657/nurse-treating-coronavirus-sufferers-china-claims-90-000-people-infected.html
-8,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-9,CONSPIRACY/JUNKSCI,1,beholdisrael.org,Israeli Biological Warfare Expert Connects China’s Wuhan Virus to Covert Biological Warfare Laboratory - Behold Israel,https://beholdisrael.org/israeli-biological-warfare-expert-connects-chinas-wuhan-virus-to-covert-biological-warfare-laboratory/
-10,CONSPIRACY/JUNKSCI,1,zerohedge.com,"UK Schools Warned To Watch Out For ""Xenophobia"" As Coronavirus Spreads",https://www.zerohedge.com/political/uk-schools-warned-watch-out-xenophobia-coronavirus-spreads
-11,FAKE/HOAX,1,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
-12,CONSPIRACY/JUNKSCI,1,infowars.com,Coronavirus: Chinese Espionage Behind Wuhan Bioweapon,https://www.infowars.com/coronavirus-chinese-espionage-behind-wuhan-bioweapon/
-13,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Geometric Progression Suggests 100,000 Infections In A Week",https://www.zerohedge.com/health/coronavirus-geometric-progression-suggests-100000-infections-week
-14,FAKE/HOAX,1,breitbart.com,Coronavirus: British Airways Suspends Flights to China,https://www.breitbart.com/europe/2020/01/29/coronavirus-british-airways-suspends-flights-to-china-uk-will-quarantine-citizens-for-two-weeks/
-15,FAKE/HOAX,1,rt.com,"Coronavirus kills 69 more people in China’s Hubei as total cases soar beyond 31,000",https://on.rt.com/aakw
-16,FAKE/HOAX,1,breitbart.com,"UK: Coronavirus 'Imminent Threat', Activates Emergency Powers",https://www.breitbart.com/europe/2020/02/10/uk-declares-coronavirus-serious-and-imminent-threat-activates-emergency-powers/
-17,FAKE/HOAX,1,rt.com,Infection-free taxi: Hazmat-suit-wearing cab driver helps passengers to laugh off coronavirus hysteria (VIDEO),https://www.rt.com/russia/480447-taxi-hazmat-suit-coronavirus/
-18,CONSPIRACY/JUNKSCI,1,eutimes.net,,https://www.eutimes.net/2020/02/14-dead-250-hospitalized-in-pakistan-of-mysterious-lung-illness-could-it-be-coronavirus/
-19,CONSPIRACY/JUNKSCI,1,zerohedge.com,China Reports Spike In Cases Outside Wuhan & 118 New Deaths,https://www.zerohedge.com/geopolitical/coronavirus-deaths-outside-china-surge-overnight-explosion-new-cases-suggests-outbreak
-20,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Oregon Officials Confirm Third Coronavirus Case ""Of Unknown Origin""; Risk Of ""Community Outbreak"" Is High",https://www.zerohedge.com/geopolitical/coronavirus-cases-surge-across-europe-hong-kong-dog-tests-positive-live-updates
+1,FAKE/HOAX,4,dailymail.co.uk,Third Russian doctor plunges from coronavirus hospital window,https://www.dailymail.co.uk/news/article-8282033/third-russian-doctor-plunges-coronavirus-hospital-window.html
+2,FAKE/HOAX,2,politicususa.com,,https://www.politicususa.com/2020/03/02/white-house-demands-democrats-support-trump-on-coronavirus.html
+3,FAKE/HOAX,2,politicususa.com,,https://www.politicususa.com/2020/03/04/pelosi-humiliates-trump-with-coronavirus-response-bill.html
+4,FAKE/HOAX,2,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+5,FAKE/HOAX,1,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
+6,FAKE/HOAX,1,summit.news,Chinese Government Forces TV Host Who Popularized Eating Bats to Apologize,https://summit.news/2020/01/25/chinese-government-forces-tv-host-who-popularized-eating-bats-to-apologize/
+7,FAKE/HOAX,1,rt.com,Chinese doctor battling coronavirus on ‘front line’ of outbreak epicenter in Hubei dies as death toll hits 41,https://on.rt.com/a9pl
+8,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+9,FAKE/HOAX,1,dailymail.co.uk,"Nurse treating coronavirus in China claims 90,000 people are infected",https://www.dailymail.co.uk/news/article-7929657/nurse-treating-coronavirus-sufferers-china-claims-90-000-people-infected.html
+10,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+11,CONSPIRACY/JUNKSCI,1,beholdisrael.org,Israeli Biological Warfare Expert Connects China’s Wuhan Virus to Covert Biological Warfare Laboratory - Behold Israel,https://beholdisrael.org/israeli-biological-warfare-expert-connects-chinas-wuhan-virus-to-covert-biological-warfare-laboratory/
+12,FAKE/HOAX,1,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+13,CONSPIRACY/JUNKSCI,1,zerohedge.com,"UK Schools Warned To Watch Out For ""Xenophobia"" As Coronavirus Spreads",https://www.zerohedge.com/political/uk-schools-warned-watch-out-xenophobia-coronavirus-spreads
+14,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Geometric Progression Suggests 100,000 Infections In A Week",https://www.zerohedge.com/health/coronavirus-geometric-progression-suggests-100000-infections-week
+15,CONSPIRACY/JUNKSCI,1,infowars.com,Coronavirus: Chinese Espionage Behind Wuhan Bioweapon,https://www.infowars.com/coronavirus-chinese-espionage-behind-wuhan-bioweapon/
+16,FAKE/HOAX,1,breitbart.com,Coronavirus: British Airways Suspends Flights to China,https://www.breitbart.com/europe/2020/01/29/coronavirus-british-airways-suspends-flights-to-china-uk-will-quarantine-citizens-for-two-weeks/
+17,FAKE/HOAX,1,rt.com,"Coronavirus kills 69 more people in China’s Hubei as total cases soar beyond 31,000",https://on.rt.com/aakw
+18,FAKE/HOAX,1,breitbart.com,"UK: Coronavirus 'Imminent Threat', Activates Emergency Powers",https://www.breitbart.com/europe/2020/02/10/uk-declares-coronavirus-serious-and-imminent-threat-activates-emergency-powers/
+19,FAKE/HOAX,1,rt.com,Infection-free taxi: Hazmat-suit-wearing cab driver helps passengers to laugh off coronavirus hysteria (VIDEO),https://www.rt.com/russia/480447-taxi-hazmat-suit-coronavirus/
+20,CONSPIRACY/JUNKSCI,1,eutimes.net,,https://www.eutimes.net/2020/02/14-dead-250-hospitalized-in-pakistan-of-mysterious-lung-illness-could-it-be-coronavirus/

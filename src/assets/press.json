@@ -55,7 +55,13 @@
         "text": "How a fast-moving crisis fuels rumor and speculation",
         "logo": "assets/static_img/press_logo/POYNTER.svg",
         "link": "https://www.poynter.org/fact-checking/2020/how-a-fast-moving-crisis-fuels-rumor-and-speculation/"
-      } 
+      },
+      {
+        "id": "PROSPECT",
+        "text": "The epidemiology of misinformation",
+        "logo": "assets/static_img/press_logo/PROSPECT.svg",
+        "link": "https://www.prospectmagazine.co.uk/science-and-technology/epidemiology-misinformation-coronavirus-covid19-conspiracy-theory"
+      }
     ]
   },
   {

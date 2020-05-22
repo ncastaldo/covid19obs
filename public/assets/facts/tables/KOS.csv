@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,FAKE/HOAX,3,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
-2,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/urgente-el-coronavirus-puede-infectar-desde-una-distancia-de-2-metros-y-a-traves-de-los-ojos/
-3,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
-4,FAKE/HOAX,2,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
-5,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-6,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/nacionales/ultima-hora-reportan-primer-caso-del-coronavirus-en/
-7,FAKE/HOAX,1,rt.com,Chinese authorities share FIRST PHOTOS of deadly coronavirus,https://www.rt.com/news/479057-chinese-authorities-share-coronavirus-photos/
-8,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/salud/vacuna-contra-nuevo-coronavirus-estaria-lista-en-tres-meses-cientificos-estadounidenses/
-9,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-canada-reportan-un-posible-caso-de-coronavirus-en-toronto/
-10,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/china-toma-medidas-drasticas-por-temor-al-peligroso-coronavirus/
-11,FAKE/HOAX,1,express.co.uk,Coronavirus CURE? China says new treatment tested on nurses 'successful',https://www.express.co.uk/news/world/1233644/coronavirus-china-virus-vaccine-treatment-cure-symptoms
-12,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/video-asi-progresa-la-construccion-de-un-hospital-en-china-para-tratar-a-pacientes-con-el-coronavirus/
-13,FAKE/HOAX,1,rt.com,Russia closes its Far East border with China in attempt to prevent spread of new coronavirus,https://www.rt.com/russia/479567-russia-china-border-coronavirus/
-14,FAKE/HOAX,1,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html?ito=facebook_share_article-top
-15,FAKE/HOAX,1,reseauinternational.net,Virus 2019-nCoV - La piste de l'arme biologique se précise de plus en plus,https://reseauinternational.net/virus-2019-ncov-la-piste-de-larme-biologique-se-precise-de-plus-en-plus/
-16,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-italia-confirma-los-dos-primeros-casos-de-coronavirus-en-el-pais/
-17,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon?utm_source=feedburner&utm_medium=feed&utm_campaign=feed%3a+zerohedge%2ffeed+%28zero+hedge+-+on+a+long+enough+timeline%2c+the+survival+rate+for+everyone+drops+to+zero%29
-18,FAKE/HOAX,1,albertonews.com,"Aislados los primeros sospechosos de coronavirus en Cuba, confirma el MINSAP - AlbertoNews - Periodismo sin censura",https://albertonews.com/internacionales/ultima-hora-aislados-los-primeros-sospechosos-de-coronavirus-en-cuba-confirma-el-minsap/
+1,FAKE/HOAX,11,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+2,FAKE/HOAX,3,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
+3,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/urgente-el-coronavirus-puede-infectar-desde-una-distancia-de-2-metros-y-a-traves-de-los-ojos/
+4,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
+5,FAKE/HOAX,2,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
+6,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+7,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/nacionales/ultima-hora-reportan-primer-caso-del-coronavirus-en/
+8,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-canada-reportan-un-posible-caso-de-coronavirus-en-toronto/
+9,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/china-toma-medidas-drasticas-por-temor-al-peligroso-coronavirus/
+10,FAKE/HOAX,1,rt.com,Chinese authorities share FIRST PHOTOS of deadly coronavirus,https://www.rt.com/news/479057-chinese-authorities-share-coronavirus-photos/
+11,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/salud/vacuna-contra-nuevo-coronavirus-estaria-lista-en-tres-meses-cientificos-estadounidenses/
+12,FAKE/HOAX,1,express.co.uk,Coronavirus CURE? China says new treatment tested on nurses 'successful',https://www.express.co.uk/news/world/1233644/coronavirus-china-virus-vaccine-treatment-cure-symptoms
+13,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/video-asi-progresa-la-construccion-de-un-hospital-en-china-para-tratar-a-pacientes-con-el-coronavirus/
+14,FAKE/HOAX,1,reseauinternational.net,Virus 2019-nCoV - La piste de l'arme biologique se précise de plus en plus,https://reseauinternational.net/virus-2019-ncov-la-piste-de-larme-biologique-se-precise-de-plus-en-plus/
+15,FAKE/HOAX,1,rt.com,Russia closes its Far East border with China in attempt to prevent spread of new coronavirus,https://www.rt.com/russia/479567-russia-china-border-coronavirus/
+16,FAKE/HOAX,1,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html?ito=facebook_share_article-top
+17,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-italia-confirma-los-dos-primeros-casos-de-coronavirus-en-el-pais/
+18,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon?utm_source=feedburner&utm_medium=feed&utm_campaign=feed%3a+zerohedge%2ffeed+%28zero+hedge+-+on+a+long+enough+timeline%2c+the+survival+rate+for+everyone+drops+to+zero%29
 19,FAKE/HOAX,1,rt.com,Clear racist element to hysteria over new coronavirus – Slavoj Zizek,https://www.rt.com/op-ed/479970-coronavirus-china-wuhan-hysteria-racist/
-20,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/china-enfrenta-una-escasez-de-camas-para-los-mas-de-28-mil-pacientes-con-coronavirus-2/
+20,FAKE/HOAX,1,albertonews.com,"Aislados los primeros sospechosos de coronavirus en Cuba, confirma el MINSAP - AlbertoNews - Periodismo sin censura",https://albertonews.com/internacionales/ultima-hora-aislados-los-primeros-sospechosos-de-coronavirus-en-cuba-confirma-el-minsap/

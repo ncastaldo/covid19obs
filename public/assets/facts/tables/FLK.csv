@@ -1,3 +1,5 @@
 rank,fact_type,count,domain,title,url
 1,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
 2,FAKE/HOAX,1,express.co.uk,Coronavirus Falklands: Islanders repatriate cruise ships passengers - but take no chances,https://www.express.co.uk/news/world/1259838/coronavirus-falklands-falkland-islands-cruise-ships-flights-pandemic
+3,CONSPIRACY/JUNKSCI,1,jihadwatch.org,,https://www.jihadwatch.org/2020/04/israel-sends-medical-gear-to-palestinians-palestinians-accuse-israel-of-spreading-coronavirus-among-them
+4,FAKE/HOAX,1,express.co.uk,Captain Tom sends inspiring 100th birthday message to unite Britain and BEAT coronavirus,https://www.express.co.uk/news/uk/1275569/captain-tom-moore-birthday-coronavirus-charity-fundraising-nhs

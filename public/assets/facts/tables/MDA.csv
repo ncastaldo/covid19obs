@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,FAKE/HOAX,2,n.news.naver.com,"2PM 준호, 군복무 중 코로나19 확산 방지 위해 3천만원 기부",https://n.news.naver.com/entertain/now/article/609/0000253824
-2,FAKE/HOAX,2,summit.news,Coronavirus Patient Zero in Italy Was Pakistani Migrant Who Refused to Self-Isolate,https://summit.news/2020/03/05/coronavirus-patient-zero-in-italy-was-pakistani-migrant-who-refused-to-self-isolate/
-3,FAKE/HOAX,1,summit.news,Professor Warns New Coronavirus Has Same Kill Rate as the Spanish Flu,https://summit.news/2020/01/22/professor-warns-new-coronavirus-has-same-kill-rate-as-the-spanish-flu/
-4,CONSPIRACY/JUNKSCI,1,zerohedge.com,China Is Already Blaming A Slowdown In 2020 On The Coronavirus Epidemic,https://www.zerohedge.com/economics/china-already-blaming-slowdown-2020-coronavirus-epidemic
-5,FAKE/HOAX,1,newsmax.com,CDC: 1st Case of Deadly China Virus Hits US; More Expected,https://www.newsmax.com/newsfront/wuhan-coronavirus-china-washington/2020/01/21/id/950662/
-6,FAKE/HOAX,1,express.co.uk,Coronavirus outbreak: China seals off SECOND major city - 18m people on lockdown,https://www.express.co.uk/news/world/1232244/coronavirus-outbreak-china-huanggang-wuhan-coronavirus-spread-latest
-7,FAKE/HOAX,1,dailymail.co.uk,Chinese city will 'build a dedicated coronavirus hospital in SIX DAYS',https://www.dailymail.co.uk/news/article-7920937/chinese-city-build-dedicated-coronavirus-hospital-six-days.html
-8,FAKE/HOAX,1,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
-9,FAKE/HOAX,1,rt.com,38 infected coronavirus patients CURED in China as epidemic rages on,https://on.rt.com/a9po
-10,FAKE/HOAX,1,rt.com,Chinese doctor battling coronavirus on ‘front line’ of outbreak epicenter in Hubei dies as death toll hits 41,https://on.rt.com/a9pl
-11,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Kills Man In Shanghai As China Confirms Nearly 2,000 Cases",https://www.zerohedge.com/political/56-million-chinese-lockdown-virus-spreads-australia-malaysia
-12,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/everyone-infected-nurse-corpse-strewn-21353270
-13,FAKE/HOAX,1,allnewspipeline.com,,http://allnewspipeline.com/prepping_for_coronavirus_12_monkeys_captain_trips.php
-14,FAKE/HOAX,1,dailymail.co.uk,"Nurse treating coronavirus in China claims 90,000 people are infected",https://www.dailymail.co.uk/news/article-7929657/nurse-treating-coronavirus-sufferers-china-claims-90-000-people-infected.html?ito=amp_twitter_share-top
-15,FAKE/HOAX,1,rt.com,,https://on.rt.com/a9s3
-16,FAKE/HOAX,1,breaking911.com,Virginia Dept. Of Health Investigating 3 Potential Cases Of Coronavirus - Breaking911,https://breaking911.com/breaking-virginia-dept-of-health-investigating-3-potential-cases-of-coronavirus/
-17,FAKE/HOAX,1,theblaze.com,Medical simulation shows shocking number of people could die of coronavirus in just 18 months,https://www.theblaze.com/news/medical-simulation-shows-shocking-number-of-people-could-die-of-coronavirus-in-just-18-months
-18,CONSPIRACY/JUNKSCI,1,zerohedge.com,This Is How China Is Hiding The True Number Of Coronavirus Deaths,https://www.zerohedge.com/economics/how-china-hiding-true-number-coronavirus-deaths
-19,FAKE/HOAX,1,rt.com,,https://on.rt.com/a9tw
-20,FAKE/HOAX,1,breitbart.com,California Case of Coronavirus Revealed: Three Now Confirmed in U.S.,https://www.breitbart.com/health/2020/01/26/calfornia-case-of-coronavirus-revealed-three-now-confirmed-in-u-s/
+1,FAKE/HOAX,10,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+2,FAKE/HOAX,2,politicususa.com,,https://www.politicususa.com/2020/05/06/yale-epidemiologist-u-s-handling-of-coronavirus-awfully-close-to-genocide-by-default.html
+3,FAKE/HOAX,1,newsmax.com,CDC: 1st Case of Deadly China Virus Hits US; More Expected,https://www.newsmax.com/newsfront/wuhan-coronavirus-china-washington/2020/01/21/id/950662/
+4,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/everyone-infected-nurse-corpse-strewn-21353270
+5,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Kills Man In Shanghai As China Confirms Nearly 2,000 Cases",https://www.zerohedge.com/political/56-million-chinese-lockdown-virus-spreads-australia-malaysia
+6,FAKE/HOAX,1,rt.com,Chinese doctor battling coronavirus on ‘front line’ of outbreak epicenter in Hubei dies as death toll hits 41,https://on.rt.com/a9pl
+7,FAKE/HOAX,1,breaking911.com,Virginia Dept. Of Health Investigating 3 Potential Cases Of Coronavirus - Breaking911,https://breaking911.com/breaking-virginia-dept-of-health-investigating-3-potential-cases-of-coronavirus/
+8,FAKE/HOAX,1,rt.com,,https://on.rt.com/a9s3
+9,FAKE/HOAX,1,allnewspipeline.com,,http://allnewspipeline.com/prepping_for_coronavirus_12_monkeys_captain_trips.php
+10,CONSPIRACY/JUNKSCI,1,zerohedge.com,This Is How China Is Hiding The True Number Of Coronavirus Deaths,https://www.zerohedge.com/economics/how-china-hiding-true-number-coronavirus-deaths
+11,FAKE/HOAX,1,rt.com,,https://on.rt.com/a9tw
+12,FAKE/HOAX,1,breitbart.com,California Case of Coronavirus Revealed: Three Now Confirmed in U.S.,https://www.breitbart.com/health/2020/01/26/calfornia-case-of-coronavirus-revealed-three-now-confirmed-in-u-s/
+13,FAKE/HOAX,1,allnewspipeline.com,,http://allnewspipeline.com/coronavirus_2_weeks_behind.php
+14,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+15,FAKE/HOAX,1,bigleaguepolitics.com,Coronavirus Whistleblower Who Was Discredited and Silenced Dies From the Illness at 34 - Big League Politics,https://bigleaguepolitics.com/coronavirus-whistleblower-who-was-discredited-and-silenced-dies-from-the-illness-at-34/
+16,FAKE/HOAX,1,rt.com,Coronavirus death toll tops 900 as China's envoy to US dismisses ‘absolutely crazy’ bioweapon rumors,https://on.rt.com/aaq3
+17,FAKE/HOAX,1,gnews.org,,https://gnews.org/107065/
+18,FAKE/HOAX,1,rt.com,"China coronavirus death toll soars to 813 with 37,000+ cases worldwide",https://on.rt.com/aaov
+19,FAKE/HOAX,1,dailymail.co.uk,"400,000 UK deaths not an absurd number, scientist says",https://www.dailymail.co.uk/news/article-8005931/british-scientist-leading-coronavirus-fight-says-forecasts-400-000-uk-deaths.html
+20,FAKE/HOAX,1,rt.com,CoronaVirus Rally (E1503),https://www.rt.com/shows/keiser-report/480998-coronavirus-developments-pharmaceutical-prices/

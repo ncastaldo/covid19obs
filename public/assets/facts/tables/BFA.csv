@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,FAKE/HOAX,8,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-2,CONSPIRACY/JUNKSCI,5,naturalnews.com,"Full transcript of ""smoking gun"" bombshell interview: Prof. Francis Boyle exposes the bioweapons origins of the CoVid-19 coronavirus",https://www.naturalnews.com/2020-02-20-full-transcript-smoking-gun-interview-prof-frances-boyle-coronavirus-bioweapons.html
+1,FAKE/HOAX,11,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+2,FAKE/HOAX,4,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
 3,FAKE/HOAX,4,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-4,FAKE/HOAX,3,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
-5,FAKE/HOAX,3,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
-6,FAKE/HOAX,3,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
-7,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+4,FAKE/HOAX,4,breitbart.com,Congressman: Pelosi Blocking Investigation into China Coronavirus Origins,https://www.breitbart.com/politics/2020/05/03/congressman-nancy-pelosi-blocking-investigation-chinese-coronavirus-origins/
+5,FAKE/HOAX,3,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+6,FAKE/HOAX,3,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+7,FAKE/HOAX,3,albertonews.com,Médicos del Hospital Militar de Maracay evalúan a paciente para descartar contagio de coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/ultima-hora-reportan-presunto-posible-caso-de-coronavirus-en-maracay-estado-aragua/
 8,CONSPIRACY/JUNKSCI,3,sgtreport.com,CORONAVIRUS BIOWEAPON MYSTERY SOLVED: It’s all in the name! - SGT Report,https://www.sgtreport.com/2020/02/coronavirus-bioweapon-mystery-solved-its-all-in-the-name/
-9,FAKE/HOAX,2,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
-10,FAKE/HOAX,2,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
-11,FAKE/HOAX,2,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
-12,FAKE/HOAX,2,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html?ito=facebook_share_article-top
-13,FAKE/HOAX,2,sputniknews.com,"UK Foreign Secretary Arrives in Gibraltar to Discuss Defense Issues, Brexit",https://sptnkne.ws/bn8c
-14,CONSPIRACY/JUNKSCI,2,zerohedge.com,Did China's Tencent Accidentally Leak The True Terrifying Coronavirus Statistics,https://www.zerohedge.com/health/did-chinas-tencent-accidentally-leak-true-terrifying-coronavirus-statistics
-15,FAKE/HOAX,2,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
-16,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-17,CONSPIRACY/JUNKSCI,2,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-18,FAKE/HOAX,2,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-19,CONSPIRACY/JUNKSCI,2,truepundit.com,North Korea's First Confirmed Coronavirus Patient Shot Dead – True Pundit,https://truepundit.com/north-koreas-first-confirmed-coronavirus-patient-shot-dead/
-20,FAKE/HOAX,2,n.news.naver.com,"‘또또또 선행’ 위너 김진우, 코로나19에 1천만원 기부(공식)",https://n.news.naver.com/entertain/article/609/0000253852
+9,FAKE/HOAX,2,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html
+10,FAKE/HOAX,2,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+11,FAKE/HOAX,2,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html?ito=facebook_share_article-top
+12,FAKE/HOAX,2,sputniknews.com,"UK Foreign Secretary Arrives in Gibraltar to Discuss Defense Issues, Brexit",https://sptnkne.ws/bn8c
+13,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+14,FAKE/HOAX,2,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+15,FAKE/HOAX,2,davidharrisjr.com,Secret Service Notified After Dem Government Official Stands Behind Idea To Attack Trump Supporters With Coronavirus,https://davidharrisjr.com/carmine/secret-service-notified-after-democrat-government-official-stands-behind-idea-to-disgustingly-attack-president-donald-trumps-supporters-with-the-deadly-coronavirus/
+16,FAKE/HOAX,2,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/cronaca/coronavirus-merkel-infettera-70-tedeschi-preparati-paesi-149148/
+17,FAKE/HOAX,2,thenationalpulse.com,,https://thenationalpulse.com/editor/chinese-bots-flood-twitter-virus-theories/
+18,CONSPIRACY/JUNKSCI,2,zerohedge.com,COVID-19 - The European Union Unravels,https://www.zerohedge.com/geopolitical/covid-19-european-union-unravels
+19,CONSPIRACY/JUNKSCI,2,vigilantcitizen.com,COVID-19 Lockdown: A Global Human Experiment,https://vigilantcitizen.com/vigilantreport/covid-19-lockdown-a-global-human-experiment/
+20,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/top-comedian-ken-shimura-dies-21777360?f

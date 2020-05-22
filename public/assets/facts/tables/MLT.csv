@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,FAKE/HOAX,4,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
-2,FAKE/HOAX,4,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-3,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-4,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-5,CONSPIRACY/JUNKSCI,2,wuhancoronavirus.blogspot.com,,https://wuhancoronavirus.blogspot.com/2020/01/why-total-silence-about-possible-role.html
-6,FAKE/HOAX,2,rt.com,CoronaVirus Rally (E1503),https://www.rt.com/shows/keiser-report/480998-coronavirus-developments-pharmaceutical-prices/
-7,FAKE/HOAX,2,davidharrisjr.com,State Department Employee in Japan Ignored President Trump’s Orders and Allowed Americans with Coronavirus to Fly Back to the US,https://davidharrisjr.com/steven/state-department-employee-in-japan-ignored-president-trumps-orders-and-allowed-americans-with-coronavirus-to-fly-back-to-the-us/
-8,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-9,CONSPIRACY/JUNKSCI,2,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-10,CONSPIRACY/JUNKSCI,2,zerohedge.com,NATO And COVID-19: A Parasitical Disease In Europe,https://www.zerohedge.com/geopolitical/nato-and-covid-19-parasitical-disease-europe
-11,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Snakes, Bats, Badgers & Rats: Scientists Suspect New Coronavirus Originated In Animals",https://www.zerohedge.com/geopolitical/snakes-bats-badgers-rats-scientists-suspect-new-coronavirus-originated-animals
-12,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
-13,CONSPIRACY/JUNKSCI,1,zerohedge.com,This Is How China Is Hiding The True Number Of Coronavirus Deaths,https://www.zerohedge.com/economics/how-china-hiding-true-number-coronavirus-deaths
-14,FAKE/HOAX,1,rt.com,No more BATS & SNAKES for gourmands: China bans WILDLIFE trade after virus outbreak linked to agricultural producers,https://on.rt.com/a9ra
-15,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/coronavirus-days-away-uk-getting-21363438
-16,FAKE/HOAX,1,rt.com,"Chinese coronavirus spreads with no visible symptoms as death toll grows to 81, over 2,800 infected worldwide",https://on.rt.com/a9sp
-17,CONSPIRACY/JUNKSCI,1,zerohedge.com,"China Virus Cases Almost Double Overnight, Deaths Top 100 As North Korea Closes Border",https://www.zerohedge.com/geopolitical/wuhan-mayor-offers-resign-coronavirus-death-toll-accelerates-supply-shortages
-18,FAKE/HOAX,1,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
-19,FAKE/HOAX,1,thegatewaypundit.com,Elizabeth Warren Blames Trump For Disease Outbreaks Like Coronavirus,https://www.thegatewaypundit.com/2020/01/elizabeth-warren-blame-trump-for-disease-outbreaks-like-coronavirus/
-20,FAKE/HOAX,1,breitbart.com,Trump Weighs Suspending China-U.S. Flights as Coronavirus Spreads,https://www.breitbart.com/politics/2020/01/28/report-trump-considering-suspending-china-u-s-flights-as-coronavirus-death-toll-climbs/
+1,FAKE/HOAX,14,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+2,FAKE/HOAX,4,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+3,FAKE/HOAX,4,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+4,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+5,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+6,CONSPIRACY/JUNKSCI,2,zerohedge.com,Creator Of US BioWeapons Act Says Coronavirus Is Biological Warfare Weapon,https://www.zerohedge.com/health/creator-bioweapons-act-says-coronavirus-biological-warfare-weapon
+7,CONSPIRACY/JUNKSCI,2,wuhancoronavirus.blogspot.com,,https://wuhancoronavirus.blogspot.com/2020/01/why-total-silence-about-possible-role.html
+8,FAKE/HOAX,2,rt.com,CoronaVirus Rally (E1503),https://www.rt.com/shows/keiser-report/480998-coronavirus-developments-pharmaceutical-prices/
+9,FAKE/HOAX,2,davidharrisjr.com,State Department Employee in Japan Ignored President Trump’s Orders and Allowed Americans with Coronavirus to Fly Back to the US,https://davidharrisjr.com/steven/state-department-employee-in-japan-ignored-president-trumps-orders-and-allowed-americans-with-coronavirus-to-fly-back-to-the-us/
+10,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+11,CONSPIRACY/JUNKSCI,2,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+12,CONSPIRACY/JUNKSCI,2,zerohedge.com,NATO And COVID-19: A Parasitical Disease In Europe,https://www.zerohedge.com/geopolitical/nato-and-covid-19-parasitical-disease-europe
+13,FAKE/HOAX,2,breitbart.com,"Kimberly Guilfoyle: Trump Unites Private, Public Sectors Against Virus",https://www.breitbart.com/politics/2020/04/08/kimberly-guilfoyle-commander-in-chief-unites-private-and-public-sectors-to-fight-covid-19/
+14,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Explosive Report: Wuhan Biolab Captured Bats From Caves Traced To COVID-19 Outbreak, Had US Funding",https://www.zerohedge.com/health/explosive-report-wuhan-biolab-captured-bats-caves-traced-covid-19-outbreak-had-us-funding
+15,FAKE/HOAX,2,quillette.com,Do COVID-19 Racial Disparities Matter? - Quillette,https://quillette.com/2020/04/13/do-covid-19-racial-disparities-matter/
+16,FAKE/HOAX,2,dailymail.co.uk,Doctors group claims hydroxychloroquine helps 91% of covid patients,https://www.dailymail.co.uk/health/article-8266737/doctors-group-claims-hydroxychloroquine-helps-91-coronavirus-patients.html
+17,FAKE/HOAX,2,dailymail.co.uk,Third Russian doctor plunges from coronavirus hospital window,https://www.dailymail.co.uk/news/article-8282033/third-russian-doctor-plunges-coronavirus-hospital-window.html
+18,FAKE/HOAX,2,breitbart.com,Congressman: Pelosi Blocking Investigation into China Coronavirus Origins,https://www.breitbart.com/politics/2020/05/03/congressman-nancy-pelosi-blocking-investigation-chinese-coronavirus-origins/
+19,FAKE/HOAX,2,express.co.uk,Coronavirus: Campaigners cast light on role trafficking trade played in outbreak,https://www.express.co.uk/news/world/1280415/coronavirus-outbreak-south-africa-china-covid19-wuhan-spt
+20,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Snakes, Bats, Badgers & Rats: Scientists Suspect New Coronavirus Originated In Animals",https://www.zerohedge.com/geopolitical/snakes-bats-badgers-rats-scientists-suspect-new-coronavirus-originated-animals

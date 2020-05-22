@@ -1,3 +1,12 @@
 rank,fact_type,count,domain,title,url
-1,FAKE/HOAX,1,express.co.uk,Coronavirus breakthrough: China mass producing wonderdrug after 'promising' results,https://www.express.co.uk/news/world/1241305/coronovirus-news-china-wuhan-drug-remdesivir-cure-ebola-gilead-spt
-2,FAKE/HOAX,1,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+1,FAKE/HOAX,2,dailymail.co.uk,"Coronavirus may have started spreading in September, experts say",https://www.dailymail.co.uk/news/article-8231753/coronavirus-started-spreading-early-september-not-originated-wuhan.html?ito=social-twitter_dailymailuk
+2,FAKE/HOAX,1,express.co.uk,Coronavirus breakthrough: China mass producing wonderdrug after 'promising' results,https://www.express.co.uk/news/world/1241305/coronovirus-news-china-wuhan-drug-remdesivir-cure-ebola-gilead-spt
+3,FAKE/HOAX,1,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+4,FAKE/HOAX,1,theconservativetreehouse.com,More Dr. Fauci Nonsense: Social Distancing (Lock-down) Will Continue Until New Coronavirus Cases Cease….,https://theconservativetreehouse.com/2020/04/02/more-dr-fauci-nonsense-social-distancing-lock-down-will-continue-until-new-coronavirus-cases-cease/
+5,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Explosive Report: Wuhan Biolab Captured Bats From Caves Traced To COVID-19 Outbreak, Had US Funding",https://www.zerohedge.com/health/explosive-report-wuhan-biolab-captured-bats-caves-traced-covid-19-outbreak-had-us-funding
+6,FAKE/HOAX,1,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+7,FAKE/HOAX,1,quillette.com,COVID-19 Superspreader Events in 28 Countries: Critical Patterns and Lessons - Quillette,https://quillette.com/2020/04/23/covid-19-superspreader-events-in-28-countries-critical-patterns-and-lessons/
+8,FAKE/HOAX,1,rt.com,Why China is better prepared than other economic powers for any global crisis,https://www.rt.com/business/488042-china-coronavirus-crisis-better-prepared/
+9,FAKE/HOAX,1,summit.news,Scientific Research Finds That Closing Borders Is Most Effective Way Of Combatting Coronavirus,https://summit.news/2020/05/08/scientific-research-finds-that-closing-borders-is-most-effective-way-of-combatting-coronavirus/
+10,CONSPIRACY/JUNKSCI,1,activistpost.com,,https://www.activistpost.com/2020/05/breaking-president-trump-says-he-will-mobilize-military-to-distribute-covid-19-vaccine.html
+11,FAKE/HOAX,1,theblaze.com,Republicans accuse Nancy Pelosi of attempting to 'shovel cash' to Planned Parenthood in $3 trillion coronavirus bill,https://www.theblaze.com/news/pelosi-heroes-act-planned-parenthood

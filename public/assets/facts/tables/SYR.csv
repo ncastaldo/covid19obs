@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
 1,FAKE/HOAX,4,rt.com,"First two cases of coronavirus confirmed in Russia, both Chinese citizens",https://on.rt.com/aa5v
 2,FAKE/HOAX,3,breitbart.com,15 Hollywood Celebs Spreading Fear and Fake News About Coronavirus,https://www.breitbart.com/entertainment/2020/03/06/15-hollywood-celebs-spreading-fear-and-fake-news-about-coronavirus/
-3,FAKE/HOAX,2,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-4,FAKE/HOAX,2,rt.com,City turned ghost town: Take a look inside sealed-off Wuhan amid coronavirus outbreak in China (VIDEO),https://on.rt.com/a9wi
-5,FAKE/HOAX,2,breaking911.com,"Coronavirus Can Be Spread By People Who Aren’t Showing Symptoms, CDC Confirms - Breaking911",https://breaking911.com/breaking-coronavirus-can-be-spread-by-people-who-arent-showing-symptoms-cdc-confirms/
-6,FAKE/HOAX,2,syrianews.cc,WHO Confirms No Coronavirus in Syria | Syria News,https://www.syrianews.cc/who-confirms-no-coronavirus-in-syria/
-7,FAKE/HOAX,2,express.co.uk,Coronavirus: Experiment gone wrong? Two Wuhan lab leaks exposed by Chinese scientists,https://www.express.co.uk/news/weird/1251719/coronavirus-china-bioweapon-experiment-lab-leak-wuhan-seafood-market-spt
-8,FAKE/HOAX,2,breitbart.com,Delingpole: Woke 'Hug a Chinese Person' Propaganda Didn't Age Well,https://www.breitbart.com/europe/2020/03/18/delingpole-woke-hug-a-chinese-person-propaganda-didnt-age-well/
-9,FAKE/HOAX,2,rt.com,How lethal is Covid-19 REALLY? Why massive fatality rates from Italy are MISLEADING,https://www.rt.com/news/484098-coronavirus-fatality-rates-exaggerated-italy/
-10,FAKE/HOAX,1,syrianews.cc,"Syria News Updates: Terrorist Fratricide, Nusra Attacks, SARC Humanitarian Deliveries",https://www.syrianews.cc/syria-news-updates-terrorist-fratricide-nusra-attacks-sarc-humanitarian-deliveries/
-11,FAKE/HOAX,1,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html?ito=amp_twitter_share-top
-12,FAKE/HOAX,1,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
-13,FAKE/HOAX,1,rt.com,Chinese doctor battling coronavirus on ‘front line’ of outbreak epicenter in Hubei dies as death toll hits 41,https://on.rt.com/a9pl
-14,CONSPIRACY/JUNKSCI,1,endoftheamericandream.com,Just A Coincidence? A U.S. Patent For 'An Attenuated Coronavirus' Was Filed In 2015 And Granted In 2018,http://endoftheamericandream.com/archives/just-a-coincidence-a-u-s-patent-for-an-attenuated-coronavirus-was-filed-in-2015-and-granted-in-2018
-15,FAKE/HOAX,1,dailymail.co.uk,"Nurse treating coronavirus in China claims 90,000 people are infected",https://www.dailymail.co.uk/news/article-7929657/nurse-treating-coronavirus-sufferers-china-claims-90-000-people-infected.html
-16,FAKE/HOAX,1,rt.com,"Chinese coronavirus spreads with no visible symptoms as death toll grows to 81, over 2,800 infected worldwide",https://on.rt.com/a9sp
-17,FAKE/HOAX,1,newswars.com,Bill and Melinda Gates Foundation & Others Predicted Up To 65 Million Deaths Via Coronavirus – In Simulation Ran 3 Months Ago!,https://www.newswars.com/bill-and-melinda-gates-foundation-others-predicted-up-to-65-million-deaths-via-coronavirus-in-simulation-ran-3-months-ago/
-18,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-19,FAKE/HOAX,1,breaking911.com,"Los Angeles County Confirms First Case of Deadly Coronavirus, Fourth Case Confirmed In U.S. - Breaking911",https://breaking911.com/breaking-los-angeles-county-confirms-first-case-of-deadly-coronavirus-fourth-case-confirmed-in-u-s/
-20,FAKE/HOAX,1,dailymail.co.uk,Asian man dips a mouse in a bowl of sauce before eating it ALIVE,https://www.dailymail.co.uk/news/article-7927747/asian-man-dips-baby-mouse-bowl-sauce-eating-alive.html
+3,FAKE/HOAX,3,rt.com,How lethal is Covid-19 REALLY? Why massive fatality rates from Italy are MISLEADING,https://www.rt.com/news/484098-coronavirus-fatality-rates-exaggerated-italy/
+4,FAKE/HOAX,3,breitbart.com,Twitter Forces Laura Ingraham to Delete Post on Chloroquine Helping Coronavirus Patients,https://www.breitbart.com/tech/2020/03/30/twitter-forces-laura-ingraham-to-remove-tweet-about-chinese-virus-treatment/
+5,FAKE/HOAX,3,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+6,FAKE/HOAX,2,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+7,FAKE/HOAX,2,rt.com,City turned ghost town: Take a look inside sealed-off Wuhan amid coronavirus outbreak in China (VIDEO),https://on.rt.com/a9wi
+8,FAKE/HOAX,2,breaking911.com,"Coronavirus Can Be Spread By People Who Aren’t Showing Symptoms, CDC Confirms - Breaking911",https://breaking911.com/breaking-coronavirus-can-be-spread-by-people-who-arent-showing-symptoms-cdc-confirms/
+9,FAKE/HOAX,2,syrianews.cc,WHO Confirms No Coronavirus in Syria | Syria News,https://www.syrianews.cc/who-confirms-no-coronavirus-in-syria/
+10,FAKE/HOAX,2,express.co.uk,Coronavirus: Experiment gone wrong? Two Wuhan lab leaks exposed by Chinese scientists,https://www.express.co.uk/news/weird/1251719/coronavirus-china-bioweapon-experiment-lab-leak-wuhan-seafood-market-spt
+11,FAKE/HOAX,2,breitbart.com,Delingpole: Woke 'Hug a Chinese Person' Propaganda Didn't Age Well,https://www.breitbart.com/europe/2020/03/18/delingpole-woke-hug-a-chinese-person-propaganda-didnt-age-well/
+12,FAKE/HOAX,2,syrianews.cc,"COVID-19: UN Revisits Orwell, Goebbels, for Guidance on Syria Recolonization",https://www.syrianews.cc/covid-19-un-revisits-orwell-goebbels-for-guidance-on-syria-recolonization/
+13,FAKE/HOAX,2,breaking911.com,"First U.S. Service Member Dies From Coronavirus, Pentagon Says - Breaking911",https://breaking911.com/breaking-1st-us-service-member-dies-from-coronavirus-pentagon-says/
+14,FAKE/HOAX,2,n.news.naver.com,김재중 “코로나19 확진→만우절 농담”…도넘은 장난,https://n.news.naver.com/entertain/now/article/018/0004610638
+15,FAKE/HOAX,2,syrianews.cc,One More Case of COVID-19 in Syria and One more Death from the Virus,https://www.syrianews.cc/one-more-case-of-covid-19-in-syria-and-one-more-death-of-the-virus/
+16,FAKE/HOAX,2,breitbart.com,Coronavirus Fatality Rate '10 to 40 Times Lower' than Estimates,https://www.breitbart.com/politics/2020/05/07/doctor-to-senators-coronavirus-fatality-rate-10-to-40x-lower-than-estimates-that-led-to-lockdowns/
+17,FAKE/HOAX,2,syrianews.cc,Syria Continues Evacuating Stranded Syrians Abroad due to COVID-19 Lockdowns,https://www.syrianews.cc/syria-continues-evacuating-stranded-syrians-abroad-due-to-covid-19-lockdowns/
+18,FAKE/HOAX,2,syrianews.cc,Trump Bombs Syrian Wheat Fields while Fighting COVID 'Enemy' at Home,https://www.syrianews.cc/trump-bombs-syrian-wheat-fields-while-fighting-covid-enemy-at-home/
+19,FAKE/HOAX,1,syrianews.cc,"Syria News Updates: Terrorist Fratricide, Nusra Attacks, SARC Humanitarian Deliveries",https://www.syrianews.cc/syria-news-updates-terrorist-fratricide-nusra-attacks-sarc-humanitarian-deliveries/
+20,FAKE/HOAX,1,dailymail.co.uk,US health experts hosted fictional coronavirus simulation 3 months ago,https://www.dailymail.co.uk/health/article-7925475/us-health-experts-predicted-coronavirus-kill-65million-people-year-three-months-ago.html?ito=amp_twitter_share-top

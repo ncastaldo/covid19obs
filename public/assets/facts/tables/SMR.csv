@@ -9,3 +9,6 @@ rank,fact_type,count,domain,title,url
 8,CONSPIRACY/JUNKSCI,1,voxnews.info,"Coronavirus, centri migranti bomba sanitaria: vanno rimpatriati",https://voxnews.info/2020/03/12/coronavirus-centri-migranti-bomba-sanitaria/
 9,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/cronaca/coronavirus-bergamo-morti-camere-mortuarie-piene-149380/
 10,CONSPIRACY/JUNKSCI,1,imolaoggi.it,Fabio Fazio: “coronavirus mi insegna che i porti devono essere sempre aperti” - Imola Oggi,http://www.imolaoggi.it/2020/03/16/fabio-fazio-coronavirus-mi-insegna-che-i-porti-devono-essere-sempre-aperti/
+11,FAKE/HOAX,1,n.news.naver.com,김재중 “코로나19 확진→만우절 농담”…도넘은 장난,https://n.news.naver.com/entertain/now/article/018/0004610638
+12,FAKE/HOAX,1,dailymail.co.uk,Wuhan lab was performing experiments on bats from coronavirus caves,http://dailymail.co.uk/news/article-8211257/wuhan-lab-performing-experiments-bats-coronavirus-caves.html?ito=social-twitter_mailonline
+13,CONSPIRACY/JUNKSCI,1,greenpeace.org,Over 1 million people call for green recovery from COVID-19 - Greenpeace European Unit,https://www.greenpeace.org/eu-unit/issues/democracy-europe/3886/over-1-million-people-call-for-green-recovery-from-covid-19/

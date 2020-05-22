@@ -1,9 +1,13 @@
 rank,fact_type,count,domain,title,url
 1,CONSPIRACY/JUNKSCI,1,neonnettle.com,"Nurse Treating Coronavirus in China Claims 90,000 People Now Infected with Virus",https://neonnettle.com/news/10102-nurse-treating-coronavirus-in-china-claims-90-000-people-now-infected-with-virus
-2,FAKE/HOAX,1,gnews.org,,https://gnews.org/89749/
-3,FAKE/HOAX,1,rt.com,Error 404,http://on.rt.com/a9vh
-4,CONSPIRACY/JUNKSCI,1,zerohedge.com,Apple Warns Coronavirus Could Jeopardize Orders For 45 Million Airpods,https://www.zerohedge.com/markets/apple-warns-coronavirus-could-jeopardize-order-45-million-airpods
-5,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Will Whack 2% From Global GDP Growth In Q1: Goldman,https://www.zerohedge.com/economics/coronavirus-will-whack-2-global-gdp-growth-q1-goldman
+2,FAKE/HOAX,1,rt.com,Error 404,http://on.rt.com/a9vh
+3,FAKE/HOAX,1,gnews.org,,https://gnews.org/89749/
+4,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Will Whack 2% From Global GDP Growth In Q1: Goldman,https://www.zerohedge.com/economics/coronavirus-will-whack-2-global-gdp-growth-q1-goldman
+5,CONSPIRACY/JUNKSCI,1,zerohedge.com,Apple Warns Coronavirus Could Jeopardize Orders For 45 Million Airpods,https://www.zerohedge.com/markets/apple-warns-coronavirus-could-jeopardize-order-45-million-airpods
 6,CONSPIRACY/JUNKSCI,1,zerohedge.com,There Is Something Very Strange In The Latest Chinese Official Coronavirus Numbers,https://www.zerohedge.com/health/there-something-very-strange-latest-chinese-official-coronavirus-numbers
 7,FAKE/HOAX,1,chinadaily.com.cn,,http://www.chinadaily.com.cn/a/202002/11/ws5e41dfdfa31012821727673c.html
 8,FAKE/HOAX,1,dailymail.co.uk,The most googled questions about coronavirus disease (and the answers),https://www.dailymail.co.uk/news/article-8082967/the-googled-questions-disease-answers.html?ito=amp_twitter_share-top
+9,FAKE/HOAX,1,dailymail.co.uk,King of Thailand self-isolates with 20 concubines at German hotel,https://www.dailymail.co.uk/news/article-8164535/king-thailand-self-isolates-coronavirus-german-hotel-harem-20-concubines.html?ito=amp_twitter_share-top
+10,FAKE/HOAX,1,blackagendareport.com,Pentagon Orders All Installations to Stop Reporting COVID-19 Infections and Deaths  | Black Agenda Report,http://www.blackagendareport.com/pentagon-orders-all-installations-stop-reporting-covid-19-infections-and-deaths
+11,FAKE/HOAX,1,breitbart.com,Stockholm No-Go Suburb Most Affected by Coronavirus,https://www.breitbart.com/europe/2020/04/08/stockholm-no-go-suburb-most-affected-coronavirus/
+12,FAKE/HOAX,1,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204

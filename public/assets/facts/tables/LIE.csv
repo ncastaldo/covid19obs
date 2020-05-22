@@ -1,14 +1,21 @@
 rank,fact_type,count,domain,title,url
 1,FAKE/HOAX,4,dailymail.co.uk,US scientists have completed a coronavirus vaccine ,https://www.dailymail.co.uk/health/article-8026293/us-scientists-completed-coronavirus-vaccine.html?ito=amp_twitter_share-top
-2,FAKE/HOAX,1,summit.news,Videos Show Chinese People Eating Bats As Experts Link Animal to Coronavirus Outbreak,https://summit.news/2020/01/23/videos-show-chinese-people-eating-bats-as-experts-link-animal-to-coronavirus-outbreak/
-3,FAKE/HOAX,1,rt.com,Singapore confirms first case of deadly Chinese coronavirus – reports,https://on.rt.com/a9lf
-4,FAKE/HOAX,1,rt.com,"Chinese coronavirus spreads with no visible symptoms as death toll grows to 81, over 2,800 infected worldwide",https://on.rt.com/a9sp
-5,FAKE/HOAX,1,dcdirtylaundry.com,Pentagon orders NORTHCOM to prepare for coronavirus “pandemic” - DC Dirty Laundry,https://dcdirtylaundry.com/pentagon-orders-northcom-to-prepare-for-coronavirus-pandemic/
-6,CONSPIRACY/JUNKSCI,1,zerohedge.com,10 Very Important Questions That The Mainstream Media Should Be Asking About This Coronavirus Outbreak,https://www.zerohedge.com/geopolitical/10-very-important-questions-mainstream-media-should-be-asking-about-coronavirus
-7,FAKE/HOAX,1,rt.com,Italy becomes Europe’s largest coronavirus hot spot with 3 deaths & 79 cases across 5 regions,https://www.rt.com/news/481488-italy-coronavirus-death-lockdown/
-8,FAKE/HOAX,1,dailymail.co.uk,US scientists have completed a coronavirus vaccine ,https://www.dailymail.co.uk/health/article-8026293/amp/us-scientists-completed-coronavirus-vaccine.html?__twitter_impression=true
-9,CONSPIRACY/JUNKSCI,1,zerohedge.com,81% Of South Korean 'End Of Days' Worshippers Test Positive For Coronavirus,https://www.zerohedge.com/political/81-south-korean-end-days-worshippers-test-positive-coronavirus
-10,FAKE/HOAX,1,breitbart.com,Just 20% of Germans Confident Merkel Can Handle Coronavirus Outbreak,https://www.breitbart.com/europe/2020/03/06/just-20-per-cent-germans-confident-merkel-govt-handle-coronavirus-outbreak/
-11,FAKE/HOAX,1,summit.news,"Migrants at Refugee Camp in Germany Riot, Display ISIS Flags After They’re Put Under Coronavirus Quarantine",https://summit.news/2020/03/18/migrants-at-refugee-camp-in-germany-riot-display-isis-flags-after-theyre-put-under-coronavirus-quarantine/
-12,CONSPIRACY/JUNKSCI,1,zerohedge.com,COVID-19 - Evidence Over Hysteria,https://www.zerohedge.com/health/covid-19-evidence-over-hysteria
-13,FAKE/HOAX,1,gatestoneinstitute.org,The Coronavirus: Death of Globalization or a Rebirth?,https://www.gatestoneinstitute.org/15775/coronavirus-globalization#.xntyqumv5oe.twitter
+2,FAKE/HOAX,2,dailymail.co.uk,Greta Thunberg says she may have coronavirus,https://www.dailymail.co.uk/news/breaking_news/article-8147765/amp/greta-thunberg-says-coronavirus-isolating-father.html?__twitter_impression=true
+3,CONSPIRACY/JUNKSCI,2,ukcolumn.org,Who controls the British Government response to Covid–19?,https://www.ukcolumn.org/article/who-controls-british-government-response-covid19-part-one
+4,FAKE/HOAX,1,summit.news,Videos Show Chinese People Eating Bats As Experts Link Animal to Coronavirus Outbreak,https://summit.news/2020/01/23/videos-show-chinese-people-eating-bats-as-experts-link-animal-to-coronavirus-outbreak/
+5,FAKE/HOAX,1,rt.com,Singapore confirms first case of deadly Chinese coronavirus – reports,https://on.rt.com/a9lf
+6,FAKE/HOAX,1,rt.com,"Chinese coronavirus spreads with no visible symptoms as death toll grows to 81, over 2,800 infected worldwide",https://on.rt.com/a9sp
+7,FAKE/HOAX,1,dcdirtylaundry.com,Pentagon orders NORTHCOM to prepare for coronavirus “pandemic” - DC Dirty Laundry,https://dcdirtylaundry.com/pentagon-orders-northcom-to-prepare-for-coronavirus-pandemic/
+8,CONSPIRACY/JUNKSCI,1,zerohedge.com,10 Very Important Questions That The Mainstream Media Should Be Asking About This Coronavirus Outbreak,https://www.zerohedge.com/geopolitical/10-very-important-questions-mainstream-media-should-be-asking-about-coronavirus
+9,FAKE/HOAX,1,rt.com,Italy becomes Europe’s largest coronavirus hot spot with 3 deaths & 79 cases across 5 regions,https://www.rt.com/news/481488-italy-coronavirus-death-lockdown/
+10,FAKE/HOAX,1,dailymail.co.uk,US scientists have completed a coronavirus vaccine ,https://www.dailymail.co.uk/health/article-8026293/amp/us-scientists-completed-coronavirus-vaccine.html?__twitter_impression=true
+11,CONSPIRACY/JUNKSCI,1,zerohedge.com,81% Of South Korean 'End Of Days' Worshippers Test Positive For Coronavirus,https://www.zerohedge.com/political/81-south-korean-end-days-worshippers-test-positive-coronavirus
+12,FAKE/HOAX,1,breitbart.com,Just 20% of Germans Confident Merkel Can Handle Coronavirus Outbreak,https://www.breitbart.com/europe/2020/03/06/just-20-per-cent-germans-confident-merkel-govt-handle-coronavirus-outbreak/
+13,FAKE/HOAX,1,summit.news,"Migrants at Refugee Camp in Germany Riot, Display ISIS Flags After They’re Put Under Coronavirus Quarantine",https://summit.news/2020/03/18/migrants-at-refugee-camp-in-germany-riot-display-isis-flags-after-theyre-put-under-coronavirus-quarantine/
+14,CONSPIRACY/JUNKSCI,1,zerohedge.com,COVID-19 - Evidence Over Hysteria,https://www.zerohedge.com/health/covid-19-evidence-over-hysteria
+15,FAKE/HOAX,1,gatestoneinstitute.org,The Coronavirus: Death of Globalization or a Rebirth?,https://www.gatestoneinstitute.org/15775/coronavirus-globalization#.xntyqumv5oe.twitter
+16,FAKE/HOAX,1,gatestoneinstitute.org,Dealing with Coronavirus Reveals Cultural Differences,https://www.gatestoneinstitute.org/15731/dealing-with-coronavirus-reveals-cultural#.xn-ih5jnr-m.twitter
+17,CONSPIRACY/JUNKSCI,1,zerohedge.com,More Evidence China Is Lying; Number Of Urns More Than Double Reported Coronavirus Deaths,https://www.zerohedge.com/health/more-evidence-china-lying-number-urns-more-double-reported-coronavirus-deaths
+18,FAKE/HOAX,1,breitbart.com,Iceland: Coronavirus Testing Reveals 50% of Cases are Asymptomatic,https://www.breitbart.com/europe/2020/04/02/iceland-coronavirus-testing-suggests-50-of-cases-are-asymptomatic/
+19,FAKE/HOAX,1,rt.com,"Sweden’s flawed coronavirus battle plan hits the poor & elderly, resulting in worst death count among Nordic countries",https://on.rt.com/aemq
+20,CONSPIRACY/JUNKSCI,1,nationalfile.com,,https://nationalfile.com/china-restricts-research-into-covid-19-origin-as-coronavirus-cases-reappear/

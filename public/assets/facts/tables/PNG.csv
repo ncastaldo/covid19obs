@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,FAKE/HOAX,6,gnews.org,,https://gnews.org/89749/
-2,CONSPIRACY/JUNKSCI,6,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-3,FAKE/HOAX,5,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-4,FAKE/HOAX,4,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
-5,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Kills Man In Shanghai As China Confirms Nearly 2,000 Cases",https://www.zerohedge.com/political/56-million-chinese-lockdown-virus-spreads-australia-malaysia
-6,FAKE/HOAX,3,dailymail.co.uk,Australian scientists develop coronavirus in a lab,https://www.dailymail.co.uk/news/article-7939673/australian-scientists-develop-coronavirus-lab.html
-7,FAKE/HOAX,3,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
-8,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-9,FAKE/HOAX,3,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
-10,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997?utm_source=facebook.com&utm_medium=social&utm_campaign=sharebar
-11,CONSPIRACY/JUNKSCI,2,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-12,FAKE/HOAX,2,breaking911.com,"Los Angeles County Confirms First Case of Deadly Coronavirus, Fourth Case Confirmed In U.S. - Breaking911",https://breaking911.com/breaking-los-angeles-county-confirms-first-case-of-deadly-coronavirus-fourth-case-confirmed-in-u-s/
-13,CONSPIRACY/JUNKSCI,2,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
-14,FAKE/HOAX,2,rt.com,Clucking hell! New outbreak of BIRD FLU sees thousands of chickens culled in coronavirus-stricken China,https://on.rt.com/aa9r
-15,CONSPIRACY/JUNKSCI,2,zerohedge.com,"There Are ""No Effective Remedies"" For Coronavirus, WHO Says",https://www.zerohedge.com/markets/there-are-no-effective-remedies-coronavirus-who-says
-16,CONSPIRACY/JUNKSCI,2,zerohedge.com,White House Asks Scientists To Investigate Whether 2019-nCoV Was Bio-Engineered,https://www.zerohedge.com/health/white-house-asks-scientists-investigate-whether-2019-ncov-was-bio-engineered
-17,CONSPIRACY/JUNKSCI,2,therightstuff.biz,,https://therightstuff.biz/2020/02/23/the-paranormies-present-s5-ep-1-the-kung-flu-coronavirus/
-18,FAKE/HOAX,2,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
-19,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-20,CONSPIRACY/JUNKSCI,2,zerohedge.com,Kim Jong Un Threatens To Execute Politburo Members If They Fail To Contain Coronavirus Outbreak,https://www.zerohedge.com/geopolitical/kim-jong-un-threatens-execute-politburo-members-if-they-fail-contain-coronavirus
+1,FAKE/HOAX,11,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+2,FAKE/HOAX,6,gnews.org,,https://gnews.org/89749/
+3,CONSPIRACY/JUNKSCI,4,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+4,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Kills Man In Shanghai As China Confirms Nearly 2,000 Cases",https://www.zerohedge.com/political/56-million-chinese-lockdown-virus-spreads-australia-malaysia
+5,FAKE/HOAX,3,dailymail.co.uk,Australian scientists develop coronavirus in a lab,https://www.dailymail.co.uk/news/article-7939673/australian-scientists-develop-coronavirus-lab.html
+6,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+7,FAKE/HOAX,3,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
+8,FAKE/HOAX,3,dailymail.co.uk,Ethiopia taps diaspora doctors to stay ahead of coronavirus,https://www.dailymail.co.uk/wires/afp/article-8311059/ethiopia-taps-diaspora-doctors-stay-ahead-coronavirus.html
+9,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997?utm_source=facebook.com&utm_medium=social&utm_campaign=sharebar
+10,CONSPIRACY/JUNKSCI,2,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+11,FAKE/HOAX,2,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+12,FAKE/HOAX,2,rt.com,Clucking hell! New outbreak of BIRD FLU sees thousands of chickens culled in coronavirus-stricken China,https://on.rt.com/aa9r
+13,CONSPIRACY/JUNKSCI,2,zerohedge.com,"There Are ""No Effective Remedies"" For Coronavirus, WHO Says",https://www.zerohedge.com/markets/there-are-no-effective-remedies-coronavirus-who-says
+14,CONSPIRACY/JUNKSCI,2,therightstuff.biz,,https://therightstuff.biz/2020/02/23/the-paranormies-present-s5-ep-1-the-kung-flu-coronavirus/
+15,CONSPIRACY/JUNKSCI,2,zerohedge.com,Kim Jong Un Threatens To Execute Politburo Members If They Fail To Contain Coronavirus Outbreak,https://www.zerohedge.com/geopolitical/kim-jong-un-threatens-execute-politburo-members-if-they-fail-contain-coronavirus
+16,FAKE/HOAX,2,vdare.com,,https://vdare.com/articles/it-s-official-chinese-scientists-find-genetic-explanation-for-coronavirus-discriminating-by-race
+17,FAKE/HOAX,2,summit.news,Coronavirus Patient Zero in Italy Was Pakistani Migrant Who Refused to Self-Isolate,https://summit.news/2020/03/05/coronavirus-patient-zero-in-italy-was-pakistani-migrant-who-refused-to-self-isolate/
+18,CONSPIRACY/JUNKSCI,2,zerohedge.com,COVID-19 - Evidence Over Hysteria,https://www.zerohedge.com/health/covid-19-evidence-over-hysteria
+19,FAKE/HOAX,2,redice.tv,The Coronavirus Is Teaching Us a Hard Lesson About Our Past,https://redice.tv/red-ice-tv/the-coronavirus-is-teaching-us-a-hard-lesson-about-our-past
+20,FAKE/HOAX,2,thegatewaypundit.com,Only 632 People Watch Sleepy Joe Biden's Coronavirus Town Hall on YouTube,https://www.thegatewaypundit.com/2020/03/only-632-people-watch-sleepy-joe-bidens-coronavirus-town-hall-on-youtube/

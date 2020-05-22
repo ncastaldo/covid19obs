@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,FAKE/HOAX,4,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
-2,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/china-registra-un-brote-de-gripe-aviar-en-zona-cercana-al-foco-del-coronavirus/
-3,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-23/
-4,FAKE/HOAX,2,rt.com,"China coronavirus death toll soars to 813 with 37,000+ cases worldwide",https://on.rt.com/aaov
-5,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/lo-ultimo-eeuu-florida-registra-dos-nuevos-presuntos-casos-de-coronavirus/
-6,CONSPIRACY/JUNKSCI,2,globalresearch.ca,COVID-19: Further Evidence that the Virus Originated in the US - Global Research,https://www.globalresearch.ca/covid-19-further-evidence-virus-originated-us/5706078
-7,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/ultima-hora/ultima-hora-maduro-pide-credito-de-5-mil-millones-de-dolares-al-fmi-para-enfrentar-la-pandemia-del-coronavirus/
-8,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/principales/ultima-hora-colombia-confirma-su-primera-muerte-por-el-coronavirus/
-9,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-canada-reportan-un-posible-caso-de-coronavirus-en-toronto/
-10,FAKE/HOAX,1,dailymail.co.uk,Chinese builders to turn a field into a coronavirus hospital in A WEEK,https://www.dailymail.co.uk/news/article-7924249/chinese-builders-work-day-night-turn-field-coronavirus-hospital-week.html
-11,FAKE/HOAX,1,sputniknews.com,Twice Lucky: FBI Drops Fight Against Apple Second Time Around,https://sptnkne.ws/bg4s
-12,FAKE/HOAX,1,rt.com,"China’s PM calls for ‘resolute fight’ against coronavirus outbreak as death toll climbs to 106 with over 1,700 new cases",https://on.rt.com/a9v1
-13,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/nacionales/urgente-40-privados-de-libertad-del-reten-de-cabimas-fueron-diagnosticados-con-tuberculosis/
-14,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/infectados-con-coronavirus-intentan-propagar-virus-escupiendo-a-doctores-y-enfermeras-en-china/
-15,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-confirman-el-quinto-caso-de-coronavirus-en-alemania/
-16,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/oms-analiza-si-declara-la-emergencia-internacional-por-el-coronavirus/
-17,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/sport/football/salomon-rondon-snubs-man-utd-21403701
-18,CONSPIRACY/JUNKSCI,1,zerohedge.com,,http://zerohedge.com
-19,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/coronavirus-drone-army-deployed-spray-21399569
-20,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Won't Turn You Into A 'Zombie,' Says Malaysian Government",https://www.zerohedge.com/markets/coronavirus-wont-turn-you-zombie-says-malaysian-government
+1,FAKE/HOAX,7,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest?fbclid=iwar3piqce96nhzoohwwnppwu7j8y_zc_wqgtwlt2pyglgh3lcbd00cftzo-8
+2,FAKE/HOAX,4,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
+3,FAKE/HOAX,4,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+4,FAKE/HOAX,3,albertonews.com,,https://albertonews.com/internacionales/el-salvador-presidente-bukele-bate-record-con-97-de-aprobacion-en-gestion-frente-a-la-pandemia-covid-19/
+5,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/china-registra-un-brote-de-gripe-aviar-en-zona-cercana-al-foco-del-coronavirus/
+6,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-23/
+7,FAKE/HOAX,2,rt.com,"China coronavirus death toll soars to 813 with 37,000+ cases worldwide",https://on.rt.com/aaov
+8,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/lo-ultimo-eeuu-florida-registra-dos-nuevos-presuntos-casos-de-coronavirus/
+9,CONSPIRACY/JUNKSCI,2,globalresearch.ca,COVID-19: Further Evidence that the Virus Originated in the US - Global Research,https://www.globalresearch.ca/covid-19-further-evidence-virus-originated-us/5706078
+10,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/ultima-hora/ultima-hora-maduro-pide-credito-de-5-mil-millones-de-dolares-al-fmi-para-enfrentar-la-pandemia-del-coronavirus/
+11,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/principales/ultima-hora-colombia-confirma-su-primera-muerte-por-el-coronavirus/
+12,FAKE/HOAX,2,albertonews.com,Cada 17 minutos muere una persona en Nueva York por coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/ultima-hora-cada-17-minutos-muere-una-persona-en-nueva-york-por-coronavirus/
+13,FAKE/HOAX,2,judicialwatch.org,,https://www.judicialwatch.org/investigative-bulletin/trumps-winning-coronavirus-bet/
+14,FAKE/HOAX,2,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
+15,FAKE/HOAX,2,albertonews.com,La OMS REITERA que el coronavirus “tiene un origen animal” y no fue manipulado en un laboratorio chino - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/la-oms-reitera-que-el-coronavirus-tiene-un-origen-animal-y-no-fue-manipulado-en-un-laboratorio-chino/
+16,FAKE/HOAX,2,breitbart.com,Congressman: Pelosi Blocking Investigation into China Coronavirus Origins,https://www.breitbart.com/politics/2020/05/03/congressman-nancy-pelosi-blocking-investigation-chinese-coronavirus-origins/
+17,FAKE/HOAX,1,dailymail.co.uk,Chinese builders to turn a field into a coronavirus hospital in A WEEK,https://www.dailymail.co.uk/news/article-7924249/chinese-builders-work-day-night-turn-field-coronavirus-hospital-week.html
+18,FAKE/HOAX,1,sputniknews.com,Twice Lucky: FBI Drops Fight Against Apple Second Time Around,https://sptnkne.ws/bg4s
+19,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-canada-reportan-un-posible-caso-de-coronavirus-en-toronto/
+20,FAKE/HOAX,1,rt.com,"China’s PM calls for ‘resolute fight’ against coronavirus outbreak as death toll climbs to 106 with over 1,700 new cases",https://on.rt.com/a9v1

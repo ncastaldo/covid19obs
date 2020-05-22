@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
 1,CONSPIRACY/JUNKSCI,5,brightside.me,,https://brightside.me/inspiration-health/a-teacher-did-an-experiment-to-show-the-power-of-handwashing-and-you-cant-stay-unimpressed-795485/?utm_source=fb_brightside&utm_medium=fb_organic&utm_campaign=fb_gr_brightside&fbclid=iwar01ccj_vwidixtz0vli-jy5cizz0zujjghgcuyijfodxzuen-biochuy7c
 2,FAKE/HOAX,2,gnews.org,,https://gnews.org/89749/
-3,CONSPIRACY/JUNKSCI,2,zerohedge.com,,http://zerohedge.com
-4,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-5,FAKE/HOAX,1,theduran.com,,https://theduran.com/china-virus-cases-almost-double-overnight-deaths-top-100-as-north-korea-closes-border/
+3,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+4,FAKE/HOAX,1,rt.com,"Dozens of drugs available to treat ‘coronavirus,’ but global pandemic possible by March – Moscow experts",https://www.rt.com/russia/479293-coronavirus-epidemic-possible-march-russia/
+5,FAKE/HOAX,1,rt.com,,https://www.rt.com/business/479300-stock-markets-plunge-coronavirus/
 6,FAKE/HOAX,1,rt.com,,https://www.rt.com/news/479394-wuhan-ghost-town-video-coronavirus/
-7,FAKE/HOAX,1,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
-8,FAKE/HOAX,1,rt.com,"Dozens of drugs available to treat ‘coronavirus,’ but global pandemic possible by March – Moscow experts",https://www.rt.com/russia/479293-coronavirus-epidemic-possible-march-russia/
-9,FAKE/HOAX,1,rt.com,,https://www.rt.com/business/479300-stock-markets-plunge-coronavirus/
-10,CONSPIRACY/JUNKSCI,1,off-guardian.org,,https://off-guardian.org/2020/01/29/coronavirus-media-reveals-a-very-familiar-agenda/
-11,FAKE/HOAX,1,dailymail.co.uk,Bill Gates predicted a Coronavirus-like outbreak,https://www.dailymail.co.uk/news/article-7951293/bill-gates-predicted-coronavirus-like-outbreak-2019-netflix-documentary.html
-12,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Philippines Reports First Death Due To Coronavirus Outside China; 137,600 Under Observation In China",https://www.zerohedge.com/geopolitical/second-chinese-city-bars-residents-leaving-their-homes-hong-kong-workers-demand-city
-13,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Social Media Networks Vow To Censor ""Misinformation"" About Coronavirus",https://www.zerohedge.com/political/social-media-networks-vow-censor-misinformation-about-coronavirus
-14,CONSPIRACY/JUNKSCI,1,naturalnews.com,"In explosive interview, author of Bioweapons Act Dr. Francis Boyle confirms coronavirus is an ""offensive biological warfare weapon""",https://www.naturalnews.com/2020-02-04-dr-francis-boyle-confirms-coronavirus-an-offensive-biological-warfare-weapon.html
-15,CONSPIRACY/JUNKSCI,1,zerohedge.com,Wuhan-400 Coronavirus: 1981 Novel Predicts Virus Origin,https://www.zerohedge.com/geopolitical/wuhan-400-coronavirus-1981-novel-predicts-virus-origin
-16,FAKE/HOAX,1,gnews.org,,https://gnews.org/zh-hans/116227/
-17,CONSPIRACY/JUNKSCI,1,zerohedge.com,"If CDC Believes US Coronavirus Outbreak Is ""Imminent"", Why Have Only 400 People Been Tested?",https://www.zerohedge.com/geopolitical/expert-warns-dysfunctional-us-health-care-system-faces-critical-shortage-coronavirus
-18,CONSPIRACY/JUNKSCI,1,off-guardian.org,,https://off-guardian.org/2020/02/25/coronavirus-hysteria-reaches-tipping-point/
-19,CONSPIRACY/JUNKSCI,1,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-20,CONSPIRACY/JUNKSCI,1,off-guardian.org,,https://off-guardian.org/2020/02/29/media-whipping-covid19-panic-to-unprecedented-heights/
+7,FAKE/HOAX,1,theduran.com,,https://theduran.com/china-virus-cases-almost-double-overnight-deaths-top-100-as-north-korea-closes-border/
+8,CONSPIRACY/JUNKSCI,1,off-guardian.org,,https://off-guardian.org/2020/01/29/coronavirus-media-reveals-a-very-familiar-agenda/
+9,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Philippines Reports First Death Due To Coronavirus Outside China; 137,600 Under Observation In China",https://www.zerohedge.com/geopolitical/second-chinese-city-bars-residents-leaving-their-homes-hong-kong-workers-demand-city
+10,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Social Media Networks Vow To Censor ""Misinformation"" About Coronavirus",https://www.zerohedge.com/political/social-media-networks-vow-censor-misinformation-about-coronavirus
+11,CONSPIRACY/JUNKSCI,1,zerohedge.com,Wuhan-400 Coronavirus: 1981 Novel Predicts Virus Origin,https://www.zerohedge.com/geopolitical/wuhan-400-coronavirus-1981-novel-predicts-virus-origin
+12,FAKE/HOAX,1,gnews.org,,https://gnews.org/zh-hans/116227/
+13,CONSPIRACY/JUNKSCI,1,zerohedge.com,"If CDC Believes US Coronavirus Outbreak Is ""Imminent"", Why Have Only 400 People Been Tested?",https://www.zerohedge.com/geopolitical/expert-warns-dysfunctional-us-health-care-system-faces-critical-shortage-coronavirus
+14,CONSPIRACY/JUNKSCI,1,off-guardian.org,,https://off-guardian.org/2020/02/25/coronavirus-hysteria-reaches-tipping-point/
+15,CONSPIRACY/JUNKSCI,1,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+16,CONSPIRACY/JUNKSCI,1,off-guardian.org,,https://off-guardian.org/2020/02/29/media-whipping-covid19-panic-to-unprecedented-heights/
+17,FAKE/HOAX,1,politicususa.com,,https://www.politicususa.com/2020/03/04/pelosi-humiliates-trump-with-coronavirus-response-bill.html
+18,FAKE/HOAX,1,politicususa.com,,https://www.politicususa.com/2020/03/09/trump-calls-wall-streets-coronavirus-concerns-fake-news-in-monday-morning-tweets.html
+19,FAKE/HOAX,1,breitbart.com,All of Italy's Regions Infected with Coronavirus,https://www.breitbart.com/europe/2020/03/05/all-of-italys-regions-infected-with-coronavirus/
+20,CONSPIRACY/JUNKSCI,1,greenmedinfo.com,Op-Ed: Does the 2019 Coronavirus Exist?,https://www.greenmedinfo.com/blog/does-2019-coronavirus-exist
