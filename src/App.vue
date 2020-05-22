@@ -3,7 +3,10 @@
     id="app"
   >
     <Header />
-    <Content v-if="storeReady" />
+
+    <v-content>
+      <router-view v-if="storeReady" />
+    </v-content>
     <Footer v-if="storeReady" />
   </v-app>
 </template>
@@ -12,14 +15,12 @@
 import { mapGetters } from 'vuex'
 
 import Header from './components/Header'
-import Content from './components/Content'
 import Footer from './components/Footer'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Content,
     Footer
   },
   computed: {
