@@ -1,25 +1,35 @@
 <template>
-  <div
-    id="leaflet-map"
-    style="height: 500px"
-  />
+  <div>
+    <DateSlider />
+    <div
+      id="leaflet-map"
+      style="height: 500px"
+    />
+  </div>
 </template>
 
 <script>
 import { map, tileLayer, geoJSON, fitBounds } from 'leaflet'
 import { mapGetters } from 'vuex'
 
-import { interpolateReds } from 'd3-scale-chromatic'
-import { randomUniform } from 'd3-random'
 import { extent } from 'd3-array'
+
 import * as d3Scale from 'd3-scale'
+import * as d3ScaleChromatic from 'd3-scale-chromatic'
+
+import DateSlider from '../components/DateSlider'
 
 import mapDictsJson from '../assets/mapDicts'
+
+const INVALID_COLOR = '#888'
 
 const tileLayerLink = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png'
 const attribution = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
 
 export default {
+  components: {
+    DateSlider
+  },
   data () {
     return {
       polygons: null,
@@ -31,22 +41,17 @@ export default {
       fnColorScale: null,
 
       mapDictId: null,
-      mapData: null
+      mapData: null,
+      mapInfo: null
     }
   },
   computed: {
     ...mapGetters({
-      locations: 'getLocations'
+      locations: 'getLocations',
+      dateIndex: 'getDateIndex'
     }),
     mapDict () {
       return mapDictsJson.find(json => json.id === this.mapDictId)
-    },
-    mapColors () {
-      return Object.entries(this.mapData || {})
-        .reduce((acc, [locationId, list]) => ({
-          ...acc,
-          locationId: list[0] // first one
-        }), {})
     },
     features () {
       return this.locations.filter(l => l.geometry)
@@ -60,12 +65,20 @@ export default {
   watch: {
     mapDict (mDict) {
       this.fnColorScale = d3Scale[mDict.scaleColorType]()
-        .interpolator(mDict.interpolator)
+        .interpolator(d3ScaleChromatic[mDict.interpolator])
     },
-    mapData (mData) {
-      const domain = extent(Object.values(this.mapColors)) // first one
-      this.fnColorScale.domain(domain)
-      console.log(this.mapColors, this.fnColorScale.domain())
+    dateIndex () {
+      this.computeMapInfo()
+    },
+    mapData () {
+      this.computeMapInfo()
+    },
+    mapInfo () {
+      this.lLocationsLayer.eachLayer(layer => {
+        const locationId = layer.feature.properties.locationId
+        const fillColor = locationId in this.mapInfo ? this.mapInfo[locationId].color : INVALID_COLOR
+        layer.setStyle({ fillColor })
+      })
     }
   },
   created () {
@@ -81,16 +94,17 @@ export default {
       attribution
     })
     this.lLocationsLayer = geoJSON(this.features, {
-      style: this.fnFeatureStyle,
+      style: {
+        fillColor: '#888', // https://webkid.io/blog/fancy-map-effects-with-css/
+        fillOpacity: 0.9,
+        color: '#fff',
+        weight: 0.5
+      },
       onEachFeature: this.fnOnEachFeature
     })
 
     // this.lTileLayer.addTo(this.lMap)
     this.lLocationsLayer.addTo(this.lMap)
-
-    setInterval(() => {
-      this.lLocationsLayer.eachLayer(layer => layer.setStyle({ fillColor: interpolateReds(randomUniform()()) }))
-    }, 1500)
   },
   methods: {
     fetchData () {
@@ -99,13 +113,25 @@ export default {
         .then(res => res.json())
         .then(data => { this.mapData = data })
     },
-    fnFeatureStyle (feature) {
-      return {
-        fillColor: this.fnColorScale ? this.fnColorScale(randomUniform()()) : '#888', // https://webkid.io/blog/fancy-map-effects-with-css/
-        fillOpacity: 0.9,
-        color: '#fff',
-        weight: 0.5
-      }
+    computeMapInfo () {
+      const fnGetValue = list => list !== null ? list[this.dateIndex] : null
+      const fnGetColor = value => value !== null ? this.fnColorScale(value) : INVALID_COLOR
+
+      // color scale domain update
+      const domain = extent(Object.values(this.mapData).map(fnGetValue))
+      this.fnColorScale.domain(domain)
+
+      // mapInfo computation
+      this.mapInfo = Object.entries(this.mapData || {})
+        .filter(([locationId, list]) => locationId !== '_WORLD')
+        .map(([locationId, list]) => [locationId, fnGetValue(list)])
+        .reduce((acc, [locationId, value]) => ({
+          ...acc,
+          [locationId]: {
+            value,
+            color: fnGetColor(value)
+          }
+        }), {})
     },
     fnOnEachFeature (feature, layer) {
       layer.on({
@@ -128,7 +154,7 @@ export default {
 }
 
 .leaflet-container path {
-  transition: fill 1s;
+  transition: fill 0.5s;
 }
 
 </style>
