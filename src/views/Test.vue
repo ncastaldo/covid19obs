@@ -11,6 +11,10 @@ import { mapGetters } from 'vuex'
 
 import { interpolateReds } from 'd3-scale-chromatic'
 import { randomUniform } from 'd3-random'
+import { extent } from 'd3-array'
+import * as d3Scale from 'd3-scale'
+
+import mapDictsJson from '../assets/mapDicts'
 
 const tileLayerLink = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png'
 const attribution = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
@@ -22,13 +26,28 @@ export default {
 
       lMap: null,
       lTileLayer: null,
-      lLocationsLayer: null
+      lLocationsLayer: null,
+
+      fnColorScale: null,
+
+      mapDictId: null,
+      mapData: null
     }
   },
   computed: {
     ...mapGetters({
       locations: 'getLocations'
     }),
+    mapDict () {
+      return mapDictsJson.find(json => json.id === this.mapDictId)
+    },
+    mapColors () {
+      return Object.entries(this.mapData || {})
+        .reduce((acc, [locationId, list]) => ({
+          ...acc,
+          locationId: list[0] // first one
+        }), {})
+    },
     features () {
       return this.locations.filter(l => l.geometry)
         .map(({ geometry, ...properties }) => ({
@@ -38,18 +57,32 @@ export default {
         }))
     }
   },
+  watch: {
+    mapDict (mDict) {
+      this.fnColorScale = d3Scale[mDict.scaleColorType]()
+        .interpolator(mDict.interpolator)
+    },
+    mapData (mData) {
+      const domain = extent(Object.values(this.mapColors)) // first one
+      this.fnColorScale.domain(domain)
+      console.log(this.mapColors, this.fnColorScale.domain())
+    }
+  },
+  created () {
+    this.mapDictId = 'confirmed'
+    this.fetchData()
+  },
   mounted () {
-    this.lMap = map('leaflet-map').setView([51.505, -0.09], 2)
-    this.lTileLayer = tileLayer(tileLayerLink, {
+    this.lMap = map('leaflet-map', {
       minZoom: 2,
-      maxZoom: 10,
+      maxZoom: 6
+    }).setView([41.90, 12.49], 2)
+    this.lTileLayer = tileLayer(tileLayerLink, {
       attribution
     })
     this.lLocationsLayer = geoJSON(this.features, {
       style: this.fnFeatureStyle,
-      onEachFeature: this.fnOnEachFeature,
-      minZoom: 2,
-      maxZoom: 10
+      onEachFeature: this.fnOnEachFeature
     })
 
     // this.lTileLayer.addTo(this.lMap)
@@ -60,9 +93,15 @@ export default {
     }, 1500)
   },
   methods: {
+    fetchData () {
+      // loading the actual data
+      fetch(`/assets/map_dicts/${this.mapDictId}.json`)
+        .then(res => res.json())
+        .then(data => { this.mapData = data })
+    },
     fnFeatureStyle (feature) {
       return {
-        fillColor: interpolateReds(randomUniform()()), // https://webkid.io/blog/fancy-map-effects-with-css/
+        fillColor: this.fnColorScale ? this.fnColorScale(randomUniform()()) : '#888', // https://webkid.io/blog/fancy-map-effects-with-css/
         fillOpacity: 0.9,
         color: '#fff',
         weight: 0.5

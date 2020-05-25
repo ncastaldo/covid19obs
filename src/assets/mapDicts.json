@@ -10,7 +10,6 @@
     "ticks": 2,
     "baseDomain": [0, 0]
   },
-
   {
     "id": "risk_index",
     "name": "Risk Index",
