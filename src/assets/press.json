@@ -15,6 +15,12 @@
         "link": "https://www.washingtonpost.com/science/2020/03/17/analysis-millions-coronavirus-tweets-shows-whole-world-is-sad/"
       },
       {
+        "id": "NATURE_MACHINE_INTELLIGENCE",
+        "text": "Artificial intelligence cooperation to support the global response to COVID-19",
+        "logo": "assets/static_img/press_logo/NATURE_MACHINE_INTELLIGENCE.svg",
+        "link": "https://www.nature.com/articles/s42256-020-0184-3"
+      },
+      {
         "id": "NBC",
         "text": "GLOBAL HANGOUT: Conversations on Coronavirus",
         "logo": "assets/static_img/press_logo/NBC.svg",

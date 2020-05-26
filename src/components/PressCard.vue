@@ -37,7 +37,10 @@
 
               <span v-if="el.link">
                 <br>
-                <a :href="el.link">Link</a>
+                <a
+                  :href="el.link"
+                  target="_blank"
+                >Link</a>
               </span>
             </v-card-text>
           </v-card>

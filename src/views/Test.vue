@@ -1,15 +1,19 @@
 <template>
   <div>
     <DateSlider />
-    <div
-      id="leaflet-map"
-      style="height: 500px"
+    <CountryMapChart
+      v-if="false"
+      :countryDict="countryDict"
+      :countryInfo="countryInfo"
+    />
+    <CountryBarChart
+      :countryDict="countryDict"
+      :countryInfo="countryInfo"
     />
   </div>
 </template>
 
 <script>
-import { map, tileLayer, geoJSON, fitBounds } from 'leaflet'
 import { mapGetters } from 'vuex'
 
 import { extent } from 'd3-array'
@@ -18,143 +22,85 @@ import * as d3Scale from 'd3-scale'
 import * as d3ScaleChromatic from 'd3-scale-chromatic'
 
 import DateSlider from '../components/DateSlider'
+import CountryMapChart from '../components/CountryMapChart'
+import CountryBarChart from '../components/CountryBarChart'
 
-import mapDictsJson from '../assets/mapDicts'
+import countryDicts from '../assets/mapDicts'
 
-const INVALID_COLOR = '#888'
-
-const tileLayerLink = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png'
-const attribution = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+const INVALID_COLOR = '#aaa'
 
 export default {
   components: {
-    DateSlider
+    DateSlider,
+    CountryMapChart,
+    CountryBarChart
   },
   data () {
     return {
-      polygons: null,
-
-      lMap: null,
-      lTileLayer: null,
-      lLocationsLayer: null,
-
       fnColorScale: null,
 
-      mapDictId: null,
-      mapData: null,
-      mapInfo: null
+      countryDicts,
+      countryDictId: null,
+
+      countryData: null,
+
+      countryInfo: null
     }
   },
   computed: {
     ...mapGetters({
-      locations: 'getLocations',
       dateIndex: 'getDateIndex'
     }),
-    mapDict () {
-      return mapDictsJson.find(json => json.id === this.mapDictId)
-    },
-    features () {
-      return this.locations.filter(l => l.geometry)
-        .map(({ geometry, ...properties }) => ({
-          type: 'Feature',
-          geometry,
-          properties
-        }))
+    countryDict () {
+      return countryDicts.find(json => json.id === this.countryDictId)
     }
   },
   watch: {
-    mapDict (mDict) {
+    countryDict (mDict) {
       this.fnColorScale = d3Scale[mDict.scaleColorType]()
         .interpolator(d3ScaleChromatic[mDict.interpolator])
     },
     dateIndex () {
-      this.computeMapInfo()
+      this.computeCountryInfo()
     },
-    mapData () {
-      this.computeMapInfo()
-    },
-    mapInfo () {
-      this.lLocationsLayer.eachLayer(layer => {
-        const locationId = layer.feature.properties.locationId
-        const fillColor = locationId in this.mapInfo ? this.mapInfo[locationId].color : INVALID_COLOR
-        layer.setStyle({ fillColor })
-      })
+    countryData () {
+      this.computeCountryInfo()
     }
   },
   created () {
-    this.mapDictId = 'confirmed'
-    this.fetchData()
+    this.countryDictId = 'confirmed'
   },
   mounted () {
-    this.lMap = map('leaflet-map', {
-      minZoom: 2,
-      maxZoom: 6
-    }).setView([41.90, 12.49], 2)
-    this.lTileLayer = tileLayer(tileLayerLink, {
-      attribution
-    })
-    this.lLocationsLayer = geoJSON(this.features, {
-      style: {
-        fillColor: '#888', // https://webkid.io/blog/fancy-map-effects-with-css/
-        fillOpacity: 0.9,
-        color: '#fff',
-        weight: 0.5
-      },
-      onEachFeature: this.fnOnEachFeature
-    })
-
-    // this.lTileLayer.addTo(this.lMap)
-    this.lLocationsLayer.addTo(this.lMap)
+    this.fetchData()
   },
   methods: {
     fetchData () {
       // loading the actual data
-      fetch(`/assets/map_dicts/${this.mapDictId}.json`)
+      fetch(`/assets/map_dicts/${this.countryDictId}.json`)
         .then(res => res.json())
-        .then(data => { this.mapData = data })
+        .then(data => { this.countryData = data })
     },
-    computeMapInfo () {
+    computeCountryInfo () {
       const fnGetValue = list => list !== null ? list[this.dateIndex] : null
       const fnGetColor = value => value !== null ? this.fnColorScale(value) : INVALID_COLOR
 
       // color scale domain update
-      const domain = extent(Object.values(this.mapData).map(fnGetValue))
+      const domain = extent(Object.values(this.countryData).map(fnGetValue))
       this.fnColorScale.domain(domain)
 
-      // mapInfo computation
-      this.mapInfo = Object.entries(this.mapData || {})
+      // countryInfo computation
+      this.countryInfo = Object.entries(this.countryData || {})
         .filter(([locationId, list]) => locationId !== '_WORLD')
         .map(([locationId, list]) => [locationId, fnGetValue(list)])
         .reduce((acc, [locationId, value]) => ({
           ...acc,
           [locationId]: {
+            locationId,
             value,
             color: fnGetColor(value)
           }
         }), {})
-    },
-    fnOnEachFeature (feature, layer) {
-      layer.on({
-        click: this.fnZoom
-      })
-    },
-    fnZoom (e) {
-      this.lMap.fitBounds(e.target.getBounds())
     }
   }
 }
 </script>
-
-<style>
-
-@import 'https://unpkg.com/leaflet@1.6.0/dist/leaflet.css';
-
-.leaflet-container {
-    background-color:rgba(0,0,0,0.0);
-}
-
-.leaflet-container path {
-  transition: fill 0.5s;
-}
-
-</style>
