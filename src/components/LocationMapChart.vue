@@ -1,7 +1,7 @@
 <template>
   <div
     id="leaflet-map"
-    style="height: 400px"
+    :style="{ height: `${height}px`}"
   />
 </template>
 
@@ -17,10 +17,8 @@ const baseView = [[41.90, 12.49], 2]
 
 export default {
   props: {
-    countryInfo: {
-      type: Object,
-      default: () => {}
-    }
+    locationInfo: Object,
+    height: Number
   },
   data () {
     return {
@@ -33,23 +31,15 @@ export default {
   },
   computed: {
     ...mapGetters({
-      locations: 'getLocations',
+      features: 'getFeatures',
       location: 'getLocation'
-    }),
-    features () {
-      return this.locations.filter(l => l.locationId !== '_WORLD')
-        .map(({ geometry, ...properties }) => ({
-          type: 'Feature',
-          geometry,
-          properties
-        }))
-    }
+    })
   },
   watch: {
-    countryInfo () {
+    locationInfo () {
       this.lLocationsLayer.eachLayer(layer => {
         const locationId = layer.feature.properties.locationId
-        const fillColor = locationId in this.countryInfo ? this.countryInfo[locationId].color : '#888'
+        const fillColor = locationId in this.locationInfo ? this.locationInfo[locationId].color : '#888'
         layer.setStyle({ fillColor })
       })
     }
@@ -123,6 +113,7 @@ export default {
 @import 'https://unpkg.com/leaflet@1.6.0/dist/leaflet.css';
 
 .leaflet-container {
+    z-index: 1;
     background-color:rgba(0,0,0,0.0);
 }
 

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "confirmed",
+    "name": "COVID19 Cases",
+    "scaleType": "scaleLog",
+    "scaleColorType": "scaleSequentialLog", 
+    "interpolator": "interpolateOrRd",
+    "format": ".1s",
+    "ticks": 2,
+    "baseDomain": [0, 0],
+    "bounds": [0.4, null]
+  },
+  {
+    "id": "risk_index",
+    "name": "Risk Index",
+    "scaleType": "scaleLinear",
+    "scaleColorType": "scaleSequential", 
+    "interpolator": "interpolateBlues",
+    "format": ".2f",
+    "ticks": 7,
+    "baseDomain": [1, 0],
+    "bounds": [0, 1],
+    "fixedDomain": [0, 1]
+  },
+  {
+    "id": "unreliable",
+    "name": "% Unreliable Facts",
+    "scaleType": "scaleLinear",
+    "scaleColorType": "scaleSequential", 
+    "interpolator": "interpolatePurples",
+    "format": ".1%",
+    "ticks": 7,
+    "baseDomain": [1, 0],
+    "bounds": [0, 1],
+    "fixedDomain": [0, 1]
+  },
+  {
+    "id": "sentiment",
+    "name": "Sentiment",
+    "scaleType": "scaleLinear",
+    "scaleColorType": "scaleSequential", 
+    "interpolator": "interpolateRdYlGn",
+    "format": ".2f",
+    "ticks": 7,
+    "baseDomain": [0, 0],
+    "bounds": [0, 1],
+    "fixedDomain": [-0.5, 0.5],
+    "lastPlus": true
+  }
+]

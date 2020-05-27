@@ -1,6 +1,9 @@
 
 <template>
-  <div v-resize:debounce.500="onResize">
+  <div
+    v-resize:debounce.500="onResize"
+    :style="{height: `${chartHeight}px`}"
+  >
     <slot />
   </div>
 </template>
@@ -15,30 +18,34 @@ export default {
   },
   props: {
     charts: Array,
+    maxWidth: Number,
+    // define alternatively height or ratio, height is dominant
+    height: Number,
     ratio: Number
   },
   data () {
     return {
-      width: null
+      chartWidth: null
     }
   },
   computed: {
-    height () {
-      return this.width
-        ? this.width * this.ratio
+    chartHeight () {
+      return this.chartWidth
+        // if height is defined return it, otherwise compute it
+        ? this.height || this.chartWidth * this.ratio
         : null
     }
   },
   watch: {
-    width (newVal, oldVal) {
+    chartWidth (newVal, oldVal) {
       const size = {
         width: newVal,
-        height: this.height
+        height: this.chartHeight
       }
       this.charts.forEach(c => c.size(size))
       if (oldVal) {
         this.$emit('size', size)
-        this.charts.forEach(c => c.draw({ duration: 250 }))
+        this.charts.forEach(c => c.draw({ duration: 0 }))
       }
     }
   },
@@ -49,7 +56,10 @@ export default {
   },
   methods: {
     onResize () {
-      this.width = this.$el.offsetWidth
+      const w = this.$el.offsetWidth
+      this.chartWidth = this.maxWidth
+        ? Math.min(w, this.maxWidth)
+        : w
     }
   }
 

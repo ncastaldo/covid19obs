@@ -52,6 +52,15 @@ const getters = {
       ? locations[locationId]
       : null, // error in this case
 
+  // helper to have only geojson features
+  getFeatures: ({ locations }) => Object.values(locations)
+    .filter(l => l.locationId !== '_WORLD')
+    .map(({ geometry, ...properties }) => ({
+      type: 'Feature',
+      geometry,
+      properties
+    })),
+
   getDates: ({ dates }) => dates,
   getDateIndex: ({ dateIndex }) => dateIndex,
 

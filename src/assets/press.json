@@ -3,6 +3,12 @@
     "title": "International",
     "elements": [
       {
+        "id": "NATURE",
+        "text": "The epic battle against coronavirus misinformation and conspiracy theories",
+        "logo": "assets/static_img/press_logo/NATURE.svg",
+        "link": "https://www.nature.com/articles/d41586-020-01452-z"
+      },
+      {
         "id": "UNESCO",
         "text": "Journalism, press freedom and COVID-19",
         "logo": "assets/static_img/press_logo/UNESCO.svg",
