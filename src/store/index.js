@@ -4,6 +4,8 @@ import Vuex from 'vuex'
 import { utcDay } from 'd3-time'
 import { dsvFormat } from 'd3-dsv'
 
+import location from './location'
+
 // static file
 import world from '../assets/map/world.json'
 
@@ -147,6 +149,9 @@ export default new Vuex.Store({
   mutations,
   getters,
   actions,
+  modules: {
+    location
+  },
   plugins: [
     store => {
       store.dispatch('init')

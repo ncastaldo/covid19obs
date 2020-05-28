@@ -17,7 +17,6 @@ const baseView = [[41.90, 12.49], 2]
 
 export default {
   props: {
-    locationInfo: Object,
     height: Number
   },
   data () {
@@ -32,14 +31,16 @@ export default {
   computed: {
     ...mapGetters({
       features: 'getFeatures',
-      location: 'getLocation'
+      locationMapping: 'location/getLocationMapping'
     })
   },
   watch: {
-    locationInfo () {
+    locationMapping (mapping) {
       this.lLocationsLayer.eachLayer(layer => {
         const locationId = layer.feature.properties.locationId
-        const fillColor = locationId in this.locationInfo ? this.locationInfo[locationId].color : '#888'
+        const fillColor = locationId in mapping
+          ? mapping[locationId].color || '#fff'
+          : '#fff'
         layer.setStyle({ fillColor })
       })
     }
@@ -51,7 +52,7 @@ export default {
       maxBounds: [[-65, -180], [90, 180]] // antartica is out
     })
       .setView(...baseView)
-      .on('click', this.fnRestoreView)
+      // .on('click', this.fnRestoreView)
 
     this.lTileLayer = tileLayer(tileLayerLink, {
       attribution

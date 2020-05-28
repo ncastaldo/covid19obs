@@ -10,13 +10,10 @@
 <script>
 import { byChart, byAxisX, byAxisY, byBars } from 'd3nic'
 import { format } from 'd3-format'
-import * as d3Scale from 'd3-scale'
-import * as d3ScaleChromatic from 'd3-scale-chromatic'
+import { mapGetters } from 'vuex'
 
 export default {
   props: {
-    locationDict: Object,
-    locationInfo: Object,
     height: Number
   },
   data () {
@@ -27,37 +24,41 @@ export default {
     }
   },
   computed: {
+    ...mapGetters({
+      locationInfo: 'location/getLocationInfo',
+      locationMapping: 'location/getLocationMapping'
+    }),
     chartData () {
-      return Object.values(this.locationInfo || {})
+      return Object.values(this.locationMapping || {})
         .sort((a, b) => b.value - a.value)
         .slice(0, 30)
-    },
-    fnContScale (value) {
-      return d3Scale[this.locationDict.scaleType]()
     }
   },
   watch: {
     chartData (value) {
-      this.chart.data(value).draw({ duration: 500 })
+      // using next tick to avoid problems b/w locationInfo and locationMapping
+      this.$nextTick(() => {
+        this.chart.data(value).draw({ duration: 500 })
+      })
     },
-    locationDict (mDict) {
-      this.fnContScale = d3Scale[mDict.scaleType]()
-        .interpolator(d3ScaleChromatic[mDict.interpolator])
-    }
+    locationInfo () { this.updateProperties() }
   },
   mounted () {
     this.createComponents()
     this.createChart()
+    this.updateProperties()
   },
   methods: {
     createComponents () {
       this.byAxisX = byAxisX()
         .position('top')
-        .tickFormat(format(this.locationDict.format))
-        .ticks(this.locationDict.ticks)
-      this.byAxisY = byAxisY().tickFormat(d => d).ticks(250)
+        .tickSizeOuter(0)
+      this.byAxisY = byAxisY()
+        .tickSizeInner(0)
+        .tickSizeOuter(0)
+        .tickFormat(d => d)
+        .ticks(250)
       this.byBars = byBars()
-        .fnLowValue(d => this.locationDict.bounds[0])
         .fnHighValue(d => d.value)
         .fnDefined(d => d.value !== null)
         .fnFill(d => d.color)
@@ -67,9 +68,19 @@ export default {
         .selector('#location-bar-chart')
         .fnKey(d => d.locationId)
         .fnBandValue(d => d.locationId)
-        .contScaleType(this.locationDict.scaleType)
         .padding({ left: 50, right: 50, top: 30, bottom: 10 })
         .components([this.byBars, this.byAxisX, this.byAxisY])
+    },
+    updateProperties () {
+      this.byAxisX
+        .tickFormat(format(this.locationInfo.format))
+        .ticks(this.locationInfo.ticks)
+      this.byBars
+        .fnLowValue(d => this.locationInfo.bounds[0])
+      this.chart
+        .contBaseDomain(this.locationInfo.bounds)
+        .contFixedDomain(this.locationInfo.fixedDomain || null)
+        .contScaleType(this.locationInfo.scaleType)
     }
   }
 }

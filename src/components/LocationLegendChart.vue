@@ -33,18 +33,9 @@ import { byChart, byAxisX, byBars } from 'd3nic'
 import { extent } from 'd3-array'
 import { format } from 'd3-format'
 import * as d3ScaleChromatic from 'd3-scale-chromatic'
+import { mapGetters } from 'vuex'
 
 export default {
-  props: {
-    locationDict: {
-      type: Object,
-      default: () => {}
-    },
-    locationInfo: {
-      type: Object,
-      default: () => {}
-    }
-  },
   data () {
     return {
       chart: null,
@@ -53,42 +44,48 @@ export default {
     }
   },
   computed: {
+    ...mapGetters({
+      locationInfo: 'location/getLocationInfo',
+      locationMapping: 'location/getLocationMapping'
+    }),
     fnInterpolator () {
-      return d3ScaleChromatic[this.locationDict.interpolator]
+      return d3ScaleChromatic[this.locationInfo.interpolator]
     },
     domain () {
-      const values = Object.values(this.locationInfo || {})
+      if (this.locationInfo.fixedDomain) { return this.locationInfo.fixedDomain }
+      const values = Object.values(this.locationMapping || {})
         .map(d => d.value)
         .filter(v => v !== null)
       return extent(values)
     },
     fnFormat () {
-      const f = 'legendFormat' in this.locationDict
-        ? this.locationDict.legendFormat
-        : this.locationDict.format
+      const f = 'legendFormat' in this.locationInfo
+        ? this.locationInfo.legendFormat
+        : this.locationInfo.format
       return format(f)
     }
   },
   watch: {
-    domain (value) {
-      this.byAxisX.tickFormat(this.fnFormat).ticks(this.ticks)
-      this.chart
-        .contScaleType(this.locationDict.scaleType)
-        .data([this.domain])
-        .draw({ duration: 500 })
-    }
+    domain () {
+      // using next tick to avoid problems b/w locationInfo and locationMapping
+      this.$nextTick(() => {
+        this.chart
+          .data([this.domain])
+          .draw({ duration: 500 })
+      })
+    },
+    locationInfo () { this.updateProperties() }
   },
   mounted () {
     this.createComponents()
     this.createChart()
+    this.updateProperties()
   },
   methods: {
     createComponents () {
       this.byAxisX = byAxisX()
         .tickSizeInner(-15)
         .tickSizeOuter(-15)
-        .ticks(this.locationDict.ticks)
-        .tickFormat(this.fnFormat)
         .fnBefore(s => s.classed('axis', true).select('.domain').style('opacity', 0))
       this.byBars = byBars()
         .fnLowValue(d => d[0])
@@ -100,7 +97,15 @@ export default {
         .selector('#location-legend-chart')
         .padding({ top: 0, right: 30, bottom: 20, left: 30 })
         .components([this.byBars, this.byAxisX])
-        .contScaleType(this.locationDict.scaleType)
+    },
+    updateProperties () {
+      this.byAxisX
+        .ticks(this.locationInfo.ticks)
+        .tickFormat(this.fnFormat)
+      this.chart
+        .contBaseDomain(this.locationInfo.contBaseDomain)
+        .contScaleType(this.locationInfo.scaleType)
+      console.log('properties updated')
     }
   }
 }
