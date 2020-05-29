@@ -9,6 +9,8 @@
 </template>
 
 <script>
+import { throttle } from 'lodash'
+
 export default {
   name: 'Tooltip',
   data () {
@@ -18,10 +20,13 @@ export default {
     }
   },
   mounted () {
-    this.$parent.$el.addEventListener('mousemove', this.mousemove)
+    this.$parent.$el.addEventListener('mousemove', this.moveTooltip)
   },
   methods: {
-    mousemove (event) {
+    mousemove: throttle(function (event) {
+      this.moveTooltip(event)
+    }, 10),
+    moveTooltip (event) {
       this.left = event.clientX + 'px'
       this.top = event.clientY + 'px'
     }

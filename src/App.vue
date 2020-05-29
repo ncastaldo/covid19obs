@@ -40,7 +40,7 @@ export default {
   text-align: center;
 }
 
-.axis {
+.tick {
   font-size: 14px
 }
 

@@ -8,12 +8,14 @@
 <script>
 import { select } from 'd3-selection'
 import { map, tileLayer, geoJSON, DomEvent } from 'leaflet'
-import { mapGetters, mapActions } from 'vuex'
+import { mapGetters, mapActions, mapMutations } from 'vuex'
 
 const tileLayerLink = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png'
 const attribution = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
 
 const baseView = [[41.90, 12.49], 2]
+
+const INVALID_COLOR = '#aaa'
 
 export default {
   props: {
@@ -39,8 +41,8 @@ export default {
       this.lLocationsLayer.eachLayer(layer => {
         const locationId = layer.feature.properties.locationId
         const fillColor = locationId in mapping
-          ? mapping[locationId].color || '#fff'
-          : '#fff'
+          ? mapping[locationId].color || INVALID_COLOR
+          : INVALID_COLOR
         layer.setStyle({ fillColor })
       })
     }
@@ -71,6 +73,9 @@ export default {
     this.lLocationsLayer.addTo(this.lMap)
   },
   methods: {
+    ...mapMutations({
+      setLocationFocus: 'location/setLocationFocus'
+    }),
     ...mapActions({
       setLocationId: 'setLocationId'
     }),
@@ -81,7 +86,7 @@ export default {
         mouseout: this.fnOnMouseout
       })
     },
-    fnOnClick (e) {
+    /* fnOnClick (e) {
       DomEvent.stop(e) // https://github.com/Leaflet/Leaflet/issues/3756
       const newId = e.target.feature.properties.locationId
       const oldId = this.location.locationId
@@ -97,13 +102,15 @@ export default {
         this.setLocationId('_WORLD')
         this.lMap.setView(...baseView)
       }
-    },
+    }, */
     fnOnMouseover (e) {
       e.target.setStyle({ weight: 2, fillOpacity: 0.7 })
       select(e.originalEvent.target).raise()
+      this.setLocationFocus(e.target.feature.properties)
     },
     fnOnMouseout (e) {
       e.target.setStyle({ weight: 0.5, fillOpacity: 1 })
+      this.setLocationFocus(null)
     }
   }
 }

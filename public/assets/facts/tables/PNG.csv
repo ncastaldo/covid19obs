@@ -6,16 +6,16 @@ rank,fact_type,count,domain,title,url
 5,FAKE/HOAX,3,dailymail.co.uk,Australian scientists develop coronavirus in a lab,https://www.dailymail.co.uk/news/article-7939673/australian-scientists-develop-coronavirus-lab.html
 6,FAKE/HOAX,3,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
 7,FAKE/HOAX,3,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
-8,FAKE/HOAX,3,dailymail.co.uk,Ethiopia taps diaspora doctors to stay ahead of coronavirus,https://www.dailymail.co.uk/wires/afp/article-8311059/ethiopia-taps-diaspora-doctors-stay-ahead-coronavirus.html
-9,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997?utm_source=facebook.com&utm_medium=social&utm_campaign=sharebar
-10,CONSPIRACY/JUNKSCI,2,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-11,FAKE/HOAX,2,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
-12,FAKE/HOAX,2,rt.com,Clucking hell! New outbreak of BIRD FLU sees thousands of chickens culled in coronavirus-stricken China,https://on.rt.com/aa9r
-13,CONSPIRACY/JUNKSCI,2,zerohedge.com,"There Are ""No Effective Remedies"" For Coronavirus, WHO Says",https://www.zerohedge.com/markets/there-are-no-effective-remedies-coronavirus-who-says
-14,CONSPIRACY/JUNKSCI,2,therightstuff.biz,,https://therightstuff.biz/2020/02/23/the-paranormies-present-s5-ep-1-the-kung-flu-coronavirus/
-15,CONSPIRACY/JUNKSCI,2,zerohedge.com,Kim Jong Un Threatens To Execute Politburo Members If They Fail To Contain Coronavirus Outbreak,https://www.zerohedge.com/geopolitical/kim-jong-un-threatens-execute-politburo-members-if-they-fail-contain-coronavirus
-16,FAKE/HOAX,2,vdare.com,,https://vdare.com/articles/it-s-official-chinese-scientists-find-genetic-explanation-for-coronavirus-discriminating-by-race
-17,FAKE/HOAX,2,summit.news,Coronavirus Patient Zero in Italy Was Pakistani Migrant Who Refused to Self-Isolate,https://summit.news/2020/03/05/coronavirus-patient-zero-in-italy-was-pakistani-migrant-who-refused-to-self-isolate/
-18,CONSPIRACY/JUNKSCI,2,zerohedge.com,COVID-19 - Evidence Over Hysteria,https://www.zerohedge.com/health/covid-19-evidence-over-hysteria
-19,FAKE/HOAX,2,redice.tv,The Coronavirus Is Teaching Us a Hard Lesson About Our Past,https://redice.tv/red-ice-tv/the-coronavirus-is-teaching-us-a-hard-lesson-about-our-past
-20,FAKE/HOAX,2,thegatewaypundit.com,Only 632 People Watch Sleepy Joe Biden's Coronavirus Town Hall on YouTube,https://www.thegatewaypundit.com/2020/03/only-632-people-watch-sleepy-joe-bidens-coronavirus-town-hall-on-youtube/
+8,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997?utm_source=facebook.com&utm_medium=social&utm_campaign=sharebar
+9,CONSPIRACY/JUNKSCI,2,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+10,FAKE/HOAX,2,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+11,FAKE/HOAX,2,rt.com,Clucking hell! New outbreak of BIRD FLU sees thousands of chickens culled in coronavirus-stricken China,https://on.rt.com/aa9r
+12,CONSPIRACY/JUNKSCI,2,zerohedge.com,"There Are ""No Effective Remedies"" For Coronavirus, WHO Says",https://www.zerohedge.com/markets/there-are-no-effective-remedies-coronavirus-who-says
+13,CONSPIRACY/JUNKSCI,2,therightstuff.biz,,https://therightstuff.biz/2020/02/23/the-paranormies-present-s5-ep-1-the-kung-flu-coronavirus/
+14,CONSPIRACY/JUNKSCI,2,zerohedge.com,Kim Jong Un Threatens To Execute Politburo Members If They Fail To Contain Coronavirus Outbreak,https://www.zerohedge.com/geopolitical/kim-jong-un-threatens-execute-politburo-members-if-they-fail-contain-coronavirus
+15,FAKE/HOAX,2,vdare.com,,https://vdare.com/articles/it-s-official-chinese-scientists-find-genetic-explanation-for-coronavirus-discriminating-by-race
+16,FAKE/HOAX,2,summit.news,Coronavirus Patient Zero in Italy Was Pakistani Migrant Who Refused to Self-Isolate,https://summit.news/2020/03/05/coronavirus-patient-zero-in-italy-was-pakistani-migrant-who-refused-to-self-isolate/
+17,CONSPIRACY/JUNKSCI,2,zerohedge.com,COVID-19 - Evidence Over Hysteria,https://www.zerohedge.com/health/covid-19-evidence-over-hysteria
+18,FAKE/HOAX,2,redice.tv,The Coronavirus Is Teaching Us a Hard Lesson About Our Past,https://redice.tv/red-ice-tv/the-coronavirus-is-teaching-us-a-hard-lesson-about-our-past
+19,FAKE/HOAX,2,thegatewaypundit.com,Only 632 People Watch Sleepy Joe Biden's Coronavirus Town Hall on YouTube,https://www.thegatewaypundit.com/2020/03/only-632-people-watch-sleepy-joe-bidens-coronavirus-town-hall-on-youtube/
+20,FAKE/HOAX,2,n.news.naver.com,김재중 “코로나19 확진→만우절 농담”…도넘은 장난,https://n.news.naver.com/entertain/now/article/018/0004610638

@@ -54,6 +54,10 @@ const getters = {
       ? locations[locationId]
       : null, // error in this case
 
+  getLocationById: ({ locations }) => locationId => locationId in locations
+    ? locations[locationId]
+    : null,
+
   // helper to have only geojson features
   getFeatures: ({ locations }) => Object.values(locations)
     .filter(l => l.locationId !== '_WORLD')

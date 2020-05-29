@@ -4,18 +4,18 @@ rank,fact_type,count,domain,title,url
 3,FAKE/HOAX,6,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
 4,FAKE/HOAX,5,worldnewsdailyreport.com,COVID-19: Chinese health authorities confirm patient zero 'had sex with bats',https://worldnewsdailyreport.com/covid-19-chinese-health-authorities-confirm-patient-zero-had-sex-with-bats/
 5,FAKE/HOAX,4,summit.news,Expert: U.S. Hospital Beds Will be Full by May 8 if Coronavirus Spread Continues at Current Rate,https://summit.news/2020/03/09/expert-u-s-hospital-beds-will-be-full-by-may-8-if-coronavirus-spread-continues-at-current-rate/
-6,FAKE/HOAX,3,dailymail.co.uk,US biotech company claims it's found antibody to block coronavirus,https://www.dailymail.co.uk/health/article-8324395/california-biotech-claims-discovere-antibody-block-100-coronavirus.html
-7,FAKE/HOAX,2,rt.com,Canada confirms 1st ‘presumptive case’ of coronavirus in Toronto,https://on.rt.com/a9r2
-8,FAKE/HOAX,2,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/amp/chinas-coronavirus-hospital-opens-today.html?__twitter_impression=true
-9,FAKE/HOAX,2,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
-10,FAKE/HOAX,2,rt.com,Italy locks down 10 towns after 1st coronavirus death as cases jump to 17,https://on.rt.com/abhe
-11,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-12,CONSPIRACY/JUNKSCI,2,themindunleashed.com,Study Shows People Can Transmit Coronavirus Without Showing Symptoms,https://themindunleashed.com/2020/02/study-shows-people-can-transmit-coronavirus-without-showing-symptoms.html?fbclid=iwar1qa59of2mshqbogcrxixitcwglmv7nmmaiiuqmxxws1fnerj7k6nycvvi
-13,FAKE/HOAX,2,dailymail.co.uk,Two British Airways baggage handlers test positive for coronavirus,https://www.dailymail.co.uk/news/article-8083017/two-british-airways-baggage-handlers-test-positive-coronavirus.html
-14,FAKE/HOAX,2,breaking911.com,The First Infant Death Associated With Coronavirus - Breaking911,https://breaking911.com/breaking-infant-dies-from-coronavirus-in-illinois-a-first/
-15,FAKE/HOAX,2,gatestoneinstitute.org,Coronavirus: China Floods Europe With Defective Medical Equipment,https://www.gatestoneinstitute.org/15840/china-defective-medical-equipment#.xodrzbely5g.twitter
-16,FAKE/HOAX,2,breaking911.com,2 Pet Cats In NY State Test Positive For Coronavirus - Breaking911,https://breaking911.com/breaking-2-pet-cats-in-ny-state-test-positive-for-coronavirus/
-17,CONSPIRACY/JUNKSCI,2,jihadwatch.org,,https://www.jihadwatch.org/2020/05/sweden-muslim-migrant-linked-gang-violence-increases-despite-coronavirus
-18,FAKE/HOAX,1,rt.com,Chinese authorities lock down Wuhan as killer virus spreads,https://on.rt.com/a9jk
-19,FAKE/HOAX,1,dailystar.co.uk,"Coronavirus medic claims China is lying as ‘100,000 people are infected’",https://www.dailystar.co.uk/news/world-news/coronavirus-medic-claims-china-lying-21358174.amp?utm_campaign=sharebar&__twitter_impression=true&utm_source=share&utm_medium=ios_app&utm_name=iossmf
-20,FAKE/HOAX,1,rt.com,38 infected coronavirus patients CURED in China as epidemic rages on,https://on.rt.com/a9po
+6,FAKE/HOAX,2,rt.com,Canada confirms 1st ‘presumptive case’ of coronavirus in Toronto,https://on.rt.com/a9r2
+7,FAKE/HOAX,2,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/amp/chinas-coronavirus-hospital-opens-today.html?__twitter_impression=true
+8,FAKE/HOAX,2,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+9,FAKE/HOAX,2,rt.com,Italy locks down 10 towns after 1st coronavirus death as cases jump to 17,https://on.rt.com/abhe
+10,FAKE/HOAX,2,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+11,CONSPIRACY/JUNKSCI,2,themindunleashed.com,Study Shows People Can Transmit Coronavirus Without Showing Symptoms,https://themindunleashed.com/2020/02/study-shows-people-can-transmit-coronavirus-without-showing-symptoms.html?fbclid=iwar1qa59of2mshqbogcrxixitcwglmv7nmmaiiuqmxxws1fnerj7k6nycvvi
+12,FAKE/HOAX,2,dailymail.co.uk,Two British Airways baggage handlers test positive for coronavirus,https://www.dailymail.co.uk/news/article-8083017/two-british-airways-baggage-handlers-test-positive-coronavirus.html
+13,FAKE/HOAX,2,breaking911.com,The First Infant Death Associated With Coronavirus - Breaking911,https://breaking911.com/breaking-infant-dies-from-coronavirus-in-illinois-a-first/
+14,FAKE/HOAX,2,gatestoneinstitute.org,Coronavirus: China Floods Europe With Defective Medical Equipment,https://www.gatestoneinstitute.org/15840/china-defective-medical-equipment#.xodrzbely5g.twitter
+15,FAKE/HOAX,2,breaking911.com,2 Pet Cats In NY State Test Positive For Coronavirus - Breaking911,https://breaking911.com/breaking-2-pet-cats-in-ny-state-test-positive-for-coronavirus/
+16,CONSPIRACY/JUNKSCI,2,jihadwatch.org,,https://www.jihadwatch.org/2020/05/sweden-muslim-migrant-linked-gang-violence-increases-despite-coronavirus
+17,FAKE/HOAX,1,rt.com,Chinese authorities lock down Wuhan as killer virus spreads,https://on.rt.com/a9jk
+18,FAKE/HOAX,1,dailystar.co.uk,"Coronavirus medic claims China is lying as ‘100,000 people are infected’",https://www.dailystar.co.uk/news/world-news/coronavirus-medic-claims-china-lying-21358174.amp?utm_campaign=sharebar&__twitter_impression=true&utm_source=share&utm_medium=ios_app&utm_name=iossmf
+19,FAKE/HOAX,1,rt.com,38 infected coronavirus patients CURED in China as epidemic rages on,https://on.rt.com/a9po
+20,FAKE/HOAX,1,express.co.uk,Coronavirus horror: Social media footage shows infected Wuhan residents 'act like zombies',https://www.express.co.uk/news/world/1232814/coronavirus-horror-china-virus-wuhan-zombies-epidemic-video

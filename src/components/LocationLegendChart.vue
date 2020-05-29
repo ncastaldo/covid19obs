@@ -1,12 +1,12 @@
 <template>
   <ChartsContainer
     :charts="[chart]"
-    :height="35"
+    :height="height"
     :maxWidth="600"
   >
     <svg
       id="location-legend-chart"
-      height="35"
+      :height="height"
     >
       <defs>
         <linearGradient
@@ -36,6 +36,9 @@ import * as d3ScaleChromatic from 'd3-scale-chromatic'
 import { mapGetters } from 'vuex'
 
 export default {
+  props: {
+    height: Number
+  },
   data () {
     return {
       chart: null,
@@ -84,8 +87,9 @@ export default {
   methods: {
     createComponents () {
       this.byAxisX = byAxisX()
-        .tickSizeInner(-15)
-        .tickSizeOuter(-15)
+        .position('top')
+        .tickSizeInner(-10)
+        .tickSizeOuter(-10)
         .fnBefore(s => s.classed('axis', true).select('.domain').style('opacity', 0))
       this.byBars = byBars()
         .fnLowValue(d => d[0])
@@ -93,9 +97,16 @@ export default {
         .fnFill(d => 'url(#legend-gradient)')
     },
     createChart () {
+      const padding = {
+        top: this.height - 20,
+        right: 30,
+        bottom: this.height - 35,
+        left: 30
+      }
+
       this.chart = byChart()
         .selector('#location-legend-chart')
-        .padding({ top: 0, right: 30, bottom: 20, left: 30 })
+        .padding(padding)
         .components([this.byBars, this.byAxisX])
     },
     updateProperties () {

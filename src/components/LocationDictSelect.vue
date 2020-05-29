@@ -1,6 +1,7 @@
 <template>
   <v-select
     v-model="locationInfoId"
+    class="py-1"
     :items="locationInfos"
     item-text="name"
     item-value="id"

@@ -1,4 +1,4 @@
-import { extent, max } from 'd3-array'
+import { extent } from 'd3-array'
 
 import * as d3Scale from 'd3-scale'
 import * as d3ScaleChromatic from 'd3-scale-chromatic'
@@ -14,14 +14,14 @@ const locationInfos = _locationInfos
 
 const locationInfoId = _locationInfos[0].id
 
-const INVALID_COLOR = '#888'
-
 const state = {
   locationInfos,
   locationInfoId,
 
   locationDict: null,
-  locationMappings: null
+  locationMappings: null,
+
+  locationFocus: null
 }
 
 const getters = {
@@ -37,7 +37,11 @@ const getters = {
     const fnColorScale = d3Scale[getters.getLocationInfo.scaleColorType]()
       .interpolator(d3ScaleChromatic[getters.getLocationInfo.interpolator])
 
-    const fnGetValue = list => list !== null ? list[rootGetters.getDateIndex] : null
+    const fnGetInBounds = value => getters.getLocationInfo.bounds
+      ? value >= getters.getLocationInfo.bounds[0] && value <= getters.getLocationInfo.bounds[1]
+        ? value : null
+      : value
+    const fnGetValue = list => list !== null ? fnGetInBounds(list[rootGetters.getDateIndex]) : null
     const fnGetColor = value => value !== null ? fnColorScale(value) : null
 
     const locationDict = getters.getLocationDict || {}
@@ -55,17 +59,21 @@ const getters = {
           color: fnGetColor(value)
         }
       }), {})
-  }
+  },
+
+  getLocationFocus: ({ locationFocus }) => locationFocus
 }
 
 const mutations = {
   setLocationInfoId: (state, locationInfoId) => { state.locationInfoId = locationInfoId },
-  setLocationDict: (state, { _WORLD, ...rest }) => { state.locationDict = rest }
+  setLocationDict: (state, { _WORLD, ...rest }) => { state.locationDict = rest },
+
+  setLocationFocus: (state, locationFocus) => { state.locationFocus = locationFocus }
 }
 
 const actions = {
   setLocationInfoId: async ({ commit }, locationInfoId) => {
-    const locationDict = await fetch(`/assets/location_dicts/${locationInfoId}.json`)
+    const locationDict = await fetch(`/assets/map_dicts/${locationInfoId}.json`)
       .then(res => res.json())
     // updating the locationInfoId only aftert the fetch of the data
     commit('setLocationInfoId', locationInfoId)

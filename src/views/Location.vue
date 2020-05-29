@@ -10,14 +10,21 @@
       style="background: rgba(13, 18, 15, 0.8)"
       class="pb-1"
     >
-      <DateSlider />
-      <LocationDictSelect />
-      <LocationLegendChart class="mt-3" />
+      <v-row class="px-2 pb-1">
+        <v-col class="col-12 col-sm-4 col-md-3 py-1">
+          <LocationDictSelect />
+        </v-col>
+        <v-col class="col-12 col-sm-8 col-md-9 py-1">
+          <DateSlider />
+        </v-col>
+      </v-row>
+      <LocationDetails />
     </div>
     <v-row>
       <v-col class="col-12 col-md-8">
+        <LocationLegendChart :height="45" />
         <LocationMapChart
-          :height="height"
+          :height="height - 45"
         />
       </v-col>
       <v-col class="col-12 col-md-4">
@@ -34,9 +41,10 @@ import Sticky from 'vue-sticky-directive'
 // bg = #0D120F -> 13, 18, 15
 
 import DateSlider from '../components/DateSlider'
-import LocationMapChart from '../components/LocationMapChart'
 import LocationDictSelect from '../components/LocationDictSelect'
+import LocationDetails from '../components/LocationDetails'
 import LocationLegendChart from '../components/LocationLegendChart'
+import LocationMapChart from '../components/LocationMapChart'
 import LocationBarChart from '../components/LocationBarChart'
 
 export default {
@@ -44,6 +52,7 @@ export default {
   components: {
     DateSlider,
     LocationDictSelect,
+    LocationDetails,
     LocationLegendChart,
     LocationMapChart,
     LocationBarChart

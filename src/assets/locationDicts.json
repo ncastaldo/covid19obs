@@ -6,9 +6,11 @@
     "scaleColorType": "scaleSequentialLog", 
     "interpolator": "interpolateOrRd",
     "format": ".1s",
+    "detailsFormat": ".0f",
+    "fallback": "0",
     "ticks": 2,
-    "baseDomain": [0, 0],
-    "bounds": [0.4, null]
+    "baseDomain": [1, 0],
+    "bounds": [0.4, 9999999999999]
   },
   {
     "id": "risk_index",
@@ -17,6 +19,7 @@
     "scaleColorType": "scaleSequential", 
     "interpolator": "interpolateBlues",
     "format": ".2f",
+    "fallback": "Not available",
     "ticks": 7,
     "bounds": [0, 1],
     "fixedDomain": [0, 1]
@@ -28,6 +31,7 @@
     "scaleColorType": "scaleSequential", 
     "interpolator": "interpolatePurples",
     "format": ".1%",
+    "fallback": "Not available",
     "ticks": 7,
     "bounds": [0, 1],
     "fixedDomain": [0, 1]
@@ -39,9 +43,10 @@
     "scaleColorType": "scaleSequential", 
     "interpolator": "interpolateRdYlGn",
     "format": ".2f",
+    "fallback": "Not available",
     "ticks": 7,
     "bounds": [-1, 1],
-    "fixedDomain": [-0.5, 0.5],
-    "lastPlus": true
+    "baseDomain": [-0, 0],
+    "fixedDomain": [-0.5, 0.5]
   }
 ]
