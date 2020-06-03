@@ -27,7 +27,6 @@
             "color": "#74c476",
             "fns": []
           },
-
           {
             "id": "epi_dead",
             "label": "D",
@@ -104,6 +103,63 @@
     "id": "CENTER",
     "charts": [
       {
+        "id": "info_risk_index",
+        "label": "Risk Index",
+        "type": "bxChart",
+        "tooltip": "Index, from 0 to 1, related to potential number of users exposed to unreliable URLs present in tweets; not computed if less than 1000 tweets.",
+        "yFormat": ".1f",
+        "valueFormat": ".2f",
+        "stacked": false,
+        "values": [
+          {
+            "id": "info_risk_index",
+            "label": "IRI",
+            "tooltip": "Infodemic Risk Index",
+            "type": "bxBars",
+            "color": "#2171b5",
+            "fns": [
+              {
+                "name": "fnLowValue",
+                "type": "scalar",
+                "value": 0
+              },
+              {
+                "name": "fnHighValue",
+                "type": "field",
+                "value": "info_risk_index"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "info_reliable_unreliable",
+        "label": "Reliability",
+        "type": "bxChart",
+        "tooltip": "Analysis of URLs present in tweets to determine if they are trustworthy (e.g., mainstream media, recognized scientific institutions and magazines) or not (fake news/hoax, satire, clickbait, etc.).",
+        "yFormat": ".1s",
+        "valueFormat": ".3s",
+        "stacked": true,
+        "values": [
+          {
+            "id": "info_fact_unreliable",
+            "label": "UF",
+            "tooltip": "Unreliable facts",
+            "type": "bxBars",
+            "color": "#6a51a3",
+            "fns": []
+          },
+          {
+            "id": "info_fact_reliable",
+            "label": "RF",
+            "tooltip": "Reliable facts",
+            "type": "bxBars",
+            "color": "#bcbddc",
+            "fns": []
+          }
+        ]
+      },
+      {
         "id": "info_bots_human",
         "label": "Social Bots/Humans",
         "tooltip": "State-of-the-art detection of automated agents and humans, which can have Verified status on Twitter or not (in this case they are just Unverified). Verified bots include mainstream medias and, in some cases, extremely active VIP accounts. ",
@@ -168,60 +224,6 @@
                 "value": "info_bot_verified"
               }
             ]
-          }
-        ]
-      },
-       {
-        "id": "info_reliable_unreliable",
-        "label": "Reliability",
-        "type": "bxChart",
-        "tooltip": "Analysis of URLs present in tweets to determine if they are trustworthy (e.g., mainstream media, recognized scientific institutions and magazines) or not (fake news/hoax, satire, clickbait, etc.).",
-        "yFormat": ".1s",
-        "valueFormat": ".3s",
-        "stacked": true,
-        "values": [
-          {
-            "id": "info_fact_unreliable",
-            "label": "UF",
-            "tooltip": "Unreliable facts",
-            "type": "bxBars",
-            "color": "#6a51a3",
-            "fns": []
-          },
-          {
-            "id": "info_fact_reliable",
-            "label": "RF",
-            "tooltip": "Reliable facts",
-            "type": "bxBars",
-            "color": "#bcbddc",
-            "fns": []
-          }
-        ]
-      },
-      {
-        "id": "info_exposure",
-        "label": "Exposure",
-        "type": "bxChart",
-        "tooltip": "Analysis of potential number of users exposed to trustworthy (or not) URLs present in tweets.",
-        "yFormat": ".1s",
-        "valueFormat": ".3s",
-        "stacked": true,
-        "values": [
-          {
-            "id": "info_exposure_fact_unreliable",
-            "label": "EUF",
-            "tooltip": "Exposure of Unreliable facts",
-            "type": "bxBars",
-            "color": "#2171b5",
-            "fns": []
-          },
-          {
-            "id": "info_exposure_fact_reliable",
-            "label": "ERF",
-            "tooltip": "Exposure of Reliable facts",
-            "type": "bxBars",
-            "color": "#9ecae1",
-            "fns": []
           }
         ]
       }

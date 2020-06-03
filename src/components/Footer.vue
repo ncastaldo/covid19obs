@@ -38,7 +38,7 @@
           Designed by <a
             href="https://github.com/ncastaldo"
             target="_blank"
-          >Nicola Castaldo</a> with Vue.js, Vuetify, D3 and d3nic
+          >Nicola Castaldo</a> with Vue.js, Vuetify, D3, d3nic and Leaflet
         </p>
       </v-card-text>
     </v-card>

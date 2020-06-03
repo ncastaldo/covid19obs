@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import Home from '../views/Home.vue'
-import Location from '../views/Location.vue'
+import Observatory from '../views/Observatory'
+import Location from '../views/Location'
+import Project from '../views/Project'
+import Contacts from '../views/Contacts'
 
 Vue.use(VueRouter)
 
@@ -13,13 +15,23 @@ const routes = [
   },
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Observatory',
+    component: Observatory
   },
   {
-    path: '/__test',
+    path: '/rankings',
     name: 'Location',
     component: Location
+  },
+  {
+    path: '/project',
+    name: 'Project',
+    component: Project
+  },
+  {
+    path: '/contacts',
+    name: 'Contacts',
+    component: Contacts
   }
 ]
 

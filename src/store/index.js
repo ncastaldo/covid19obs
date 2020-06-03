@@ -5,6 +5,7 @@ import { utcDay } from 'd3-time'
 import { dsvFormat } from 'd3-dsv'
 
 import location from './location'
+import view from './view'
 
 // static file
 import world from '../assets/map/world.json'
@@ -154,7 +155,8 @@ export default new Vuex.Store({
   getters,
   actions,
   modules: {
-    location
+    location,
+    view
   },
   plugins: [
     store => {

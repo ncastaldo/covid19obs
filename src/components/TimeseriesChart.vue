@@ -1,13 +1,15 @@
 <template>
   <div
-    class="pa-0 ma-0 fill-height"
+    class="pa-0 ma-0"
   >
-    <svg
-      :id="id"
-      style="min-height: 120px"
-      width="0"
-      height="0"
-    />
+    <ChartsContainer
+      :charts="[chart]"
+      :height="height"
+    >
+      <svg
+        :id="id"
+      />
+    </ChartsContainer>
     <v-tooltip
       v-if="hover !== null"
       v-model="isHover"
@@ -36,7 +38,7 @@
             </v-icon>
             {{ hv.label }}
           </span>
-          {{ fnValueFormat(hv.value) }}
+          {{ hv.value ? fnValueFormat(hv.value) : '' }}
         </div>
       </div>
     </v-tooltip>
@@ -56,7 +58,7 @@ import { format } from 'd3-format'
 export default {
   props: {
     id: String,
-    size: Object,
+    height: Number,
     chartConfig: Object,
     timeseries: Array
   },
@@ -67,7 +69,8 @@ export default {
       mouseBars: null,
 
       valueComponents: null,
-      data: null,
+
+      chartData: null,
 
       svg: null,
       topPadding: 10,
@@ -102,6 +105,9 @@ export default {
   },
   watch: {
     chartConfig () {
+      // recreating the chart, save the size
+      const chartSize = this.chart.size()
+
       this.clear()
 
       this.computeValueComponents()
@@ -113,21 +119,17 @@ export default {
       this.computeData()
 
       this.chart
-        .size(this.size)
-        .data(this.data)
-        .draw({ duration: this.$isMobile() ? 0 : 500 })
+        .size(chartSize)
+        .data(this.chartData)
+
+      this.drawChart()
     },
     timeseries () {
       this.computeData()
 
-      this.chart
-        .data(this.data)
-        .draw({ delay: this.$isMobile() ? 0 : (750 + 10), duration: this.$isMobile() ? 0 : 500 })
-    },
-    size (value) {
-      this.chart
-        .size(value)
-        .draw()
+      this.chart.data(this.chartData)
+
+      this.drawChart()
     },
     hover (value) {
       this.circles.map(c =>
@@ -148,10 +150,9 @@ export default {
 
     this.computeData()
 
-    this.chart
-      .size(this.size)
-      .data(this.data)
-      .draw({ duration: this.$isMobile() ? 0 : 500 })
+    this.chart.data(this.chartData)
+
+    this.drawChart()
 
     this.svg = select(`#${this.id}`)
       .on('touchstart touchmove', this.onTouch)
@@ -200,12 +201,12 @@ export default {
     },
     computeData () {
       if (!this.chartConfig.stacked) {
-        this.data = this.timeseries
+        this.chartData = this.timeseries
       } else {
         const keys = this.chartConfig.values.map(v => v.id).reverse()
         const fnStack = stack().keys(keys)
         const stackedData = fnStack(this.timeseries)
-        this.data = this.timeseries.map((d, i) => ({
+        this.chartData = this.timeseries.map((d, i) => ({
           ...d,
           ...keys.reduce((acc, k, j) => ({
             ...acc,
@@ -237,6 +238,12 @@ export default {
             .fnStrokeWidth(0)
       })
     },
+    drawChart () {
+      // wait for parent - chartscontainer
+      this.$nextTick(function () {
+        this.chart.draw({ duration: this.$isMobile() ? 0 : 500 })
+      })
+    },
     clear () {
       this.chart.group().remove()
     },
@@ -258,7 +265,7 @@ export default {
       const extent = this.chart.extent()
       if (x > extent[0][0] && x < extent[1][0]) {
         const step = this.chart.fnBandScale().step()
-        const d = this.data[Math.floor((x - extent[0][0]) / step)]
+        const d = this.chartData[Math.floor((x - extent[0][0]) / step)]
         const top = this.svg.getBoundingClientRect().top + this.topPadding
         this.xTooltip = x + this.topPadding
         this.yTooltip = top

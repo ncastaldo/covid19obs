@@ -1,113 +1,88 @@
 <template>
-  <v-container fluid>
-    <DateSlider />
-    <LocationLegendChart
-      :locationDict="locationDict"
-      :locationInfo="locationInfo"
-    />
-    <LocationMapChart
-      :locationInfo="locationInfo"
-    />
-    <!--LocationBarChart
-      :locationDict="locationDict"
-      :locationInfo="locationInfo"
-    /-->
+  <v-container>
+    <ToolbarCard class="mb-3" />
+    <div sticky-container>
+      <div
+        v-sticky
+        sticky-z-index="4"
+        sticky-offset="stickyOffset"
+      >
+        <LocationCard />
+      </div>
+      <v-row no-gutters="">
+        <v-col
+          cols="12"
+          class="py-3"
+        >
+          <SelectorMapChart :height="300" />
+        </v-col>
+        <v-col
+          v-for="(section, i) in timeseriesConfig"
+          :key="section.id"
+          cols="12"
+          class="pb-3"
+        >
+          <v-tabs
+            v-model="tabs[i]"
+            height="35"
+            show-arrows
+            grow
+          >
+            <v-tab
+              v-for="chart in section.charts"
+              :key="chart.id"
+            >
+              {{ chart.label }}
+            </v-tab>
+          </v-tabs>
+          <TimeseriesCard
+            :id="section.id"
+            :chartConfig="section.charts[tabs[i]]"
+          />
+        </v-col>
+        <v-col
+          v-if="false"
+          class="pt-2"
+        >
+          <FactsCard />
+        </v-col>
+      </v-row>
+    </div>
   </v-container>
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
 
-import { extent } from 'd3-array'
+import Sticky from 'vue-sticky-directive'
 
-import * as d3Scale from 'd3-scale'
-import * as d3ScaleChromatic from 'd3-scale-chromatic'
+import SelectorMapChart from '../components/SelectorMapChart'
 
-import DateSlider from '../components/DateSlider'
-import LocationMapChart from '../components/LocationMapChart'
-import LocationLegendChart from '../components/LocationLegendChart'
-// import LocationBarChart from '../components/LocationBarChart'
+import ToolbarCard from '../components/ToolbarCard'
+import TimeseriesCard from '../components/TimeseriesCard'
 
-import locationDicts from '../assets/locationDicts'
+import LocationCard from '../components/LocationCard'
 
-const INVALID_COLOR = '#aaa'
+import FactsCard from '../components/FactsCard'
+
+import timeseriesConfig from '../assets/timeseries.json'
+
+const tabs = timeseriesConfig.map((_, i) => 0)
 
 export default {
+  directives: { Sticky },
   components: {
-    DateSlider,
-    LocationLegendChart,
-    LocationMapChart
-    // LocationBarChart
+    ToolbarCard,
+    LocationCard,
+    // MapCard,
+    SelectorMapChart,
+    TimeseriesCard,
+    FactsCard
   },
   data () {
     return {
-      fnColorScale: null,
-
-      locationDicts,
-      locationDictId: null,
-
-      locationData: null,
-
-      locationInfo: null
-    }
-  },
-  computed: {
-    ...mapGetters({
-      dateIndex: 'getDateIndex'
-    }),
-    locationDict () {
-      return locationDicts.find(json => json.id === this.locationDictId)
-    }
-  },
-  watch: {
-    locationDict (mDict) {
-      this.fnColorScale = d3Scale[mDict.scaleColorType]()
-        .interpolator(d3ScaleChromatic[mDict.interpolator])
-    },
-    dateIndex () {
-      this.computeLocationInfo()
-    },
-    locationData () {
-      this.computeLocationInfo()
-    }
-  },
-  created () {
-    this.locationDictId = 'confirmed'
-  },
-  mounted () {
-    this.fetchData()
-  },
-  methods: {
-    fetchData () {
-      // loading the actual data
-      fetch(`/assets/map_dicts/${this.locationDictId}.json`)
-        .then(res => res.json())
-        .then(data => { this.locationData = data })
-    },
-    computeLocationInfo () {
-      const fnInBounds = value =>
-        (this.locationDict.bounds[0] === null || value >= this.locationDict.bounds[0]) &&
-        (this.locationDict.bounds[1] === null || value <= this.locationDict.bounds[1])
-      const fnGetValue = list => list !== null &&
-        fnInBounds(list[this.dateIndex]) ? list[this.dateIndex] : null
-      const fnGetColor = value => value !== null ? this.fnColorScale(value) : INVALID_COLOR
-
-      // color scale domain update
-      const domain = extent(Object.values(this.locationData).map(fnGetValue))
-      this.fnColorScale.domain(domain)
-
-      // locationInfo computation
-      this.locationInfo = Object.entries(this.locationData || {})
-        .filter(([locationId, list]) => locationId !== '_WORLD')
-        .map(([locationId, list]) => [locationId, fnGetValue(list)])
-        .reduce((acc, [locationId, value]) => ({
-          ...acc,
-          [locationId]: {
-            locationId,
-            value,
-            color: fnGetColor(value)
-          }
-        }), {})
+      timeseriesConfig,
+      tabs,
+      stickyOffset: { top: 60 }
     }
   }
 }

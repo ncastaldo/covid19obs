@@ -1,6 +1,7 @@
 <template>
   <v-card
     tile
+    flat
   >
     <v-card-title class="py-2 justify-center">
       <span class="font-weight-light pr-2">Current location:</span>

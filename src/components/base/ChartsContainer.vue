@@ -50,9 +50,9 @@ export default {
     }
   },
   mounted () {
-    this.$nextTick(function () {
-      this.onResize()
-    })
+    // this.$nextTick(function () {
+    this.onResize()
+    // })
   },
   methods: {
     onResize () {

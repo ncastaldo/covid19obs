@@ -1,5 +1,5 @@
 <template>
-  <v-card v-resize:debounce.250="updateChartSize">
+  <v-card v-resize:debounce.250="updateHeight">
     <v-card-subtitle
       ref="subtitle"
       class="py-1"
@@ -54,15 +54,13 @@
         <span>{{ bv.tooltip }}</span>
       </v-tooltip>
     </v-card-subtitle>
-    <v-card-actions class="pa-0">
-      <TimeseriesChart
-        v-if="timeseries"
-        :id="`${id}-svg`"
-        :size="chartSize"
-        :chartConfig="chartConfig"
-        :timeseries="timeseries || []"
-      />
-    </v-card-actions>
+    <TimeseriesChart
+      v-if="timeseries"
+      :id="`${id}-svg`"
+      :height="height"
+      :chartConfig="chartConfig"
+      :timeseries="timeseries || []"
+    />
   </v-card>
 </template>
 
@@ -86,7 +84,7 @@ export default {
   },
   data () {
     return {
-      chartSize: null
+      height: 140
     }
   },
   computed: {
@@ -103,24 +101,16 @@ export default {
     }
   },
   mounted () {
-    this.updateChartSize() // since refs are not reactive
+    this.updateHeight() // since refs are not reactive
   },
   methods: {
-    getChartHeight () {
-      switch (this.$vuetify.breakpoint.name) {
-        case 'xs': return 140
-        case 'sm': return 140
-        case 'md': return 120
-        case 'lg': return 120
-        case 'xl': return 120
-        default: return 120
-      }
-    },
-    updateChartSize () {
-      this.chartSize = {
-        width: this.$el.clientWidth,
-        height: this.getChartHeight()
-      }
+    updateHeight () {
+      const bp = this.$vuetify.breakpoint.name
+      this.height = bp === 'xs'
+        ? 140/* 140 */ : bp === 'sm'
+          ? 140/* 140 */ : bp === 'md'
+            ? 140 : bp === 'lg'
+              ? 140 : 140
     }
   }
 }

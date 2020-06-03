@@ -3,17 +3,23 @@
     app
     height="60"
   >
+    <v-app-bar-nav-icon @click="toggleDrawer" />
     <v-toolbar-title
-      class="ml-2 text-left headline"
+      class="ml-1 text-left headline"
     >
-      <span
-        class="font-weight-light mr-2"
+      <a
+        class="pr-2"
         :style="style"
+        href="/#/"
       >
-        COVID19
-      </span>
-      <span :style="style">
-        Infodemics Observatory
+        covid19obs
+      </a>
+      <span
+        v-if="!['xs', 'sm'].includes(breakpoint)"
+        class="font-weight-light pl-2 "
+        :style="{ 'font-size': '18px'}"
+      >
+        Covid19 Infodemics Observatory
       </span>
     </v-toolbar-title>
     <v-spacer />
@@ -34,6 +40,7 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 
 export default {
   name: 'Header',
@@ -58,9 +65,16 @@ export default {
     },
     style () {
       return {
-        'font-size': this.breakpoint === 'xs' ? '16px' : '24px'
+        'font-size': this.breakpoint === 'xs' ? '20px' : '24px',
+        color: '#fff',
+        'text-decoration': 'none'
       }
     }
+  },
+  methods: {
+    ...mapActions({
+      toggleDrawer: 'view/toggleDrawer'
+    })
   }
 }
 </script>
