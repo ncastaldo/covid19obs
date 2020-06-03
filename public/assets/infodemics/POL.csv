@@ -1,5 +1,5 @@
 datetime,info_tweets,info_fact_reliable,info_fact_unreliable,info_fact_unknown,info_exposure_fact_reliable,info_exposure_fact_unreliable,info_exposure_fact_unknown,info_risk_index,info_bot_verified,info_bot_unverified,info_human_verified,info_human_unverified,info_sentiment,info_vad_A,info_vad_D,info_vad_V,info_big_5_A,info_big_5_C,info_big_5_E,info_big_5_N,info_big_5_O,epi_confirmed,epi_recovered,epi_dead,eco_close_pct
-2020-01-22,653,62,35,128,125997,45988,2776359,0.2674,13,290,1,349,0.07945,5.30068,4.25266,5.44912,,,,,,0,0,0,
+2020-01-22,653,62,35,128,125997,45988,2776359,,13,290,1,349,0.07945,5.30068,4.25266,5.44912,,,,,,0,0,0,
 2020-01-23,1380,157,53,194,410688,666183,4010528,0.61863,13,546,1,820,-0.03813,5.35689,4.41665,5.58345,,,,,,0,0,0,
 2020-01-24,3580,283,97,357,387480,129451,3854987,0.25042,18,1497,5,2060,0.11155,5.52957,4.4217,5.83081,-0.08536,-0.09659,-0.05934,0.08347,-0.11313,0,0,0,
 2020-01-25,5677,427,141,522,1383431,845107,6136442,0.37922,27,2302,7,3341,-0.06141,5.30767,4.25892,5.43134,-0.02533,-0.05256,-0.01676,0.04135,-0.03551,0,0,0,

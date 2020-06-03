@@ -24,7 +24,6 @@ export default {
   },
   watch: {
     locationInfoId (value) {
-      console.log(value)
       this.setLocationInfoId(value)
     }
   },

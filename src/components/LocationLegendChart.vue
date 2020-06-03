@@ -116,7 +116,6 @@ export default {
       this.chart
         .contBaseDomain(this.locationInfo.contBaseDomain)
         .contScaleType(this.locationInfo.scaleType)
-      console.log('properties updated')
     }
   }
 }

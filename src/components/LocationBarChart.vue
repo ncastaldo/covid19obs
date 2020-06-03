@@ -40,7 +40,6 @@ export default {
     chartData (value) {
       // using next tick to avoid problems b/w locationInfo and locationMapping
       this.$nextTick(() => {
-        console.log(value)
         this.chart.data(value).draw({ duration: 500 })
       })
     },
