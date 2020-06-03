@@ -14,7 +14,7 @@
           cols="12"
           class="py-3"
         >
-          <SelectorMapChart :height="300" />
+          <SelectorMapChart :height="400" />
         </v-col>
         <v-col
           v-for="(section, i) in timeseriesConfig"

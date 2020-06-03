@@ -56,10 +56,12 @@ export default {
     this.lMap = map('selector-map-chart', {
       minZoom: 2,
       maxZoom: 7,
-      maxBounds: [[-65, -180], [90, 180]] // antartica is out
+      maxBounds: [[-65, -180], [90, 180]], // antartica is out
+
+      scrollWheelZoom: false
     })
       .setView(...baseView)
-      // .on('click', this.fnRestoreView)
+      .on('click', this.fnRestoreView)
 
     this.lTileLayer = tileLayer(tileLayerLink, {
       attribution
@@ -102,6 +104,14 @@ export default {
       }
       this.fnRestyleLayer()
     },
+
+    fnRestoreView () {
+      if (this.location.locationId !== '_WORLD') {
+        this.setLocationId('_WORLD')
+        this.fnRestyleLayer()
+        // this.lMap.setView(...baseView)
+      }
+    },
     fnRestyleLayer () {
       this.lLocationsLayer.eachLayer(layer => {
         const locationId = layer.feature.properties.locationId
@@ -111,12 +121,6 @@ export default {
           layer.setStyle({ fillColor: BASE_COLOR })
         }
       })
-    },
-    fnRestoreView () {
-      if (this.location.locationId !== '_WORLD') {
-        this.setLocationId('_WORLD')
-        // this.lMap.setView(...baseView)
-      }
     },
     fnOnMouseover (e) {
       e.target.setStyle({ weight: 2, fillOpacity: 0.7 })

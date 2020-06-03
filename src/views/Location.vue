@@ -73,7 +73,7 @@ export default {
   data () {
     return {
       stickyOffset: { top: 60 },
-      height: 400
+      height: 500
     }
   }
 }

@@ -43,7 +43,7 @@
         "tooltip": "Time course of the volume of messages posted to Twitter about Wuhan, nCov-19, SARS-CoV-19, COVID-19.",
         "type": "bxChart",
         "yFormat": ".1s",
-        "valueFormat": ".0f",
+        "valueFormat": ".3s",
         "stacked": false,
         "values": [
           {

@@ -51,7 +51,8 @@ export default {
     this.lMap = map('location-map-chart', {
       minZoom: 2,
       maxZoom: 7,
-      maxBounds: [[-65, -180], [90, 180]] // antartica is out
+      maxBounds: [[-65, -180], [90, 180]], // antartica is out
+      scrollWheelZoom: false
     })
       .setView(...baseView)
       .on('click', e => Browser.touch && this.fnRestyleLayer())
@@ -124,7 +125,8 @@ export default {
 
 <style>
 
-@import 'https://unpkg.com/leaflet@1.6.0/dist/leaflet.css';
+@import "../../node_modules/leaflet/dist/leaflet.css";
+/*@import 'https://unpkg.com/leaflet@1.6.0/dist/leaflet.css';*/
 
 #location-map-chart.leaflet-container {
     z-index: 1;
