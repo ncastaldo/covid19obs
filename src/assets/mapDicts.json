@@ -1,16 +1,5 @@
 [
   {
-    "id": "confirmed",
-    "name": "COVID19 Cases",
-    "scaleType": "scaleSymlog",
-    "scaleColorType": "scaleSequentialSymlog", 
-    "interpolator": "interpolateOrRd",
-    "format": ".0f",
-    "legendFormat": ".1s",
-    "ticks": 2,
-    "baseDomain": [0, 0]
-  },
-  {
     "id": "risk_index",
     "name": "Risk Index",
     "scaleType": "scaleLinear",
@@ -20,6 +9,17 @@
     "ticks": 7,
     "baseDomain": [1, 0],
     "fixedDomain": [0, 1]
+  },
+  {
+    "id": "confirmed",
+    "name": "Covid19 Cases",
+    "scaleType": "scaleSymlog",
+    "scaleColorType": "scaleSequentialSymlog", 
+    "interpolator": "interpolateOrRd",
+    "format": ".0f",
+    "legendFormat": ".1s",
+    "ticks": 2,
+    "baseDomain": [0, 0]
   },
   {
     "id": "unreliable",
