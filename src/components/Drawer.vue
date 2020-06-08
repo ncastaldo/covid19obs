@@ -50,7 +50,7 @@ export default {
           link: '/rankings'
         },
         {
-          title: 'About this Project',
+          title: 'About the Project',
           link: '/project'
         },
         {

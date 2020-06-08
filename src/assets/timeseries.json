@@ -106,7 +106,7 @@
         "id": "info_risk_index",
         "label": "Risk Index",
         "type": "bxChart",
-        "tooltip": "Index, from 0 to 1, related to potential number of users exposed to unreliable URLs present in tweets; not computed if less than 1000 tweets.",
+        "tooltip": "Infodemic Risk Index: from 0 to 1, it is related to the potential number of users exposed to unreliable URLs present in tweets; not computed if less than 1000 tweets in a day.",
         "yFormat": ".1f",
         "valueFormat": ".2f",
         "stacked": false,

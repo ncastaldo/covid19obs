@@ -9,37 +9,47 @@
       >
         <LocationCard />
       </div>
-      <v-row no-gutters="">
+      <v-row
+        no-gutters
+        class="pt-3"
+      >
         <v-col
           cols="12"
-          class="py-3"
         >
-          <SelectorMapChart :height="400" />
+          <SelectorMapChart :height="300" />
         </v-col>
         <v-col
-          v-for="(section, i) in timeseriesConfig"
-          :key="section.id"
           cols="12"
-          class="pb-3"
+          class="pt-3"
         >
-          <v-tabs
-            v-model="tabs[i]"
-            height="35"
-            show-arrows
-            grow
-          >
-            <v-tab
-              v-for="chart in section.charts"
-              :key="chart.id"
+          <v-row no-gutters>
+            <v-col
+              v-for="(section, i) in timeseriesConfig"
+              :key="section.id"
+              cols="12"
+              class="pb-3"
             >
-              {{ chart.label }}
-            </v-tab>
-          </v-tabs>
-          <TimeseriesCard
-            :id="section.id"
-            :chartConfig="section.charts[tabs[i]]"
-          />
+              <v-tabs
+                v-model="tabs[i]"
+                height="35"
+                show-arrows
+                grow
+              >
+                <v-tab
+                  v-for="chart in section.charts"
+                  :key="chart.id"
+                >
+                  {{ chart.label }}
+                </v-tab>
+              </v-tabs>
+              <TimeseriesCard
+                :id="section.id"
+                :chartConfig="section.charts[tabs[i]]"
+              />
+            </v-col>
+          </v-row>
         </v-col>
+
         <v-col
           v-if="false"
           class="pt-2"

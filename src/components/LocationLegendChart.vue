@@ -59,7 +59,7 @@ export default {
       const values = Object.values(this.locationMapping || {})
         .map(d => d.value)
         .filter(v => v !== null)
-      return extent(values)
+      return values.length ? extent(values) : null
     },
     fnFormat () {
       const f = 'legendFormat' in this.locationInfo
@@ -69,13 +69,16 @@ export default {
     }
   },
   watch: {
-    domain () {
-      // using next tick to avoid problems b/w locationInfo and locationMapping
-      this.$nextTick(() => {
-        this.chart
-          .data([this.domain])
-          .draw({ duration: 500 })
-      })
+    domain: {
+      handler (value) {
+        // using next tick to avoid problems b/w locationInfo and locationMapping
+        this.$nextTick(() => {
+          this.chart
+            .data(value ? [value] : [])
+            .draw({ duration: 500 })
+        })
+      },
+      immediate: true
     },
     locationInfo () { this.updateProperties() }
   },

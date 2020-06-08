@@ -1,37 +1,31 @@
 <template>
   <div>
+    <HybridDetails />
     <div
-      class="selector-map-chart__hover px-2 pt-1"
-      :style="{
-        'background-color': '#1E1E1E',
-        'font-size': '18px',
-        'color': '#ccc',
-        'height': '34px',
-        'font-weight': 200
-      }"
-    >
-      {{ hover ? hover.locationName : '' }}
-    </div>
-    <div
-      id="selector-map-chart"
+      id="hybrid-map-chart"
       :style="{ height: `${height}px`}"
     />
   </div>
 </template>
 
 <script>
+import HybridDetails from './HybridDetails'
+
 import { select } from 'd3-selection'
-import { schemeCategory10 } from 'd3-scale-chromatic'
-import { map, tileLayer, geoJSON, DomEvent } from 'leaflet'
-import { mapGetters, mapActions } from 'vuex'
+import { map, tileLayer, geoJSON, Browser, DomEvent } from 'leaflet'
+import { mapGetters, mapActions, mapMutations } from 'vuex'
 
 const tileLayerLink = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png'
 const attribution = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
-const baseView = [[41.90, 12.49], 3]
-const BASE_COLOR = '#aaa'
-const SELECTED_COLOR = schemeCategory10[0]
+
+const baseView = [[41.90, 12.49], 2]
+
+const INVALID_COLOR = '#aaa'
 
 export default {
+  components: {
+    HybridDetails
+  },
   props: {
     height: Number
   },
@@ -48,27 +42,38 @@ export default {
   },
   computed: {
     ...mapGetters({
+      features: 'getFeatures',
       location: 'getLocation',
-      features: 'getFeatures'
+      locationMapping: 'location/getLocationMapping'
     })
   },
+  watch: {
+    locationMapping (mapping) {
+      this.lLocationsLayer.eachLayer(layer => {
+        const locationId = layer.feature.properties.locationId
+        const fillColor = locationId in mapping
+          ? mapping[locationId].color || INVALID_COLOR
+          : INVALID_COLOR
+        layer.setStyle({ fillColor })
+      })
+    }
+  },
   mounted () {
-    this.lMap = map('selector-map-chart', {
+    this.lMap = map('hybrid-map-chart', {
       minZoom: 2,
       maxZoom: 7,
       maxBounds: [[-65, -180], [90, 180]], // antartica is out
-
       scrollWheelZoom: false
     })
       .setView(...baseView)
-      .on('click', this.fnRestoreView)
+      .on('click', this.fnOnClick)
 
     this.lTileLayer = tileLayer(tileLayerLink, {
       attribution
     })
     this.lLocationsLayer = geoJSON(this.features, {
       style: {
-        fillColor: BASE_COLOR, // https://webkid.io/blog/fancy-map-effects-with-css/
+        fillColor: '#aaa', // https://webkid.io/blog/fancy-map-effects-with-css/
         fillOpacity: 1,
         color: '#888',
         weight: 1
@@ -76,74 +81,73 @@ export default {
       onEachFeature: this.fnOnEachFeature
     })
 
-    this.fnRestyleLayer()
-
     // this.lTileLayer.addTo(this.lMap)
     this.lLocationsLayer.addTo(this.lMap)
   },
   methods: {
+    ...mapMutations({
+      setLocationFocus: 'location/setLocationFocus'
+    }),
     ...mapActions({
       setLocationId: 'setLocationId'
     }),
     fnOnEachFeature (feature, layer) {
       layer.on({
-        click: this.fnOnClick,
+        // click: this.fnOnClick,
+        click: this.fnOnClick, // e => Browser.touch && this.fnOnMouseover(e),
         mouseover: this.fnOnMouseover,
         mouseout: this.fnOnMouseout
       })
     },
     fnOnClick (e) {
       DomEvent.stop(e) // https://github.com/Leaflet/Leaflet/issues/3756
-      const newId = e.target.feature.properties.locationId
       const oldId = this.location.locationId
-      if (newId !== oldId) {
-        this.setLocationId(newId)
-        // this.lMap.fitBounds(e.target.getBounds())
+      if (e.target.feature && e.target.feature.properties.locationId !== oldId) {
+        select(e.originalEvent.target).raise()
+        this.setLocationId(e.target.feature.properties.locationId)
       } else {
-        this.fnRestoreView()
+        this.setLocationId('_WORLD')
       }
       this.fnRestyleLayer()
-    },
-
-    fnRestoreView () {
-      if (this.location.locationId !== '_WORLD') {
-        this.setLocationId('_WORLD')
-        this.fnRestyleLayer()
-        // this.lMap.setView(...baseView)
-      }
     },
     fnRestyleLayer () {
       this.lLocationsLayer.eachLayer(layer => {
         const locationId = layer.feature.properties.locationId
-        if (this.location.locationId === '_WORLD' || this.location.locationId === locationId) {
-          layer.setStyle({ fillColor: SELECTED_COLOR })
+        if (this.location.locationId === '_WORLD' || this.location.locationId !== locationId) {
+          layer.setStyle({ weight: 0.5 })
         } else {
-          layer.setStyle({ fillColor: BASE_COLOR })
+          layer.setStyle({ weight: 2.5 })
         }
       })
     },
     fnOnMouseover (e) {
-      e.target.setStyle({ weight: 2, fillOpacity: 0.7 })
-      select(e.originalEvent.target).raise()
+      e.target.setStyle({ fillOpacity: 0.7 })
+      this.setLocationFocus(e.target.feature.properties)
+
       this.hover = e.target.feature.properties
-      // this.setLocationFocus(e.target.feature.properties)
     },
     fnOnMouseout (e) {
-      e.target.setStyle({ weight: 0.5, fillOpacity: 1 })
+      e.target.setStyle({ fillOpacity: 1 })
+      this.setLocationFocus(null)
+
       this.hover = null
-      // this.setLocationFocus(null)
     }
   }
 }
 </script>
 
 <style>
+
 @import "../../node_modules/leaflet/dist/leaflet.css";
 /*@import 'https://unpkg.com/leaflet@1.6.0/dist/leaflet.css';*/
 
-#selector-map-chart.leaflet-container{
+#hybrid-map-chart.leaflet-container{
     z-index: 1;
-    background-color:#1E1E1E;
+    background-color:rgba(0, 0, 0, 0);
+}
+
+#hybrid-map-chart.leaflet-container path {
+  transition: fill 0.5s;
 }
 
 </style>

@@ -1,12 +1,26 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
+import Common from '../views/Common'
+
 import Observatory from '../views/Observatory'
 import Location from '../views/Location'
 import Project from '../views/Project'
 import Contacts from '../views/Contacts'
 
 Vue.use(VueRouter)
+
+const commonRoutes = [
+  {
+    path: '*',
+    redirect: '/'
+  },
+  {
+    path: '/',
+    name: 'Observatory',
+    component: Common
+  }
+]
 
 const routes = [
   {
@@ -36,7 +50,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes
+  routes: commonRoutes
 })
 
 export default router

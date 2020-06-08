@@ -3,7 +3,7 @@
     app
     height="60"
   >
-    <v-app-bar-nav-icon @click="toggleDrawer" />
+    <!--v-app-bar-nav-icon @click="toggleDrawer" /-->
     <v-toolbar-title
       class="ml-1 text-left headline"
     >

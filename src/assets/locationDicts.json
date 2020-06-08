@@ -1,7 +1,7 @@
 [
   {
     "id": "confirmed",
-    "name": "COVID19 Cases",
+    "name": "Covid19 Cases",
     "scaleType": "scaleLog",
     "scaleColorType": "scaleSequentialLog", 
     "interpolator": "interpolateOrRd",
@@ -14,7 +14,7 @@
   },
   {
     "id": "risk_index",
-    "name": "Risk Index",
+    "name": "Infodemic Risk Index",
     "scaleType": "scaleLinear",
     "scaleColorType": "scaleSequential", 
     "interpolator": "interpolateBlues",

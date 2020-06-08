@@ -84,7 +84,7 @@ export default {
   },
   data () {
     return {
-      height: 140
+      height: 130
     }
   },
   computed: {
@@ -107,10 +107,10 @@ export default {
     updateHeight () {
       const bp = this.$vuetify.breakpoint.name
       this.height = bp === 'xs'
-        ? 140/* 140 */ : bp === 'sm'
-          ? 140/* 140 */ : bp === 'md'
-            ? 140 : bp === 'lg'
-              ? 140 : 140
+        ? 130/* 140 */ : bp === 'sm'
+          ? 130/* 140 */ : bp === 'md'
+            ? 130 : bp === 'lg'
+              ? 130 : 130
     }
   }
 }

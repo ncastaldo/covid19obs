@@ -51,6 +51,12 @@
         "link": "https://members.tortoisemedia.com/2020/03/23/the-infodemic-fake-news-coronavirus/content.html"
       },
       {
+        "id": "SCIENCE_PRESS",
+        "text": "Épidémie de fausses nouvelles: la course au remède",
+        "logo": "assets/static_img/press_logo/SCIENCE_PRESS.svg",
+        "link": "https://www.sciencepresse.qc.ca/actualite/2020/06/01/epidemie-fausses-nouvelles-course-remede"
+      },
+      {
         "id": "SMITHSONIAN_MAGAZINE",
         "text": "How to Avoid Misinformation About COVID-19",
         "logo": "assets/static_img/press_logo/SMITHSONIAN_MAGAZINE.svg",
@@ -63,10 +69,22 @@
         "link": "https://blog.mapbox.com/notable-maps-visualizing-covid-19-and-surrounding-impacts-951724cc4bd8"
       },
       {
+        "id": "EL_SPECTADOR",
+        "text": "Infodemia, una curva difícil de aplanar",
+        "logo": "assets/static_img/press_logo/EL_SPECTADOR.svg",
+        "link": "https://www.elespectador.com/coronavirus/infodemia-una-curva-dificil-de-aplanar-articulo-922205"
+      },
+      {
         "id": "POYNTER",
         "text": "How a fast-moving crisis fuels rumor and speculation",
         "logo": "assets/static_img/press_logo/POYNTER.svg",
         "link": "https://www.poynter.org/fact-checking/2020/how-a-fast-moving-crisis-fuels-rumor-and-speculation/"
+      },
+      {
+        "id": "POUR_LA_SCIENCE",
+        "text": "Coronavirus : une difficile lutte contre l’épidémie de désinformation",
+        "logo": "assets/static_img/press_logo/POUR_LA_SCIENCE.svg",
+        "link": "https://www.pourlascience.fr/sd/sciences-sociales/coronavirus-une-difficile-lutte-contre-lepidemie-de-desinformation-19564.php"
       },
       {
         "id": "PROSPECT",
@@ -108,6 +126,12 @@
         "text": "Come si diffondono le fake news sul coronavirus",
         "logo":"assets/static_img/press_logo/WIRED.svg",
         "link": "https://www.wired.it/internet/web/2020/03/11/coronavirus-fake-news/"
+      },
+      {
+        "id": "AGENDA_DIGITALE",
+        "text": "Disinformazione sul covid, che ci insegna la Scienza su problema e soluzioni",
+        "logo":"assets/static_img/press_logo/AGENDA_DIGITALE.svg",
+        "link": "https://www.agendadigitale.eu/cultura-digitale/disinformazione-sul-covid-che-ci-insegna-la-scienza-su-problema-e-soluzioni/"
       },
       {
         "id": "GALILEO",

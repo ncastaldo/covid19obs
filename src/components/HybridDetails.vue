@@ -1,5 +1,5 @@
 <template>
-  <div class="title">
+  <div class="subtitle pb-2">
     <span class="pr-3 font-weight-bold">{{ locationName }}</span>
     <span class="pr-3 font-weight-light">{{ locationValue }}</span>
   </div>

@@ -22,10 +22,10 @@
       </div>
       <v-row>
         <v-col class="col-12 col-md-8">
-          <LocationLegendChart :height="45" />
           <LocationMapChart
             :height="height - 45"
           />
+          <LocationLegendChart :height="45" />
         </v-col>
         <v-col class="col-12 col-md-4">
           <LocationBarChart
@@ -73,7 +73,7 @@ export default {
   data () {
     return {
       stickyOffset: { top: 60 },
-      height: 500
+      height: 400
     }
   }
 }

@@ -1,25 +1,28 @@
 [
   {
     "id": "risk_index",
-    "name": "Risk Index",
+    "name": "Infodemic Risk Index",
     "scaleType": "scaleLinear",
     "scaleColorType": "scaleSequential", 
     "interpolator": "interpolateBlues",
     "format": ".2f",
+    "fallback": "Not available",
     "ticks": 7,
-    "baseDomain": [1, 0],
+    "bounds": [0, 1],
     "fixedDomain": [0, 1]
   },
   {
     "id": "confirmed",
     "name": "Covid19 Cases",
-    "scaleType": "scaleSymlog",
-    "scaleColorType": "scaleSequentialSymlog", 
+    "scaleType": "scaleLog",
+    "scaleColorType": "scaleSequentialLog", 
     "interpolator": "interpolateOrRd",
-    "format": ".0f",
-    "legendFormat": ".1s",
+    "format": ".1s",
+    "detailsFormat": ".0f",
+    "fallback": "0",
     "ticks": 2,
-    "baseDomain": [0, 0]
+    "baseDomain": [1, 0],
+    "bounds": [0.4, 9999999999999]
   },
   {
     "id": "unreliable",
@@ -28,8 +31,9 @@
     "scaleColorType": "scaleSequential", 
     "interpolator": "interpolatePurples",
     "format": ".1%",
+    "fallback": "Not available",
     "ticks": 7,
-    "baseDomain": [1, 0],
+    "bounds": [0, 1],
     "fixedDomain": [0, 1]
   },
   {
@@ -39,9 +43,10 @@
     "scaleColorType": "scaleSequential", 
     "interpolator": "interpolateRdYlGn",
     "format": ".2f",
+    "fallback": "Not available",
     "ticks": 7,
-    "baseDomain": [0, 0],
-    "fixedDomain": [-0.5, 0.5],
-    "lastPlus": true
+    "bounds": [-1, 1],
+    "baseDomain": [-0, 0],
+    "fixedDomain": [-0.5, 0.5]
   }
 ]
