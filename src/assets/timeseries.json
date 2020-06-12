@@ -104,7 +104,7 @@
     "charts": [
       {
         "id": "info_risk_index",
-        "label": "Risk Index",
+        "label": "Infodemic Risk Index",
         "type": "bxChart",
         "tooltip": "Infodemic Risk Index: from 0 to 1, it is related to the potential number of users exposed to unreliable URLs present in tweets; not computed if less than 1000 tweets in a day.",
         "yFormat": ".1f",
@@ -134,7 +134,7 @@
       },
       {
         "id": "info_reliable_unreliable",
-        "label": "Reliability",
+        "label": "News Reliability",
         "type": "bxChart",
         "tooltip": "Analysis of URLs present in tweets to determine if they are trustworthy (e.g., mainstream media, recognized scientific institutions and magazines) or not (fake news/hoax, satire, clickbait, etc.).",
         "yFormat": ".1s",
@@ -158,28 +158,38 @@
             "fns": []
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": "CENTER_BOTTOM",
+    "charts": [
       {
-        "id": "info_bots_human",
-        "label": "Social Bots/Humans",
-        "tooltip": "State-of-the-art detection of automated agents and humans, which can have Verified status on Twitter or not (in this case they are just Unverified). Verified bots include mainstream medias and, in some cases, extremely active VIP accounts. ",
+        "id": "info_verified_users",
+        "label": "Verified Bots/Humans",
+        "tooltip": "State-of-the-art detection of automated agents and humans: users that have Verified status on Twitter. Verified bots include mainstream medias and, in some cases, extremely active VIP accounts.",
         "type": "bxChart",
-        "scaleType": "scaleSymlog",
+        "scaleType": "scaleLinear",
         "yFormat": ".1s",
         "valueFormat": ".3s",
-        "stacked": false,
+        "stacked": true,
         "values": [
           {
-            "id": "info_human_unverified",
-            "label": "UH",
-            "tooltip": "Unverified Humans",
-            "type": "bxLine",
-            "color": "#B3DE69",
+            "id": "info_bot_verified",
+            "label": "VB",
+            "tooltip": "Verified Bots",
+            "type": "bxBars",
+            "color": "#FDB462",
             "fns": [
+              {
+                "name": "fnHighValue",
+                "type": "scalar",
+                "value": 0
+              },
               {
                 "name": "fnValue",
                 "type": "field",
-                "value": "info_human_unverified"
+                "value": "info_bot_verified"
               }
             ]
           },
@@ -187,41 +197,68 @@
             "id": "info_human_verified",
             "label": "VH",
             "tooltip": "Verified Humans",
-            "type": "bxLine",
+            "type": "bxBars",
             "color": "#80B1D3",
             "fns": [
               {
-                "name": "fnValue",
+                "name": "fnLowValue",
+                "type": "scalar",
+                "value": 0
+              },
+              {
+                "name": "fnHighValue",
                 "type": "field",
                 "value": "info_human_verified"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "id": "info_unverified_users",
+        "label": "Unverified Bots/Humans",
+        "tooltip": "State-of-the-art detection of automated agents and humans: users WITHOUT a Verified status on Twitter.",
+        "type": "bxChart",
+        "scaleType": "scaleLinear",
+        "yFormat": ".1s",
+        "valueFormat": ".3s",
+        "stacked": true,
+        "values": [
           {
             "id": "info_bot_unverified",
             "label": "UB",
             "tooltip": "Unverified Bots",
-            "type": "bxLine",
-            "color": "#FDB462",
+            "type": "bxBars",
+            "color": "#FB8072",
             "fns": [
               {
-                "name": "fnValue",
+                "name": "fnLowValue",
+                "type": "scalar",
+                "value": 0
+              },
+              {
+                "name": "fnHighValue",
                 "type": "field",
                 "value": "info_bot_unverified"
               }
             ]
           },
           {
-            "id": "info_bot_verified",
-            "label": "VB",
-            "tooltip": "Verified Bots",
-            "type": "bxLine",
-            "color": "#FB8072",
+            "id": "info_human_unverified",
+            "label": "UH",
+            "tooltip": "Unverified Humans",
+            "type": "bxBars",
+            "color": "#B3DE69",
             "fns": [
               {
-                "name": "fnValue",
+                "name": "fnLowValue",
+                "type": "scalar",
+                "value": 0
+              },
+              {
+                "name": "fnHighValue",
                 "type": "field",
-                "value": "info_bot_verified"
+                "value": "info_human_unverified"
               }
             ]
           }

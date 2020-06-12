@@ -12,3 +12,5 @@ rank,fact_type,count,domain,title,url
 11,FAKE/HOAX,1,dailymail.co.uk,There are THREE separate types of coronavirus,https://www.dailymail.co.uk/sciencetech/article-8204255/there-three-separate-types-coronavirus.html?ito=facebook_share_article-home
 12,FAKE/HOAX,1,express.co.uk,Princess Beatrice changes royal wedding plans for 'even BIGGER event' after cancelling day,https://www.express.co.uk/news/royal/1268047/princess-beatrice-royal-wedding-edoardo-mapelli-mozzi-coronavirus
 13,FAKE/HOAX,1,rt.com,Indian naval base enters ‘total lockdown’ as 20+ sailors test positive for Covid-19,https://on.rt.com/af5f
+14,FAKE/HOAX,1,rt.com,"Russian scientists hope to begin HUMAN TESTING on Covid-19 vaccine within weeks, having tried it on themselves first",https://on.rt.com/ahqz
+15,CONSPIRACY/JUNKSCI,1,activistpost.com,,https://www.activistpost.com/2020/05/bill-gates-partners-with-darpa-department-of-defense-for-new-dna-nanotech-covid19-vaccine.html

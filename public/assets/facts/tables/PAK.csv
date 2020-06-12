@@ -1,6 +1,6 @@
 rank,fact_type,count,domain,title,url
 1,FAKE/HOAX,113,rt.com,Italian army’s chief of staff tests positive for coronavirus,https://www.rt.com/news/482623-italy-coronavirus-chief-of-staff/
-2,FAKE/HOAX,93,dailymail.co.uk,Beijing exploits Covid crisis to assert control of South China Sea,https://www.dailymail.co.uk/news/article-8304031/china-flexes-military-muscle-beijing-exploits-covid-crisis-assert-control-south-china-sea.html
+2,FAKE/HOAX,104,dailymail.co.uk,Beijing exploits Covid crisis to assert control of South China Sea,https://www.dailymail.co.uk/news/article-8304031/china-flexes-military-muscle-beijing-exploits-covid-crisis-assert-control-south-china-sea.html
 3,FAKE/HOAX,70,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
 4,FAKE/HOAX,40,presstv.com,Coronavirus was produced in a laboratory: Former CIA intel officer,https://www.presstv.com/detail/2020/03/05/620213/coronavirus-was-produced-in-a-laboratory
 5,CONSPIRACY/JUNKSCI,28,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
@@ -11,11 +11,11 @@ rank,fact_type,count,domain,title,url
 10,FAKE/HOAX,21,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
 11,FAKE/HOAX,19,nation.com.pk,,https://nation.com.pk/01-feb-2020/coronavirus-natural-or-manmade-biological-warfare
 12,FAKE/HOAX,19,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
-13,FAKE/HOAX,17,rt.com,Did patient zero really catch new Chinese virus by eating infected bat soup? It’s actually perfectly possible,https://on.rt.com/a9lh
-14,FAKE/HOAX,17,rt.com,City turned ghost town: Take a look inside sealed-off Wuhan amid coronavirus outbreak in China (VIDEO),https://on.rt.com/a9wi
-15,FAKE/HOAX,17,rt.com,"One Iranian dies of coronavirus every 10 minutes, 50 get infected every hour – health ministry",https://www.rt.com/news/483508-iran-coronavirus-deaths-infected/
-16,FAKE/HOAX,16,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/amp/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html?__twitter_impression=true
-17,FAKE/HOAX,16,rt.com,Error 404,http://on.rt.com/a9vh
-18,FAKE/HOAX,16,nation.com.pk,,https://nation.com.pk/05-apr-2020/rehman-malik-urges-un-chief-to-investigate-coronavirus
-19,FAKE/HOAX,15,rt.com,No more BATS & SNAKES for gourmands: China bans WILDLIFE trade after virus outbreak linked to agricultural producers,https://on.rt.com/a9ra
-20,FAKE/HOAX,13,rt.com,38 infected coronavirus patients CURED in China as epidemic rages on,https://on.rt.com/a9po
+13,FAKE/HOAX,18,nation.com.pk,,https://nation.com.pk/17-may-2020/coming-days-more-critical-regarding-spread-of-coronavirus-rehman-malik
+14,FAKE/HOAX,18,nation.com.pk,,https://nation.com.pk/04-jun-2020/hosting-coronavirus
+15,FAKE/HOAX,17,rt.com,Did patient zero really catch new Chinese virus by eating infected bat soup? It’s actually perfectly possible,https://on.rt.com/a9lh
+16,FAKE/HOAX,17,rt.com,City turned ghost town: Take a look inside sealed-off Wuhan amid coronavirus outbreak in China (VIDEO),https://on.rt.com/a9wi
+17,FAKE/HOAX,17,rt.com,"One Iranian dies of coronavirus every 10 minutes, 50 get infected every hour – health ministry",https://www.rt.com/news/483508-iran-coronavirus-deaths-infected/
+18,FAKE/HOAX,16,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/amp/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html?__twitter_impression=true
+19,FAKE/HOAX,16,rt.com,Error 404,http://on.rt.com/a9vh
+20,FAKE/HOAX,16,nation.com.pk,,https://nation.com.pk/05-apr-2020/rehman-malik-urges-un-chief-to-investigate-coronavirus

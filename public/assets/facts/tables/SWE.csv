@@ -2,7 +2,7 @@ rank,fact_type,count,domain,title,url
 1,FAKE/HOAX,48,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
 2,FAKE/HOAX,45,breitbart.com,Sweden to Stop Publishing 'Not Important' Coronavirus Numbers,https://www.breitbart.com/europe/2020/03/14/sweden-to-stop-publishing-coronavirus-numbers-deems-them-not-important/
 3,FAKE/HOAX,31,dailymail.co.uk,Third Russian doctor plunges from coronavirus hospital window,https://www.dailymail.co.uk/news/article-8282033/third-russian-doctor-plunges-coronavirus-hospital-window.html
-4,CONSPIRACY/JUNKSCI,28,greenpeace.org,Skriv under: KRÄV KLIMATOMSTÄLLNING I STIMULANSPAKETEN! >>,https://www.greenpeace.org/sweden/agera/covid-19/
+4,CONSPIRACY/JUNKSCI,29,greenpeace.org,Skriv under: KRÄV KLIMATOMSTÄLLNING I STIMULANSPAKETEN! >>,https://www.greenpeace.org/sweden/agera/covid-19/
 5,FAKE/HOAX,23,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
 6,FAKE/HOAX,22,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
 7,FAKE/HOAX,22,dailymail.co.uk,Swedish people disregard Covid-19 lockdown and go for a pint,https://www.dailymail.co.uk/news/article-8151111/swedish-people-disregarding-covid-19-lockdown-going-pint.html
@@ -14,8 +14,8 @@ rank,fact_type,count,domain,title,url
 13,FAKE/HOAX,15,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
 14,FAKE/HOAX,15,n.news.naver.com,"'코로나19' 담당 법무부 공무원, 한강서 숨진 채 발견",https://n.news.naver.com/article/032/0002993787
 15,FAKE/HOAX,15,breitbart.com,Swedish Writer Claimed Boris Johnson Caught Coronavirus Deliberately,https://www.breitbart.com/europe/2020/04/14/swedish-writer-insinuates-boris-caught-coronavirus-purpose/
-16,CONSPIRACY/JUNKSCI,13,21stcenturywire.com,,https://21stcenturywire.com/2020/05/01/covid-why-sweden-has-already-won-the-debate-on-covid-19-lockdown-policy/
-17,FAKE/HOAX,12,dailymail.co.uk,Thousands of Britons face mass coronavirus testing,https://www.dailymail.co.uk/health/article-8045003/thousands-britons-face-mass-coronavirus-testing.html
-18,CONSPIRACY/JUNKSCI,11,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-19,CONSPIRACY/JUNKSCI,10,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-20,FAKE/HOAX,9,dailymail.co.uk,U.S. gave $3.7million grant to lab at center coronavirus scandal,https://www.dailymail.co.uk/news/article-8211291/u-s-government-gave-3-7million-grant-wuhan-lab-experimented-coronavirus-source-bats.html
+16,FAKE/HOAX,14,dailymail.co.uk,Spain wants to allow travel between COVID 'green zones' in Europe,https://www.dailymail.co.uk/news/article-8362129/spain-proposes-allowing-travel-coronavirus-green-zones-europe.html
+17,CONSPIRACY/JUNKSCI,13,21stcenturywire.com,,https://21stcenturywire.com/2020/05/01/covid-why-sweden-has-already-won-the-debate-on-covid-19-lockdown-policy/
+18,FAKE/HOAX,12,dailymail.co.uk,Thousands of Britons face mass coronavirus testing,https://www.dailymail.co.uk/health/article-8045003/thousands-britons-face-mass-coronavirus-testing.html
+19,CONSPIRACY/JUNKSCI,11,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+20,CONSPIRACY/JUNKSCI,11,zerohedge.com,"German Official Leaks Report Denouncing COVID-19 As ""A Global False Alarm""",https://www.zerohedge.com/markets/german-official-leaks-report-denouncing-covid-19-global-false-alarm

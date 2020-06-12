@@ -3,19 +3,19 @@ rank,fact_type,count,domain,title,url
 2,FAKE/HOAX,6,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
 3,FAKE/HOAX,4,mcmnt.com,Tanzania confirms first case of Coronavirus - MCM,https://mcmnt.com/tanzania-confirms-first-case-of-coronavirus/
 4,FAKE/HOAX,3,rt.com,"First two cases of coronavirus confirmed in Russia, both Chinese citizens",https://on.rt.com/aa5v
-5,CONSPIRACY/JUNKSCI,2,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-6,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/latest-news/chinese-government-claims-coronavirus-can-21762279
-7,FAKE/HOAX,2,dailymail.co.uk,Israel launches new 'contactless' roadside covid-19 testing booths,https://www.dailymail.co.uk/news/article-8226793/israel-launches-new-contactless-roadside-covid-19-testing-booths.html?fbclid=iwar3dyg7_oc7f4kzv7j-8hqlfezwdboelqmqyze1b77yvgzzdr69jjwlnulk
-8,FAKE/HOAX,1,dailymail.co.uk,Deadly Chinese coronavirus 'can spread through coughs and sneezes',https://www.dailymail.co.uk/health/article-7919847/shocking-footage-shows-chaos-wuhans-streets-chinese-city-lockdown.html
-9,FAKE/HOAX,1,reseauinternational.net,Coïncidence ? Le seul labo capable de traiter les coronavirus en Chine est à Wuhan,https://reseauinternational.net/coincidence-le-seul-labo-capable-de-traiter-les-coronavirus-en-chine-est-a-wuhan/
-10,FAKE/HOAX,1,rt.com,38 infected coronavirus patients CURED in China as epidemic rages on,https://on.rt.com/a9po
-11,FAKE/HOAX,1,rt.com,"Chinese coronavirus spreads with no visible symptoms as death toll grows to 81, over 2,800 infected worldwide",https://on.rt.com/a9sp
-12,FAKE/HOAX,1,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
-13,FAKE/HOAX,1,chinadaily.com.cn,,http://www.chinadaily.com.cn/regional/2020-01/28/content_37533273.htm
-14,FAKE/HOAX,1,rt.com,City turned ghost town: Take a look inside sealed-off Wuhan amid coronavirus outbreak in China (VIDEO),https://on.rt.com/a9wi
-15,FAKE/HOAX,1,rt.com,Watch WHO chief cough & crack a ‘VIRAL’ joke... as watchdog tackles coronavirus (VIDEO),https://on.rt.com/aach
-16,FAKE/HOAX,1,rt.com,Coronavirus death toll tops 900 as China's envoy to US dismisses ‘absolutely crazy’ bioweapon rumors,https://on.rt.com/aaq3
-17,FAKE/HOAX,1,express.co.uk,End of the world: Coronavirus panic and African locust plague spark Bible apocalypse fears,https://www.express.co.uk/news/weird/1242268/end-world-coronavirus-africa-locust-swarm-iran-us-conflict-apocalypse-bible-jesus-spt
-18,FAKE/HOAX,1,nouvelordremondial.cc,,https://www.nouvelordremondial.cc/2020/02/21/israel-affirme-quun-passager-du-diamond-princess-est-revenu-avec-le-coronavirus/
-19,FAKE/HOAX,1,breitbart.com,WHO Boasts: DR Congo Using Ebola Testing for Coronavirus,https://www.breitbart.com/health/2020/02/19/world-health-organization-boasts-dr-congo-using-ebola-testing-for-coronavirus/
-20,FAKE/HOAX,1,dailymail.co.uk,Woman is diagnosed with coronavirus after testing negative EIGHT TIMES,https://www.dailymail.co.uk/news/article-8042535/woman-diagnosed-coronavirus-testing-negative-eight-times-quarantine.html
+5,FAKE/HOAX,3,breitbart.com,"China: If We Have to Pay for Coronavirus, U.S. Has to Pay for AIDS",https://www.breitbart.com/asia/2020/05/07/china-we-have-pay-coronavirus-u-s-has-pay-aids-2008-financial-crisis/amp/?__twitter_impression=true
+6,CONSPIRACY/JUNKSCI,2,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+7,FAKE/HOAX,2,dailystar.co.uk,,https://www.dailystar.co.uk/news/latest-news/chinese-government-claims-coronavirus-can-21762279
+8,FAKE/HOAX,2,dailymail.co.uk,Israel launches new 'contactless' roadside covid-19 testing booths,https://www.dailymail.co.uk/news/article-8226793/israel-launches-new-contactless-roadside-covid-19-testing-booths.html?fbclid=iwar3dyg7_oc7f4kzv7j-8hqlfezwdboelqmqyze1b77yvgzzdr69jjwlnulk
+9,FAKE/HOAX,2,breitbart.com,"China: If We Have to Pay for Coronavirus, U.S. Has to Pay for AIDS",https://www.breitbart.com/asia/2020/05/07/china-we-have-pay-coronavirus-u-s-has-pay-aids-2008-financial-crisis/
+10,FAKE/HOAX,2,rt.com,Is that Big Brother behind the medical mask? Bill Gates to co-fund South Korean research of next-gen quarantine methods,https://on.rt.com/ah9m
+11,FAKE/HOAX,1,dailymail.co.uk,Deadly Chinese coronavirus 'can spread through coughs and sneezes',https://www.dailymail.co.uk/health/article-7919847/shocking-footage-shows-chaos-wuhans-streets-chinese-city-lockdown.html
+12,FAKE/HOAX,1,reseauinternational.net,Coïncidence ? Le seul labo capable de traiter les coronavirus en Chine est à Wuhan,https://reseauinternational.net/coincidence-le-seul-labo-capable-de-traiter-les-coronavirus-en-chine-est-a-wuhan/
+13,FAKE/HOAX,1,rt.com,38 infected coronavirus patients CURED in China as epidemic rages on,https://on.rt.com/a9po
+14,FAKE/HOAX,1,rt.com,"Chinese coronavirus spreads with no visible symptoms as death toll grows to 81, over 2,800 infected worldwide",https://on.rt.com/a9sp
+15,FAKE/HOAX,1,dailymail.co.uk,China's first coronavirus hospital OPENS today,https://www.dailymail.co.uk/news/article-7939075/chinas-coronavirus-hospital-opens-today.html
+16,FAKE/HOAX,1,chinadaily.com.cn,,http://www.chinadaily.com.cn/regional/2020-01/28/content_37533273.htm
+17,FAKE/HOAX,1,rt.com,City turned ghost town: Take a look inside sealed-off Wuhan amid coronavirus outbreak in China (VIDEO),https://on.rt.com/a9wi
+18,FAKE/HOAX,1,rt.com,Watch WHO chief cough & crack a ‘VIRAL’ joke... as watchdog tackles coronavirus (VIDEO),https://on.rt.com/aach
+19,FAKE/HOAX,1,rt.com,Coronavirus death toll tops 900 as China's envoy to US dismisses ‘absolutely crazy’ bioweapon rumors,https://on.rt.com/aaq3
+20,FAKE/HOAX,1,express.co.uk,End of the world: Coronavirus panic and African locust plague spark Bible apocalypse fears,https://www.express.co.uk/news/weird/1242268/end-world-coronavirus-africa-locust-swarm-iran-us-conflict-apocalypse-bible-jesus-spt

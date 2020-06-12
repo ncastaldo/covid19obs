@@ -13,9 +13,9 @@ rank,fact_type,count,domain,title,url
 12,FAKE/HOAX,2,rt.com,"A cure worse than the disease: UK lockdown could cause 150,000 ‘avoidable’ deaths, MORE than the virus it’s meant to stop",https://www.rt.com/op-ed/485876-covid-lockdown-kills-150000/
 13,FAKE/HOAX,2,rt.com,"Covid-19 mutations underestimated, Chinese scientists warn, as DEADLIEST strains grip Europe and US",https://www.rt.com/news/486425-covid-19-mutations-deadlier-strains/
 14,FAKE/HOAX,2,presstv.com,"In four US state prisons, some 3,300 inmates test positive for coronavirus -- 96% without symptoms",https://www.presstv.com/detail/2020/04/25/623913/us-state-prisons-inmates-coronavirus-pandemic-
-15,FAKE/HOAX,1,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
-16,FAKE/HOAX,1,presstv.com,Iran says suspected coronavirus case tested negative,https://www.presstv.com/detail/2020/01/25/617069/iran-coronavirus-suspected-case-airport-screening
-17,CONSPIRACY/JUNKSCI,1,thetruthseeker.co.uk,,http://www.thetruthseeker.co.uk/?p=201417
-18,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/china-building-1000-bed-hospital-21349892?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar
-19,CONSPIRACY/JUNKSCI,1,zerohedge.com,This Is How China Is Hiding The True Number Of Coronavirus Deaths,https://www.zerohedge.com/economics/how-china-hiding-true-number-coronavirus-deaths
-20,FAKE/HOAX,1,dcdirtylaundry.com,What a Coincidence! A U.S. Patent For ‘An Attenuated Coronavirus’ Was Filed In 2015 And Granted In 2018 - DC Dirty Laundry,https://dcdirtylaundry.com/what-a-coincidence-a-u-s-patent-for-an-attenuated-coronavirus-was-filed-in-2015-and-granted-in-2018/
+15,CONSPIRACY/JUNKSCI,2,zerohedge.com,CDC Admits COVID-19 Antibody Tests Are Wrong Half The Time & Virus Isn't That Deadly,https://www.zerohedge.com/health/cdc-admits-covid-19-antibody-tests-are-wrong-half-time-virus-isnt-deadly
+16,FAKE/HOAX,2,theduran.com,"Enraged Italians Abandon Masks, Denounce Pandemic As Scam",https://theduran.com/enraged-italians-abandon-masks-denounce-pandemic-as-scam/
+17,FAKE/HOAX,1,rt.com,Chinese authorities announce first CURED coronavirus patient discharged from hospital in Shanghai,https://on.rt.com/a9ok
+18,FAKE/HOAX,1,presstv.com,Iran says suspected coronavirus case tested negative,https://www.presstv.com/detail/2020/01/25/617069/iran-coronavirus-suspected-case-airport-screening
+19,CONSPIRACY/JUNKSCI,1,thetruthseeker.co.uk,,http://www.thetruthseeker.co.uk/?p=201417
+20,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/china-building-1000-bed-hospital-21349892?utm_source=twitter.com&utm_medium=social&utm_campaign=sharebar

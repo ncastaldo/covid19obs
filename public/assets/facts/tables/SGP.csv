@@ -2,20 +2,20 @@ rank,fact_type,count,domain,title,url
 1,FAKE/HOAX,142,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
 2,FAKE/HOAX,19,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
 3,FAKE/HOAX,19,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
-4,CONSPIRACY/JUNKSCI,11,globalresearch.ca,China's Coronavirus: A Shocking Update. Did The Virus Originate in the US? - Global Research,https://www.globalresearch.ca/china-coronavirus-shocking-update/5705196
-5,FAKE/HOAX,11,n.news.naver.com,김재중 “코로나19 확진→만우절 농담”…도넘은 장난,https://n.news.naver.com/entertain/now/article/018/0004610638
-6,FAKE/HOAX,10,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+4,FAKE/HOAX,11,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+5,CONSPIRACY/JUNKSCI,11,globalresearch.ca,China's Coronavirus: A Shocking Update. Did The Virus Originate in the US? - Global Research,https://www.globalresearch.ca/china-coronavirus-shocking-update/5705196
+6,FAKE/HOAX,11,n.news.naver.com,김재중 “코로나19 확진→만우절 농담”…도넘은 장난,https://n.news.naver.com/entertain/now/article/018/0004610638
 7,CONSPIRACY/JUNKSCI,10,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
 8,FAKE/HOAX,10,n.news.naver.com,"[단독] 슈퍼주니어 은혁, 코로나19 성금 1억 원 기부 ""의료진에 도움되길""",https://n.news.naver.com/entertain/article/052/0001407888
-9,FAKE/HOAX,9,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
-10,CONSPIRACY/JUNKSCI,9,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-11,FAKE/HOAX,8,n.news.naver.com,"슈퍼주니어, 신종 코로나바이러스 예방 위해 마스크 1만개 기부(공식)",https://n.news.naver.com/entertain/article/609/0000239850
-12,CONSPIRACY/JUNKSCI,8,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
-13,CONSPIRACY/JUNKSCI,8,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-14,FAKE/HOAX,8,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-15,FAKE/HOAX,8,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
-16,FAKE/HOAX,8,dailymail.co.uk,There are THREE separate types of coronavirus,https://www.dailymail.co.uk/sciencetech/article-8204255/amp/there-three-separate-types-coronavirus.html?__twitter_impression=true
-17,FAKE/HOAX,8,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
-18,FAKE/HOAX,7,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
-19,FAKE/HOAX,7,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-20,FAKE/HOAX,6,summit.news,Chinese Lab That Studies “World’s Most Dangerous Pathogens” is Based in Wuhan,https://summit.news/2020/01/23/chinese-lab-that-studies-worlds-most-dangerous-pathogens-is-based-in-wuhan/
+9,CONSPIRACY/JUNKSCI,10,zerohedge.com,"German Official Leaks Report Denouncing COVID-19 As ""A Global False Alarm""",https://www.zerohedge.com/markets/german-official-leaks-report-denouncing-covid-19-global-false-alarm
+10,FAKE/HOAX,9,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+11,CONSPIRACY/JUNKSCI,9,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+12,FAKE/HOAX,8,n.news.naver.com,"슈퍼주니어, 신종 코로나바이러스 예방 위해 마스크 1만개 기부(공식)",https://n.news.naver.com/entertain/article/609/0000239850
+13,CONSPIRACY/JUNKSCI,8,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+14,CONSPIRACY/JUNKSCI,8,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+15,FAKE/HOAX,8,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
+16,FAKE/HOAX,8,n.news.naver.com,CJ ENM 측 “‘KCON 2020 JAPAN’ 코로나 여파로 연기하기로 결정”  [공식],https://n.news.naver.com/entertain/article/382/0000803486
+17,FAKE/HOAX,8,dailymail.co.uk,There are THREE separate types of coronavirus,https://www.dailymail.co.uk/sciencetech/article-8204255/amp/there-three-separate-types-coronavirus.html?__twitter_impression=true
+18,FAKE/HOAX,8,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
+19,FAKE/HOAX,7,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/scientists-blame-coronavirus-bats-pics-21337997
+20,FAKE/HOAX,7,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042

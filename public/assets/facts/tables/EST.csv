@@ -5,17 +5,17 @@ rank,fact_type,count,domain,title,url
 4,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
 5,CONSPIRACY/JUNKSCI,3,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
 6,FAKE/HOAX,3,dailymail.co.uk,Fox News 'willfully and maliciously deceived public' about coronavirus,https://www.dailymail.co.uk/news/article-8187883/fox-news-sued-willfully-maliciously-deceiving-public-dangers-coronavirus.html
-7,FAKE/HOAX,2,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
-8,FAKE/HOAX,2,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
-9,FAKE/HOAX,2,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
-10,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-11,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-12,CONSPIRACY/JUNKSCI,2,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-13,FAKE/HOAX,2,dailymail.co.uk,The Pope says he has asked God to stop the coronavirus epidemic,https://www.dailymail.co.uk/news/article-8125507/the-pope-says-asked-god-stop-coronavirus-epidemic.html
-14,FAKE/HOAX,2,dailymail.co.uk,What happened to those who spoke up about coronavirus in China?,https://www.dailymail.co.uk/news/article-8233203/chinas-disappeared-happened-dared-speak-coronavirus.html
-15,FAKE/HOAX,2,breaking911.com,30 Online Predators Arrested In Operation 'COVID Crackdown' - Breaking911,https://breaking911.com/30-online-predators-arrested-in-operation-covid-crackdown/
-16,FAKE/HOAX,2,dailymail.co.uk,Third Russian doctor plunges from coronavirus hospital window,https://www.dailymail.co.uk/news/article-8282033/third-russian-doctor-plunges-coronavirus-hospital-window.html
-17,FAKE/HOAX,2,dailymail.co.uk,Doctors group claims hydroxychloroquine helps 91% of covid patients,https://www.dailymail.co.uk/health/article-8266737/doctors-group-claims-hydroxychloroquine-helps-91-coronavirus-patients.html
-18,CONSPIRACY/JUNKSCI,2,maurizioblondet.it,L'olandese del Coronavirus. Ed altri scriteriati. — Blondet & Friends,https://www.maurizioblondet.it/lolandese-del-coronavirus-ed-altri-scriteriati/
-19,FAKE/HOAX,1,dailymail.co.uk,Deadly Chinese coronavirus 'can spread through coughs and sneezes',https://www.dailymail.co.uk/health/article-7919847/shocking-footage-shows-chaos-wuhans-streets-chinese-city-lockdown.html?ito=social-twitter_mailonline
-20,FAKE/HOAX,1,summit.news,Videos Show Chinese People Eating Bats As Experts Link Animal to Coronavirus Outbreak,https://summit.news/2020/01/23/videos-show-chinese-people-eating-bats-as-experts-link-animal-to-coronavirus-outbreak/
+7,FAKE/HOAX,3,rt.com,"Russia WILL NOT ban hydroxychloroquine, drug taken by US President Trump, for use in treating Covid-19",https://www.rt.com/russia/490018-russia-not-ban-drug-covid19/
+8,FAKE/HOAX,2,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+9,FAKE/HOAX,2,n.news.naver.com,"슈퍼주니어 컴백쇼, 중국 우한 폐렴 여파로 비공개 진행(전문)",https://n.news.naver.com/entertain/now/article/410/0000664132
+10,FAKE/HOAX,2,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+11,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+12,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+13,CONSPIRACY/JUNKSCI,2,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+14,FAKE/HOAX,2,dailymail.co.uk,The Pope says he has asked God to stop the coronavirus epidemic,https://www.dailymail.co.uk/news/article-8125507/the-pope-says-asked-god-stop-coronavirus-epidemic.html
+15,FAKE/HOAX,2,dailymail.co.uk,What happened to those who spoke up about coronavirus in China?,https://www.dailymail.co.uk/news/article-8233203/chinas-disappeared-happened-dared-speak-coronavirus.html
+16,FAKE/HOAX,2,breaking911.com,30 Online Predators Arrested In Operation 'COVID Crackdown' - Breaking911,https://breaking911.com/30-online-predators-arrested-in-operation-covid-crackdown/
+17,FAKE/HOAX,2,dailymail.co.uk,Third Russian doctor plunges from coronavirus hospital window,https://www.dailymail.co.uk/news/article-8282033/third-russian-doctor-plunges-coronavirus-hospital-window.html
+18,FAKE/HOAX,2,dailymail.co.uk,Doctors group claims hydroxychloroquine helps 91% of covid patients,https://www.dailymail.co.uk/health/article-8266737/doctors-group-claims-hydroxychloroquine-helps-91-coronavirus-patients.html
+19,CONSPIRACY/JUNKSCI,2,maurizioblondet.it,L'olandese del Coronavirus. Ed altri scriteriati. — Blondet & Friends,https://www.maurizioblondet.it/lolandese-del-coronavirus-ed-altri-scriteriati/
+20,FAKE/HOAX,2,egaliteetreconciliation.fr,"800 000 vues pour la vidéo Couillonavirus, la suite ! : objectif 1 million !",https://www.egaliteetreconciliation.fr/800-000-vues-pour-la-video-couillonavirus-la-suite-objectif-1-million-59445.html

@@ -2,20 +2,20 @@ rank,fact_type,count,domain,title,url
 1,FAKE/HOAX,7,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest?fbclid=iwar3piqce96nhzoohwwnppwu7j8y_zc_wqgtwlt2pyglgh3lcbd00cftzo-8
 2,FAKE/HOAX,4,albertonews.com,Hospitales en Venezuela no están aptos para enfrentar el coronavirus (Video) - AlbertoNews - Periodismo sin censura,https://albertonews.com/nacionales/urgente-hospitales-en-venezuela-no-estan-aptos-para-enfrentar-el-coronavirus-video/
 3,FAKE/HOAX,4,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
-4,FAKE/HOAX,3,albertonews.com,,https://albertonews.com/internacionales/el-salvador-presidente-bukele-bate-record-con-97-de-aprobacion-en-gestion-frente-a-la-pandemia-covid-19/
-5,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/china-registra-un-brote-de-gripe-aviar-en-zona-cercana-al-foco-del-coronavirus/
-6,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-23/
-7,FAKE/HOAX,2,rt.com,"China coronavirus death toll soars to 813 with 37,000+ cases worldwide",https://on.rt.com/aaov
-8,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/lo-ultimo-eeuu-florida-registra-dos-nuevos-presuntos-casos-de-coronavirus/
-9,CONSPIRACY/JUNKSCI,2,globalresearch.ca,COVID-19: Further Evidence that the Virus Originated in the US - Global Research,https://www.globalresearch.ca/covid-19-further-evidence-virus-originated-us/5706078
-10,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/ultima-hora/ultima-hora-maduro-pide-credito-de-5-mil-millones-de-dolares-al-fmi-para-enfrentar-la-pandemia-del-coronavirus/
-11,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/principales/ultima-hora-colombia-confirma-su-primera-muerte-por-el-coronavirus/
-12,FAKE/HOAX,2,albertonews.com,Cada 17 minutos muere una persona en Nueva York por coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/ultima-hora-cada-17-minutos-muere-una-persona-en-nueva-york-por-coronavirus/
-13,FAKE/HOAX,2,judicialwatch.org,,https://www.judicialwatch.org/investigative-bulletin/trumps-winning-coronavirus-bet/
-14,FAKE/HOAX,2,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
-15,FAKE/HOAX,2,albertonews.com,La OMS REITERA que el coronavirus “tiene un origen animal” y no fue manipulado en un laboratorio chino - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/la-oms-reitera-que-el-coronavirus-tiene-un-origen-animal-y-no-fue-manipulado-en-un-laboratorio-chino/
-16,FAKE/HOAX,2,breitbart.com,Congressman: Pelosi Blocking Investigation into China Coronavirus Origins,https://www.breitbart.com/politics/2020/05/03/congressman-nancy-pelosi-blocking-investigation-chinese-coronavirus-origins/
-17,FAKE/HOAX,1,dailymail.co.uk,Chinese builders to turn a field into a coronavirus hospital in A WEEK,https://www.dailymail.co.uk/news/article-7924249/chinese-builders-work-day-night-turn-field-coronavirus-hospital-week.html
-18,FAKE/HOAX,1,sputniknews.com,Twice Lucky: FBI Drops Fight Against Apple Second Time Around,https://sptnkne.ws/bg4s
-19,FAKE/HOAX,1,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-canada-reportan-un-posible-caso-de-coronavirus-en-toronto/
-20,FAKE/HOAX,1,rt.com,"China’s PM calls for ‘resolute fight’ against coronavirus outbreak as death toll climbs to 106 with over 1,700 new cases",https://on.rt.com/a9v1
+4,FAKE/HOAX,4,sputniknews.com,India Wants to Buy Russian Kalibr Cruise Missiles,https://sptnkne.ws/ccjg
+5,FAKE/HOAX,3,albertonews.com,,https://albertonews.com/internacionales/el-salvador-presidente-bukele-bate-record-con-97-de-aprobacion-en-gestion-frente-a-la-pandemia-covid-19/
+6,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/china-registra-un-brote-de-gripe-aviar-en-zona-cercana-al-foco-del-coronavirus/
+7,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-23/
+8,FAKE/HOAX,2,rt.com,"China coronavirus death toll soars to 813 with 37,000+ cases worldwide",https://on.rt.com/aaov
+9,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/lo-ultimo-eeuu-florida-registra-dos-nuevos-presuntos-casos-de-coronavirus/
+10,CONSPIRACY/JUNKSCI,2,globalresearch.ca,COVID-19: Further Evidence that the Virus Originated in the US - Global Research,https://www.globalresearch.ca/covid-19-further-evidence-virus-originated-us/5706078
+11,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/ultima-hora/ultima-hora-maduro-pide-credito-de-5-mil-millones-de-dolares-al-fmi-para-enfrentar-la-pandemia-del-coronavirus/
+12,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/principales/ultima-hora-colombia-confirma-su-primera-muerte-por-el-coronavirus/
+13,FAKE/HOAX,2,albertonews.com,Cada 17 minutos muere una persona en Nueva York por coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/ultima-hora-cada-17-minutos-muere-una-persona-en-nueva-york-por-coronavirus/
+14,FAKE/HOAX,2,judicialwatch.org,,https://www.judicialwatch.org/investigative-bulletin/trumps-winning-coronavirus-bet/
+15,FAKE/HOAX,2,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
+16,FAKE/HOAX,2,albertonews.com,La OMS REITERA que el coronavirus “tiene un origen animal” y no fue manipulado en un laboratorio chino - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/la-oms-reitera-que-el-coronavirus-tiene-un-origen-animal-y-no-fue-manipulado-en-un-laboratorio-chino/
+17,FAKE/HOAX,2,breitbart.com,Congressman: Pelosi Blocking Investigation into China Coronavirus Origins,https://www.breitbart.com/politics/2020/05/03/congressman-nancy-pelosi-blocking-investigation-chinese-coronavirus-origins/
+18,CONSPIRACY/JUNKSCI,2,zerohedge.com,What The Pandemic Revealed: A Morally Bankrupt Culture,https://www.zerohedge.com/health/what-pandemic-revealed-morally-bankrupt-culture?utm_medium=referral&utm_source=miximedia&utm_campaign=zerohedge
+19,FAKE/HOAX,2,theblaze.com,Infamous Wuhan lab admits having three live strains of bat coronavirus on-site,https://www.theblaze.com/news/wuhan-lab-virology-coronavirus-bats
+20,FAKE/HOAX,2,breitbart.com,Italy: 96% of Coronavirus Fatalities Had Other Chronic Illnesses,https://www.breitbart.com/health/2020/05/27/italy-96-of-coronavirus-fatalities-had-other-chronic-illnesses/

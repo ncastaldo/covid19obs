@@ -1,11 +1,13 @@
 rank,fact_type,count,domain,title,url
 1,FAKE/HOAX,3,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-2,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
-3,FAKE/HOAX,1,rt.com,Infection-free taxi: Hazmat-suit-wearing cab driver helps passengers to laugh off coronavirus hysteria (VIDEO),https://www.rt.com/russia/480447-taxi-hazmat-suit-coronavirus/
-4,FAKE/HOAX,1,rt.com,Sick joke: Blogger arrested after brutal coronavirus prank on Moscow subway (VIDEO),https://www.rt.com/russia/480518-coronavirus-prank-moscow-metro/
-5,CONSPIRACY/JUNKSCI,1,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-6,FAKE/HOAX,1,rt.com,Putin offers to send medical personnel & equipment to help Italy contain coronavirus outbreak,https://on.rt.com/ad9b
-7,FAKE/HOAX,1,rt.com,White Helmets use Covid-19 crisis to further US Coalition regime change agenda in Syria,https://on.rt.com/adll
-8,FAKE/HOAX,1,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
-9,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/cronaca/coronavirus-terapia-plasma-iperimmune-155295/
-10,FAKE/HOAX,1,politicususa.com,,https://www.politicususa.com/2020/05/06/yale-epidemiologist-u-s-handling-of-coronavirus-awfully-close-to-genocide-by-default.html
+2,CONSPIRACY/JUNKSCI,2,blacklistednews.com,,https://www.blacklistednews.com/article/77078/california-hospital-records-more-suicides-than-coronavirus-deaths-during.html
+3,CONSPIRACY/JUNKSCI,1,zerohedge.com,Did China Steal Coronavirus From Canada And Weaponize It?,https://www.zerohedge.com/geopolitical/did-china-steal-coronavirus-canada-and-weaponize-it
+4,FAKE/HOAX,1,rt.com,Infection-free taxi: Hazmat-suit-wearing cab driver helps passengers to laugh off coronavirus hysteria (VIDEO),https://www.rt.com/russia/480447-taxi-hazmat-suit-coronavirus/
+5,FAKE/HOAX,1,rt.com,Sick joke: Blogger arrested after brutal coronavirus prank on Moscow subway (VIDEO),https://www.rt.com/russia/480518-coronavirus-prank-moscow-metro/
+6,CONSPIRACY/JUNKSCI,1,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
+7,FAKE/HOAX,1,rt.com,Putin offers to send medical personnel & equipment to help Italy contain coronavirus outbreak,https://on.rt.com/ad9b
+8,FAKE/HOAX,1,rt.com,White Helmets use Covid-19 crisis to further US Coalition regime change agenda in Syria,https://on.rt.com/adll
+9,FAKE/HOAX,1,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
+10,FAKE/HOAX,1,ilprimatonazionale.it,,https://www.ilprimatonazionale.it/cronaca/coronavirus-terapia-plasma-iperimmune-155295/
+11,FAKE/HOAX,1,politicususa.com,,https://www.politicususa.com/2020/05/06/yale-epidemiologist-u-s-handling-of-coronavirus-awfully-close-to-genocide-by-default.html
+12,FAKE/HOAX,1,breitbart.com,Italy: 96% of Coronavirus Fatalities Had Other Chronic Illnesses,https://www.breitbart.com/health/2020/05/27/italy-96-of-coronavirus-fatalities-had-other-chronic-illnesses/

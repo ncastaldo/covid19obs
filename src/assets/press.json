@@ -21,6 +21,12 @@
         "link": "https://www.washingtonpost.com/science/2020/03/17/analysis-millions-coronavirus-tweets-shows-whole-world-is-sad/"
       },
       {
+        "id": "UNDP",
+        "text": "UNDP: Governments must lead fight against coronavirus misinformation and disinformation",
+        "logo": "assets/static_img/press_logo/UNDP.svg",
+        "link": "https://www.undp.org/content/undp/en/home/news-centre/news/2020/Governments_must_lead_against_coronavirus_misinformation_and_disinformation.html"
+      },
+      {
         "id": "NATURE_MACHINE_INTELLIGENCE",
         "text": "Artificial intelligence cooperation to support the global response to COVID-19",
         "logo": "assets/static_img/press_logo/NATURE_MACHINE_INTELLIGENCE.svg",
