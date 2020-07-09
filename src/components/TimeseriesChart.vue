@@ -241,7 +241,7 @@ export default {
     drawChart () {
       // wait for parent - chartscontainer
       this.$nextTick(function () {
-        this.chart.draw({ duration: this.$isMobile() ? 0 : 500 })
+        this.chart.draw({ duration: 0 })
       })
     },
     clear () {

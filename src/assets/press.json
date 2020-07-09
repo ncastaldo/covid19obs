@@ -93,6 +93,13 @@
         "link": "https://www.poynter.org/fact-checking/2020/how-a-fast-moving-crisis-fuels-rumor-and-speculation/"
       },
       {
+        "id": "SWISSINFO",
+        "text": "Resisting Covid-19 ‘fake news’ with a high dose of public trust",
+        "logo": "assets/static_img/press_logo/SWISSINFO.svg",
+        "link": "https://www.swissinfo.ch/eng/resisting-covid-19--fake-news--with-a-high-dose-of-public-trust/45859742"
+      
+      },
+      {
         "id": "POUR_LA_SCIENCE",
         "text": "Coronavirus : une difficile lutte contre l’épidémie de désinformation",
         "logo": "assets/static_img/press_logo/POUR_LA_SCIENCE.svg",
@@ -138,6 +145,12 @@
         "text": "Come si diffondono le fake news sul coronavirus",
         "logo":"assets/static_img/press_logo/WIRED.svg",
         "link": "https://www.wired.it/internet/web/2020/03/11/coronavirus-fake-news/"
+      },
+      {
+        "id": "ANSA",
+        "text": "Coronavirus: Fbk Trento partner dell'Oms per infodemia",
+        "logo":"assets/static_img/press_logo/ANSA.svg",
+        "link": "https://www.ansa.it/trentino/notizie/2020/06/30/coronavirus-fbk-trento-partner-delloms-per-infodemia_cfede640-00c6-43ba-8300-59b1c175e801.html"
       },
       {
         "id": "AGENDA_DIGITALE",
