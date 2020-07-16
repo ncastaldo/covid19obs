@@ -97,7 +97,18 @@
         "text": "Resisting Covid-19 ‘fake news’ with a high dose of public trust",
         "logo": "assets/static_img/press_logo/SWISSINFO.svg",
         "link": "https://www.swissinfo.ch/eng/resisting-covid-19--fake-news--with-a-high-dose-of-public-trust/45859742"
-      
+      },
+      {
+        "id": "MNT",
+        "text": "Shifting goalposts: Research in the time of the coronavirus",
+        "logo": "assets/static_img/press_logo/MNT.svg",
+        "link": "https://www.medicalnewstoday.com/articles/shifting-goalposts-research-in-the-time-of-the-coronavirus"
+      },
+      {
+        "id": "GOVERNING",
+        "text": "Coronavirus Fears Heightened by Infodemic of Misinformation",
+        "logo": "assets/static_img/press_logo/GOVERNING.svg",
+        "link": "https://www.governing.com/security/Coronavirus-Fears-Heightened-by-Infodemic-of-Misinformation.html"
       },
       {
         "id": "POUR_LA_SCIENCE",

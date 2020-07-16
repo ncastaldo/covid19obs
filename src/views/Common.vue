@@ -75,6 +75,13 @@
           cols="12"
           class="pb-3"
         >
+          <PartnersCard />
+        </v-col>
+
+        <v-col
+          cols="12"
+          class="pb-3"
+        >
           <DescriptionCard />
         </v-col>
         <v-col
@@ -134,6 +141,7 @@ import TimeseriesCard from '../components/TimeseriesCard'
 
 import LocationCard from '../components/LocationCard'
 
+import PartnersCard from '../components/PartnersCard'
 import InfoTableCard from '../components/InfoTableCard'
 import DataSourcesCard from '../components/DataSourcesCard'
 import DisclaimerCard from '../components/DisclaimerCard'
@@ -165,6 +173,8 @@ export default {
     DataSourcesCard,
     DisclaimerCard,
     DescriptionCard,
+
+    PartnersCard,
 
     TimeseriesCard,
     FactsCard

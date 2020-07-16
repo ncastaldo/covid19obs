@@ -9,20 +9,36 @@
       class="text-left pb-1 mx-1"
     >
       <v-card-title class="subtitle-1 py-2">
-        Report
+        Reports
       </v-card-title>
       <v-card-actions class="pt-1">
         <a
           href="assets/static_files/COVID19_INFODEMICS_REPORT.pdf"
-          download
+          target="_blank"
         >
           <div class="outline-it mx-2 px-2">
-            <div class="my-2">Report download</div>
+            <div class="my-2">Covid-19 Infodemics</div>
             <v-img
               contain
               width="180"
-              src="/assets/static_img/report.png"
+              height="100"
+              src="/assets/static_img/report/report.png"
               alt="report"
+            />
+          </div>
+        </a>
+        <a
+          href="https://reutersinstitute.politics.ox.ac.uk/sites/default/files/2020-07/RISJ_MajoVazquez%20FactSheet_FINAL.pdf"
+          target="_blank"
+        >
+          <div class="outline-it mx-2 px-2">
+            <div class="my-2">Reuters Institute</div>
+            <v-img
+              contain
+              width="180"
+              height="100"
+              src="/assets/static_img/report/reuters_institute_report.png"
+              alt="reutersinstitute report"
             />
           </div>
         </a>

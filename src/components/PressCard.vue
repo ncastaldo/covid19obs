@@ -56,12 +56,25 @@
 
 <script>
 
-import pressConfig from '../assets/press.json'
+const filePath = '/assets/static_config/press.json'
 
 export default {
   data () {
     return {
-      pressConfig
+      pressConfig: []
+    }
+  },
+  created () {
+    this.fetchData()
+  },
+  methods: {
+    fetchData () {
+      fetch(filePath)
+        .then(res => res.json())
+        .then(data => {
+          this.pressConfig = data
+        })
+        .catch(e => { console.log(`NO file found at ${filePath}`) })
     }
   }
 }
