@@ -3,9 +3,9 @@
     <div
       class="selector-map-chart__hover px-2 pt-1"
       :style="{
-        'background-color': '#1E1E1E',
+        'background-color': '#ddd',
         'font-size': '18px',
-        'color': '#ccc',
+        'color': '#000',
         'height': '34px',
         'font-weight': 200
       }"
@@ -143,7 +143,7 @@ export default {
 
 #selector-map-chart.leaflet-container{
     z-index: 1;
-    background-color:#1E1E1E;
+    background-color:#eee;
 }
 
 </style>

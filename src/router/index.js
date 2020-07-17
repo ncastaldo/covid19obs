@@ -10,18 +10,6 @@ import Contacts from '../views/Contacts'
 
 Vue.use(VueRouter)
 
-const commonRoutes = [
-  {
-    path: '*',
-    redirect: '/'
-  },
-  {
-    path: '/',
-    name: 'Observatory',
-    component: Common
-  }
-]
-
 const routes = [
   {
     path: '*',
@@ -50,7 +38,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes: commonRoutes
+  routes
 })
 
 export default router

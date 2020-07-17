@@ -3,7 +3,7 @@
     app
     height="60"
   >
-    <!--v-app-bar-nav-icon @click="toggleDrawer" /-->
+    <v-app-bar-nav-icon @click="toggleDrawer" />
     <v-toolbar-title
       class="ml-1 text-left headline"
     >
@@ -66,7 +66,7 @@ export default {
     style () {
       return {
         'font-size': this.breakpoint === 'xs' ? '20px' : '24px',
-        color: '#fff',
+        color: '#000',
         'text-decoration': 'none'
       }
     }

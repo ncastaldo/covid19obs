@@ -1,6 +1,6 @@
 <template>
-  <v-card v-resize:debounce.250="updateHeight">
-    <v-card-subtitle
+  <div v-resize:debounce.250="updateHeight">
+    <div
       ref="subtitle"
       class="py-1"
     >
@@ -53,7 +53,7 @@
         </template>
         <span>{{ bv.tooltip }}</span>
       </v-tooltip>
-    </v-card-subtitle>
+    </div>
     <TimeseriesChart
       v-if="timeseries"
       :id="`${id}-svg`"
@@ -61,7 +61,7 @@
       :chartConfig="chartConfig"
       :timeseries="timeseries || []"
     />
-  </v-card>
+  </div>
 </template>
 
 <script>
