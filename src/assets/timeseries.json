@@ -5,7 +5,7 @@
       {
         "id": "epi",
         "label": "Epidemic",
-        "tooltip": "Time course of COVID-19 worldwide, with reported number of confirmed, recovered and death cases.",
+        "tooltip": "Time course of COVID-19 worldwide, with reported number of confirmed and death cases.",
         "type": "bxChart",
         "yFormat": ".1s",
         "valueFormat": ".0f",
@@ -17,14 +17,6 @@
             "tooltip": "# Confirmed cases",
             "type": "bxBars",
             "color": "#fc8d59",
-            "fns": []
-          },
-          {
-            "id": "epi_recovered",
-            "label": "R",
-            "tooltip": "# Recovered cases",
-            "type": "bxBars",
-            "color": "#74c476",
             "fns": []
           },
           {
