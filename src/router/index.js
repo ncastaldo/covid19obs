@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import Common from '../views/Common'
-
-import Observatory from '../views/Observatory'
+// import Observatory from '../views/Observatory'
 import Location from '../views/Location'
 import Project from '../views/Project'
 import Contacts from '../views/Contacts'
+
+import Timeseries from '../views/Timeseries'
 
 Vue.use(VueRouter)
 
@@ -17,8 +17,10 @@ const routes = [
   },
   {
     path: '/',
-    name: 'Observatory',
-    component: Observatory
+    name: 'Timeseries',
+    component: Timeseries
+    // name: 'Observatory',
+    // component: Observatory
   },
   {
     path: '/rankings',

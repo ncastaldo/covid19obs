@@ -2,18 +2,15 @@
   <v-app
     id="app"
   >
-    <Drawer
-      v-if="true"
-    />
+    <Drawer />
     <Header />
 
     <v-content>
       <router-view
-        v-if="
-          storeReady"
+        v-if="storeReady"
       />
     </v-content>
-    <Footer v-if="storeReady" />
+    <Footer />
   </v-app>
 </template>
 
@@ -21,6 +18,7 @@
 import { mapGetters } from 'vuex'
 
 import Drawer from './components/Drawer'
+
 import Header from './components/Header'
 import Footer from './components/Footer'
 
@@ -30,11 +28,6 @@ export default {
     Drawer,
     Header,
     Footer
-  },
-  data () {
-    return {
-      drawer: true
-    }
   },
   computed: {
     ...mapGetters({
