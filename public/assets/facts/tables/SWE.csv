@@ -1,8 +1,8 @@
 rank,fact_type,count,domain,title,url
 1,FAKE/HOAX,48,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
 2,FAKE/HOAX,45,breitbart.com,Sweden to Stop Publishing 'Not Important' Coronavirus Numbers,https://www.breitbart.com/europe/2020/03/14/sweden-to-stop-publishing-coronavirus-numbers-deems-them-not-important/
-3,FAKE/HOAX,31,dailymail.co.uk,Third Russian doctor plunges from coronavirus hospital window,https://www.dailymail.co.uk/news/article-8282033/third-russian-doctor-plunges-coronavirus-hospital-window.html
-4,CONSPIRACY/JUNKSCI,29,greenpeace.org,Skriv under: KRÄV KLIMATOMSTÄLLNING I STIMULANSPAKETEN! >>,https://www.greenpeace.org/sweden/agera/covid-19/
+3,CONSPIRACY/JUNKSCI,36,greenpeace.org,Skriv under: KRÄV KLIMATOMSTÄLLNING I STIMULANSPAKETEN! >>,https://www.greenpeace.org/sweden/agera/covid-19/
+4,FAKE/HOAX,31,dailymail.co.uk,Third Russian doctor plunges from coronavirus hospital window,https://www.dailymail.co.uk/news/article-8282033/third-russian-doctor-plunges-coronavirus-hospital-window.html
 5,FAKE/HOAX,23,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
 6,FAKE/HOAX,22,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
 7,FAKE/HOAX,22,dailymail.co.uk,Swedish people disregard Covid-19 lockdown and go for a pint,https://www.dailymail.co.uk/news/article-8151111/swedish-people-disregarding-covid-19-lockdown-going-pint.html
@@ -18,4 +18,4 @@ rank,fact_type,count,domain,title,url
 17,CONSPIRACY/JUNKSCI,13,21stcenturywire.com,,https://21stcenturywire.com/2020/05/01/covid-why-sweden-has-already-won-the-debate-on-covid-19-lockdown-policy/
 18,FAKE/HOAX,12,dailymail.co.uk,Thousands of Britons face mass coronavirus testing,https://www.dailymail.co.uk/health/article-8045003/thousands-britons-face-mass-coronavirus-testing.html
 19,CONSPIRACY/JUNKSCI,11,peta.org,"New Coronavirus Linked to Animal Flesh, Sources Warn | PETA",http://peta.vg/2ran
-20,CONSPIRACY/JUNKSCI,11,zerohedge.com,"German Official Leaks Report Denouncing COVID-19 As ""A Global False Alarm""",https://www.zerohedge.com/markets/german-official-leaks-report-denouncing-covid-19-global-false-alarm
+20,FAKE/HOAX,11,breitbart.com,Italy: 96% of Coronavirus Fatalities Had Other Chronic Illnesses,https://www.breitbart.com/health/2020/05/27/italy-96-of-coronavirus-fatalities-had-other-chronic-illnesses/

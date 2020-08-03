@@ -13,9 +13,9 @@ rank,fact_type,count,domain,title,url
 12,FAKE/HOAX,2,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
 13,FAKE/HOAX,2,breitbart.com,Congressman: Pelosi Blocking Investigation into China Coronavirus Origins,https://www.breitbart.com/politics/2020/05/03/congressman-nancy-pelosi-blocking-investigation-chinese-coronavirus-origins/
 14,FAKE/HOAX,2,ibtimes.sg,Trump ordered US Forces to Burn Hectares of Wheat Field in Syria amid CoVID-19 Pandemic:Russia Media,https://www.ibtimes.sg/trump-ordered-us-forces-burn-hectares-wheat-field-syria-amid-covid-19-pandemicrussia-media-45482
-15,FAKE/HOAX,1,rt.com,Second city shuts down all public transport amid deadly virus outbreak in China,https://on.rt.com/a9l0
-16,FAKE/HOAX,1,rt.com,IMAGES of Chinese quarantine flood social media amid coronavirus outbreak,https://on.rt.com/a9le
-17,FAKE/HOAX,1,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/amp/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html?__twitter_impression=true
-18,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/amp/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html?__twitter_impression=true
-19,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
-20,FAKE/HOAX,1,express.co.uk,Coronavirus CURE? China says new treatment tested on nurses 'successful',https://www.express.co.uk/news/world/1233644/coronavirus-china-virus-vaccine-treatment-cure-symptoms
+15,CONSPIRACY/JUNKSCI,2,off-guardian.org,COVID19 PCR Tests are Scientifically Meaningless,https://off-guardian.org/2020/06/27/covid19-pcr-tests-are-scientifically-meaningless/
+16,FAKE/HOAX,2,westernjournal.com,South Dakota Gov: 'We Will Not be Social Distancing' at Mt. Rushmore Independence Day Event,https://www.westernjournal.com/south-dakota-governor-will-not-social-distancing-big-mt-rushmore-independence-day-event/?utm_source=twitter&utm_medium=thenewvoice
+17,FAKE/HOAX,1,rt.com,Second city shuts down all public transport amid deadly virus outbreak in China,https://on.rt.com/a9l0
+18,FAKE/HOAX,1,rt.com,IMAGES of Chinese quarantine flood social media amid coronavirus outbreak,https://on.rt.com/a9le
+19,FAKE/HOAX,1,dailymail.co.uk,Revolting footage shows Chinese woman eating a bat,https://www.dailymail.co.uk/news/article-7920573/amp/revolting-footage-shows-chinese-woman-eating-bat-scientists-link-coronavirus-animal.html?__twitter_impression=true
+20,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/amp/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html?__twitter_impression=true

@@ -4,18 +4,18 @@ rank,fact_type,count,domain,title,url
 3,FAKE/HOAX,4,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
 4,FAKE/HOAX,4,sputniknews.com,India Wants to Buy Russian Kalibr Cruise Missiles,https://sptnkne.ws/ccjg
 5,FAKE/HOAX,3,albertonews.com,,https://albertonews.com/internacionales/el-salvador-presidente-bukele-bate-record-con-97-de-aprobacion-en-gestion-frente-a-la-pandemia-covid-19/
-6,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/china-registra-un-brote-de-gripe-aviar-en-zona-cercana-al-foco-del-coronavirus/
-7,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-23/
-8,FAKE/HOAX,2,rt.com,"China coronavirus death toll soars to 813 with 37,000+ cases worldwide",https://on.rt.com/aaov
-9,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/lo-ultimo-eeuu-florida-registra-dos-nuevos-presuntos-casos-de-coronavirus/
-10,CONSPIRACY/JUNKSCI,2,globalresearch.ca,COVID-19: Further Evidence that the Virus Originated in the US - Global Research,https://www.globalresearch.ca/covid-19-further-evidence-virus-originated-us/5706078
-11,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/ultima-hora/ultima-hora-maduro-pide-credito-de-5-mil-millones-de-dolares-al-fmi-para-enfrentar-la-pandemia-del-coronavirus/
-12,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/principales/ultima-hora-colombia-confirma-su-primera-muerte-por-el-coronavirus/
-13,FAKE/HOAX,2,albertonews.com,Cada 17 minutos muere una persona en Nueva York por coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/ultima-hora-cada-17-minutos-muere-una-persona-en-nueva-york-por-coronavirus/
-14,FAKE/HOAX,2,judicialwatch.org,,https://www.judicialwatch.org/investigative-bulletin/trumps-winning-coronavirus-bet/
-15,FAKE/HOAX,2,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
-16,FAKE/HOAX,2,albertonews.com,La OMS REITERA que el coronavirus “tiene un origen animal” y no fue manipulado en un laboratorio chino - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/la-oms-reitera-que-el-coronavirus-tiene-un-origen-animal-y-no-fue-manipulado-en-un-laboratorio-chino/
-17,FAKE/HOAX,2,breitbart.com,Congressman: Pelosi Blocking Investigation into China Coronavirus Origins,https://www.breitbart.com/politics/2020/05/03/congressman-nancy-pelosi-blocking-investigation-chinese-coronavirus-origins/
-18,CONSPIRACY/JUNKSCI,2,zerohedge.com,What The Pandemic Revealed: A Morally Bankrupt Culture,https://www.zerohedge.com/health/what-pandemic-revealed-morally-bankrupt-culture?utm_medium=referral&utm_source=miximedia&utm_campaign=zerohedge
-19,FAKE/HOAX,2,theblaze.com,Infamous Wuhan lab admits having three live strains of bat coronavirus on-site,https://www.theblaze.com/news/wuhan-lab-virology-coronavirus-bats
-20,FAKE/HOAX,2,breitbart.com,Italy: 96% of Coronavirus Fatalities Had Other Chronic Illnesses,https://www.breitbart.com/health/2020/05/27/italy-96-of-coronavirus-fatalities-had-other-chronic-illnesses/
+6,CONSPIRACY/JUNKSCI,3,zerohedge.com,"COVID-19 Has Become ""Less Prevalent"" And ""Isn't Making People As Sick"", UPMC Doctor Says",https://www.zerohedge.com/health/covid-19-has-become-less-prevalent-and-isnt-making-people-sick-upmc-doctor-says?utm_source=feedburner&utm_medium=feed&utm_campaign=feed%3a+zerohedge%2ffeed+%28zero+hedge+-+on+a+long+enough+timeline%2c+the+survival+rate+for+everyone+drops+to+zero%29
+7,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/china-registra-un-brote-de-gripe-aviar-en-zona-cercana-al-foco-del-coronavirus/
+8,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/ultima-hora-23/
+9,FAKE/HOAX,2,rt.com,"China coronavirus death toll soars to 813 with 37,000+ cases worldwide",https://on.rt.com/aaov
+10,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/internacionales/lo-ultimo-eeuu-florida-registra-dos-nuevos-presuntos-casos-de-coronavirus/
+11,CONSPIRACY/JUNKSCI,2,globalresearch.ca,COVID-19: Further Evidence that the Virus Originated in the US - Global Research,https://www.globalresearch.ca/covid-19-further-evidence-virus-originated-us/5706078
+12,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/ultima-hora/ultima-hora-maduro-pide-credito-de-5-mil-millones-de-dolares-al-fmi-para-enfrentar-la-pandemia-del-coronavirus/
+13,FAKE/HOAX,2,albertonews.com,,https://albertonews.com/principales/ultima-hora-colombia-confirma-su-primera-muerte-por-el-coronavirus/
+14,FAKE/HOAX,2,albertonews.com,Cada 17 minutos muere una persona en Nueva York por coronavirus - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/ultima-hora-cada-17-minutos-muere-una-persona-en-nueva-york-por-coronavirus/
+15,FAKE/HOAX,2,judicialwatch.org,,https://www.judicialwatch.org/investigative-bulletin/trumps-winning-coronavirus-bet/
+16,FAKE/HOAX,2,express.co.uk,China furious as leading German newspaper writes out £130BN bill for 'coronavirus damages',https://www.express.co.uk/news/world/1271028/angela-merkel-germany-china-coronavirus-blame-wuhan-xi-jinping-trump-latest
+17,FAKE/HOAX,2,albertonews.com,La OMS REITERA que el coronavirus “tiene un origen animal” y no fue manipulado en un laboratorio chino - AlbertoNews - Periodismo sin censura,https://albertonews.com/internacionales/la-oms-reitera-que-el-coronavirus-tiene-un-origen-animal-y-no-fue-manipulado-en-un-laboratorio-chino/
+18,FAKE/HOAX,2,breitbart.com,Congressman: Pelosi Blocking Investigation into China Coronavirus Origins,https://www.breitbart.com/politics/2020/05/03/congressman-nancy-pelosi-blocking-investigation-chinese-coronavirus-origins/
+19,CONSPIRACY/JUNKSCI,2,zerohedge.com,What The Pandemic Revealed: A Morally Bankrupt Culture,https://www.zerohedge.com/health/what-pandemic-revealed-morally-bankrupt-culture?utm_medium=referral&utm_source=miximedia&utm_campaign=zerohedge
+20,FAKE/HOAX,2,theblaze.com,Infamous Wuhan lab admits having three live strains of bat coronavirus on-site,https://www.theblaze.com/news/wuhan-lab-virology-coronavirus-bats

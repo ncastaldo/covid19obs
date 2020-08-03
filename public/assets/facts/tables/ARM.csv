@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
-1,CONSPIRACY/JUNKSCI,2,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
-2,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
-3,FAKE/HOAX,2,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
-4,FAKE/HOAX,2,breitbart.com,Congressman: Pelosi Blocking Investigation into China Coronavirus Origins,https://www.breitbart.com/politics/2020/05/03/congressman-nancy-pelosi-blocking-investigation-chinese-coronavirus-origins/
-5,FAKE/HOAX,1,express.co.uk,Coronavirus outbreak: Has coronavirus hit UK? Is your area affected?,https://www.express.co.uk/life-style/health/1232590/coronavirus-outbreak-uk-cases-is-coronavirus-in-my-area-scotland-northern-ireland
-6,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Pandemic Simulation Run 3 Months Ago Predicts 65 Million People Could Die,https://www.zerohedge.com/health/coronavirus-pandemic-simulation-run-3-months-ago-predicts-65-million-people-could-die
-7,CONSPIRACY/JUNKSCI,1,off-guardian.org,,https://off-guardian.org/2020/01/24/reality-check-coronavirus-fear-porn/
-8,CONSPIRACY/JUNKSCI,1,zerohedge.com,"UK Researcher Predicts Over 250,000 Chinese Will Have Coronavirus In Ten Days",https://www.zerohedge.com/geopolitical/uk-researcher-predicts-over-250000-people-china-will-have-coronavirus-ten-days
-9,CONSPIRACY/JUNKSCI,1,wakingtimes.com,,https://www.wakingtimes.com/2020/01/25/8-things-to-consider-before-panicking-about-the-coronavirus/
-10,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
-11,FAKE/HOAX,1,dailymail.co.uk,China spent crucial few days of coronavirus outbreak ARRESTING people,https://www.dailymail.co.uk/news/article-7924241/china-spent-crucial-days-coronavirus-outbreak-arresting-people.html?ito=social-facebook
-12,FAKE/HOAX,1,rt.com,"Dozens of drugs available to treat ‘coronavirus,’ but global pandemic possible by March – Moscow experts",https://www.rt.com/russia/479293-coronavirus-epidemic-possible-march-russia/
-13,CONSPIRACY/JUNKSCI,1,usahitman.com,CORONAVIRUS is a Patented Virus - USAHITMAN Conspiracy News,https://usahitman.com/coronavirus-patented-virus/
-14,FAKE/HOAX,1,rt.com,Russia closes its Far East border with China in attempt to prevent spread of new coronavirus,https://on.rt.com/aa1b
-15,CONSPIRACY/JUNKSCI,1,blacklistednews.com,,https://www.blacklistednews.com/article/76139/bats-gene-editing-and-bioweapons-recent-darpa-experiments-raise-concerns-amid-coronavirus.html
-16,FAKE/HOAX,1,rt.com,"First two cases of coronavirus confirmed in Russia, both Chinese citizens",https://on.rt.com/aa5v
-17,FAKE/HOAX,1,rt.com,City turned ghost town: Take a look inside sealed-off Wuhan amid coronavirus outbreak in China (VIDEO),https://on.rt.com/a9wi
-18,CONSPIRACY/JUNKSCI,1,zerohedge.com,Doctor Warns Up To 30% Of Medical Staff Working In Wuhan Hospital Now Infected With nCoV,https://www.zerohedge.com/geopolitical/doctor-warns-30-medical-staff-working-wuhan-hospital-now-infected-ncov
-19,FAKE/HOAX,1,dailymail.co.uk,Shocking clip shows suspected coronavirus carriers dragged from homes,https://www.dailymail.co.uk/news/article-7980883/video-shows-officials-protective-suits-dragging-suspected-coronavirus-carriers-homes.html
-20,FAKE/HOAX,1,theconservativetreehouse.com,Peter Navarro: Coronavirus Highlights Need for U.S. to Make Our Own Medical Products Again…,https://theconservativetreehouse.com/2020/02/10/peter-navarro-coronavirus-highlights-need-for-u-s-to-make-our-own-medical-products-again/
+1,CONSPIRACY/JUNKSCI,3,zerohedge.com,"Colorado Bill Requires ""Re-Education"" For Parents Who Refuse The COVID-19 Vaccine",https://www.zerohedge.com/health/colorado-bill-requires-re-education-parents-who-refuse-covid-19-vaccine
+2,CONSPIRACY/JUNKSCI,2,zerohedge.com,Is This The Man Behind The Global Coronavirus Pandemic?,https://www.zerohedge.com/health/man-behind-global-coronavirus-pandemic
+3,CONSPIRACY/JUNKSCI,2,zerohedge.com,"Coronavirus Contains ""HIV Insertions"", Stoking Fears Over Artificially Created Bioweapon",https://www.zerohedge.com/geopolitical/coronavirus-contains-hiv-insertions-stoking-fears-over-artificially-created-bioweapon
+4,FAKE/HOAX,2,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
+5,FAKE/HOAX,2,breitbart.com,Congressman: Pelosi Blocking Investigation into China Coronavirus Origins,https://www.breitbart.com/politics/2020/05/03/congressman-nancy-pelosi-blocking-investigation-chinese-coronavirus-origins/
+6,FAKE/HOAX,1,express.co.uk,Coronavirus outbreak: Has coronavirus hit UK? Is your area affected?,https://www.express.co.uk/life-style/health/1232590/coronavirus-outbreak-uk-cases-is-coronavirus-in-my-area-scotland-northern-ireland
+7,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Pandemic Simulation Run 3 Months Ago Predicts 65 Million People Could Die,https://www.zerohedge.com/health/coronavirus-pandemic-simulation-run-3-months-ago-predicts-65-million-people-could-die
+8,CONSPIRACY/JUNKSCI,1,off-guardian.org,,https://off-guardian.org/2020/01/24/reality-check-coronavirus-fear-porn/
+9,CONSPIRACY/JUNKSCI,1,zerohedge.com,"UK Researcher Predicts Over 250,000 Chinese Will Have Coronavirus In Ten Days",https://www.zerohedge.com/geopolitical/uk-researcher-predicts-over-250000-people-china-will-have-coronavirus-ten-days
+10,CONSPIRACY/JUNKSCI,1,wakingtimes.com,,https://www.wakingtimes.com/2020/01/25/8-things-to-consider-before-panicking-about-the-coronavirus/
+11,FAKE/HOAX,1,dailymail.co.uk,"China's top virus lab is in Wuhan, the center of the outbreak",https://www.dailymail.co.uk/health/article-7922379/chinas-lab-studying-sars-ebola-wuhan-outbreaks-center.html
+12,FAKE/HOAX,1,dailymail.co.uk,China spent crucial few days of coronavirus outbreak ARRESTING people,https://www.dailymail.co.uk/news/article-7924241/china-spent-crucial-days-coronavirus-outbreak-arresting-people.html?ito=social-facebook
+13,FAKE/HOAX,1,rt.com,"Dozens of drugs available to treat ‘coronavirus,’ but global pandemic possible by March – Moscow experts",https://www.rt.com/russia/479293-coronavirus-epidemic-possible-march-russia/
+14,CONSPIRACY/JUNKSCI,1,usahitman.com,CORONAVIRUS is a Patented Virus - USAHITMAN Conspiracy News,https://usahitman.com/coronavirus-patented-virus/
+15,FAKE/HOAX,1,rt.com,Russia closes its Far East border with China in attempt to prevent spread of new coronavirus,https://on.rt.com/aa1b
+16,CONSPIRACY/JUNKSCI,1,blacklistednews.com,,https://www.blacklistednews.com/article/76139/bats-gene-editing-and-bioweapons-recent-darpa-experiments-raise-concerns-amid-coronavirus.html
+17,FAKE/HOAX,1,rt.com,"First two cases of coronavirus confirmed in Russia, both Chinese citizens",https://on.rt.com/aa5v
+18,FAKE/HOAX,1,rt.com,City turned ghost town: Take a look inside sealed-off Wuhan amid coronavirus outbreak in China (VIDEO),https://on.rt.com/a9wi
+19,CONSPIRACY/JUNKSCI,1,zerohedge.com,Doctor Warns Up To 30% Of Medical Staff Working In Wuhan Hospital Now Infected With nCoV,https://www.zerohedge.com/geopolitical/doctor-warns-30-medical-staff-working-wuhan-hospital-now-infected-ncov
+20,FAKE/HOAX,1,dailymail.co.uk,Shocking clip shows suspected coronavirus carriers dragged from homes,https://www.dailymail.co.uk/news/article-7980883/video-shows-officials-protective-suits-dragging-suspected-coronavirus-carriers-homes.html

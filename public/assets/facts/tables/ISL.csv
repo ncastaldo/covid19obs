@@ -5,17 +5,17 @@ rank,fact_type,count,domain,title,url
 4,FAKE/HOAX,4,dailystar.co.uk,,https://www.dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
 5,FAKE/HOAX,3,dailymail.co.uk,Coronavirus vaccine breakthrough in Australia,https://www.dailymail.co.uk/news/article-8031685/coronavirus-breakthrough-australian-researchers-claim-developed-vaccine.html
 6,FAKE/HOAX,3,mcmnt.com,Vatican confirms Pope Francis and two aides test positive for Coronavirus - MCM,https://mcmnt.com/vatican-confirms-pope-francis-and-two-aides-test-positive-for-coronavirus/
-7,FAKE/HOAX,2,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-8,FAKE/HOAX,2,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
-9,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-10,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-11,FAKE/HOAX,2,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
-12,FAKE/HOAX,2,thenationalpulse.com,,https://thenationalpulse.com/editor/chinese-bots-flood-twitter-virus-theories/
-13,FAKE/HOAX,2,dailymail.co.uk,"Italian coronavirus patient, 79, recovers after taking Ebola drug",https://www.dailymail.co.uk/news/article-8129917/coronavirus-cure-hope-italian-man-79-recovers-taking-experimental-ebola-drug.html
-14,FAKE/HOAX,2,n.news.naver.com,김재중 “코로나19 확진→만우절 농담”…도넘은 장난,https://n.news.naver.com/entertain/now/article/018/0004610638
-15,FAKE/HOAX,2,sputniknews.com,One Fool Makes Many? Copenhagen Catches Swedish Car Arson Virus,http://sptnkne.ws/cbt7
-16,CONSPIRACY/JUNKSCI,2,zerohedge.com,"China Outraged After Largest German Newspaper Accuses Beijing Of ""Exporting"" Coronavirus Pandemic, Demands €149 Billion In Damages",https://www.zerohedge.com/economics/china-outraged-after-largest-german-newspaper-accuses-beijing-starting-coronavirus
-17,CONSPIRACY/JUNKSCI,2,ukcolumn.org,Who controls the British Government response to Covid–19?,https://www.ukcolumn.org/article/who-controls-british-government-response-covid19-part-one
-18,CONSPIRACY/JUNKSCI,2,naturalnews.com,The coronavirus is likely 56 to 100 times MORE DEADLY than the flu; any attempt to end the lockdowns without precautions will result in catastrophe,https://www.naturalnews.com/2020-04-26-coronavirus-56-to-100-times-more-deadly-than-flu-lockdowns-catastrophe.html
-19,CONSPIRACY/JUNKSCI,2,naturalnews.com,NaturalNews.com,http://naturalnews.com
+7,CONSPIRACY/JUNKSCI,3,naturalnews.com,NaturalNews.com,http://naturalnews.com
+8,FAKE/HOAX,2,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+9,FAKE/HOAX,2,n.news.naver.com,"[단독] 트와이스, 2월 예정 일본 팬사인회 취소 '신종 코로나 바이러스 여파'",https://n.news.naver.com/entertain/now/article/117/0003328924
+10,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+11,FAKE/HOAX,2,ibtimes.sg,North Korea's first confirmed Coronavirus COVID 19 patient shot dead: report,https://www.ibtimes.sg/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042?utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+12,FAKE/HOAX,2,ibtimes.sg,,https://www.ibtimes.sg/a000apq?utm_source=social&utm_medium=twitter&utm_campaign=/north-koreas-first-confirmed-coronavirus-covid-19-patient-shot-dead-report-40042
+13,FAKE/HOAX,2,thenationalpulse.com,,https://thenationalpulse.com/editor/chinese-bots-flood-twitter-virus-theories/
+14,FAKE/HOAX,2,dailymail.co.uk,"Italian coronavirus patient, 79, recovers after taking Ebola drug",https://www.dailymail.co.uk/news/article-8129917/coronavirus-cure-hope-italian-man-79-recovers-taking-experimental-ebola-drug.html
+15,FAKE/HOAX,2,n.news.naver.com,김재중 “코로나19 확진→만우절 농담”…도넘은 장난,https://n.news.naver.com/entertain/now/article/018/0004610638
+16,FAKE/HOAX,2,sputniknews.com,One Fool Makes Many? Copenhagen Catches Swedish Car Arson Virus,http://sptnkne.ws/cbt7
+17,CONSPIRACY/JUNKSCI,2,zerohedge.com,"China Outraged After Largest German Newspaper Accuses Beijing Of ""Exporting"" Coronavirus Pandemic, Demands €149 Billion In Damages",https://www.zerohedge.com/economics/china-outraged-after-largest-german-newspaper-accuses-beijing-starting-coronavirus
+18,CONSPIRACY/JUNKSCI,2,ukcolumn.org,Who controls the British Government response to Covid–19?,https://www.ukcolumn.org/article/who-controls-british-government-response-covid19-part-one
+19,CONSPIRACY/JUNKSCI,2,naturalnews.com,The coronavirus is likely 56 to 100 times MORE DEADLY than the flu; any attempt to end the lockdowns without precautions will result in catastrophe,https://www.naturalnews.com/2020-04-26-coronavirus-56-to-100-times-more-deadly-than-flu-lockdowns-catastrophe.html
 20,FAKE/HOAX,2,thenationalpulse.com,,https://thenationalpulse.com/coronavirus/who-hid-transmission/

@@ -1,21 +1,21 @@
 rank,fact_type,count,domain,title,url
 1,FAKE/HOAX,2,dailymail.co.uk,Military approves 11 COVID-19 quarantine 'camps',https://www.dailymail.co.uk/news/article-7992909/military-approves-11-covid-19-quarantine-camps-1-000-people-major-airports.html
 2,FAKE/HOAX,2,dailystar.co.uk,,http://dailystar.co.uk/news/latest-news/coronavirus-can-spread-through-farts-21852204
-3,FAKE/HOAX,1,rt.com,Beijing city cancels major public events including Chinese New Year temple fairs due to coronavirus outbreak,https://www.rt.com/news/478982-beijing-virus-new-year-cancellation/
-4,FAKE/HOAX,1,summit.news,Videos Show Chinese People Eating Bats As Experts Link Animal to Coronavirus Outbreak,https://summit.news/2020/01/23/videos-show-chinese-people-eating-bats-as-experts-link-animal-to-coronavirus-outbreak/
-5,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Death Toll Hits 25 As Beijing Confirms 830 Patients Infected,https://www.zerohedge.com/geopolitical/china-quarantines-second-city-experts-warn-its-already-too-late-stop-virus
-6,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Latest: Over 2,800 Global Cases Resulting in 80 Fatalities",https://www.zerohedge.com/geopolitical/third-us-coronavirus-case-confirmed-orange-county
-7,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
-8,FAKE/HOAX,1,dailymail.co.uk,Communities around China threaten to cull pets due to coronavirus,https://www.dailymail.co.uk/news/article-7952487/communities-china-threaten-cull-residents-pets-coronavirus.html
-9,FAKE/HOAX,1,dailymail.co.uk,Wuhan crematoriums 'burning bodies 24/7 to cope with extra workload',https://www.dailymail.co.uk/news/article-7969861/wuhan-crematoriums-burning-bodies-24-7-cope-extra-workload.html
-10,FAKE/HOAX,1,breitbart.com,Report: Two Wuhan Funeral Homes Cremating 300+ Bodies a Day,https://www.breitbart.com/asia/2020/02/07/report-china-crematorium-funeral-homes-burning-coronavirus-patients/
-11,FAKE/HOAX,1,dailystar.co.uk,,https://dailystar.co.uk/news/world-news/kfc-worker-diagnosed-coronavirus-company-21460719
-12,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/kfc-worker-diagnosed-coronavirus-company-21460719
-13,CONSPIRACY/JUNKSCI,1,dcclothesline.com,11 of 13 Diamond Princess Cruise Ship Passengers Sent to Nebraska Test Positive for Coronavirus - DC Clothesline,https://www.dcclothesline.com/2020/02/21/11-of-13-diamond-princess-cruise-ship-passengers-sent-to-nebraska-test-positive-for-coronavirus/
-14,FAKE/HOAX,1,dreuz.info,Coronavirus: un député iranien accuse les autorités de cacher «la vérité» sur l’ampleur de l’épidémie,https://www.dreuz.info/2020/02/25/coronavirus-un-depute-iranien-accuse-les-autorites-de-cacher-la-verite-sur-lampleur-de-lepidemie/
-15,CONSPIRACY/JUNKSCI,1,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
-16,FAKE/HOAX,1,politicususa.com,,https://www.politicususa.com/2020/02/27/rachel-maddow-destroys-trumps-coronavirus-lies-in-90-seconds.html
-17,FAKE/HOAX,1,dailymail.co.uk,Did a 1981 Dean Koontz thriller predict the coronavirus outbreak?,https://www.dailymail.co.uk/news/article-8053063/did-1981-dean-koontz-thriller-eyes-darkness-predict-coronavirus-outbreak.html?ito=amp_twitter_share-top
-18,FAKE/HOAX,1,breaking911.com,CORONAVIRUS: Crew Pepper Sprays Frustrated Cruise Ship Passengers As Brawl Erupts - Breaking911,https://breaking911.com/coronavirus-crew-pepper-sprays-frustrated-cruise-ship-passengers-as-brawl-erupts/
-19,CONSPIRACY/JUNKSCI,1,zerohedge.com,MSCI Warns US Stocks Could Fall Another 11% As Coronavirus Outbreak Worsens,https://www.zerohedge.com/markets/msci-warns-stocks-could-fall-another-11-coronavirus-outbreak-worsens
-20,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Elon Musk Says Panic About Coronavirus, Which Has Killed Over 3,400, Is ""Dumb""",https://www.zerohedge.com/health/elon-musk-says-panic-about-coronavirus-which-has-killed-over-3400-people-dumb
+3,FAKE/HOAX,2,express.co.uk,Brexit bombshell: Tony Blair says no deal now VERY likely after talks with 'EU contacts',https://www.express.co.uk/news/politics/1302149/brexit-news-tony-blair-no-deal-brexit-eu-contacts-boris-johnson-cabinet-coronavirus
+4,FAKE/HOAX,1,rt.com,Beijing city cancels major public events including Chinese New Year temple fairs due to coronavirus outbreak,https://www.rt.com/news/478982-beijing-virus-new-year-cancellation/
+5,FAKE/HOAX,1,summit.news,Videos Show Chinese People Eating Bats As Experts Link Animal to Coronavirus Outbreak,https://summit.news/2020/01/23/videos-show-chinese-people-eating-bats-as-experts-link-animal-to-coronavirus-outbreak/
+6,CONSPIRACY/JUNKSCI,1,zerohedge.com,Coronavirus Death Toll Hits 25 As Beijing Confirms 830 Patients Infected,https://www.zerohedge.com/geopolitical/china-quarantines-second-city-experts-warn-its-already-too-late-stop-virus
+7,CONSPIRACY/JUNKSCI,1,zerohedge.com,"Coronavirus Latest: Over 2,800 Global Cases Resulting in 80 Fatalities",https://www.zerohedge.com/geopolitical/third-us-coronavirus-case-confirmed-orange-county
+8,FAKE/HOAX,1,dailymail.co.uk,Killer coronavirus could be spread through the EYES,https://www.dailymail.co.uk/health/article-7926243/killer-coronavirus-spread-eyes.html?ito=amp_whatsapp_share-top
+9,FAKE/HOAX,1,dailymail.co.uk,Communities around China threaten to cull pets due to coronavirus,https://www.dailymail.co.uk/news/article-7952487/communities-china-threaten-cull-residents-pets-coronavirus.html
+10,FAKE/HOAX,1,dailymail.co.uk,Wuhan crematoriums 'burning bodies 24/7 to cope with extra workload',https://www.dailymail.co.uk/news/article-7969861/wuhan-crematoriums-burning-bodies-24-7-cope-extra-workload.html
+11,FAKE/HOAX,1,breitbart.com,Report: Two Wuhan Funeral Homes Cremating 300+ Bodies a Day,https://www.breitbart.com/asia/2020/02/07/report-china-crematorium-funeral-homes-burning-coronavirus-patients/
+12,FAKE/HOAX,1,dailystar.co.uk,,https://dailystar.co.uk/news/world-news/kfc-worker-diagnosed-coronavirus-company-21460719
+13,FAKE/HOAX,1,dailystar.co.uk,,https://www.dailystar.co.uk/news/world-news/kfc-worker-diagnosed-coronavirus-company-21460719
+14,CONSPIRACY/JUNKSCI,1,dcclothesline.com,11 of 13 Diamond Princess Cruise Ship Passengers Sent to Nebraska Test Positive for Coronavirus - DC Clothesline,https://www.dcclothesline.com/2020/02/21/11-of-13-diamond-princess-cruise-ship-passengers-sent-to-nebraska-test-positive-for-coronavirus/
+15,FAKE/HOAX,1,dreuz.info,Coronavirus: un député iranien accuse les autorités de cacher «la vérité» sur l’ampleur de l’épidémie,https://www.dreuz.info/2020/02/25/coronavirus-un-depute-iranien-accuse-les-autorites-de-cacher-la-verite-sur-lampleur-de-lepidemie/
+16,CONSPIRACY/JUNKSCI,1,zerohedge.com,North Korea's First Confirmed Coronavirus Patient Shot Dead,https://www.zerohedge.com/geopolitical/north-koreas-first-confirmed-coronavirus-patient-shot-dead
+17,FAKE/HOAX,1,politicususa.com,,https://www.politicususa.com/2020/02/27/rachel-maddow-destroys-trumps-coronavirus-lies-in-90-seconds.html
+18,FAKE/HOAX,1,dailymail.co.uk,Did a 1981 Dean Koontz thriller predict the coronavirus outbreak?,https://www.dailymail.co.uk/news/article-8053063/did-1981-dean-koontz-thriller-eyes-darkness-predict-coronavirus-outbreak.html?ito=amp_twitter_share-top
+19,FAKE/HOAX,1,breaking911.com,CORONAVIRUS: Crew Pepper Sprays Frustrated Cruise Ship Passengers As Brawl Erupts - Breaking911,https://breaking911.com/coronavirus-crew-pepper-sprays-frustrated-cruise-ship-passengers-as-brawl-erupts/
+20,CONSPIRACY/JUNKSCI,1,zerohedge.com,MSCI Warns US Stocks Could Fall Another 11% As Coronavirus Outbreak Worsens,https://www.zerohedge.com/markets/msci-warns-stocks-could-fall-another-11-coronavirus-outbreak-worsens
