@@ -12,6 +12,12 @@
       >
         <Epidemics />
       </v-col>
+      <v-col
+        cols="12"
+        class="pb-3"
+      >
+        <Tweets />
+      </v-col>
     </v-row>
   </v-container>
 </template>
@@ -19,11 +25,13 @@
 <script>
 import Location from '../components/control/Location'
 import Epidemics from '../components/timeseries/Epidemics'
+import Tweets from '../components/timeseries/Tweets'
 
 export default {
   components: {
     Location,
-    Epidemics
+    Epidemics,
+    Tweets
   }
 }
 </script>

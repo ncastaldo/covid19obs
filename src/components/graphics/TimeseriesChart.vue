@@ -53,32 +53,30 @@ export default {
       this.clear()
 
       this.createComponents()
-      this.createChart()
 
-      this.chart
-        .data(this.timeseries)
-        .size(chartSize)
+      this.update()
+
+      this.chart.data(this.timeseries)
+
+      this.chart.size(chartSize)
 
       this.drawChart()
     }
   },
   mounted () {
+    this.createAxes()
+    this.createMouseBars()
     this.createComponents()
+
     this.createChart()
+
+    this.update()
 
     this.chart.data(this.timeseries)
 
     this.drawChart()
   },
   methods: {
-    createComponents () {
-      this.createAxes()
-      this.createMouseBars()
-
-      this.components = [this.xAxis, this.yAxis]
-        .concat(this.config.fnComponents())
-        .concat([this.mouseBars])
-    },
     createAxes () {
       this.xAxis = bxAxisX()
         .ticks(3)
@@ -90,11 +88,11 @@ export default {
         .tickSizeInner(4)
         .tickSizeOuter(0)
         .ticks(2)
-      // .tickFormat(format(this.chartConfig.yFormat))
         .fnBefore(s => s.classed('axis', true))
     },
     createMouseBars () {
       this.mouseBars = bxMouseBars()
+        .fnBefore(s => s.classed('mouse-bars', true))
 
       if (!this.$isMobile()) {
         this.mouseBars
@@ -102,13 +100,21 @@ export default {
           .fnOn('mouseout', this.$isMobile() || this.onMouseout)
       }
     },
+    createComponents () {
+      this.components = this.config.fnComponents()
+    },
     createChart () {
       this.chart = bxChart()
         .selector(`#${this.id}`)
         .fnKey(d => new Date(d.datetime))
         .fnBandValue(d => d.datetime)
-        // .contScaleType(this.chartConfig.scaleType)
-        .components(this.components)
+    },
+    update () {
+      // this.yAxis.tickFormat(format(this.chartConfig.yFormat))
+      this.chart.components([this.xAxis, this.yAxis]
+        .concat(this.components)
+        .concat([this.mouseBars]))
+      // .contScaleType(this.chartConfig.scaleType)
     },
     drawChart () {
       // wait for chartscontainer
@@ -117,7 +123,12 @@ export default {
       })
     },
     clear () {
-      this.chart.group().remove()
+      this.components.map(c =>
+        c.join()
+          .transition()
+          .duration(500)
+          .style('opacity', 0)
+          .remove())
     }
   }
 
