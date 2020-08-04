@@ -1,5 +1,13 @@
 <template>
   <div>
+    <div class="text-justify">
+      <div class="headline">
+        Tweets
+      </div>
+      <div class="">
+        Collected tweets divided by Tweets, Retweets and Replies (todo)
+      </div>
+    </div>
     <TimeseriesChart
       :id="config.id"
       :key="config.id"
@@ -24,12 +32,12 @@ const config = {
       .fnDefined(d => d.info_tweets != null)
       .fnLowValue(d => d.stack_info_tweets[0])
       .fnHighValue(d => d.stack_info_tweets[1])
-      .fnFill(d => 'blue'),
+      .fnFill(d => '#045a8d'),
     bxBars()
-      .fnDefined(d => d.info_tweets != null)
-      .fnLowValue(d => 0)
-      .fnHighValue(d => -d.info_tweets_local)
-      .fnFill(d => 'lightblue')
+      .fnDefined(d => d.info_tweets_local != null)
+      .fnLowValue(d => d.stack_info_tweets_local[0])
+      .fnHighValue(d => d.stack_info_tweets_local[1])
+      .fnFill(d => '#2b8cbe') // #74a9cf
   ]
 }
 

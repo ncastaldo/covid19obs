@@ -1,10 +1,19 @@
 <template>
   <div>
+    <div class="text-justify">
+      <div class="headline">
+        Epidemics
+      </div>
+      <div class="">
+        Evolution over time of the covid-19 epidemics, in terms of confirmed cases and deaths.
+      </div>
+    </div>
     <div>
       <v-btn-toggle
         v-model="toggle"
         rounded
         mandatory
+        dense
       >
         <v-btn>Cumulative</v-btn>
         <v-btn>Daily</v-btn>
@@ -35,7 +44,7 @@ const cumulativeConfigs = [
         .fnDefined(d => d.epi_confirmed != null)
         .fnLowValue(d => 0)
         .fnHighValue(d => d.epi_confirmed)
-        .fnFill(d => 'red')
+        .fnFill(d => '#e34a33')
     ]
   },
   {
@@ -45,7 +54,7 @@ const cumulativeConfigs = [
         .fnDefined(d => d.epi_dead != null)
         .fnLowValue(d => 0)
         .fnHighValue(d => d.epi_dead)
-        .fnFill(d => 'black')
+        .fnFill(d => '#8856a7')
     ]
   }
 ]
@@ -58,7 +67,7 @@ const newConfigs = [
         .fnDefined(d => d.epi_confirmed_new != null)
         .fnLowValue(d => 0)
         .fnHighValue(d => d.epi_confirmed_new)
-        .fnFill(d => 'orange')
+        .fnFill(d => '#e34a33')
     ]
   },
   {
@@ -68,7 +77,7 @@ const newConfigs = [
         .fnDefined(d => d.epi_dead_new != null)
         .fnLowValue(d => 0)
         .fnHighValue(d => d.epi_dead_new)
-        .fnFill(d => 'grey')
+        .fnFill(d => '#8856a7')
     ]
   }
 ]

@@ -33,7 +33,10 @@ const SELECTED_COLOR = schemeCategory10[0]
 
 export default {
   props: {
-    height: Number
+    height: {
+      type: Number,
+      default: 400
+    }
   },
   data () {
     return {
@@ -53,33 +56,35 @@ export default {
     })
   },
   mounted () {
-    this.lMap = map('selector-map-chart', {
-      minZoom: 2,
-      maxZoom: 7,
-      maxBounds: [[-65, -180], [90, 180]], // antartica is out
+    this.$nextTick(function () {
+      this.lMap = map('selector-map-chart', {
+        minZoom: 2,
+        maxZoom: 7,
+        maxBounds: [[-65, -180], [90, 180]], // antartica is out
 
-      scrollWheelZoom: false
+        scrollWheelZoom: false
+      })
+        .setView(...baseView)
+        .on('click', this.fnRestoreView)
+
+      this.lTileLayer = tileLayer(tileLayerLink, {
+        attribution
+      })
+      this.lLocationsLayer = geoJSON(this.features, {
+        style: {
+          fillColor: BASE_COLOR, // https://webkid.io/blog/fancy-map-effects-with-css/
+          fillOpacity: 1,
+          color: '#888',
+          weight: 1
+        },
+        onEachFeature: this.fnOnEachFeature
+      })
+
+      this.fnRestyleLayer()
+
+      // this.lTileLayer.addTo(this.lMap)
+      this.lLocationsLayer.addTo(this.lMap)
     })
-      .setView(...baseView)
-      .on('click', this.fnRestoreView)
-
-    this.lTileLayer = tileLayer(tileLayerLink, {
-      attribution
-    })
-    this.lLocationsLayer = geoJSON(this.features, {
-      style: {
-        fillColor: BASE_COLOR, // https://webkid.io/blog/fancy-map-effects-with-css/
-        fillOpacity: 1,
-        color: '#888',
-        weight: 1
-      },
-      onEachFeature: this.fnOnEachFeature
-    })
-
-    this.fnRestyleLayer()
-
-    // this.lTileLayer.addTo(this.lMap)
-    this.lLocationsLayer.addTo(this.lMap)
   },
   methods: {
     ...mapActions({

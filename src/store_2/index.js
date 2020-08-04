@@ -44,7 +44,9 @@ const locations = locationList
 const periodList = [
   {
     id: '2020Q1',
-    name: '2020 - 1st Quarter'
+    name: '2020 - 1st Quarter',
+    from: new Date('2020-01-01'),
+    to: '20200331'
   },
   {
     id: '2020Q2',

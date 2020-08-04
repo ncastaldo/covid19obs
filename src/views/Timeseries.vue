@@ -4,7 +4,7 @@
       <v-col
         cols="12"
       >
-        <Location :height="300" />
+        <Control />
       </v-col>
       <v-col
         cols="12"
@@ -18,20 +18,38 @@
       >
         <Tweets />
       </v-col>
+      <v-col
+        cols="12"
+        class="pb-3"
+      >
+        <RiskIndexes />
+      </v-col>
+      <v-col
+        cols="12"
+        class="pb-3"
+      >
+        <News />
+      </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
-import Location from '../components/control/Location'
+import Control from '../components/control/Control'
+
 import Epidemics from '../components/timeseries/Epidemics'
 import Tweets from '../components/timeseries/Tweets'
+import RiskIndexes from '../components/timeseries/RiskIndexes'
+import News from '../components/timeseries/News'
 
 export default {
   components: {
-    Location,
+    Control,
+
     Epidemics,
-    Tweets
+    Tweets,
+    RiskIndexes,
+    News
   }
 }
 </script>

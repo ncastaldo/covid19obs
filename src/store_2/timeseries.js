@@ -25,7 +25,7 @@ const actions = {
     fetch(timeseriesUrl)
       .then(res => res.text())
       .then(data => Promise.resolve(fnTimeseriesParser.parse(data)))
-      .then(ts => { commit('setTimeseries', ts) })
+      .then(ts => { commit('setTimeseries', ts.slice(-60)) })
   }
 }
 
