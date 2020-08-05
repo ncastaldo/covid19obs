@@ -10,7 +10,7 @@
         'font-weight': 200
       }"
     >
-      {{ hover ? hover.locationName : '' }}
+      {{ hover ? [hover.locationName, generalMapDict[hover.locationId]] : '' }}
     </div>
     <div
       id="selector-map-chart"
@@ -20,16 +20,21 @@
 </template>
 
 <script>
+import { max } from 'd3-array'
 import { select } from 'd3-selection'
+import { scaleLog } from 'd3-scale'
 import { schemeCategory10 } from 'd3-scale-chromatic'
 import { map, tileLayer, geoJSON, DomEvent } from 'leaflet'
 import { mapGetters, mapActions } from 'vuex'
+
+const generalMapDictUrl = '/assets/map_dicts/general.json'
 
 const tileLayerLink = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png'
 const attribution = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
 const baseView = [[41.90, 12.49], 3]
 const BASE_COLOR = '#aaa'
 const SELECTED_COLOR = schemeCategory10[0]
+const INVALID_COLOR = '#aaa'
 
 export default {
   props: {
@@ -46,14 +51,31 @@ export default {
       lTileLayer: null,
       lLocationsLayer: null,
 
+      generalMapDict: null,
+      colors: null,
+
       hover: null
     }
   },
   computed: {
     ...mapGetters({
       location: 'getLocation',
-      features: 'getFeatures'
+      features: 'getFeatures',
+      mapLayer: 'mapLayer/getMapLayer'
     })
+  },
+  watch: {
+    generalMapDict () {
+      this.computeColors()
+    },
+    mapLayer () {
+      this.generalMapDict && this.computeColors()
+    }
+  },
+  created () {
+    fetch(generalMapDictUrl)
+      .then(res => res.json())
+      .then(data => { this.generalMapDict = data })
   },
   mounted () {
     this.$nextTick(function () {
@@ -90,6 +112,25 @@ export default {
     ...mapActions({
       setLocationId: 'setLocationId'
     }),
+    computeColors () {
+      // getting valid values
+      const values = Object.values(this.generalMapDict)
+        .map(d => d[this.mapLayer.mapLayerId])
+        .filter(d => d !== null && d > 0)
+
+      // creating the color scale
+      const fnScale = this.mapLayer.mapLayerColorScale
+        .domain([1, max(values)])
+
+      // color mapping
+      this.colors = Object.entries(this.generalMapDict)
+        .map(([k, d]) => [k, d[this.mapLayer.mapLayerId]])
+        .reduce((colors, [k, v]) => ({
+          ...colors,
+          [k]: v !== null && v > 0 ? fnScale(v) : INVALID_COLOR
+        }), {})
+      this.fnRestyleLayer()
+    },
     fnOnEachFeature (feature, layer) {
       layer.on({
         click: this.fnOnClick,
@@ -118,13 +159,15 @@ export default {
       }
     },
     fnRestyleLayer () {
-      this.lLocationsLayer.eachLayer(layer => {
+      this.lLocationsLayer && this.lLocationsLayer.eachLayer(layer => {
         const locationId = layer.feature.properties.locationId
-        if (this.location.locationId === '_WORLD' || this.location.locationId === locationId) {
+        const fillColor = this.colors ? this.colors[locationId] : INVALID_COLOR
+        layer.setStyle({ fillColor })
+        /* if (this.location.locationId === '_WORLD' || this.location.locationId === locationId) {
           layer.setStyle({ fillColor: SELECTED_COLOR })
         } else {
           layer.setStyle({ fillColor: BASE_COLOR })
-        }
+        } */
       })
     },
     fnOnMouseover (e) {

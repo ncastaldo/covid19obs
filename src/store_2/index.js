@@ -3,6 +3,7 @@ import Vuex from 'vuex'
 
 import timeseries from './timeseries'
 import view from './view'
+import mapLayer from './mapLayer'
 
 import worldMap from '../assets/map/world.json'
 
@@ -113,7 +114,8 @@ export default new Vuex.Store({
   actions,
   modules: {
     view,
-    timeseries
+    timeseries,
+    mapLayer
   },
   plugins: [
     store => {
