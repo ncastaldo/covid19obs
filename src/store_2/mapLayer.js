@@ -33,6 +33,7 @@ const mutations = {
 }
 
 const getters = {
+  getMapLayers: ({ mapLayers }) => Object.values(mapLayers),
   getMapLayer: ({ mapLayers, mapLayerId }) => mapLayers[mapLayerId]
 }
 

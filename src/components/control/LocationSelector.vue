@@ -16,14 +16,15 @@
       id="selector-map-chart"
       :style="{ height: `${height}px`}"
     />
+    <MapLayerSelector />
   </div>
 </template>
 
 <script>
+import MapLayerSelector from './MapLayerSelector'
+
 import { max } from 'd3-array'
 import { select } from 'd3-selection'
-import { scaleLog } from 'd3-scale'
-import { schemeCategory10 } from 'd3-scale-chromatic'
 import { map, tileLayer, geoJSON, DomEvent } from 'leaflet'
 import { mapGetters, mapActions } from 'vuex'
 
@@ -32,11 +33,16 @@ const generalMapDictUrl = '/assets/map_dicts/general.json'
 const tileLayerLink = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png'
 const attribution = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
 const baseView = [[41.90, 12.49], 3]
-const BASE_COLOR = '#aaa'
-const SELECTED_COLOR = schemeCategory10[0]
-const INVALID_COLOR = '#aaa'
+
+const BASE_STROKE = { color: '#fff', weight: 1 }
+const SELECTED_STROKE = { color: '#000', weight: 2 }
+
+const INVALID_FILL_COLOR = '#aaa'
 
 export default {
+  components: {
+    MapLayerSelector
+  },
   props: {
     height: {
       type: Number,
@@ -94,10 +100,9 @@ export default {
       })
       this.lLocationsLayer = geoJSON(this.features, {
         style: {
-          fillColor: BASE_COLOR, // https://webkid.io/blog/fancy-map-effects-with-css/
+          fillColor: INVALID_FILL_COLOR, // https://webkid.io/blog/fancy-map-effects-with-css/
           fillOpacity: 1,
-          color: '#888',
-          weight: 1
+          ...BASE_STROKE
         },
         onEachFeature: this.fnOnEachFeature
       })
@@ -127,7 +132,7 @@ export default {
         .map(([k, d]) => [k, d[this.mapLayer.mapLayerId]])
         .reduce((colors, [k, v]) => ({
           ...colors,
-          [k]: v !== null && v > 0 ? fnScale(v) : INVALID_COLOR
+          [k]: v !== null && v > 0 ? fnScale(v) : INVALID_FILL_COLOR
         }), {})
       this.fnRestyleLayer()
     },
@@ -143,6 +148,7 @@ export default {
       const newId = e.target.feature.properties.locationId
       const oldId = this.location.locationId
       if (newId !== oldId) {
+        select(e.originalEvent.target).raise()
         this.setLocationId(newId)
         // this.lMap.fitBounds(e.target.getBounds())
       } else {
@@ -160,24 +166,23 @@ export default {
     },
     fnRestyleLayer () {
       this.lLocationsLayer && this.lLocationsLayer.eachLayer(layer => {
+        // fill color
         const locationId = layer.feature.properties.locationId
-        const fillColor = this.colors ? this.colors[locationId] : INVALID_COLOR
-        layer.setStyle({ fillColor })
-        /* if (this.location.locationId === '_WORLD' || this.location.locationId === locationId) {
-          layer.setStyle({ fillColor: SELECTED_COLOR })
-        } else {
-          layer.setStyle({ fillColor: BASE_COLOR })
-        } */
+        const fillColor = this.colors ? this.colors[locationId] : INVALID_FILL_COLOR
+
+        // stroke
+        const stroke = this.location.locationId === locationId && this.location.locationId !== '_WORLD'
+          ? SELECTED_STROKE : BASE_STROKE
+        layer.setStyle({ fillColor, ...stroke })
       })
     },
     fnOnMouseover (e) {
-      e.target.setStyle({ weight: 2, fillOpacity: 0.7 })
-      select(e.originalEvent.target).raise()
+      e.target.setStyle({ fillOpacity: 0.7 })
       this.hover = e.target.feature.properties
       // this.setLocationFocus(e.target.feature.properties)
     },
     fnOnMouseout (e) {
-      e.target.setStyle({ weight: 0.5, fillOpacity: 1 })
+      e.target.setStyle({ fillOpacity: 1 })
       this.hover = null
       // this.setLocationFocus(null)
     }
@@ -192,6 +197,10 @@ export default {
 #selector-map-chart.leaflet-container{
     z-index: 1;
     background-color:#eee;
+}
+
+#selector-map-chart.leaflet-container path{
+  transition: fill .75s;
 }
 
 </style>

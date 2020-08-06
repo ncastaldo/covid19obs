@@ -29,15 +29,20 @@ const config = {
   id: 'tweets',
   fnComponents: () => [
     bxBars()
-      .fnDefined(d => d.info_tweets != null)
-      .fnLowValue(d => d.stack_info_tweets[0])
-      .fnHighValue(d => d.stack_info_tweets[1])
+      .fnDefined(d => d.info_tweets_T != null)
+      .fnLowValue(d => d.stack_info_tweets_T[0])
+      .fnHighValue(d => d.stack_info_tweets_T[1])
       .fnFill(d => '#045a8d'),
     bxBars()
-      .fnDefined(d => d.info_tweets_local != null)
-      .fnLowValue(d => d.stack_info_tweets_local[0])
-      .fnHighValue(d => d.stack_info_tweets_local[1])
-      .fnFill(d => '#2b8cbe') // #74a9cf
+      .fnDefined(d => d.info_tweets_RT != null)
+      .fnLowValue(d => d.stack_info_tweets_RT[0])
+      .fnHighValue(d => d.stack_info_tweets_RT[1])
+      .fnFill(d => '#2b8cbe'), // #74a9cf
+    bxBars()
+      .fnDefined(d => d.info_tweets_RE != null)
+      .fnLowValue(d => d.stack_info_tweets_RE[0])
+      .fnHighValue(d => d.stack_info_tweets_RE[1])
+      .fnFill(d => '#74a9cf') // #74a9cf
   ]
 }
 
@@ -55,7 +60,7 @@ export default {
       timeseries: 'timeseries/getTimeseries'
     }),
     modifiedTimeseries () {
-      const keys = ['info_tweets', 'info_tweets_local']
+      const keys = ['info_tweets_T', 'info_tweets_RT', 'info_tweets_RE']
       const fnStack = stack().keys(keys)
       const stackedData = fnStack(this.timeseries)
       return this.timeseries.map((d, i) => ({

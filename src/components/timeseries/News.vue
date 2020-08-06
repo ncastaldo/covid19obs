@@ -31,12 +31,12 @@ const config = {
       .fnDefined(d => d.info_fact_reliable != null)
       .fnHighValue(d => d.info_fact_reliable)
       .fnLowValue(d => 0)
-      .fnFill(d => '#1a9850'),
+      .fnFill(d => '#018571'),
     bxBars()
       .fnDefined(d => d.info_fact_unreliable != null)
       .fnHighValue(d => -d.info_fact_unreliable)
       .fnLowValue(d => 0)
-      .fnFill(d => '#d73027'),
+      .fnFill(d => '#a6611a'),
     bxCircles()
       .fnDefined(d => d.info_fact_reliable != null)
       .fnValue(d => d.info_fact_reliable - d.info_fact_unreliable)
