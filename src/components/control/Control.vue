@@ -1,7 +1,7 @@
 <template>
   <div>
     <LocationDisplay />
-    <LocationSelector />
+    <LocationSelector2 />
     <!--v-dialog
       v-model="mapDialog"
     >
@@ -24,13 +24,13 @@
 
 <script>
 import LocationDisplay from './LocationDisplay'
-import LocationSelector from './LocationSelector'
+import LocationSelector2 from './LocationSelector2'
 import { mapGetters } from 'vuex'
 
 export default {
   components: {
     LocationDisplay,
-    LocationSelector
+    LocationSelector2
   },
   computed: {
     ...mapGetters({

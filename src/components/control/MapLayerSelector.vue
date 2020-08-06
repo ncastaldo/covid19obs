@@ -2,6 +2,7 @@
   <v-select
     v-model="mapLayer"
     :items="mapLayers"
+    background-color="#fff"
     item-value="mapLayerId"
     item-text="mapLayerName"
   />
