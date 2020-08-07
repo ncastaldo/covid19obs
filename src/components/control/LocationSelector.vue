@@ -1,47 +1,67 @@
 <template>
   <div>
-    <div
-      class="selector-map-chart__hover px-2 pt-1"
-      :style="{
-        'background-color': '#ddd',
-        'font-size': '18px',
-        'color': '#000',
-        'height': '34px',
-        'font-weight': 200
-      }"
-    >
-      {{ hover ? [hover.locationName, generalMapDict[hover.locationId]] : '' }}
-    </div>
-    <div
-      id="selector-map-chart"
+    <l-map
+      id="location-selector-map"
+      ref="locationSelectorMap"
       :style="{ height: `${height}px`}"
-    />
-    <MapLayerSelector />
+      :min-zoom="mapMinZoom"
+      :max-zoom="mapMaxZoom"
+      :max-bounds="mapMaxBounds"
+      :options="mapOptions"
+      :zoom="mapZoom"
+      :center="mapCenter"
+      @click="restore()"
+      @ready="mapReady()"
+      @mousemove="moveHover()"
+    >
+      <l-geo-json
+        :geojson="features"
+        :options="geoJsonOptions"
+        :optionsStyle="geoJsonStyle"
+      />
+
+      <l-control
+        position="topright"
+        class="pa-2"
+        style="background-color: rgba(255,255,255, 0.9)"
+      >
+        <MapLayerSelector />
+      </l-control>
+    </l-map>
+    <Tooltip>
+      <LocationHover
+        :hover="hover"
+      />
+    </Tooltip>
   </div>
 </template>
 
 <script>
-import MapLayerSelector from './MapLayerSelector'
-
 import { max } from 'd3-array'
 import { select } from 'd3-selection'
-import { map, tileLayer, geoJSON, DomEvent } from 'leaflet'
+import { latLng, latLngBounds, DomEvent } from 'leaflet'
+import { LMap, LGeoJson, LControl } from 'vue2-leaflet'
 import { mapGetters, mapActions } from 'vuex'
+
+import Tooltip from '../base/Tooltip'
+import MapLayerSelector from './MapLayerSelector'
+import LocationHover from './LocationHover'
+
+const BASE_STROKE = { color: '#ddd', weight: 0.5 }
+const SELECTED_STROKE = { color: '#000', weight: 2 }
+
+const INVALID_FILL_COLOR = '#999'
 
 const generalMapDictUrl = '/assets/map_dicts/general.json'
 
-const tileLayerLink = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png'
-const attribution = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
-const baseView = [[41.90, 12.49], 3]
-
-const BASE_STROKE = { color: '#fff', weight: 1 }
-const SELECTED_STROKE = { color: '#000', weight: 2 }
-
-const INVALID_FILL_COLOR = '#aaa'
-
 export default {
   components: {
-    MapLayerSelector
+    LMap,
+    LGeoJson,
+    LControl,
+    Tooltip,
+    MapLayerSelector,
+    LocationHover
   },
   props: {
     height: {
@@ -51,14 +71,32 @@ export default {
   },
   data () {
     return {
-      polygons: null,
-
-      lMap: null,
-      lTileLayer: null,
-      lLocationsLayer: null,
-
       generalMapDict: null,
-      colors: null,
+
+      map: null,
+
+      mapMinZoom: 2,
+      mapMaxZoom: 7,
+      mapMaxBounds: latLngBounds([[-65, -180], [90, 180]]),
+
+      mapOptions: { scrollWheelZoom: false },
+
+      mapZoom: 3,
+      mapCenter: latLng(41.90, 12.49),
+
+      geoJsonOptions: {
+        onEachFeature: (feature, layer) =>
+          layer.on({
+            click: this.fnOnClick,
+            mouseover: this.fnOnMouseover,
+            mouseout: this.fnOnMouseout
+          })
+      },
+      geoJsonStyle: {
+        fillColor: INVALID_FILL_COLOR, // https://webkid.io/blog/fancy-map-effects-with-css/
+        fillOpacity: 1,
+        ...BASE_STROKE
+      },
 
       hover: null
     }
@@ -68,57 +106,10 @@ export default {
       location: 'getLocation',
       features: 'getFeatures',
       mapLayer: 'mapLayer/getMapLayer'
-    })
-  },
-  watch: {
-    generalMapDict () {
-      this.computeColors()
-    },
-    mapLayer () {
-      this.generalMapDict && this.computeColors()
-    }
-  },
-  created () {
-    fetch(generalMapDictUrl)
-      .then(res => res.json())
-      .then(data => { this.generalMapDict = data })
-  },
-  mounted () {
-    this.$nextTick(function () {
-      this.lMap = map('selector-map-chart', {
-        minZoom: 2,
-        maxZoom: 7,
-        maxBounds: [[-65, -180], [90, 180]], // antartica is out
-
-        scrollWheelZoom: false
-      })
-        .setView(...baseView)
-        .on('click', this.fnRestoreView)
-
-      this.lTileLayer = tileLayer(tileLayerLink, {
-        attribution
-      })
-      this.lLocationsLayer = geoJSON(this.features, {
-        style: {
-          fillColor: INVALID_FILL_COLOR, // https://webkid.io/blog/fancy-map-effects-with-css/
-          fillOpacity: 1,
-          ...BASE_STROKE
-        },
-        onEachFeature: this.fnOnEachFeature
-      })
-
-      this.fnRestyleLayer()
-
-      // this.lTileLayer.addTo(this.lMap)
-      this.lLocationsLayer.addTo(this.lMap)
-    })
-  },
-  methods: {
-    ...mapActions({
-      setLocationId: 'setLocationId'
     }),
-    computeColors () {
-      // getting valid values
+    colors () {
+      if (!this.generalMapDict) { return null }
+
       const values = Object.values(this.generalMapDict)
         .map(d => d[this.mapLayer.mapLayerId])
         .filter(d => d !== null && d > 0)
@@ -127,21 +118,48 @@ export default {
       const fnScale = this.mapLayer.mapLayerColorScale
         .domain([1, max(values)])
 
-      // color mapping
-      this.colors = Object.entries(this.generalMapDict)
+      return Object.entries(this.generalMapDict)
         .map(([k, d]) => [k, d[this.mapLayer.mapLayerId]])
         .reduce((colors, [k, v]) => ({
           ...colors,
           [k]: v !== null && v > 0 ? fnScale(v) : INVALID_FILL_COLOR
         }), {})
-      this.fnRestyleLayer()
+    }
+  },
+  watch: {
+    colors () {
+      this.repaint()
+    }
+  },
+  created () {
+    fetch(generalMapDictUrl)
+      .then(res => res.json())
+      .then(data => { this.generalMapDict = data })
+  },
+  methods: {
+    ...mapActions({
+      setLocationId: 'setLocationId'
+    }),
+    mapReady () {
+      this.repaint()
     },
-    fnOnEachFeature (feature, layer) {
-      layer.on({
-        click: this.fnOnClick,
-        mouseover: this.fnOnMouseover,
-        mouseout: this.fnOnMouseout
-      })
+    repaint () {
+      this.geoJsonStyle = (feature) => {
+        const locationId = feature.properties.locationId
+        const fillColor = this.colors ? this.colors[locationId] : INVALID_FILL_COLOR
+
+        // stroke
+        const stroke = locationId === this.location.locationId && this.location.locationId !== '_WORLD'
+          ? SELECTED_STROKE : BASE_STROKE
+        return { fillColor, ...stroke }
+      }
+    },
+    restore () {
+      this.setLocationId('_WORLD')
+      this.repaint()
+    },
+    moveHover () {
+
     },
     fnOnClick (e) {
       DomEvent.stop(e) // https://github.com/Leaflet/Leaflet/issues/3756
@@ -150,35 +168,22 @@ export default {
       if (newId !== oldId) {
         select(e.originalEvent.target).raise()
         this.setLocationId(newId)
+        this.repaint()
         // this.lMap.fitBounds(e.target.getBounds())
-      } else {
-        this.fnRestoreView()
+      } else if (this.location.locationId !== '_WORLD') {
+        this.restore()
       }
-      this.fnRestyleLayer()
-    },
-
-    fnRestoreView () {
-      if (this.location.locationId !== '_WORLD') {
-        this.setLocationId('_WORLD')
-        this.fnRestyleLayer()
-        // this.lMap.setView(...baseView)
-      }
-    },
-    fnRestyleLayer () {
-      this.lLocationsLayer && this.lLocationsLayer.eachLayer(layer => {
-        // fill color
-        const locationId = layer.feature.properties.locationId
-        const fillColor = this.colors ? this.colors[locationId] : INVALID_FILL_COLOR
-
-        // stroke
-        const stroke = this.location.locationId === locationId && this.location.locationId !== '_WORLD'
-          ? SELECTED_STROKE : BASE_STROKE
-        layer.setStyle({ fillColor, ...stroke })
-      })
     },
     fnOnMouseover (e) {
       e.target.setStyle({ fillOpacity: 0.7 })
-      this.hover = e.target.feature.properties
+      const location = e.target.feature.properties
+      const dict = this.generalMapDict
+        ? this.generalMapDict[location.locationId]
+        : {}
+      this.hover = {
+        ...location,
+        ...dict
+      }
       // this.setLocationFocus(e.target.feature.properties)
     },
     fnOnMouseout (e) {
@@ -191,16 +196,16 @@ export default {
 </script>
 
 <style>
-@import "../../../node_modules/leaflet/dist/leaflet.css";
-/*@import 'https://unpkg.com/leaflet@1.6.0/dist/leaflet.css';*/
 
-#selector-map-chart.leaflet-container{
+@import "../../../node_modules/leaflet/dist/leaflet.css";
+
+#location-selector-map.leaflet-container{
     z-index: 1;
-    background-color:#eee;
+    background-color:#ddd;
 }
 
-#selector-map-chart.leaflet-container path{
-  transition: fill .75s;
+#location-selector-map.leaflet-container path{
+  transition: fill .5s;
 }
 
 </style>

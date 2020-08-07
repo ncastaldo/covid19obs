@@ -1,10 +1,13 @@
 <template>
   <v-select
     v-model="mapLayer"
+    class="pt-0 mt-0"
     :items="mapLayers"
-    background-color="#fff"
     item-value="mapLayerId"
     item-text="mapLayerName"
+    hide-details
+    style="width: 180px"
+    color="#000"
   />
 </template>
 

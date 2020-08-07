@@ -1,7 +1,8 @@
 <template>
   <div>
     <LocationDisplay />
-    <LocationSelector2 />
+    <PeriodSelector />
+    <LocationSelector />
     <!--v-dialog
       v-model="mapDialog"
     >
@@ -24,13 +25,18 @@
 
 <script>
 import LocationDisplay from './LocationDisplay'
-import LocationSelector2 from './LocationSelector2'
+import LocationSelector from './LocationSelector'
+
+import PeriodSelector from './PeriodSelector'
+
 import { mapGetters } from 'vuex'
 
 export default {
   components: {
     LocationDisplay,
-    LocationSelector2
+    LocationSelector,
+
+    PeriodSelector
   },
   computed: {
     ...mapGetters({

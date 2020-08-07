@@ -23,6 +23,7 @@ const locationList = worldMap.features
   .map(f => ({
     locationId: f.properties.ADM0_A3, // adm0_a3,
     locationName: f.properties.ADMIN, // admin,
+    flagId: f.properties.WB_A2,
     geometry: f.geometry
   }))
 
@@ -44,25 +45,23 @@ const locations = locationList
 
 const periodList = [
   {
-    id: '2020Q1',
-    name: '2020 - 1st Quarter',
-    from: new Date('2020-01-01'),
-    to: '20200331'
+    periodId: '2020Q1',
+    periodName: '2020 - Q1'
   },
   {
-    id: '2020Q2',
-    name: '2020 - 2nd Quarter'
+    periodId: '2020Q2',
+    periodName: '2020 - Q2'
   },
   {
-    id: '2020Q3',
-    name: '2020 - 3rd Quarter'
+    periodId: '2020Q3',
+    periodName: '2020 - Q3'
   }
 ]
 
 const periods = periodList
   .reduce((periods, p) => ({
     ...periods,
-    [p.id]: p
+    [p.periodId]: p
   }), {})
 
 /**
@@ -82,7 +81,8 @@ const state = {
 const mutations = {
   setReady: (state, ready) => { state.ready = ready },
 
-  setLocationId: (state, locationId) => { state.locationId = locationId }
+  setLocationId: (state, locationId) => { state.locationId = locationId },
+  setPeriodId: (state, periodId) => { state.periodId = periodId }
 }
 
 const getters = {
@@ -96,13 +96,19 @@ const getters = {
       type: 'Feature',
       geometry,
       properties
-    }))
+    })),
+
+  getPeriods: ({ periods }) => Object.values(periods),
+  getPeriod: ({ periods, periodId }) => periods[periodId]
 }
 
 const actions = {
   setLocationId: ({ commit, dispatch }, locationId) => {
     commit('setLocationId', locationId)
     dispatch('timeseries/loadTimeseries')
+  },
+  setPeriodId: ({ commit, dispatch }, periodId) => {
+    commit('setPeriodId', periodId)
   }
 }
 
