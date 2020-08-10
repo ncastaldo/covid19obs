@@ -7,11 +7,15 @@ import mapLayer from './mapLayer'
 
 import worldMap from '../assets/map/world.json'
 
+import { timeMonth } from 'd3-time'
+
 Vue.use(Vuex)
+
+const MONTHS = [new Date(2020, 1 - 1, 1), new Date(2020, 8 - 1, 1)]
 
 const INITIAL_STATE = {
   locationId: '_WORLD',
-  periodId: '2020Q3'
+  periodIdRange: [+new Date(2020, 1 - 1, 1), +new Date(2020, 1 - 1, 1)]
 }
 
 /**
@@ -43,20 +47,11 @@ const locations = locationList
  * PERIODS INIT
 */
 
-const periodList = [
-  {
-    periodId: '2020Q1',
-    periodName: '2020 - Q1'
-  },
-  {
-    periodId: '2020Q2',
-    periodName: '2020 - Q2'
-  },
-  {
-    periodId: '2020Q3',
-    periodName: '2020 - Q3'
-  }
-]
+const periodList = timeMonth.range(...MONTHS)
+  .map(date => ({
+    periodId: +date,
+    periodName: date.toLocaleString('en', { month: 'long' }).toUpperCase()
+  }))
 
 const periods = periodList
   .reduce((periods, p) => ({
@@ -75,14 +70,14 @@ const state = {
   locationId: INITIAL_STATE.locationId,
 
   periods,
-  periodId: INITIAL_STATE.periodId
+  periodIdRange: INITIAL_STATE.periodIdRange
 }
 
 const mutations = {
   setReady: (state, ready) => { state.ready = ready },
 
   setLocationId: (state, locationId) => { state.locationId = locationId },
-  setPeriodId: (state, periodId) => { state.periodId = periodId }
+  setPeriodIdRange: (state, periodIdRange) => { state.periodIdRange = periodIdRange }
 }
 
 const getters = {
@@ -99,7 +94,7 @@ const getters = {
     })),
 
   getPeriods: ({ periods }) => Object.values(periods),
-  getPeriod: ({ periods, periodId }) => periods[periodId]
+  getPeriodRange: ({ periods, periodIdRange }) => periodIdRange.map(id => periods[id])
 }
 
 const actions = {
@@ -107,8 +102,8 @@ const actions = {
     commit('setLocationId', locationId)
     dispatch('timeseries/loadTimeseries')
   },
-  setPeriodId: ({ commit, dispatch }, periodId) => {
-    commit('setPeriodId', periodId)
+  setPeriodIdRange: ({ commit, dispatch }, periodIdRange) => {
+    commit('setPeriodIdRange', periodIdRange)
   }
 }
 

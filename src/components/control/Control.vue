@@ -1,7 +1,7 @@
 <template>
   <div>
     <LocationDisplay />
-    <PeriodSelector />
+    <PeriodRangeSelector />
     <LocationSelector />
     <!--v-dialog
       v-model="mapDialog"
@@ -27,7 +27,7 @@
 import LocationDisplay from './LocationDisplay'
 import LocationSelector from './LocationSelector'
 
-import PeriodSelector from './PeriodSelector'
+import PeriodRangeSelector from './PeriodRangeSelector'
 
 import { mapGetters } from 'vuex'
 
@@ -36,7 +36,7 @@ export default {
     LocationDisplay,
     LocationSelector,
 
-    PeriodSelector
+    PeriodRangeSelector
   },
   computed: {
     ...mapGetters({

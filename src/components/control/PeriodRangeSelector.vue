@@ -24,7 +24,7 @@ import {
 export default {
   data () {
     return {
-      id: 'period-selector',
+      id: 'period-range-selector',
       height: 100,
 
       chart: null,
@@ -37,11 +37,11 @@ export default {
   computed: {
     ...mapGetters({
       periods: 'getPeriods',
-      period: 'getPeriod'
+      periodRange: 'getPeriodRange'
     })
   },
   watch: {
-    period (value) {
+    periods (value) {
       this.drawChart()
     }
   },
@@ -53,12 +53,13 @@ export default {
     this.update()
 
     this.chart.data(this.periods)
+    this.brush.brushDomain(this.periodRange.map(p => p.periodId))
 
     this.drawChart()
   },
   methods: {
     ...mapActions({
-      setPeriodId: 'setPeriodId'
+      setPeriodIdRange: 'setPeriodIdRange'
     }),
     createComponents () {
       this.xAxis = bxAxisX()
@@ -73,32 +74,34 @@ export default {
         .fnLowValue(d => 0)
         .fnHighValue(d => 1)
         .fnFill(d => '#bbb')
-        .fnStrokeWidth(d => this.period.periodId === d.periodId ? 2 : 0)
+        .fnStrokeWidth(d => this.periods.includes(d.periodId) ? 2 : 0)
         .fnStroke(d => '#000')
-        .fnOn('click', this.fnOnClick)
-        .fnBefore(s => s.classed('period-selector__bars', true))
+        // .fnBefore(s => s.classed('period-selector__bars', true))
       this.brush = bxBrush()
+        .minStep(0)
         .maxStep(1)
+        .fnOn('endDomain', d => d
+          ? this.setPeriodIdRange(d)
+          : console.log('error no domain, d3nic')
+        )
     },
     createChart () {
       this.chart = bxChart()
         .selector(`#${this.id}`)
         .fnKey(d => d.periodId)
-        .fnBandValue(d => d.periodName)
+        .fnBandValue(d => d.periodId)
     },
     update () {
-      this.chart.components([this.xAxis, this.bars])//, this.brush])
+      this.chart.components([this.xAxis, this.bars, this.brush])
+    },
+    reset () {
+
     },
     drawChart () {
       // wait for chartscontainer
       this.$nextTick(function () {
         this.chart.draw({ duration: 500 })
       })
-    },
-    fnOnClick (d, i, nodes) {
-      if (d.periodId !== this.period.periodId) {
-        this.setPeriodId(d.periodId)
-      }
     }
   }
 
@@ -107,7 +110,7 @@ export default {
 
 <style>
 
-.period-selector__bars:hover {
+.periods-range-selector__bars:hover {
   fill-opacity: 0.6;
 }
 
