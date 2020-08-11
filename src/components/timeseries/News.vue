@@ -22,7 +22,7 @@
 import TimeseriesChart from './../graphics/TimeseriesChart'
 import { mapGetters } from 'vuex'
 
-import { bxBars, bxCircles } from 'd3nic'
+import { bxBars, bxLine } from 'd3nic'
 
 const config = {
   id: 'news',
@@ -36,14 +36,14 @@ const config = {
       .fnDefined(d => d.info_fact_unreliable != null)
       .fnHighValue(d => -d.info_fact_unreliable)
       .fnLowValue(d => 0)
-      .fnFill(d => '#a6611a'),
-    bxCircles()
+      .fnFill(d => '#8856A7'),
+    bxLine()
       .fnDefined(d => d.info_fact_reliable != null)
       .fnValue(d => d.info_fact_reliable - d.info_fact_unreliable)
-      .fnRadius(d => 3)
-      .fnFill(d => '#e0e0e0')
-      .fnStrokeWidth(d => 1)
-      .fnStroke(d => '#000')
+      .fnFillOpacity(d => 0)
+      .fnStroke(d => '#111')
+      .fnStrokeWidth(d => 2)
+      .fnStrokeDasharray(d => [2, 2])
   ]
 }
 

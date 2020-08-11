@@ -18,7 +18,10 @@ const MONTHS = timeMonth.range(
 
 const INITIAL_STATE = {
   locationId: '_WORLD',
-  periodIdRange: [+new Date(2020, 1 - 1, 1), +new Date(2020, 3 - 1, 1)]
+  periodIdRange: [
+    +MONTHS[MONTHS.length - 2],
+    +MONTHS[MONTHS.length - 1]
+  ]
 }
 
 /**
@@ -50,10 +53,15 @@ const locations = locationList
  * PERIODS INIT
 */
 
+const capitalize = (s) => {
+  if (typeof s !== 'string') return ''
+  return s.charAt(0).toUpperCase() + s.slice(1)
+}
+
 const periodList = MONTHS
   .map((date, i, array) => ({
     periodId: +date,
-    periodName: date.toLocaleString('en', { month: 'long' }).toUpperCase(),
+    periodName: capitalize(date.toLocaleString('en', { month: 'long', year: 'numeric' })),
     from: +date,
     to: i < array.length - 1 ? +array[i + 1] : Number.POSITIVE_INFINITY
   }))

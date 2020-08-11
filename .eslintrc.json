@@ -20,7 +20,12 @@
     ],
     "rules": {
         "camelcase": "off",
-        "no-unused-vars": ["warn", { "args": "none" }],
+        "no-unused-vars": [
+            "warn",
+            {
+                "args": "none"
+            }
+        ],
         "no-console": "off",
         "vue/require-default-prop": "off",
         "vue/attribute-hyphenation": "off"

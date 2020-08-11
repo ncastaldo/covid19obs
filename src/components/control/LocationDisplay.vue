@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex align-center py-2">
-    <div :class="flagUrl ? 'pr-3' : ''">
+    <div class="display__icon pr-3">
       <img :src="flagUrl">
     </div>
     <h2>{{ location.locationName }}</h2>

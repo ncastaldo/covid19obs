@@ -12,7 +12,7 @@
 import HybridDetails from './HybridDetails'
 
 import { select } from 'd3-selection'
-import { map, tileLayer, geoJSON, Browser, DomEvent } from 'leaflet'
+import { map, tileLayer, geoJSON, DomEvent } from 'leaflet'
 import { mapGetters, mapActions, mapMutations } from 'vuex'
 
 const tileLayerLink = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png'

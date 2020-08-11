@@ -118,9 +118,8 @@ export default {
     },
     drawChart () {
       // wait for chartscontainer
-      return this.$nextTick(() =>
-        this.chart.draw({ duration: 1000 })
-          .transition().end())
+      this.$nextTick(() =>
+        this.chart.draw({ duration: 750 }))
     },
     clear () {
       this.components.map(c =>

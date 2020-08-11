@@ -12,6 +12,8 @@
 <script>
 import { mapGetters, mapActions } from 'vuex'
 
+import { timeFormat } from 'd3-time-format'
+
 import { select } from 'd3-selection'
 
 import {
@@ -21,11 +23,14 @@ import {
   bxBrush
 } from 'd3nic'
 
+const fnDateFormat = timeFormat('%b %y')
+
 export default {
   data () {
     return {
       id: 'period-range-selector',
-      height: 100,
+      height: 60,
+      padding: { top: 0, left: 25, right: 25, bottom: 25 },
 
       chart: null,
 
@@ -64,7 +69,8 @@ export default {
       this.xAxis = bxAxisX()
         .tickSizeInner(0)
         .tickSizeOuter(0)
-        .tickFormat(t => t)
+        .ticks(100)
+        .tickFormat(t => fnDateFormat(new Date(t)))
         .fnBefore(s =>
           s.classed('axis', true)
             .select('.domain')
@@ -77,8 +83,8 @@ export default {
         .fnStroke(d => '#000')
         // .fnBefore(s => s.classed('period-selector__bars', true))
       this.brush = bxBrush()
-        .minStep(2)
-        .maxStep(2)
+        .minStep(0)
+        .maxStep(1)
         .fnOn('brushDomain', this.fillBars)
         .fnOn('endDomain', d => d
           ? this.setPeriodIdRange(d)
@@ -88,6 +94,7 @@ export default {
     createChart () {
       this.chart = bxChart()
         .selector(`#${this.id}`)
+        .padding(this.padding)
         .fnKey(d => d.periodId)
         .fnBandValue(d => d.periodId)
     },

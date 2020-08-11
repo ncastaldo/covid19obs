@@ -37,7 +37,7 @@ const config = {
       .fnDefined(d => d.info_risk_index != null)
       .fnValue(d => d.info_risk_index)
       .fnFillOpacity(d => 0)
-      .fnStrokeWidth(d => 4)
+      .fnStrokeWidth(d => 3)
       .fnStroke(d => '#2b8cbe')
   ]
 }
