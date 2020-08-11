@@ -11,11 +11,14 @@ import { timeMonth } from 'd3-time'
 
 Vue.use(Vuex)
 
-const MONTHS = [new Date(2020, 1 - 1, 1), new Date(2020, 8 - 1, 1)]
+const MONTHS = timeMonth.range(
+  new Date(2020, 0, 1), // first day of year -> Jan
+  new Date() // now
+)
 
 const INITIAL_STATE = {
   locationId: '_WORLD',
-  periodIdRange: [+new Date(2020, 1 - 1, 1), +new Date(2020, 1 - 1, 1)]
+  periodIdRange: [+new Date(2020, 1 - 1, 1), +new Date(2020, 3 - 1, 1)]
 }
 
 /**
@@ -47,10 +50,12 @@ const locations = locationList
  * PERIODS INIT
 */
 
-const periodList = timeMonth.range(...MONTHS)
-  .map(date => ({
+const periodList = MONTHS
+  .map((date, i, array) => ({
     periodId: +date,
-    periodName: date.toLocaleString('en', { month: 'long' }).toUpperCase()
+    periodName: date.toLocaleString('en', { month: 'long' }).toUpperCase(),
+    from: +date,
+    to: i < array.length - 1 ? +array[i + 1] : Number.POSITIVE_INFINITY
   }))
 
 const periods = periodList

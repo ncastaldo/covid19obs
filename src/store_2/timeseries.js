@@ -3,29 +3,39 @@ import { dsvFormat } from 'd3-dsv'
 const fnTimeseriesParser = dsvFormat(',')
 
 const state = {
-  timeseries: []
+  fullTimeseries: []
 }
 
 const mutations = {
-  setTimeseries: (state, timeseries) => { state.timeseries = timeseries }
+  setFullTimeseries: (state, fullTimeseries) => { state.fullTimeseries = fullTimeseries }
 }
 
 const getters = {
-  getTimeseries: ({ timeseries }) => timeseries
+  getFullTimeseries: ({ fullTimeseries }) => fullTimeseries,
+  getTimeseries: ({ fullTimeseries }, _, __, rootGetters) => {
+    const [from, to] = rootGetters.getPeriodRange
+      .map((p, i) => i === 0 ? p.from : p.to)
+    return fullTimeseries
+      .filter(d => {
+        const dt = +new Date(d.datetime)
+        return dt >= from && dt < to // stricly less
+      })
+  }
 }
 
 const actions = {
   init: ({ dispatch }) => { dispatch('loadTimeseries') },
 
-  loadTimeseries: ({ rootGetters, commit }) => {
+  loadTimeseries: ({ getters, rootGetters, commit }) => {
     const locationId = rootGetters.getLocation.locationId
+
     const timeseriesUrl = `/assets/infodemics/${locationId}.csv`
 
     // fetching the timeseries
     fetch(timeseriesUrl)
       .then(res => res.text())
       .then(data => Promise.resolve(fnTimeseriesParser.parse(data)))
-      .then(ts => { commit('setTimeseries', ts.slice(-60)) })
+      .then(ts => { commit('setFullTimeseries', ts) })
   }
 }
 

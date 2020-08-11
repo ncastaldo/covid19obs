@@ -38,11 +38,9 @@ export default {
     ...mapGetters({
       periods: 'getPeriods',
       periodRange: 'getPeriodRange'
-    })
-  },
-  watch: {
-    periods (value) {
-      this.drawChart()
+    }),
+    brushDomain () {
+      return this.periodRange.map(p => p.periodId)
     }
   },
   mounted () {
@@ -53,9 +51,10 @@ export default {
     this.update()
 
     this.chart.data(this.periods)
-    this.brush.brushDomain(this.periodRange.map(p => p.periodId))
+    this.brush.brushDomain(this.brushDomain)
 
     this.drawChart()
+      .then(() => this.fillBars(this.brushDomain))
   },
   methods: {
     ...mapActions({
@@ -73,13 +72,14 @@ export default {
       this.bars = bxBars()
         .fnLowValue(d => 0)
         .fnHighValue(d => 1)
-        .fnFill(d => '#bbb')
+        .fnFill(d => '#ccc')
         .fnStrokeWidth(d => this.periods.includes(d.periodId) ? 2 : 0)
         .fnStroke(d => '#000')
         // .fnBefore(s => s.classed('period-selector__bars', true))
       this.brush = bxBrush()
-        .minStep(0)
-        .maxStep(1)
+        .minStep(2)
+        .maxStep(2)
+        .fnOn('brushDomain', this.fillBars)
         .fnOn('endDomain', d => d
           ? this.setPeriodIdRange(d)
           : console.log('error no domain, d3nic')
@@ -94,14 +94,19 @@ export default {
     update () {
       this.chart.components([this.xAxis, this.bars, this.brush])
     },
-    reset () {
-
+    fillBars (brushDomain) {
+      // function to check if inside
+      const isInside = d =>
+        d.periodId >= brushDomain[0] && d.periodId <= brushDomain[1]
+      // join on bars
+      this.bars.join()
+        .style('fill', d => isInside(d) ? '#2877b8' : null)
     },
     drawChart () {
-      // wait for chartscontainer
-      this.$nextTick(function () {
-        this.chart.draw({ duration: 500 })
-      })
+      // wait for ChartsContainer
+      return this.$nextTick()
+        .then(() => this.chart.draw({ duration: 500 })
+          .transition().end())
     }
   }
 
@@ -110,8 +115,8 @@ export default {
 
 <style>
 
-.periods-range-selector__bars:hover {
-  fill-opacity: 0.6;
+#period-range-selector rect.selection {
+  fill-opacity: 0;
 }
 
 </style>

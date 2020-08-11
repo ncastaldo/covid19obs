@@ -2,29 +2,32 @@
   <v-container>
     <v-row no-gutters>
       <v-col
-        cols="12"
+        cols="6"
       >
         <Control />
       </v-col>
       <v-col
-        cols="12"
+        cols="6"
         class="pb-3"
       >
         <Epidemics />
       </v-col>
       <v-col
+        v-if="false"
         cols="12"
         class="pb-3"
       >
         <Tweets />
       </v-col>
       <v-col
+        v-if="false"
         cols="12"
         class="pb-3"
       >
         <RiskIndexes />
       </v-col>
       <v-col
+        v-if="false"
         cols="12"
         class="pb-3"
       >
