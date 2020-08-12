@@ -43,7 +43,6 @@ import { latLng, latLngBounds, DomEvent } from 'leaflet'
 import { LMap, LGeoJson, LControl } from 'vue2-leaflet'
 import { mapGetters, mapActions } from 'vuex'
 
-import Tooltip from '../base/Tooltip'
 import MapLayerSelector from './MapLayerSelector'
 import LocationHover from './LocationHover'
 
@@ -59,7 +58,6 @@ export default {
     LMap,
     LGeoJson,
     LControl,
-    Tooltip,
     MapLayerSelector,
     LocationHover
   },
@@ -103,10 +101,18 @@ export default {
   },
   computed: {
     ...mapGetters({
-      location: 'getLocation',
-      features: 'getFeatures',
+      locations: 'location/getLocations',
+      location: 'location/getLocation',
       mapLayer: 'mapLayer/getMapLayer'
     }),
+    features () {
+      console.log(this.locations)
+      return this.locations.map(({ geometry, ...properties }) => ({
+        type: 'Feature',
+        geometry,
+        properties
+      }))
+    },
     colors () {
       if (!this.generalMapDict) { return null }
 
@@ -138,7 +144,7 @@ export default {
   },
   methods: {
     ...mapActions({
-      setLocationId: 'setLocationId'
+      setLocationId: 'location/setLocationId'
     }),
     mapReady () {
       this.repaint()

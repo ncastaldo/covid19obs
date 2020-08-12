@@ -10,10 +10,17 @@
         :id="id"
       />
     </ChartsContainer>
+    <Tooltip>
+      <TimeseriesHover
+        :hover="hover"
+        :fnTooltips="config.fnTooltips || null"
+      />
+    </Tooltip>
   </div>
 </template>
 
 <script>
+import TimeseriesHover from './TimeseriesHover'
 
 import {
   bxChart,
@@ -22,6 +29,9 @@ import {
 } from 'd3nic'
 
 export default {
+  components: {
+    TimeseriesHover
+  },
   props: {
     id: String,
     height: Number,
@@ -37,7 +47,9 @@ export default {
 
       mouseBars: null,
 
-      components: []
+      components: [],
+
+      hover: null
     }
   },
   watch: {
@@ -53,6 +65,7 @@ export default {
       this.clear()
 
       this.createComponents()
+      this.createMouseBars() // update them too
 
       this.update()
 
@@ -121,6 +134,18 @@ export default {
       this.$nextTick(() =>
         this.chart.draw({ duration: 750 }))
     },
+    onMouseover (d, i, nodes) {
+      this.hover = d
+      this.components
+        .map(c => c.join().filter(f => f.datetime === d.datetime)
+          .dispatch('mouseover', { detail: { d, i, nodes } }))
+    },
+    onMouseout (d, i, nodes) {
+      this.hover = null
+      this.components
+        .map(c => c.join().filter(f => f.datetime === d.datetime)
+          .dispatch('mouseout', { detail: { d, i, nodes } }))
+    },
     clear () {
       this.components.map(c =>
         c.join()
@@ -128,6 +153,7 @@ export default {
           .duration(500)
           .style('opacity', 0)
           .remove())
+      this.mouseBars.join().remove()
     }
   }
 

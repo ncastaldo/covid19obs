@@ -25,6 +25,11 @@ import { mapGetters } from 'vuex'
 import { bxBars } from 'd3nic'
 import { stack } from 'd3-shape'
 
+import {
+  barsMouseover,
+  barsMouseout
+} from '../../plugins/graphics'
+
 const config = {
   id: 'tweets',
   fnComponents: () => [
@@ -32,18 +37,29 @@ const config = {
       .fnDefined(d => d.info_tweets_T != null)
       .fnLowValue(d => d.stack_info_tweets_T[0])
       .fnHighValue(d => d.stack_info_tweets_T[1])
-      .fnFill(d => '#045a8d'),
+      .fnFill(d => '#045a8d')
+      .fnOn('mouseover', barsMouseover)
+      .fnOn('mouseout', barsMouseout),
     bxBars()
       .fnDefined(d => d.info_tweets_RT != null)
       .fnLowValue(d => d.stack_info_tweets_RT[0])
       .fnHighValue(d => d.stack_info_tweets_RT[1])
-      .fnFill(d => '#2b8cbe'), // #74a9cf
+      .fnFill(d => '#2b8cbe')
+      .fnOn('mouseover', barsMouseover)
+      .fnOn('mouseout', barsMouseout),
     bxBars()
       .fnDefined(d => d.info_tweets_RE != null)
       .fnLowValue(d => d.stack_info_tweets_RE[0])
       .fnHighValue(d => d.stack_info_tweets_RE[1])
-      .fnFill(d => '#74a9cf') // #74a9cf
-  ]
+      .fnFill(d => '#74a9cf')
+      .fnOn('mouseover', barsMouseover)
+      .fnOn('mouseout', barsMouseout)
+  ],
+  fnTooltips: d => [
+    { name: 'T', value: d.info_tweets_T, color: '#045a8d' },
+    { name: 'RT', value: d.info_tweets_RT, color: '#2b8cbe' },
+    { name: 'RE', value: d.info_tweets_RE, color: '#74a9cf' }
+  ].reverse()
 }
 
 export default {

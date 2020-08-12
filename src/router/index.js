@@ -7,6 +7,7 @@ import VueRouter from 'vue-router'
 // import Contacts from '../views/Contacts'
 
 import Home from '../views/Home'
+import Countries from '../views/Countries'
 
 Vue.use(VueRouter)
 
@@ -21,13 +22,13 @@ const routes = [
     component: Home
     // name: 'Observatory',
     // component: Observatory
-  }
-  /* {
-    path: '/rankings',
-    name: 'Location',
-    component: Location
   },
   {
+    path: '/countries',
+    name: 'Countries',
+    component: Countries
+  }
+  /* {
     path: '/project',
     name: 'Project',
     component: Project

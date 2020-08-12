@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import Control from '../components/control/Control'
+import Control from '../components/Control'
 
 import Timeseries from '../components/Timeseries'
 

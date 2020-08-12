@@ -15,7 +15,7 @@ import { mapGetters } from 'vuex'
 export default {
   computed: {
     ...mapGetters({
-      periodRange: 'getPeriodRange'
+      periodRange: 'periodRange/getPeriodRange'
     }),
     display () {
       return this.periodRange

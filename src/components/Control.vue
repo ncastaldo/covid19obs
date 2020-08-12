@@ -25,11 +25,11 @@
 </template>
 
 <script>
-import PeriodRangeDisplay from './PeriodRangeDisplay'
-import PeriodRangeSelector from './PeriodRangeSelector'
+import PeriodRangeDisplay from './control/PeriodRangeDisplay'
+import PeriodRangeSelector from './control/PeriodRangeSelector'
 
-import LocationDisplay from './LocationDisplay'
-import LocationSelector from './LocationSelector'
+import LocationDisplay from './control/LocationDisplay'
+import LocationSelector from './control/LocationSelector'
 
 import { mapGetters } from 'vuex'
 
@@ -41,15 +41,15 @@ export default {
     LocationDisplay,
     LocationSelector
   },
-  computed: {
-    ...mapGetters({
-      location: 'getLocation'
-    })
-  },
   data () {
     return {
       mapDialog: false
     }
+  },
+  computed: {
+    ...mapGetters({
+      location: 'getLocation'
+    })
   }
 }
 </script>

@@ -6,7 +6,7 @@ import store from './store_2/index'
 import vuetify from './plugins/vuetify'
 
 import ChartsContainer from './components/base/ChartsContainer'
-import ChartTooltip from './components/base/ChartTooltip'
+import Tooltip from './components/base/Tooltip'
 
 import VueMobileDetection from 'vue-mobile-detection'
 import router from './router'
@@ -16,7 +16,7 @@ Vue.config.productionTip = false
 Vue.use(VueMobileDetection)
 
 Vue.component('ChartsContainer', ChartsContainer)
-Vue.component('ChartTooltip', ChartTooltip)
+Vue.component('Tooltip', Tooltip)
 
 new Vue({
   store,

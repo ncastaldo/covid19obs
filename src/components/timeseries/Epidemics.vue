@@ -36,6 +36,11 @@ import { mapGetters } from 'vuex'
 
 import { bxBars } from 'd3nic'
 
+import {
+  barsMouseover,
+  barsMouseout
+} from '../../plugins/graphics'
+
 const cumulativeConfigs = [
   {
     id: 'confirmed',
@@ -45,6 +50,11 @@ const cumulativeConfigs = [
         .fnLowValue(d => 0)
         .fnHighValue(d => d.epi_confirmed)
         .fnFill(d => '#e34a33')
+        .fnOn('mouseover', barsMouseover)
+        .fnOn('mouseout', barsMouseout)
+    ],
+    fnTooltips: d => [
+      { name: 'Conf', value: d.epi_confirmed, color: '#e34a33' }
     ]
   },
   {
@@ -55,6 +65,11 @@ const cumulativeConfigs = [
         .fnLowValue(d => 0)
         .fnHighValue(d => d.epi_dead)
         .fnFill(d => '#8856a7')
+        .fnOn('mouseover', barsMouseover)
+        .fnOn('mouseout', barsMouseout)
+    ],
+    fnTooltips: d => [
+      { name: 'Dead', value: d.epi_dead, color: '#8856a7' }
     ]
   }
 ]
@@ -68,6 +83,11 @@ const newConfigs = [
         .fnLowValue(d => 0)
         .fnHighValue(d => d.epi_confirmed_new)
         .fnFill(d => '#e34a33')
+        .fnOn('mouseover', barsMouseover)
+        .fnOn('mouseout', barsMouseout)
+    ],
+    fnTooltips: d => [
+      { name: 'Conf', value: d.epi_confirmed, color: '#e34a33' }
     ]
   },
   {
@@ -78,6 +98,11 @@ const newConfigs = [
         .fnLowValue(d => 0)
         .fnHighValue(d => d.epi_dead_new)
         .fnFill(d => '#8856a7')
+        .fnOn('mouseover', barsMouseover)
+        .fnOn('mouseout', barsMouseout)
+    ],
+    fnTooltips: d => [
+      { name: 'Dead', value: d.epi_dead, color: '#8856a7' }
     ]
   }
 ]

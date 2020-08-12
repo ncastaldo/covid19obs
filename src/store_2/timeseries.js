@@ -13,7 +13,7 @@ const mutations = {
 const getters = {
   getFullTimeseries: ({ fullTimeseries }) => fullTimeseries,
   getTimeseries: ({ fullTimeseries }, _, __, rootGetters) => {
-    const [from, to] = rootGetters.getPeriodRange
+    const [from, to] = rootGetters['periodRange/getPeriodRange']
       .map((p, i) => i === 0 ? p.from : p.to)
     return fullTimeseries
       .filter(d => {
@@ -27,7 +27,8 @@ const actions = {
   init: ({ dispatch }) => { dispatch('loadTimeseries') },
 
   loadTimeseries: ({ getters, rootGetters, commit }) => {
-    const locationId = rootGetters.getLocation.locationId
+    console.log(rootGetters)
+    const locationId = rootGetters['location/getLocation'].locationId
 
     const timeseriesUrl = `/assets/infodemics/${locationId}.csv`
 

@@ -3,6 +3,7 @@
     <v-tabs
       v-model="index"
       fixed-tabs
+      show-arrows
     >
       <v-tab
         v-for="(t, i) in tabs"

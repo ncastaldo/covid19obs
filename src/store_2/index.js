@@ -1,11 +1,14 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
+import location from './location'
+import periodRange from './periodRange'
 import timeseries from './timeseries'
+
 import view from './view'
 import mapLayer from './mapLayer'
 
-import worldMap from '../assets/map/world.json'
+import WORLD from '../assets/map/world.json'
 
 import { timeMonth } from 'd3-time'
 
@@ -17,107 +20,25 @@ const MONTHS = timeMonth.range(
 )
 
 const INITIAL_STATE = {
-  locationId: '_WORLD',
+  features: WORLD.features,
+  locationId: '_WORLD', // will be added
+  periodList: MONTHS,
   periodIdRange: [
     +MONTHS[MONTHS.length - 2],
     +MONTHS[MONTHS.length - 1]
   ]
 }
 
-/**
- * LOCATIONS INIT
- */
-
-// adding the world location
-const locationList = worldMap.features
-  .map(f => ({
-    locationId: f.properties.ADM0_A3, // adm0_a3,
-    locationName: f.properties.ADMIN, // admin,
-    flagId: f.properties.WB_A2,
-    geometry: f.geometry
-  }))
-
-locationList.push({
-  locationId: '_WORLD',
-  locationName: 'World',
-  geometry: null
-})
-
-const locations = locationList
-  .reduce((locations, l) => ({
-    ...locations,
-    [l.locationId]: l
-  }), {})
-
-/**
- * PERIODS INIT
-*/
-
-const capitalize = (s) => {
-  if (typeof s !== 'string') return ''
-  return s.charAt(0).toUpperCase() + s.slice(1)
-}
-
-const periodList = MONTHS
-  .map((date, i, array) => ({
-    periodId: +date,
-    periodName: capitalize(date.toLocaleString('en', { month: 'long', year: 'numeric' })),
-    from: +date,
-    to: i < array.length - 1 ? +array[i + 1] : Number.POSITIVE_INFINITY
-  }))
-
-const periods = periodList
-  .reduce((periods, p) => ({
-    ...periods,
-    [p.periodId]: p
-  }), {})
-
-/**
- * STATE
- */
-
 const state = {
-  ready: false,
-
-  locations,
-  locationId: INITIAL_STATE.locationId,
-
-  periods,
-  periodIdRange: INITIAL_STATE.periodIdRange
+  ready: false
 }
 
 const mutations = {
-  setReady: (state, ready) => { state.ready = ready },
-
-  setLocationId: (state, locationId) => { state.locationId = locationId },
-  setPeriodIdRange: (state, periodIdRange) => { state.periodIdRange = periodIdRange }
+  setReady: (state, ready) => { state.ready = ready }
 }
 
 const getters = {
-  isReady: ({ ready }) => ready,
-
-  getLocation: ({ locations, locationId }) => locations[locationId],
-
-  getFeatures: ({ locations }) => Object.values(locations)
-    .filter(l => l.locationId !== '_WORLD')
-    .map(({ geometry, ...properties }) => ({
-      type: 'Feature',
-      geometry,
-      properties
-    })),
-
-  getPeriods: ({ periods }) => Object.values(periods),
-  getPeriodRange: ({ periods, periodIdRange }) => periodIdRange.map(id => periods[id])
-}
-
-const actions = {
-  setLocationId: ({ commit, dispatch }, locationId) => {
-    commit('setLocationId', locationId)
-    dispatch('timeseries/loadTimeseries')
-  },
-  setPeriodIdRange: ({ commit, dispatch }, periodIdRange) => {
-    commit('setPeriodIdRange', periodIdRange)
-  }
+  isReady: ({ ready }) => ready
 }
 
 export default new Vuex.Store({
@@ -125,14 +46,17 @@ export default new Vuex.Store({
   state,
   mutations,
   getters,
-  actions,
   modules: {
-    view,
+    location,
+    periodRange,
     timeseries,
+    view,
     mapLayer
   },
   plugins: [
     store => {
+      store.dispatch('location/init', INITIAL_STATE)
+      store.dispatch('periodRange/init', INITIAL_STATE)
       store.dispatch('timeseries/init')
       store.commit('setReady', true)
     }

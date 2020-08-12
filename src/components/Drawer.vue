@@ -46,16 +46,8 @@ export default {
           link: '/'
         },
         {
-          title: 'Country Rankings',
-          link: '/rankings'
-        },
-        {
-          title: 'About the Project',
-          link: '/project'
-        },
-        {
-          title: 'Press & Contacts',
-          link: '/contacts'
+          title: 'Countries',
+          link: '/countries'
         }
       ]
     }

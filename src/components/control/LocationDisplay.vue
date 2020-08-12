@@ -16,7 +16,7 @@ const fnFlagUrl = id => `https://flagcdn.com/32x24/${id.toLowerCase()}.png`
 export default {
   computed: {
     ...mapGetters({
-      location: 'getLocation'
+      location: 'location/getLocation'
     }),
     flagUrl () {
       return this.location && this.location.flagId && this.location.flagId !== '-99'

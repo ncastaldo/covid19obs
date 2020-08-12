@@ -14,8 +14,6 @@ import { mapGetters, mapActions } from 'vuex'
 
 import { timeFormat } from 'd3-time-format'
 
-import { select } from 'd3-selection'
-
 import {
   bxChart,
   bxAxisX,
@@ -41,8 +39,8 @@ export default {
   },
   computed: {
     ...mapGetters({
-      periods: 'getPeriods',
-      periodRange: 'getPeriodRange'
+      periods: 'periodRange/getPeriods',
+      periodRange: 'periodRange/getPeriodRange'
     }),
     brushDomain () {
       return this.periodRange.map(p => p.periodId)
@@ -63,7 +61,7 @@ export default {
   },
   methods: {
     ...mapActions({
-      setPeriodIdRange: 'setPeriodIdRange'
+      setPeriodIdRange: 'periodRange/setPeriodIdRange'
     }),
     createComponents () {
       this.xAxis = bxAxisX()
