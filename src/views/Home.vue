@@ -7,7 +7,7 @@
         <PeriodRangeDisplay />
         <PeriodRangeSelector />
         <LocationDisplay />
-        <LocationSelector />
+        <LocationMap />
       </v-col>
       <v-col
         cols="6"
@@ -24,7 +24,7 @@ import PeriodRangeDisplay from '../components/control/PeriodRangeDisplay'
 import PeriodRangeSelector from '../components/control/PeriodRangeSelector'
 
 import LocationDisplay from '../components/control/LocationDisplay'
-import LocationSelector from '../components/control/LocationSelector'
+import LocationMap from '../components/control/LocationMap'
 
 import Timeseries from '../components/Timeseries'
 
@@ -33,7 +33,7 @@ export default {
     PeriodRangeDisplay,
     PeriodRangeSelector,
     LocationDisplay,
-    LocationSelector,
+    LocationMap,
 
     Timeseries
   }

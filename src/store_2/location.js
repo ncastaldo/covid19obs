@@ -2,17 +2,22 @@ import WORLD from '../assets/map/world.json'
 
 const state = {
   locations: null,
-  locationId: null
+  locationId: null,
+  locationIdList: null
 }
 
 const mutations = {
   setLocations: (state, locations) => { state.locations = locations },
-  setLocationId: (state, locationId) => { state.locationId = locationId }
+
+  setLocationId: (state, locationId) => { state.locationId = locationId },
+  setLocationIdList: (state, locationIdList) => { state.locationIdList = locationIdList }
 }
 
 const getters = {
   getLocations: ({ locations }) => Object.values(locations),
+
   getLocation: ({ locations, locationId }) => locations[locationId],
+  getLocationList: ({ locations, locationIdList }) => locationIdList.map(id => locations[id]),
 
   getContinents: (_, getters) => getters.getLocations
     .map(({ continentId, continentName }) => ({ continentId, continentName }))
@@ -27,7 +32,7 @@ const fnContinentId = c => c
   : ''
 
 const actions = {
-  init: ({ commit }, { locationId }) => {
+  init: ({ commit }, { locationId, locationIdList }) => {
     const locationList = WORLD.features
       .map(f => ({
         locationId: f.properties.ADM0_A3, // adm0_a3,
@@ -50,15 +55,19 @@ const actions = {
         [l.locationId]: l
       }), {})
 
-    console.log(locations)
-
     commit('setLocations', locations)
     commit('setLocationId', locationId)
+    commit('setLocationIdList', locationIdList)
   },
 
   setLocationId: ({ commit, dispatch }, locationId) => {
     commit('setLocationId', locationId)
     dispatch('timeseries/loadTimeseries', {}, { root: true })
+  },
+
+  // may not be used
+  setLocationIdList: ({ commit, dispatch }, locationIdList) => {
+    commit('setLocationIdList', locationIdList)
   }
 }
 

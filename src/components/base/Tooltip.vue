@@ -4,9 +4,7 @@
     :style="{ top, left, bottom, right }"
     class="tooltip"
   >
-    <slot v-if="show">
-      Tooltip content
-    </slot>
+    <slot v-if="show" />
   </div>
 </template>
 

@@ -23,9 +23,9 @@
 import CompareHover from './CompareHover'
 
 import {
-  bxChart,
-  bxAxisX, bxAxisY,
-  bxMouseBars
+  byChart,
+  byAxisX, byAxisY,
+  byMouseBars
 } from 'd3nic'
 
 export default {
@@ -42,8 +42,10 @@ export default {
     return {
       chart: null,
 
-      xAxis: null,
+      padding: { left: 200 },
+
       yAxis: null,
+      xAxis: null,
 
       mouseBars: null,
 
@@ -91,20 +93,20 @@ export default {
   },
   methods: {
     createAxes () {
-      this.xAxis = bxAxisX()
+      this.yAxis = byAxisY()
         .ticks(100)
         .tickSizeInner(0)
         .tickSizeOuter(0)
         .tickFormat(t => t)
         .fnBefore(s => s.classed('axis', true))
-      this.yAxis = bxAxisY()
+      this.xAxis = byAxisX()
         .tickSizeInner(4)
         .tickSizeOuter(0)
         .ticks(2)
         .fnBefore(s => s.classed('axis', true))
     },
     createMouseBars () {
-      this.mouseBars = bxMouseBars()
+      this.mouseBars = byMouseBars()
         .fnBefore(s => s.classed('mouse-bars', true))
 
       if (!this.$isMobile()) {
@@ -117,14 +119,15 @@ export default {
       this.components = this.config.fnComponents()
     },
     createChart () {
-      this.chart = bxChart()
+      this.chart = byChart()
         .selector(`#${this.id}`)
+        .padding(this.padding)
         .fnKey(d => d.locationId)
-        .fnBandValue(d => d.locationId)
+        .fnBandValue(d => d.locationName)
     },
     update () {
       // this.yAxis.tickFormat(format(this.chartConfig.yFormat))
-      this.chart.components([this.xAxis, this.yAxis]
+      this.chart.components([this.yAxis, this.xAxis]
         .concat(this.components)
         .concat([this.mouseBars]))
         .contScaleType('scaleSymlog')

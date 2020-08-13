@@ -14,11 +14,13 @@ const getters = {
   getFullCompare: ({ fullCompare }) => fullCompare,
   getCompare: ({ fullCompare }, _, __, rootGetters) => {
     const periodId = rootGetters['period/getPeriod'].periodId
-    console.log(periodId)
-    return fullCompare.map(cmp => ({
-      ...cmp,
-      value: cmp[periodId]
-    }))
+    const locationList = rootGetters['location/getLocationList']
+    return fullCompare
+      .filter(cmp => locationList.map(l => l.locationId).includes(cmp.locationId))
+      .map(cmp => ({
+        ...cmp,
+        value: +cmp[periodId] // + because parser gives string
+      }))
   }
 }
 

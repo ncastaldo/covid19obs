@@ -18,7 +18,7 @@ import { utcMonth } from 'd3-time'
 Vue.use(Vuex)
 
 const MONTHS = utcMonth.range(
-  Date.UTC(2020, 0, 1), // first day of year -> Jan
+  new Date(2020, 0, 1), // first day of year -> Jan
   new Date()
 )
 
@@ -26,6 +26,8 @@ console.log(MONTHS)
 
 const INITIAL_STATE = {
   locationId: '_WORLD', // will be added
+
+  locationIdList: ['USA', 'CHN', 'ITA', 'ESP', 'DEU', 'FRA', 'IDN'],
 
   periodList: MONTHS,
   periodIdRange: [
