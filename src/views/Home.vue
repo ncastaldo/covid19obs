@@ -4,7 +4,10 @@
       <v-col
         cols="6"
       >
-        <Control />
+        <PeriodRangeDisplay />
+        <PeriodRangeSelector />
+        <LocationDisplay />
+        <LocationSelector />
       </v-col>
       <v-col
         cols="6"
@@ -17,15 +20,31 @@
 </template>
 
 <script>
-import Control from '../components/Control'
+import PeriodRangeDisplay from '../components/control/PeriodRangeDisplay'
+import PeriodRangeSelector from '../components/control/PeriodRangeSelector'
+
+import LocationDisplay from '../components/control/LocationDisplay'
+import LocationSelector from '../components/control/LocationSelector'
 
 import Timeseries from '../components/Timeseries'
 
 export default {
   components: {
-    Control,
+    PeriodRangeDisplay,
+    PeriodRangeSelector,
+    LocationDisplay,
+    LocationSelector,
 
     Timeseries
   }
 }
 </script>
+
+<style>
+
+.display__icon {
+  width: 45px;
+  text-align: center;
+}
+
+</style>

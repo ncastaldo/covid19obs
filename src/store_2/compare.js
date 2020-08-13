@@ -13,30 +13,39 @@ const mutations = {
 const getters = {
   getFullCompare: ({ fullCompare }) => fullCompare,
   getCompare: ({ fullCompare }, _, __, rootGetters) => {
-    const [from, to] = rootGetters['periodRange/getPeriodRange']
-      .map((p, i) => i === 0 ? p.from : p.to)
-    return fullCompare
-      .filter(d => {
-        const dt = +new Date(d.datetime)
-        return dt >= from && dt < to // stricly less
-      })
+    const periodId = rootGetters['period/getPeriod'].periodId
+    console.log(periodId)
+    return fullCompare.map(cmp => ({
+      ...cmp,
+      value: cmp[periodId]
+    }))
   }
 }
+
+// TODO dedicate new url and files
+// in order to select month
 
 const actions = {
   init: ({ dispatch }) => { dispatch('loadCompare') },
 
-  loadCompare: ({ getters, rootGetters, commit }) => {
-    console.log(rootGetters)
-    const locationId = rootGetters['location/getLocation'].locationId
+  loadCompare: ({ rootGetters, dispatch }) => {
+    const compareVarId = rootGetters['compareVar/getCompareVar'].compareVarId
 
-    const compareUrl = `/assets/infodemics/${locationId}.csv`
+    const compareUrl = `/assets/compare/${compareVarId}.csv`
 
     // fetching the compare
     fetch(compareUrl)
       .then(res => res.text())
       .then(data => Promise.resolve(fnCompareParser.parse(data)))
-      .then(ts => { commit('setFullCompare', ts) })
+      .then(fullCmp => { dispatch('setFullCompare', fullCmp) })
+  },
+
+  setFullCompare: ({ commit, rootGetters }, fullCmp) => {
+    const fullCompare = fullCmp.map(({ iso, ...rest }) => ({
+      ...rootGetters['location/getLocationInfo'](iso),
+      ...rest
+    }))
+    commit('setFullCompare', fullCompare)
   }
 }
 

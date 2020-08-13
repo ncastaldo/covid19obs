@@ -1,7 +1,4 @@
-
-/**
- * LOCATIONS INIT
- */
+import WORLD from '../assets/map/world.json'
 
 const state = {
   locations: null,
@@ -15,15 +12,28 @@ const mutations = {
 
 const getters = {
   getLocations: ({ locations }) => Object.values(locations),
-  getLocation: ({ locations, locationId }) => locations[locationId]
+  getLocation: ({ locations, locationId }) => locations[locationId],
+
+  getContinents: (_, getters) => getters.getLocations
+    .map(({ continentId, continentName }) => ({ continentId, continentName }))
+    .filter(({ continentId }) => continentId)// not the world
+    .filter((l, i, array) => array.findIndex(t => t.continentId === l.continentId) === i),
+
+  getLocationInfo: ({ locations }) => locationId => locations[locationId]
 }
 
+const fnContinentId = c => c
+  ? c.replace(/[^\w\s]|_/g, '').replace(/\s+/g, '_').toLowerCase()
+  : ''
+
 const actions = {
-  init: ({ commit }, { features, locationId }) => {
-    const locationList = features
+  init: ({ commit }, { locationId }) => {
+    const locationList = WORLD.features
       .map(f => ({
         locationId: f.properties.ADM0_A3, // adm0_a3,
         locationName: f.properties.ADMIN, // admin,
+        continentId: fnContinentId(f.properties.CONTINENT),
+        continentName: f.properties.CONTINENT,
         flagId: f.properties.WB_A2,
         geometry: f.geometry
       }))

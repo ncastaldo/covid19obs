@@ -3,30 +3,37 @@ import Vuex from 'vuex'
 
 import location from './location'
 import periodRange from './periodRange'
-import timeseries from './timeseries'
 
-import view from './view'
+import timeseries from './timeseries'
 import mapLayer from './mapLayer'
 
-import WORLD from '../assets/map/world.json'
+import compare from './compare'
+import compareVar from './compareVar'
+import period from './period'
 
-import { timeMonth } from 'd3-time'
+import view from './view'
+
+import { utcMonth } from 'd3-time'
 
 Vue.use(Vuex)
 
-const MONTHS = timeMonth.range(
-  new Date(2020, 0, 1), // first day of year -> Jan
-  new Date() // now
+const MONTHS = utcMonth.range(
+  Date.UTC(2020, 0, 1), // first day of year -> Jan
+  new Date()
 )
 
+console.log(MONTHS)
+
 const INITIAL_STATE = {
-  features: WORLD.features,
   locationId: '_WORLD', // will be added
+
   periodList: MONTHS,
   periodIdRange: [
     +MONTHS[MONTHS.length - 2],
     +MONTHS[MONTHS.length - 1]
-  ]
+  ],
+
+  periodId: MONTHS[MONTHS.length - 1]
 }
 
 const state = {
@@ -49,15 +56,23 @@ export default new Vuex.Store({
   modules: {
     location,
     periodRange,
+
     timeseries,
-    view,
-    mapLayer
+    mapLayer,
+
+    compare,
+    compareVar,
+    period,
+
+    view
   },
   plugins: [
     store => {
       store.dispatch('location/init', INITIAL_STATE)
       store.dispatch('periodRange/init', INITIAL_STATE)
       store.dispatch('timeseries/init')
+      store.dispatch('compare/init')
+      store.dispatch('period/init', INITIAL_STATE)
       store.commit('setReady', true)
     }
   ]

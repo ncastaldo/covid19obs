@@ -1,16 +1,18 @@
-import { scaleSequentialLog } from 'd3-scale'
-import { interpolateReds, interpolatePurples } from 'd3-scale-chromatic'
-
 const compareVarList = [
+  {
+    compareVarId: 'info_tweets',
+    compareVarName: 'Collected tweets',
+    compareVarColor: '#2877b8'
+  },
   {
     compareVarId: 'epi_confirmed',
     compareVarName: 'Confirmed cases',
-    compareVarColorScale: scaleSequentialLog().interpolator(interpolateReds)
+    compareVarColor: '#e34a33'
   },
   {
     compareVarId: 'epi_dead',
     compareVarName: 'Deaths',
-    compareVarColorScale: scaleSequentialLog().interpolator(interpolatePurples)
+    compareVarColor: '#8856a7'
   }]
 
 const compareVars = compareVarList
@@ -20,7 +22,7 @@ const compareVars = compareVarList
   }), {})
 
 const state = {
-  compareVarId: 'epi_confirmed',
+  compareVarId: 'info_tweets',
   compareVars
 }
 
@@ -33,9 +35,18 @@ const getters = {
   getCompareVar: ({ compareVars, compareVarId }) => compareVars[compareVarId]
 }
 
+const actions = {
+  setCompareVarId: ({ commit, dispatch }, compareVarId) => {
+    commit('setCompareVarId', compareVarId)
+    dispatch('compare/loadCompare', {}, { root: true })
+  }
+
+}
+
 export default {
   namespaced: true,
   state,
   mutations,
-  getters
+  getters,
+  actions
 }

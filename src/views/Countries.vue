@@ -5,6 +5,13 @@
         cols="12"
         class="pb-3"
       >
+        <CompareVarSelector />
+        <PeriodSelector />
+      </v-col>
+      <v-col
+        cols="12"
+        class="pb-3"
+      >
         <Compare />
       </v-col>
     </v-row>
@@ -12,10 +19,15 @@
 </template>
 
 <script>
+import CompareVarSelector from '../components/control/CompareVarSelector'
+import PeriodSelector from '../components/control/PeriodSelector'
+
 import Compare from '../components/Compare'
 
 export default {
   components: {
+    CompareVarSelector,
+    PeriodSelector,
     Compare
   }
 }

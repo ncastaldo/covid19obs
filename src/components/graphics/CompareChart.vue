@@ -10,11 +10,18 @@
         :id="id"
       />
     </ChartsContainer>
-    <Tooltip />
+    <Tooltip>
+      <CompareHover
+        :hover="hover"
+        :fnTooltips="config.fnTooltips || null"
+      />
+    </Tooltip>
   </div>
 </template>
 
 <script>
+import CompareHover from './CompareHover'
+
 import {
   bxChart,
   bxAxisX, bxAxisY,
@@ -22,6 +29,9 @@ import {
 } from 'd3nic'
 
 export default {
+  components: {
+    CompareHover
+  },
   props: {
     id: String,
     height: Number,
@@ -109,14 +119,15 @@ export default {
     createChart () {
       this.chart = bxChart()
         .selector(`#${this.id}`)
-        .fnKey(d => d.iso)
-        .fnBandValue(d => d.iso)
+        .fnKey(d => d.locationId)
+        .fnBandValue(d => d.locationId)
     },
     update () {
       // this.yAxis.tickFormat(format(this.chartConfig.yFormat))
       this.chart.components([this.xAxis, this.yAxis]
         .concat(this.components)
         .concat([this.mouseBars]))
+        .contScaleType('scaleSymlog')
       // .contScaleType(this.chartConfig.scaleType)
     },
     drawChart () {
@@ -127,13 +138,13 @@ export default {
     onMouseover (d, i, nodes) {
       this.hover = d
       this.components
-        .map(c => c.join().filter(f => f.datetime === d.datetime)
+        .map(c => c.join().filter(f => f.locationId === d.locationId)
           .dispatch('mouseover', { detail: { d, i, nodes } }))
     },
     onMouseout (d, i, nodes) {
       this.hover = null
       this.components
-        .map(c => c.join().filter(f => f.datetime === d.datetime)
+        .map(c => c.join().filter(f => f.locationId === d.locationId)
           .dispatch('mouseout', { detail: { d, i, nodes } }))
     },
     clear () {
