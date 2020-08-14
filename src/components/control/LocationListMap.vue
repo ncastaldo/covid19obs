@@ -3,36 +3,42 @@
     id="location-set-selector-map"
     :styleMapping="styleMapping"
     :onClick="onClick"
-  />
+  >
+    <LocationListSelector />
+  </Map>
 </template>
 
 <script>
-
 import Map from '../graphics/Map'
+import LocationListSelector from './LocationListSelector'
+
 import { mapGetters, mapActions, mapMutations } from 'vuex'
 
 const BASE_STYLE = {
   fillColor: '#999'
 }
 
-const SELECTED_STYLE = {
-  fillColor: '#2877b8'
-}
-
 export default {
   components: {
-    Map
+    Map,
+    LocationListSelector
   },
   computed: {
     ...mapGetters({
       locations: 'location/getLocations',
-      locationList: 'location/getLocationList'
+      locationList: 'location/getLocationList',
+      compareVar: 'compareVar/getCompareVar'
     }),
+    selectedStyle () {
+      return {
+        fillColor: this.compareVar.color
+      }
+    },
     styleMapping () {
       return this.locations.reduce((acc, { locationId }) => ({
         ...acc,
         [locationId]: this.locationList.map(l => l.locationId).includes(locationId)
-          ? SELECTED_STYLE : BASE_STYLE
+          ? this.selectedStyle : BASE_STYLE
       }), {})
     }
   },

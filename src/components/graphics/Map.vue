@@ -18,6 +18,12 @@
         :options="geoJsonOptions"
         :optionsStyle="geoJsonStyle"
       />
+      <l-control
+        position="topright"
+        class="pa-2"
+      >
+        <slot />
+      </l-control>
     </l-map>
     <Tooltip>
       <div
@@ -33,7 +39,7 @@
 
 <script>
 import { latLng, latLngBounds, DomEvent } from 'leaflet'
-import { LMap, LGeoJson } from 'vue2-leaflet'
+import { LMap, LGeoJson, LControl } from 'vue2-leaflet'
 import { mapGetters } from 'vuex'
 
 const BASE_STROKE = { color: '#ddd', weight: 0.5 }
@@ -42,7 +48,8 @@ const INVALID_FILL_COLOR = '#999'
 export default {
   components: {
     LMap,
-    LGeoJson
+    LGeoJson,
+    LControl
   },
   props: {
     id: String,
@@ -132,7 +139,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 
 @import "../../../node_modules/leaflet/dist/leaflet.css";
 

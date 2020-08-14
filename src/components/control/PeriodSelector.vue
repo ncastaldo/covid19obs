@@ -1,30 +1,43 @@
 <template>
-  <v-select
-    v-model="period"
-    class="pt-0 mt-0"
-    :items="periods"
-    item-value="periodId"
-    item-text="periodName"
-    hide-details
-    style="width: 180px"
-    color="#000"
+  <PeriodBrushChart
+    id="period-selector"
+    :periods="periods"
+    :brushDomain="brushDomain"
+    :config="config"
+    @endDomain="(bd) => setPeriodId(bd[0])"
   />
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
+import PeriodBrushChart from '../graphics/PeriodBrushChart'
+import { mapGetters, mapMutations } from 'vuex'
+
 export default {
+  components: {
+    PeriodBrushChart
+  },
   computed: {
     ...mapGetters({
-      periods: 'period/getPeriods'
+      periods: 'period/getPeriods',
+      period: 'period/getPeriod',
+      compareVar: 'compareVar/getCompareVar'
     }),
-    period: {
-      get () { return this.$store.getters['period/getPeriod'] },
-      set (periodId) { this.$store.commit('period/setPeriodId', periodId) }
+    config () {
+      return {
+        minStep: 0,
+        maxStep: 0,
+        color: this.compareVar.color
+      }
+    },
+    brushDomain () {
+      return [this.period, this.period]
+        .map(p => p.periodId)
     }
   },
-  created () {
-    console.log(this.$store.getters['period/getPeriod'])
+  methods: {
+    ...mapMutations({
+      setPeriodId: 'period/setPeriodId'
+    })
   }
 }
 </script>

@@ -2,17 +2,45 @@ const compareVarList = [
   {
     compareVarId: 'info_tweets',
     compareVarName: 'Collected tweets',
-    compareVarColor: '#2877b8'
+    color: '#2877b8',
+    scaleType: 'scaleLog',
+    fixedDomain: [1, null],
+    minValue: 1
   },
   {
     compareVarId: 'epi_confirmed',
     compareVarName: 'Confirmed cases',
-    compareVarColor: '#e34a33'
+    color: '#e34a33',
+    scaleType: 'scaleLog',
+    minValue: 1
+  },
+  {
+    compareVarId: 'epi_confirmed_new',
+    compareVarName: 'Avg. daily cases',
+    color: '#e34a33',
+    scaleType: 'scaleLog',
+    minValue: 1
   },
   {
     compareVarId: 'epi_dead',
     compareVarName: 'Deaths',
-    compareVarColor: '#8856a7'
+    color: '#8856a7',
+    scaleType: 'scaleLog',
+    minValue: 1
+  },
+  {
+    compareVarId: 'epi_dead_new',
+    compareVarName: 'Avg. daily deaths',
+    color: '#8856a7',
+    scaleType: 'scaleLog',
+    minValue: 1
+  },
+  {
+    compareVarId: 'info_risk_index',
+    compareVarName: 'Avg. risk Index',
+    color: '#2877b8',
+    scaleType: 'scaleLinear',
+    minValue: 0
   }]
 
 const compareVars = compareVarList

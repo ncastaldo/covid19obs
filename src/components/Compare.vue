@@ -38,17 +38,18 @@ export default {
         id: 'compare',
         fnComponents: () => [
           byBars()
-            .fnDefined(d => d.value != null)
-            .fnLowValue(d => 0)
+            .fnDefined(d => d.value >= this.compareVar.minValue)
+            .fnLowValue(d => this.compareVar.minValue)
             .fnHighValue(d => d.value)
-            .fnFill(d => this.compareVar.compareVarColor)
+            .fnFill(d => this.compareVar.color)
             .fnOn('mouseover', barsMouseover)
             .fnOn('mouseout', barsMouseout)
         ],
+        scaleType: this.compareVar.scaleType,
         fnTooltips: d => [{
           name: this.compareVar.compareVarName,
           value: d.value,
-          color: this.compareVar.compareVarColor
+          color: this.compareVar.color
         }]
       }
     }

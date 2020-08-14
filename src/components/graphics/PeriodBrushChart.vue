@@ -22,6 +22,10 @@ import {
 
 const fnDateFormat = timeFormat('%b %y')
 
+// function to check if inside
+const isInside = (brushDomain, d) =>
+  d.periodId >= brushDomain[0] && d.periodId <= brushDomain[1]
+
 export default {
   props: {
     id: String,
@@ -33,6 +37,7 @@ export default {
       type: Object,
       default: () => ({ top: 0, left: 25, right: 25, bottom: 25 })
     },
+    brushDomain: Array,
     periods: Array,
     config: Object
   },
@@ -45,9 +50,10 @@ export default {
       brush: null
     }
   },
-  computed: {
-    brushDomain () {
-      return this.periodRange.map(p => p.periodId)
+  watch: {
+    config () {
+      // should update also min and max, for the moment ok this way
+      this.fillBars(this.brushDomain)
     }
   },
   mounted () {
@@ -77,18 +83,16 @@ export default {
       this.bars = bxBars()
         .fnLowValue(d => 0)
         .fnHighValue(d => 1)
-        .fnFill(d => '#ccc')
-        .fnStrokeWidth(d => this.periods.includes(d.periodId) ? 2 : 0)
-        .fnStroke(d => '#000')
+        .fnFill(d => '#aeaeae')
         // .fnBefore(s => s.classed('period-selector__bars', true))
       this.brush = bxBrush()
-        .minStep(0)
-        .maxStep(1)
-        .fnOn('brushDomain', this.fillBars)
-        .fnOn('endDomain', d => d
-          ? this.setPeriodIdRange(d)
-          : console.log('error no domain, d3nic')
-        )
+        .minStep(this.config.minStep)
+        .maxStep(this.config.maxStep)
+        .fnOn('brushDomain', bd => {
+          this.fillBars(bd)
+          this.$emit('brushDomain', bd)
+        })
+        .fnOn('endDomain', bd => this.$emit('endDomain', bd))
     },
     createChart () {
       this.chart = bxChart()
@@ -101,12 +105,10 @@ export default {
       this.chart.components([this.xAxis, this.bars, this.brush])
     },
     fillBars (brushDomain) {
-      // function to check if inside
-      const isInside = d =>
-        d.periodId >= brushDomain[0] && d.periodId <= brushDomain[1]
       // join on bars
       this.bars.join()
-        .style('fill', d => isInside(d) ? '#2877b8' : null)
+        .style('fill', d => isInside(brushDomain, d)
+          ? this.config.color : null)
     },
     drawChart () {
       // wait for ChartsContainer
@@ -123,6 +125,10 @@ export default {
 
 .period-brush-chart rect.selection {
   fill-opacity: 0;
+}
+
+.period-brush-chart rect{
+  transition: fill .0s ;
 }
 
 </style>

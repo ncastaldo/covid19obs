@@ -7,7 +7,7 @@
     item-text="compareVarName"
     hide-details
     style="width: 180px"
-    color="#000"
+    :color="compareVar.compareVarColor"
   />
 </template>
 
@@ -23,9 +23,6 @@ export default {
       // using dispatch in the setter, to load new data
       set (compareVarId) { this.$store.dispatch('compareVar/setCompareVarId', compareVarId) }
     }
-  },
-  created () {
-    console.log(this.$store.getters['compareVar/getCompareVar'])
   }
 }
 </script>

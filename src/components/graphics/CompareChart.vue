@@ -61,21 +61,7 @@ export default {
       this.drawChart()
     },
     config () {
-      // recreating the chart, save the size
-      const chartSize = this.chart.size()
-
-      this.clear()
-
-      this.createComponents()
-      this.createMouseBars() // update them too
-
       this.update()
-
-      this.chart.data(this.compare)
-
-      this.chart.size(chartSize)
-
-      this.drawChart()
     }
   },
   mounted () {
@@ -85,6 +71,7 @@ export default {
 
     this.createChart()
 
+    this.compose()
     this.update()
 
     this.chart.data(this.compare)
@@ -125,13 +112,16 @@ export default {
         .fnKey(d => d.locationId)
         .fnBandValue(d => d.locationName)
     },
-    update () {
+    compose () {
       // this.yAxis.tickFormat(format(this.chartConfig.yFormat))
       this.chart.components([this.yAxis, this.xAxis]
         .concat(this.components)
         .concat([this.mouseBars]))
-        .contScaleType('scaleSymlog')
       // .contScaleType(this.chartConfig.scaleType)
+    },
+    update () {
+      // this.yAxis.tickFormat(format(this.config.yFormat))
+      this.chart.contScaleType(this.config.scaleType)
     },
     drawChart () {
       // wait for chartscontainer
@@ -149,15 +139,6 @@ export default {
       this.components
         .map(c => c.join().filter(f => f.locationId === d.locationId)
           .dispatch('mouseout', { detail: { d, i, nodes } }))
-    },
-    clear () {
-      this.components.map(c =>
-        c.join()
-          .transition()
-          .duration(500)
-          .style('opacity', 0)
-          .remove())
-      this.mouseBars.join().remove()
     }
   }
 

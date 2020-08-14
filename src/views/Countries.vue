@@ -5,15 +5,15 @@
         cols="6"
         class="pb-3"
       >
-        <LocationListSelector />
-        <LocationListMap />
-        <CompareVarSelector />
+        <PeriodDisplay />
         <PeriodSelector />
+        <LocationListMap />
       </v-col>
       <v-col
         cols="6"
         class="pb-3"
       >
+        <CompareVarSelector />
         <Compare />
       </v-col>
     </v-row>
@@ -21,20 +21,21 @@
 </template>
 
 <script>
-import LocationListSelector from '../components/control/LocationListSelector'
+import PeriodSelector from '../components/control/PeriodSelector'
+import PeriodDisplay from '../components/control/PeriodDisplay'
+
 import LocationListMap from '../components/control/LocationListMap'
 
 import CompareVarSelector from '../components/control/CompareVarSelector'
-import PeriodSelector from '../components/control/PeriodSelector'
 
 import Compare from '../components/Compare'
 
 export default {
   components: {
-    LocationListSelector,
+    PeriodSelector,
+    PeriodDisplay,
     LocationListMap,
     CompareVarSelector,
-    PeriodSelector,
     Compare
   }
 }
