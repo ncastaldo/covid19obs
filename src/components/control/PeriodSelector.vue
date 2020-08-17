@@ -14,7 +14,7 @@ import { mapGetters, mapMutations } from 'vuex'
 
 const config = {
   minStep: 0,
-  maxStep: 1,
+  maxStep: 0,
   color: '#444'
 }
 

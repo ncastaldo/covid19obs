@@ -120,8 +120,11 @@ export default {
       // .contScaleType(this.chartConfig.scaleType)
     },
     update () {
-      // this.yAxis.tickFormat(format(this.config.yFormat))
-      this.chart.contScaleType(this.config.scaleType)
+      this.xAxis.tickFormatType(this.config.formatType)
+      this.chart
+        .contScaleType(this.config.scaleType)
+        .contBaseDomain(this.config.baseDomain)
+        .contFixedDomain(this.config.fixedDomain)
     },
     drawChart () {
       // wait for chartscontainer

@@ -40,17 +40,20 @@ export default {
     },
     config () {
       return {
-        id: 'compare',
+        id: 'compare-single',
+        scaleType: this.compareVar.scaleType,
+        baseDomain: this.compareVar.baseDomain,
+        fixedDomain: this.compareVar.fixedDomain,
+        formatType: this.compareVar.formatType,
         fnComponents: () => [
           byBars()
-            .fnDefined(d => d.value >= this.compareVar.minValue)
+            .fnDefined(d => this.compareVar.fnDefined(d.value))
             .fnLowValue(d => this.compareVar.minValue)
             .fnHighValue(d => d.value)
             .fnFill(d => d.continentColor)
             .fnOn('mouseover', barsMouseover)
             .fnOn('mouseout', barsMouseout)
         ],
-        scaleType: this.compareVar.scaleType,
         fnTooltips: d => [{
           name: this.compareVar.compareVarName,
           value: d.value,

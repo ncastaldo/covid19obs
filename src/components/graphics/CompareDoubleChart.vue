@@ -24,7 +24,8 @@ import CompareDoubleHover from './CompareDoubleHover'
 
 import {
   xyChart,
-  xyAxisX, xyAxisY
+  xyAxisX, xyAxisY,
+  xyLinesH, xyLinesV
 } from 'd3nic'
 
 export default {
@@ -43,6 +44,7 @@ export default {
 
       yAxis: null,
       xAxis: null,
+      crossLines: null,
 
       components: [],
 
@@ -61,6 +63,7 @@ export default {
   },
   mounted () {
     this.createAxes()
+    this.createCrossLines()
     this.createComponents()
 
     this.createChart()
@@ -75,16 +78,23 @@ export default {
   methods: {
     createAxes () {
       this.yAxis = xyAxisY()
-        .ticks(5)
-        .tickSizeInner(0)
+        .ticks(2)
+        .tickSizeInner(4)
         .tickSizeOuter(0)
         .tickFormat(t => t)
         .fnBefore(s => s.classed('axis', true))
       this.xAxis = xyAxisX()
         .tickSizeInner(4)
         .tickSizeOuter(0)
-        .ticks(5)
+        .ticks(2)
         .fnBefore(s => s.classed('axis', true))
+    },
+    createCrossLines () {
+      this.crossLines = [xyLinesH(), xyLinesV()]
+        .map(c => c.fnValue(d => d.value)
+          .fnStrokeWidth(d => 1)
+          .fnStrokeDasharray(d => [2, 2])
+          .fnOpacity(d => 0))
     },
     createComponents () {
       this.components = this.config.fnComponents()
@@ -92,28 +102,44 @@ export default {
     createChart () {
       this.chart = xyChart()
         .selector(`#${this.id}`)
+        .padding({ left: 50 })
         .fnKey(d => d.locationId)
     },
     compose () {
       // this.yAxis.tickFormat(format(this.chartConfig.yFormat))
       this.chart.components([this.yAxis, this.xAxis]
+        .concat(this.crossLines)
         .concat(this.components))
       // .contScaleType(this.chartConfig.scaleType)
     },
     update () {
-      // this.yAxis.tickFormat(format(this.config.yFormat))
-      // this.chart.doubleContScaleType(this.config.scaleType)
+      this.xAxis.tickFormatType(this.config.formatTypes[0])
+      this.yAxis.tickFormatType(this.config.formatTypes[1])
+      this.chart.doubleContScaleType(this.config.scaleTypes)
     },
     drawChart () {
       // wait for chartscontainer
+      console.log(this.compareDouble)
       this.$nextTick(() =>
         this.chart.draw({ duration: 750 }))
+
+      setTimeout(() => console.log(this.components[0].join()), 1000)
     },
     onMouseover (d, i, nodes) {
       this.hover = d
+      this.crossLines
+        .map(cl => cl.join()
+          .filter(f => f.locationId === d.locationId)
+          .transition('opacity').duration(50)
+          .style('opacity', 1))
     },
     onMouseout (d, i, nodes) {
       this.hover = null
+      this.crossLines
+        .map(cl => cl.join()
+          .filter(f => f.locationId === d.locationId)
+          .transition('opacity').duration(50)
+          .style('opacity', null))
     }
   }
 

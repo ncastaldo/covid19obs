@@ -16,7 +16,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import { xyCircles, xyLinesH, xyLinesV } from 'd3nic'
+import { xyCircles } from 'd3nic'
 
 import CompareVarSelector from '../control/CompareVarSelector'
 
@@ -48,18 +48,19 @@ export default {
       return {
         id: 'compare-double',
         fnComponents: () => [
-          xyLinesH().fnValue(d => d.value),
-          xyLinesV().fnValue(d => d.value),
           xyCircles()
+            .fnDefined(d => this.firstCompareVar.fnDefined(d.value[0]) &&
+              this.secondCompareVar.fnDefined(d.value[1]))
             .fnValue(d => d.value)
-            .fnRadius(d => 5)
+            .fnRadius(d => 6)
             .fnStroke(d => '#000')
             .fnStrokeWidth(d => 1)
             .fnFill(d => d.continentColor)
             .fnOn('mouseover', this.$refs.chart.onMouseover)
             .fnOn('mouseout', this.$isMobile() || this.$refs.chart.onMouseout)
         ],
-        // scaleType: this.compareVar.scaleType,
+        scaleTypes: [this.firstCompareVar.scaleType, this.secondCompareVar.scaleType],
+        formatTypes: [this.firstCompareVar.formatType, this.secondCompareVar.formatType],
         fnTooltips: d => [{
           name: this.firstCompareVar.compareVarName,
           value: d.value[0],

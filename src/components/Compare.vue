@@ -21,8 +21,8 @@ import Single from './compare/Single'
 import Double from './compare/Double'
 
 const tabs = [
-  { name: 'Single', is: 'Single' },
-  { name: 'Double', is: 'Double' }
+  { name: 'Ranking', is: 'Single' },
+  { name: 'Correlation', is: 'Double' }
   // 'Tweets', 'Risk Indexes', 'News'
 ]
 

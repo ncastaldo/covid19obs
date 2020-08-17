@@ -6,58 +6,93 @@ const compareVarList = [
     compareVarName: 'Collected tweets',
     color: '#2877b8',
     scaleType: 'scaleLog',
-    fixedDomain: [1, null],
-    minValue: 1
+    formatType: '~s',
+    baseDomain: [1, 10],
+    fixedDomain: null,
+    minValue: 1,
+    maxValue: null
   },
   {
     compareVarId: 'epi_confirmed',
     compareVarName: 'Confirmed cases',
     color: '#e34a33',
     scaleType: 'scaleLog',
-    minValue: 1
+    formatType: '~s',
+    baseDomain: [1, 10],
+    fixedDomain: null,
+    minValue: 1,
+    maxValue: null
   },
   {
     compareVarId: 'epi_confirmed_new',
     compareVarName: 'Avg. daily cases',
     color: '#e34a33',
     scaleType: 'scaleLog',
-    minValue: 1
+    formatType: '.2f',
+    baseDomain: [1, 10],
+    fixedDomain: null,
+    minValue: 1,
+    maxValue: null
   },
   {
     compareVarId: 'epi_dead',
     compareVarName: 'Deaths',
     color: '#8856a7',
     scaleType: 'scaleLog',
-    minValue: 1
+    formatType: '~s',
+    baseDomain: [1, 10],
+    fixedDomain: null,
+    minValue: 1,
+    maxValue: null
   },
   {
     compareVarId: 'epi_dead_new',
     compareVarName: 'Avg. daily deaths',
     color: '#8856a7',
     scaleType: 'scaleLog',
-    minValue: 1
+    formatType: '.2f',
+    baseDomain: [1, 10],
+    fixedDomain: null,
+    minValue: 1,
+    maxValue: null
   },
   {
     compareVarId: 'info_fact_unreliable',
     compareVarName: 'Unreliable facts',
     color: '#8856A7',
     scaleType: 'scaleLog',
-    minValue: 1
+    formatType: '~s',
+    baseDomain: [1, 10],
+    fixedDomain: null,
+    minValue: 1,
+    maxValue: null
   },
   {
     compareVarId: 'info_risk_index',
     compareVarName: 'Avg. risk Index',
     color: '#2877b8',
     scaleType: 'scaleLinear',
-    minValue: 0
+    formatType: '.2f',
+    baseDomain: [0.2, 0.7],
+    fixedDomain: null,
+    minValue: 0,
+    maxValue: 1
   }]
+
+const getFnDefined = compareVar => v =>
+  v !== null && !isNaN(v) &&
+  (compareVar.minValue === null || v >= compareVar.minValue) &&
+  (compareVar.maxValue === null || v <= compareVar.maxValue)
 
 const fnCompareParser = dsvFormat(',')
 
 const compareVars = compareVarList
-  .reduce((compareVars, ml) => ({
+  .reduce((compareVars, cv) => ({
     ...compareVars,
-    [ml.compareVarId]: ml
+    [cv.compareVarId]: {
+      ...cv,
+      fnDefined: getFnDefined(cv) // easier
+    }
   }), {})
 
 const makeState = () => ({

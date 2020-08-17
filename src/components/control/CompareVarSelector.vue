@@ -6,7 +6,7 @@
     item-text="compareVarName"
     hide-details
     style="width: 180px"
-    :color="compareVar.color"
+    color="#444"
   />
 </template>
 

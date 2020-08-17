@@ -9,7 +9,7 @@
         small
         :color="hover.continentColor"
       >
-        mdi-circle
+        mdi-square
       </v-icon>
       {{ hover.locationName }}
     </h4>
