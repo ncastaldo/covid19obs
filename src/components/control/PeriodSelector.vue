@@ -12,23 +12,25 @@
 import PeriodBrushChart from '../graphics/PeriodBrushChart'
 import { mapGetters, mapMutations } from 'vuex'
 
+const config = {
+  minStep: 0,
+  maxStep: 1,
+  color: '#444'
+}
+
 export default {
   components: {
     PeriodBrushChart
+  },
+  data () {
+    return { config }
   },
   computed: {
     ...mapGetters({
       periods: 'period/getPeriods',
       period: 'period/getPeriod',
-      compareVar: 'compareVar/getCompareVar'
+      compareVar: 'compare/first/getCompareVar'
     }),
-    config () {
-      return {
-        minStep: 0,
-        maxStep: 0,
-        color: this.compareVar.color
-      }
-    },
     brushDomain () {
       return [this.period, this.period]
         .map(p => p.periodId)

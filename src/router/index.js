@@ -7,7 +7,7 @@ import VueRouter from 'vue-router'
 // import Contacts from '../views/Contacts'
 
 import Home from '../views/Home'
-import Countries from '../views/Countries'
+import CompareView from '../views/CompareView'
 
 Vue.use(VueRouter)
 
@@ -24,9 +24,9 @@ const routes = [
     // component: Observatory
   },
   {
-    path: '/countries',
-    name: 'Countries',
-    component: Countries
+    path: '/compare',
+    name: 'Compare',
+    component: CompareView
   }
   /* {
     path: '/project',

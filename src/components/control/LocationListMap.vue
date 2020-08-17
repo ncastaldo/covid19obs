@@ -26,19 +26,13 @@ export default {
   computed: {
     ...mapGetters({
       locations: 'location/getLocations',
-      locationList: 'location/getLocationList',
-      compareVar: 'compareVar/getCompareVar'
+      locationList: 'location/getLocationList'
     }),
-    selectedStyle () {
-      return {
-        fillColor: this.compareVar.color
-      }
-    },
     styleMapping () {
-      return this.locations.reduce((acc, { locationId }) => ({
+      return this.locations.reduce((acc, { locationId, continentColor }) => ({
         ...acc,
         [locationId]: this.locationList.map(l => l.locationId).includes(locationId)
-          ? this.selectedStyle : BASE_STYLE
+          ? { fillColor: continentColor } : BASE_STYLE
       }), {})
     }
   },

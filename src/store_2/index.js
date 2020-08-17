@@ -7,8 +7,8 @@ import periodRange from './periodRange'
 import timeseries from './timeseries'
 import mapLayer from './mapLayer'
 
-import compare from './compare'
-import compareVar from './compareVar'
+import makeCompare from './compare'
+
 import period from './period'
 
 import view from './view'
@@ -22,8 +22,6 @@ const MONTHS = utcMonth.range(
   new Date()
 )
 
-console.log(MONTHS)
-
 const INITIAL_STATE = {
   locationId: '_WORLD', // will be added
 
@@ -35,7 +33,10 @@ const INITIAL_STATE = {
     +MONTHS[MONTHS.length - 1]
   ],
 
-  periodId: MONTHS[MONTHS.length - 1]
+  periodId: MONTHS[MONTHS.length - 1],
+
+  firstCompareVarId: 'info_tweets',
+  secondCompareVarId: 'info_risk_index'
 }
 
 const state = {
@@ -62,8 +63,9 @@ export default new Vuex.Store({
     timeseries,
     mapLayer,
 
-    compare,
-    compareVar,
+    'compare/first': makeCompare(),
+    'compare/second': makeCompare(),
+
     period,
 
     view
@@ -73,7 +75,8 @@ export default new Vuex.Store({
       store.dispatch('location/init', INITIAL_STATE)
       store.dispatch('periodRange/init', INITIAL_STATE)
       store.dispatch('timeseries/init')
-      store.dispatch('compare/init')
+      store.dispatch('compare/first/init', INITIAL_STATE.firstCompareVarId)
+      store.dispatch('compare/second/init', INITIAL_STATE.secondCompareVarId)
       store.dispatch('period/init', INITIAL_STATE)
       store.commit('setReady', true)
     }

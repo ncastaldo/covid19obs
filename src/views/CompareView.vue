@@ -13,7 +13,6 @@
         cols="6"
         class="pb-3"
       >
-        <CompareVarSelector />
         <Compare />
       </v-col>
     </v-row>
@@ -26,8 +25,6 @@ import PeriodDisplay from '../components/control/PeriodDisplay'
 
 import LocationListMap from '../components/control/LocationListMap'
 
-import CompareVarSelector from '../components/control/CompareVarSelector'
-
 import Compare from '../components/Compare'
 
 export default {
@@ -35,7 +32,6 @@ export default {
     PeriodSelector,
     PeriodDisplay,
     LocationListMap,
-    CompareVarSelector,
     Compare
   }
 }

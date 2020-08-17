@@ -42,12 +42,12 @@ export default {
     return {
       items: [
         {
-          title: 'Observatory',
+          title: 'Home',
           link: '/'
         },
         {
-          title: 'Countries',
-          link: '/countries'
+          title: 'Compare',
+          link: '/compare'
         }
       ]
     }

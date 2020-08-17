@@ -1,7 +1,51 @@
 import WORLD from '../assets/map/world.json'
 
+import { schemeCategory10 } from 'd3-scale-chromatic'
+
+const fnContinentId = c => c
+  ? c.replace(/[^\w\s]|_/g, '').replace(/\s+/g, '_').toLowerCase()
+  : ''
+
+const locationList = WORLD.features
+  .map(f => ({
+    locationId: f.properties.ADM0_A3, // adm0_a3,
+    locationName: f.properties.ADMIN, // admin,
+    continentId: fnContinentId(f.properties.CONTINENT),
+    continentName: f.properties.CONTINENT,
+    flagId: f.properties.WB_A2,
+    geometry: f.geometry
+  }))
+
+const continentList = locationList.map(({ continentId, continentName }) => ({ continentId, continentName }))
+  .filter(({ continentId }) => continentId)// not the world
+  .filter((l, i, array) => array.findIndex(t => t.continentId === l.continentId) === i)
+  .map((c, i) => ({ ...c, color: schemeCategory10[i] }))
+
+locationList.push({
+  locationId: '_WORLD',
+  locationName: 'World',
+  geometry: null
+})
+
+const continents = continentList
+  .reduce((continents, c) => ({
+    ...continents,
+    [c.continentId]: c
+  }), {})
+
+const locations = locationList
+  .reduce((locations, l) => ({
+    ...locations,
+    [l.locationId]: {
+      ...l,
+      continentColor: l.continentId in continents
+        ? continents[l.continentId].color : '#444'
+    }
+  }), {})
+
 const state = {
-  locations: null,
+  locations,
+  continents,
   locationId: null,
   locationIdList: null
 }
@@ -15,47 +59,16 @@ const mutations = {
 
 const getters = {
   getLocations: ({ locations }) => Object.values(locations),
+  getContinents: ({ continents }) => Object.values(continents),
 
   getLocation: ({ locations, locationId }) => locations[locationId],
   getLocationList: ({ locations, locationIdList }) => locationIdList.map(id => locations[id]),
 
-  getContinents: (_, getters) => getters.getLocations
-    .map(({ continentId, continentName }) => ({ continentId, continentName }))
-    .filter(({ continentId }) => continentId)// not the world
-    .filter((l, i, array) => array.findIndex(t => t.continentId === l.continentId) === i),
-
   getLocationInfo: ({ locations }) => locationId => locations[locationId]
 }
 
-const fnContinentId = c => c
-  ? c.replace(/[^\w\s]|_/g, '').replace(/\s+/g, '_').toLowerCase()
-  : ''
-
 const actions = {
   init: ({ commit }, { locationId, locationIdList }) => {
-    const locationList = WORLD.features
-      .map(f => ({
-        locationId: f.properties.ADM0_A3, // adm0_a3,
-        locationName: f.properties.ADMIN, // admin,
-        continentId: fnContinentId(f.properties.CONTINENT),
-        continentName: f.properties.CONTINENT,
-        flagId: f.properties.WB_A2,
-        geometry: f.geometry
-      }))
-
-    locationList.push({
-      locationId: '_WORLD',
-      locationName: 'World',
-      geometry: null
-    })
-
-    const locations = locationList
-      .reduce((locations, l) => ({
-        ...locations,
-        [l.locationId]: l
-      }), {})
-
-    commit('setLocations', locations)
     commit('setLocationId', locationId)
     commit('setLocationIdList', locationIdList)
   },

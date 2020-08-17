@@ -1,27 +1,38 @@
 <template>
   <v-select
     v-model="compareVar"
-    class="pt-0 mt-0"
     :items="compareVars"
     item-value="compareVarId"
     item-text="compareVarName"
     hide-details
     style="width: 180px"
-    :color="compareVar.compareVarColor"
+    :color="compareVar.color"
   />
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
+// import { mapGetters } from 'vuex'
 export default {
+  props: {
+    module: {
+      type: String,
+      default: 'first'
+    }
+  },
   computed: {
-    ...mapGetters({
-      compareVars: 'compareVar/getCompareVars'
-    }),
+    compareVars () {
+      return this.$store.getters[`compare/${this.module}/getCompareVars`]
+    },
+    getterKey () {
+      return `compare/${this.module}/getCompareVar`
+    },
+    setterKey () {
+      return `compare/${this.module}/setCompareVarId`
+    },
     compareVar: {
-      get () { return this.$store.getters['compareVar/getCompareVar'] },
+      get () { return this.$store.getters[this.getterKey] },
       // using dispatch in the setter, to load new data
-      set (compareVarId) { this.$store.dispatch('compareVar/setCompareVarId', compareVarId) }
+      set (compareVarId) { this.$store.dispatch(this.setterKey, compareVarId) }
     }
   }
 }

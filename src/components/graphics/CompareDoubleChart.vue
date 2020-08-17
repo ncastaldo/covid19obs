@@ -11,7 +11,7 @@
       />
     </ChartsContainer>
     <Tooltip>
-      <CompareHover
+      <CompareDoubleHover
         :hover="hover"
         :fnTooltips="config.fnTooltips || null"
       />
@@ -20,34 +20,29 @@
 </template>
 
 <script>
-import CompareHover from './CompareHover'
+import CompareDoubleHover from './CompareDoubleHover'
 
 import {
-  byChart,
-  byAxisX, byAxisY,
-  byMouseBars
+  xyChart,
+  xyAxisX, xyAxisY
 } from 'd3nic'
 
 export default {
   components: {
-    CompareHover
+    CompareDoubleHover
   },
   props: {
     id: String,
     height: Number,
-    compare: Array,
+    compareDouble: Array,
     config: Object
   },
   data () {
     return {
       chart: null,
 
-      padding: { left: 200 },
-
       yAxis: null,
       xAxis: null,
-
-      mouseBars: null,
 
       components: [],
 
@@ -55,7 +50,7 @@ export default {
     }
   },
   watch: {
-    compare (value) {
+    compareDouble (value) {
       this.chart.data(value)
 
       this.drawChart()
@@ -66,7 +61,6 @@ export default {
   },
   mounted () {
     this.createAxes()
-    this.createMouseBars()
     this.createComponents()
 
     this.createChart()
@@ -74,54 +68,41 @@ export default {
     this.compose()
     this.update()
 
-    this.chart.data(this.compare)
+    this.chart.data(this.compareDouble)
 
     this.drawChart()
   },
   methods: {
     createAxes () {
-      this.yAxis = byAxisY()
-        .ticks(100)
+      this.yAxis = xyAxisY()
+        .ticks(5)
         .tickSizeInner(0)
         .tickSizeOuter(0)
         .tickFormat(t => t)
         .fnBefore(s => s.classed('axis', true))
-      this.xAxis = byAxisX()
+      this.xAxis = xyAxisX()
         .tickSizeInner(4)
         .tickSizeOuter(0)
-        .ticks(2)
+        .ticks(5)
         .fnBefore(s => s.classed('axis', true))
-    },
-    createMouseBars () {
-      this.mouseBars = byMouseBars()
-        .fnBefore(s => s.classed('mouse-bars', true))
-
-      if (!this.$isMobile()) {
-        this.mouseBars
-          .fnOn('mouseover', this.onMouseover)
-          .fnOn('mouseout', this.$isMobile() || this.onMouseout)
-      }
     },
     createComponents () {
       this.components = this.config.fnComponents()
     },
     createChart () {
-      this.chart = byChart()
+      this.chart = xyChart()
         .selector(`#${this.id}`)
-        .padding(this.padding)
         .fnKey(d => d.locationId)
-        .fnBandValue(d => d.locationName)
     },
     compose () {
       // this.yAxis.tickFormat(format(this.chartConfig.yFormat))
       this.chart.components([this.yAxis, this.xAxis]
-        .concat(this.components)
-        .concat([this.mouseBars]))
+        .concat(this.components))
       // .contScaleType(this.chartConfig.scaleType)
     },
     update () {
       // this.yAxis.tickFormat(format(this.config.yFormat))
-      this.chart.contScaleType(this.config.scaleType)
+      // this.chart.doubleContScaleType(this.config.scaleType)
     },
     drawChart () {
       // wait for chartscontainer
@@ -130,15 +111,9 @@ export default {
     },
     onMouseover (d, i, nodes) {
       this.hover = d
-      this.components
-        .map(c => c.join().filter(f => f.locationId === d.locationId)
-          .dispatch('mouseover', { detail: { d, i, nodes } }))
     },
     onMouseout (d, i, nodes) {
       this.hover = null
-      this.components
-        .map(c => c.join().filter(f => f.locationId === d.locationId)
-          .dispatch('mouseout', { detail: { d, i, nodes } }))
     }
   }
 
