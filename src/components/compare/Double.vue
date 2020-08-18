@@ -16,7 +16,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import { xyCircles } from 'd3nic'
+import { xyCircles, xyTexts } from 'd3nic'
 
 import CompareVarSelector from '../control/CompareVarSelector'
 
@@ -45,20 +45,29 @@ export default {
         : []
     },
     config () {
+      const fnDefined = d =>
+        this.firstCompareVar.fnDefined(d.value[0]) &&
+        this.secondCompareVar.fnDefined(d.value[1])
       return {
         id: 'compare-double',
         fnComponents: () => [
           xyCircles()
-            .fnDefined(d => this.firstCompareVar.fnDefined(d.value[0]) &&
-              this.secondCompareVar.fnDefined(d.value[1]))
+            .fnDefined(fnDefined)
             .fnValue(d => d.value)
             .fnRadius(d => 6)
             .fnStroke(d => '#000')
             .fnStrokeWidth(d => 1)
             .fnFill(d => d.continentColor)
             .fnOn('mouseover', this.$refs.chart.onMouseover)
-            .fnOn('mouseout', this.$isMobile() || this.$refs.chart.onMouseout)
+            .fnOn('mouseout', this.$isMobile() || this.$refs.chart.onMouseout),
+          xyTexts()
+            .fnDefined(fnDefined)
+            .fnValue(d => d.value)
+            .fnFill(d => d.continentColor)
+            .fnText(d => d.locationId)
+            .fnBefore(s => s.attr('dx', 10).attr('dy', -10).style('pointer-events', 'none'))
         ],
+        fnDefined,
         scaleTypes: [this.firstCompareVar.scaleType, this.secondCompareVar.scaleType],
         formatTypes: [this.firstCompareVar.formatType, this.secondCompareVar.formatType],
         fnTooltips: d => [{

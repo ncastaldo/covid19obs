@@ -55,6 +55,8 @@ export default {
     compareDouble (value) {
       this.chart.data(value)
 
+      this.update()
+
       this.drawChart()
     },
     config () {
@@ -94,7 +96,7 @@ export default {
         .map(c => c.fnValue(d => d.value)
           .fnStrokeWidth(d => 1)
           .fnStrokeDasharray(d => [2, 2])
-          .fnOpacity(d => 0))
+          .fnOpacity(d => 0.3))
     },
     createComponents () {
       this.components = this.config.fnComponents()
@@ -102,28 +104,24 @@ export default {
     createChart () {
       this.chart = xyChart()
         .selector(`#${this.id}`)
-        .padding({ left: 50 })
+        .padding({ left: 50, right: 50, top: 50 })
         .fnKey(d => d.locationId)
     },
     compose () {
-      // this.yAxis.tickFormat(format(this.chartConfig.yFormat))
       this.chart.components([this.yAxis, this.xAxis]
         .concat(this.crossLines)
         .concat(this.components))
-      // .contScaleType(this.chartConfig.scaleType)
     },
     update () {
+      this.crossLines.map(c => c.fnDefined(this.config.fnDefined))
       this.xAxis.tickFormatType(this.config.formatTypes[0])
       this.yAxis.tickFormatType(this.config.formatTypes[1])
       this.chart.doubleContScaleType(this.config.scaleTypes)
     },
     drawChart () {
       // wait for chartscontainer
-      console.log(this.compareDouble)
       this.$nextTick(() =>
         this.chart.draw({ duration: 750 }))
-
-      setTimeout(() => console.log(this.components[0].join()), 1000)
     },
     onMouseover (d, i, nodes) {
       this.hover = d

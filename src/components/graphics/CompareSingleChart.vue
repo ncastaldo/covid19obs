@@ -111,6 +111,8 @@ export default {
         .padding(this.padding)
         .fnKey(d => d.locationId)
         .fnBandValue(d => d.locationName)
+        .bandPaddingInner(0.1)
+        .bandPaddingOuter(0.1)
     },
     compose () {
       // this.yAxis.tickFormat(format(this.chartConfig.yFormat))
