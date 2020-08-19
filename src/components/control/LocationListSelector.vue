@@ -29,9 +29,11 @@ const presets = [
     presetLocationIdList: ['BEL', 'NLD', 'LUX']
   },
   {
-    presetId: 'europe',
-    presetName: 'Europe',
-    presetLocationIdList: ['ITA', 'ESP', 'FRA', 'PRT', 'GBR', 'DEU']
+    presetId: 'custom',
+    presetName: 'Custom',
+    presetLocationIdList: [
+      'AUT', 'BEL', 'USA', 'IND', 'JPN', 'ESP', 'DEU', 'FRA', 'ITA', 'GBR'
+    ]
   }
 ]
 

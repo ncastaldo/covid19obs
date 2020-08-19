@@ -129,9 +129,7 @@ export default {
         .fnBandValue(d => d.datetime)
     },
     compose () {
-      this.chart.components([this.xAxis, this.yAxis]
-        .concat(this.components)
-        .concat([this.mouseBars]))
+      // nothing
     },
     update () {
       // this.yAxis.tickFormat(format(this.chartConfig.yFormat))
@@ -140,6 +138,9 @@ export default {
         .contScaleType(this.config.scaleType)
         .contBaseDomain(this.config.baseDomain)
         .contFixedDomain(this.config.fixedDomain)
+      this.chart.components([this.xAxis, this.yAxis]
+        .concat(this.components)
+        .concat([this.mouseBars]))
       // .contScaleType(this.chartConfig.scaleType)
     },
     drawChart () {

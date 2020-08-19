@@ -50,6 +50,10 @@ export default {
         this.secondCompareVar.fnDefined(d.value[1])
       return {
         id: 'compare-double',
+        fnDefined,
+        scaleTypes: [this.firstCompareVar.scaleType, this.secondCompareVar.scaleType],
+        formatTypes: [this.firstCompareVar.formatType, this.secondCompareVar.formatType],
+        axisLabels: [this.firstCompareVar.compareVarName, this.secondCompareVar.compareVarName],
         fnComponents: () => [
           xyCircles()
             .fnDefined(fnDefined)
@@ -67,9 +71,6 @@ export default {
             .fnText(d => d.locationId)
             .fnBefore(s => s.attr('dx', 10).attr('dy', -10).style('pointer-events', 'none'))
         ],
-        fnDefined,
-        scaleTypes: [this.firstCompareVar.scaleType, this.secondCompareVar.scaleType],
-        formatTypes: [this.firstCompareVar.formatType, this.secondCompareVar.formatType],
         fnTooltips: d => [{
           name: this.firstCompareVar.compareVarName,
           value: d.value[0],

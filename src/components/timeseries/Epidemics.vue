@@ -49,7 +49,7 @@ import {
 } from '../../plugins/graphics'
 
 // forcing the accessor value to be equal to the 'id'
-const getConfig = ({ id, name, formatType, color }) => ({
+const getConfig = ({ id, accessor, name, formatType, color }) => ({
   id,
   scaleType: 'scaleLinear',
   baseDomain: [0, 2],
@@ -57,26 +57,26 @@ const getConfig = ({ id, name, formatType, color }) => ({
   formatType,
   fnComponents: () => [
     bxBars()
-      .fnDefined(d => d[id] !== null)
+      .fnDefined(d => d[accessor] !== null)
       .fnLowValue(d => 0)
-      .fnHighValue(d => d[id])
+      .fnHighValue(d => d[accessor])
       .fnFill(d => color)
       .fnOn('mouseover', barsMouseover)
       .fnOn('mouseout', barsMouseout)
   ],
   fnTooltips: d => [
-    { name, value: d[id], color, formatType: '.3s' }
+    { name, value: d[accessor], color, formatType: '.3s' }
   ]
 })
 
 const cumulativeConfigs = [
-  getConfig(epiConfirmed),
-  getConfig(epiDead)
+  getConfig({ ...epiConfirmed, id: 'epi_confirmed', accessor: 'epi_confirmed' }),
+  getConfig({ ...epiDead, id: 'epi_dead', accessor: 'epi_dead_new' })
 ]
 
 const newConfigs = [
-  getConfig(epiConfirmedNew),
-  getConfig(epiDeadNew)
+  getConfig({ ...epiConfirmedNew, id: 'epi_confirmed', accessor: 'epi_confirmed_new' }),
+  getConfig({ ...epiDeadNew, id: 'epi_dead', accessor: 'epi_confirmed_new' })
 ]
 
 export default {

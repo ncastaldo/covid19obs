@@ -25,6 +25,7 @@ import CompareDoubleHover from './CompareDoubleHover'
 import {
   xyChart,
   xyAxisX, xyAxisY,
+  labelAxisX, labelAxisY,
   xyLinesH, xyLinesV
 } from 'd3nic'
 
@@ -44,6 +45,10 @@ export default {
 
       yAxis: null,
       xAxis: null,
+
+      xLabel: null,
+      yLabel: null,
+
       crossLines: null,
 
       components: [],
@@ -79,17 +84,21 @@ export default {
   },
   methods: {
     createAxes () {
+      this.xAxis = xyAxisX()
+        .tickSizeInner(4)
+        .tickSizeOuter(0)
+        .ticks(2)
+        .fnBefore(s => s.classed('axis', true))
+
       this.yAxis = xyAxisY()
         .ticks(2)
         .tickSizeInner(4)
         .tickSizeOuter(0)
         .tickFormat(t => t)
         .fnBefore(s => s.classed('axis', true))
-      this.xAxis = xyAxisX()
-        .tickSizeInner(4)
-        .tickSizeOuter(0)
-        .ticks(2)
-        .fnBefore(s => s.classed('axis', true))
+
+      this.xLabel = labelAxisX().fnFontSize(20).textPadding({ top: 50 })
+      this.yLabel = labelAxisY().fnFontSize(20).textPadding({ right: 50 })
     },
     createCrossLines () {
       this.crossLines = [xyLinesH(), xyLinesV()]
@@ -104,18 +113,21 @@ export default {
     createChart () {
       this.chart = xyChart()
         .selector(`#${this.id}`)
-        .padding({ left: 50, right: 50, top: 50 })
+        .padding({ left: 80, right: 50, top: 50, bottom: 80 })
         .fnKey(d => d.locationId)
     },
     compose () {
       this.chart.components([this.yAxis, this.xAxis]
+        .concat([this.xLabel, this.yLabel])
         .concat(this.crossLines)
         .concat(this.components))
     },
     update () {
-      this.crossLines.map(c => c.fnDefined(this.config.fnDefined))
       this.xAxis.tickFormatType(this.config.formatTypes[0])
       this.yAxis.tickFormatType(this.config.formatTypes[1])
+      this.xLabel.fnText(this.config.axisLabels[0])
+      this.yLabel.fnText(this.config.axisLabels[1])
+      this.crossLines.map(c => c.fnDefined(this.config.fnDefined))
       this.chart.doubleContScaleType(this.config.scaleTypes)
     },
     drawChart () {

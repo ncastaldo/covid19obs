@@ -2,7 +2,8 @@
   <v-container>
     <v-row>
       <v-col
-        cols="6"
+        md="6"
+        sm="12"
       >
         <PeriodRangeDisplay />
         <PeriodRangeSelector />
@@ -10,8 +11,8 @@
         <LocationMap />
       </v-col>
       <v-col
-        cols="6"
-        class="pb-3"
+        md="6"
+        sm="12"
       >
         <Timeseries />
       </v-col>

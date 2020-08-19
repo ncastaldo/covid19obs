@@ -75,5 +75,16 @@
     "fixedDomain": null,
     "minValue": 0,
     "maxValue": 1
+  },
+  "ecoClosePct": {
+    "id": "eco_close_pct",
+    "name": "Avg. closing price",
+    "color": "#fb7f00",
+    "scaleType": "scaleLinear",
+    "formatType": ".1%",
+    "baseDomain": [-0.01, 0.01],
+    "fixedDomain": null,
+    "minValue": null,
+    "maxValue": null
   }
 }
