@@ -27,12 +27,13 @@ import { bxBars, bxLine, bxCircles } from 'd3nic'
 import {
   barsMouseover,
   barsMouseout,
-  circlesMouseover,
-  circlesMouseout
+  opacityMouseover,
+  opacityMouseout
 } from '../../plugins/graphics'
 
 const config = {
   id: 'news',
+  formatType: '~s',
   fnComponents: () => [
     bxBars()
       .fnDefined(d => d.info_fact_reliable != null)
@@ -62,13 +63,13 @@ const config = {
       .fnRadius(d => 4)
       .fnStrokeWidth(d => 0)
       .fnOpacity(d => 0)
-      .fnOn('mouseover', circlesMouseover)
-      .fnOn('mouseout', circlesMouseout)
+      .fnOn('mouseover', opacityMouseover)
+      .fnOn('mouseout', opacityMouseout)
   ],
   fnTooltips: d => [
-    { name: 'Rel', value: d.info_fact_reliable, color: '#018571' },
-    { name: 'Unrel', value: d.info_fact_unreliable, color: '#8856A7' },
-    { name: 'Diff', value: d.info_fact_reliable - d.info_fact_unreliable, color: '#111' }
+    { name: 'Reliable', value: d.info_fact_reliable, color: '#018571', formatType: '.3s' },
+    { name: 'Unreliable', value: d.info_fact_unreliable, color: '#8856A7', formatType: '.3s' },
+    { name: 'Difference', value: d.info_fact_reliable - d.info_fact_unreliable, color: '#111', formatType: '.3s' }
   ]
 }
 

@@ -16,10 +16,22 @@ const locationList = WORLD.features
     geometry: f.geometry
   }))
 
+const continentMapping = {
+  asia: schemeCategory10[2],
+  south_america: schemeCategory10[3],
+  africa: schemeCategory10[4],
+  europe: schemeCategory10[0],
+  north_america: schemeCategory10[1],
+  oceania: schemeCategory10[5],
+  seven_seas_open_ocean: schemeCategory10[6]
+}
+
 const continentList = locationList.map(({ continentId, continentName }) => ({ continentId, continentName }))
   .filter(({ continentId }) => continentId)// not the world
   .filter((l, i, array) => array.findIndex(t => t.continentId === l.continentId) === i)
-  .map((c, i) => ({ ...c, color: schemeCategory10[i] }))
+  .map((c, i) => ({ ...c, color: continentMapping[c.continentId] }))
+
+console.log(continentList.map(c => c.continentId))
 
 locationList.push({
   locationId: '_WORLD',

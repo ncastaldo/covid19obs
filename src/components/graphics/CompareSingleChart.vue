@@ -87,6 +87,7 @@ export default {
         .tickFormat(t => t)
         .fnBefore(s => s.classed('axis', true))
       this.xAxis = byAxisX()
+        .position('top')
         .tickSizeInner(4)
         .tickSizeOuter(0)
         .ticks(2)

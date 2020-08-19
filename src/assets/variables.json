@@ -1,0 +1,79 @@
+{
+  "infoTweets": {
+    "id": "info_tweets",
+    "name": "Collected tweets",
+    "color": "#2877b8",
+    "scaleType": "scaleLog",
+    "formatType": "~s",
+    "baseDomain": [1, 10],
+    "fixedDomain": null,
+    "minValue": 1,
+    "maxValue": null
+  },
+  "epiConfirmed": {
+    "id": "epi_confirmed",
+    "name": "Confirmed cases",
+    "color": "#e34a33",
+    "scaleType": "scaleLog",
+    "formatType": "~s",
+    "baseDomain": [1, 10],
+    "fixedDomain": null,
+    "minValue": 1,
+    "maxValue": null
+  },
+  "epiConfirmedNew": {
+    "id": "epi_confirmed_new",
+    "name": "Avg. daily cases",
+    "color": "#e34a33",
+    "scaleType": "scaleLog",
+    "formatType": ".1s",
+    "baseDomain": [1, 10],
+    "fixedDomain": null,
+    "minValue": 1,
+    "maxValue": null
+  },
+  "epiDead": {
+    "id": "epi_dead",
+    "name": "Deaths",
+    "color": "#8856a7",
+    "scaleType": "scaleLog",
+    "formatType": "~s",
+    "baseDomain": [1, 10],
+    "fixedDomain": null,
+    "minValue": 1,
+    "maxValue": null
+  },
+  "epiDeadNew": {
+    "id": "epi_dead_new",
+    "name": "Avg. daily deaths",
+    "color": "#8856a7",
+    "scaleType": "scaleLog",
+    "formatType": ".1s",
+    "baseDomain": [1, 10],
+    "fixedDomain": null,
+    "minValue": 1,
+    "maxValue": null
+  },
+  "infoFactUnreliable": {
+    "id": "info_fact_unreliable",
+    "name": "Unreliable facts",
+    "color": "#8856A7",
+    "scaleType": "scaleLog",
+    "formatType": "~s",
+    "baseDomain": [1, 10],
+    "fixedDomain": null,
+    "minValue": 1,
+    "maxValue": null
+  },
+  "infoRiskIndex": {
+    "id": "info_risk_index",
+    "name": "Avg. risk Index",
+    "color": "#2877b8",
+    "scaleType": "scaleLinear",
+    "formatType": ".2f",
+    "baseDomain": [0.2, 0.7],
+    "fixedDomain": null,
+    "minValue": 0,
+    "maxValue": 1
+  }
+}

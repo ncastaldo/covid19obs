@@ -32,6 +32,7 @@ import {
 
 const config = {
   id: 'tweets',
+  formatType: '~s',
   fnComponents: () => [
     bxBars()
       .fnDefined(d => d.info_tweets_T != null)
@@ -56,9 +57,9 @@ const config = {
       .fnOn('mouseout', barsMouseout)
   ],
   fnTooltips: d => [
-    { name: 'T', value: d.info_tweets_T, color: '#045a8d' },
-    { name: 'RT', value: d.info_tweets_RT, color: '#2b8cbe' },
-    { name: 'RE', value: d.info_tweets_RE, color: '#74a9cf' }
+    { name: 'T', value: d.info_tweets_T, color: '#045a8d', formatType: '.3s' },
+    { name: 'RT', value: d.info_tweets_RT, color: '#2b8cbe', formatType: '.3s' },
+    { name: 'RE', value: d.info_tweets_RE, color: '#74a9cf', formatType: '.3s' }
   ].reverse()
 }
 

@@ -37,74 +37,46 @@ import { mapGetters } from 'vuex'
 import { bxBars } from 'd3nic'
 
 import {
+  epiConfirmed,
+  epiConfirmedNew,
+  epiDead,
+  epiDeadNew
+} from '../../assets/variables'
+
+import {
   barsMouseover,
   barsMouseout
 } from '../../plugins/graphics'
 
+// forcing the accessor value to be equal to the 'id'
+const getConfig = ({ id, name, formatType, color }) => ({
+  id,
+  scaleType: 'scaleLinear',
+  baseDomain: [0, 2],
+  fixedDomain: null,
+  formatType,
+  fnComponents: () => [
+    bxBars()
+      .fnDefined(d => d[id] !== null)
+      .fnLowValue(d => 0)
+      .fnHighValue(d => d[id])
+      .fnFill(d => color)
+      .fnOn('mouseover', barsMouseover)
+      .fnOn('mouseout', barsMouseout)
+  ],
+  fnTooltips: d => [
+    { name, value: d[id], color, formatType: '.3s' }
+  ]
+})
+
 const cumulativeConfigs = [
-  {
-    id: 'confirmed',
-    fnComponents: () => [
-      bxBars()
-        .fnDefined(d => d.epi_confirmed != null)
-        .fnLowValue(d => 0)
-        .fnHighValue(d => d.epi_confirmed)
-        .fnFill(d => '#e34a33')
-        .fnOn('mouseover', barsMouseover)
-        .fnOn('mouseout', barsMouseout)
-    ],
-    fnTooltips: d => [
-      { name: 'Conf', value: d.epi_confirmed, color: '#e34a33' }
-    ]
-  },
-  {
-    id: 'dead',
-    fnComponents: () => [
-      bxBars()
-        .fnDefined(d => d.epi_dead != null)
-        .fnLowValue(d => 0)
-        .fnHighValue(d => d.epi_dead)
-        .fnFill(d => '#8856a7')
-        .fnOn('mouseover', barsMouseover)
-        .fnOn('mouseout', barsMouseout)
-    ],
-    fnTooltips: d => [
-      { name: 'Dead', value: d.epi_dead, color: '#8856a7' }
-    ]
-  }
+  getConfig(epiConfirmed),
+  getConfig(epiDead)
 ]
 
 const newConfigs = [
-  {
-    id: 'confirmed',
-    fnComponents: () => [
-      bxBars()
-        .fnDefined(d => d.epi_confirmed_new != null)
-        .fnLowValue(d => 0)
-        .fnHighValue(d => d.epi_confirmed_new)
-        .fnFill(d => '#e34a33')
-        .fnOn('mouseover', barsMouseover)
-        .fnOn('mouseout', barsMouseout)
-    ],
-    fnTooltips: d => [
-      { name: 'Conf', value: d.epi_confirmed, color: '#e34a33' }
-    ]
-  },
-  {
-    id: 'dead',
-    fnComponents: () => [
-      bxBars()
-        .fnDefined(d => d.epi_dead_new != null)
-        .fnLowValue(d => 0)
-        .fnHighValue(d => d.epi_dead_new)
-        .fnFill(d => '#8856a7')
-        .fnOn('mouseover', barsMouseover)
-        .fnOn('mouseout', barsMouseout)
-    ],
-    fnTooltips: d => [
-      { name: 'Dead', value: d.epi_dead, color: '#8856a7' }
-    ]
-  }
+  getConfig(epiConfirmedNew),
+  getConfig(epiDeadNew)
 ]
 
 export default {

@@ -22,11 +22,15 @@
 <script>
 import TimeseriesHover from './TimeseriesHover'
 
+import { timeFormat } from 'd3-time-format'
+
 import {
   bxChart,
   bxAxisX, bxAxisY,
   bxMouseBars
 } from 'd3nic'
+
+const fnTimeFormat = timeFormat('%b %d, %y')
 
 export default {
   components: {
@@ -83,6 +87,7 @@ export default {
 
     this.createChart()
 
+    this.compose()
     this.update()
 
     this.chart.data(this.timeseries)
@@ -95,7 +100,7 @@ export default {
         .ticks(3)
         .tickSizeInner(0)
         .tickSizeOuter(0)
-        .tickFormat(t => t)
+        .tickFormat(t => fnTimeFormat(new Date(t)))
         .fnBefore(s => s.classed('axis', true))
       this.yAxis = bxAxisY()
         .tickSizeInner(4)
@@ -119,14 +124,22 @@ export default {
     createChart () {
       this.chart = bxChart()
         .selector(`#${this.id}`)
+        .padding({ left: 50 })
         .fnKey(d => new Date(d.datetime))
         .fnBandValue(d => d.datetime)
     },
-    update () {
-      // this.yAxis.tickFormat(format(this.chartConfig.yFormat))
+    compose () {
       this.chart.components([this.xAxis, this.yAxis]
         .concat(this.components)
         .concat([this.mouseBars]))
+    },
+    update () {
+      // this.yAxis.tickFormat(format(this.chartConfig.yFormat))
+      this.yAxis.tickFormatType(this.config.formatType)
+      this.chart
+        .contScaleType(this.config.scaleType)
+        .contBaseDomain(this.config.baseDomain)
+        .contFixedDomain(this.config.fixedDomain)
       // .contScaleType(this.chartConfig.scaleType)
     },
     drawChart () {
