@@ -2,16 +2,16 @@
   <v-container>
     <v-row>
       <v-col
-        cols="6"
-        class="pb-3"
+        md="6"
+        sm="12"
       >
         <PeriodDisplay />
         <PeriodSelector />
         <LocationListMap />
       </v-col>
       <v-col
-        cols="6"
-        class="pb-3"
+        md="6"
+        sm="12"
       >
         <Compare />
       </v-col>

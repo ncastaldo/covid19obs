@@ -39,6 +39,8 @@ export default {
     }),
     compareDouble () {
       const secondCompare = this.secondCompare
+
+      console.log(secondCompare)
       return this.firstCompare.lentgh === this.secondCompare.lentgh
         ? this.firstCompare
           .map((cmp, i) => ({ ...cmp, value: [cmp.value, secondCompare[i].value] }))

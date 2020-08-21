@@ -71,7 +71,7 @@ const getConfig = ({ id, accessor, name, formatType, color }) => ({
 
 const cumulativeConfigs = [
   getConfig({ ...epiConfirmed, id: 'epi_confirmed', accessor: 'epi_confirmed' }),
-  getConfig({ ...epiDead, id: 'epi_dead', accessor: 'epi_dead_new' })
+  getConfig({ ...epiDead, id: 'epi_dead', accessor: 'epi_dead' })
 ]
 
 const newConfigs = [

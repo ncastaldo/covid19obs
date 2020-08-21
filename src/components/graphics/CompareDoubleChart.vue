@@ -98,7 +98,7 @@ export default {
         .fnBefore(s => s.classed('axis', true))
 
       this.xLabel = labelAxisX().fnFontSize(20).textPadding({ top: 50 })
-      this.yLabel = labelAxisY().fnFontSize(20).textPadding({ right: 50 })
+      this.yLabel = labelAxisY().fnFontSize(20).textPadding({ right: 60 })
     },
     createCrossLines () {
       this.crossLines = [xyLinesH(), xyLinesV()]

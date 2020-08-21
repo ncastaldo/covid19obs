@@ -47,7 +47,8 @@ const getters = {
       .filter(cmp => locationList.map(l => l.locationId).includes(cmp.locationId))
       .map(cmp => ({
         ...cmp,
-        value: +cmp[periodId] // + because parser gives string
+        // null/+ because parser gives string
+        value: cmp[periodId].length ? +cmp[periodId] : null
       }))
   }
 }

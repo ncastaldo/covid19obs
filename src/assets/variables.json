@@ -29,7 +29,7 @@
     "formatType": ".1s",
     "baseDomain": [1, 10],
     "fixedDomain": null,
-    "minValue": 1,
+    "minValue": 0.1,
     "maxValue": null
   },
   "epiDead": {
@@ -51,7 +51,7 @@
     "formatType": ".1s",
     "baseDomain": [1, 10],
     "fixedDomain": null,
-    "minValue": 1,
+    "minValue": 0.1,
     "maxValue": null
   },
   "infoFactUnreliable": {
