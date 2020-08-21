@@ -12,7 +12,7 @@
       />
     </ChartsContainer>
     <Tooltip>
-      <div
+      <BubbleHover
         :hover="hover"
         :fnTooltips="config.fnTooltips || null"
       />
@@ -21,9 +21,8 @@
 </template>
 
 <script>
-// import TimeseriesHover from './TimeseriesHover'
+import BubbleHover from './BubbleHover'
 
-import { max } from 'd3-array'
 import { hierarchy, pack } from 'd3-hierarchy'
 
 import {
@@ -32,18 +31,16 @@ import {
 
 export default {
   components: {
-    // TimeseriesHover
+    BubbleHover
   },
   props: {
     id: String,
     height: Number,
-    chartData: Array,
+    root: Object,
     config: Object
   },
   data () {
     return {
-      fnPack: pack(),
-
       chart: null,
       components: [],
 
@@ -51,7 +48,7 @@ export default {
     }
   },
   watch: {
-    chartData (value) {
+    root (value) {
       this.updateData()
       this.drawChart()
     },
@@ -90,19 +87,18 @@ export default {
       // size
       const { width, height } = this.chart.size()
 
-      this.fnPack.size([width, height]).padding(2)
+      const fnPack = pack().size([width, height]).padding(1)
 
-      // pack
-      const root = hierarchy({ children: this.chartData })
-        .sum(d => d.value) // accessor function
+      console.log(this.root)
 
-      const bubbles = this.fnPack(root)
+      const bubbles = fnPack(this.root)
         .descendants()
-        .filter(n => n.depth > 0) // not the root
-        .map(({ r, x, y, data }) => ({
-          pack: { r, x, y },
+        .map(({ data, ...rest }) => ({
+          pack: { ...rest },
           ...data
         }))
+
+      console.log(bubbles)
 
       this.chart.data(bubbles)
     },
@@ -113,6 +109,7 @@ export default {
       this.chart = chart()
         .selector(`#${this.id}`)
         .fnKey(d => d.key)
+        .padding({ top: 0, bottom: 0 })
     },
     compose () {
       this.chart.components(this.components)

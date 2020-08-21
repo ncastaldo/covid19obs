@@ -15,11 +15,12 @@
       :timeseries="timeseries"
       :config="config"
     />
-    <PackChart
+    <BubbleChart
       :id="bubbleConfig.id"
       :key="bubbleConfig.id"
+      ref="BubbleChart"
       :height="300"
-      :chartData="newsData"
+      :root="newsRoot"
       :config="bubbleConfig"
     />
   </div>
@@ -27,10 +28,11 @@
 
 <script>
 import TimeseriesChart from './../graphics/TimeseriesChart'
-import PackChart from './../graphics/PackChart'
+import BubbleChart from './../graphics/BubbleChart'
 
 import { mapGetters } from 'vuex'
 
+import { hierarchy } from 'd3-hierarchy'
 import { sum } from 'd3-array'
 import { circles, texts, bxBars, bxLine, bxCircles } from 'd3nic'
 
@@ -83,58 +85,99 @@ const config = {
   ]
 }
 
-const bubbleConfig = {
-  id: 'bubble-news',
-  fnComponents: () => [
-    circles()
-      .fnCenterX(d => d.pack.x)
-      .fnCenterY(d => d.pack.y)
-      .fnRadius(d => d.pack.r)
-      .fnFill(d => d.color)
-    /* texts()
-      .fnTransform(d => `translate(${d.pack.x},${d.pack.y})`)
-      .fnText(d => d.name)
-      .fnFill(d => '#000') */
-  ],
-  fnTooltips: d => [
+const newsObject = {
+  key: 'root',
+  color: '#eee',
+  children: [
+    {
+      key: 'reliable',
+      name: 'Reliable',
+      color: '#d9f0d3',
+      values: [
+        { key: 'info_fact_msm', name: 'MSM', color: '#5aae61' },
+        { key: 'info_fact_science', name: 'Science', color: '#1b7837' }
+      ]
+    },
+    {
+      key: 'unreliable',
+      name: 'Unreliable',
+      color: '#e7d4e8',
+      values: [
+        { key: 'info_fact_conspiracy', name: 'Conspiracy', color: '#40004b' },
+        { key: 'info_fact_fake', name: 'Fake', color: '#762a83' },
+        { key: 'info_fact_clickbait', name: 'Clickbait', color: '#9970ab' },
+        { key: 'info_fact_political', name: 'Political', color: '#c2a5cf' },
+        { key: 'info_fact_satire', name: 'Satire', color: '#e7d4e8' }
+      ]
+    }
   ]
 }
-
-const newsTypes = [
-  ['info_fact_clickbait', 'Clickbait', '#8856A7'],
-  ['info_fact_conspiracy', 'Conspiracy', '#8856A7'],
-  ['info_fact_fake', 'Fake', '#8856A7'],
-  ['info_fact_msm', 'MSM', '#018571'],
-  ['info_fact_political', 'Political', '#8856A7'],
-  ['info_fact_satire', 'Satire', '#8856A7'],
-  ['info_fact_science', 'Science', '#018571']
-]
 
 export default {
   components: {
     TimeseriesChart,
-    PackChart
+    BubbleChart
   },
   data () {
     return {
       config,
-      bubbleConfig
+      bubbleConfig: {
+        id: 'bubble-news',
+        fnComponents: () => [
+          circles()
+            .fnCenterX(d => d.pack.x)
+            .fnCenterY(d => d.pack.y)
+            .fnRadius(d => d.pack.r)
+            .fnFill(d => d.pack.depth !== 1 ? d.color : '#fff')
+            .fnStroke(d => d.color)
+            .fnStrokeWidth(d => d.pack.depth === 2 ? 0 : 2)
+            .fnOn('mouseover.opacity', barsMouseover)
+            .fnOn('mouseout.opacity', barsMouseout)
+            .fnOn('mouseover', this.$refs.BubbleChart.onMouseover)
+            .fnOn('mouseout', this.$isMobile() || this.$refs.BubbleChart.onMouseout)
+          /* texts()
+      .fnTransform(d => `translate(${d.pack.x},${d.pack.y})`)
+      .fnText(d => d.name)
+      .fnFill(d => '#000') */
+        ],
+        fnTooltips: d => [
+        ]
+      }
     }
   },
   computed: {
     ...mapGetters({
-      timeseries: 'timeseries/getTimeseries'
+      timeseries: 'timeseries/getTimeseries',
+      periodRange: 'periodRange/getPeriodRange'
     }),
-    newsData () {
-      const news = newsTypes
-        .map(([key, name, color]) => ({
-          key,
-          name,
-          value: sum(this.timeseries, ts => Math.sqrt(ts[key])),
-          color
+    period () {
+      return this.periodRange
+        .map(pr => pr.periodName)
+        .join(' - ')
+    },
+    newsRoot () {
+      const children = newsObject.children
+        .map(nt => ({
+          ...nt,
+          children: nt.values
+            .map(d => ({
+              ...d,
+              value: sum(this.timeseries, ts => ts[d.key]),
+              period: this.period
+            }))
+            .map(d => ({
+              ...d,
+              packValue: Math.sqrt(d.value)
+            }))
         }))
 
-      return news
+      // pack
+      const root = hierarchy({ ...newsObject, children })
+        .sum(d => d.packValue) // accessor function
+
+      console.log(root)
+
+      return root
     }
   },
   mounted () {
