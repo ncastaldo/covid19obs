@@ -16,6 +16,7 @@
       :config="config"
     />
     <BubbleChart
+      v-if="false"
       :id="bubbleConfig.id"
       :key="bubbleConfig.id"
       ref="BubbleChart"
@@ -23,18 +24,28 @@
       :root="newsRoot"
       :config="bubbleConfig"
     />
+    <ArcChart
+      :id="arcConfig.id"
+      :key="arcConfig.id"
+      ref="BubbleChart"
+      :height="300"
+      :arcData="arcData"
+      :config="arcConfig"
+    />
   </div>
 </template>
 
 <script>
 import TimeseriesChart from './../graphics/TimeseriesChart'
 import BubbleChart from './../graphics/BubbleChart'
+import ArcChart from './../graphics/ArcChart'
 
 import { mapGetters } from 'vuex'
 
 import { hierarchy } from 'd3-hierarchy'
 import { sum } from 'd3-array'
-import { circles, texts, bxBars, bxLine, bxCircles } from 'd3nic'
+import { stack } from 'd3-shape'
+import { circles, texts, bxBars, bxLine, bxCircles, brStackBars } from 'd3nic'
 
 import {
   barsMouseover,
@@ -88,10 +99,10 @@ const config = {
 const newsObject = {
   key: 'root',
   color: '#eee',
-  children: [
+  values: [
     {
       key: 'reliable',
-      name: 'Reliable',
+      name: 'Reliable News',
       color: '#d9f0d3',
       values: [
         { key: 'info_fact_msm', name: 'MSM', color: '#5aae61' },
@@ -100,7 +111,7 @@ const newsObject = {
     },
     {
       key: 'unreliable',
-      name: 'Unreliable',
+      name: 'Unreliable News',
       color: '#e7d4e8',
       values: [
         { key: 'info_fact_conspiracy', name: 'Conspiracy', color: '#40004b' },
@@ -113,10 +124,21 @@ const newsObject = {
   ]
 }
 
+const news = [
+  { key: 'info_fact_msm', name: 'MSM', color: '#5aae61' },
+  { key: 'info_fact_science', name: 'Science', color: '#1b7837' },
+  { key: 'info_fact_conspiracy', name: 'Conspiracy', color: '#40004b' },
+  { key: 'info_fact_fake', name: 'Fake', color: '#762a83' },
+  { key: 'info_fact_clickbait', name: 'Clickbait', color: '#9970ab' },
+  { key: 'info_fact_political', name: 'Political', color: '#c2a5cf' },
+  { key: 'info_fact_satire', name: 'Satire', color: '#e7d4e8' }
+]
+
 export default {
   components: {
     TimeseriesChart,
-    BubbleChart
+    BubbleChart,
+    ArcChart
   },
   data () {
     return {
@@ -128,9 +150,9 @@ export default {
             .fnCenterX(d => d.pack.x)
             .fnCenterY(d => d.pack.y)
             .fnRadius(d => d.pack.r)
-            .fnFill(d => d.pack.depth !== 1 ? d.color : '#fff')
-            .fnStroke(d => d.color)
-            .fnStrokeWidth(d => d.pack.depth === 2 ? 0 : 2)
+            .fnFill(d => d.color)// d.color)
+            .fnStroke(d => '#000')
+            .fnStrokeWidth(d => d.pack.depth > 1 ? 1 : 0)
             .fnOn('mouseover.opacity', barsMouseover)
             .fnOn('mouseout.opacity', barsMouseout)
             .fnOn('mouseover', this.$refs.BubbleChart.onMouseover)
@@ -142,6 +164,25 @@ export default {
         ],
         fnTooltips: d => [
         ]
+      },
+      arcConfig: {
+        id: 'arc-news',
+        bandPaddingInner: 0.5,
+        bandPaddingOuter: 0,
+        fnComponents: () => [
+          brStackBars()
+            .fnFill(d => d.color)// d.color)
+            .fnLowValue(d => d.stack[0])
+            .fnHighValue(d => d.stack[1])
+            .fnStroke(d => '#000')
+            .fnStrokeWidth(d => 0)
+            .fnOn('mouseover.opacity', barsMouseover)
+            .fnOn('mouseout.opacity', barsMouseout)
+            .fnOn('mouseover', this.$refs.BubbleChart.onMouseover)
+            .fnOn('mouseout', this.$isMobile() || this.$refs.BubbleChart.onMouseout)
+            .phi(0)
+        ],
+        fnTooltips: d => []
       }
     }
   },
@@ -156,28 +197,47 @@ export default {
         .join(' - ')
     },
     newsRoot () {
-      const children = newsObject.children
-        .map(nt => ({
-          ...nt,
-          children: nt.values
+      const children = newsObject.values
+        .map(c => ({
+          ...c,
+          children: c.values.map(d => ({
+            ...d,
+            value: sum(this.timeseries, ts => ts[d.key]),
+            period: this.period
+          }))
             .map(d => ({
               ...d,
-              value: sum(this.timeseries, ts => ts[d.key]),
-              period: this.period
-            }))
-            .map(d => ({
-              ...d,
-              packValue: Math.sqrt(d.value)
+              packValue: d.value// Math.sqrt(d.value)
             }))
         }))
 
       // pack
       const root = hierarchy({ ...newsObject, children })
         .sum(d => d.packValue) // accessor function
-
-      console.log(root)
+        .sort((a, b) => a.packValue - b.packValue) // accessor function
 
       return root
+    },
+    arcData () {
+      const arcValues = news.map(d => ({
+        ...d,
+        value: sum(this.timeseries, ts => ts[d.key])
+        // period: this.period
+      }))
+
+      // function to stack
+      const fnStack = stack()
+        .keys(news.map(a => a.key))
+
+      // tricks here
+      const stackObject = fnStack([arcValues
+        .reduce((acc, a) => ({ ...acc, [a.key]: a.value }), {})])
+        .reduce((acc, s) => ({ ...acc, [s.key]: [s[0][0], s[0][1]] }), {})
+
+      return arcValues.map(d => ({
+        ...d,
+        stack: stackObject[d.key]
+      }))
     }
   },
   mounted () {

@@ -135,7 +135,7 @@ export default {
       this.$nextTick(() =>
         this.chart.draw({ duration: 750 }))
     },
-    onMouseover (d, i, nodes) {
+    onMouseover (event, d) {
       this.hover = d
       this.crossLines
         .map(cl => cl.join()
@@ -143,7 +143,7 @@ export default {
           .transition('opacity').duration(50)
           .style('opacity', 1))
     },
-    onMouseout (d, i, nodes) {
+    onMouseout (event, d) {
       this.hover = null
       this.crossLines
         .map(cl => cl.join()

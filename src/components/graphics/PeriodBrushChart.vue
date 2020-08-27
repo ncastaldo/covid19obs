@@ -88,11 +88,11 @@ export default {
       this.brush = bxBrush()
         .minStep(this.config.minStep)
         .maxStep(this.config.maxStep)
-        .fnOn('brushDomain', bd => {
+        .fnOn('brushDomain', (event, bd) => {
           this.fillBars(bd)
           this.$emit('brushDomain', bd)
         })
-        .fnOn('endDomain', bd => this.$emit('endDomain', bd))
+        .fnOn('endDomain', (event, bd) => this.$emit('endDomain', bd))
     },
     createChart () {
       this.chart = bxChart()

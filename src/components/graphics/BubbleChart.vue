@@ -89,16 +89,13 @@ export default {
 
       const fnPack = pack().size([width, height]).padding(1)
 
-      console.log(this.root)
-
       const bubbles = fnPack(this.root)
         .descendants()
+        .filter(d => d.depth)
         .map(({ data, ...rest }) => ({
           pack: { ...rest },
           ...data
         }))
-
-      console.log(bubbles)
 
       this.chart.data(bubbles)
     },
@@ -121,10 +118,10 @@ export default {
       // wait for chartscontainer
       this.$nextTick(() => this.chart.draw({ duration: 750 }))
     },
-    onMouseover (d, i, nodes) {
+    onMouseover (event, d) {
       this.hover = d
     },
-    onMouseout (d, i, nodes) {
+    onMouseout (event, d) {
       this.hover = null
     },
     clear () {

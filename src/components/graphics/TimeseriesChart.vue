@@ -148,17 +148,17 @@ export default {
       this.$nextTick(() =>
         this.chart.draw({ duration: 750 }))
     },
-    onMouseover (d, i, nodes) {
+    onMouseover (event, d) {
       this.hover = d
       this.components
         .map(c => c.join().filter(f => f.datetime === d.datetime)
-          .dispatch('mouseover', { detail: { d, i, nodes } }))
+          .dispatch('mouseover', event, d))
     },
-    onMouseout (d, i, nodes) {
+    onMouseout (event, d) {
       this.hover = null
       this.components
         .map(c => c.join().filter(f => f.datetime === d.datetime)
-          .dispatch('mouseout', { detail: { d, i, nodes } }))
+          .dispatch('mouseout', event, d))
     },
     clear () {
       this.components.map(c =>

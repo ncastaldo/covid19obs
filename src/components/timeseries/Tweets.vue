@@ -9,11 +9,18 @@
       </div>
     </div>
     <TimeseriesChart
-      :id="config.id"
-      :key="config.id"
+      :id="typeConfig.id"
+      :key="typeConfig.id"
       :height="200"
-      :timeseries="modifiedTimeseries"
-      :config="config"
+      :timeseries="typeTimeseries"
+      :config="typeConfig"
+    />
+    <TimeseriesChart
+      :id="localConfig.id"
+      :key="localConfig.id"
+      :height="200"
+      :timeseries="localTimeseries"
+      :config="localConfig"
     />
   </div>
 </template>
@@ -30,8 +37,8 @@ import {
   barsMouseout
 } from '../../plugins/graphics'
 
-const config = {
-  id: 'tweets',
+const typeConfig = {
+  id: 'type-tweets',
   formatType: '~s',
   fnComponents: () => [
     bxBars()
@@ -63,20 +70,46 @@ const config = {
   ].reverse()
 }
 
+const localConfig = {
+  id: 'local-tweets',
+  formatType: '~s',
+  fnComponents: () => [
+    bxBars()
+      .fnDefined(d => d.info_tweets_local != null)
+      .fnLowValue(d => d.stack_info_tweets_local[0])
+      .fnHighValue(d => d.stack_info_tweets_local[1])
+      .fnFill(d => '#238b45')
+      .fnOn('mouseover', barsMouseover)
+      .fnOn('mouseout', barsMouseout),
+    bxBars()
+      .fnDefined(d => d.info_tweets_foreign != null)
+      .fnLowValue(d => d.stack_info_tweets_foreign[0])
+      .fnHighValue(d => d.stack_info_tweets_foreign[1])
+      .fnFill(d => '#74c476')
+      .fnOn('mouseover', barsMouseover)
+      .fnOn('mouseout', barsMouseout)
+  ],
+  fnTooltips: d => [
+    { name: 'Local', value: d.info_tweets_local, color: '#238b45', formatType: '.3s' },
+    { name: 'Foreign', value: d.info_tweets_foreign, color: '#74c476', formatType: '.3s' }
+  ].reverse()
+}
+
 export default {
   components: {
     TimeseriesChart
   },
   data () {
     return {
-      config
+      typeConfig,
+      localConfig
     }
   },
   computed: {
     ...mapGetters({
       timeseries: 'timeseries/getTimeseries'
     }),
-    modifiedTimeseries () {
+    typeTimeseries () {
       const keys = ['info_tweets_T', 'info_tweets_RT', 'info_tweets_RE']
       const fnStack = stack().keys(keys)
       const stackedData = fnStack(this.timeseries)
@@ -85,6 +118,26 @@ export default {
         ...keys.reduce((acc, k, j) => ({
           ...acc,
           [`stack_${k}`]: this.timeseries.length // considering []
+            ? stackedData[j][i].filter((_, i) => i <= 1)
+            : 0
+        }), {})
+      }))
+    },
+    localTimeseries () {
+      const ts = this.timeseries.map((d, i) => ({
+        ...d,
+        info_tweets_foreign: d.info_tweets_local !== null
+          ? d.info_tweets - d.info_tweets_local
+          : d.info_tweets
+      }))
+      const keys = ['info_tweets_local', 'info_tweets_foreign']
+      const fnStack = stack().keys(keys)
+      const stackedData = fnStack(ts)
+      return ts.map((d, i) => ({
+        ...d,
+        ...keys.reduce((acc, k, j) => ({
+          ...acc,
+          [`stack_${k}`]: ts.length // considering []
             ? stackedData[j][i].filter((_, i) => i <= 1)
             : 0
         }), {})

@@ -11,10 +11,10 @@
       >
         mdi-square
       </v-icon>
-      {{ hover.period }}
+      {{ hover.name }}
     </h4>
     <div>
-      <span class="pl-1 pr-2">{{ hover.name }}</span>
+      <!--span class="pl-1 pr-2">{{ hover.name }}</span-->
       <span class="font-weight-medium">{{ hover.value }}</span>
     </div>
   </div>
