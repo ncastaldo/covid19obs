@@ -5,11 +5,11 @@
     <Drawer />
     <Header />
 
-    <v-content>
+    <v-main>
       <router-view
         v-if="storeReady"
       />
-    </v-content>
+    </v-main>
     <Footer />
   </v-app>
 </template>

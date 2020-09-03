@@ -35,7 +35,7 @@ const actions = {
     // fetching the timeseries
     fetch(timeseriesUrl)
       .then(res => res.text())
-      .then(data => Promise.resolve(fnTimeseriesParser.parse(data)))
+      .then(data => fnTimeseriesParser.parse(data))
       .then(ts => { commit('setFullTimeseries', ts) })
   }
 }

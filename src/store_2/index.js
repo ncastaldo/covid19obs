@@ -18,8 +18,8 @@ import { utcMonth } from 'd3-time'
 Vue.use(Vuex)
 
 const MONTHS = utcMonth.range(
-  new Date(2020, 0, 1), // first day of year -> Jan
-  new Date()
+  new Date(Date.UTC(2020, 0, 1)), // first day of year -> Jan
+  new Date(Date.UTC(2020, 8, 1)) // exclusive, CHANGE IT TO LAST MONTH - 1
 )
 
 const INITIAL_STATE = {

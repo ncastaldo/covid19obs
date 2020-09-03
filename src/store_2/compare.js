@@ -70,7 +70,7 @@ const actions = {
     // fetching the compare
     fetch(compareUrl)
       .then(res => res.text())
-      .then(data => Promise.resolve(fnCompareParser.parse(data)))
+      .then(data => fnCompareParser.parse(data))
       .then(fullCmp => { dispatch('setFullCompare', fullCmp) })
   },
 
