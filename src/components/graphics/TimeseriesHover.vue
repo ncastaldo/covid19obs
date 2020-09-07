@@ -36,7 +36,7 @@ export default {
   computed: {
     date () {
       return this.hover
-        ? fnTimeFormat(new Date(this.hover.datetime))
+        ? fnTimeFormat(this.hover.date)
         : ''
     },
     lines () {

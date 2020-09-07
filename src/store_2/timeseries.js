@@ -13,13 +13,10 @@ const mutations = {
 const getters = {
   getFullTimeseries: ({ fullTimeseries }) => fullTimeseries,
   getTimeseries: ({ fullTimeseries }, _, __, rootGetters) => {
-    const [from, to] = rootGetters['periodRange/getPeriodRange']
+    const [from, to] = rootGetters['period/getPeriodRange']
       .map((p, i) => i === 0 ? p.from : p.to)
     return fullTimeseries
-      .filter(d => {
-        const dt = +new Date(d.datetime)
-        return dt >= from && dt < to // stricly less
-      })
+      .filter(d => +d.date >= from && +d.date < to) // stricly less
   }
 }
 
@@ -36,6 +33,7 @@ const actions = {
     fetch(timeseriesUrl)
       .then(res => res.text())
       .then(data => fnTimeseriesParser.parse(data))
+      .then(data => data.map(d => ({ ...d, date: Date.parse(d.datetime) })))
       .then(ts => { commit('setFullTimeseries', ts) })
   }
 }

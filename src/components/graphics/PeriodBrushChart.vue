@@ -31,14 +31,14 @@ export default {
     id: String,
     height: {
       type: Number,
-      default: 60
+      default: 300
     },
     padding: {
       type: Object,
       default: () => ({ top: 0, left: 25, right: 25, bottom: 25 })
     },
     brushDomain: Array,
-    periods: Array,
+    periodData: Array,
     config: Object
   },
   data () {
@@ -54,6 +54,13 @@ export default {
     config () {
       // should update also min and max, for the moment ok this way
       this.fillBars(this.brushDomain)
+    },
+    periodData () {
+      this.chart.data(this.periodData)
+
+      this.drawChart()
+        .then(() => this.fillBars(this.brushDomain))
+        .catch(() => {})
     }
   },
   mounted () {
@@ -63,11 +70,12 @@ export default {
 
     this.update()
 
-    this.chart.data(this.periods)
+    this.chart.data(this.periodData)
     this.brush.brushDomain(this.brushDomain)
 
     this.drawChart()
       .then(() => this.fillBars(this.brushDomain))
+      .catch(() => {})
   },
   methods: {
     createComponents () {
@@ -82,7 +90,7 @@ export default {
             .style('opacity', 0))
       this.bars = bxBars()
         .fnLowValue(d => 0)
-        .fnHighValue(d => 1)
+        .fnHighValue(d => d.value)
         .fnFill(d => '#aeaeae')
         // .fnBefore(s => s.classed('period-selector__bars', true))
       this.brush = bxBrush()

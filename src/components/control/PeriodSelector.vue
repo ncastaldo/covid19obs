@@ -1,9 +1,10 @@
 <template>
   <PeriodBrushChart
     id="period-selector"
-    :periods="periods"
+    :periodData="periodData"
     :brushDomain="brushDomain"
     :config="config"
+    :height="60"
     @endDomain="(bd) => setPeriodId(bd[0])"
   />
 </template>
@@ -34,6 +35,9 @@ export default {
     brushDomain () {
       return [this.period, this.period]
         .map(p => p.periodId)
+    },
+    periodData () {
+      return this.periods.map(({ periodId }) => ({ periodId, value: 1 }))
     }
   },
   methods: {

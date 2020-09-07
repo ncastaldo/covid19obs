@@ -1,7 +1,7 @@
 <template>
   <PeriodBrushChart
     id="period-range-selector"
-    :periods="periods"
+    :periodData="tweets"
     :brushDomain="brushDomain"
     :config="config"
     @endDomain="setPeriodIdRange"
@@ -29,8 +29,9 @@ export default {
   },
   computed: {
     ...mapGetters({
-      periods: 'periodRange/getPeriods',
-      periodRange: 'periodRange/getPeriodRange'
+      periods: 'period/getPeriods',
+      periodRange: 'period/getPeriodRange',
+      tweets: 'tweets/getTweets'
     }),
     brushDomain () {
       return this.periodRange.map(p => p.periodId)
@@ -38,7 +39,7 @@ export default {
   },
   methods: {
     ...mapActions({
-      setPeriodIdRange: 'periodRange/setPeriodIdRange'
+      setPeriodIdRange: 'period/setPeriodIdRange'
     })
   }
 }

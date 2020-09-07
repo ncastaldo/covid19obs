@@ -2,14 +2,14 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 import location from './location'
-import periodRange from './periodRange'
+import period from './period'
 
 import timeseries from './timeseries'
+import tweets from './tweets'
+
 import mapLayer from './mapLayer'
 
 import makeCompare from './compare'
-
-import period from './period'
 
 import view from './view'
 
@@ -33,22 +33,20 @@ const INITIAL_STATE = {
     +MONTHS[MONTHS.length - 1]
   ],
 
-  periodId: MONTHS[MONTHS.length - 1],
+  periodId: +MONTHS[MONTHS.length - 1],
 
   firstCompareVarId: 'info_tweets',
   secondCompareVarId: 'info_risk_index'
 }
 
-const state = {
-  ready: false
-}
+const state = {}
 
 const mutations = {
   setReady: (state, ready) => { state.ready = ready }
 }
 
 const getters = {
-  isReady: ({ ready }) => ready
+  isReady: ({ ready }, getters) => getters['tweets/getTweetsDict'] !== null
 }
 
 export default new Vuex.Store({
@@ -58,27 +56,25 @@ export default new Vuex.Store({
   getters,
   modules: {
     location,
-    periodRange,
+    period,
 
     timeseries,
+    tweets,
     mapLayer,
 
     'compare/first': makeCompare(),
     'compare/second': makeCompare(),
-
-    period,
 
     view
   },
   plugins: [
     store => {
       store.dispatch('location/init', INITIAL_STATE)
-      store.dispatch('periodRange/init', INITIAL_STATE)
+      store.dispatch('period/init', INITIAL_STATE)
+      store.dispatch('tweets/init')
       store.dispatch('timeseries/init')
       store.dispatch('compare/first/init', INITIAL_STATE.firstCompareVarId)
       store.dispatch('compare/second/init', INITIAL_STATE.secondCompareVarId)
-      store.dispatch('period/init', INITIAL_STATE)
-      store.commit('setReady', true)
     }
   ]
 })

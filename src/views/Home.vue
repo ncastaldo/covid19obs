@@ -1,17 +1,36 @@
 <template>
-  <v-container>
-    <v-row>
+  <v-container class="pt-0">
+    <v-row class="control">
+      <v-btn
+        icon
+        absolute
+        top
+        right
+        large
+        class="mr-4"
+        :color="showCharts ? 'primary': 'none'"
+        @click="() => {showCharts = !showCharts}"
+      >
+        <v-icon>mdi-poll</v-icon>
+      </v-btn>
+      <v-col
+        md="6"
+        sm="12"
+      >
+        <LocationDisplay />
+        <LocationMap v-if="showCharts" />
+      </v-col>
       <v-col
         md="6"
         sm="12"
       >
         <PeriodRangeDisplay />
-        <PeriodRangeSelector />
-        <LocationDisplay />
-        <LocationMap />
+        <PeriodRangeSelector v-if="showCharts" />
       </v-col>
+    </v-row>
+    <v-row>
       <v-col
-        md="6"
+        md="12"
         sm="12"
       >
         <Timeseries />
@@ -37,11 +56,20 @@ export default {
     LocationMap,
 
     Timeseries
+  },
+  data () {
+    return {
+      showCharts: false
+    }
   }
 }
 </script>
 
 <style>
+
+.control {
+  background-color: #eee;
+}
 
 .display__icon {
   width: 45px;

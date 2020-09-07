@@ -36,7 +36,9 @@ export default {
       continentMapping: 'location/continentMapping'
     }),
     orderedCompare () {
-      return this.compare.slice().sort((a, b) => b.value - a.value)
+      return this.compare.slice()
+        .sort((a, b) => a.value === null ? 1 : b.value === null ? -1
+          : b.value - a.value)
     },
     config () {
       return {

@@ -189,7 +189,7 @@ export default {
   computed: {
     ...mapGetters({
       timeseries: 'timeseries/getTimeseries',
-      periodRange: 'periodRange/getPeriodRange'
+      periodRange: 'period/getPeriodRange'
     }),
     period () {
       return this.periodRange

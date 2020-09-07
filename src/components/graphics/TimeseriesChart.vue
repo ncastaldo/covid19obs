@@ -125,8 +125,8 @@ export default {
       this.chart = bxChart()
         .selector(`#${this.id}`)
         .padding({ left: 50 })
-        .fnKey(d => new Date(d.datetime))
-        .fnBandValue(d => d.datetime)
+        .fnKey(d => +d.date)
+        .fnBandValue(d => +d.date)
     },
     compose () {
       // nothing

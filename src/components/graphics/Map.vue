@@ -56,7 +56,7 @@ export default {
     styleMapping: Object,
     height: {
       type: Number,
-      default: 400
+      default: 300
     },
     // passing the function in order to reduce overhead
     onClick: {
@@ -143,12 +143,12 @@ export default {
 
 @import "../../../node_modules/leaflet/dist/leaflet.css";
 
-.leaflet-map.leaflet-container{
+.leaflet-map.leaflet-container {
     z-index: 1;
     background-color:#ddd;
 }
 
-.leaflet-map.leaflet-container path{
+.leaflet-map.leaflet-container path {
   transition: fill .5s;
 }
 
