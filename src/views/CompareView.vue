@@ -6,7 +6,7 @@
         sm="12"
       >
         <PeriodDisplay />
-        <PeriodSelector />
+        <periodBrush />
         <LocationListMap />
       </v-col>
       <v-col
@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import PeriodSelector from '../components/control/PeriodSelector'
+import periodBrush from '../components/control/periodBrush'
 import PeriodDisplay from '../components/control/PeriodDisplay'
 
 import LocationListMap from '../components/control/LocationListMap'
@@ -29,7 +29,7 @@ import Compare from '../components/Compare'
 
 export default {
   components: {
-    PeriodSelector,
+    periodBrush,
     PeriodDisplay,
     LocationListMap,
     Compare

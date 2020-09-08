@@ -1,6 +1,6 @@
 <template>
   <PeriodBrushChart
-    id="period-selector"
+    id="period-brush"
     :periodData="periodData"
     :brushDomain="brushDomain"
     :config="config"

@@ -3,7 +3,7 @@ import WORLD from '../assets/map/world.json'
 import { schemeCategory10 } from 'd3-scale-chromatic'
 
 const fnContinentId = c => c
-  ? c.replace(/[^\w\s]|_/g, '').replace(/\s+/g, '_').toLowerCase()
+  ? c.replace(/[^\w\s]|_/g, '').replace(/\s+/g, '_').toUpperCase()
   : ''
 
 const locationList = WORLD.features
@@ -16,33 +16,38 @@ const locationList = WORLD.features
     geometry: f.geometry
   }))
 
-const continentMapping = {
-  asia: schemeCategory10[2],
-  south_america: schemeCategory10[3],
-  africa: schemeCategory10[4],
-  europe: schemeCategory10[0],
-  north_america: schemeCategory10[1],
-  oceania: schemeCategory10[5],
-  seven_seas_open_ocean: schemeCategory10[6]
-}
-
-const continentList = locationList.map(({ continentId, continentName }) => ({ continentId, continentName }))
-  .filter(({ continentId }) => continentId)// not the world
-  .filter((l, i, array) => array.findIndex(t => t.continentId === l.continentId) === i)
-  .map((c, i) => ({ ...c, color: continentMapping[c.continentId] }))
-
-console.log(continentList.map(c => c.continentId))
-
 locationList.push({
   locationId: '_WORLD',
   locationName: 'World',
+  continentId: '_WORLD_CONTINENT',
+  continentName: 'World',
   geometry: null
 })
 
-const continents = continentList
-  .reduce((continents, c) => ({
-    ...continents,
-    [c.continentId]: c
+const continentMapping = {
+  _WORLD: schemeCategory10[7],
+  ASIA: schemeCategory10[2],
+  SOUTH_AMERICA: schemeCategory10[3],
+  AFRICA: schemeCategory10[4],
+  EUROPE: schemeCategory10[0],
+  NORTH_AMERICA: schemeCategory10[1],
+  OCEANIA: schemeCategory10[5],
+  SEVEN_SEAS_OPEN_OCEAN: schemeCategory10[6]
+}
+
+const continents = locationList
+  .filter(({ continentId }) => continentId)// not the world
+  .reduce((acc, { continentId, continentName, ...rest }) => ({
+    ...acc,
+    [continentId]: {
+      continentId,
+      continentName,
+      color: continentMapping[continentId],
+      locations: [
+        ...(continentId in acc ? acc[continentId].locations : []),
+        rest
+      ]
+    }
   }), {})
 
 const locations = locationList
@@ -74,6 +79,8 @@ const getters = {
   getContinents: ({ continents }) => Object.values(continents),
 
   getLocation: ({ locations, locationId }) => locations[locationId],
+  getContinent: ({ continents }, getters) => continents[getters.getLocation.continentId],
+
   getLocationList: ({ locations, locationIdList }) => locationIdList.map(id => locations[id]),
 
   getLocationInfo: ({ locations }) => locationId => locations[locationId]

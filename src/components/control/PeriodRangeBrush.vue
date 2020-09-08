@@ -1,6 +1,6 @@
 <template>
   <PeriodBrushChart
-    id="period-range-selector"
+    id="period-range-brush"
     :periodData="tweets"
     :brushDomain="brushDomain"
     :config="config"
