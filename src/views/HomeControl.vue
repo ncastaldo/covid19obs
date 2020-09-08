@@ -1,19 +1,25 @@
 <template>
-  <div class="control">
+  <v-card color="#eee">
+    <v-btn
+
+      absolute
+      fab
+      right
+      bottom
+
+      class="btn-fix mr-4"
+      :color="showCharts ? 'primary': 'none'"
+      @click="() => {showCharts = !showCharts}"
+    >
+      <v-icon
+        dark
+        medium
+      >
+        mdi-poll
+      </v-icon>
+    </v-btn>
     <v-container>
       <v-row>
-        <v-btn
-          icon
-          absolute
-          top
-          right
-          large
-          class="mr-4 mt-3"
-          :color="showCharts ? 'primary': 'none'"
-          @click="() => {showCharts = !showCharts}"
-        >
-          <v-icon>mdi-poll</v-icon>
-        </v-btn>
         <v-col
           md="6"
           sm="12"
@@ -25,17 +31,17 @@
           md="6"
           sm="12"
         >
-          <PeriodRangeDisplay />
+          <PeriodRangeSelector />
           <periodRangeBrush v-if="showCharts" />
         </v-col>
       </v-row>
     </v-container>
-  </div>
+  </v-card>
 </template>
 
 <script>
 
-import PeriodRangeDisplay from '../components/control/PeriodRangeDisplay'
+import PeriodRangeSelector from '../components/control/PeriodRangeSelector'
 import periodRangeBrush from '../components/control/PeriodRangeBrush'
 
 import LocationSelector from '../components/control/LocationSelector'
@@ -43,7 +49,7 @@ import LocationMap from '../components/control/LocationMap'
 
 export default {
   components: {
-    PeriodRangeDisplay,
+    PeriodRangeSelector,
     periodRangeBrush,
     LocationSelector,
     LocationMap
@@ -56,10 +62,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
-.control {
-  background-color: #eee;
+.btn-fix:focus::before {
+  opacity: 0 !important;
 }
 
 </style>

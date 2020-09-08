@@ -12,7 +12,6 @@
       item-text="continentName"
       return-object
       style="width: 180px"
-      color="#444"
     >
       <template
         v-slot:selection="data"
@@ -27,13 +26,12 @@
       item-value="locationId"
       item-text="locationName"
       style="width: 180px"
-      color="#444"
     >
       <template
         v-slot:selection="data"
       >
         <img
-          width="40"
+          width="50"
           :src="`https://flagcdn.com/${data.item.flagId.toLowerCase()}.svg`"
           class="pr-3"
         >

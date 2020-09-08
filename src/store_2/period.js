@@ -13,7 +13,11 @@ const mutations = {
 const getters = {
   getPeriods: ({ periods }) => Object.values(periods),
   getPeriod: ({ periods, periodId }) => periods[periodId],
-  getPeriodRange: ({ periods, periodIdRange }) => periodIdRange.map(id => periods[id])
+  getPeriodRange: ({ periods, periodIdRange }) => periodIdRange.map(id => periods[id]),
+  getPeriodRangeStep: ({ periods, periodIdRange }) => {
+    const [i, j] = periodIdRange.map(id => periods[id].index)
+    return Math.abs(i - j)
+  }
 }
 
 // same as periodRange
@@ -29,6 +33,7 @@ const actions = {
         periodId: +date,
         periodName: capitalize(date.toLocaleString('en', { month: 'long', year: 'numeric' })),
         periodISO: date.toISOString().slice(0, 7), // 2020-08###
+        index: i,
         from: +date,
         to: i < array.length - 1 ? +array[i + 1] : Number.POSITIVE_INFINITY
       }))

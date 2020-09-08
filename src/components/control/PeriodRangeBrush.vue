@@ -1,6 +1,6 @@
 <template>
   <PeriodBrushChart
-    id="period-range-brush"
+    id="period-range-selector"
     :periodData="tweets"
     :brushDomain="brushDomain"
     :config="config"
@@ -14,7 +14,7 @@ import { mapGetters, mapActions } from 'vuex'
 
 const config = {
   minStep: 0,
-  maxStep: 1,
+  maxStep: 2,
   color: '#2877b8'
 }
 

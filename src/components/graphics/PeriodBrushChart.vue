@@ -61,6 +61,9 @@ export default {
       this.drawChart()
         .then(() => this.fillBars(this.brushDomain))
         .catch(() => {})
+    },
+    brushDomain () {
+      this.fillBars(this.brushDomain)
     }
   },
   mounted () {
