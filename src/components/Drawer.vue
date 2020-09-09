@@ -3,7 +3,7 @@
     v-model="drawer"
     app
     disable-resize-watcher
-    mobile-break-point="0"
+    mobile-breakpoint="0"
     temporary
   >
     <v-list

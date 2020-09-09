@@ -135,7 +135,8 @@ export default {
 <style>
 
 .period-brush-chart rect.selection {
-  fill-opacity: 0;
+  /*fill-opacity: 1;*/
+  fill: rgb(31, 121, 179)
 }
 
 .period-brush-chart rect{

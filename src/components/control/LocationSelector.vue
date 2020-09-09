@@ -1,6 +1,6 @@
 <template>
-  <div class="d-flex align-center py-2">
-    <div class="display__icon pr-3">
+  <div class="d-flex align-center">
+    <div class="display__icon mx-3">
       <v-icon large>
         mdi-map
       </v-icon>
@@ -34,6 +34,7 @@
           width="50"
           :src="`https://flagcdn.com/${data.item.flagId.toLowerCase()}.svg`"
           class="pr-3"
+          @error="onError"
         >
         <h2>{{ data.item.locationName }}</h2>
       </template>
@@ -44,6 +45,7 @@
           width="30"
           :src="`https://flagcdn.com/${data.item.flagId.toLowerCase()}.svg`"
           class="pr-2"
+          @error="onError"
         >
         {{ data.item.locationName }}
       </template>
@@ -86,6 +88,11 @@ export default {
       return this.location && this.location.flagId && this.location.flagId !== '-99'
         ? fnFlagUrl(this.location.flagId)
         : null
+    }
+  },
+  methods: {
+    onError (e) {
+      e.target.src = 'assets/static_img/flag.svg'
     }
   }
 }

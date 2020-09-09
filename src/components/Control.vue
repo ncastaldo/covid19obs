@@ -24,15 +24,19 @@
           md="6"
           sm="12"
         >
-          <LocationSelector />
-          <LocationMap v-if="showCharts" />
+          <v-card class="pa-2">
+            <LocationSelector />
+            <LocationMap v-if="showCharts" />
+          </v-card>
         </v-col>
         <v-col
           md="6"
           sm="12"
         >
-          <PeriodRangeSelector />
-          <periodRangeBrush v-if="showCharts" />
+          <v-card class="pa-2">
+            <PeriodRangeSelector />
+            <periodRangeBrush v-if="showCharts" />
+          </v-card>
         </v-col>
       </v-row>
     </v-container>

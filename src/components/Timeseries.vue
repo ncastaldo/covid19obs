@@ -12,7 +12,13 @@
         <h4>{{ t.name }}</h4>
       </v-tab>
     </v-tabs>
-    <component :is="currentTab.is" />
+    <div style="position: relative">
+      <Background />
+      <component
+        :is="currentTab.is"
+        style="position: relative"
+      />
+    </div>
   </div>
 </template>
 

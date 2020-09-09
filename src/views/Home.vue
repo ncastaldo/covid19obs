@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HomeControl />
+    <Control />
 
     <v-container>
       <v-row>
@@ -16,12 +16,12 @@
 </template>
 
 <script>
-import HomeControl from './HomeControl'
+import Control from '../components/Control'
 import Timeseries from '../components/Timeseries'
 
 export default {
   components: {
-    HomeControl,
+    Control,
     Timeseries
   }
 
