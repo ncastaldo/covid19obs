@@ -45,7 +45,7 @@ import { mapGetters } from 'vuex'
 import { hierarchy } from 'd3-hierarchy'
 import { sum } from 'd3-array'
 import { stack } from 'd3-shape'
-import { circles, texts, bxBars, bxLine, bxCircles, brStackBars } from 'd3nic'
+import { circles, bxBars, bxLine, bxCircles, brStackBars } from 'd3nic'
 
 import {
   barsMouseover,

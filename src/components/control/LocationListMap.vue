@@ -12,7 +12,7 @@
 import Map from '../graphics/Map'
 import LocationListSelector from './LocationListSelector'
 
-import { mapGetters, mapActions, mapMutations } from 'vuex'
+import { mapGetters, mapMutations } from 'vuex'
 
 const BASE_STYLE = {
   fillColor: '#999'

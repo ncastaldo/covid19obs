@@ -149,7 +149,7 @@ export default {
 }
 
 .leaflet-map.leaflet-container path {
-  transition: fill .5s;
+  transition: fill .25s;
 }
 
 </style>

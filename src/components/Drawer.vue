@@ -29,7 +29,10 @@
         :to="item.link"
         link
       >
-        {{ item.title }}
+        <v-list-item-icon>
+          <v-icon v-text="item.icon" />
+        </v-list-item-icon>
+        <v-list-item-title v-text="item.title" />
       </v-list-item>
     </v-list>
   </v-navigation-drawer>
@@ -43,11 +46,18 @@ export default {
       items: [
         {
           title: 'Home',
-          link: '/'
+          link: '/',
+          icon: 'mdi-home'
         },
         {
           title: 'Compare',
-          link: '/compare'
+          link: '/compare',
+          icon: 'mdi-scatter-plot'
+        },
+        {
+          title: 'Details',
+          link: '/details',
+          icon: 'mdi-info'
         }
       ]
     }

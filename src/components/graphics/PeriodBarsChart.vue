@@ -5,7 +5,7 @@
   >
     <svg
       :id="id"
-      class="period-brush-chart"
+      class="period-bars-chart"
     />
   </ChartsContainer>
 </template>
@@ -16,15 +16,10 @@ import { timeFormat } from 'd3-time-format'
 import {
   bxChart,
   bxAxisX,
-  bxBars,
-  bxBrush
+  bxBars
 } from 'd3nic'
 
 const fnDateFormat = timeFormat('%b %y')
-
-// function to check if inside
-const isInside = (brushDomain, d) =>
-  d.periodId >= brushDomain[0] && d.periodId <= brushDomain[1]
 
 export default {
   props: {
@@ -37,7 +32,7 @@ export default {
       type: Object,
       default: () => ({ top: 0, left: 25, right: 25, bottom: 25 })
     },
-    brushDomain: Array,
+    periodId: Number,
     periodData: Array,
     config: Object
   },
@@ -46,24 +41,13 @@ export default {
       chart: null,
 
       xAxis: null,
-      bars: null,
-      brush: null
+      bars: null
     }
   },
   watch: {
     config () {
       // should update also min and max, for the moment ok this way
-      this.fillBars(this.brushDomain)
-    },
-    periodData () {
-      this.chart.data(this.periodData)
-
-      this.drawChart()
-        .then(() => this.fillBars(this.brushDomain))
-        .catch(() => {})
-    },
-    brushDomain () {
-      this.fillBars(this.brushDomain)
+      this.fillBars(this.periodId)
     }
   },
   mounted () {
@@ -74,10 +58,9 @@ export default {
     this.update()
 
     this.chart.data(this.periodData)
-    this.brush.brushDomain(this.brushDomain)
 
     this.drawChart()
-      .then(() => this.fillBars(this.brushDomain))
+      .then(() => this.fillBars(this.periodId))
       .catch(() => {})
   },
   methods: {
@@ -93,17 +76,12 @@ export default {
             .style('opacity', 0))
       this.bars = bxBars()
         .fnLowValue(d => 0)
-        .fnHighValue(d => d.value)
+        .fnHighValue(d => 1)
         .fnFill(d => '#aeaeae')
-        // .fnBefore(s => s.classed('period-selector__bars', true))
-      this.brush = bxBrush()
-        .minStep(this.config.minStep)
-        .maxStep(this.config.maxStep)
-        .fnOn('brushDomain', (event, bd) => {
-          this.fillBars(bd)
-          this.$emit('brushDomain', bd)
+        .fnOn('click', (event, d) => {
+          this.fillBars(d.periodId)
+          this.$emit('click', d.periodId)
         })
-        .fnOn('endDomain', (event, bd) => this.$emit('endDomain', bd))
     },
     createChart () {
       this.chart = bxChart()
@@ -113,13 +91,14 @@ export default {
         .fnBandValue(d => d.periodId)
     },
     update () {
-      this.chart.components([this.xAxis, this.bars, this.brush])
+      this.chart.components([this.xAxis, this.bars])
     },
-    fillBars (brushDomain) {
+    fillBars (periodId) {
       // join on bars
       this.bars.join()
-        .style('fill', d => isInside(brushDomain, d)
-          ? this.config.color : null)
+        .style('fill', d => d.periodId === periodId
+          ? this.config.color
+          : null)
     },
     drawChart () {
       // wait for ChartsContainer
@@ -134,18 +113,13 @@ export default {
 
 <style>
 
-.period-brush-chart rect.selection {
-  fill-opacity: 0;
-  fill: rgb(31, 121, 179)
+.period-bars-chart rect:hover {
+  cursor: pointer;
+  fill-opacity: 0.8;
 }
 
-.period-brush-chart rect.handle {
-  fill-opacity: 0;
-  fill: rgb(31, 121, 179)
-}
-
-.period-brush-chart rect{
-  transition: fill .0s ;
+.period-bars-chart rect {
+  transition: fill .25s ;
 }
 
 </style>

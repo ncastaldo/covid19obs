@@ -23,7 +23,7 @@
 <script>
 import BubbleHover from './BubbleHover'
 
-import { hierarchy, pack } from 'd3-hierarchy'
+import { pack } from 'd3-hierarchy'
 
 import {
   chart

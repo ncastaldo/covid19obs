@@ -1,16 +1,16 @@
 <template>
-  <PeriodBrushChart
-    id="period-brush"
+  <PeriodBarsChart
+    id="period-bars"
     :periodData="periodData"
-    :brushDomain="brushDomain"
+    :periodId="period.periodId"
     :config="config"
     :height="60"
-    @endDomain="(bd) => setPeriodId(bd[0])"
+    @click="setPeriodId"
   />
 </template>
 
 <script>
-import PeriodBrushChart from '../graphics/PeriodBrushChart'
+import PeriodBarsChart from '../graphics/PeriodBarsChart'
 import { mapGetters, mapMutations } from 'vuex'
 
 const config = {
@@ -21,7 +21,7 @@ const config = {
 
 export default {
   components: {
-    PeriodBrushChart
+    PeriodBarsChart
   },
   data () {
     return { config }
@@ -32,10 +32,6 @@ export default {
       period: 'period/getPeriod',
       compareVar: 'compare/first/getCompareVar'
     }),
-    brushDomain () {
-      return [this.period, this.period]
-        .map(p => p.periodId)
-    },
     periodData () {
       return this.periods.map(({ periodId }) => ({ periodId, value: 1 }))
     }
