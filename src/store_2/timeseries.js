@@ -32,8 +32,10 @@ const actions = {
     // fetching the timeseries
     fetch(timeseriesUrl)
       .then(res => res.text())
-      .then(data => fnTimeseriesParser.parse(data))
-      .then(data => data.map(d => ({ ...d, date: Date.parse(d.datetime) })))
+      .then(data => fnTimeseriesParser.parse(data, d => ({
+        ...d,
+        date: Date.parse(d.datetime)
+      })))
       .then(ts => { commit('setFullTimeseries', ts) })
   }
 }

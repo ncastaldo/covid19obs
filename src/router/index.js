@@ -8,6 +8,7 @@ import VueRouter from 'vue-router'
 
 import Home from '../views/Home'
 import CompareView from '../views/CompareView'
+import DetailsView from '../views/DetailsView'
 
 Vue.use(VueRouter)
 
@@ -20,13 +21,16 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
-    // name: 'Observatory',
-    // component: Observatory
   },
   {
     path: '/compare',
     name: 'Compare',
     component: CompareView
+  },
+  {
+    path: '/details',
+    name: 'DetailsView',
+    component: DetailsView
   }
   /* {
     path: '/project',
