@@ -10,16 +10,26 @@
         :id="id"
       />
     </ChartsContainer>
-    <Tooltip />
+    <Tooltip>
+      <ArcHover
+        :hover="hover"
+        :fnTooltips="config.fnTooltips || null"
+      />
+    </Tooltip>
   </div>
 </template>
 
 <script>
+import ArcHover from './ArcHover'
+
 import {
   brChart
 } from 'd3nic'
 
 export default {
+  components: {
+    ArcHover
+  },
   props: {
     id: String,
     height: Number,

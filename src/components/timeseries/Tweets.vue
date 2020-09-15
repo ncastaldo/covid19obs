@@ -33,8 +33,8 @@ import { bxBars } from 'd3nic'
 import { stack } from 'd3-shape'
 
 import {
-  barsMouseover,
-  barsMouseout
+  fillOpacityMouseover,
+  fillOpacityMouseout
 } from '../../plugins/graphics'
 
 const typeConfig = {
@@ -46,22 +46,22 @@ const typeConfig = {
       .fnLowValue(d => d.stack_info_tweets_T[0])
       .fnHighValue(d => d.stack_info_tweets_T[1])
       .fnFill(d => '#045a8d')
-      .fnOn('mouseover', barsMouseover)
-      .fnOn('mouseout', barsMouseout),
+      .fnOn('mouseover', fillOpacityMouseover)
+      .fnOn('mouseout', fillOpacityMouseout),
     bxBars()
       .fnDefined(d => d.info_tweets_RT != null)
       .fnLowValue(d => d.stack_info_tweets_RT[0])
       .fnHighValue(d => d.stack_info_tweets_RT[1])
       .fnFill(d => '#2b8cbe')
-      .fnOn('mouseover', barsMouseover)
-      .fnOn('mouseout', barsMouseout),
+      .fnOn('mouseover', fillOpacityMouseover)
+      .fnOn('mouseout', fillOpacityMouseout),
     bxBars()
       .fnDefined(d => d.info_tweets_RE != null)
       .fnLowValue(d => d.stack_info_tweets_RE[0])
       .fnHighValue(d => d.stack_info_tweets_RE[1])
       .fnFill(d => '#74a9cf')
-      .fnOn('mouseover', barsMouseover)
-      .fnOn('mouseout', barsMouseout)
+      .fnOn('mouseover', fillOpacityMouseover)
+      .fnOn('mouseout', fillOpacityMouseout)
   ],
   fnTooltips: d => [
     { name: 'T', value: d.info_tweets_T, color: '#045a8d', formatType: '.3s' },
@@ -79,15 +79,15 @@ const localConfig = {
       .fnLowValue(d => d.stack_info_tweets_local[0])
       .fnHighValue(d => d.stack_info_tweets_local[1])
       .fnFill(d => '#238b45')
-      .fnOn('mouseover', barsMouseover)
-      .fnOn('mouseout', barsMouseout),
+      .fnOn('mouseover', fillOpacityMouseover)
+      .fnOn('mouseout', fillOpacityMouseout),
     bxBars()
       .fnDefined(d => d.info_tweets_foreign != null)
       .fnLowValue(d => d.stack_info_tweets_foreign[0])
       .fnHighValue(d => d.stack_info_tweets_foreign[1])
       .fnFill(d => '#74c476')
-      .fnOn('mouseover', barsMouseover)
-      .fnOn('mouseout', barsMouseout)
+      .fnOn('mouseover', fillOpacityMouseover)
+      .fnOn('mouseout', fillOpacityMouseout)
   ],
   fnTooltips: d => [
     { name: 'Local', value: d.info_tweets_local, color: '#238b45', formatType: '.3s' },

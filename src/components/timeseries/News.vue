@@ -42,14 +42,13 @@ import ArcChart from './../graphics/ArcChart'
 
 import { mapGetters } from 'vuex'
 
-import { hierarchy } from 'd3-hierarchy'
 import { sum } from 'd3-array'
 import { stack } from 'd3-shape'
 import { circles, bxBars, bxLine, bxCircles, brStackBars } from 'd3nic'
 
 import {
-  barsMouseover,
-  barsMouseout,
+  fillOpacityMouseover,
+  fillOpacityMouseout,
   opacityMouseover,
   opacityMouseout
 } from '../../plugins/graphics'
@@ -63,15 +62,15 @@ const config = {
       .fnHighValue(d => +d.info_fact_reliable)
       .fnLowValue(d => 0)
       .fnFill(d => '#018571')
-      .fnOn('mouseover', barsMouseover)
-      .fnOn('mouseout', barsMouseout),
+      .fnOn('mouseover', fillOpacityMouseover)
+      .fnOn('mouseout', fillOpacityMouseout),
     bxBars()
       .fnDefined(d => +d.info_fact_unreliable != null)
       .fnHighValue(d => -d.info_fact_unreliable)
       .fnLowValue(d => 0)
       .fnFill(d => '#8856A7')
-      .fnOn('mouseover', barsMouseover)
-      .fnOn('mouseout', barsMouseout),
+      .fnOn('mouseover', fillOpacityMouseover)
+      .fnOn('mouseout', fillOpacityMouseout),
     bxLine()
       .fnDefined(d => +d.info_fact_reliable != null)
       .fnValue(d => +d.info_fact_reliable - +d.info_fact_unreliable)
@@ -96,34 +95,6 @@ const config = {
   ]
 }
 
-const newsObject = {
-  key: 'root',
-  color: '#eee',
-  values: [
-    {
-      key: 'reliable',
-      name: 'Reliable News',
-      color: '#d9f0d3',
-      values: [
-        { key: 'info_fact_msm', name: 'MSM', color: '#5aae61' },
-        { key: 'info_fact_science', name: 'Science', color: '#1b7837' }
-      ]
-    },
-    {
-      key: 'unreliable',
-      name: 'Unreliable News',
-      color: '#e7d4e8',
-      values: [
-        { key: 'info_fact_conspiracy', name: 'Conspiracy', color: '#40004b' },
-        { key: 'info_fact_fake', name: 'Fake', color: '#762a83' },
-        { key: 'info_fact_clickbait', name: 'Clickbait', color: '#9970ab' },
-        { key: 'info_fact_political', name: 'Political', color: '#c2a5cf' },
-        { key: 'info_fact_satire', name: 'Satire', color: '#e7d4e8' }
-      ]
-    }
-  ]
-}
-
 const news = [
   { key: 'info_fact_msm', name: 'MSM', color: '#5aae61' },
   { key: 'info_fact_science', name: 'Science', color: '#1b7837' },
@@ -143,28 +114,6 @@ export default {
   data () {
     return {
       config,
-      bubbleConfig: {
-        id: 'bubble-news',
-        fnComponents: () => [
-          circles()
-            .fnCenterX(d => d.pack.x)
-            .fnCenterY(d => d.pack.y)
-            .fnRadius(d => d.pack.r)
-            .fnFill(d => d.color)// d.color)
-            .fnStroke(d => '#000')
-            .fnStrokeWidth(d => d.pack.depth > 1 ? 1 : 0)
-            .fnOn('mouseover.opacity', barsMouseover)
-            .fnOn('mouseout.opacity', barsMouseout)
-            .fnOn('mouseover', this.$refs.BubbleChart.onMouseover)
-            .fnOn('mouseout', this.$isMobile() || this.$refs.BubbleChart.onMouseout)
-          /* texts()
-      .fnTransform(d => `translate(${d.pack.x},${d.pack.y})`)
-      .fnText(d => d.name)
-      .fnFill(d => '#000') */
-        ],
-        fnTooltips: d => [
-        ]
-      },
       arcConfig: {
         id: 'arc-news',
         bandPaddingInner: 0.5,
@@ -176,13 +125,16 @@ export default {
             .fnHighValue(d => d.stack[1])
             .fnStroke(d => '#000')
             .fnStrokeWidth(d => 0)
-            .fnOn('mouseover.opacity', barsMouseover)
-            .fnOn('mouseout.opacity', barsMouseout)
+            .fnOn('mouseover.opacity', fillOpacityMouseover)
+            .fnOn('mouseout.opacity', fillOpacityMouseout)
             .fnOn('mouseover', this.$refs.BubbleChart.onMouseover)
             .fnOn('mouseout', this.$isMobile() || this.$refs.BubbleChart.onMouseout)
             .phi(0)
         ],
-        fnTooltips: d => []
+        fnTooltips: d => [
+          { name: 'Pct.', value: d.pct, formatType: '.2%' },
+          { name: 'Tot.', value: d.value, formatType: '.3s' }
+        ]
       }
     }
   },
@@ -196,34 +148,16 @@ export default {
         .map(pr => pr.periodName)
         .join(' - ')
     },
-    newsRoot () {
-      const children = newsObject.values
-        .map(c => ({
-          ...c,
-          children: c.values.map(d => ({
-            ...d,
-            value: sum(this.timeseries, ts => ts[d.key]),
-            period: this.period
-          }))
-            .map(d => ({
-              ...d,
-              packValue: d.value// Math.sqrt(d.value)
-            }))
-        }))
-
-      // pack
-      const root = hierarchy({ ...newsObject, children })
-        .sum(d => d.packValue) // accessor function
-        .sort((a, b) => a.packValue - b.packValue) // accessor function
-
-      return root
-    },
     arcData () {
       const arcValues = news.map(d => ({
         ...d,
         value: sum(this.timeseries, ts => ts[d.key])
         // period: this.period
       }))
+
+      const tot = sum(arcValues, d => d.value) || 1
+
+      arcValues.forEach(d => { d.pct = d.value / tot })
 
       // function to stack
       const fnStack = stack()

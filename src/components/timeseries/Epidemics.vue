@@ -44,8 +44,8 @@ import {
 } from '../../assets/variables'
 
 import {
-  barsMouseover,
-  barsMouseout
+  fillOpacityMouseover,
+  fillOpacityMouseout
 } from '../../plugins/graphics'
 
 // forcing the accessor value to be equal to the 'id'
@@ -61,8 +61,8 @@ const getConfig = ({ id, accessor, name, formatType, color }) => ({
       .fnLowValue(d => 0)
       .fnHighValue(d => d[accessor])
       .fnFill(d => color)
-      .fnOn('mouseover', barsMouseover)
-      .fnOn('mouseout', barsMouseout)
+      .fnOn('mouseover', fillOpacityMouseover)
+      .fnOn('mouseout', fillOpacityMouseout)
   ],
   fnTooltips: d => [
     { name, value: d[accessor], color, formatType: '.3s' }

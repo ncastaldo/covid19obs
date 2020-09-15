@@ -8,7 +8,7 @@
       v-for="d in hexagons"
       :key="`${d.x}_${d.y}`"
       :d="d.path"
-      stroke-width="1"
+      stroke-width="0"
       stroke="#fff"
       :fill="d.color"
     />

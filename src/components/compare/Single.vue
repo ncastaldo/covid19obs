@@ -19,8 +19,8 @@ import CompareVarSelector from '../control/CompareVarSelector'
 import CompareSingleChart from '../graphics/CompareSingleChart'
 
 import {
-  barsMouseover,
-  barsMouseout
+  fillOpacityMouseover,
+  fillOpacityMouseout
 } from '../../plugins/graphics'
 
 export default {
@@ -53,8 +53,8 @@ export default {
             .fnLowValue(d => this.compareVar.minValue)
             .fnHighValue(d => d.value)
             .fnFill(d => d.continentColor)
-            .fnOn('mouseover', barsMouseover)
-            .fnOn('mouseout', barsMouseout)
+            .fnOn('mouseover', fillOpacityMouseover)
+            .fnOn('mouseout', fillOpacityMouseout)
         ],
         fnTooltips: d => [{
           name: this.compareVar.compareVarName,
