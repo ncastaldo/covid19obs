@@ -25,7 +25,7 @@
       :items="locations"
       item-value="locationId"
       item-text="locationName"
-      style="width: 180px"
+      style="width: 180px;"
     >
       <template
         v-slot:selection="data"

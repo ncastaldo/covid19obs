@@ -23,8 +23,8 @@ import {
 const fnDateFormat = timeFormat('%b %y')
 
 // function to check if inside
-const isInside = (brushDomain, d) =>
-  d.periodId >= brushDomain[0] && d.periodId <= brushDomain[1]
+const isInside = (bandDomain, d) =>
+  d.periodId >= bandDomain[0] && d.periodId <= bandDomain[1]
 
 export default {
   props: {
@@ -37,7 +37,7 @@ export default {
       type: Object,
       default: () => ({ top: 0, left: 25, right: 25, bottom: 25 })
     },
-    brushDomain: Array,
+    bandDomain: Array,
     periodData: Array,
     config: Object
   },
@@ -53,17 +53,19 @@ export default {
   watch: {
     config () {
       // should update also min and max, for the moment ok this way
-      this.fillBars(this.brushDomain)
+      this.fillBars(this.bandDomain)
     },
     periodData () {
       this.chart.data(this.periodData)
 
       this.drawChart()
-        .then(() => this.fillBars(this.brushDomain))
+        .then(() => this.fillBars(this.bandDomain))
         .catch(() => {})
     },
-    brushDomain () {
-      this.fillBars(this.brushDomain)
+    bandDomain (bandDomain) {
+      this.brush.bandDomain(bandDomain).snap()
+
+      this.fillBars(bandDomain)
     }
   },
   mounted () {
@@ -74,10 +76,10 @@ export default {
     this.update()
 
     this.chart.data(this.periodData)
-    this.brush.brushDomain(this.brushDomain)
+    this.brush.bandDomain(this.bandDomain)
 
     this.drawChart()
-      .then(() => this.fillBars(this.brushDomain))
+      .then(() => this.fillBars(this.bandDomain))
       .catch(() => {})
   },
   methods: {
@@ -97,13 +99,13 @@ export default {
         .fnFill(d => '#aeaeae')
         // .fnBefore(s => s.classed('period-selector__bars', true))
       this.brush = bxBrush()
-        .minStep(this.config.minStep)
-        .maxStep(this.config.maxStep)
-        .fnOn('brushDomain', (event, bd) => {
+        .bandMinStep(this.config.bandMinStep)
+        .bandMaxStep(this.config.bandMaxStep)
+        .fnOn('brushBandDomain', (event, bd) => {
           this.fillBars(bd)
-          this.$emit('brushDomain', bd)
+          this.$emit('brushBandDomain', bd)
         })
-        .fnOn('endDomain', (event, bd) => this.$emit('endDomain', bd))
+        .fnOn('endBandDomain', (event, bd) => this.$emit('endBandDomain', bd))
     },
     createChart () {
       this.chart = bxChart()
@@ -115,10 +117,10 @@ export default {
     update () {
       this.chart.components([this.xAxis, this.bars, this.brush])
     },
-    fillBars (brushDomain) {
+    fillBars (bandDomain) {
       // join on bars
       this.bars.join()
-        .style('fill', d => isInside(brushDomain, d)
+        .style('fill', d => isInside(bandDomain, d)
           ? this.config.color : null)
     },
     drawChart () {
@@ -135,7 +137,7 @@ export default {
 <style>
 
 .period-brush-chart rect.selection {
-  fill-opacity: 0;
+  fill-opacity: 0.3;
   fill: rgb(31, 121, 179)
 }
 

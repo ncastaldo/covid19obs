@@ -54,6 +54,14 @@ export default {
   props: {
     id: String,
     styleMapping: Object,
+    mapZoom: {
+      type: Number,
+      default: 1
+    },
+    mapCenter: {
+      type: Object,
+      default: () => latLng(41.90, 12.49)
+    },
     height: {
       type: Number,
       default: 300
@@ -73,9 +81,6 @@ export default {
       mapMaxBounds: latLngBounds([[-65, -180], [90, 180]]),
 
       mapOptions: { scrollWheelZoom: false },
-
-      mapZoom: 3,
-      mapCenter: latLng(41.90, 12.49),
 
       geoJsonOptions: {
         onEachFeature: (feature, layer) =>

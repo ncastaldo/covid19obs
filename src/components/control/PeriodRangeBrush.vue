@@ -1,10 +1,10 @@
 <template>
   <PeriodBrushChart
-    id="period-range-selector"
+    id="period-range-brush"
     :periodData="tweets"
-    :brushDomain="brushDomain"
+    :bandDomain="bandDomain"
     :config="config"
-    @endDomain="setPeriodIdRange"
+    @endBandDomain="setPeriodIdRange"
   />
 </template>
 
@@ -13,8 +13,8 @@ import PeriodBrushChart from '../graphics/PeriodBrushChart'
 import { mapGetters, mapActions } from 'vuex'
 
 const config = {
-  minStep: 0,
-  maxStep: 2,
+  bandMinStep: 0,
+  bandMaxStep: 2,
   color: '#2877b8'
 }
 
@@ -33,7 +33,7 @@ export default {
       periodRange: 'period/getPeriodRange',
       tweets: 'tweets/getTweets'
     }),
-    brushDomain () {
+    bandDomain () {
       return this.periodRange.map(p => p.periodId)
     }
   },
