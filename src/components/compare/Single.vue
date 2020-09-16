@@ -53,6 +53,7 @@ export default {
             .fnLowValue(d => this.compareVar.minValue)
             .fnHighValue(d => d.value)
             .fnFill(d => d.continentColor)
+            .fnFillOpacity(0.9)
             .fnOn('mouseover', fillOpacityMouseover)
             .fnOn('mouseout', fillOpacityMouseout)
         ],

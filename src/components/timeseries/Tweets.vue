@@ -64,9 +64,9 @@ const typeConfig = {
       .fnOn('mouseout', fillOpacityMouseout)
   ],
   fnTooltips: d => [
-    { name: 'T', value: d.info_tweets_T, color: '#045a8d', formatType: '.3s' },
-    { name: 'RT', value: d.info_tweets_RT, color: '#2b8cbe', formatType: '.3s' },
-    { name: 'RE', value: d.info_tweets_RE, color: '#74a9cf', formatType: '.3s' }
+    { name: 'Tweets', value: d.info_tweets_T, color: '#045a8d', formatType: '.3s' },
+    { name: 'Retweets', value: d.info_tweets_RT, color: '#2b8cbe', formatType: '.3s' },
+    { name: 'Replies', value: d.info_tweets_RE, color: '#74a9cf', formatType: '.3s' }
   ].reverse()
 }
 

@@ -3,14 +3,15 @@
     id="location-set-selector-map"
     :styleMapping="styleMapping"
     :onClick="onClick"
+    :height="400"
   >
-    <LocationListSelector />
+    <LocationPresets />
   </Map>
 </template>
 
 <script>
 import Map from '../graphics/Map'
-import LocationListSelector from './LocationListSelector'
+import LocationPresets from './LocationPresets'
 
 import { mapGetters, mapMutations } from 'vuex'
 
@@ -21,7 +22,7 @@ const BASE_STYLE = {
 export default {
   components: {
     Map,
-    LocationListSelector
+    LocationPresets
   },
   computed: {
     ...mapGetters({

@@ -2,6 +2,9 @@
   <div
     class="pa-0 ma-0"
   >
+    <Legend
+      :fnTooltips="() => arcData"
+    />
     <ChartsContainer
       :charts="[chart]"
       :height="height"

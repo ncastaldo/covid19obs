@@ -1,11 +1,11 @@
 <template>
-  <div class="d-flex align-center">
-    <div class="display__icon mx-3">
+  <div class="d-flex align-center justify-space-between flex-wrap">
+    <div class="display__icon mx-2">
       <v-icon large>
         mdi-calendar
       </v-icon>
     </div>
-    <div>
+    <div class="mx-2">
       <v-btn
         v-for="item in stepItems.reverse()"
         :key="item.step"
@@ -20,6 +20,7 @@
     </div>
     <v-select
       v-model="toPeriod"
+      class="mx-2"
       :items="periods"
       item-value="periodId"
       item-text="periodName"
@@ -29,7 +30,7 @@
       <template
         v-slot:selection="data"
       >
-        <h2>{{ data.item.periodName }}</h2>
+        <h3>{{ data.item.periodName }}</h3>
       </template>
     </v-select>
   </div>

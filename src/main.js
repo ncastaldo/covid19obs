@@ -7,6 +7,7 @@ import vuetify from './plugins/vuetify'
 
 import ChartsContainer from './components/base/ChartsContainer'
 import Tooltip from './components/base/Tooltip'
+import Legend from './components/base/Legend'
 
 import Background from './components/Background'
 
@@ -19,6 +20,7 @@ Vue.use(VueMobileDetection)
 
 Vue.component('ChartsContainer', ChartsContainer)
 Vue.component('Tooltip', Tooltip)
+Vue.component('Legend', Legend)
 
 Vue.component('Background', Background)
 

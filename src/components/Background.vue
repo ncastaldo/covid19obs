@@ -6,20 +6,22 @@
     width="100%"
     height="100%"
   >
-    <g opacity="0.2">
+    <g opacity="0.1">
       <path
         v-for="l in locationPaths"
         :key="l.locationId"
         :d="l.path"
-        :fill="inContinent(l) ? '#aaa' : 'none'"
-        :stroke-width="inContinent(l) ? 0 : 0.5"
-        stroke="#aaa"
+        :stroke-width="0.5"
+        fill="#ddd"
+        stroke="#999"
       />
       <circle
-        :cx="circle.cx"
-        :cy="circle.cy"
-        :r="circle.r"
-        fill="rgb(31, 121, 179)"
+        v-for="(c, i) in circles"
+        :key="i"
+        :cx="c.cx"
+        :cy="c.cy"
+        :r="c.r"
+        :fill="c.color"
       />
     </g>
   </svg>
@@ -31,6 +33,9 @@ import { mapGetters } from 'vuex'
 import { geoMercator, geoPath, geoCentroid } from 'd3-geo'
 
 export default {
+  props: {
+    locationList: Array
+  },
   data () {
     return {
       fnProjection: geoMercator(),
@@ -40,15 +45,17 @@ export default {
   },
   computed: {
     ...mapGetters({
-      locations: 'location/getLocations',
-      location: 'location/getLocation',
-      continent: 'location/getContinent'
+      locations: 'location/getLocations'
     }),
-    circle () {
-      if (!this.location.geometry) { return { cx: 0, cy: 0, r: 0 } }
-      const [cx, cy] = this.fnProjection(geoCentroid(this.location.geometry))
+    isWorld () {
+      return this.locationList.length === 1 && !this.locationList[0].geometry
+    },
+    circles () {
+      if (this.isWorld) { return [{ cx: 0, cy: 0, r: 0 }] }
       const r = 10
-      return { cx, cy, r }
+      return this.locationList
+        .map(l => [...this.fnProjection(geoCentroid(l.geometry)), l.continentColor])
+        .map(([cx, cy, color]) => ({ cx, cy, r, color }))
     },
     world () {
       return {
@@ -57,7 +64,7 @@ export default {
       }
     }
   },
-  mounted () {
+  created () {
     this.fnProjection.fitSize([500, 300], this.world)
     this.fnGeoPath.projection(this.fnProjection)
 
@@ -66,14 +73,6 @@ export default {
         ...l,
         path: this.fnGeoPath(l.geometry)
       }))
-
-    console.log(this.locationPaths)
-  },
-  methods: {
-    inContinent (l) {
-      return this.location.locationId === '_WORLD' ||
-      l.continentId === this.continent.continentId
-    }
   }
 }
 </script>

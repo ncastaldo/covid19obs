@@ -1,7 +1,6 @@
 <template>
   <v-card color="#eee">
     <v-btn
-
       absolute
       fab
       right
@@ -22,7 +21,7 @@
       <v-row>
         <v-col
           md="6"
-          sm="12"
+          cols="12"
         >
           <v-card class="pa-2">
             <LocationSelector />
@@ -31,7 +30,7 @@
         </v-col>
         <v-col
           md="6"
-          sm="12"
+          cols="12"
         >
           <v-card class="pa-2">
             <PeriodRangeSelector />

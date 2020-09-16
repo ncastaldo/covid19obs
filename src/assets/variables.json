@@ -23,7 +23,7 @@
   },
   "epiConfirmedNew": {
     "id": "epi_confirmed_new",
-    "name": "Avg. daily cases",
+    "name": "Daily cases",
     "color": "#e34a33",
     "scaleType": "scaleLog",
     "formatType": ".1s",
@@ -45,7 +45,7 @@
   },
   "epiDeadNew": {
     "id": "epi_dead_new",
-    "name": "Avg. daily deaths",
+    "name": "Daily deaths",
     "color": "#8856a7",
     "scaleType": "scaleLog",
     "formatType": ".1s",
@@ -67,7 +67,7 @@
   },
   "infoRiskIndex": {
     "id": "info_risk_index",
-    "name": "Avg. risk Index",
+    "name": "Infodemic Risk Index",
     "color": "#2877b8",
     "scaleType": "scaleLinear",
     "formatType": ".2f",

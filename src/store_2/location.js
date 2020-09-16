@@ -2,6 +2,17 @@ import WORLD from '../assets/map/world.json'
 
 import { schemeCategory10 } from 'd3-scale-chromatic'
 
+const continentMapping = {
+  _WORLD: { color: schemeCategory10[7], name: 'World' },
+  ASIA: { color: schemeCategory10[2], name: 'Asia' },
+  SOUTH_AMERICA: { color: schemeCategory10[3], name: 'South America' },
+  AFRICA: { color: schemeCategory10[4], name: 'Africa' },
+  EUROPE: { color: schemeCategory10[0], name: 'Europe' },
+  NORTH_AMERICA: { color: schemeCategory10[1], name: 'North America' },
+  OCEANIA: { color: schemeCategory10[5], name: 'Oceania' },
+  SEVEN_SEAS_OPEN_OCEAN: { color: schemeCategory10[6], name: 'Seven Seas' }
+}
+
 const fnContinentId = c => c
   ? c.replace(/[^\w\s]|_/g, '').replace(/\s+/g, '_').toUpperCase()
   : ''
@@ -11,9 +22,13 @@ const locationList = WORLD.features
     locationId: f.properties.ADM0_A3, // adm0_a3,
     locationName: f.properties.ADMIN, // admin,
     continentId: fnContinentId(f.properties.CONTINENT),
-    continentName: f.properties.CONTINENT,
     flagId: f.properties.WB_A2,
     geometry: f.geometry
+  }))
+  .map(l => ({
+    ...l,
+    continentName: continentMapping[l.continentId].name,
+    continentColor: continentMapping[l.continentId].color
   }))
 
 locationList.push({
@@ -21,42 +36,28 @@ locationList.push({
   locationName: 'World',
   continentId: '_WORLD_CONTINENT',
   continentName: 'World',
+  continentColor: '#444',
+  flagId: '',
   geometry: null
 })
-
-const continentMapping = {
-  _WORLD: schemeCategory10[7],
-  ASIA: schemeCategory10[2],
-  SOUTH_AMERICA: schemeCategory10[3],
-  AFRICA: schemeCategory10[4],
-  EUROPE: schemeCategory10[0],
-  NORTH_AMERICA: schemeCategory10[1],
-  OCEANIA: schemeCategory10[5],
-  SEVEN_SEAS_OPEN_OCEAN: schemeCategory10[6]
-}
-
-const continents = locationList
-  .filter(({ continentId }) => continentId)// not the world
-  .reduce((acc, { continentId, continentName, ...rest }) => ({
-    ...acc,
-    [continentId]: {
-      continentId,
-      continentName,
-      color: continentMapping[continentId],
-      locations: [
-        ...(continentId in acc ? acc[continentId].locations : []),
-        rest
-      ]
-    }
-  }), {})
 
 const locations = locationList
   .reduce((locations, l) => ({
     ...locations,
-    [l.locationId]: {
-      ...l,
-      continentColor: l.continentId in continents
-        ? continents[l.continentId].color : '#444'
+    [l.locationId]: l
+  }), {})
+
+const continents = locationList
+  .reduce((acc, { continentId, continentName, continentColor, ...rest }) => ({
+    ...acc,
+    [continentId]: {
+      continentId,
+      continentName,
+      continentColor,
+      locations: [
+        ...(continentId in acc ? acc[continentId].locations : []),
+        rest
+      ]
     }
   }), {})
 

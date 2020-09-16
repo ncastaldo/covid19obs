@@ -1,25 +1,26 @@
 <template>
-  <div>
-    <v-tabs
-      v-model="index"
-      fixed-tabs
-      show-arrows
-    >
-      <v-tab
-        v-for="(t, i) in tabs"
-        :key="i"
-      >
-        <h4>{{ t.name }}</h4>
-      </v-tab>
-    </v-tabs>
-    <div style="position: relative">
-      <Background />
-      <component
-        :is="currentTab.is"
-        style="position: relative"
-      />
-    </div>
-  </div>
+  <v-container>
+    <v-row>
+      <v-col>
+        <v-tabs
+          v-model="index"
+          fixed-tabs
+          show-arrows
+        >
+          <v-tab
+            v-for="(t, i) in tabs"
+            :key="i"
+          >
+            <h4>{{ t.name }}</h4>
+          </v-tab>
+        </v-tabs>
+        <div style="position: relative">
+          <Background :locationList="[location]" />
+          <component :is="currentTab.is" />
+        </div>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
@@ -27,6 +28,7 @@ import Epidemics from './timeseries/Epidemics'
 import Tweets from './timeseries/Tweets'
 import RiskIndexes from './timeseries/RiskIndexes'
 import News from './timeseries/News'
+import { mapGetters } from 'vuex'
 
 const tabs = [
   { name: 'Epidemics', is: 'Epidemics' },
@@ -50,6 +52,9 @@ export default {
     }
   },
   computed: {
+    ...mapGetters({
+      location: 'location/getLocation'
+    }),
     currentTab () {
       return tabs[this.index]
     }

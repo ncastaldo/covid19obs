@@ -1,42 +1,42 @@
 <template>
-  <div class="d-flex align-center">
-    <div class="display__icon mx-3">
+  <div class="d-flex align-center justify-space-between flex-wrap">
+    <div class="display__icon mx-2">
       <v-icon large>
         mdi-map
       </v-icon>
     </div>
     <v-select
       v-model="continent"
+      class="mx-2"
       :items="continents"
       item-value="continentId"
       item-text="continentName"
       return-object
-      style="width: 180px"
     >
       <template
         v-slot:selection="data"
       >
-        <h2>{{ data.item.continentName }}</h2>
+        <h3>
+          {{ data.item.continentName }}
+        </h3>
       </template>
     </v-select>
     <v-select
       v-if="locations"
       v-model="location"
+      class="mx-2"
       :items="locations"
       item-value="locationId"
       item-text="locationName"
-      style="width: 180px;"
     >
       <template
         v-slot:selection="data"
       >
-        <img
-          width="50"
-          :src="`https://flagcdn.com/${data.item.flagId.toLowerCase()}.svg`"
-          class="pr-3"
-          @error="onError"
+        <h3
+          class="overflow"
         >
-        <h2>{{ data.item.locationName }}</h2>
+          {{ data.item.locationName }}
+        </h3>
       </template>
       <template
         v-slot:item="data"
@@ -50,6 +50,14 @@
         {{ data.item.locationName }}
       </template>
     </v-select>
+    <img
+      v-if="location.flagId"
+      width="50"
+      class="mx-2"
+      :src="`https://flagcdn.com/${location.flagId.toLowerCase()}.svg`"
+
+      @error="onError"
+    >
   </div>
 </template>
 
@@ -98,7 +106,17 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+
+.overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.v-select__selections input {
+  display: none;
+}
 
 /*img {
   border: 1px solid #000;

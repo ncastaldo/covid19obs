@@ -6,7 +6,7 @@ import VueRouter from 'vue-router'
 // import Project from '../views/Project'
 // import Contacts from '../views/Contacts'
 
-import Home from '../views/Home'
+import HomeView from '../views/HomeView'
 import CompareView from '../views/CompareView'
 import DetailsView from '../views/DetailsView'
 
@@ -20,7 +20,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: HomeView
   },
   {
     path: '/compare',
