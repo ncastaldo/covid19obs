@@ -14,6 +14,7 @@
           cols="12"
         >
           <v-card class="pa-2">
+            <LocationListSelectors />
             <LocationListMap />
           </v-card>
         </v-col>
@@ -27,6 +28,7 @@
 import PeriodDisplay from '../components/control/PeriodDisplay'
 import PeriodSelector from '../components/control/PeriodSelector'
 
+import LocationListSelectors from '../components/control/LocationListSelectors'
 import LocationListMap from '../components/control/LocationListMap'
 
 export default {
@@ -34,6 +36,7 @@ export default {
     PeriodDisplay,
     PeriodSelector,
 
+    LocationListSelectors,
     LocationListMap
   }
 }
