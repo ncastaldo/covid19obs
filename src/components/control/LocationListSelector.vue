@@ -1,0 +1,102 @@
+<template>
+  <v-menu
+    offset-y
+    :close-on-content-click="false"
+  >
+    <template v-slot:activator="{ on, attrs }">
+      <v-btn
+        v-bind="attrs"
+        :color="color"
+        dark
+        tile
+
+        v-on="on"
+      >
+        <span class="mr-2">{{ name }}</span>
+        <span>{{ model.length }}</span>
+      </v-btn>
+    </template>
+    <v-list
+      class="overflow-y-auto"
+      max-height="300"
+    >
+      <v-list-item-group
+        v-model="model"
+        multiple
+      >
+        <v-list-item
+          v-for="l in locations"
+          :key="l.locationId"
+          :color="color"
+        >
+          <v-list-item-title>{{ l.locationName }}</v-list-item-title>
+        </v-list-item>
+      </v-list-item-group>
+    </v-list>
+  </v-menu>
+</template>
+
+<script>
+
+const fnFlagUrl = id => `https://flagcdn.com/32x24/${id.toLowerCase()}.png`
+// const fnFlagUrl = id => `https://www.countryflags.io/${id}/flat/64.png`
+
+export default {
+  props: {
+    // array of locations
+    name: String,
+    color: String,
+    locations: {
+      type: Array,
+      default: () => []
+    },
+    // array of locationId
+    value: Array
+  },
+  computed: {
+    locationMapping () {
+      return this.locations.reduce((acc, l, i) => ({
+        ...acc,
+        [l.locationId]: i
+      }), {})
+    },
+    model: {
+      get () { return this.value.map(locationId => this.locationMapping[locationId]) },
+      set (indices) { this.$emit('input', indices.map(i => this.locations[i].locationId)) }
+    },
+    flagUrl () {
+      return this.location && this.location.flagId && this.location.flagId !== '-99'
+        ? fnFlagUrl(this.location.flagId)
+        : null
+    }
+  },
+  methods: {
+    change (continent, locationIndices) {
+      const locationIdList = Object.entries(this.continentMapping)
+        .filter(([continentId]) => continentId !== continent.continentId)
+        .map(([continentId, indices], j, continents) => indices.map(idx => continents[j].locations[idx].locationId))
+        .flat()
+
+      console.log(locationIdList)
+      this.setLocationIdList([
+        ...locationIdList,
+        ...locationIndices
+          .map((idx) => continent.locations
+            .filter(l => l.idx === idx)
+            .map(l => l.locationId)).flat()
+      ])
+    },
+    onError (e) {
+      e.target.src = 'assets/static_img/flag.svg'
+    }
+  }
+}
+</script>
+
+<style scoped>
+
+.black {
+  color: black
+}
+
+</style>

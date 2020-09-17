@@ -105,7 +105,7 @@ export default {
         .map(c => c.fnValue(d => d.value)
           .fnStrokeWidth(d => 1)
           .fnStrokeDasharray(d => [2, 2])
-          .fnOpacity(d => 0.3))
+          .fnOpacity(d => 0.1))
     },
     createComponents () {
       this.components = this.config.fnComponents()
