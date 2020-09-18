@@ -106,7 +106,7 @@ export default {
           .fnStroke('#000')
           .fnStrokeWidth(1)
           .fnStrokeDasharray([2, 2])
-          .fnOpacity(0.1))
+          .fnOpacity(0))
     },
     createComponents () {
       this.components = this.config.fnComponents()

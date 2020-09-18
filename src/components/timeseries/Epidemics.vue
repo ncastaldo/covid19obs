@@ -20,12 +20,13 @@
       </v-btn-toggle>
     </div>
     <TimeseriesChart
-      v-for="cfg in configs"
+      v-for="(cfg,i) in configs"
       :id="cfg.id"
       :key="cfg.id"
       :height="200"
       :timeseries="timeseries"
       :config="cfg"
+      :transition="{duration: 500, delay: i*250}"
     />
   </div>
 </template>

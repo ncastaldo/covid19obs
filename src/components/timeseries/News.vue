@@ -15,19 +15,10 @@
       :timeseries="timeseries"
       :config="config"
     />
-    <BubbleChart
-      v-if="false"
-      :id="bubbleConfig.id"
-      :key="bubbleConfig.id"
-      ref="BubbleChart"
-      :height="300"
-      :root="newsRoot"
-      :config="bubbleConfig"
-    />
     <ArcChart
       :id="arcConfig.id"
       :key="arcConfig.id"
-      ref="BubbleChart"
+      ref="arcChart"
       :height="300"
       :arcData="arcData"
       :config="arcConfig"
@@ -37,14 +28,13 @@
 
 <script>
 import TimeseriesChart from './../graphics/TimeseriesChart'
-import BubbleChart from './../graphics/BubbleChart'
 import ArcChart from './../graphics/ArcChart'
 
 import { mapGetters } from 'vuex'
 
 import { sum } from 'd3-array'
 import { stack } from 'd3-shape'
-import { circles, bxBars, bxLine, bxCircles, brStackBars } from 'd3nic'
+import { bxBars, bxLine, bxCircles, brStackBars } from 'd3nic'
 
 import {
   fillOpacityMouseover,
@@ -108,7 +98,6 @@ const news = [
 export default {
   components: {
     TimeseriesChart,
-    BubbleChart,
     ArcChart
   },
   data () {
@@ -125,10 +114,10 @@ export default {
             .fnHighValue(d => d.stack[1])
             .fnStroke(d => '#000')
             .fnStrokeWidth(d => 0)
-            .fnOn('mouseover.opacity', fillOpacityMouseover)
-            .fnOn('mouseout.opacity', fillOpacityMouseout)
-            .fnOn('mouseover', this.$refs.BubbleChart.onMouseover)
-            .fnOn('mouseout', this.$isMobile() || this.$refs.BubbleChart.onMouseout)
+            .fnOn('mouseover', this.$refs.arcChart.onMouseover)
+            .fnOn('mouseout', this.$refs.arcChart.onMouseout)
+            .fnOn('mouseover.fill-opacity', fillOpacityMouseover)
+            .fnOn('mouseout.fill-opacity', fillOpacityMouseout)
             .phi(0)
         ],
         fnTooltips: d => [
