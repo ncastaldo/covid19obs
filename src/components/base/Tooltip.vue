@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { throttle } from 'lodash'
+import { debounce } from 'lodash'
 
 export default {
   name: 'Tooltip',
@@ -26,9 +26,9 @@ export default {
     this.$parent.$el.addEventListener('mousemove', this.mousemove)
   },
   methods: {
-    deprecated: throttle(function (event) {
-      this.moveTooltip(event)
-    }, 20),
+    deprecated: debounce(function (event) {
+      this.mousemove(event)
+    }, 10),
     mousemove (event) {
       this.show = true
       const [top, bottom] = // window.innerHeight / 2 - event.clientY > 0 ?

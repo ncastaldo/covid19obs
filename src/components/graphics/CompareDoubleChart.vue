@@ -103,9 +103,10 @@ export default {
     createCrossLines () {
       this.crossLines = [xyLinesH(), xyLinesV()]
         .map(c => c.fnValue(d => d.value)
-          .fnStrokeWidth(d => 1)
-          .fnStrokeDasharray(d => [2, 2])
-          .fnOpacity(d => 0.1))
+          .fnStroke('#000')
+          .fnStrokeWidth(1)
+          .fnStrokeDasharray([2, 2])
+          .fnOpacity(0.1))
     },
     createComponents () {
       this.components = this.config.fnComponents()
