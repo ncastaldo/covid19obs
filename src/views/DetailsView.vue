@@ -1,9 +1,9 @@
 <template>
   <div>
     <svg
-      viewBox="0 0 500 400"
+      viewBox="0 0 500 500"
       width="500px"
-      height="400px"
+      height="500px"
     >
       <path
         v-for="d in hexagons"
@@ -82,51 +82,20 @@ export default {
       const ctx = this.$refs.canvas.getContext('2d')
       const hexagon = this.fnHexbin.hexagon()
 
-      const draw = d => {
-        // ctx.save()
-
-        ctx.moveTo(d.x, d.y)
-
+      for (const d of hexPoints) {
         ctx.beginPath()
-        // ctx.stroke(hex)
         ctx.fillStyle = d.color
         ctx.fill(new Path2D('M' + d.x + ',' + d.y + hexagon))
-
-        // ctx.restore()
       }
-
-      const zoomed = transform => {
-        ctx.save()
-        ctx.clearRect(0, 0, 500, 500)
-        ctx.translate(transform.x, transform.y)
-        ctx.scale(transform.k, transform.k)
-        for (const d of hexPoints) {
-          ctx.moveTo(d.x, d.y)
-
-          ctx.beginPath()
-          // ctx.stroke(hex)
-          ctx.fillStyle = d.color
-          ctx.fill(new Path2D('M' + d.x + ',' + d.y + hexagon))
-        }
-        ctx.restore()
-      }
-
-      select(ctx.canvas).call(zoom()
-        .scaleExtent([1, 8])
-        .on('zoom', ({ transform }) => zoomed(transform)))
-
-      hexPoints.forEach(draw)
-
-      zoomed(zoomIdentity)
 
       // console.log(sum(hexPoints, d => d.value))
 
       // console.log(fnColor.domain())
 
-      this.hexagons = []/* hexPoints.map(d => ({
+      /* this.hexagons = hexPoints.map(d => ({
         ...d,
         color: fnColor(d.value),
-        path: 'M' + d.x + ',' + d.y + this.fnHexbin.hexagon()
+        path: 'M' + d.x + ',' + d.y + hexagon
       })) */
     }
   },

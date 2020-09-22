@@ -29,12 +29,14 @@
 import TimeseriesChart from './../graphics/TimeseriesChart'
 import { mapGetters } from 'vuex'
 
-import { bxBars } from 'd3nic'
+import { bxBars, bxLine, bxArea, bxLines, bxCircles } from 'd3nic'
 import { stack } from 'd3-shape'
 
 import {
   fillOpacityMouseover,
-  fillOpacityMouseout
+  fillOpacityMouseout,
+  opacityMouseover,
+  opacityMouseout
 } from '../../plugins/graphics'
 
 const typeConfig = {
@@ -72,25 +74,57 @@ const typeConfig = {
 
 const localConfig = {
   id: 'local-tweets',
-  formatType: '~s',
+  bandPaddingInner: 1,
+  formatType: '.0%',
   fnComponents: () => [
-    bxBars()
+    bxArea()
+      .fnDefined(d => d.info_tweets_local_pct != null)
+      .fnLowValue(0)
+      .fnHighValue(d => d.info_tweets_local_pct)
+      .fnFill('#238b45')
+      .fnFillOpacity(0.5),
+    bxArea()
       .fnDefined(d => d.info_tweets_local != null)
-      .fnLowValue(d => d.stack_info_tweets_local[0])
-      .fnHighValue(d => d.stack_info_tweets_local[1])
-      .fnFill(d => '#238b45')
-      .fnOn('mouseover', fillOpacityMouseover)
-      .fnOn('mouseout', fillOpacityMouseout),
-    bxBars()
-      .fnDefined(d => d.info_tweets_foreign != null)
-      .fnLowValue(d => d.stack_info_tweets_foreign[0])
-      .fnHighValue(d => d.stack_info_tweets_foreign[1])
-      .fnFill(d => '#74c476')
-      .fnOn('mouseover', fillOpacityMouseover)
-      .fnOn('mouseout', fillOpacityMouseout)
+      .fnLowValue(d => d.info_tweets_local_pct)
+      .fnHighValue(1)
+      .fnFill('#74c476')
+      .fnFillOpacity(0.5),
+    bxLine()
+      .fnValue(0.5)
+      .fnFillOpacity(0)
+      .fnStrokeWidth(2)
+      .fnStroke('#878787')
+      .fnStrokeDasharray([6, 2]),
+    bxLines()
+      .fnDefined(d => d.info_tweets_local_pct != null)
+      .fnLowValue(d => 0.5)
+      .fnHighValue(d => d.info_tweets_local_pct)
+      .fnFillOpacity(d => 0)
+      .fnStrokeWidth(d => 2)
+      .fnStroke(d => '#878787')
+      .fnStrokeDasharray(d => [2, 2])
+      .fnOpacity(d => 0)
+      .fnOn('mouseover', opacityMouseover)
+      .fnOn('mouseout', opacityMouseout),
+    bxLine()
+      .fnDefined(d => d.info_tweets_local_pct != null)
+      .fnValue(d => d.info_tweets_local_pct)
+      .fnStroke('#111')
+      .fnStrokeWidth(2)
+      .fnFillOpacity(0),
+
+    bxCircles()
+      .fnDefined(d => d.info_tweets_local_pct != null)
+      .fnValue(d => d.info_tweets_local_pct)
+      .fnFill('#111')
+      .fnRadius(d => 5)
+      .fnStrokeWidth(d => 0)
+      .fnOpacity(d => 0)
+      .fnOn('mouseover', opacityMouseover)
+      .fnOn('mouseout', opacityMouseout)
   ],
   fnTooltips: d => [
-    { name: 'Local', value: d.info_tweets_local, color: '#238b45', formatType: '.3s' },
+    { name: 'Local', value: d.info_tweets_local, color: '#1C8571', formatType: '.3s' },
     { name: 'Foreign', value: d.info_tweets_foreign, color: '#74c476', formatType: '.3s' }
   ].reverse()
 }
@@ -124,23 +158,12 @@ export default {
       }))
     },
     localTimeseries () {
-      const ts = this.timeseries.map((d, i) => ({
+      return this.timeseries.map((d, i) => ({
         ...d,
-        info_tweets_foreign: d.info_tweets_local !== null
-          ? d.info_tweets - d.info_tweets_local
-          : d.info_tweets
-      }))
-      const keys = ['info_tweets_local', 'info_tweets_foreign']
-      const fnStack = stack().keys(keys)
-      const stackedData = fnStack(ts)
-      return ts.map((d, i) => ({
-        ...d,
-        ...keys.reduce((acc, k, j) => ({
-          ...acc,
-          [`stack_${k}`]: ts.length // considering []
-            ? stackedData[j][i].filter((_, i) => i <= 1)
-            : 0
-        }), {})
+        info_tweets_foreign: +d.info_tweets - +d.info_tweets_local,
+        info_tweets_local_pct: d.info_tweets !== null && d.info_tweets > 0
+          ? d.info_tweets_local / (+d.info_tweets)
+          : null
       }))
     }
   }

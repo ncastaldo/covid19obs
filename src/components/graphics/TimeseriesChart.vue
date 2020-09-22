@@ -136,6 +136,7 @@ export default {
       // this.yAxis.tickFormat(format(this.chartConfig.yFormat))
       this.yAxis.tickFormatType(this.config.formatType)
       this.chart
+        .bandPaddingInner(this.config.bandPaddingInner || 0)
         .contScaleType(this.config.scaleType)
         .contBaseDomain(this.config.baseDomain)
         .contFixedDomain(this.config.fixedDomain)
