@@ -1,11 +1,12 @@
 <template>
   <v-select
     v-model="compareVar"
+    class="px-3"
     :items="compareVars"
     item-value="compareVarId"
     item-text="compareVarName"
     hide-details
-    style="width: 180px"
+    style="max-width: 300px"
     color="#444"
   />
 </template>

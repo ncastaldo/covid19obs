@@ -80,7 +80,7 @@ export default {
     createChart () {
       this.chart = brChart()
         .selector(`#${this.id}`)
-        .padding(this.padding)
+        .padding({ top: 20, bottom: 0 })
         .fnKey(d => d.key)
     },
     compose () {

@@ -1,6 +1,8 @@
 <template>
   <div>
-    <CompareVarSelector />
+    <div class="d-flex justify-center">
+      <CompareVarSelector />
+    </div>
     <CompareSingleChart
       :id="config.id"
       :height="400"

@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="text-justify">
-      <div class="headline">
+    <div class="text-justify py-2">
+      <div class="headline py-1">
         Tweets
       </div>
-      <div class="">
-        Collected tweets divided by Tweets, Retweets and Replies (todo)
+      <div class="py-1">
+        Collected tweets divided by Tweets, Retweets and Replies and their distribution based on the language
       </div>
     </div>
     <TimeseriesChart
@@ -47,21 +47,21 @@ const typeConfig = {
       .fnDefined(d => d.info_tweets_T != null)
       .fnLowValue(d => d.stack_info_tweets_T[0])
       .fnHighValue(d => d.stack_info_tweets_T[1])
-      .fnFill(d => '#045a8d')
+      .fnFill('#045a8d')
       .fnOn('mouseover', fillOpacityMouseover)
       .fnOn('mouseout', fillOpacityMouseout),
     bxBars()
       .fnDefined(d => d.info_tweets_RT != null)
       .fnLowValue(d => d.stack_info_tweets_RT[0])
       .fnHighValue(d => d.stack_info_tweets_RT[1])
-      .fnFill(d => '#2b8cbe')
+      .fnFill('#2b8cbe')
       .fnOn('mouseover', fillOpacityMouseover)
       .fnOn('mouseout', fillOpacityMouseout),
     bxBars()
       .fnDefined(d => d.info_tweets_RE != null)
       .fnLowValue(d => d.stack_info_tweets_RE[0])
       .fnHighValue(d => d.stack_info_tweets_RE[1])
-      .fnFill(d => '#74a9cf')
+      .fnFill('#74a9cf')
       .fnOn('mouseover', fillOpacityMouseover)
       .fnOn('mouseout', fillOpacityMouseout)
   ],

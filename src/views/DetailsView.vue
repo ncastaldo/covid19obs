@@ -38,7 +38,9 @@ import { scaleSequentialSymlog } from 'd3-scale'
 
 import { mapGetters } from 'vuex'
 
-const geohashUrl = '/assets/geohash/geohash_ITA.csv'
+const iso = 'ESP'
+
+const geohashUrl = `/assets/geohash/geohash_${iso}.csv`
 
 export default {
   data () {
@@ -57,7 +59,7 @@ export default {
   },
   watch: {
     geohash () {
-      const { geometry } = this.getLocationInfo('ITA')
+      const { geometry } = this.getLocationInfo(iso)
 
       this.fnProjection.fitExtent([[20, 20], [500 - 20, 500 - 20]], geometry)
 

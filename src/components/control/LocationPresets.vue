@@ -24,9 +24,18 @@
 import { mapMutations } from 'vuex'
 const presets = [
   {
-    presetId: 'benelux',
-    presetName: 'BeNeLux',
-    presetLocationIdList: ['BEL', 'NLD', 'LUX']
+    presetId: 'g8',
+    presetName: 'G8',
+    presetLocationIdList: [
+      'CAN', 'FRA', 'DEU', 'JPN', 'ITA', 'GBR', 'RUS', 'USA'
+    ]
+  },
+  {
+    presetId: 'asean',
+    presetName: 'ASEAN',
+    presetLocationIdList: [
+      'PHL', 'THA', 'MYS', 'IDN', 'SGP', 'BRN', 'KHM', 'VNM', 'LAO', 'MMR'
+    ]
   },
   {
     presetId: 'custom',

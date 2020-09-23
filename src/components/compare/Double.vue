@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="d-flex">
+    <div class="d-flex justify-center">
       <CompareVarSelector module="first" />
       <CompareVarSelector module="second" />
     </div>

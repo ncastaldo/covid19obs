@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="text-justify">
-      <div class="headline">
+    <div class="text-justify py-2">
+      <div class="headline py-1">
         News reliability
       </div>
-      <div class="">
-        Reliable, unreliable
+      <div class="py-1">
+        Reliable and Unreliable news distribution over time
       </div>
     </div>
     <TimeseriesChart

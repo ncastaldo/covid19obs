@@ -1,14 +1,14 @@
 <template>
   <div>
-    <div class="text-justify">
-      <div class="headline">
+    <div class="text-justify py-2">
+      <div class="headline py-1">
         Risk Indexes
       </div>
-      <div class="">
-        IRI, DynIRI, Rt
+      <div class="py-1">
+        Evolution over time of the Dynamic Infodemic Risk Index (DynIRI) and the Infodemic Risk Index (IRI)
       </div>
     </div>
-    <div>
+    <div class="py-3">
       <v-btn-toggle
         v-model="toggle"
         rounded
@@ -16,7 +16,7 @@
         dense
       >
         <v-btn>DYNAMIC IRI</v-btn>
-        <v-btn>STATIC IRI</v-btn>
+        <v-btn>IRI</v-btn>
       </v-btn-toggle>
     </div>
     <TimeseriesChart
