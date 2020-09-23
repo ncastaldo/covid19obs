@@ -20,12 +20,19 @@
       </v-btn-toggle>
     </div>
     <TimeseriesChart
-      v-for="config in configs"
-      :id="config.id"
-      :key="config.id"
+      id="base_iri"
       :height="200"
-      :timeseries="timeseries"
-      :config="config"
+      :timeseries="iriTimereries"
+      :config="baseConfig"
+      :getComponents="getBaseComponents"
+    />
+    <TimeseriesChart
+      v-if="toggle === 0"
+      :id="dynIriTypeConfig.id"
+      :height="200"
+      :timeseries="iriTimereries"
+      :config="dynIriTypeConfig"
+      :getComponents="getDynIriTypeComponents"
     />
   </div>
 </template>
@@ -42,95 +49,75 @@ import { fillOpacityMouseout, fillOpacityMouseover } from '../../plugins/graphic
 
 const fnColor = scaleSequential(['#2b8cbe', '#e34a33'])
 
-console.log(fnColor(0))
-
-const iriConfigs = [
+const baseConfigs = [
   {
-    id: 'mainIri',
+    id: 'dyn_iri',
     formatType: '.2f',
     baseDomain: [0.4, 0.6],
-    fnComponents: () => [
-      bxLine()
-        .fnValue(0.5)
-        .fnFillOpacity(0)
-        .fnStrokeWidth(2)
-        .fnStroke('#878787')
-        .fnStrokeDasharray([6, 2]),
-      bxBars()
-        .fnDefined(d => d.info_risk_index !== null)
-        .fnLowValue(0)
-        .fnHighValue(d => d.info_risk_index)
-        .fnStrokeWidth(0)
-        .fnFill(d => fnColor(d.info_risk_index))
-        .fnOn('mouseover', fillOpacityMouseover)
-        .fnOn('mouseout', fillOpacityMouseout)
-    ],
+    fnTooltips: d => [
+      { name: 'DynIRI', value: d.info_dyn_iri, color: fnColor(d.info_dyn_iri), formatType: '.2f' }
+    ]
+  },
+  {
+    id: 'iri',
+    formatType: '.2f',
+    baseDomain: [0.4, 0.6],
     fnTooltips: d => [
       { name: 'IRI', value: d.info_risk_index, color: fnColor(d.info_risk_index), formatType: '.3f' }
     ]
   }
 ]
 
-const dynIriConfigs = [
-  {
-    id: 'mainIri',
-    formatType: '.2f',
-    baseDomain: [0.4, 0.6],
-    fnComponents: () => [
-      bxLine()
-        .fnValue(0.5)
-        .fnFillOpacity(0)
-        .fnStrokeWidth(2)
-        .fnStroke('#878787')
-        .fnStrokeDasharray([6, 2])
-        .fnOn('mouseover', fillOpacityMouseover)
-        .fnOn('mouseout', fillOpacityMouseout),
-      bxBars()
-        .fnDefined(d => d.info_dyn_iri !== null)
-        .fnLowValue(0)
-        .fnHighValue(d => d.info_dyn_iri)
-        .fnStrokeWidth(0)
-        .fnFill(d => fnColor(d.info_dyn_iri))
-        .fnOn('mouseover', fillOpacityMouseover)
-        .fnOn('mouseout', fillOpacityMouseout)
-    ],
-    fnTooltips: d => [
-      { name: 'DynIRI', value: d.info_dyn_iri, color: fnColor(d.info_dyn_iri), formatType: '.2f' }
-    ]
-  },
-  {
-    id: 'dynIriRT',
-    formatType: '.2f',
-    baseDomain: [0.4, 0.6],
-    fnComponents: () => [
-      bxLine()
-        .fnValue(0.5)
-        .fnFillOpacity(0)
-        .fnStrokeWidth(2)
-        .fnStroke('#878787')
-        .fnStrokeDasharray([6, 2]),
-      bxBars()
-        .fnDefined(d => d.info_dyn_iri_RT !== null)
-        .fnLowValue(0)
-        .fnHighValue(d => d.info_dyn_iri_RT)
-        .fnFillOpacity(0.5)
-        .fnFill('#24A122')
-        .fnOn('mouseover', fillOpacityMouseover)
-        .fnOn('mouseout', fillOpacityMouseout),
-      bxBars()
-        .fnDefined(d => d.info_dyn_iri_RE !== null)
-        .fnLowValue(0)
-        .fnHighValue(d => d.info_dyn_iri_RE)
-        .fnFillOpacity(0.5)
-        .fnFill('#FB7F00')
-        .fnOn('mouseover', fillOpacityMouseover)
-        .fnOn('mouseout', fillOpacityMouseout)
-    ],
-    fnTooltips: d => [
-      { name: 'DynIRI Retweets', value: d.info_dyn_iri_RT, color: '#24A122', formatType: '.2f' },
-      { name: 'DynIRI Replies', value: d.info_dyn_iri_RE, color: '#FB7F00', formatType: '.2f' }
-    ]
-  }
+const getBaseComponents = () => [
+  bxLine()
+    .fnValue(0.5)
+    .fnFillOpacity(0)
+    .fnStrokeWidth(2)
+    .fnStroke('#878787')
+    .fnStrokeDasharray([6, 2]),
+  bxBars()
+    .fnDefined(d => d.base_iri_value !== null)
+    .fnLowValue(0)
+    .fnHighValue(d => d.base_iri_value)
+    .fnStrokeWidth(0)
+    .fnFill(d => fnColor(d.base_iri_value))
+    .fnOn('mouseover', fillOpacityMouseover)
+    .fnOn('mouseout', fillOpacityMouseout)
+]
+
+const dynIriTypeConfig = {
+  id: 'dyn_iri_type',
+  formatType: '.2f',
+  baseDomain: [0.4, 0.6],
+  fnTooltips: d => [
+    { name: 'DynIRI Retweets', value: d.info_dyn_iri_RT, color: '#24A122', formatType: '.2f' },
+    { name: 'DynIRI Replies', value: d.info_dyn_iri_RE, color: '#FB7F00', formatType: '.2f' }
+  ]
+}
+
+const getDynIriTypeComponents = () => [
+  bxLine()
+    .fnValue(0.5)
+    .fnFillOpacity(0)
+    .fnStrokeWidth(2)
+    .fnStroke('#878787')
+    .fnStrokeDasharray([6, 2]),
+  bxBars()
+    .fnDefined(d => d.info_dyn_iri_RT !== null)
+    .fnLowValue(0)
+    .fnHighValue(d => d.info_dyn_iri_RT)
+    .fnFillOpacity(0.5)
+    .fnFill('#24A122')
+    .fnOn('mouseover', fillOpacityMouseover)
+    .fnOn('mouseout', fillOpacityMouseout),
+  bxBars()
+    .fnDefined(d => d.info_dyn_iri_RE !== null)
+    .fnLowValue(0)
+    .fnHighValue(d => d.info_dyn_iri_RE)
+    .fnFillOpacity(0.5)
+    .fnFill('#FB7F00')
+    .fnOn('mouseover', fillOpacityMouseover)
+    .fnOn('mouseout', fillOpacityMouseout)
 ]
 
 export default {
@@ -139,10 +126,10 @@ export default {
   },
   data () {
     return {
-      configList: [
-        dynIriConfigs,
-        iriConfigs
-      ],
+      baseConfigs,
+      dynIriTypeConfig,
+      getBaseComponents,
+      getDynIriTypeComponents,
       toggle: 0
     }
   },
@@ -150,8 +137,15 @@ export default {
     ...mapGetters({
       timeseries: 'timeseries/getTimeseries'
     }),
-    configs () {
-      return this.configList[this.toggle]
+    iriTimereries () {
+      return this.timeseries
+        .map(d => ({
+          ...d,
+          base_iri_value: d[['info_risk_index', 'info_dyn_iri'][this.toggle]]
+        }))
+    },
+    baseConfig () {
+      return this.baseConfigs[this.toggle]
     }
   }
 }

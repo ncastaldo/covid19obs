@@ -9,11 +9,12 @@
       </div>
     </div>
     <TimeseriesChart
-      :id="config.id"
-      :key="config.id"
+      :id="timeseriesConfig.id"
+      :key="timeseriesConfig.id"
       :height="200"
       :timeseries="timeseries"
-      :config="config"
+      :config="timeseriesConfig"
+      :getComponents="getTimeseriesComponents"
     />
     <ArcChart
       :id="arcConfig.id"
@@ -22,6 +23,7 @@
       :height="300"
       :arcData="arcData"
       :config="arcConfig"
+      :getComponents="getArcComponents"
     />
   </div>
 </template>
@@ -43,47 +45,48 @@ import {
   opacityMouseout
 } from '../../plugins/graphics'
 
-const config = {
+const timeseriesConfig = {
   id: 'news',
   formatType: '~s',
-  fnComponents: () => [
-    bxBars()
-      .fnDefined(d => d.info_fact_reliable != null)
-      .fnHighValue(d => +d.info_fact_reliable)
-      .fnLowValue(d => 0)
-      .fnFill(d => '#018571')
-      .fnOn('mouseover', fillOpacityMouseover)
-      .fnOn('mouseout', fillOpacityMouseout),
-    bxBars()
-      .fnDefined(d => +d.info_fact_unreliable != null)
-      .fnHighValue(d => -d.info_fact_unreliable)
-      .fnLowValue(d => 0)
-      .fnFill(d => '#8856A7')
-      .fnOn('mouseover', fillOpacityMouseover)
-      .fnOn('mouseout', fillOpacityMouseout),
-    bxLine()
-      .fnDefined(d => +d.info_fact_reliable != null)
-      .fnValue(d => +d.info_fact_reliable - +d.info_fact_unreliable)
-      .fnFillOpacity(d => 0)
-      .fnStroke(d => '#111')
-      .fnStrokeWidth(d => 2)
-      .fnStrokeDasharray(d => [2, 2]),
-    bxCircles()
-      .fnDefined(d => +d.info_fact_reliable != null)
-      .fnValue(d => +d.info_fact_reliable - +d.info_fact_unreliable)
-      .fnFill(d => '#111')
-      .fnRadius(d => 4)
-      .fnStrokeWidth(d => 0)
-      .fnOpacity(d => 0)
-      .fnOn('mouseover', opacityMouseover)
-      .fnOn('mouseout', opacityMouseout)
-  ],
   fnTooltips: d => [
     { name: 'Reliable', value: +d.info_fact_reliable, color: '#018571', formatType: '.3s' },
     { name: 'Unreliable', value: +d.info_fact_unreliable, color: '#8856A7', formatType: '.3s' },
     { name: 'Difference', value: +d.info_fact_reliable - +d.info_fact_unreliable, color: '#111', formatType: '.3s' }
   ]
 }
+
+const getTimeseriesComponents = () => [
+  bxBars()
+    .fnDefined(d => d.info_fact_reliable != null)
+    .fnHighValue(d => +d.info_fact_reliable)
+    .fnLowValue(d => 0)
+    .fnFill(d => '#018571')
+    .fnOn('mouseover', fillOpacityMouseover)
+    .fnOn('mouseout', fillOpacityMouseout),
+  bxBars()
+    .fnDefined(d => +d.info_fact_unreliable != null)
+    .fnHighValue(d => -d.info_fact_unreliable)
+    .fnLowValue(d => 0)
+    .fnFill(d => '#8856A7')
+    .fnOn('mouseover', fillOpacityMouseover)
+    .fnOn('mouseout', fillOpacityMouseout),
+  bxLine()
+    .fnDefined(d => +d.info_fact_reliable != null)
+    .fnValue(d => +d.info_fact_reliable - +d.info_fact_unreliable)
+    .fnFillOpacity(d => 0)
+    .fnStroke(d => '#111')
+    .fnStrokeWidth(d => 2)
+    .fnStrokeDasharray(d => [2, 2]),
+  bxCircles()
+    .fnDefined(d => +d.info_fact_reliable != null)
+    .fnValue(d => +d.info_fact_reliable - +d.info_fact_unreliable)
+    .fnFill(d => '#111')
+    .fnRadius(d => 4)
+    .fnStrokeWidth(d => 0)
+    .fnOpacity(d => 0)
+    .fnOn('mouseover', opacityMouseover)
+    .fnOn('mouseout', opacityMouseout)
+]
 
 const news = [
   { key: 'info_fact_msm', name: 'MSM', color: '#5aae61' },
@@ -102,29 +105,30 @@ export default {
   },
   data () {
     return {
-      config,
+      timeseriesConfig,
+      getTimeseriesComponents,
       arcConfig: {
         id: 'arc-news',
         bandPaddingInner: 0.5,
         bandPaddingOuter: 0,
-        fnComponents: () => [
-          brStackBars()
-            .fnFill(d => d.color)// d.color)
-            .fnLowValue(d => d.stack[0])
-            .fnHighValue(d => d.stack[1])
-            .fnStroke(d => '#000')
-            .fnStrokeWidth(d => 0)
-            .fnOn('mouseover', this.$refs.arcChart.onMouseover)
-            .fnOn('mouseout', this.$refs.arcChart.onMouseout)
-            .fnOn('mouseover.fill-opacity', fillOpacityMouseover)
-            .fnOn('mouseout.fill-opacity', fillOpacityMouseout)
-            .phi(0)
-        ],
         fnTooltips: d => [
           { name: 'Pct.', value: d.pct, formatType: '.2%' },
           { name: 'Tot.', value: d.value, formatType: '.3s' }
         ]
-      }
+      },
+      getArcComponents: () => [
+        brStackBars()
+          .fnFill(d => d.color)// d.color)
+          .fnLowValue(d => d.stack[0])
+          .fnHighValue(d => d.stack[1])
+          .fnStroke(d => '#000')
+          .fnStrokeWidth(d => 0)
+          .fnOn('mouseover', this.$refs.arcChart.onMouseover)
+          .fnOn('mouseout', this.$refs.arcChart.onMouseout)
+          .fnOn('mouseover.fill-opacity', fillOpacityMouseover)
+          .fnOn('mouseout.fill-opacity', fillOpacityMouseout)
+          .phi(0)
+      ]
     }
   },
   computed: {

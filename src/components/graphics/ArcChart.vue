@@ -37,7 +37,8 @@ export default {
     id: String,
     height: Number,
     arcData: Array,
-    config: Object
+    config: Object,
+    getComponents: Function
   },
   data () {
     return {
@@ -74,8 +75,7 @@ export default {
   },
   methods: {
     createComponents () {
-      console.log(this.config)
-      this.components = this.config.fnComponents()
+      this.components = this.getComponents()
     },
     createChart () {
       this.chart = brChart()

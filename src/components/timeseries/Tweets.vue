@@ -14,6 +14,7 @@
       :height="200"
       :timeseries="typeTimeseries"
       :config="typeConfig"
+      :getComponents="getTypeComponents"
     />
     <TimeseriesChart
       :id="localConfig.id"
@@ -21,6 +22,7 @@
       :height="200"
       :timeseries="localTimeseries"
       :config="localConfig"
+      :getComponents="getLocalComponents"
     />
   </div>
 </template>
@@ -42,29 +44,6 @@ import {
 const typeConfig = {
   id: 'type-tweets',
   formatType: '~s',
-  fnComponents: () => [
-    bxBars()
-      .fnDefined(d => d.info_tweets_T != null)
-      .fnLowValue(d => d.stack_info_tweets_T[0])
-      .fnHighValue(d => d.stack_info_tweets_T[1])
-      .fnFill('#045a8d')
-      .fnOn('mouseover', fillOpacityMouseover)
-      .fnOn('mouseout', fillOpacityMouseout),
-    bxBars()
-      .fnDefined(d => d.info_tweets_RT != null)
-      .fnLowValue(d => d.stack_info_tweets_RT[0])
-      .fnHighValue(d => d.stack_info_tweets_RT[1])
-      .fnFill('#2b8cbe')
-      .fnOn('mouseover', fillOpacityMouseover)
-      .fnOn('mouseout', fillOpacityMouseout),
-    bxBars()
-      .fnDefined(d => d.info_tweets_RE != null)
-      .fnLowValue(d => d.stack_info_tweets_RE[0])
-      .fnHighValue(d => d.stack_info_tweets_RE[1])
-      .fnFill('#74a9cf')
-      .fnOn('mouseover', fillOpacityMouseover)
-      .fnOn('mouseout', fillOpacityMouseout)
-  ],
   fnTooltips: d => [
     { name: 'Tweets', value: d.info_tweets_T, color: '#045a8d', formatType: '.3s' },
     { name: 'Retweets', value: d.info_tweets_RT, color: '#2b8cbe', formatType: '.3s' },
@@ -72,62 +51,87 @@ const typeConfig = {
   ].reverse()
 }
 
+const getTypeComponents = () => [
+  bxBars()
+    .fnDefined(d => d.info_tweets_T != null)
+    .fnLowValue(d => d.stack_info_tweets_T[0])
+    .fnHighValue(d => d.stack_info_tweets_T[1])
+    .fnFill('#045a8d')
+    .fnOn('mouseover', fillOpacityMouseover)
+    .fnOn('mouseout', fillOpacityMouseout),
+  bxBars()
+    .fnDefined(d => d.info_tweets_RT != null)
+    .fnLowValue(d => d.stack_info_tweets_RT[0])
+    .fnHighValue(d => d.stack_info_tweets_RT[1])
+    .fnFill('#2b8cbe')
+    .fnOn('mouseover', fillOpacityMouseover)
+    .fnOn('mouseout', fillOpacityMouseout),
+  bxBars()
+    .fnDefined(d => d.info_tweets_RE != null)
+    .fnLowValue(d => d.stack_info_tweets_RE[0])
+    .fnHighValue(d => d.stack_info_tweets_RE[1])
+    .fnFill('#74a9cf')
+    .fnOn('mouseover', fillOpacityMouseover)
+    .fnOn('mouseout', fillOpacityMouseout)
+]
+
 const localConfig = {
   id: 'local-tweets',
   bandPaddingInner: 1,
   formatType: '.0%',
-  fnComponents: () => [
-    bxArea()
-      .fnDefined(d => d.info_tweets_local_pct != null)
-      .fnLowValue(0)
-      .fnHighValue(d => d.info_tweets_local_pct)
-      .fnFill('#238b45')
-      .fnFillOpacity(0.5),
-    bxArea()
-      .fnDefined(d => d.info_tweets_local != null)
-      .fnLowValue(d => d.info_tweets_local_pct)
-      .fnHighValue(1)
-      .fnFill('#74c476')
-      .fnFillOpacity(0.5),
-    bxLine()
-      .fnValue(0.5)
-      .fnFillOpacity(0)
-      .fnStrokeWidth(2)
-      .fnStroke('#878787')
-      .fnStrokeDasharray([6, 2]),
-    bxLines()
-      .fnDefined(d => d.info_tweets_local_pct != null)
-      .fnLowValue(d => 0.5)
-      .fnHighValue(d => d.info_tweets_local_pct)
-      .fnFillOpacity(d => 0)
-      .fnStrokeWidth(d => 2)
-      .fnStroke(d => '#878787')
-      .fnStrokeDasharray(d => [2, 2])
-      .fnOpacity(d => 0)
-      .fnOn('mouseover', opacityMouseover)
-      .fnOn('mouseout', opacityMouseout),
-    bxLine()
-      .fnDefined(d => d.info_tweets_local_pct != null)
-      .fnValue(d => d.info_tweets_local_pct)
-      .fnStroke('#111')
-      .fnStrokeWidth(2)
-      .fnFillOpacity(0),
-
-    bxCircles()
-      .fnDefined(d => d.info_tweets_local_pct != null)
-      .fnValue(d => d.info_tweets_local_pct)
-      .fnFill('#111')
-      .fnRadius(d => 5)
-      .fnStrokeWidth(d => 0)
-      .fnOpacity(d => 0)
-      .fnOn('mouseover', opacityMouseover)
-      .fnOn('mouseout', opacityMouseout)
-  ],
   fnTooltips: d => [
     { name: 'Local', value: d.info_tweets_local, color: '#1C8571', formatType: '.3s' },
     { name: 'Foreign', value: d.info_tweets_foreign, color: '#74c476', formatType: '.3s' }
   ].reverse()
 }
+
+const getLocalComponents = () => [
+  bxArea()
+    .fnDefined(d => d.info_tweets_local_pct != null)
+    .fnLowValue(d => d.info_tweets_local_pct)
+    .fnHighValue(0)
+    .fnFill('#238b45')
+    .fnFillOpacity(0.5),
+  bxArea()
+    .fnDefined(d => d.info_tweets_local != null)
+    .fnLowValue(d => d.info_tweets_local_pct)
+    .fnHighValue(1)
+    .fnFill('#74c476')
+    .fnFillOpacity(0.5),
+  bxLine()
+    .fnValue(0.5)
+    .fnFillOpacity(0)
+    .fnStrokeWidth(2)
+    .fnStroke('#878787')
+    .fnStrokeDasharray([6, 2]),
+  bxLines()
+    .fnDefined(d => d.info_tweets_local_pct != null)
+    .fnLowValue(d => 0.5)
+    .fnHighValue(d => d.info_tweets_local_pct)
+    .fnFillOpacity(d => 0)
+    .fnStrokeWidth(d => 2)
+    .fnStroke(d => '#878787')
+    .fnStrokeDasharray(d => [2, 2])
+    .fnOpacity(d => 0)
+    .fnOn('mouseover', opacityMouseover)
+    .fnOn('mouseout', opacityMouseout),
+  bxLine()
+    .fnDefined(d => d.info_tweets_local_pct != null)
+    .fnValue(d => d.info_tweets_local_pct)
+    .fnStroke('#111')
+    .fnStrokeWidth(2)
+    .fnFillOpacity(0),
+
+  bxCircles()
+    .fnDefined(d => d.info_tweets_local_pct != null)
+    .fnValue(d => d.info_tweets_local_pct)
+    .fnFill('#111')
+    .fnRadius(d => 5)
+    .fnStrokeWidth(d => 0)
+    .fnOpacity(d => 0)
+    .fnOn('mouseover', opacityMouseover)
+    .fnOn('mouseout', opacityMouseout)
+]
 
 export default {
   components: {
@@ -136,7 +140,9 @@ export default {
   data () {
     return {
       typeConfig,
-      localConfig
+      getTypeComponents,
+      localConfig,
+      getLocalComponents
     }
   },
   computed: {

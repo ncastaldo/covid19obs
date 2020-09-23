@@ -23,6 +23,10 @@
 
 export default {
   props: {
+    items: {
+      type: Array,
+      default: () => []
+    },
     fnTooltips: {
       type: Function,
       default: () => []
@@ -30,7 +34,7 @@ export default {
   },
   computed: {
     tooltips () {
-      return this.fnTooltips({})
+      return this.items.length ? this.items : this.fnTooltips({})
     }
   }
 }

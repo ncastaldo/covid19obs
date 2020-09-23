@@ -44,19 +44,21 @@ export default {
           .map((cmp, i) => ({ ...cmp, value: [cmp.value, secondCompare[i].value] }))
         : []
     },
+    invalidData () {
+      return this.compareDouble
+        .filter((d, i) => !this.fnDefined(d, i))
+        .map(d => ({ name: d.locationId, color: d.continentColor }))
+    },
     config () {
-      const fnDefined = d =>
-        this.firstCompareVar.fnDefined(d.value[0]) &&
-        this.secondCompareVar.fnDefined(d.value[1])
       return {
         id: 'compare-double',
-        fnDefined,
+        fnDefined: this.fnDefined,
         scaleTypes: [this.firstCompareVar.scaleType, this.secondCompareVar.scaleType],
         formatTypes: [this.firstCompareVar.formatType, this.secondCompareVar.formatType],
         axisLabels: [this.firstCompareVar.compareVarName, this.secondCompareVar.compareVarName],
         fnComponents: () => [
           xyCircles()
-            .fnDefined(fnDefined)
+            .fnDefined(this.fnDefined)
             .fnValue(d => d.value)
             .fnRadius(d => 6)
             .fnStroke(d => '#000')
@@ -65,7 +67,7 @@ export default {
             .fnOn('mouseover', this.$refs.chart.onMouseover)
             .fnOn('mouseout', this.$isMobile() || this.$refs.chart.onMouseout),
           xyTexts()
-            .fnDefined(fnDefined)
+            .fnDefined(this.fnDefined)
             .fnValue(d => d.value)
             .fnFill(d => d.continentColor)
             .fnText(d => d.locationId)
@@ -82,6 +84,12 @@ export default {
           color: this.secondCompareVar.color
         }]
       }
+    }
+  },
+  methods: {
+    fnDefined (d) {
+      return this.firstCompareVar.fnDefined(d.value[0]) &&
+        this.secondCompareVar.fnDefined(d.value[1])
     }
   }
 }

@@ -41,7 +41,8 @@ export default {
     id: String,
     height: Number,
     timeseries: Array,
-    config: Object
+    config: Object,
+    getComponents: Function
   },
   data () {
     return {
@@ -61,22 +62,8 @@ export default {
     timeseries (value) {
       this.chart.data(value)
 
-      this.drawChart()
-    },
-    config () {
-      // recreating the chart, save the size
-      const chartSize = this.chart.size()
-
-      this.clear()
-
-      this.createComponents()
-      this.createMouseBars() // update them too
-
-      this.update()
-
-      this.chart.data(this.timeseries)
-
-      this.chart.size(chartSize)
+      // auto update
+      // this.update()
 
       this.drawChart()
     }
@@ -120,7 +107,7 @@ export default {
       }
     },
     createComponents () {
-      this.components = this.config.fnComponents()
+      this.components = this.getComponents(this.config)
     },
     createChart () {
       this.chart = bxChart()
@@ -131,6 +118,10 @@ export default {
     },
     compose () {
       // nothing
+
+      this.chart.components([this.xAxis, this.yAxis]
+        .concat(this.components)
+        .concat([this.mouseBars]))
     },
     update () {
       // this.yAxis.tickFormat(format(this.chartConfig.yFormat))
@@ -140,9 +131,6 @@ export default {
         .contScaleType(this.config.scaleType)
         .contBaseDomain(this.config.baseDomain)
         .contFixedDomain(this.config.fixedDomain)
-      this.chart.components([this.xAxis, this.yAxis]
-        .concat(this.components)
-        .concat([this.mouseBars]))
       // .contScaleType(this.chartConfig.scaleType)
     },
     drawChart () {
@@ -161,15 +149,6 @@ export default {
       this.components
         .map(c => c.join().filter(f => f.datetime === d.datetime)
           .dispatch('mouseout', event, d))
-    },
-    clear () {
-      this.components.map(c =>
-        c.join()
-          .transition()
-          .duration(500)
-          .style('opacity', 0)
-          .remove())
-      this.mouseBars.join().remove()
     }
   }
 
