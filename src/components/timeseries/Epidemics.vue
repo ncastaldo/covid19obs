@@ -1,14 +1,16 @@
 <template>
   <div>
-    <div class="text-justify py-2">
-      <div class="headline py-1">
-        Epidemics
+    <Article>
+      <div class="text-center py-2">
+        <div class="headline py-1 ">
+          Epidemics
+        </div>
+        <div class="py-1">
+          Evolution over time of the covid-19 epidemics, in terms of confirmed cases and deaths.
+        </div>
       </div>
-      <div class="py-1">
-        Evolution over time of the covid-19 epidemics, in terms of confirmed cases and deaths.
-      </div>
-    </div>
-    <div class="py-3">
+    </Article>
+    <div class="py-3 text-center">
       <v-btn-toggle
         v-model="toggle"
         rounded

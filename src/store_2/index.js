@@ -19,7 +19,7 @@ Vue.use(Vuex)
 
 const MONTHS = utcMonth.range(
   new Date(Date.UTC(2020, 0, 1)), // first day of year -> Jan
-  new Date(Date.UTC(2020, 8, 1)) // exclusive, CHANGE IT TO LAST MONTH - 1
+  new Date(Date.UTC(2020, 9, 1)) // exclusive, CHANGE IT TO LAST MONTH - 1
 )
 
 const INITIAL_STATE = {

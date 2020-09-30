@@ -21,43 +21,45 @@
         </h3>
       </template>
     </v-select>
-    <v-select
+    <div
       v-if="locations"
-      v-model="location"
-      class="mx-2"
-      :items="locations"
-      item-value="locationId"
-      item-text="locationName"
+      class="flex-grow-1 d-flex align-center justify-space-between"
     >
-      <template
-        v-slot:selection="data"
+      <v-select
+        v-model="location"
+        class="mx-2"
+        :items="locations"
+        item-value="locationId"
+        item-text="locationName"
       >
-        <h3
-          class="overflow"
+        <template
+          v-slot:selection="data"
         >
+          <h3
+            class="overflow"
+          >
+            {{ data.item.locationName }}
+          </h3>
+        </template>
+        <template
+          v-slot:item="data"
+        >
+          <img
+            width="30"
+            :src="`https://flagcdn.com/${data.item.flagId.toLowerCase()}.svg`"
+            class="pr-2"
+            @error="onError"
+          >
           {{ data.item.locationName }}
-        </h3>
-      </template>
-      <template
-        v-slot:item="data"
+        </template>
+      </v-select>
+      <img
+        width="50"
+        class="mx-2"
+        :src="`https://flagcdn.com/${location.flagId.toLowerCase()}.svg`"
+        @error="onError"
       >
-        <img
-          width="30"
-          :src="`https://flagcdn.com/${data.item.flagId.toLowerCase()}.svg`"
-          class="pr-2"
-          @error="onError"
-        >
-        {{ data.item.locationName }}
-      </template>
-    </v-select>
-    <img
-      v-if="location.flagId"
-      width="50"
-      class="mx-2"
-      :src="`https://flagcdn.com/${location.flagId.toLowerCase()}.svg`"
-
-      @error="onError"
-    >
+    </div>
   </div>
 </template>
 

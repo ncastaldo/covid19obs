@@ -30,6 +30,7 @@ const locationList = WORLD.features
     continentName: continentMapping[l.continentId].name,
     continentColor: continentMapping[l.continentId].color
   }))
+  .sort((a, b) => a.locationName >= b.locationName ? 1 : -1)
 
 locationList.push({
   locationId: '_WORLD',

@@ -1,6 +1,7 @@
 <template>
   <v-footer
     padless
+    class="text-center"
   >
     <v-container class="py-0">
       <v-row

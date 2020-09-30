@@ -1,13 +1,15 @@
 <template>
   <div>
-    <div class="text-justify py-2">
-      <div class="headline py-1">
-        Tweets
+    <Article>
+      <div class="text-center py-2">
+        <div class="headline py-1">
+          Tweets
+        </div>
+        <div class="py-1">
+          Collected tweets divided by Tweets, Retweets and Replies and their distribution based on the language
+        </div>
       </div>
-      <div class="py-1">
-        Collected tweets divided by Tweets, Retweets and Replies and their distribution based on the language
-      </div>
-    </div>
+    </Article>
     <TimeseriesChart
       :id="typeConfig.id"
       :key="typeConfig.id"

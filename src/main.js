@@ -5,6 +5,8 @@ import store from './store_2/index'
 
 import vuetify from './plugins/vuetify'
 
+import Article from './components/base/Article'
+
 import ChartsContainer from './components/base/ChartsContainer'
 import Tooltip from './components/base/Tooltip'
 import Legend from './components/base/Legend'
@@ -17,6 +19,8 @@ import router from './router'
 Vue.config.productionTip = false
 
 Vue.use(VueMobileDetection)
+
+Vue.component('Article', Article)
 
 Vue.component('ChartsContainer', ChartsContainer)
 Vue.component('Tooltip', Tooltip)

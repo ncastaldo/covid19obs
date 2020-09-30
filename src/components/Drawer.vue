@@ -54,10 +54,15 @@ export default {
           link: '/compare',
           icon: 'mdi-scatter-plot'
         },
-        {
+        /* {
           title: 'Details',
           link: '/details',
-          icon: 'mdi-info'
+          icon: 'mdi-magnify'
+        }, */
+        {
+          title: 'Methods',
+          link: '/methods',
+          icon: 'mdi-book-open-page-variant'
         }
       ]
     }

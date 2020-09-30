@@ -1,14 +1,16 @@
 <template>
   <div>
-    <div class="text-justify py-2">
-      <div class="headline py-1">
-        Risk Indexes
+    <Article>
+      <div class="text-center py-2">
+        <div class="headline py-1">
+          Risk Indexes
+        </div>
+        <div class="py-1">
+          Evolution over time of the Dynamic Infodemic Risk Index (DynIRI) and the Infodemic Risk Index (IRI)
+        </div>
       </div>
-      <div class="py-1">
-        Evolution over time of the Dynamic Infodemic Risk Index (DynIRI) and the Infodemic Risk Index (IRI)
-      </div>
-    </div>
-    <div class="py-3">
+    </Article>
+    <div class="py-3 text-center">
       <v-btn-toggle
         v-model="toggle"
         rounded
@@ -141,7 +143,7 @@ export default {
       return this.timeseries
         .map(d => ({
           ...d,
-          base_iri_value: d[['info_risk_index', 'info_dyn_iri'][this.toggle]]
+          base_iri_value: d[['info_dyn_iri', 'info_risk_index'][this.toggle]]
         }))
     },
     baseConfig () {

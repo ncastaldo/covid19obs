@@ -1,13 +1,15 @@
 <template>
   <div>
-    <div class="text-justify py-2">
-      <div class="headline py-1">
-        News reliability
+    <Article>
+      <div class="text-center py-2">
+        <div class="headline py-1">
+          News reliability
+        </div>
+        <div class="py-1">
+          Reliable and Unreliable news distribution over time
+        </div>
       </div>
-      <div class="py-1">
-        Reliable and Unreliable news distribution over time
-      </div>
-    </div>
+    </Article>
     <TimeseriesChart
       :id="timeseriesConfig.id"
       :key="timeseriesConfig.id"

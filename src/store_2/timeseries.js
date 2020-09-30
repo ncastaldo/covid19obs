@@ -24,7 +24,7 @@ const actions = {
   init: ({ dispatch }) => { dispatch('loadTimeseries') },
 
   loadTimeseries: ({ getters, rootGetters, commit }) => {
-    console.log(rootGetters)
+    // console.log(rootGetters)
     const locationId = rootGetters['location/getLocation'].locationId
 
     const timeseriesUrl = `/assets/infodemics/${locationId}.csv`

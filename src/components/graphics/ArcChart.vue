@@ -53,8 +53,6 @@ export default {
     arcData (value) {
       this.chart.data(value)
 
-      console.log(value)
-
       this.drawChart()
     },
     config () {
