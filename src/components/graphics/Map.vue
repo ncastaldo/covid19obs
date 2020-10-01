@@ -10,6 +10,7 @@
       :options="mapOptions"
       :zoom="mapZoom"
       :center="mapCenter"
+      :noBlockingAnimations="true"
       @click="onClick('_WORLD')"
       @ready="mapReady()"
     >
@@ -154,7 +155,7 @@ export default {
 }
 
 .leaflet-map.leaflet-container path {
-  transition: fill .25s;
+ /* transition: fill .25s;*/
 }
 
 </style>
