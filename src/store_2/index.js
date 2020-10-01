@@ -7,7 +7,7 @@ import period from './period'
 import timeseries from './timeseries'
 import tweets from './tweets'
 
-import mapLayer from './mapLayer'
+import layer from './layer'
 
 import makeCompare from './compare'
 
@@ -60,7 +60,7 @@ export default new Vuex.Store({
 
     timeseries,
     tweets,
-    mapLayer,
+    layer,
 
     'compare/first': makeCompare(),
     'compare/second': makeCompare(),

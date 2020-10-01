@@ -25,7 +25,7 @@
 <script>
 import { csvParse } from 'd3-dsv'
 
-import { geoMercator } from 'd3-geo'
+import { geoMercator, geoPath } from 'd3-geo'
 import { hexbin } from 'd3-hexbin'
 import { max, sum } from 'd3-array'
 
@@ -38,7 +38,7 @@ import { scaleSequentialSymlog } from 'd3-scale'
 
 import { mapGetters } from 'vuex'
 
-const iso = 'ESP'
+const iso = 'IDN'
 
 const geohashUrl = `/assets/geohash/geohash_${iso}.csv`
 
@@ -84,21 +84,29 @@ export default {
       const ctx = this.$refs.canvas.getContext('2d')
       const hexagon = this.fnHexbin.hexagon()
 
-      for (const d of hexPoints) {
+      const path = geoPath(this.fnProjection)(geometry)
+
+      ctx.beginPath()
+      ctx.fillStyle = '#ddd'
+      ctx.strokeStyle = '#bbb'
+      // ctx.fill(new Path2D(path))
+      // ctx.stroke(new Path2D(path))
+
+      /* for (const d of hexPoints) {
         ctx.beginPath()
         ctx.fillStyle = d.color
         ctx.fill(new Path2D('M' + d.x + ',' + d.y + hexagon))
-      }
+      } */
 
       // console.log(sum(hexPoints, d => d.value))
 
       // console.log(fnColor.domain())
 
-      /* this.hexagons = hexPoints.map(d => ({
+      this.hexagons = hexPoints.map(d => ({
         ...d,
         color: fnColor(d.value),
         path: 'M' + d.x + ',' + d.y + hexagon
-      })) */
+      }))
     }
   },
   mounted () {

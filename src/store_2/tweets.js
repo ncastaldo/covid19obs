@@ -1,26 +1,45 @@
 import { dsvFormat } from 'd3-dsv'
+import { mean, extent } from 'd3-array'
 
 const fnCompareParser = dsvFormat(',')
 
 const state = {
-  tweetsDict: null
+  fullTweetsDict: {}
 }
 
 const mutations = {
-  setTweetsDict: (state, tweetsDict) => { state.tweetsDict = tweetsDict }
+  setFullTweetsDict: (state, fullTweetsDict) => { state.fullTweetsDict = fullTweetsDict }
 }
 
 const getters = {
-  getTweetsDict: ({ tweetsDict }) => tweetsDict,
+  getTweetsDict: ({ fullTweetsDict }, _, __, rootGetters) => {
+    const [fromISO, toISO] = rootGetters['period/getPeriodRange'].map(p => p.periodISO)
 
-  getTweets: ({ tweetsDict }, _, __, rootGetters) => {
+    return Object.values(fullTweetsDict)
+      .map(({ iso, variable, ...rest }) => ({
+        iso,
+        value: mean(Object.entries(rest)
+          .filter(([p]) => p >= fromISO && p < toISO)
+          .map(([_, v]) => +v))
+      }))
+      .reduce((acc, { iso, ...rest }) => ({
+        ...acc,
+        [iso]: rest
+      }), {})
+  },
+
+  getTweetsDomain: (_, getters) => {
+    return extent(Object.values(getters.getTweetsDict), d => d.value)
+  },
+
+  getTimeseriesTweets: ({ fullTweetsDict }, _, __, rootGetters) => {
     const periods = rootGetters['period/getPeriods']
     const locationId = rootGetters['location/getLocation'].locationId
     return periods
       .map(({ periodId, periodISO }) => ({
         periodId,
-        value: tweetsDict && locationId in tweetsDict
-          ? +tweetsDict[locationId][periodISO]
+        value: fullTweetsDict && locationId in fullTweetsDict
+          ? +fullTweetsDict[locationId][periodISO]
           : 1
       }))
   }
@@ -30,22 +49,27 @@ const getters = {
 // in order to select month
 
 const actions = {
-  init: ({ commit, dispatch }) => {
+  init: ({ dispatch }) => {
     dispatch('loadTweets')
   },
 
-  loadTweets: ({ commit }) => {
-    const tweetsUrl = '/assets/compare/info_tweets.csv'
+  loadTweets: ({ rootGetters, commit }) => {
+    // console.log(rootGetters)
+    const layerId = rootGetters['layer/getLayer'].layerId
+
+    const tweetsUrl = `/assets/compare/${layerId}.csv`
+
+    console.log(tweetsUrl)
 
     // fetching the compare
     fetch(tweetsUrl)
       .then(res => res.text())
       .then(data => fnCompareParser.parse(data))
-      .then(data => data.reduce((acc, { iso, ...rest }) => ({
+      .then(tweets => tweets.reduce((acc, { iso, ...rest }) => ({
         ...acc,
-        [iso]: rest
+        [iso]: { iso, ...rest }
       }), {}))
-      .then(tweetsDict => { commit('setTweetsDict', tweetsDict) })
+      .then(fullTweetsDict => { commit('setFullTweetsDict', fullTweetsDict) })
   }
 }
 

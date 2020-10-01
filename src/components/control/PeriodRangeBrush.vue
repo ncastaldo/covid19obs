@@ -31,7 +31,7 @@ export default {
     ...mapGetters({
       periods: 'period/getPeriods',
       periodRange: 'period/getPeriodRange',
-      tweets: 'tweets/getTweets'
+      tweets: 'tweets/getTimeseriesTweets'
     }),
     bandDomain () {
       return this.periodRange.map(p => p.periodId)

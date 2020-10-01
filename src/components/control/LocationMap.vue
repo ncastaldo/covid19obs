@@ -31,7 +31,8 @@ export default {
   computed: {
     ...mapGetters({
       locations: 'location/getLocations',
-      location: 'location/getLocation'
+      location: 'location/getLocation',
+      tweetsDict: 'tweets/getTweetsDict'
     }),
     mapCenter () {
       return this.location.locationId === '_WORLD'
@@ -54,6 +55,11 @@ export default {
          this.location.locationId === locationId
           ? SELECTED_STYLE : BASE_STYLE
       }), {})
+    }
+  },
+  watch: {
+    tweetsDict () {
+      console.log(this.tweetsDict)
     }
   },
   methods: {
