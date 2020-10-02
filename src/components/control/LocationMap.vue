@@ -32,7 +32,7 @@ export default {
     ...mapGetters({
       locations: 'location/getLocations',
       location: 'location/getLocation',
-      tweetsDict: 'tweets/getTweetsDict'
+      layerDict: 'layer/getLayerDict'
     }),
     mapCenter () {
       return this.location.locationId === '_WORLD'
@@ -51,15 +51,15 @@ export default {
     styleMapping () {
       return this.locations.reduce((acc, { locationId }) => ({
         ...acc,
-        [locationId]: this.location.locationId === '_WORLD' ||
+        [locationId]: { fillColor: this.layerDict[locationId].color } /* this.location.locationId === '_WORLD' ||
          this.location.locationId === locationId
-          ? SELECTED_STYLE : BASE_STYLE
+          ? SELECTED_STYLE : BASE_STYLE */
       }), {})
     }
   },
   watch: {
-    tweetsDict () {
-      console.log(this.tweetsDict)
+    layerDict () {
+      console.log(this.layerDict)
     }
   },
   methods: {

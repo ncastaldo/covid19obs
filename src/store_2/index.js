@@ -5,7 +5,6 @@ import location from './location'
 import period from './period'
 
 import timeseries from './timeseries'
-import tweets from './tweets'
 
 import layer from './layer'
 
@@ -59,7 +58,6 @@ export default new Vuex.Store({
     period,
 
     timeseries,
-    tweets,
     layer,
 
     'compare/first': makeCompare(),
@@ -71,7 +69,7 @@ export default new Vuex.Store({
     store => {
       store.dispatch('location/init', INITIAL_STATE)
       store.dispatch('period/init', INITIAL_STATE)
-      store.dispatch('tweets/init')
+      store.dispatch('layer/init')
       store.dispatch('timeseries/init')
       store.dispatch('compare/first/init', INITIAL_STATE.firstCompareVarId)
       store.dispatch('compare/second/init', INITIAL_STATE.secondCompareVarId)

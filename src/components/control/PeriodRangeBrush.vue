@@ -1,7 +1,7 @@
 <template>
   <PeriodBrushChart
     id="period-range-brush"
-    :periodData="tweets"
+    :periodData="layerPeriods"
     :bandDomain="bandDomain"
     :config="config"
     @endBandDomain="setPeriodIdRange"
@@ -31,7 +31,7 @@ export default {
     ...mapGetters({
       periods: 'period/getPeriods',
       periodRange: 'period/getPeriodRange',
-      tweets: 'tweets/getTimeseriesTweets'
+      layerPeriods: 'layer/getLayerPeriods'
     }),
     bandDomain () {
       return this.periodRange.map(p => p.periodId)
