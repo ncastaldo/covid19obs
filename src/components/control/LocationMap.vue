@@ -23,8 +23,7 @@ export default {
   computed: {
     ...mapGetters({
       locations: 'location/getLocations',
-      location: 'location/getLocation',
-      layerDict: 'layer/getLayerDict'
+      location: 'location/getLocation'
     }),
     mapCenter () {
       return this.location.locationId === '_WORLD'
@@ -44,12 +43,11 @@ export default {
       return this.locations.reduce((acc, { locationId }) => ({
         ...acc,
         [locationId]: {
-          fillColor: this.layerDict[locationId].color,
+          fillColor: this.location.locationId !== '_WORLD' &&
+          this.location.locationId !== locationId ? '#aeaeae' : 'rgb(31, 121, 179)',
           fillOpacity: 1,
-          ...(this.location.locationId === '_WORLD' ||
-          this.location.locationId !== locationId
-            ? { color: '#444', weight: 0.5, toFront: false }
-            : { color: '#111', weight: 2, toFront: true })
+          weight: 0.5,
+          color: '#eee'
         }
       }), {})
     }
