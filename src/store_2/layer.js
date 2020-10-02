@@ -1,31 +1,34 @@
-import { scaleSequentialSymlog } from 'd3-scale'
+import { scaleSequentialLog } from 'd3-scale'
 import { interpolateBlues, interpolateReds, interpolatePurples } from 'd3-scale-chromatic'
 
 import { dsvFormat } from 'd3-dsv'
-import { mean, extent } from 'd3-array'
+import { mean, max } from 'd3-array'
 
 const fnCompareParser = dsvFormat(',')
 
 const layerList = [{
   layerId: 'info_tweets',
   layerName: 'Collected tweets',
-  layerColorScale: scaleSequentialSymlog(interpolateBlues)
+  layerColor: 'rgb(31, 121, 179)',
+  layerColorScale: scaleSequentialLog(interpolateBlues)
 },
 {
   layerId: 'epi_confirmed',
   layerName: 'Confirmed cases',
-  layerColorScale: scaleSequentialSymlog(interpolateReds)
+  layerColor: interpolateReds(0.8),
+  layerColorScale: scaleSequentialLog(interpolateReds)
 },
 {
   layerId: 'epi_dead',
   layerName: 'Deaths',
-  layerColorScale: scaleSequentialSymlog(interpolatePurples)
+  layerColor: interpolatePurples(0.8),
+  layerColorScale: scaleSequentialLog(interpolatePurples)
 }]
 
 const layers = layerList
-  .reduce((layers, { layerId, layerName, ...rest }) => ({
+  .reduce((layers, { layerId, layerName, layerColor }) => ({
     ...layers,
-    [layerId]: { layerId, layerName }
+    [layerId]: { layerId, layerName, layerColor }
   }), {})
 
 const layerColorScales = layerList
@@ -38,7 +41,7 @@ const state = {
   layerId: 'info_tweets',
   layers,
 
-  layerFullDict: {},
+  layerFullDict: null,
   layerColorScale: null // to update accordingly
 }
 
@@ -54,6 +57,8 @@ const getters = {
   getLayer: ({ layers, layerId }) => layers[layerId],
 
   getLayerDict: ({ layerFullDict, layerColorScale }, getters, __, rootGetters) => {
+    if (!layerFullDict) return null
+
     const [fromISO, toISO] = rootGetters['period/getPeriodRange'].map(p => p.periodISO)
 
     const localLayers = Object.values(layerFullDict)
@@ -64,10 +69,7 @@ const getters = {
           .map(([_, v]) => +v))
       }))
 
-    layerColorScale.domain(extent(localLayers, d => d.value))
-
-    console.log(layerColorScale(localLayers[0].value))
-    console.log(localLayers.map(l => l.value))
+    layerColorScale.domain([1, max(localLayers, d => d.value)])
 
     return localLayers
       .reduce((acc, { iso, value }) => ({
@@ -75,13 +77,11 @@ const getters = {
         [iso]: {
           iso,
           value,
-          color: layerColorScale(value)
+          color: value > 0
+            ? layerColorScale(value)
+            : '#aeaeae'
         }
       }), {})
-  },
-
-  getLayerDomain: (_, getters) => {
-    return extent(Object.values(getters.getLayerDict), d => d.value)
   },
 
   getLayerPeriods: ({ layerFullDict }, _, __, rootGetters) => {
@@ -117,8 +117,6 @@ const actions = {
     const layerUrl = `/assets/compare/${layerId}.csv`
     const layerColorScale = layerColorScales[layerId]
 
-    console.log(layerUrl)
-
     // fetching the compare
     fetch(layerUrl)
       .then(res => res.text())
@@ -128,8 +126,8 @@ const actions = {
         [iso]: { iso, ...rest }
       }), {}))
       .then(layerFullDict => {
-        commit('setLayerFullDict', layerFullDict)
         commit('setLayerColorScale', layerColorScale)
+        commit('setLayerFullDict', layerFullDict)
       })
   }
 }

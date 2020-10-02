@@ -43,9 +43,6 @@ import { latLng, latLngBounds, DomEvent } from 'leaflet'
 import { LMap, LGeoJson, LControl } from 'vue2-leaflet'
 import { mapGetters } from 'vuex'
 
-const BASE_STROKE = { color: '#ddd', weight: 0.5 }
-const INVALID_FILL_COLOR = '#999'
-
 export default {
   components: {
     LMap,
@@ -83,19 +80,8 @@ export default {
 
       mapOptions: { scrollWheelZoom: false },
 
-      geoJsonOptions: {
-        onEachFeature: (feature, layer) =>
-          layer.on({
-            click: this.fnOnClick,
-            mouseover: this.fnOnMouseover,
-            mouseout: this.fnOnMouseout
-          })
-      },
-      geoJsonStyle: {
-        fillColor: INVALID_FILL_COLOR, // https://webkid.io/blog/fancy-map-effects-with-css/
-        fillOpacity: 1,
-        ...BASE_STROKE
-      },
+      geoJsonOptions: {},
+      geoJsonStyle: {},
 
       hover: null
     }
@@ -122,9 +108,21 @@ export default {
       this.repaint()
     },
     repaint () {
-      this.geoJsonStyle = (feature) => {
+      this.geoJsonStyle = (feature, layer) => {
         const locationId = feature.properties.locationId
         return this.styleMapping[locationId] // hope no error
+      }
+      this.geoJsonOptions = {
+        onEachFeature: (feature, layer) => {
+          layer.on({
+            click: this.fnOnClick,
+            mouseover: this.fnOnMouseover,
+            mouseout: this.fnOnMouseout
+          })
+          if (this.styleMapping[feature.properties.locationId].toFront) {
+            this.$nextTick(() => layer.bringToFront())
+          }
+        }
       }
     },
     fnOnClick (e) {

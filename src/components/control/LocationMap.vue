@@ -16,14 +16,6 @@ import { geoCentroid, geoDistance, geoBounds } from 'd3-geo'
 import Map from '../graphics/Map'
 import { mapGetters, mapActions } from 'vuex'
 
-const BASE_STYLE = {
-  fillColor: '#999'
-}
-
-const SELECTED_STYLE = {
-  fillColor: '#2877b8'
-}
-
 export default {
   components: {
     Map
@@ -42,18 +34,23 @@ export default {
     mapZoom () {
       if (this.location.locationId === '_WORLD') return 1
       const d = geoDistance(...geoBounds(this.location.geometry))
-      const lat = geoCentroid(this.location.geometry)[1]
+      const lat = Math.abs(geoCentroid(this.location.geometry)[1])
       // decrease the zoom at higher latitudes
       const correct = lat > 50 ? 3 : lat > 45 ? 2 : lat > 40 ? 1 : 0
       const z = Math.ceil(1 / d) - correct
-      return z < 1 ? 1 : z > 6 ? 6 : z
+      return z < 1 ? 1 : z > 5 ? 5 : z
     },
     styleMapping () {
       return this.locations.reduce((acc, { locationId }) => ({
         ...acc,
-        [locationId]: { fillColor: this.layerDict[locationId].color } /* this.location.locationId === '_WORLD' ||
-         this.location.locationId === locationId
-          ? SELECTED_STYLE : BASE_STYLE */
+        [locationId]: {
+          fillColor: this.layerDict[locationId].color,
+          fillOpacity: 1,
+          ...(this.location.locationId === '_WORLD' ||
+          this.location.locationId !== locationId
+            ? { color: '#444', weight: 0.5, toFront: false }
+            : { color: '#111', weight: 2, toFront: true })
+        }
       }), {})
     }
   },

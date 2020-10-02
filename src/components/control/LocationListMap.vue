@@ -32,8 +32,13 @@ export default {
     styleMapping () {
       return this.locations.reduce((acc, { locationId, continentColor }) => ({
         ...acc,
-        [locationId]: this.locationList.map(l => l.locationId).includes(locationId)
-          ? { fillColor: continentColor } : BASE_STYLE
+        [locationId]: {
+          fillOpacity: 1,
+          color: '#ddd',
+          weight: 0.5,
+          ...(this.locationList.map(l => l.locationId).includes(locationId)
+            ? { fillColor: continentColor } : BASE_STYLE)
+        }
       }), {})
     }
   },

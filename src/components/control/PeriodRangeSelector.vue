@@ -74,7 +74,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 
 /*img {
   border: 1px solid #000;

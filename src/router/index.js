@@ -9,6 +9,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView'
 import CompareView from '../views/CompareView'
 import DetailsView from '../views/DetailsView'
+import ChoroplethView from '../views/ChoroplethView'
 import MethodsView from '../views/MethodsView'
 
 Vue.use(VueRouter)
@@ -27,6 +28,11 @@ const routes = [
     path: '/compare',
     name: 'Compare',
     component: CompareView
+  },
+  {
+    path: '/choropleth',
+    name: 'Choropleth',
+    component: ChoroplethView
   },
   {
     path: '/details',

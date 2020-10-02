@@ -16,6 +16,7 @@ import { timeFormat } from 'd3-time-format'
 import {
   bxChart,
   bxAxisX,
+  bxAxiY,
   bxBars,
   bxBrush
 } from 'd3nic'
@@ -35,7 +36,7 @@ export default {
     },
     padding: {
       type: Object,
-      default: () => ({ top: 0, left: 25, right: 25, bottom: 25 })
+      default: () => ({ top: 1, left: 25, right: 25, bottom: 25 })
     },
     bandDomain: Array,
     periodData: Array,
@@ -53,7 +54,9 @@ export default {
   watch: {
     config () {
       // should update also min and max, for the moment ok this way
-      this.fillBars(this.bandDomain)
+
+      // do not fill bars, wait for change in data
+      // this.fillBars(this.bandDomain)
     },
     periodData () {
       this.chart.data(this.periodData)
@@ -138,7 +141,9 @@ export default {
 
 .period-brush-chart rect.selection {
   fill-opacity: 0.3;
-  fill: rgb(31, 121, 179)
+  fill: rgb(222, 222, 222);
+  stroke: #444;
+  stroke-width:1;
 }
 
 .period-brush-chart rect.handle {

@@ -54,6 +54,11 @@ export default {
           link: '/compare',
           icon: 'mdi-scatter-plot'
         },
+        {
+          title: 'Choropleth',
+          link: '/choropleth',
+          icon: 'mdi-map'
+        },
         /* {
           title: 'Details',
           link: '/details',
