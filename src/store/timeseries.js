@@ -18,6 +18,7 @@ const getters = {
     return fullTimeseries
       .filter(d => +d.date >= from && +d.date < to) // stricly less
   }
+
 }
 
 const actions = {

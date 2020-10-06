@@ -1,3 +1,5 @@
+import { sum } from 'd3-array'
+
 const state = {
   periods: null,
   periodId: null,
@@ -17,6 +19,23 @@ const getters = {
   getPeriodRangeStep: ({ periods, periodIdRange }) => {
     const [i, j] = periodIdRange.map(id => periods[id].index)
     return Math.abs(i - j)
+  },
+
+  getTweetsPeriods: ({ periods }, _, __, rootGetters) => {
+    const tmp = rootGetters['timeseries/getFullTimeseries']
+      // +(new Date(Date.UTC(2019, 1))) === +(new Date('2019-02'))
+      // value: +d.info_tweets
+      .map(d => ({ periodId: +(new Date(+d.date)), value: +d.info_tweets }))
+      .filter(d => d.periodId in periods)
+      .reduce((acc, { periodId, value }) => ({
+        ...acc,
+        [periodId]: {
+          ...periods[periodId],
+          value: (periodId in acc ? acc[periodId].value : 0) + value
+        }
+      }), {})
+
+    return Object.values(tmp)
   }
 }
 

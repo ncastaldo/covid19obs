@@ -31,6 +31,13 @@
           cols="12"
         >
           <v-card class="pa-2">
+            <div
+              class="pa-2 d-flex flex-wrap align-center"
+            >
+              <v-divider class="mr-4" />
+              <LocationPresets />
+              <v-divider class="ml-4" />
+            </div>
             <div class="d-flex flex-wrap justify-center align-center ">
               <div
                 v-for="c in continents"
@@ -66,6 +73,9 @@ import PeriodSelector from '../components/control/PeriodSelector'
 
 import LocationListSelector from '../components/control/LocationListSelector'
 import LocationListMap from '../components/control/LocationListMap'
+
+import LocationPresets from '../components/control/LocationPresets'
+
 import { mapActions, mapGetters } from 'vuex'
 
 export default {
@@ -74,7 +84,9 @@ export default {
     PeriodSelector,
 
     LocationListSelector,
-    LocationListMap
+    LocationListMap,
+
+    LocationPresets
   },
   data () {
     return {

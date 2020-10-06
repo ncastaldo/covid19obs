@@ -37,11 +37,6 @@
             <PeriodRangeBrush v-if="showCharts" />
           </v-card>
         </v-col>
-        <v-col v-if="showCharts">
-          <v-card class="pa-2">
-            <LayerSelector />
-          </v-card>
-        </v-col>
       </v-row>
     </v-container>
   </v-card>
@@ -55,15 +50,12 @@ import PeriodRangeBrush from '../components/control/PeriodRangeBrush'
 import LocationSelector from '../components/control/LocationSelector'
 import LocationMap from '../components/control/LocationMap'
 
-import LayerSelector from '../components/control/LayerSelector'
-
 export default {
   components: {
     PeriodRangeSelector,
     PeriodRangeBrush,
     LocationSelector,
-    LocationMap,
-    LayerSelector
+    LocationMap
   },
   data () {
     return {

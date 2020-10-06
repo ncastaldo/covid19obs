@@ -2,6 +2,7 @@
 <template>
   <div
     v-resize:debounce.500="onResize"
+    class="chart-container "
     :style="{height: `${chartHeight}px`}"
   >
     <slot />
@@ -19,6 +20,7 @@ export default {
   props: {
     charts: Array,
     maxWidth: Number,
+    minWidth: Number,
     // define alternatively height or ratio, height is dominant
     height: Number,
     ratio: Number
@@ -57,9 +59,10 @@ export default {
   methods: {
     onResize () {
       const w = this.$el.offsetWidth
-      this.chartWidth = this.maxWidth
-        ? Math.min(w, this.maxWidth)
-        : w
+      this.chartWidth = Math.max(
+        Math.min(w, this.maxWidth || w),
+        this.minWidth || w
+      )
     }
   }
 
@@ -70,8 +73,8 @@ export default {
 <style scoped>
 
 .chart-container {
-  width: 100%;
-  padding: 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 </style>

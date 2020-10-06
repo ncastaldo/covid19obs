@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="d-flex justify-center">
+    <div class="d-flex justify-center flex-wrap">
       <CompareVarSelector module="first" />
       <CompareVarSelector module="second" />
     </div>
@@ -16,7 +16,9 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import { xyCircles, xyTexts } from 'd3nic'
+import { xyCircles, xyLine, xyTexts } from 'd3nic'
+
+import { mean, deviation, extent } from 'd3-array'
 
 import CompareVarSelector from '../control/CompareVarSelector'
 
@@ -38,11 +40,47 @@ export default {
       secondCompareVar: 'compare/second/getCompareVar'
     }),
     compareDouble () {
-      const secondCompare = this.secondCompare
-      return this.firstCompare.lentgh === this.secondCompare.lentgh
-        ? this.firstCompare
-          .map((cmp, i) => ({ ...cmp, value: [cmp.value, secondCompare[i].value] }))
-        : []
+      if (this.firstCompare.lentgh !== this.secondCompare.lentgh) return []
+      return this.firstCompare
+        .map((cmp, i) => ({
+          ...cmp,
+          value: [cmp.value, this.secondCompare[i].value]
+        }))
+    },
+    regression () {
+      if (this.firstCompare.lentgh !== this.secondCompare.lentgh) return []
+
+      const mx = mean(this.firstCompare, d => d.value)
+      const my = mean(this.secondCompare, d => d.value)
+      const dx = deviation(this.firstCompare, d => d.value)
+      const dy = deviation(this.secondCompare, d => d.value)
+
+      const n = this.compareDouble.length
+
+      // check n length
+
+      const r = this.compareDouble
+        // value is a pair
+        .map((_, i) => [
+          // (v - m) / dev -> formula to compute z
+          (this.firstCompare[i].value - mx) / dx,
+          (this.secondCompare[i].value - my) / dy
+        ])
+        // sum(zx, xy) / n - 1
+        .reduce((acc, [zx, zy]) => acc + zx * zy, 0) / (n - 1)
+
+      console.log(r)
+
+      // yhat = a + bx
+      const b = r * dy / dx
+      const a = my - b * mx
+
+      const [minx, maxx] = extent(this.firstCompare, d => d.value)
+
+      return [
+        [minx, a + b * minx],
+        [maxx, a + b * maxx]
+      ]
     },
     invalidData () {
       return this.compareDouble
@@ -57,6 +95,13 @@ export default {
         formatTypes: [this.firstCompareVar.formatType, this.secondCompareVar.formatType],
         axisLabels: [this.firstCompareVar.compareVarName, this.secondCompareVar.compareVarName],
         fnComponents: () => [
+          xyLine()
+            .fnDefined((_, i) => i < 2)
+            .fnValue((_, i) => this.regression[i])
+            .fnStroke('#444')
+            .fnStrokeWidth(2)
+            .fnStrokeDasharray([5, 5])
+            .fnFillOpacity(0),
           xyCircles()
             .fnDefined(this.fnDefined)
             .fnValue(d => d.value)

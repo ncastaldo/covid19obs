@@ -1,7 +1,7 @@
 <template>
   <PeriodBrushChart
     id="period-range-brush"
-    :periodData="layerPeriods"
+    :periodData="tweetsPeriods"
     :bandDomain="bandDomain"
     :config="config"
     @endBandDomain="setPeriodIdRange"
@@ -20,14 +20,13 @@ export default {
     ...mapGetters({
       periods: 'period/getPeriods',
       periodRange: 'period/getPeriodRange',
-      layer: 'layer/getLayer',
-      layerPeriods: 'layer/getLayerPeriods'
+      tweetsPeriods: 'period/getTweetsPeriods'
     }),
     config () {
       return {
         bandMinStep: 0,
         bandMaxStep: 2,
-        color: this.layer.layerColor
+        color: 'rgb(31, 121, 179)'
       }
     },
     bandDomain () {
