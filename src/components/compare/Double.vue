@@ -57,9 +57,10 @@ export default {
 
       const n = this.compareDouble.length
 
-      // check n length
+      // check n length !!!
 
       const r = this.compareDouble
+        .filter(this.fnDefined)
         // value is a pair
         .map((_, i) => [
           // (v - m) / dev -> formula to compute z
@@ -69,13 +70,16 @@ export default {
         // sum(zx, xy) / n - 1
         .reduce((acc, [zx, zy]) => acc + zx * zy, 0) / (n - 1)
 
-      console.log(r)
+      console.log(`R: ${r}`)
 
       // yhat = a + bx
       const b = r * dy / dx
       const a = my - b * mx
 
-      const [minx, maxx] = extent(this.firstCompare, d => d.value)
+      const [minx, maxx] = extent(
+        this.firstCompare.filter(d => this.firstCompareVar.fnDefined(d.value)),
+        d => d.value
+      )
 
       return [
         [minx, a + b * minx],

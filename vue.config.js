@@ -3,13 +3,13 @@ module.exports = {
     "vuetify"
   ],
   pluginOptions: {
-    compression:{
+    /*compression:{
       gzip: {
         filename: '[path].gz[query]',
         algorithm: 'gzip',
         include: /\.(js|css|html|svg|json|csv)(\?.*)?$/i
       }
-    }
+    }*/
   },
   configureWebpack: {
     plugins: []
