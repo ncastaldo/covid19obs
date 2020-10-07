@@ -71,12 +71,6 @@ const baseConfigs = [
 ]
 
 const getBaseComponents = () => [
-  bxLine()
-    .fnValue(0.5)
-    .fnFillOpacity(0)
-    .fnStrokeWidth(2)
-    .fnStroke('#878787')
-    .fnStrokeDasharray([6, 2]),
   bxBars()
     .fnDefined(d => d.base_iri_value !== null)
     .fnLowValue(0)
@@ -84,7 +78,13 @@ const getBaseComponents = () => [
     .fnStrokeWidth(0)
     .fnFill(d => fnColor(d.base_iri_value))
     .fnOn('mouseover', fillOpacityMouseover)
-    .fnOn('mouseout', fillOpacityMouseout)
+    .fnOn('mouseout', fillOpacityMouseout),
+  bxLine()
+    .fnValue(0.5)
+    .fnFillOpacity(0)
+    .fnStrokeWidth(2)
+    .fnStroke('#878787')
+    .fnStrokeDasharray([6, 2])
 ]
 
 const dynIriTypeConfig = {
@@ -98,12 +98,6 @@ const dynIriTypeConfig = {
 }
 
 const getDynIriTypeComponents = () => [
-  bxLine()
-    .fnValue(0.5)
-    .fnFillOpacity(0)
-    .fnStrokeWidth(2)
-    .fnStroke('#878787')
-    .fnStrokeDasharray([6, 2]),
   bxBars()
     .fnDefined(d => d.info_dyn_iri_RT !== null)
     .fnLowValue(0)
@@ -119,7 +113,14 @@ const getDynIriTypeComponents = () => [
     .fnFillOpacity(0.5)
     .fnFill('#FB7F00')
     .fnOn('mouseover', fillOpacityMouseover)
-    .fnOn('mouseout', fillOpacityMouseout)
+    .fnOn('mouseout', fillOpacityMouseout),
+
+  bxLine()
+    .fnValue(0.5)
+    .fnFillOpacity(0)
+    .fnStrokeWidth(2)
+    .fnStroke('#878787')
+    .fnStrokeDasharray([6, 2])
 ]
 
 export default {

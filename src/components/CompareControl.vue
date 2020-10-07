@@ -23,18 +23,15 @@
           cols="12"
         >
           <v-card class="pa-2">
-            <PeriodDisplay />
-            <PeriodSelector />
-          </v-card>
-        </v-col>
-        <v-col
-          cols="12"
-        >
-          <v-card class="pa-2">
             <div
-              class="pa-2 d-flex flex-wrap align-center"
+              class="pa-2 d-flex align-center justify-center"
             >
               <v-divider class="mr-4" />
+              <div class="display__icon mr-2">
+                <v-icon large>
+                  mdi-map
+                </v-icon>
+              </div>
               <LocationPresets />
               <v-divider class="ml-4" />
             </div>
@@ -59,6 +56,14 @@
             >
               <LocationListMap />
             </div>
+          </v-card>
+        </v-col>
+        <v-col
+          cols="12"
+        >
+          <v-card class="pa-2">
+            <PeriodDisplay />
+            <PeriodSelector />
           </v-card>
         </v-col>
       </v-row>

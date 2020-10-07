@@ -73,9 +73,6 @@ export default {
         const b = r * dy / dx
         const a = my - b * mx
 
-        console.log(`b: ${b}`)
-        console.log(`a: ${a}`)
-
         const [minx, maxx] = extent(compareDouble, d => d.value[0])
         const [miny, maxy] = extent(compareDouble, d => d.value[1])
 

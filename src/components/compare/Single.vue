@@ -39,6 +39,7 @@ export default {
     }),
     orderedCompare () {
       return this.compare.slice()
+        .filter(d => this.compareVar.fnDefined(d.value))
         .sort((a, b) => a.value === null ? 1 : b.value === null ? -1
           : b.value - a.value)
     },

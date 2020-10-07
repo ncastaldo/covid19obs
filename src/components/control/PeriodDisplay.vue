@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex align-center py-2">
+  <div class="d-flex align-center justify-center py-2">
     <div class="display__icon pr-3">
       <v-icon large>
         mdi-calendar

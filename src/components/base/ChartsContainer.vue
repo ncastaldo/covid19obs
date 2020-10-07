@@ -2,8 +2,7 @@
 <template>
   <div
     v-resize:debounce.500="onResize"
-    class="chart-container "
-    :style="{height: `${chartHeight}px`}"
+    :style="style"
   >
     <slot />
   </div>
@@ -20,7 +19,10 @@ export default {
   props: {
     charts: Array,
     maxWidth: Number,
-    minWidth: Number,
+    minWidth: Number, // scroll-x if more
+
+    maxViewHeight: Number, // scroll-y if more
+
     // define alternatively height or ratio, height is dominant
     height: Number,
     ratio: Number
@@ -36,6 +38,15 @@ export default {
         // if height is defined return it, otherwise compute it
         ? this.height || this.chartWidth * this.ratio
         : null
+    },
+    style () {
+      return {
+        height: `${this.chartHeight}px`,
+        'overflow-x': this.minWidth ? 'scroll' : 'hidden',
+        'overflow-y': 'hidden'
+        // 'overflow-y': this.maxViewHeight ? 'scroll' : 'hidden',
+        // ...(this.maxViewHeight ? { height: `${this.maxViewHeight}px` } : {})
+      }
     }
   },
   watch: {
@@ -69,12 +80,3 @@ export default {
 }
 
 </script>
-
-<style scoped>
-
-.chart-container {
-  overflow-x: scroll;
-  overflow-y: hidden;
-}
-
-</style>

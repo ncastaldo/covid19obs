@@ -5,6 +5,7 @@
     <ChartsContainer
       :charts="[chart]"
       :height="height"
+
       :minWidth="400"
     >
       <svg
