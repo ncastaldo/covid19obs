@@ -65,6 +65,66 @@
     "minValue": 1,
     "maxValue": null
   },
+  "epiConfirmedPerM": {
+    "id": "epi_confirmed_perM",
+    "name": "Confirmed cases per Mln",
+    "color": "#e34a33",
+    "scaleType": "scaleLinear",
+    "formatType": "~s",
+    "baseDomain": [0, 10],
+    "fixedDomain": null,
+    "minValue": 0,
+    "maxValue": null,
+    "compare": true
+  },
+  "epiConfirmedNewPerM": {
+    "id": "epi_confirmed_new_perM",
+    "name": "Daily confirmed cases",
+    "color": "#e34a33",
+    "scaleType": "scaleLinear",
+    "formatType": ".1s",
+    "baseDomain": [0, 10],
+    "fixedDomain": null,
+    "minValue": 0,
+    "maxValue": null,
+    "compare": true
+  },
+  "epiDeadPerM": {
+    "id": "epi_dead_perM",
+    "name": "Deaths per Mln",
+    "color": "#8856a7",
+    "scaleType": "scaleLinear",
+    "formatType": "~s",
+    "baseDomain": [0, 10],
+    "fixedDomain": null,
+    "minValue": 0,
+    "maxValue": null,
+    "compare": true
+  },
+  "epiDeadNewPerM": {
+    "id": "epi_dead_new_perM",
+    "name": "Daily deaths",
+    "color": "#8856a7",
+    "scaleType": "scaleLinear",
+    "formatType": ".1s",
+    "baseDomain": [0, 10],
+    "fixedDomain": null,
+    "minValue": 0,
+    "maxValue": null,
+    "compare": true
+  },
+  "infoFactUnreliableFraction": {
+    "id": "info_fact_unreliable_fraction",
+    "name": "Unreliable facts fraction",
+    "color": "#8856A7",
+    "scaleType": "scaleLinear",
+    "formatType": "~s",
+    "baseDomain": [0, 1],
+    "fixedDomain": null,
+    "minValue": 0,
+    "maxValue": 1,
+    "compare": true
+  },
   "infoRiskIndex": {
     "id": "info_risk_index",
     "name": "Infodemic Risk Index",
@@ -74,7 +134,8 @@
     "baseDomain": [0.2, 0.7],
     "fixedDomain": null,
     "minValue": 0,
-    "maxValue": 1
+    "maxValue": 1,
+    "compare": true
   },
   "dynIri": {
     "id": "info_dyn_iri",
@@ -85,7 +146,8 @@
     "baseDomain": [0.2, 0.7],
     "fixedDomain": null,
     "minValue": 0,
-    "maxValue": 1
+    "maxValue": 1,
+    "compare": true
   },
   "ecoClosePct": {
     "id": "eco_close_pct",
@@ -96,6 +158,7 @@
     "baseDomain": [-0.01, 0.01],
     "fixedDomain": null,
     "minValue": null,
-    "maxValue": null
+    "maxValue": null,
+    "compare": true
   }
 }

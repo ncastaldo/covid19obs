@@ -1,6 +1,13 @@
-import { dsvFormat } from 'd3-dsv'
+import { csvParse } from 'd3-dsv'
 
-const fnTimeseriesParser = dsvFormat(',')
+const fnParse = ({ iso, datetime, ...rest }) => ({
+  iso,
+  datetime,
+  date: Date.parse(datetime),
+  ...Object.entries(rest)
+    .map(([key, value]) => [key, value.length ? +value : null])
+    .reduce((acc, [key, value]) => ({ ...acc, [key]: value }), {})
+})
 
 const state = {
   fullTimeseries: []
@@ -33,10 +40,7 @@ const actions = {
     // fetching the timeseries
     fetch(timeseriesUrl)
       .then(res => res.text())
-      .then(data => fnTimeseriesParser.parse(data, d => ({
-        ...d,
-        date: Date.parse(d.datetime)
-      })))
+      .then(data => csvParse(data, fnParse))
       .then(ts => { commit('setFullTimeseries', ts) })
   }
 }

@@ -5,6 +5,7 @@ import variables from '../assets/variables'
 import { getFnDefined } from '../plugins/utils'
 
 const compareVarList = Object.values(variables)
+  .filter(v => v.compare) // filter only the compare ones
   .map(({ id, name, ...rest }) => ({
     compareVarId: id,
     compareVarName: name,
@@ -28,8 +29,10 @@ const compareVars = compareVarList
     }
   }), {})
 
+console.log(compareVars)
+
 const makeState = () => ({
-  compareVarId: 'info_tweets',
+  compareVarId: null,
   compareVars,
 
   fullCompare: []
@@ -62,6 +65,7 @@ const getters = {
 const actions = {
   init: ({ commit, dispatch }, compareVarId) => {
     commit('setCompareVarId', compareVarId)
+    console.log(compareVarId)
     dispatch('loadCompare')
   },
 

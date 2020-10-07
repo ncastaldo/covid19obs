@@ -90,7 +90,7 @@ export default {
       // returns the object
       set (continent) {
         // getting the first location, for _WORLD it is the WORLD itself
-        const locationId = continent.locations[0].locationId
+        const locationId = continent.mainLocationId
         this.$store.dispatch('location/setLocationId', locationId)
       }
     },

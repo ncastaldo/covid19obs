@@ -34,8 +34,8 @@ const INITIAL_STATE = {
 
   periodId: +MONTHS[MONTHS.length - 1],
 
-  firstCompareVarId: 'info_tweets',
-  secondCompareVarId: 'info_risk_index'
+  firstCompareVarId: 'epi_confirmed_perM',
+  secondCompareVarId: 'epi_dead_perM'
 }
 
 const state = {}

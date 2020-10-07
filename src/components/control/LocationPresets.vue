@@ -24,6 +24,13 @@
 import { mapMutations } from 'vuex'
 const presets = [
   {
+    presetId: 'reset',
+    presetName: 'Reset',
+    presetLocationIdList: [
+
+    ]
+  },
+  {
     presetId: 'whoMembers',
     presetName: 'WHO members',
     presetLocationIdList: [

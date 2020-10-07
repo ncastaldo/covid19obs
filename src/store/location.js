@@ -3,14 +3,14 @@ import WORLD from '../assets/map/world.json'
 import { schemeCategory10 } from 'd3-scale-chromatic'
 
 const continentMapping = {
-  _WORLD: { color: schemeCategory10[7], name: 'World' },
-  ASIA: { color: schemeCategory10[2], name: 'Asia' },
-  SOUTH_AMERICA: { color: schemeCategory10[3], name: 'South America' },
-  AFRICA: { color: schemeCategory10[4], name: 'Africa' },
-  EUROPE: { color: schemeCategory10[0], name: 'Europe' },
-  NORTH_AMERICA: { color: schemeCategory10[1], name: 'North America' },
-  OCEANIA: { color: schemeCategory10[5], name: 'Oceania' },
-  SEVEN_SEAS_OPEN_OCEAN: { color: schemeCategory10[6], name: 'Seven Seas' }
+  _WORLD: { color: schemeCategory10[7], name: 'World', mainLocationId: '_WORLD' },
+  ASIA: { color: schemeCategory10[2], name: 'Asia', mainLocationId: 'CHN' },
+  SOUTH_AMERICA: { color: schemeCategory10[3], name: 'South America', mainLocationId: 'BRA' },
+  AFRICA: { color: schemeCategory10[4], name: 'Africa', mainLocationId: 'NGA' },
+  EUROPE: { color: schemeCategory10[0], name: 'Europe', mainLocationId: 'ITA' },
+  NORTH_AMERICA: { color: schemeCategory10[1], name: 'North America', mainLocationId: 'USA' },
+  OCEANIA: { color: schemeCategory10[5], name: 'Oceania', mainLocationId: 'AUS' },
+  SEVEN_SEAS_OPEN_OCEAN: { color: schemeCategory10[6], name: 'Seven Seas', mainLocationId: 'MUS' }
 }
 
 const fnContinentId = c => c
@@ -28,7 +28,8 @@ const locationList = WORLD.features
   .map(l => ({
     ...l,
     continentName: continentMapping[l.continentId].name,
-    continentColor: continentMapping[l.continentId].color
+    continentColor: continentMapping[l.continentId].color,
+    mainLocationId: continentMapping[l.continentId].mainLocationId
   }))
   .sort((a, b) => a.locationName >= b.locationName ? 1 : -1)
 
@@ -49,12 +50,13 @@ const locations = locationList
   }), {})
 
 const continents = locationList
-  .reduce((acc, { continentId, continentName, continentColor, ...rest }) => ({
+  .reduce((acc, { continentId, continentName, continentColor, mainLocationId, ...rest }) => ({
     ...acc,
     [continentId]: {
       continentId,
       continentName,
       continentColor,
+      mainLocationId,
       locations: [
         ...(continentId in acc ? acc[continentId].locations : []),
         rest
