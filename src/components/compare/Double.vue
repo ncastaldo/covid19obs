@@ -41,50 +41,59 @@ export default {
     }),
     compareDouble () {
       if (this.firstCompare.lentgh !== this.secondCompare.lentgh) return []
-      return this.firstCompare
+
+      const compareDouble = this.firstCompare
         .map((cmp, i) => ({
-          ...cmp,
-          value: [cmp.value, this.secondCompare[i].value]
+          ...cmp, value: [cmp.value, this.secondCompare[i].value]
         }))
-    },
-    regression () {
-      if (this.firstCompare.lentgh !== this.secondCompare.lentgh) return []
-
-      const mx = mean(this.firstCompare, d => d.value)
-      const my = mean(this.secondCompare, d => d.value)
-      const dx = deviation(this.firstCompare, d => d.value)
-      const dy = deviation(this.secondCompare, d => d.value)
-
-      const n = this.compareDouble.length
-
-      // check n length !!!
-
-      const r = this.compareDouble
         .filter(this.fnDefined)
-        // value is a pair
-        .map((_, i) => [
-          // (v - m) / dev -> formula to compute z
-          (this.firstCompare[i].value - mx) / dx,
-          (this.secondCompare[i].value - my) / dy
-        ])
-        // sum(zx, xy) / n - 1
-        .reduce((acc, [zx, zy]) => acc + zx * zy, 0) / (n - 1)
 
-      console.log(`R: ${r}`)
+      const n = compareDouble.length
 
-      // yhat = a + bx
-      const b = r * dy / dx
-      const a = my - b * mx
+      if (n > 1) {
+        const mx = mean(compareDouble, d => d.value[0])
+        const my = mean(compareDouble, d => d.value[1])
 
-      const [minx, maxx] = extent(
-        this.firstCompare.filter(d => this.firstCompareVar.fnDefined(d.value)),
-        d => d.value
-      )
+        const dx = deviation(compareDouble, d => d.value[0])
+        const dy = deviation(compareDouble, d => d.value[1])
 
-      return [
-        [minx, a + b * minx],
-        [maxx, a + b * maxx]
-      ]
+        const r = compareDouble
+          // value is a pair
+          .map((_, i) => [
+            // (v - m) / dev -> formula to compute z
+            (compareDouble[i].value[0] - mx) / dx,
+            (compareDouble[i].value[1] - my) / dy
+          ])
+          // sum(zx, xy) / n - 1
+          .reduce((acc, [zx, zy]) => acc + zx * zy, 0) / (n - 1)
+
+        console.log(`R: ${r}`)
+
+        // yhat = a + bx
+        const b = r * dy / dx
+        const a = my - b * mx
+
+        console.log(`b: ${b}`)
+        console.log(`a: ${a}`)
+
+        const [minx, maxx] = extent(compareDouble, d => d.value[0])
+        const [miny, maxy] = extent(compareDouble, d => d.value[1])
+
+        const r0 = a + b * minx > miny
+          ? [minx, a + b * minx] // '-  on y axis
+          : [b !== 0 ? (miny - a) / b : minx, miny] // |.  on x axis
+
+        const r1 = a + b * maxx < maxy
+          ? [maxx, a + b * maxx] // -.  on y axis
+          : [b !== 0 ? (maxy - a) / b : maxx, maxy] // '|  on x axis
+
+        compareDouble[0].regression = r0
+        compareDouble[1].regression = r1
+      }
+
+      console.log(compareDouble)
+
+      return compareDouble
     },
     invalidData () {
       return this.compareDouble
@@ -100,8 +109,8 @@ export default {
         axisLabels: [this.firstCompareVar.compareVarName, this.secondCompareVar.compareVarName],
         fnComponents: () => [
           xyLine()
-            .fnDefined((_, i) => i < 2)
-            .fnValue((_, i) => this.regression[i])
+            .fnDefined(d => d.regression)
+            .fnValue(d => d.regression)
             .fnStroke('#444')
             .fnStrokeWidth(2)
             .fnStrokeDasharray([5, 5])

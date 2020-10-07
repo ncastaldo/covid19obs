@@ -1,4 +1,4 @@
-import { dsvFormat } from 'd3-dsv'
+import { csvParse } from 'd3-dsv'
 
 import variables from '../assets/variables'
 
@@ -11,7 +11,13 @@ const compareVarList = Object.values(variables)
     ...rest
   }))
 
-const fnCompareParser = dsvFormat(',')
+const fnParse = ({ variable, iso, ...dateValues }) => ({
+  variable,
+  iso,
+  ...Object.entries(dateValues)
+    .map(([date, value]) => [date, value.length ? +value : null])
+    .reduce((acc, [date, value]) => ({ ...acc, [date]: value }), {})
+})
 
 const compareVars = compareVarList
   .reduce((compareVars, cv) => ({
@@ -45,11 +51,8 @@ const getters = {
     const locationList = rootGetters['location/getLocationList']
     return fullCompare
       .filter(cmp => locationList.map(l => l.locationId).includes(cmp.locationId))
-      .map(cmp => ({
-        ...cmp,
-        // null/+ because parser gives string
-        value: cmp[periodISO].length ? +cmp[periodISO] : null
-      }))
+      // assigning the value
+      .map(cmp => ({ ...cmp, value: cmp[periodISO] }))
   }
 }
 
@@ -70,7 +73,7 @@ const actions = {
     // fetching the compare
     fetch(compareUrl)
       .then(res => res.text())
-      .then(data => fnCompareParser.parse(data))
+      .then(data => csvParse(data, fnParse))
       .then(fullCmp => { dispatch('setFullCompare', fullCmp) })
   },
 

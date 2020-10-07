@@ -133,6 +133,7 @@ export default {
     },
     drawChart () {
       // wait for chartscontainer
+      console.log('drawing', this.config.scaleTypes)
       this.$nextTick(() =>
         this.chart.draw({ duration: 750 }))
     },
