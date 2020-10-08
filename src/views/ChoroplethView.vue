@@ -6,23 +6,37 @@
   >
     <v-card class="pa-2">
       <LayerSelector />
-    </v-card></Map>
+      <v-divider class="my-2" />
+      <PeriodSelector />
+      <v-divider class="my-2" />
+      <LegendChart v-if="false" />
+    </v-card>
+  </Map>
 </template>
 
 <script>
 import { mapGetters } from 'vuex'
 import Map from '../components/graphics/Map'
+
 import LayerSelector from '../components/control/LayerSelector'
+// import PeriodBars from '../components/control/PeriodBars'
+import PeriodSelector from '../components/control/PeriodSelector'
+
+import LegendChart from '../components/graphics/LegendChart'
 
 export default {
   components: {
     Map,
-    LayerSelector
+    LayerSelector,
+    // PeriodBars
+    PeriodSelector,
+    LegendChart
   },
   computed: {
     ...mapGetters({
       locations: 'location/getLocations',
       location: 'location/getLocation',
+      layerVariableInfo: 'layer/getLayerVariableInfo',
       layerDict: 'layer/getLayerDict'
     }),
     styleMapping () {
@@ -41,6 +55,9 @@ export default {
           weight: 0.5
         }
       }), {})
+    },
+    domain () {
+      return [1, 2, 3]
     }
   }
 

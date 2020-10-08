@@ -1,164 +1,257 @@
-{
-  "infoTweets": {
+[
+  {
     "id": "info_tweets",
     "name": "Collected tweets",
     "color": "#2877b8",
+    "colorInterpolator": "interpolateBlues",
+    "colorRange": null,
     "scaleType": "scaleLog",
     "formatType": "~s",
     "baseDomain": [1, 10],
     "fixedDomain": null,
     "minValue": 1,
-    "maxValue": null
+    "maxValue": null,
+    "compare": false,
+    "layer": true
   },
-  "epiConfirmed": {
+  {
     "id": "epi_confirmed",
-    "name": "Confirmed cases",
+    "name": "Cases",
     "color": "#e34a33",
+    "colorInterpolator": "interpolateReds",
+    "colorRange": null,
     "scaleType": "scaleLog",
     "formatType": "~s",
     "baseDomain": [1, 10],
     "fixedDomain": null,
     "minValue": 1,
-    "maxValue": null
+    "maxValue": null,
+    "compare": false,
+    "layer": true
   },
-  "epiConfirmedNew": {
+  {
     "id": "epi_confirmed_new",
-    "name": "Daily confirmed cases",
+    "name": "Daily cases",
     "color": "#e34a33",
+    "colorInterpolator": "interpolateReds",
+    "colorRange": null,
     "scaleType": "scaleLog",
     "formatType": ".1s",
     "baseDomain": [1, 10],
     "fixedDomain": null,
     "minValue": 0.1,
-    "maxValue": null
+    "maxValue": null,
+    "compare": false,
+    "layer": false
   },
-  "epiDead": {
+  {
+    "id": "epi_tests",
+    "name": "Tests",
+    "color": "#1C8571",
+    "colorInterpolator": "interpolateGreens",
+    "colorRange": null,
+    "scaleType": "scaleLog",
+    "formatType": "~s",
+    "baseDomain": [1, 10],
+    "fixedDomain": null,
+    "minValue": 1,
+    "maxValue": null,
+    "compare": false,
+    "layer": false
+  },
+  {
+    "id": "epi_tests_new",
+    "name": "Daily tests",
+    "color": "#1C8571",
+    "colorInterpolator": "interpolateGreens",
+    "colorRange": null,
+    "scaleType": "scaleLog",
+    "formatType": ".1s",
+    "baseDomain": [1, 10],
+    "fixedDomain": null,
+    "minValue": 0.1,
+    "maxValue": null,
+    "compare": false,
+    "layer": false
+  },
+  {
     "id": "epi_dead",
     "name": "Deaths",
     "color": "#8856a7",
+    "colorInterpolator": "interpolatePurples",
+    "colorRange": null,
     "scaleType": "scaleLog",
     "formatType": "~s",
     "baseDomain": [1, 10],
     "fixedDomain": null,
     "minValue": 1,
-    "maxValue": null
+    "maxValue": null,
+    "compare": false,
+    "layer": true
   },
-  "epiDeadNew": {
+  {
     "id": "epi_dead_new",
     "name": "Daily deaths",
     "color": "#8856a7",
+    "colorInterpolator": "interpolatePurples",
+    "colorRange": null,
     "scaleType": "scaleLog",
     "formatType": ".1s",
     "baseDomain": [1, 10],
     "fixedDomain": null,
     "minValue": 0.1,
-    "maxValue": null
+    "maxValue": null,
+    "compare": false,
+    "layer": false
   },
-  "infoFactUnreliable": {
+  {
     "id": "info_fact_unreliable",
     "name": "Unreliable facts",
     "color": "#8856A7",
+    "colorInterpolator": "interpolatePurples",
+    "colorRange": null,
     "scaleType": "scaleLog",
     "formatType": "~s",
     "baseDomain": [1, 10],
     "fixedDomain": null,
     "minValue": 1,
-    "maxValue": null
+    "maxValue": null,
+    "compare": false,
+    "layer": false
   },
-  "epiConfirmedPerM": {
+{
     "id": "epi_confirmed_perM",
-    "name": "Confirmed cases per Mln",
+    "name": "Cases per Mln",
     "color": "#e34a33",
+    "colorInterpolator": "interpolateReds",
+    "colorRange": null,
     "scaleType": "scaleLinear",
     "formatType": "~s",
-    "baseDomain": [0, 10],
+    "baseDomain": [0, 3],
     "fixedDomain": null,
     "minValue": 0,
     "maxValue": null,
-    "compare": true
+    "compare": true,
+    "layer": true
   },
-  "epiConfirmedNewPerM": {
+{
     "id": "epi_confirmed_new_perM",
-    "name": "Daily confirmed cases",
+    "name": "Daily cases per Mln",
     "color": "#e34a33",
+    "colorInterpolator": "interpolateReds",
+    "colorRange": null,
     "scaleType": "scaleLinear",
     "formatType": ".1s",
-    "baseDomain": [0, 10],
+    "baseDomain": [0, 3],
     "fixedDomain": null,
     "minValue": 0,
     "maxValue": null,
-    "compare": true
+    "compare": true,
+    "layer": false
   },
-  "epiDeadPerM": {
+  {
+    "id": "epi_tests_perK",
+    "name": "Tests per 1000",
+    "color": "#1C8571",
+    "colorInterpolator": "interpolateGreens",
+    "colorRange": null,
+    "scaleType": "scaleLinear",
+    "formatType": ".1s",
+    "baseDomain": [0, 3],
+    "fixedDomain": null,
+    "minValue": 0,
+    "maxValue": null,
+    "compare": false,
+    "layer": true
+  },
+{
     "id": "epi_dead_perM",
     "name": "Deaths per Mln",
     "color": "#8856a7",
+    "colorInterpolator": "interpolatePurples",
+    "colorRange": null,
     "scaleType": "scaleLinear",
     "formatType": "~s",
-    "baseDomain": [0, 10],
+    "baseDomain": [0, 3],
     "fixedDomain": null,
     "minValue": 0,
     "maxValue": null,
-    "compare": true
+    "compare": true,
+    "layer": true
   },
-  "epiDeadNewPerM": {
+{
     "id": "epi_dead_new_perM",
-    "name": "Daily deaths",
+    "name": "Daily deaths per Mln",
     "color": "#8856a7",
+    "colorInterpolator": "interpolatePurples",
+    "colorRange": null,
     "scaleType": "scaleLinear",
     "formatType": ".1s",
-    "baseDomain": [0, 10],
+    "baseDomain": [0, 3],
     "fixedDomain": null,
     "minValue": 0,
     "maxValue": null,
-    "compare": true
+    "compare": true,
+    "layer": false
   },
-  "infoFactUnreliableFraction": {
+{
     "id": "info_fact_unreliable_fraction",
     "name": "Unreliable facts fraction",
     "color": "#8856A7",
+    "colorInterpolator": null,
+    "colorRange": ["#018571", "#8856A7"],
     "scaleType": "scaleLinear",
-    "formatType": "~s",
+    "formatType": ".2%",
     "baseDomain": [0, 1],
-    "fixedDomain": null,
+    "fixedDomain": [0, 1],
     "minValue": 0,
     "maxValue": 1,
-    "compare": true
+    "compare": true,
+    "layer": true
   },
-  "infoRiskIndex": {
+{
     "id": "info_risk_index",
     "name": "Infodemic Risk Index",
     "color": "#2877b8",
+    "colorInterpolator": null,
+    "colorRange": ["#2b8cbe", "#e34a33"],
     "scaleType": "scaleLinear",
     "formatType": ".2f",
     "baseDomain": [0.2, 0.7],
-    "fixedDomain": null,
+    "fixedDomain": [0, 1],
     "minValue": 0,
     "maxValue": 1,
-    "compare": true
+    "compare": true,
+    "layer": true
   },
-  "dynIri": {
+  {
     "id": "info_dyn_iri",
     "name": "Dynamic Infodemic Risk Index",
     "color": "#2877b8",
+    "colorInterpolator": null,
+    "colorRange": ["#2b8cbe", "#e34a33"],
     "scaleType": "scaleLinear",
     "formatType": ".2f",
     "baseDomain": [0.2, 0.7],
     "fixedDomain": null,
     "minValue": 0,
     "maxValue": 1,
-    "compare": true
+    "compare": true,
+    "layer": true
   },
-  "ecoClosePct": {
+  {
     "id": "eco_close_pct",
     "name": "Avg. closing price",
     "color": "#fb7f00",
+    "colorInterpolator": "interpolateRdYlGn",
+    "colorRange": null,
     "scaleType": "scaleLinear",
     "formatType": ".1%",
-    "baseDomain": [-0.01, 0.01],
-    "fixedDomain": null,
+    "baseDomain": [-0.02, 0.02],
+    "fixedDomain": [-0.02, 0.02],
     "minValue": null,
     "maxValue": null,
-    "compare": true
+    "compare": true,
+    "layer": true
   }
-}
+]

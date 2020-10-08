@@ -1,49 +1,36 @@
 <template>
-  <PeriodBarsChart
-    id="period-bars"
-    :periodData="periodData"
-    :periodId="period.periodId"
-    :config="config"
-    :height="60"
-    @click="setPeriodId"
+  <v-select
+    v-model="period"
+    class="pt-0 mt-0 mx-2"
+    :items="periods"
+    item-value="periodId"
+    item-text="periodName"
+    hide-details
+    style="width: 180px"
   />
 </template>
 
 <script>
-import PeriodBarsChart from '../graphics/PeriodBarsChart'
-import { mapGetters, mapMutations } from 'vuex'
-
-const config = {
-  minStep: 0,
-  maxStep: 0,
-  color: '#2877b8'
-}
+import { mapGetters } from 'vuex'
 
 export default {
-  components: {
-    PeriodBarsChart
-  },
-  data () {
-    return { config }
-  },
   computed: {
     ...mapGetters({
-      periods: 'period/getPeriods',
-      period: 'period/getPeriod',
-      compareVar: 'compare/first/getCompareVar'
+      periods: 'period/getPeriods'
     }),
-    periodData () {
-      return this.periods.map(({ periodId }) => ({ periodId, value: 1 }))
+    period: {
+      get () { return this.$store.getters['period/getPeriod'] },
+      // using dispatch in the setter, to load new data
+      set (periodId) { this.$store.dispatch('period/setPeriodId', periodId) }
     }
-  },
-  methods: {
-    ...mapMutations({
-      setPeriodId: 'period/setPeriodId'
-    })
   }
 }
 </script>
 
 <style>
+
+/*img {
+  border: 1px solid #000;
+}*/
 
 </style>

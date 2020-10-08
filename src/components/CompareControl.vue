@@ -63,7 +63,7 @@
         >
           <v-card class="pa-2">
             <PeriodDisplay />
-            <PeriodSelector />
+            <PeriodBars />
           </v-card>
         </v-col>
       </v-row>
@@ -74,7 +74,7 @@
 <script>
 
 import PeriodDisplay from '../components/control/PeriodDisplay'
-import PeriodSelector from '../components/control/PeriodSelector'
+import PeriodBars from '../components/control/PeriodBars'
 
 import LocationListSelector from '../components/control/LocationListSelector'
 import LocationListMap from '../components/control/LocationListMap'
@@ -86,7 +86,7 @@ import { mapActions, mapGetters } from 'vuex'
 export default {
   components: {
     PeriodDisplay,
-    PeriodSelector,
+    PeriodBars,
 
     LocationListSelector,
     LocationListMap,

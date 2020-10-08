@@ -1,24 +1,12 @@
-import { csvParse } from 'd3-dsv'
+import { variableList, getFnDefined, compareTextParser } from '../plugins/util'
 
-import variables from '../assets/variables'
-
-import { getFnDefined } from '../plugins/utils'
-
-const compareVarList = Object.values(variables)
+const compareVarList = variableList
   .filter(v => v.compare) // filter only the compare ones
   .map(({ id, name, ...rest }) => ({
     compareVarId: id,
     compareVarName: name,
     ...rest
   }))
-
-const fnParse = ({ variable, iso, ...dateValues }) => ({
-  variable,
-  iso,
-  ...Object.entries(dateValues)
-    .map(([date, value]) => [date, value.length ? +value : null])
-    .reduce((acc, [date, value]) => ({ ...acc, [date]: value }), {})
-})
 
 const compareVars = compareVarList
   .reduce((compareVars, cv) => ({
@@ -77,7 +65,7 @@ const actions = {
     // fetching the compare
     fetch(compareUrl)
       .then(res => res.text())
-      .then(data => csvParse(data, fnParse))
+      .then(data => compareTextParser(data))
       .then(fullCmp => { dispatch('setFullCompare', fullCmp) })
   },
 

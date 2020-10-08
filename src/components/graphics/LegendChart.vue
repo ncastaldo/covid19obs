@@ -20,14 +20,15 @@
 </template>
 
 <script>
-import * as d3nic from 'd3nic'
+import { byAxisX, byBars, byChart } from 'd3nic'
 import { format } from 'd3-format'
-import * as d3scale from 'd3-scale'
-import * as d3scaleChromatic from 'd3-scale-chromatic'
+import * as scales from 'd3-scale'
+
+import { getColorScale } from '../../plugins/util'
 
 export default {
   props: {
-    mapVariable: Object,
+    variableInfo: Object,
     domain: Array,
     size: Object,
     width: Number
@@ -40,20 +41,17 @@ export default {
     }
   },
   computed: {
-    fnInterpolator () {
-      return d3scaleChromatic[this.mapVariable.interpolator]
+    fnColorScale () {
+      return getColorScale(this.variableInfo)
     },
     ticks () {
-      return this.mapVariable.ticks
+      return 5 // this.mapVariable.ticks
     },
     fnFormat () {
-      const f = 'legendFormat' in this.mapVariable
-        ? this.mapVariable.legendFormat
-        : this.mapVariable.format
-      return format(f)
+      return format(this.variableInfo.formatType)
     },
     fnContScale (value) {
-      return d3scale[this.mapVariable.scaleType]()
+      return scales[this.variableInfo.scaleType]()
     }
   },
   watch: {
@@ -81,19 +79,19 @@ export default {
   },
   methods: {
     createComponents () {
-      this.byAxisX = d3nic.byAxisX()
+      this.byAxisX = byAxisX()
         .tickSizeInner(-15)
         .tickSizeOuter(-15)
         .ticks(this.ticks)
         .tickFormat(this.fnFormat)
         .fnBefore(s => s.classed('axis', true).select('.domain').style('opacity', 0))
-      this.byBars = d3nic.byBars()
+      this.byBars = byBars()
         .fnLowValue(d => d[0])
         .fnHighValue(d => d[1])
         .fnFill(d => 'url(#legend-gradient)')
     },
     createChart () {
-      this.chart = d3nic.byChart()
+      this.chart = byChart()
         .selector('#legend-chart')
         .padding({ top: 0, right: 30, bottom: 30, left: 30 })
         .components([this.byBars, this.byAxisX])

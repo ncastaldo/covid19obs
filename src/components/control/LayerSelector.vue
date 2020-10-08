@@ -1,7 +1,7 @@
 <template>
   <v-select
     v-model="layer"
-    class="pt-0 mt-0"
+    class="pt-0 mt-0 mx-2"
     :items="layers"
     item-value="layerId"
     item-text="layerName"

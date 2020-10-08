@@ -17,15 +17,15 @@
         mandatory
         dense
       >
-        <v-btn>Cumulative</v-btn>
         <v-btn>Daily</v-btn>
+        <v-btn>Cumulative</v-btn>
       </v-btn-toggle>
     </div>
     <TimeseriesChart
       v-for="(config,i) in configs"
-      :id="['confirmed', 'dead'][i]"
-      :key="['confirmed', 'dead'][i]"
-      :height="200"
+      :id="['confirmed', 'tests', 'dead'][i]"
+      :key="['confirmed', 'tests', 'dead',][i]"
+      :height="160"
       :timeseries="epiTimeseries"
       :config="config"
       :getComponents="getComponents"
@@ -40,12 +40,7 @@ import { mapGetters } from 'vuex'
 
 import { bxBars } from 'd3nic'
 
-import {
-  epiConfirmed,
-  epiConfirmedNew,
-  epiDead,
-  epiDeadNew
-} from '../../assets/variables'
+import variableList from '../../assets/variables'
 
 import {
   fillOpacityMouseover,
@@ -77,20 +72,34 @@ const getComponents = ({ values }) => values
       .fnOn('mouseover', fillOpacityMouseover)
       .fnOn('mouseout', fillOpacityMouseout))
 
-const configs = [epiConfirmed, epiDead, epiConfirmedNew, epiDeadNew]
-  .map((obj, i) => getConfig({
+const epidemicVariableIdList = [
+  'epi_confirmed_new', 'epi_tests_new', 'epi_dead_new',
+  'epi_confirmed', 'epi_tests', 'epi_dead'
+]
+
+const variables = variableList
+  .reduce((acc, cur) => ({
+    ...acc,
+    [cur.id]: cur
+  }), {})
+
+const configs = epidemicVariableIdList
+  .map(epiVarId => variables[epiVarId])
+  .map((obj, i, array) => getConfig({
     ...obj,
     values: [{
       name: obj.name, // because equal to variable
-      fnValue: d => d[['epi_confirmed_value', 'epi_dead_value',
-        'epi_confirmed_value', 'epi_dead_value'][i]],
+      fnValue: d => d[[
+        'epi_confirmed_value',
+        'epi_tests_value',
+        'epi_dead_value'][i % 3]],
       fnColor: () => obj.color // because equal to variable
     }]
   }))
 
 const configList = [
-  [configs[0], configs[1]],
-  [configs[2], configs[3]]
+  [configs[0], configs[1], configs[2]],
+  [configs[3], configs[4], configs[5]]
 ]
 
 export default {
@@ -116,7 +125,8 @@ export default {
         .map(d => ({
           ...d,
           epi_confirmed_value: d[this.configs[0].id],
-          epi_dead_value: d[this.configs[1].id]
+          epi_tests_value: d[this.configs[1].id],
+          epi_dead_value: d[this.configs[2].id]
         }))
     }
   }

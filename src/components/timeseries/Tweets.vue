@@ -82,9 +82,8 @@ const localConfig = {
   bandPaddingInner: 1,
   formatType: '.0%',
   fnTooltips: d => [
-    { name: 'Foreign', value: d.info_tweets_foreign, color: '#74c476', formatType: '.3s' },
-    { name: 'Local', value: d.info_tweets_local, color: '#1C8571', formatType: '.3s' },
-    { name: 'Local [%]', value: d.info_tweets ? d.info_tweets_local / (d.info_tweets_local + d.info_tweets_foreign) : 0, color: '#74c476', formatType: '.1%' }
+    { name: 'Local [%]', value: d.info_tweets ? d.info_tweets_local / (d.info_tweets_local + d.info_tweets_foreign) : 0, color: '#1C8571', formatType: '.1%' },
+    { name: 'Foreign [%]', value: d.info_tweets ? d.info_tweets_foreign / (d.info_tweets_local + d.info_tweets_foreign) : 0, color: '#74c476', formatType: '.1%' }
   ]
 }
 
@@ -109,7 +108,7 @@ const getLocalComponents = () => [
     .fnStrokeDasharray([6, 2]),
   bxLines()
     .fnDefined(d => d.info_tweets_local_pct != null)
-    .fnLowValue(d => 0.5)
+    .fnLowValue(d => 0)
     .fnHighValue(d => d.info_tweets_local_pct)
     .fnFillOpacity(d => 0)
     .fnStrokeWidth(d => 2)

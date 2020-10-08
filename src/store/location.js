@@ -9,7 +9,7 @@ const continentMapping = {
   AFRICA: { color: schemeCategory10[4], name: 'Africa', mainLocationId: 'NGA' },
   EUROPE: { color: schemeCategory10[0], name: 'Europe', mainLocationId: 'ITA' },
   NORTH_AMERICA: { color: schemeCategory10[1], name: 'North America', mainLocationId: 'USA' },
-  OCEANIA: { color: schemeCategory10[5], name: 'Oceania', mainLocationId: 'AUS' },
+  OCEANIA: { color: schemeCategory10[5], name: 'Oceania', mainLocationId: 'NZL' },
   SEVEN_SEAS_OPEN_OCEAN: { color: schemeCategory10[6], name: 'Seven Seas', mainLocationId: 'MUS' }
 }
 
