@@ -32,8 +32,8 @@ export default {
     mousemove (event) {
       this.show = true
       const [top, bottom] = // window.innerHeight / 2 - event.clientY > 0 ?
-      [event.clientY + 'px', null] // : */ [null, (window.innerHeight - event.clientY) + 'px']
-      const [left, right] = window.innerWidth / 3 * 2 - event.clientX > 0
+      [event.clientY + 'px', null] // : [null, (window.innerHeight - event.clientY) + 'px']
+      const [left, right] = window.innerWidth / /* 3 * 2 */ 2 - event.clientX > 0
         ? [event.clientX + 'px', null] : [null, (window.innerWidth - event.clientX) + 'px']
       Object.assign(this, { top, left, bottom, right })
     }

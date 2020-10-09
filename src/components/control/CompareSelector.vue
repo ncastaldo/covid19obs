@@ -1,10 +1,10 @@
 <template>
   <v-select
-    v-model="compareVar"
+    v-model="compare"
     class="px-3"
-    :items="compareVars"
-    item-value="compareVarId"
-    item-text="compareVarName"
+    :items="compares"
+    item-value="compareId"
+    item-text="compareName"
     hide-details
     style="max-width: 300px"
     color="#444"
@@ -21,19 +21,19 @@ export default {
     }
   },
   computed: {
-    compareVars () {
-      return this.$store.getters[`compare/${this.module}/getCompareVars`]
+    compares () {
+      return this.$store.getters[`compare/${this.module}/getCompares`]
     },
     getterKey () {
-      return `compare/${this.module}/getCompareVar`
+      return `compare/${this.module}/getCompare`
     },
     setterKey () {
-      return `compare/${this.module}/setCompareVarId`
+      return `compare/${this.module}/setCompareId`
     },
-    compareVar: {
+    compare: {
       get () { return this.$store.getters[this.getterKey] },
       // using dispatch in the setter, to load new data
-      set (compareVarId) { this.$store.dispatch(this.setterKey, compareVarId) }
+      set (compareId) { this.$store.dispatch(this.setterKey, compareId) }
     }
   }
 }

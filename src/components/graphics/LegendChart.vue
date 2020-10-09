@@ -36,9 +36,6 @@ export default {
     }
   },
   computed: {
-    ticks () {
-      return 5 // this.variableInfo.ticks
-    },
     fnInterpolator () {
       return this.variableInfo.fnColorInterpolator
     }
@@ -61,7 +58,10 @@ export default {
     this.createChart()
 
     this.compose()
+
     this.update()
+
+    console.log(this.domain)
 
     this.chart.data([this.domain])
 
@@ -72,13 +72,11 @@ export default {
       this.byAxisX = byAxisX()
         .tickSizeInner(-15)
         .tickSizeOuter(-15)
-        .ticks(this.ticks)
-        .tickFormat(this.fnFormat)
         .fnBefore(s => s.classed('axis', true).select('.domain').style('opacity', 0))
       this.byBars = byBars()
         .fnLowValue(d => d[0])
         .fnHighValue(d => d[1])
-        .fnFill(d => 'url(#legend-gradient)')
+        .fnFill('url(#legend-gradient)')
     },
     createChart () {
       this.chart = byChart()
@@ -88,17 +86,15 @@ export default {
     },
     compose () {
       this.chart.components([this.byBars, this.byAxisX])
-        .fnContScale(this.fnContScale)
     },
     update () {
       this.byAxisX
-        .tickFormat(this.variableInfo.fnFormat)
-        .ticks(this.ticks) // TODO
+        .tickFormat(this.variableInfo.fnFormat || '~s')
+        .ticks(this.variableInfo.legendTicks || 5) // TODO
       this.chart
-        .contScaleType(this.variableInfo.scaleType)
+        .contScaleType(this.variableInfo.scaleType || 'scaleLinear')
     },
     drawChart () {
-      console.log('Drawingf')
       this.$nextTick(() =>
         this.chart.draw({ duration: 500 }))
     }

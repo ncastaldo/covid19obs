@@ -11,6 +11,7 @@
     "fixedDomain": null,
     "minValue": 1,
     "maxValue": null,
+    "minTweets": 1000,
     "compare": false,
     "layer": true
   },
@@ -26,6 +27,7 @@
     "fixedDomain": null,
     "minValue": 1,
     "maxValue": null,
+    "minTweets": 0,
     "compare": false,
     "layer": true
   },
@@ -41,6 +43,7 @@
     "fixedDomain": null,
     "minValue": 0.1,
     "maxValue": null,
+    "minTweets": 0,
     "compare": false,
     "layer": false
   },
@@ -56,6 +59,7 @@
     "fixedDomain": null,
     "minValue": 1,
     "maxValue": null,
+    "minTweets": 0,
     "compare": false,
     "layer": false
   },
@@ -71,6 +75,7 @@
     "fixedDomain": null,
     "minValue": 0.1,
     "maxValue": null,
+    "minTweets": 0,
     "compare": false,
     "layer": false
   },
@@ -86,6 +91,7 @@
     "fixedDomain": null,
     "minValue": 1,
     "maxValue": null,
+    "minTweets": 0,
     "compare": false,
     "layer": true
   },
@@ -101,6 +107,7 @@
     "fixedDomain": null,
     "minValue": 0.1,
     "maxValue": null,
+    "minTweets": 0,
     "compare": false,
     "layer": false
   },
@@ -116,6 +123,7 @@
     "fixedDomain": null,
     "minValue": 1,
     "maxValue": null,
+    "minTweets": 0,
     "compare": false,
     "layer": false
   },
@@ -131,6 +139,7 @@
     "fixedDomain": null,
     "minValue": 0,
     "maxValue": null,
+    "minTweets": 0,
     "compare": true,
     "layer": true
   },
@@ -146,6 +155,7 @@
     "fixedDomain": null,
     "minValue": 0,
     "maxValue": null,
+    "minTweets": 0,
     "compare": true,
     "layer": false
   },
@@ -161,6 +171,7 @@
     "fixedDomain": null,
     "minValue": 0,
     "maxValue": null,
+    "minTweets": 0,
     "compare": false,
     "layer": true
   },
@@ -176,6 +187,7 @@
     "fixedDomain": null,
     "minValue": 0,
     "maxValue": null,
+    "minTweets": 0,
     "compare": true,
     "layer": true
   },
@@ -191,21 +203,23 @@
     "fixedDomain": null,
     "minValue": 0,
     "maxValue": null,
+    "minTweets": 0,
     "compare": true,
     "layer": false
   },
 {
     "id": "info_fact_unreliable_fraction",
-    "name": "Unreliable facts fraction",
+    "name": "Unreliable facts [%]",
     "color": "#8856A7",
     "colorInterpolator": null,
     "colorRange": ["#018571", "#8856A7"],
     "scaleType": "scaleLinear",
-    "formatType": ".2%",
+    "formatType": ".1%",
     "baseDomain": [0, 1],
     "fixedDomain": [0, 1],
     "minValue": 0,
     "maxValue": 1,
+    "minTweets": 1000,
     "compare": true,
     "layer": true
   },
@@ -221,6 +235,7 @@
     "fixedDomain": [0, 1],
     "minValue": 0,
     "maxValue": 1,
+    "minTweets": 1000,
     "compare": true,
     "layer": true
   },
@@ -233,15 +248,16 @@
     "scaleType": "scaleLinear",
     "formatType": ".2f",
     "baseDomain": [0.2, 0.7],
-    "fixedDomain": null,
+    "fixedDomain": [0, 1],
     "minValue": 0,
     "maxValue": 1,
+    "minTweets": 1000,
     "compare": true,
     "layer": true
   },
   {
     "id": "eco_close_pct",
-    "name": "Avg. closing price",
+    "name": "Closing price [%]",
     "color": "#fb7f00",
     "colorInterpolator": "interpolateRdYlGn",
     "colorRange": null,
@@ -251,6 +267,7 @@
     "fixedDomain": [-0.02, 0.02],
     "minValue": null,
     "maxValue": null,
+    "minTweets": 0,
     "compare": true,
     "layer": true
   }

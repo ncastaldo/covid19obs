@@ -3,6 +3,7 @@
     id="choropleth-map"
     :height="500"
     :styleMapping="styleMapping"
+    :fnTooltips="fnTooltips"
   >
     <v-card class="pa-2">
       <LayerSelector />
@@ -46,7 +47,6 @@ export default {
       layerDict: 'layer/getLayerDict'
     }),
     styleMapping () {
-      console.log(this.layerDict)
       return this.locations.reduce((acc, { locationId }) => ({
         ...acc,
         [locationId]: {
@@ -62,6 +62,15 @@ export default {
           weight: 0.5
         }
       }), {})
+    },
+    fnTooltips () {
+      if (!this.layerVariableInfo) return () => []
+      return d => [{
+        name: this.layerVariableInfo.name,
+        value: this.layerDict[d.locationId].value,
+        color: this.styleMapping[d.locationId].fillColor,
+        formatType: this.layerVariableInfo.formatType
+      }]
     }
   }
 

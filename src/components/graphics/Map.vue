@@ -27,24 +27,24 @@
       </l-control>
     </l-map>
     <Tooltip>
-      <div
-        v-if="hover"
-        class="py-2 px-3 text-left"
-        style="background-color: rgba(255,255, 255, 0.9)"
-      >
-        <h3>{{ hover.locationName }}</h3>
-      </div>
+      <MapHover
+        :hover="hover"
+        :fnTooltips="fnTooltips || undefined"
+      />
     </Tooltip>
   </div>
 </template>
 
 <script>
+import MapHover from './MapHover'
+
 import { latLng, latLngBounds, DomEvent } from 'leaflet'
 import { LMap, LGeoJson, LControl } from 'vue2-leaflet'
 import { mapGetters } from 'vuex'
 
 export default {
   components: {
+    MapHover,
     LMap,
     LGeoJson,
     LControl
@@ -68,7 +68,8 @@ export default {
     onClick: {
       type: Function,
       default: () => { console.log('click map') }
-    }
+    },
+    fnTooltips: Function
   },
   data () {
     return {

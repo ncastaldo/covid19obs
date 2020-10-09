@@ -44,7 +44,6 @@ import TimeseriesChart from './../graphics/TimeseriesChart'
 import { mapGetters } from 'vuex'
 
 import { scaleSequential } from 'd3-scale'
-import { interpolateRdBu } from 'd3-scale-chromatic'
 import { bxLine, bxBars } from 'd3nic'
 
 import { fillOpacityMouseout, fillOpacityMouseover } from '../../plugins/graphics'

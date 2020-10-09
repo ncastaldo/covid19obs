@@ -18,7 +18,7 @@ const state = {
   layerId: null,
   layers,
 
-  layerVariableInfo: null,
+  layerVariableInfo: {},
   layerFullData: []
 }
 
@@ -36,7 +36,7 @@ const getters = {
   getLayerVariableInfo: ({ layerVariableInfo }) => layerVariableInfo,
 
   getLayerData: ({ layerFullData, layerVariableInfo }, _, __, rootGetters) => {
-    if (!layerFullData) return null
+    if (!layerFullData || !layerVariableInfo) return []
 
     const periodISO = rootGetters['period/getPeriod'].periodISO
 
@@ -54,11 +54,15 @@ const getters = {
 
   // used in legend too
   getLayerDomain: ({ layerVariableInfo }, getters) => {
+    if (!layerVariableInfo || !getters.getLayerData.length) return [1, 10]
+
     if (layerVariableInfo.fixedDomain) return layerVariableInfo.fixedDomain
     return extent(getters.getLayerData, d => d.value)
   },
 
   getLayerDict: ({ layerVariableInfo }, getters) => {
+    if (!layerVariableInfo || !getters.getLayerData.length) return {}
+
     const colorScale = getColorScale(layerVariableInfo, getters.getLayerDomain)
 
     return getters.getLayerData

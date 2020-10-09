@@ -3,7 +3,6 @@ import { format } from 'd3-format'
 import { scaleSequentialLog, scaleSequential } from 'd3-scale'
 
 import * as interpolators from 'd3-scale-chromatic'
-import { VMain } from 'vuetify/lib'
 
 import rawVariableList from '../assets/variables.json'
 

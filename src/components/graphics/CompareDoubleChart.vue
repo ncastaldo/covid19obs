@@ -98,7 +98,7 @@ export default {
         .fnBefore(s => s.classed('axis', true))
 
       this.xLabel = labelAxisX().fnFontSize(20).textPadding({ top: 50 })
-      this.yLabel = labelAxisY().fnFontSize(20).textPadding({ right: 60 })
+      this.yLabel = labelAxisY().fnFontSize(20).textPadding({ right: 70 })
     },
     createCrossLines () {
       this.crossLines = [xyLinesH(), xyLinesV()]
@@ -114,7 +114,7 @@ export default {
     createChart () {
       this.chart = xyChart()
         .selector(`#${this.id}`)
-        .padding({ left: 80, right: 50, top: 50, bottom: 80 })
+        .padding({ left: 90, right: 50, top: 50, bottom: 80 })
         .fnKey(d => d.locationId)
     },
     compose () {
