@@ -23,19 +23,27 @@
         position="topright"
         class="pa-2"
       >
-        <slot />
+        <slot name="topright" />
+      </l-control>
+      <l-control
+        position="bottomright"
+        class="pa-2"
+      >
+        <slot name="bottomright" />
       </l-control>
     </l-map>
-    <Tooltip>
+
+    <MapTooltip :mapEvent="mapEvent">
       <MapHover
         :hover="hover"
         :fnTooltips="fnTooltips || undefined"
       />
-    </Tooltip>
+    </MapTooltip>
   </div>
 </template>
 
 <script>
+import MapTooltip from './MapTooltip'
 import MapHover from './MapHover'
 
 import { latLng, latLngBounds, DomEvent } from 'leaflet'
@@ -44,6 +52,7 @@ import { mapGetters } from 'vuex'
 
 export default {
   components: {
+    MapTooltip,
     MapHover,
     LMap,
     LGeoJson,
@@ -84,6 +93,7 @@ export default {
       geoJsonOptions: {},
       geoJsonStyle: {},
 
+      mapEvent: null,
       hover: null
     }
   },
@@ -132,11 +142,13 @@ export default {
     },
     fnOnMouseover (e) {
       e.target.setStyle({ fillOpacity: 0.7 })
+      this.mapEvent = e
       this.hover = e.target.feature.properties
       // this.setLocationFocus(e.target.feature.properties)
     },
     fnOnMouseout (e) {
       e.target.setStyle({ fillOpacity: 1 })
+      this.mapEvent = null
       this.hover = null
       // this.setLocationFocus(null)
     }

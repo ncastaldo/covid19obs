@@ -5,18 +5,23 @@
     :styleMapping="styleMapping"
     :fnTooltips="fnTooltips"
   >
-    <v-card class="pa-2">
-      <LayerSelector />
-      <v-divider class="my-2" />
-      <PeriodSelector />
-      <v-divider class="my-2" />
-      <LegendChart
-        v-if="true"
-        :width="300"
-        :variableInfo="layerVariableInfo"
-        :domain="layerDomain"
-      />
-    </v-card>
+    <template v-slot:topright>
+      <v-card class="pa-1">
+        <div class="d-flex align-center">
+          <LayerSelector />
+          <LegendChart
+            v-if="true"
+            :width="300"
+            :variableInfo="layerVariableInfo"
+            :domain="layerDomain"
+          /></div>
+      </v-card>
+    </template>
+    <template v-slot:bottomright>
+      <v-card class="pa-2">
+        <PeriodSelector />
+      </v-card>
+    </template>
   </Map>
 </template>
 
