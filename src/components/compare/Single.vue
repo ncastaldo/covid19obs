@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="d-flex justify-center">
-      <CompareVarSelector />
+      <CompareSelector />
     </div>
     <CompareSingleChart
       :id="config.id"
       :height="400"
-      :compare="orderedCompare"
+      :compareData="orderedCompareData"
       :config="config"
     />
   </div>
@@ -16,7 +16,7 @@
 import { mapGetters } from 'vuex'
 import { byBars } from 'd3nic'
 
-import CompareVarSelector from '../control/CompareVarSelector'
+import CompareSelector from '../control/CompareSelector'
 
 import CompareSingleChart from '../graphics/CompareSingleChart'
 
@@ -27,33 +27,34 @@ import {
 
 export default {
   components: {
-    CompareVarSelector,
+    CompareSelector,
     CompareSingleChart
   },
   computed: {
     ...mapGetters({
       continents: 'location/getContinents',
-      compare: 'compare/first/getCompare',
-      compareVar: 'compare/first/getCompareVar',
+      compareData: 'compare/first/getCompareData',
+      compareVariableInfo: 'compare/first/getCompareVariableInfo',
       continentMapping: 'location/continentMapping'
     }),
-    orderedCompare () {
-      return this.compare.slice()
-        .filter(d => this.compareVar.fnDefined(d.value))
+    orderedCompareData () {
+      console.log('computing ord. compare', new Date().toTimeString)
+      return this.compareData.slice()
+        .filter(d => this.compareVariableInfo.fnDefined(d.value))
         .sort((a, b) => a.value === null ? 1 : b.value === null ? -1
           : b.value - a.value)
     },
     config () {
       return {
         id: 'compare-single',
-        scaleType: this.compareVar.scaleType,
-        baseDomain: this.compareVar.baseDomain,
-        fixedDomain: this.compareVar.fixedDomain,
-        formatType: this.compareVar.formatType,
+        scaleType: this.compareVariableInfo.scaleType,
+        baseDomain: this.compareVariableInfo.baseDomain,
+        fixedDomain: this.compareVariableInfo.fixedDomain,
+        formatType: this.compareVariableInfo.formatType,
         fnComponents: () => [
           byBars()
-            .fnDefined(d => this.compareVar.fnDefined(d.value))
-            .fnLowValue(d => this.compareVar.minValue)
+            .fnDefined(d => this.compareVariableInfo.fnDefined(d.value))
+            .fnLowValue(d => this.compareVariableInfo.minValue)
             .fnHighValue(d => d.value)
             .fnFill(d => d.continentColor)
             .fnFillOpacity(0.9)
@@ -61,9 +62,9 @@ export default {
             .fnOn('mouseout', fillOpacityMouseout)
         ],
         fnTooltips: d => [{
-          name: this.compareVar.compareVarName,
+          name: this.compareVariableInfo.name,
           value: d.value,
-          color: this.compareVar.color
+          color: this.compareVariableInfo.color
         }]
       }
     }

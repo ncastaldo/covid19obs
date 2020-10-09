@@ -36,7 +36,7 @@ export default {
   props: {
     id: String,
     height: Number,
-    compareDouble: Array,
+    compareData: Array,
     config: Object
   },
   data () {
@@ -57,7 +57,7 @@ export default {
     }
   },
   watch: {
-    compareDouble (value) {
+    compareData (value) {
       this.chart.data(value)
 
       this.update()
@@ -78,7 +78,7 @@ export default {
     this.compose()
     this.update()
 
-    this.chart.data(this.compareDouble)
+    this.chart.data(this.compareData)
 
     this.drawChart()
   },
@@ -133,7 +133,6 @@ export default {
     },
     drawChart () {
       // wait for chartscontainer
-      console.log('drawing', this.config.scaleTypes)
       this.$nextTick(() =>
         this.chart.draw({ duration: 750 }))
     },

@@ -1,10 +1,33 @@
 import { csvParse } from 'd3-dsv'
-
+import { format } from 'd3-format'
 import { scaleSequentialLog, scaleSequential } from 'd3-scale'
 
 import * as interpolators from 'd3-scale-chromatic'
+import { VMain } from 'vuetify/lib'
 
-import variableList from '../assets/variables.json'
+import rawVariableList from '../assets/variables.json'
+
+const getFnDefined = varInfo => value =>
+  value !== null && !isNaN(value) && value !== undefined &&
+  (varInfo.minValue === null || value >= varInfo.minValue) &&
+  (varInfo.maxValue === null || value <= varInfo.maxValue)
+
+const getFnFormat = varInfo => format(varInfo.formatType)
+
+const getFnColorInterpolator = varInfo => varInfo.colorInterpolator
+  ? interpolators[varInfo.colorInterpolator]
+  : scaleSequential().range(varInfo.colorRange).interpolator()
+
+const variableList = rawVariableList.map(v => ({
+  ...v,
+  fnDefined: getFnDefined(v),
+  fnFormat: getFnFormat(v),
+
+  domain: v.fixedDomain || v.baseDomain || [1, 10],
+
+  // used in legend too
+  fnColorInterpolator: getFnColorInterpolator(v)
+}))
 
 const variables = variableList
   .reduce((acc, v) => ({
@@ -12,19 +35,12 @@ const variables = variableList
     [v.id]: v
   }), {})
 
-const getFnDefined = varInfo => value =>
-  value !== null && !isNaN(value) && value !== undefined &&
-  (varInfo.minValue === null || value >= varInfo.minValue) &&
-  (varInfo.maxValue === null || value <= varInfo.maxValue)
-
 const getColorScale = (varInfo, domain) => {
   const colorScale = varInfo.scaleType === 'scaleLog'
     ? scaleSequentialLog()
     : scaleSequential()
 
-  varInfo.colorInterpolator
-    ? colorScale.interpolator(interpolators[varInfo.colorInterpolator])
-    : colorScale.range(varInfo.colorRange)
+  colorScale.interpolator(varInfo.fnColorInterpolator)
 
   colorScale.domain(varInfo.fixedDomain || domain)
 
@@ -37,13 +53,13 @@ const compareTextParser = (text) => csvParse(text, ({ variable, iso, ...dateValu
   ...Object.entries(dateValues)
     .map(([date, value]) => [date, value.length ? +value : null])
     .reduce((acc, [date, value]) => ({ ...acc, [date]: value }), {})
-})
-)
+}))
 
 export {
   variableList,
   variables,
-  getFnDefined,
+
   getColorScale,
+
   compareTextParser
 }

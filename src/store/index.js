@@ -34,8 +34,10 @@ const INITIAL_STATE = {
 
   periodId: +MONTHS[MONTHS.length - 1],
 
-  firstCompareVarId: 'epi_confirmed_perM',
-  secondCompareVarId: 'epi_dead_perM'
+  firstCompareId: 'epi_confirmed_perM',
+  secondCompareId: 'epi_dead_perM',
+
+  layerId: 'info_tweets'
 }
 
 const state = {}
@@ -69,10 +71,10 @@ export default new Vuex.Store({
     store => {
       store.dispatch('location/init', INITIAL_STATE)
       store.dispatch('period/init', INITIAL_STATE)
-      store.dispatch('layer/init')
+      store.dispatch('layer/init', INITIAL_STATE.layerId)
       store.dispatch('timeseries/init')
-      store.dispatch('compare/first/init', INITIAL_STATE.firstCompareVarId)
-      store.dispatch('compare/second/init', INITIAL_STATE.secondCompareVarId)
+      store.dispatch('compare/first/init', INITIAL_STATE.firstCompareId)
+      store.dispatch('compare/second/init', INITIAL_STATE.secondCompareId)
     }
   ]
 })

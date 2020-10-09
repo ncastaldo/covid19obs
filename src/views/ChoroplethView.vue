@@ -9,7 +9,12 @@
       <v-divider class="my-2" />
       <PeriodSelector />
       <v-divider class="my-2" />
-      <LegendChart v-if="false" />
+      <LegendChart
+        v-if="true"
+        :width="300"
+        :variableInfo="layerVariableInfo"
+        :domain="layerDomain"
+      />
     </v-card>
   </Map>
 </template>
@@ -37,13 +42,15 @@ export default {
       locations: 'location/getLocations',
       location: 'location/getLocation',
       layerVariableInfo: 'layer/getLayerVariableInfo',
+      layerDomain: 'layer/getLayerDomain',
       layerDict: 'layer/getLayerDict'
     }),
     styleMapping () {
+      console.log(this.layerDict)
       return this.locations.reduce((acc, { locationId }) => ({
         ...acc,
         [locationId]: {
-          fillColor: this.layerDict
+          fillColor: this.layerDict && locationId in this.layerDict
             ? this.layerDict[locationId].color
             : '#aeaeae',
           fillOpacity: 1,
@@ -55,9 +62,6 @@ export default {
           weight: 0.5
         }
       }), {})
-    },
-    domain () {
-      return [1, 2, 3]
     }
   }
 

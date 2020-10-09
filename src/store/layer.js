@@ -1,5 +1,5 @@
 
-import { variableList, variables, getFnDefined, getColorScale, compareTextParser } from '../plugins/util'
+import { variableList, variables, getColorScale, compareTextParser } from '../plugins/util'
 
 import { extent } from 'd3-array'
 
@@ -15,18 +15,18 @@ const layers = variableList
   }), {})
 
 const state = {
-  layerId: 'info_tweets',
+  layerId: null,
   layers,
 
   layerVariableInfo: null,
-  layerFullDict: null
+  layerFullData: []
 }
 
 const mutations = {
   setLayerId: (state, layerId) => { state.layerId = layerId },
 
   setLayerVariableInfo: (state, layerVariableInfo) => { state.layerVariableInfo = layerVariableInfo },
-  setLayerFullDict: (state, layerFullDict) => { state.layerFullDict = layerFullDict }
+  setLayerFullData: (state, layerFullData) => { state.layerFullData = layerFullData }
 }
 
 const getters = {
@@ -35,14 +35,12 @@ const getters = {
 
   getLayerVariableInfo: ({ layerVariableInfo }) => layerVariableInfo,
 
-  getLayerDict: ({ layerFullDict, layerVariableInfo }, _, __, rootGetters) => {
-    if (!layerFullDict) return null
-
-    const fnDefined = getFnDefined(layerVariableInfo)
+  getLayerData: ({ layerFullData, layerVariableInfo }, _, __, rootGetters) => {
+    if (!layerFullData) return null
 
     const periodISO = rootGetters['period/getPeriod'].periodISO
 
-    const localLayers = Object.values(layerFullDict)
+    return layerFullData
       .map(({ iso, variable, ...rest }) => ({
         iso,
         value: rest[periodISO] // it should exist
@@ -50,12 +48,20 @@ const getters = {
       .map(d => ({
         ...d,
         // modify value to be defined
-        value: fnDefined(d.value) ? d.value : null
+        value: layerVariableInfo.fnDefined(d.value) ? d.value : null
       }))
+  },
 
-    const colorScale = getColorScale(layerVariableInfo, extent(localLayers, d => d.value))
+  // used in legend too
+  getLayerDomain: ({ layerVariableInfo }, getters) => {
+    if (layerVariableInfo.fixedDomain) return layerVariableInfo.fixedDomain
+    return extent(getters.getLayerData, d => d.value)
+  },
 
-    return localLayers
+  getLayerDict: ({ layerVariableInfo }, getters) => {
+    const colorScale = getColorScale(layerVariableInfo, getters.getLayerDomain)
+
+    return getters.getLayerData
       .reduce((acc, { iso, value }) => ({
         ...acc,
         [iso]: {
@@ -74,8 +80,12 @@ const getters = {
 // in order to select month
 
 const actions = {
-  init: ({ dispatch }) => {
-    dispatch('loadTweets')
+  init: ({ commit, dispatch }, layerId) => {
+    // just to have something in that variable
+    commit('setLayerVariableInfo', variables[layerId])
+
+    // dispatching here!
+    dispatch('setLayerId', layerId)
   },
 
   setLayerId: ({ commit, dispatch }, layerId) => {
@@ -92,12 +102,8 @@ const actions = {
     fetch(layerUrl)
       .then(res => res.text())
       .then(data => compareTextParser(data))
-      .then(layerFull => layerFull.reduce((acc, { iso, ...rest }) => ({
-        ...acc,
-        [iso]: { iso, ...rest }
-      }), {}))
-      .then(layerFullDict => {
-        commit('setLayerFullDict', layerFullDict)
+      .then(layerFullData => {
+        commit('setLayerFullData', layerFullData)
         commit('setLayerVariableInfo', variables[layerId])
       })
   }

@@ -1,14 +1,14 @@
 <template>
   <div>
     <div class="d-flex justify-center flex-wrap">
-      <CompareVarSelector module="first" />
-      <CompareVarSelector module="second" />
+      <CompareSelector module="first" />
+      <CompareSelector module="second" />
     </div>
     <CompareDoubleChart
       :id="config.id"
       ref="chart"
       :height="400"
-      :compareDouble="compareDouble"
+      :compareData="doubleCompareData"
       :config="config"
     />
   </div>
@@ -20,49 +20,53 @@ import { xyCircles, xyLine, xyTexts } from 'd3nic'
 
 import { mean, deviation, extent } from 'd3-array'
 
-import CompareVarSelector from '../control/CompareVarSelector'
+import CompareSelector from '../control/CompareSelector'
 
 import CompareDoubleChart from '../graphics/CompareDoubleChart'
 
 export default {
   components: {
-    CompareVarSelector,
+    CompareSelector,
     CompareDoubleChart
   },
   computed: {
     ...mapGetters({
       continents: 'location/getContinents',
 
-      firstCompare: 'compare/first/getCompare',
-      firstCompareVar: 'compare/first/getCompareVar',
+      firstCompareData: 'compare/first/getCompareData',
+      firstCompareVariableInfo: 'compare/first/getCompareVariableInfo',
 
-      secondCompare: 'compare/second/getCompare',
-      secondCompareVar: 'compare/second/getCompareVar'
+      secondCompareData: 'compare/second/getCompareData',
+      secondCompareVariableInfo: 'compare/second/getCompareVariableInfo'
     }),
-    compareDouble () {
-      if (this.firstCompare.lentgh !== this.secondCompare.lentgh) return []
+    doubleCompareData () {
+      if (this.firstCompareData.lentgh !== this.secondCompareData.lentgh) return []
 
-      const compareDouble = this.firstCompare
+      const doubleCompareData = this.firstCompareData
         .map((cmp, i) => ({
-          ...cmp, value: [cmp.value, this.secondCompare[i].value]
+          ...cmp,
+          value: [
+            cmp.value,
+            this.secondCompareData[i].value
+          ]
         }))
         .filter(this.fnDefined)
 
-      const n = compareDouble.length
+      const n = doubleCompareData.length
 
       if (n > 1) {
-        const mx = mean(compareDouble, d => d.value[0])
-        const my = mean(compareDouble, d => d.value[1])
+        const mx = mean(doubleCompareData, d => d.value[0])
+        const my = mean(doubleCompareData, d => d.value[1])
 
-        const dx = deviation(compareDouble, d => d.value[0])
-        const dy = deviation(compareDouble, d => d.value[1])
+        const dx = deviation(doubleCompareData, d => d.value[0])
+        const dy = deviation(doubleCompareData, d => d.value[1])
 
-        const r = compareDouble
+        const r = doubleCompareData
           // value is a pair
           .map((_, i) => [
             // (v - m) / dev -> formula to compute z
-            (compareDouble[i].value[0] - mx) / dx,
-            (compareDouble[i].value[1] - my) / dy
+            (doubleCompareData[i].value[0] - mx) / dx,
+            (doubleCompareData[i].value[1] - my) / dy
           ])
           // sum(zx, xy) / n - 1
           .reduce((acc, [zx, zy]) => acc + zx * zy, 0) / (n - 1)
@@ -73,8 +77,8 @@ export default {
         const b = r * dy / dx
         const a = my - b * mx
 
-        const [minx, maxx] = extent(compareDouble, d => d.value[0])
-        const [miny, maxy] = extent(compareDouble, d => d.value[1])
+        const [minx, maxx] = extent(doubleCompareData, d => d.value[0])
+        const [miny, maxy] = extent(doubleCompareData, d => d.value[1])
 
         const r0 = a + b * minx > miny
           ? [minx, a + b * minx] // '-  on y axis
@@ -84,26 +88,30 @@ export default {
           ? [maxx, a + b * maxx] // -.  on y axis
           : [b !== 0 ? (maxy - a) / b : maxx, maxy] // '|  on x axis
 
-        compareDouble[0].regression = r0
-        compareDouble[1].regression = r1
+        doubleCompareData[0].regression = r0
+        doubleCompareData[1].regression = r1
       }
 
-      console.log(compareDouble)
+      console.log(doubleCompareData)
 
-      return compareDouble
+      return doubleCompareData
     },
     invalidData () {
-      return this.compareDouble
+      return this.doubleCompareData
         .filter((d, i) => !this.fnDefined(d, i))
         .map(d => ({ name: d.locationId, color: d.continentColor }))
     },
     config () {
+      const compareVariableInfos = [
+        this.firstCompareVariableInfo,
+        this.secondCompareVariableInfo
+      ]
       return {
         id: 'compare-double',
         fnDefined: this.fnDefined,
-        scaleTypes: [this.firstCompareVar.scaleType, this.secondCompareVar.scaleType],
-        formatTypes: [this.firstCompareVar.formatType, this.secondCompareVar.formatType],
-        axisLabels: [this.firstCompareVar.compareVarName, this.secondCompareVar.compareVarName],
+        scaleTypes: compareVariableInfos.map(v => v.scaleType),
+        formatTypes: compareVariableInfos.map(v => v.formatType),
+        axisLabels: compareVariableInfos.map(v => v.name),
         fnComponents: () => [
           xyLine()
             .fnDefined(d => d.regression)
@@ -129,22 +137,22 @@ export default {
             .fnBefore(s => s.attr('dx', 10).attr('dy', -10).style('pointer-events', 'none'))
         ],
         fnTooltips: d => [{
-          name: this.firstCompareVar.compareVarName,
+          name: this.firstCompareVariableInfo.name,
           value: d.value[0],
-          color: this.firstCompareVar.color
+          color: this.firstCompareVariableInfo.color
         },
         {
-          name: this.secondCompareVar.compareVarName,
+          name: this.secondCompareVariableInfo.name,
           value: d.value[1],
-          color: this.secondCompareVar.color
+          color: this.secondCompareVariableInfo.color
         }]
       }
     }
   },
   methods: {
     fnDefined (d) {
-      return this.firstCompareVar.fnDefined(d.value[0]) &&
-        this.secondCompareVar.fnDefined(d.value[1])
+      return this.firstCompareVariableInfo.fnDefined(d.value[0]) &&
+        this.secondCompareVariableInfo.fnDefined(d.value[1])
     }
   }
 }

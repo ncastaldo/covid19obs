@@ -1,46 +1,44 @@
-import { variableList, getFnDefined, compareTextParser } from '../plugins/util'
+import { variableList, variables, compareTextParser } from '../plugins/util'
 
-const compareVarList = variableList
+const compares = variableList
   .filter(v => v.compare) // filter only the compare ones
   .map(({ id, name, ...rest }) => ({
-    compareVarId: id,
-    compareVarName: name,
-    ...rest
+    compareId: id,
+    compareName: name
   }))
-
-const compareVars = compareVarList
-  .reduce((compareVars, cv) => ({
-    ...compareVars,
-    [cv.compareVarId]: {
-      ...cv,
-      fnDefined: getFnDefined(cv) // easier
-    }
+  .reduce((acc, c) => ({
+    ...acc,
+    [c.compareId]: c
   }), {})
 
-console.log(compareVars)
+// REMEMBER TO CONSIDER fnDefined!!
 
 const makeState = () => ({
-  compareVarId: null,
-  compareVars,
+  compareId: null,
+  compares,
 
-  fullCompare: []
+  compareVariableInfo: null,
+  fullCompareData: []
 })
 
 const mutations = {
-  setCompareVarId: (state, compareVarId) => { state.compareVarId = compareVarId },
+  setCompareId: (state, compareId) => { state.compareId = compareId },
 
-  setFullCompare: (state, fullCompare) => { state.fullCompare = fullCompare }
+  setCompareVariableInfo: (state, compareVariableInfo) => { state.compareVariableInfo = compareVariableInfo },
+  setFullCompareData: (state, fullCompareData) => { state.fullCompareData = fullCompareData }
 }
 
 const getters = {
-  getCompareVars: ({ compareVars }) => Object.values(compareVars),
-  getCompareVar: ({ compareVars, compareVarId }) => compareVars[compareVarId],
+  getCompares: ({ compares }) => Object.values(compares),
+  getCompare: ({ compares, compareId }) => compares[compareId],
 
-  getFullCompare: ({ fullCompare }) => fullCompare,
-  getCompare: ({ fullCompare }, _, __, rootGetters) => {
+  getCompareVariableInfo: ({ compareVariableInfo }) => compareVariableInfo,
+
+  getFullCompareData: ({ fullCompareData }) => fullCompareData,
+  getCompareData: ({ fullCompareData }, _, __, rootGetters) => {
     const periodISO = rootGetters['period/getPeriod'].periodISO
     const locationList = rootGetters['location/getLocationList']
-    return fullCompare
+    return fullCompareData
       .filter(cmp => locationList.map(l => l.locationId).includes(cmp.locationId))
       // assigning the value
       .map(cmp => ({ ...cmp, value: cmp[periodISO] }))
@@ -51,35 +49,38 @@ const getters = {
 // in order to select month
 
 const actions = {
-  init: ({ commit, dispatch }, compareVarId) => {
-    commit('setCompareVarId', compareVarId)
-    console.log(compareVarId)
-    dispatch('loadCompare')
+  init: ({ commit, dispatch }, compareId) => {
+    // just to have something in that variable
+    commit('setCompareVariableInfo', variables[compareId])
+
+    // dispatching here!
+    dispatch('setCompareId', compareId)
   },
 
-  loadCompare: ({ getters, dispatch }) => {
-    const compareVarId = getters.getCompareVar.compareVarId
-
-    const compareUrl = `/assets/compare/${compareVarId}.csv`
+  loadRawCompareData: ({ getters, dispatch }) => {
+    const compareId = getters.getCompare.compareId
+    const compareUrl = `/assets/compare/${compareId}.csv`
 
     // fetching the compare
     fetch(compareUrl)
       .then(res => res.text())
       .then(data => compareTextParser(data))
-      .then(fullCmp => { dispatch('setFullCompare', fullCmp) })
+      .then(rawCompareData => { dispatch('setRawCompareData', { rawCompareData, compareId }) })
   },
 
-  setCompareVarId: ({ commit, dispatch }, compareVarId) => {
-    commit('setCompareVarId', compareVarId)
-    dispatch('loadCompare')
+  setCompareId: ({ commit, dispatch }, compareId) => {
+    commit('setCompareId', compareId)
+    dispatch('loadRawCompareData')
   },
 
-  setFullCompare: ({ commit, rootGetters }, fullCmp) => {
-    const fullCompare = fullCmp.map(({ iso, ...rest }) => ({
+  setRawCompareData: ({ commit, rootGetters }, { rawCompareData, compareId }) => {
+    const fullCompareData = rawCompareData.map(({ iso, ...rest }) => ({
+      // appending information about the location
       ...rootGetters['location/getLocationInfo'](iso),
       ...rest
     }))
-    commit('setFullCompare', fullCompare)
+    commit('setFullCompareData', fullCompareData)
+    commit('setCompareVariableInfo', variables[compareId])
   }
 }
 

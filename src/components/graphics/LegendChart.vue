@@ -21,16 +21,11 @@
 
 <script>
 import { byAxisX, byBars, byChart } from 'd3nic'
-import { format } from 'd3-format'
-import * as scales from 'd3-scale'
-
-import { getColorScale } from '../../plugins/util'
 
 export default {
   props: {
     variableInfo: Object,
     domain: Array,
-    size: Object,
     width: Number
   },
   data () {
@@ -41,41 +36,36 @@ export default {
     }
   },
   computed: {
-    fnColorScale () {
-      return getColorScale(this.variableInfo)
-    },
     ticks () {
-      return 5 // this.mapVariable.ticks
+      return 5 // this.variableInfo.ticks
     },
-    fnFormat () {
-      return format(this.variableInfo.formatType)
-    },
-    fnContScale (value) {
-      return scales[this.variableInfo.scaleType]()
+    fnInterpolator () {
+      return this.variableInfo.fnColorInterpolator
     }
   },
   watch: {
     domain (value) {
-      this.byAxisX.tickFormat(this.fnFormat).ticks(this.ticks)
-      this.chart
-        .fnContScale(this.fnContScale)
-        .data([this.domain])
-        .draw({ duration: 0 })
+      this.chart.data([this.domain])
+
+      this.update()
+      this.drawChart()
     },
     width (value) {
-      this.chart.size({ width: value }).draw()
+      this.chart.size({ width: value })
+
+      this.drawChart()
     }
   },
   mounted () {
     this.createComponents()
     this.createChart()
 
-    this.$nextTick(() => {
-      this.chart
-        .size({ width: this.width, height: 45 })
-        .data([this.domain])
-        .draw({ duration: 0 })
-    })
+    this.compose()
+    this.update()
+
+    this.chart.data([this.domain])
+
+    this.drawChart()
   },
   methods: {
     createComponents () {
@@ -94,8 +84,23 @@ export default {
       this.chart = byChart()
         .selector('#legend-chart')
         .padding({ top: 0, right: 30, bottom: 30, left: 30 })
-        .components([this.byBars, this.byAxisX])
+        .size({ width: this.width, height: 45 })
+    },
+    compose () {
+      this.chart.components([this.byBars, this.byAxisX])
         .fnContScale(this.fnContScale)
+    },
+    update () {
+      this.byAxisX
+        .tickFormat(this.variableInfo.fnFormat)
+        .ticks(this.ticks) // TODO
+      this.chart
+        .contScaleType(this.variableInfo.scaleType)
+    },
+    drawChart () {
+      console.log('Drawingf')
+      this.$nextTick(() =>
+        this.chart.draw({ duration: 500 }))
     }
   }
 }
