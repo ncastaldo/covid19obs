@@ -6,7 +6,7 @@
           Epidemics
         </div>
         <div class="py-1">
-          Evolution over time of the covid-19 epidemics, in terms of confirmed cases and deaths.
+          Evolution over time of the covid-19 epidemics, in terms of cases cases and deaths.
         </div>
       </div>
     </Article>
@@ -23,8 +23,8 @@
     </div>
     <TimeseriesChart
       v-for="(config,i) in configs"
-      :id="['confirmed', 'tests', 'dead'][i]"
-      :key="['confirmed', 'tests', 'dead',][i]"
+      :id="['cases', 'tests', 'deaths'][i]"
+      :key="['cases', 'tests', 'deaths',][i]"
       :height="160"
       :timeseries="epiTimeseries"
       :config="config"
@@ -73,8 +73,8 @@ const getComponents = ({ values }) => values
       .fnOn('mouseout', fillOpacityMouseout))
 
 const epidemicVariableIdList = [
-  'epi_confirmed_new', 'epi_tests_new', 'epi_dead_new',
-  'epi_confirmed', 'epi_tests', 'epi_dead'
+  'epi_cases_new', 'epi_tests_new', 'epi_deaths_new',
+  'epi_cases', 'epi_tests', 'epi_deaths'
 ]
 
 const variables = variableList
@@ -90,9 +90,9 @@ const configs = epidemicVariableIdList
     values: [{
       name: obj.name, // because equal to variable
       fnValue: d => d[[
-        'epi_confirmed_value',
+        'epi_cases_value',
         'epi_tests_value',
-        'epi_dead_value'][i % 3]],
+        'epi_deaths_value'][i % 3]],
       fnColor: () => obj.color // because equal to variable
     }]
   }))
@@ -124,9 +124,9 @@ export default {
       return this.timeseries
         .map(d => ({
           ...d,
-          epi_confirmed_value: d[this.configs[0].id],
+          epi_cases_value: d[this.configs[0].id],
           epi_tests_value: d[this.configs[1].id],
-          epi_dead_value: d[this.configs[2].id]
+          epi_deaths_value: d[this.configs[2].id]
         }))
     }
   }

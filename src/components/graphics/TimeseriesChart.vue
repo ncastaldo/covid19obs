@@ -141,13 +141,13 @@ export default {
     onMouseover (event, d) {
       this.hover = d
       this.components
-        .map(c => c.join().filter(f => f.datetime === d.datetime)
+        .map(c => c.join().filter(f => f.dateISO === d.dateISO)
           .dispatch('mouseover', event, d))
     },
     onMouseout (event, d) {
       this.hover = null
       this.components
-        .map(c => c.join().filter(f => f.datetime === d.datetime)
+        .map(c => c.join().filter(f => f.dateISO === d.dateISO)
           .dispatch('mouseout', event, d))
     }
   }

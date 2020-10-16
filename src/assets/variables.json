@@ -1,6 +1,6 @@
 [
   {
-    "id": "epi_confirmed",
+    "id": "epi_cases",
     "name": "Cases",
     "color": "#e34a33",
     "colorInterpolator": "interpolateReds",
@@ -12,11 +12,11 @@
     "minValue": 1,
     "maxValue": null,
     "minTweets": 0,
-    "compare": false,
+    "compare": true,
     "layer": true
   },
   {
-    "id": "epi_confirmed_new",
+    "id": "epi_cases_new",
     "name": "Daily cases",
     "color": "#e34a33",
     "colorInterpolator": "interpolateReds",
@@ -32,7 +32,7 @@
     "layer": false
   },
   {
-    "id": "epi_confirmed_perM",
+    "id": "epi_cases_perM",
     "name": "Cases per Mln",
     "color": "#e34a33",
     "colorInterpolator": "interpolateReds",
@@ -41,14 +41,14 @@
     "formatType": "~s",
     "baseDomain": [0, 3],
     "fixedDomain": null,
-    "minValue": 0.1,
+    "minValue": 0,
     "maxValue": null,
     "minTweets": 0,
     "compare": true,
     "layer": true
   },
 {
-    "id": "epi_confirmed_new_perM",
+    "id": "epi_cases_new_perM",
     "name": "Daily cases per Mln",
     "color": "#e34a33",
     "colorInterpolator": "interpolateReds",
@@ -57,14 +57,14 @@
     "formatType": ".1s",
     "baseDomain": [0, 3],
     "fixedDomain": null,
-    "minValue": 0.1,
+    "minValue": 0,
     "maxValue": null,
     "minTweets": 0,
     "compare": true,
     "layer": true
   },
   {
-    "id": "epi_dead",
+    "id": "epi_deaths",
     "name": "Deaths",
     "color": "#8856a7",
     "colorInterpolator": "interpolatePurples",
@@ -76,11 +76,11 @@
     "minValue": 1,
     "maxValue": null,
     "minTweets": 0,
-    "compare": false,
+    "compare": true,
     "layer": true
   },
   {
-    "id": "epi_dead_perM",
+    "id": "epi_deaths_perM",
     "name": "Deaths per Mln",
     "color": "#8856a7",
     "colorInterpolator": "interpolatePurples",
@@ -89,14 +89,14 @@
     "formatType": "~s",
     "baseDomain": [0, 3],
     "fixedDomain": null,
-    "minValue": 0.1,
+    "minValue": 0,
     "maxValue": null,
     "minTweets": 0,
     "compare": true,
     "layer": true
   },
 {
-    "id": "epi_dead_new_perM",
+    "id": "epi_deaths_new_perM",
     "name": "Daily deaths per Mln",
     "color": "#8856a7",
     "colorInterpolator": "interpolatePurples",
@@ -105,14 +105,14 @@
     "formatType": ".1s",
     "baseDomain": [0, 3],
     "fixedDomain": null,
-    "minValue": 0.1,
+    "minValue": 0,
     "maxValue": null,
     "minTweets": 0,
     "compare": true,
     "layer": true
   },
   {
-    "id": "epi_dead_new",
+    "id": "epi_deaths_new",
     "name": "Daily deaths",
     "color": "#8856a7",
     "colorInterpolator": "interpolatePurples",
@@ -121,7 +121,7 @@
     "formatType": ".1s",
     "baseDomain": [1, 10],
     "fixedDomain": null,
-    "minValue": 0.1,
+    "minValue": 0,
     "maxValue": null,
     "minTweets": 0,
     "compare": false,
@@ -154,7 +154,7 @@
     "formatType": ".1s",
     "baseDomain": [1, 10],
     "fixedDomain": null,
-    "minValue": 0.1,
+    "minValue": 1,
     "maxValue": null,
     "minTweets": 0,
     "compare": false,
@@ -170,7 +170,7 @@
     "formatType": ".1s",
     "baseDomain": [0, 3],
     "fixedDomain": null,
-    "minValue": 0.1,
+    "minValue": 0,
     "maxValue": null,
     "minTweets": 0,
     "compare": false,
@@ -257,7 +257,7 @@
     "layer": true
   },
   {
-    "id": "eco_close_pct",
+    "id": "eco_open_close_fraction",
     "name": "Closing price [%]",
     "color": "#fb7f00",
     "colorInterpolator": "interpolateRdYlGn",

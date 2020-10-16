@@ -34,8 +34,8 @@ const INITIAL_STATE = {
 
   periodId: +MONTHS[MONTHS.length - 1],
 
-  firstCompareId: 'epi_confirmed_perM',
-  secondCompareId: 'epi_dead_perM',
+  firstCompareId: 'epi_cases_perM',
+  secondCompareId: 'epi_deaths_perM',
 
   layerId: 'info_tweets'
 }

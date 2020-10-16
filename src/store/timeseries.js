@@ -1,9 +1,9 @@
 import { csvParse } from 'd3-dsv'
 
-const fnParse = ({ iso, datetime, ...rest }) => ({
+const fnParse = ({ iso, date, ...rest }) => ({
   iso,
-  datetime,
-  date: Date.parse(datetime),
+  dateISO: date,
+  date: Date.parse(date),
   ...Object.entries(rest)
     .map(([key, value]) => [key, value.length ? +value : null])
     .reduce((acc, [key, value]) => ({ ...acc, [key]: value }), {})
@@ -35,7 +35,7 @@ const actions = {
     // console.log(rootGetters)
     const locationId = rootGetters['location/getLocation'].locationId
 
-    const timeseriesUrl = `/assets/infodemics/${locationId}.csv`
+    const timeseriesUrl = `/assets/timeseries/${locationId}.csv`
 
     // fetching the timeseries
     fetch(timeseriesUrl)

@@ -60,13 +60,13 @@ const logos = [
     id: 'WHO',
     src: require('../assets/img/who.svg'),
     link: 'https://www.who.int/'
-  },
-  {
+  }
+  /* {
     id: 'HARVARD',
     src: require('../assets/img/harvard.svg'),
     link: 'https://www.harvard.edu/'
-  }
-  /* {
+  },
+  {
     id: 'IULM',
     src: require('../assets/img/iulm.png'),
     link: 'https://www.iulm.it/'
