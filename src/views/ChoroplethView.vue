@@ -1,7 +1,7 @@
 <template>
   <Map
     id="choropleth-map"
-    :height="500"
+
     :styleMapping="styleMapping"
     :fnTooltips="fnTooltips"
   >

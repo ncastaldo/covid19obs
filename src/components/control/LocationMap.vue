@@ -1,6 +1,7 @@
 <template>
   <Map
     id="location-selector-map"
+    :height="300"
     :styleMapping="styleMapping"
     :mapCenter="mapCenter"
     :mapZoom="mapZoom"

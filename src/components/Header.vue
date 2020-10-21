@@ -24,7 +24,8 @@
     </v-toolbar-title>
     <v-spacer />
     <v-img
-      v-if="breakpoint !== 'xs'"
+
+      v-if="false && breakpoint !== 'xs'"
       class="mx-2"
       :src="imgSrc"
       max-height="40"

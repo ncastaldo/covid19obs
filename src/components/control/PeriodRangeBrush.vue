@@ -1,6 +1,7 @@
 <template>
   <PeriodBrushChart
     id="period-range-brush"
+    :height="300"
     :periodData="tweetsPeriods"
     :bandDomain="bandDomain"
     :config="config"

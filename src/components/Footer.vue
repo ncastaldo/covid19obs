@@ -54,13 +54,13 @@ const logos = [
     id: 'COMUNE_LAB',
     src: require('../assets/img/comune_lab_logo.svg'),
     link: 'https://comunelab.fbk.eu'
-  },
+  }
 
-  {
+  /* {
     id: 'WHO',
     src: require('../assets/img/who.svg'),
     link: 'https://www.who.int/'
-  }
+  } */
   /* {
     id: 'HARVARD',
     src: require('../assets/img/harvard.svg'),

@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div :style="style">
     <l-map
       :id="id"
       class="leaflet-map"
-      :style="{ height: `${height}px`}"
+      :style="style"
       :min-zoom="mapMinZoom"
       :max-zoom="mapMaxZoom"
       :max-bounds="mapMaxBounds"
@@ -61,6 +61,7 @@ export default {
   props: {
     id: String,
     styleMapping: Object,
+    height: Number,
     mapZoom: {
       type: Number,
       default: 1
@@ -68,10 +69,6 @@ export default {
     mapCenter: {
       type: Object,
       default: () => latLng(41.90, 12.49)
-    },
-    height: {
-      type: Number,
-      default: 300
     },
     // passing the function in order to reduce overhead
     onClick: {
@@ -88,8 +85,6 @@ export default {
       mapMaxZoom: 7,
       mapMaxBounds: latLngBounds([[-65, -180], [90, 180]]),
 
-      mapOptions: { scrollWheelZoom: false },
-
       geoJsonOptions: {},
       geoJsonStyle: {},
 
@@ -101,6 +96,14 @@ export default {
     ...mapGetters({
       locations: 'location/getLocations'
     }),
+    style () {
+      return {
+        height: this.height ? `${this.height}px` : '100%'
+      }
+    },
+    mapOptions () {
+      return { scrollWheelZoom: !this.height }
+    },
     features () {
       return this.locations.map(({ geometry, ...properties }) => ({
         type: 'Feature',

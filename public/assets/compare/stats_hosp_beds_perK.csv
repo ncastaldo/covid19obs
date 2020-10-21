@@ -202,7 +202,7 @@ stats_hosp_beds_perK,SER,,,,,,,,,,
 stats_hosp_beds_perK,SGP,2.4000,2.4000,2.4000,2.4000,2.4000,2.4000,2.4000,2.4000,2.4000,2.4000
 stats_hosp_beds_perK,SGS,,,,,,,,,,
 stats_hosp_beds_perK,SHN,,,,,,,,,,
-stats_hosp_beds_perK,SLB,,,,,,,,,,
+stats_hosp_beds_perK,SLB,,,,,,,,,,1.4000
 stats_hosp_beds_perK,SLE,,,,,,,,,,
 stats_hosp_beds_perK,SLV,,,1.3000,1.3000,1.3000,1.3000,1.3000,1.3000,1.3000,1.3000
 stats_hosp_beds_perK,SMR,3.8000,3.8000,3.8000,3.8000,3.8000,3.8000,3.8000,3.8000,3.8000,3.8000

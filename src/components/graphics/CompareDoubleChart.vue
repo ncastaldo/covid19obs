@@ -60,8 +60,6 @@ export default {
     compareData (value) {
       this.chart.data(value)
 
-      this.update()
-
       this.drawChart()
     },
     config () {

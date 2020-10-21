@@ -92,8 +92,6 @@ export default {
         doubleCompareData[1].regression = r1
       }
 
-      console.log(doubleCompareData)
-
       return doubleCompareData
     },
     invalidData () {

@@ -121,7 +121,7 @@
     "formatType": ".1s",
     "baseDomain": [1, 10],
     "fixedDomain": null,
-    "minValue": 0,
+    "minValue": 1,
     "maxValue": null,
     "minTweets": 0,
     "compare": false,
