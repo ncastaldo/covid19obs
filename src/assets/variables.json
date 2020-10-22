@@ -213,7 +213,11 @@
     "name": "Unreliable facts [%]",
     "color": "#8856A7",
     "colorInterpolator": null,
-    "colorRange": ["#018571", "#8856A7"],
+    "colorRange": [
+      "#1b7837", "#5aae61", "#a6dba0", 
+      "#d9f0d3", "#f7f7f7", "#e7d4e8", 
+      "#c2a5cf", "#9970ab", "#762a83"
+    ],
     "scaleType": "scaleLinear",
     "formatType": ".1%",
     "baseDomain": [0, 1],
@@ -225,11 +229,11 @@
     "layer": true
   },
 {
-    "id": "info_risk_index",
-    "name": "Infodemic Risk Index",
+    "id": "info_iri",
+    "name": "IRI",
     "color": "#2877b8",
     "colorInterpolator": null,
-    "colorRange": ["#2b8cbe", "#e34a33"],
+    "colorRange": ["#0571b0", "#92c5de", "#f7f7f7", "#f4a582", "#ca0020"],
     "scaleType": "scaleLinear",
     "formatType": ".2f",
     "baseDomain": [0.2, 0.7],
@@ -242,10 +246,10 @@
   },
   {
     "id": "info_dyn_iri",
-    "name": "Dynamic Infodemic Risk Index",
+    "name": "Dynamic IRI",
     "color": "#2877b8",
     "colorInterpolator": null,
-    "colorRange": ["#2b8cbe", "#e34a33"],
+    "colorRange": ["#0571b0", "#92c5de", "#f7f7f7", "#f4a582", "#ca0020"],
     "scaleType": "scaleLinear",
     "formatType": ".2f",
     "baseDomain": [0.2, 0.7],

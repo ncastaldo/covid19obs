@@ -1,5 +1,6 @@
 import { csvParse } from 'd3-dsv'
 import { format } from 'd3-format'
+import { interpolateRgbBasis } from 'd3-interpolate'
 import { scaleSequentialLog, scaleSequential } from 'd3-scale'
 
 import * as interpolators from 'd3-scale-chromatic'
@@ -15,7 +16,7 @@ const getFnFormat = varInfo => format(varInfo.formatType)
 
 const getFnColorInterpolator = varInfo => varInfo.colorInterpolator
   ? interpolators[varInfo.colorInterpolator]
-  : scaleSequential().range(varInfo.colorRange).interpolator()
+  : interpolateRgbBasis(varInfo.colorRange)
 
 const variableList = rawVariableList.map(v => ({
   ...v,

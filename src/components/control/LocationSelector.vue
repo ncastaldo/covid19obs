@@ -6,18 +6,18 @@
       </v-icon>
     </div>
     <v-select
-      v-model="continent"
+      v-model="region"
       class="mx-2"
-      :items="continents"
-      item-value="continentId"
-      item-text="continentName"
+      :items="regions"
+      item-value="regionId"
+      item-text="regionName"
       return-object
     >
       <template
         v-slot:selection="data"
       >
         <h3>
-          {{ data.item.continentName }}
+          {{ data.item.regionName }}
         </h3>
       </template>
     </v-select>
@@ -72,11 +72,11 @@ const fnFlagUrl = id => `https://flagcdn.com/32x24/${id.toLowerCase()}.png`
 export default {
   computed: {
     ...mapGetters({
-      continents: 'location/getContinents'
+      regions: 'location/getRegions'
     }),
     locations () {
-      return this.continent.continentId !== '_WORLD_CONTINENT'
-        ? this.continent.locations.slice()
+      return this.region.regionId !== '_WORLD_CONTINENT'
+        ? this.region.locations.slice()
           .sort((a, b) => a.locationName > b.locationName ? 1 : -1)
         : null
     },
@@ -85,12 +85,12 @@ export default {
       // using dispatch in the setter, to load new data
       set (locationId) { this.$store.dispatch('location/setLocationId', locationId) }
     },
-    continent: {
-      get () { return this.$store.getters['location/getContinent'] },
+    region: {
+      get () { return this.$store.getters['location/getRegion'] },
       // returns the object
-      set (continent) {
+      set (region) {
         // getting the first location, for _WORLD it is the WORLD itself
-        const locationId = continent.mainLocationId
+        const locationId = region.mainLocationId
         this.$store.dispatch('location/setLocationId', locationId)
       }
     },

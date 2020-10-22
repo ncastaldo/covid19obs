@@ -47,13 +47,19 @@ import {
   opacityMouseout
 } from '../../plugins/graphics'
 
+const newsColors = {
+  reliable: '#5aae61', // '#018571',
+  unreliable: '#9970ab', // '#8856A7',
+  difference: '#111'
+}
+
 const timeseriesConfig = {
   id: 'news',
   formatType: '~s',
   fnTooltips: d => [
-    { name: 'Reliable', value: +d.info_fact_reliable, color: '#018571', formatType: '.3s' },
-    { name: 'Unreliable', value: +d.info_fact_unreliable, color: '#8856A7', formatType: '.3s' },
-    { name: 'Difference', value: +d.info_fact_reliable - +d.info_fact_unreliable, color: '#111', formatType: '.3s' }
+    { name: 'Reliable', value: +d.info_fact_reliable, color: newsColors.reliable, formatType: '.3s' },
+    { name: 'Unreliable', value: +d.info_fact_unreliable, color: newsColors.unreliable, formatType: '.3s' },
+    { name: 'Difference', value: +d.info_fact_reliable - +d.info_fact_unreliable, color: newsColors.difference, formatType: '.3s' }
   ]
 }
 
@@ -62,27 +68,27 @@ const getTimeseriesComponents = () => [
     .fnDefined(d => d.info_fact_reliable != null)
     .fnHighValue(d => +d.info_fact_reliable)
     .fnLowValue(d => 0)
-    .fnFill(d => '#018571')
+    .fnFill(newsColors.reliable)
     .fnOn('mouseover', fillOpacityMouseover)
     .fnOn('mouseout', fillOpacityMouseout),
   bxBars()
     .fnDefined(d => +d.info_fact_unreliable != null)
     .fnHighValue(d => -d.info_fact_unreliable)
     .fnLowValue(d => 0)
-    .fnFill(d => '#8856A7')
+    .fnFill(newsColors.unreliable)
     .fnOn('mouseover', fillOpacityMouseover)
     .fnOn('mouseout', fillOpacityMouseout),
   bxLine()
     .fnDefined(d => +d.info_fact_reliable != null)
     .fnValue(d => +d.info_fact_reliable - +d.info_fact_unreliable)
     .fnFillOpacity(d => 0)
-    .fnStroke(d => '#111')
+    .fnStroke(newsColors.difference)
     .fnStrokeWidth(d => 2)
     .fnStrokeDasharray(d => [2, 2]),
   bxCircles()
     .fnDefined(d => +d.info_fact_reliable != null)
     .fnValue(d => +d.info_fact_reliable - +d.info_fact_unreliable)
-    .fnFill(d => '#111')
+    .fnFill(newsColors.difference)
     .fnRadius(d => 4)
     .fnStrokeWidth(d => 0)
     .fnOpacity(d => 0)
@@ -91,13 +97,13 @@ const getTimeseriesComponents = () => [
 ]
 
 const news = [
-  { key: 'info_fact_msm', name: 'MSM', color: '#5aae61' },
   { key: 'info_fact_science', name: 'Science', color: '#1b7837' },
-  { key: 'info_fact_conspiracy', name: 'Conspiracy', color: '#40004b' },
-  { key: 'info_fact_fake', name: 'Fake', color: '#762a83' },
-  { key: 'info_fact_clickbait', name: 'Clickbait', color: '#9970ab' },
+  { key: 'info_fact_msm', name: 'MSM', color: '#5aae61' },
+  { key: 'info_fact_satire', name: 'Satire', color: '#e7d4e8' },
   { key: 'info_fact_political', name: 'Political', color: '#c2a5cf' },
-  { key: 'info_fact_satire', name: 'Satire', color: '#e7d4e8' }
+  { key: 'info_fact_clickbait', name: 'Clickbait', color: '#9970ab' },
+  { key: 'info_fact_fake', name: 'Fake', color: '#762a83' },
+  { key: 'info_fact_conspiracy', name: 'Conspiracy', color: '#40004b' }
 ]
 
 export default {

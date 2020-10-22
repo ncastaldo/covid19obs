@@ -37,16 +37,16 @@
             </div>
             <div class="d-flex flex-wrap justify-center align-center ">
               <div
-                v-for="c in continents"
-                :key="c.continentId"
+                v-for="c in regions"
+                :key="c.regionId"
                 class="pa-2"
               >
                 <LocationListSelector
-                  :name="c.continentName"
-                  :color="c.continentColor"
-                  :value="continentValues[c.continentId]"
+                  :name="c.regionName"
+                  :color="c.regionColor"
+                  :value="regionValues[c.regionId]"
                   :locations="c.locations"
-                  @input="value => change(c.continentId, value)"
+                  @input="value => change(c.regionId, value)"
                 />
               </div>
             </div>
@@ -100,19 +100,19 @@ export default {
   },
   computed: {
     ...mapGetters({
-      allContinents: 'location/getContinents',
+      allRegions: 'location/getRegions',
       locationList: 'location/getLocationList'
     }),
-    continents () {
-      return this.allContinents
-        .filter(c => c.continentId !== '_WORLD_CONTINENT')
+    regions () {
+      return this.allRegions
+        .filter(c => c.regionId !== '_WORLD_CONTINENT')
     },
-    continentValues () {
-      const base = Object.assign({}, ...this.continents.map(c => ({ [c.continentId]: [] })))
+    regionValues () {
+      const base = Object.assign({}, ...this.regions.map(c => ({ [c.regionId]: [] })))
       return this.locationList
         .reduce((acc, l) => ({
           ...acc,
-          [l.continentId]: [...acc[l.continentId], l.locationId]
+          [l.regionId]: [...acc[l.regionId], l.locationId]
         }), base)
     }
   },
@@ -120,12 +120,12 @@ export default {
     ...mapActions({
       setLocationIdList: 'location/setLocationIdList'
     }),
-    change (continentId, value) {
-      const continentIdList = Object.entries(this.continentValues)
-        .filter(([id]) => id !== continentId)
+    change (regionId, value) {
+      const regionIdList = Object.entries(this.regionValues)
+        .filter(([id]) => id !== regionId)
         .map(([_, locationIdList]) => locationIdList)
         .flat()
-      this.setLocationIdList([...continentIdList, ...value])
+      this.setLocationIdList([...regionIdList, ...value])
       // setLocationIdList
     }
   }

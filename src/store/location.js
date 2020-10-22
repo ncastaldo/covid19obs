@@ -2,7 +2,7 @@ import WORLD from '../assets/map/world.json'
 
 import { schemeCategory10 } from 'd3-scale-chromatic'
 
-const continentMapping = {
+const regionMapping = {
   _WORLD: { color: schemeCategory10[7], name: 'World', mainLocationId: '_WORLD' },
   ASIA: { color: schemeCategory10[2], name: 'Asia', mainLocationId: 'CHN' },
   SOUTH_AMERICA: { color: schemeCategory10[3], name: 'South America', mainLocationId: 'BRA' },
@@ -13,7 +13,7 @@ const continentMapping = {
   SEVEN_SEAS_OPEN_OCEAN: { color: schemeCategory10[6], name: 'Seven Seas', mainLocationId: 'MUS' }
 }
 
-const fnContinentId = c => c
+const fnRegionId = c => c
   ? c.replace(/[^\w\s]|_/g, '').replace(/\s+/g, '_').toUpperCase()
   : ''
 
@@ -21,24 +21,24 @@ const locationList = WORLD.features
   .map(f => ({
     locationId: f.properties.ADM0_A3, // adm0_a3,
     locationName: f.properties.ADMIN, // admin,
-    continentId: fnContinentId(f.properties.CONTINENT),
+    regionId: fnRegionId(f.properties.CONTINENT),
     flagId: f.properties.WB_A2,
     geometry: f.geometry
   }))
   .map(l => ({
     ...l,
-    continentName: continentMapping[l.continentId].name,
-    continentColor: continentMapping[l.continentId].color,
-    mainLocationId: continentMapping[l.continentId].mainLocationId
+    regionName: regionMapping[l.regionId].name,
+    regionColor: regionMapping[l.regionId].color,
+    mainLocationId: regionMapping[l.regionId].mainLocationId
   }))
   .sort((a, b) => a.locationName >= b.locationName ? 1 : -1)
 
 locationList.push({
   locationId: '_WORLD',
   locationName: 'World',
-  continentId: '_WORLD_CONTINENT',
-  continentName: 'World',
-  continentColor: '#444',
+  regionId: '_WORLD_CONTINENT',
+  regionName: 'World',
+  regionColor: '#444',
   flagId: '',
   geometry: null
 })
@@ -49,16 +49,16 @@ const locations = locationList
     [l.locationId]: l
   }), {})
 
-const continents = locationList
-  .reduce((acc, { continentId, continentName, continentColor, mainLocationId, ...rest }) => ({
+const regions = locationList
+  .reduce((acc, { regionId, regionName, regionColor, mainLocationId, ...rest }) => ({
     ...acc,
-    [continentId]: {
-      continentId,
-      continentName,
-      continentColor,
+    [regionId]: {
+      regionId,
+      regionName,
+      regionColor,
       mainLocationId,
       locations: [
-        ...(continentId in acc ? acc[continentId].locations : []),
+        ...(regionId in acc ? acc[regionId].locations : []),
         rest
       ]
     }
@@ -66,7 +66,7 @@ const continents = locationList
 
 const state = {
   locations,
-  continents,
+  regions,
   locationId: null,
   locationIdList: null
 }
@@ -80,10 +80,10 @@ const mutations = {
 
 const getters = {
   getLocations: ({ locations }) => Object.values(locations),
-  getContinents: ({ continents }) => Object.values(continents),
+  getRegions: ({ regions }) => Object.values(regions),
 
   getLocation: ({ locations, locationId }) => locations[locationId],
-  getContinent: ({ continents }, getters) => continents[getters.getLocation.continentId],
+  getRegion: ({ regions }, getters) => regions[getters.getLocation.regionId],
 
   getLocationList: ({ locations, locationIdList }) => locationIdList.map(id => locations[id]),
 

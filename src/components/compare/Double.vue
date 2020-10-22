@@ -31,7 +31,7 @@ export default {
   },
   computed: {
     ...mapGetters({
-      continents: 'location/getContinents',
+      regions: 'location/getRegions',
 
       firstCompareData: 'compare/first/getCompareData',
       firstCompareVariableInfo: 'compare/first/getCompareVariableInfo',
@@ -97,7 +97,7 @@ export default {
     invalidData () {
       return this.doubleCompareData
         .filter((d, i) => !this.fnDefined(d, i))
-        .map(d => ({ name: d.locationId, color: d.continentColor }))
+        .map(d => ({ name: d.locationId, color: d.regionColor }))
     },
     config () {
       const compareVariableInfos = [
@@ -124,13 +124,13 @@ export default {
             .fnRadius(d => 6)
             .fnStroke(d => '#000')
             .fnStrokeWidth(d => 1)
-            .fnFill(d => d.continentColor)
+            .fnFill(d => d.regionColor)
             .fnOn('mouseover', this.$refs.chart.onMouseover)
             .fnOn('mouseout', this.$isMobile() || this.$refs.chart.onMouseout),
           xyTexts()
             .fnDefined(this.fnDefined)
             .fnValue(d => d.value)
-            .fnFill(d => d.continentColor)
+            .fnFill(d => d.regionColor)
             .fnText(d => d.locationId)
             .fnBefore(s => s.attr('dx', 10).attr('dy', -10).style('pointer-events', 'none'))
         ],

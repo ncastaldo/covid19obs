@@ -71,17 +71,17 @@ export default {
     }
   },
   methods: {
-    change (continent, locationIndices) {
-      const locationIdList = Object.entries(this.continentMapping)
-        .filter(([continentId]) => continentId !== continent.continentId)
-        .map(([continentId, indices], j, continents) => indices.map(idx => continents[j].locations[idx].locationId))
+    change (region, locationIndices) {
+      const locationIdList = Object.entries(this.regionMapping)
+        .filter(([regionId]) => regionId !== region.regionId)
+        .map(([regionId, indices], j, regions) => indices.map(idx => regions[j].locations[idx].locationId))
         .flat()
 
       console.log(locationIdList)
       this.setLocationIdList([
         ...locationIdList,
         ...locationIndices
-          .map((idx) => continent.locations
+          .map((idx) => region.locations
             .filter(l => l.idx === idx)
             .map(l => l.locationId)).flat()
       ])

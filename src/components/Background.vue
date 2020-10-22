@@ -54,7 +54,7 @@ export default {
       if (this.isWorld) { return [{ cx: 0, cy: 0, r: 0 }] }
       const r = 10
       return this.locationList
-        .map(l => [...this.fnProjection(geoCentroid(l.geometry)), l.continentColor])
+        .map(l => [...this.fnProjection(geoCentroid(l.geometry)), l.regionColor])
         .map(([cx, cy, color]) => ({ cx, cy, r, color }))
     },
     world () {

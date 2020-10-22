@@ -30,7 +30,7 @@
     />
     <TimeseriesChart
       id="type-iri"
-      :height="200"
+      :height="130"
       :timeseries="iriTimereries"
       :config="typeConfig"
       :getComponents="getTypeComponents"
@@ -44,15 +44,23 @@ import { mapGetters } from 'vuex'
 
 import { scaleSequential } from 'd3-scale'
 import { bxLine, bxBars, bxArea, bxCircles } from 'd3nic'
+import { interpolateRgbBasis } from 'd3-interpolate'
 
 import { fillOpacityMouseout, fillOpacityMouseover, opacityMouseover, opacityMouseout } from '../../plugins/graphics'
 
-const fnColor = scaleSequential(['#2b8cbe', '#e34a33'])
+const fnColor = scaleSequential()
+  .interpolator(interpolateRgbBasis(['#0571b0', '#92c5de', '#f4a582', '#ca0020']))
 
-const typeColors = {
+/* const typeColors = {
   T: '#045a8d',
   RT: '#2b8cbe',
   RE: '#74a9cf'
+} */
+
+const typeColors = {
+  T: '#045a8d', // '#045a8d',
+  RT: '#3690c0', // '#2b8cbe',
+  RE: '#a6bddb' // '#74a9cf'
 }
 
 const baseConfigs = [
@@ -69,7 +77,7 @@ const baseConfigs = [
     formatType: '.2f',
     baseDomain: [0.4, 0.6],
     fnTooltips: d => [
-      { name: 'IRI', value: d.info_risk_index, color: fnColor(d.info_risk_index), formatType: '.3f' }
+      { name: 'IRI', value: d.info_iri, color: fnColor(d.info_iri), formatType: '.3f' }
     ]
   }
 ]
@@ -77,8 +85,10 @@ const baseConfigs = [
 const typeConfigs = [
   {
     id: 'dyn_iri_type',
-    formatType: '.2f',
-    baseDomain: [0.4, 0.6],
+    formatType: '~s',
+    bandPaddingInner: 1,
+    padding: { top: 30 },
+    // baseDomain: [0.4, 2],
     fnTooltips: d => [
       { name: 'DynIRI Retweets', value: d.info_dyn_iri_RT, color: typeColors.RT, formatType: '.2f' },
       { name: 'DynIRI Replies', value: d.info_dyn_iri_RE, color: typeColors.RE, formatType: '.2f' }
@@ -86,12 +96,13 @@ const typeConfigs = [
   },
   {
     id: 'iri_type',
-    formatType: '.2f',
-    baseDomain: [0.4, 0.6],
+    formatType: '~s',
+    bandPaddingInner: 1,
+    // baseDomain: [0.4, 0.6],
     fnTooltips: d => [
-      { name: 'IRI Tweets', value: d.info_risk_index_T, color: typeColors.T, formatType: '.2f' },
-      { name: 'IRI Retweets', value: d.info_risk_index_RT, color: typeColors.RT, formatType: '.2f' },
-      { name: 'IRI Replies', value: d.info_risk_index_RE, color: typeColors.RE, formatType: '.2f' }
+      { name: 'IRI Tweets', value: d.info_iri_T, color: typeColors.T, formatType: '.2f' },
+      { name: 'IRI Retweets', value: d.info_iri_RT, color: typeColors.RT, formatType: '.2f' },
+      { name: 'IRI Replies', value: d.info_iri_RE, color: typeColors.RE, formatType: '.2f' }
     ]
   }
 ]
@@ -105,33 +116,30 @@ const getBarsComponent = () => bxBars()
   .fnOn('mouseover', fillOpacityMouseover)
   .fnOn('mouseout', fillOpacityMouseout)
 
-const getAreaComponent = (key, color) =>
+const getAreaComponent = (fn, color) =>
   bxArea()
-    .fnDefined(d => key in d && d[key] !== null)
+    .fnDefined(d => ![null, undefined].includes(fn(d)))
     .fnLowValue(0)
-    .fnHighValue(d => d[key])
-    .fnFillOpacity(0.1)
+    .fnHighValue(fn)
+    .fnFillOpacity(0)
     .fnFill(color)
-    .fnOn('mouseover', fillOpacityMouseover)
-    .fnOn('mouseout', fillOpacityMouseout)
 
-const getLineComponent = (key, color) =>
+const getLineComponent = (fn, color) =>
   bxLine()
-    .fnDefined(d => key in d && d[key] !== null)
-    .fnValue(d => d[key])
+    .fnDefined(d => ![null, undefined].includes(fn(d)))
+    .fnValue(fn)
     .fnFillOpacity(0)
     .fnStroke(color)
     .fnStrokeWidth(3)
-    .fnOn('mouseover', fillOpacityMouseover)
-    .fnOn('mouseout', fillOpacityMouseout)
 
-const getCircleComponent = (key, color) => bxCircles()
-  .fnDefined(d => key in d && d[key] !== null)
-  .fnValue(d => d[key])
+const getCirclesComponent = (fn, color) => bxCircles()
+  .fnDefined(d => ![null, undefined].includes(fn(d)))
+  .fnValue(fn)
   .fnFill(color)
   .fnRadius(d => 5)
   .fnStrokeWidth(d => 0)
   .fnOpacity(d => 0)
+  .fnFillOpacity(d => 1)
   .fnOn('mouseover', opacityMouseover)
   .fnOn('mouseout', opacityMouseout)
 
@@ -153,16 +161,15 @@ const getBaseComponents = () => [
 ]
 
 const getTypeComponents = () => [
-  getAreaComponent('type_T_value', typeColors.T),
-  getAreaComponent('type_RT_value', typeColors.RT),
-  getAreaComponent('type_RE_value', typeColors.RE),
-  getMiddleLineComponent(),
-  getLineComponent('type_T_value', typeColors.T),
-  getLineComponent('type_RT_value', typeColors.RT),
-  getLineComponent('type_RE_value', typeColors.RE),
-  getCircleComponent('type_T_value', typeColors.T),
-  getCircleComponent('type_RT_value', typeColors.RT),
-  getCircleComponent('type_RE_value', typeColors.RE)
+  getAreaComponent(d => d.type_T_rank, typeColors.T),
+  getAreaComponent(d => d.type_RT_rank, typeColors.RT),
+  getAreaComponent(d => d.type_RE_rank, typeColors.RE),
+  getLineComponent(d => d.type_T_rank, typeColors.T),
+  getLineComponent(d => d.type_RT_rank, typeColors.RT),
+  getLineComponent(d => d.type_RE_rank, typeColors.RE),
+  getCirclesComponent(d => d.type_T_rank, typeColors.T),
+  getCirclesComponent(d => d.type_RT_rank, typeColors.RT),
+  getCirclesComponent(d => d.type_RE_rank, typeColors.RE)
 ]
 
 export default {
@@ -186,10 +193,23 @@ export default {
       return this.timeseries
         .map(d => ({
           ...d,
-          base_value: d[['info_dyn_iri', 'info_risk_index'][this.toggle]],
-          type_T_value: this.toggle === 0 ? null : d.info_risk_index_T,
-          type_RT_value: d[['info_dyn_iri_RT', 'info_risk_index_RT'][this.toggle]],
-          type_RE_value: d[['info_dyn_iri_RE', 'info_risk_index_RE'][this.toggle]]
+          base_value: d[['info_dyn_iri', 'info_iri'][this.toggle]],
+          type_T_value: this.toggle === 0 ? null : d.info_iri_T,
+          type_RT_value: d[['info_dyn_iri_RT', 'info_iri_RT'][this.toggle]],
+          type_RE_value: d[['info_dyn_iri_RE', 'info_iri_RE'][this.toggle]]
+        }))
+        .map(d => ({
+          ...d,
+          ranks: (d.type_T_value
+            ? ['type_T_value', 'type_RT_value', 'type_RE_value'].sort((a, b) => d[a] - d[b])
+            : ['type_RT_value', 'type_RE_value'].sort((a, b) => d[a] - d[b]))
+            .reduce((acc, cur, i) => ({ ...acc, [cur]: i }), {})
+        }))
+        .map(d => ({
+          ...d,
+          type_T_rank: d.type_T_value !== null ? d.ranks.type_T_value : null,
+          type_RT_rank: d.ranks.type_RT_value,
+          type_RE_rank: d.ranks.type_RE_value
         }))
     },
     baseConfig () {

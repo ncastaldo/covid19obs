@@ -7,7 +7,7 @@
     <h4>
       <v-icon
         small
-        :color="hover.continentColor"
+        :color="hover.regionColor"
       >
         mdi-square
       </v-icon>

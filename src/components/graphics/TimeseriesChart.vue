@@ -88,6 +88,7 @@ export default {
         .ticks(3)
         .tickSizeInner(0)
         .tickSizeOuter(0)
+        .tickPadding(10)
         .tickFormat(t => fnTimeFormat(new Date(t)))
         .fnBefore(s => s.classed('axis', true))
       this.yAxis = bxAxisY()
@@ -127,6 +128,7 @@ export default {
       // this.yAxis.tickFormat(format(this.chartConfig.yFormat))
       this.yAxis.tickFormatType(this.config.formatType)
       this.chart
+        .padding(this.config.padding || {}) // updating the padding
         .bandPaddingInner(this.config.bandPaddingInner || 0)
         .contScaleType(this.config.scaleType)
         .contBaseDomain(this.config.baseDomain)

@@ -32,10 +32,10 @@ export default {
   },
   computed: {
     ...mapGetters({
-      continents: 'location/getContinents',
+      regions: 'location/getRegions',
       compareData: 'compare/first/getCompareData',
       compareVariableInfo: 'compare/first/getCompareVariableInfo',
-      continentMapping: 'location/continentMapping'
+      regionMapping: 'location/regionMapping'
     }),
     orderedCompareData () {
       console.log('computing ord. compare', new Date().toTimeString)
@@ -56,7 +56,7 @@ export default {
             .fnDefined(d => this.compareVariableInfo.fnDefined(d.value))
             .fnLowValue(d => this.compareVariableInfo.minValue)
             .fnHighValue(d => d.value)
-            .fnFill(d => d.continentColor)
+            .fnFill(d => d.regionColor)
             .fnFillOpacity(0.9)
             .fnOn('mouseover', fillOpacityMouseover)
             .fnOn('mouseout', fillOpacityMouseout)
