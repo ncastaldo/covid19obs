@@ -1,5 +1,9 @@
 import WORLD from '../assets/map/world.json'
 
+import WHO_WORLD from '../assets/map/geojson-WHO-COMPLETE-simplified.json'
+
+import { feature } from 'topojson-client'
+
 import { schemeCategory10 } from 'd3-scale-chromatic'
 
 const regionMapping = {
@@ -17,19 +21,19 @@ const fnRegionId = c => c
   ? c.replace(/[^\w\s]|_/g, '').replace(/\s+/g, '_').toUpperCase()
   : ''
 
-const locationList = WORLD.features
+const locationList = WHO_WORLD.features
   .map(f => ({
-    locationId: f.properties.ADM0_A3, // adm0_a3,
-    locationName: f.properties.ADMIN, // admin,
-    regionId: fnRegionId(f.properties.CONTINENT),
-    flagId: f.properties.WB_A2,
+    locationId: f.properties.ISO_3_CODE, // ADM0_A3, // adm0_a3,
+    locationName: f.properties.ISO_3_CODE, // ADMIN, // admin,
+    regionId: f.properties.WHO_REGION, // fnRegionId(f.properties.CONTINENT),
+    flagId: f.properties.ISO_2_CODE, // WB_A2,
     geometry: f.geometry
   }))
   .map(l => ({
     ...l,
-    regionName: regionMapping[l.regionId].name,
-    regionColor: regionMapping[l.regionId].color,
-    mainLocationId: regionMapping[l.regionId].mainLocationId
+    regionName: l.regionId, // regionMapping[l.regionId].name,
+    regionColor: 'blue', // regionMapping[l.regionId].color,
+    mainLocationId: 'ITA' // regionMapping[l.regionId].mainLocationId
   }))
   .sort((a, b) => a.locationName >= b.locationName ? 1 : -1)
 

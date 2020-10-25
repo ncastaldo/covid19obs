@@ -16,7 +16,7 @@ import { timeFormat } from 'd3-time-format'
 import {
   bxChart,
   bxAxisX,
-  bxAxiY,
+  bxAxisY,
   bxBars,
   bxBrush
 } from 'd3nic'
@@ -34,10 +34,6 @@ export default {
       type: Number,
       default: 300
     },
-    padding: {
-      type: Object,
-      default: () => ({ top: 1, left: 25, right: 25, bottom: 25 })
-    },
     bandDomain: Array,
     periodData: Array,
     config: Object
@@ -47,6 +43,8 @@ export default {
       chart: null,
 
       xAxis: null,
+      yAxis: null,
+
       bars: null,
       brush: null
     }
@@ -96,6 +94,12 @@ export default {
           s.classed('axis', true)
             .select('.domain')
             .style('opacity', 0))
+
+      this.yAxis = bxAxisY()
+        .tickSizeInner(4)
+        .tickSizeOuter(0)
+        .ticks(2)
+        .fnBefore(s => s.classed('axis', true))
       this.bars = bxBars()
         .fnLowValue(d => 0)
         .fnHighValue(d => d.value)
@@ -113,12 +117,15 @@ export default {
     createChart () {
       this.chart = bxChart()
         .selector(`#${this.id}`)
-        .padding(this.padding)
+        .padding({ left: 50, top: 10, bottom: 40, right: 30 })
         .fnKey(d => d.periodId)
         .fnBandValue(d => d.periodId)
     },
     update () {
-      this.chart.components([this.xAxis, this.bars, this.brush])
+      this.yAxis.tickFormatType(this.config.formatType || '~s')
+      this.chart
+        .padding(this.config.padding || {}) // updating the padding
+        .components([this.xAxis, this.yAxis, this.bars, this.brush])
     },
     fillBars (bandDomain) {
       // join on bars

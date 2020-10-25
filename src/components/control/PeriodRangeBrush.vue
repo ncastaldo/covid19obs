@@ -27,7 +27,8 @@ export default {
       return {
         bandMinStep: 0,
         bandMaxStep: 2,
-        color: 'rgb(31, 121, 179)'
+        color: 'rgb(31, 121, 179)',
+        formatType: '~s'
       }
     },
     bandDomain () {

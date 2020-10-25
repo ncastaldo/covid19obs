@@ -100,8 +100,8 @@ const news = [
   { key: 'info_fact_science', name: 'Science', color: '#1b7837' },
   { key: 'info_fact_msm', name: 'MSM', color: '#5aae61' },
   { key: 'info_fact_satire', name: 'Satire', color: '#e7d4e8' },
-  { key: 'info_fact_political', name: 'Political', color: '#c2a5cf' },
-  { key: 'info_fact_clickbait', name: 'Clickbait', color: '#9970ab' },
+  { key: 'info_fact_clickbait', name: 'Clickbait', color: '#c2a5cf' },
+  { key: 'info_fact_political', name: 'Political', color: '#9970ab' },
   { key: 'info_fact_fake', name: 'Fake', color: '#762a83' },
   { key: 'info_fact_conspiracy', name: 'Conspiracy', color: '#40004b' }
 ]

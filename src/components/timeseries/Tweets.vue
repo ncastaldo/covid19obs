@@ -171,8 +171,9 @@ const getLocalComponents = () => [
 
 const getVerifiedComponents = () => [
   getAreaComponent(d => 0, d => d.info_tweets_verified_fraction, colors.verified),
-  getAreaComponent(d => d.info_tweets_verified_fraction, d => Math.max(d.info_tweets_verified_fraction, 0.1), colors.unverified),
-  getLineComponent(d => 0.05, '#878787', [2, 10]),
+  getAreaComponent(d => d.info_tweets_verified_fraction, d => Math.max(d.info_tweets_verified_fraction, 0.15), colors.unverified),
+  // getLineComponent(d => 0.05, '#878787', [2, 10]),
+  getLineComponent(d => 0.10, '#878787', [2, 10]),
   getLineComponent(d => d.info_tweets_verified_fraction, '#111'),
   getLinesComponent(d => Math.max(d.info_tweets_verified_fraction, 0.1), '#878787'),
   getCirclesComponent(d => d.info_tweets_verified_fraction, '#111')

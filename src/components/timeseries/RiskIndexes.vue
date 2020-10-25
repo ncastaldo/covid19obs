@@ -43,7 +43,7 @@ import TimeseriesChart from './../graphics/TimeseriesChart'
 import { mapGetters } from 'vuex'
 
 import { scaleSequential } from 'd3-scale'
-import { bxLine, bxBars, bxArea, bxCircles } from 'd3nic'
+import { bxLine, bxBars, bxArea, bxCircles, bxLines } from 'd3nic'
 import { interpolateRgbBasis } from 'd3-interpolate'
 
 import { fillOpacityMouseout, fillOpacityMouseover, opacityMouseover, opacityMouseout } from '../../plugins/graphics'
@@ -143,6 +143,18 @@ const getCirclesComponent = (fn, color) => bxCircles()
   .fnOn('mouseover', opacityMouseover)
   .fnOn('mouseout', opacityMouseout)
 
+const getLinesComponent = (fn, color) =>
+  bxLines()
+    .fnDefined(d => fn(d) != null)
+    .fnLowValue(d => 0)
+    .fnHighValue(fn)
+    .fnFillOpacity(d => 0)
+    .fnStrokeWidth(d => 1)
+    .fnStroke(d => color)
+    .fnOpacity(d => 0)
+    .fnOn('mouseover', opacityMouseover)
+    .fnOn('mouseout', opacityMouseout)
+
 const getMiddleLineComponent = () =>
   bxLine()
     .fnValue(0.5)
@@ -167,6 +179,7 @@ const getTypeComponents = () => [
   getLineComponent(d => d.type_T_rank, typeColors.T),
   getLineComponent(d => d.type_RT_rank, typeColors.RT),
   getLineComponent(d => d.type_RE_rank, typeColors.RE),
+  getLinesComponent(d => d.type_T_rank !== null ? 2 : 1, '#878787'),
   getCirclesComponent(d => d.type_T_rank, typeColors.T),
   getCirclesComponent(d => d.type_RT_rank, typeColors.RT),
   getCirclesComponent(d => d.type_RE_rank, typeColors.RE)

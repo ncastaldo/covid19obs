@@ -45,17 +45,14 @@
 <script>
 
 import PeriodRangeSelector from '../components/control/PeriodRangeSelector'
-import PeriodRangeBrush from '../components/control/PeriodRangeBrush'
-
 import LocationSelector from '../components/control/LocationSelector'
-import LocationMap from '../components/control/LocationMap'
 
 export default {
   components: {
     PeriodRangeSelector,
-    PeriodRangeBrush,
     LocationSelector,
-    LocationMap
+    PeriodRangeBrush: () => import(/* webpackChunkName: "PeriodRangeBrush" */'../components/control/PeriodRangeBrush'),
+    LocationMap: () => import(/* webpackChunkName: "LocationMap" */'../components/control/LocationMap')
   },
   data () {
     return {

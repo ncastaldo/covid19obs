@@ -41,6 +41,7 @@ export default {
       chart: null,
 
       xAxis: null,
+
       bars: null
     }
   },

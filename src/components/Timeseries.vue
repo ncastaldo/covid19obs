@@ -24,10 +24,6 @@
 </template>
 
 <script>
-import Epidemics from './timeseries/Epidemics'
-import Tweets from './timeseries/Tweets'
-import RiskIndexes from './timeseries/RiskIndexes'
-import News from './timeseries/News'
 import { mapGetters } from 'vuex'
 
 const tabs = [
@@ -40,10 +36,10 @@ const tabs = [
 
 export default {
   components: {
-    Epidemics,
-    Tweets,
-    RiskIndexes,
-    News
+    Epidemics: () => import(/* webpackChunkName: "Epidemics" */'./timeseries/Epidemics'),
+    Tweets: () => import(/* webpackChunkName: "Tweets" */'./timeseries/Tweets'),
+    RiskIndexes: () => import(/* webpackChunkName: "RiskIndexes" */'./timeseries/RiskIndexes'),
+    News: () => import(/* webpackChunkName: "News" */'./timeseries/News')
   },
   data () {
     return {

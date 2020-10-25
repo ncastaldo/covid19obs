@@ -1,16 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-// import Observatory from '../views/Observatory'
-// import Location from '../views/Location'
-// import Project from '../views/Project'
-// import Contacts from '../views/Contacts'
-
 import HomeView from '../views/HomeView'
-import CompareView from '../views/CompareView'
-import DetailsView from '../views/DetailsView'
-import ChoroplethView from '../views/ChoroplethView'
-import MethodsView from '../views/MethodsView'
 
 Vue.use(VueRouter)
 
@@ -27,22 +18,22 @@ const routes = [
   {
     path: '/compare',
     name: 'Compare',
-    component: CompareView
+    component: () => import(/* webpackChunkName: "CompareView" */'../views/CompareView')
   },
   {
     path: '/choropleth',
     name: 'Choropleth',
-    component: ChoroplethView
+    component: () => import(/* webpackChunkName: "ChoroplethView" */'../views/ChoroplethView')
   },
   {
     path: '/details',
     name: 'DetailsView',
-    component: DetailsView
+    component: () => import(/* webpackChunkName: "DetailsView" */'../views/DetailsView')
   },
   {
     path: '/methods',
     name: 'MethodsView',
-    component: MethodsView
+    component: () => import(/* webpackChunkName: "MethodsView" */'../views/MethodsView')
   }
   /* {
     path: '/project',
@@ -57,6 +48,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
+  base: process.env.BASE_URL,
   routes
 })
 

@@ -6,7 +6,7 @@
     width="100%"
     height="100%"
   >
-    <g opacity="0.1">
+    <g opacity="0.15">
       <path
         v-for="l in locationPaths"
         :key="l.locationId"
@@ -22,6 +22,7 @@
         :cy="c.cy"
         :r="c.r"
         :fill="c.color"
+        opacity="0.5"
       />
     </g>
   </svg>
