@@ -14,6 +14,11 @@
       @click="onClick('_WORLD')"
       @ready="mapReady()"
     >
+      <l-tile-layer
+        v-if="false"
+        :url="url"
+        :crossOrigin="'*'"
+      />
       <l-geo-json
         :geojson="features"
         :options="geoJsonOptions"
@@ -47,7 +52,7 @@ import MapTooltip from './MapTooltip'
 import MapHover from './MapHover'
 
 import { latLng, latLngBounds, DomEvent } from 'leaflet'
-import { LMap, LGeoJson, LControl } from 'vue2-leaflet'
+import { LMap, LGeoJson, LControl, LTileLayer } from 'vue2-leaflet'
 import { mapGetters } from 'vuex'
 
 export default {
@@ -56,7 +61,8 @@ export default {
     MapHover,
     LMap,
     LGeoJson,
-    LControl
+    LControl,
+    LTileLayer
   },
   props: {
     id: String,
@@ -88,13 +94,16 @@ export default {
       geoJsonOptions: {},
       geoJsonStyle: {},
 
+      url: 'http://localhost:8123/geojson-WHO-final/{z}/{x}/{y}.geojson',
+
       mapEvent: null,
       hover: null
     }
   },
   computed: {
     ...mapGetters({
-      locations: 'location/getLocations'
+      locations: 'location/getLocations',
+      getLocationGeometry: 'location/getLocationGeometry'
     }),
     style () {
       return {
@@ -107,7 +116,7 @@ export default {
     features () {
       return this.locations.map(({ geometry, ...properties }) => ({
         type: 'Feature',
-        geometry,
+        geometry: this.getLocationGeometry(properties.locationId),
         properties
       }))
     }

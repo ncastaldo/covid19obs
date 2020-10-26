@@ -1,97 +1,32 @@
-import WORLD from '../assets/map/world.json'
-
-import WHO_WORLD from '../assets/map/geojson-WHO-COMPLETE-simplified.json'
-
-import { feature } from 'topojson-client'
-
-import { schemeCategory10 } from 'd3-scale-chromatic'
-
-const regionMapping = {
-  _WORLD: { color: schemeCategory10[7], name: 'World', mainLocationId: '_WORLD' },
-  ASIA: { color: schemeCategory10[2], name: 'Asia', mainLocationId: 'CHN' },
-  SOUTH_AMERICA: { color: schemeCategory10[3], name: 'South America', mainLocationId: 'BRA' },
-  AFRICA: { color: schemeCategory10[4], name: 'Africa', mainLocationId: 'NGA' },
-  EUROPE: { color: schemeCategory10[0], name: 'Europe', mainLocationId: 'ITA' },
-  NORTH_AMERICA: { color: schemeCategory10[1], name: 'North America', mainLocationId: 'USA' },
-  OCEANIA: { color: schemeCategory10[5], name: 'Oceania', mainLocationId: 'NZL' },
-  SEVEN_SEAS_OPEN_OCEAN: { color: schemeCategory10[6], name: 'Seven Seas', mainLocationId: 'MUS' }
-}
-
-const fnRegionId = c => c
-  ? c.replace(/[^\w\s]|_/g, '').replace(/\s+/g, '_').toUpperCase()
-  : ''
-
-const locationList = WHO_WORLD.features
-  .map(f => ({
-    locationId: f.properties.ISO_3_CODE, // ADM0_A3, // adm0_a3,
-    locationName: f.properties.ISO_3_CODE, // ADMIN, // admin,
-    regionId: f.properties.WHO_REGION, // fnRegionId(f.properties.CONTINENT),
-    flagId: f.properties.ISO_2_CODE, // WB_A2,
-    geometry: f.geometry
-  }))
-  .map(l => ({
-    ...l,
-    regionName: l.regionId, // regionMapping[l.regionId].name,
-    regionColor: 'blue', // regionMapping[l.regionId].color,
-    mainLocationId: 'ITA' // regionMapping[l.regionId].mainLocationId
-  }))
-  .sort((a, b) => a.locationName >= b.locationName ? 1 : -1)
-
-locationList.push({
-  locationId: '_WORLD',
-  locationName: 'World',
-  regionId: '_WORLD_CONTINENT',
-  regionName: 'World',
-  regionColor: '#444',
-  flagId: '',
-  geometry: null
-})
-
-const locations = locationList
-  .reduce((locations, l) => ({
-    ...locations,
-    [l.locationId]: l
-  }), {})
-
-const regions = locationList
-  .reduce((acc, { regionId, regionName, regionColor, mainLocationId, ...rest }) => ({
-    ...acc,
-    [regionId]: {
-      regionId,
-      regionName,
-      regionColor,
-      mainLocationId,
-      locations: [
-        ...(regionId in acc ? acc[regionId].locations : []),
-        rest
-      ]
-    }
-  }), {})
+import { locations, geometries, regions } from '../plugins/location'
 
 const state = {
-  locations,
-  regions,
   locationId: null,
   locationIdList: null
 }
 
 const mutations = {
-  setLocations: (state, locations) => { state.locations = locations },
-
   setLocationId: (state, locationId) => { state.locationId = locationId },
   setLocationIdList: (state, locationIdList) => { state.locationIdList = locationIdList }
 }
 
 const getters = {
-  getLocations: ({ locations }) => Object.values(locations),
-  getRegions: ({ regions }) => Object.values(regions),
+  getLocations: () => Object.values(locations),
+  getRegions: () => Object.values(regions),
 
-  getLocation: ({ locations, locationId }) => locations[locationId],
-  getRegion: ({ regions }, getters) => regions[getters.getLocation.regionId],
+  getLocation: ({ locationId }) => locations[locationId],
+  getRegion: (_, getters) => regions[getters.getLocation.regionId],
 
-  getLocationList: ({ locations, locationIdList }) => locationIdList.map(id => locations[id]),
+  getLocationList: ({ locationIdList }) => locationIdList.map(id => locations[id]),
 
-  getLocationInfo: ({ locations }) => locationId => locations[locationId]
+  getLocationInfo: () => locationId => locations[locationId],
+  getLocationGeometry: () => locationId => geometries[locationId],
+
+  getRegionLocations: () => regionId => regionId !== '_WORLD_REGION'
+    ? Object.values(locations)
+      .filter(l => l.regionId === regionId)
+      .sort((a, b) => a.locationName > b.locationName ? 1 : -1)
+    : []
 }
 
 const actions = {
@@ -103,6 +38,13 @@ const actions = {
   setLocationId: ({ commit, dispatch }, locationId) => {
     commit('setLocationId', locationId)
     dispatch('timeseries/loadTimeseries', {}, { root: true })
+  },
+
+  setRegionId: ({ dispatch }, regionId) => {
+    const region = regions[regionId]
+    const locationId = region.mainLocationId
+    console.log(locationId)
+    dispatch('setLocationId', locationId)
   },
 
   // may not be used

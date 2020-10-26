@@ -25,6 +25,7 @@
     "d3-time-format": "^3.0.0",
     "d3-zoom": "^2.0.0",
     "d3nic": "^0.2.0",
+    "geojson-vt": "^3.2.1",
     "hexgrid": "0.0.1",
     "leaflet": "^1.6.0",
     "leaflet-gesture-handling": "^1.1.8",

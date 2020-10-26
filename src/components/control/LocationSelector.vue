@@ -11,7 +11,6 @@
       :items="regions"
       item-value="regionId"
       item-text="regionName"
-      return-object
     >
       <template
         v-slot:selection="data"
@@ -22,7 +21,7 @@
       </template>
     </v-select>
     <div
-      v-if="locations"
+      v-if="locations.length "
       class="flex-grow-1 d-flex align-center justify-space-between"
     >
       <v-select
@@ -72,27 +71,19 @@ const fnFlagUrl = id => `https://flagcdn.com/32x24/${id.toLowerCase()}.png`
 export default {
   computed: {
     ...mapGetters({
-      regions: 'location/getRegions'
+      regions: 'location/getRegions',
+      getRegionLocations: 'location/getRegionLocations'
     }),
     locations () {
-      return this.region.regionId !== '_WORLD_CONTINENT'
-        ? this.region.locations.slice()
-          .sort((a, b) => a.locationName > b.locationName ? 1 : -1)
-        : null
+      return this.getRegionLocations(this.region.regionId)
     },
     location: {
       get () { return this.$store.getters['location/getLocation'] },
-      // using dispatch in the setter, to load new data
       set (locationId) { this.$store.dispatch('location/setLocationId', locationId) }
     },
     region: {
       get () { return this.$store.getters['location/getRegion'] },
-      // returns the object
-      set (region) {
-        // getting the first location, for _WORLD it is the WORLD itself
-        const locationId = region.mainLocationId
-        this.$store.dispatch('location/setLocationId', locationId)
-      }
+      set (regionId) { this.$store.dispatch('location/setRegionId', regionId) }
     },
     flagUrl () {
       return this.location && this.location.flagId && this.location.flagId !== '-99'
