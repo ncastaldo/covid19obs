@@ -1,4 +1,4 @@
-import { locations, geometries, regions } from '../plugins/location'
+import { allLocations, allGeometries, locations, regions } from '../plugins/location'
 
 const state = {
   locationId: null,
@@ -12,6 +12,8 @@ const mutations = {
 
 const getters = {
   getLocations: () => Object.values(locations),
+  getAllLocations: () => Object.values(allLocations),
+
   getRegions: () => Object.values(regions),
 
   getLocation: ({ locationId }) => locations[locationId],
@@ -20,7 +22,7 @@ const getters = {
   getLocationList: ({ locationIdList }) => locationIdList.map(id => locations[id]),
 
   getLocationInfo: () => locationId => locations[locationId],
-  getLocationGeometry: () => locationId => geometries[locationId],
+  getLocationGeometry: () => locationId => allGeometries[locationId],
 
   getRegionLocations: () => regionId => regionId !== '_WORLD_REGION'
     ? Object.values(locations)

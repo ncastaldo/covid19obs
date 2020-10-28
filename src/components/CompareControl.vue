@@ -37,16 +37,16 @@
             </div>
             <div class="d-flex flex-wrap justify-center align-center ">
               <div
-                v-for="c in regions"
-                :key="c.regionId"
+                v-for="region in regions"
+                :key="region.regionId"
                 class="pa-2"
               >
                 <LocationListSelector
-                  :name="c.regionName"
-                  :color="c.regionColor"
-                  :value="regionValues[c.regionId]"
-                  :locations="c.locations"
-                  @input="value => change(c.regionId, value)"
+                  :name="region.regionName"
+                  :color="region.regionColor"
+                  :value="regionValues[region.regionId]"
+                  :locations="getRegionLocations(region.regionId)"
+                  @input="value => change(region.regionId, value)"
                 />
               </div>
             </div>
@@ -101,13 +101,18 @@ export default {
   computed: {
     ...mapGetters({
       allRegions: 'location/getRegions',
-      locationList: 'location/getLocationList'
+      locationList: 'location/getLocationList',
+      getRegionLocations: 'location/getRegionLocations'
     }),
     regions () {
       return this.allRegions
-        .filter(c => c.regionId !== '_WORLD_CONTINENT')
+        .filter(r => r.regionId !== '_WORLD_REGION')
+        .sort((a, b) => a.regionId.startsWith('_')
+          ? 1 : b.regionId.startsWith('_') ? -1
+            : a.regionId.localeCompare(b.regionId))
     },
     regionValues () {
+      // to compute the selected locations for each region
       const base = Object.assign({}, ...this.regions.map(c => ({ [c.regionId]: [] })))
       return this.locationList
         .reduce((acc, l) => ({

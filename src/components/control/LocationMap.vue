@@ -29,12 +29,12 @@ export default {
     mapCenter () {
       return this.location.locationId === '_WORLD'
         ? latLng(41.90, 12.49)
-        : latLng(...geoCentroid(this.location.geometry).reverse())
+        : latLng(...(this.location.geoCentroid.slice().reverse())) /* ...geoCentroid(this.location.geometry */
     },
     mapZoom () {
       if (this.location.locationId === '_WORLD') return 1
-      const d = geoDistance(...geoBounds(this.location.geometry))
-      const lat = Math.abs(geoCentroid(this.location.geometry)[1])
+      const d = geoDistance(...this.location.geoBounds)// geoBounds(this.location.geometry))
+      const lat = Math.abs(this.location.geoCentroid[1])// geoCentroid(this.location.geometry)[1])
       // decrease the zoom at higher latitudes
       const correct = lat > 50 ? 3 : lat > 45 ? 2 : lat > 40 ? 1 : 0
       const z = Math.ceil(1 / d) - correct

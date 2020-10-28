@@ -55,6 +55,13 @@ import { latLng, latLngBounds, DomEvent } from 'leaflet'
 import { LMap, LGeoJson, LControl, LTileLayer } from 'vue2-leaflet'
 import { mapGetters } from 'vuex'
 
+const inactiveStyle = {
+  fillOpacity: 1,
+  fillColor: '#999',
+  color: '#ddd',
+  weight: 0.5
+}
+
 export default {
   components: {
     MapTooltip,
@@ -102,7 +109,7 @@ export default {
   },
   computed: {
     ...mapGetters({
-      locations: 'location/getLocations',
+      allLocations: 'location/getAllLocations',
       getLocationGeometry: 'location/getLocationGeometry'
     }),
     style () {
@@ -114,7 +121,7 @@ export default {
       return { scrollWheelZoom: !this.height }
     },
     features () {
-      return this.locations.map(({ geometry, ...properties }) => ({
+      return this.allLocations.map((properties) => ({
         type: 'Feature',
         geometry: this.getLocationGeometry(properties.locationId),
         properties
@@ -133,17 +140,22 @@ export default {
     repaint () {
       this.geoJsonStyle = (feature, layer) => {
         const locationId = feature.properties.locationId
-        return this.styleMapping[locationId] // hope no error
+        return locationId in this.styleMapping
+          ? this.styleMapping[locationId]
+          : inactiveStyle
       }
       this.geoJsonOptions = {
         onEachFeature: (feature, layer) => {
-          layer.on({
-            click: this.fnOnClick,
-            mouseover: this.fnOnMouseover,
-            mouseout: this.fnOnMouseout
-          })
-          if (this.styleMapping[feature.properties.locationId].toFront) {
-            this.$nextTick(() => layer.bringToFront())
+          const locationId = feature.properties.locationId
+          if (locationId in this.styleMapping) {
+            layer.on({
+              click: this.fnOnClick,
+              mouseover: this.fnOnMouseover,
+              mouseout: this.fnOnMouseout
+            })
+            if (this.styleMapping[locationId].toFront) {
+              this.$nextTick(() => layer.bringToFront())
+            }
           }
         }
       }

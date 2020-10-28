@@ -77,7 +77,6 @@ export default {
         .map(([regionId, indices], j, regions) => indices.map(idx => regions[j].locations[idx].locationId))
         .flat()
 
-      console.log(locationIdList)
       this.setLocationIdList([
         ...locationIdList,
         ...locationIndices
