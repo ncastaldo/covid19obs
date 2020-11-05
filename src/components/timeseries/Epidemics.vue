@@ -22,14 +22,25 @@
       </v-btn-toggle>
     </div>
     <TimeseriesChart
-      v-for="(config,i) in configs"
-      :id="['cases', 'deaths'][i]"
-      :key="['cases', 'deaths',][i]"
-      :height="160"
+      id="cases"
+      :height="200"
       :timeseries="epiTimeseries"
-      :config="config"
-      :getComponents="getComponents"
-      :transition="{duration: 500, delay: i*250}"
+      :config="casesConfig"
+      :getComponents="getCasesBarsComponents"
+    />
+    <TimeseriesChart
+      id="deaths"
+      :height="200"
+      :timeseries="epiTimeseries"
+      :config="deathsConfig"
+      :getComponents="getDeathsBarsComponents"
+    />
+    <TimeseriesChart
+      id="rt"
+      :height="200"
+      :timeseries="epiTimeseries"
+      :config="rtConfig"
+      :getComponents="getRtComponents"
     />
   </div>
 </template>
@@ -38,67 +49,103 @@
 import TimeseriesChart from './../graphics/TimeseriesChart'
 import { mapGetters } from 'vuex'
 
-import { bxBars } from 'd3nic'
-
-import variableList from '../../assets/variables'
+import { bxBars, bxLine, bxArea } from 'd3nic'
 
 import {
   fillOpacityMouseover,
   fillOpacityMouseout
 } from '../../plugins/graphics'
 
-// forcing the accessor value to be equal to the 'id'
-const getConfig = ({ id, values, name, formatType, color }) => ({
-  id,
-  scaleType: 'scaleLinear',
-  baseDomain: [0, 2],
-  fixedDomain: null,
-  formatType,
-  values,
-  fnTooltips: d => values
-    .map(({ name, fnValue, fnColor }) => ({
-      name, value: fnValue(d), color: fnColor(d), formatType: '.2s'
-    }))
-})
-
-// it receives a config object
-const getComponents = ({ values }) => values
-  .map(({ fnValue, fnColor }) =>
-    bxBars()
-      .fnDefined(d => fnValue(d) !== null)
-      .fnLowValue(0)
-      .fnHighValue(fnValue)
-      .fnFill(fnColor)
-      .fnOn('mouseover', fillOpacityMouseover)
-      .fnOn('mouseout', fillOpacityMouseout))
-
-const epidemicVariableIdList = [
-  'epi_cases_new', 'epi_deaths_new',
-  'epi_cases', 'epi_deaths'
+const casesConfigs = [
+  {
+    id: 'epi_cases_new',
+    color: '#e34a33',
+    formatType: '~s',
+    scaleType: 'scaleLinear',
+    padding: { top: 30 },
+    fnTooltips: d => [
+      { name: 'Daily Cases', value: d.cases_value, color: '#e34a33', formatType: '~s' }
+    ]
+  },
+  {
+    id: 'epi_cases',
+    color: '#e34a33',
+    formatType: '~s',
+    scaleType: 'scaleLinear',
+    padding: { top: 30 },
+    fnTooltips: d => [
+      { name: 'Cumulative Cases', value: d.cases_value, color: '#e34a33', formatType: '~s' }
+    ]
+  }
 ]
 
-const variables = variableList
-  .reduce((acc, cur) => ({
-    ...acc,
-    [cur.id]: cur
-  }), {})
+const deathsConfigs = [
+  {
+    id: 'epi_deaths_new',
+    formatType: '~s',
+    scaleType: 'scaleLinear',
+    padding: { top: 30 },
+    fnTooltips: d => [
+      { name: 'Daily Deaths', value: d.deaths_value, color: '#8856a7', formatType: '~s' }
+    ]
+  },
+  {
+    id: 'epi_deaths',
+    formatType: '~s',
+    scaleType: 'scaleLinear',
+    padding: { top: 30 },
+    fnTooltips: d => [
+      { name: 'Cumulative Deaths', value: d.deaths_value, color: '#8856a7', formatType: '~s' }
+    ]
+  }
+]
 
-const configs = epidemicVariableIdList
-  .map(epiVarId => variables[epiVarId])
-  .map((obj, i, array) => getConfig({
-    ...obj,
-    values: [{
-      name: obj.name, // because equal to variable
-      fnValue: d => d[[
-        'epi_cases_value',
-        'epi_deaths_value'][i % 2]],
-      fnColor: () => obj.color // because equal to variable
-    }]
-  }))
+const rtConfig = {
+  id: 'rt',
+  formatType: '.2f',
+  baseDomain: [0, 2],
+  scaleType: 'scaleLinear',
+  padding: { top: 30 },
+  fnTooltips: d => [
+    { name: 'Rt', value: d.epi_rt, color: '#000', formatType: '.2f' }
+  ]
+}
 
-const configList = [
-  [configs[0], configs[1]],
-  [configs[2], configs[3]]
+const getCasesBarsComponents = () => [
+  bxBars()
+    .fnDefined(d => d.cases_value !== null)
+    .fnLowValue(0)
+    .fnHighValue(d => d.cases_value)
+    .fnStrokeWidth(0)
+    .fnFill('#e34a33')
+    .fnOn('mouseover', fillOpacityMouseover)
+    .fnOn('mouseout', fillOpacityMouseout)
+]
+
+const getDeathsBarsComponents = () => [
+  bxBars()
+    .fnDefined(d => d.deaths_value !== null)
+    .fnLowValue(0)
+    .fnHighValue(d => d.deaths_value)
+    .fnStrokeWidth(0)
+    .fnFill('#8856a7')
+    .fnOn('mouseover', fillOpacityMouseover)
+    .fnOn('mouseout', fillOpacityMouseout)
+]
+
+const getRtComponents = () => [
+  bxLine()
+    .fnValue(1)
+    .fnFillOpacity(0)
+    .fnStrokeWidth(2)
+    .fnStroke('#878787')
+    .fnStrokeDasharray([6, 2]),
+  bxLine()
+    .fnDefined(d => d.epi_rt)
+    .fnValue(d => d.epi_rt)
+    .fnFillOpacity(0)
+    .fnStrokeWidth(2)
+    .fnStroke('#000')
 ]
 
 export default {
@@ -107,8 +154,12 @@ export default {
   },
   data () {
     return {
-      configList,
-      getComponents,
+      casesConfigs,
+      deathsConfigs,
+      rtConfig,
+      getCasesBarsComponents,
+      getDeathsBarsComponents,
+      getRtComponents,
       toggle: 0
     }
   },
@@ -116,16 +167,19 @@ export default {
     ...mapGetters({
       timeseries: 'timeseries/getTimeseries'
     }),
-    configs () {
-      return this.configList[this.toggle]
-    },
     epiTimeseries () {
       return this.timeseries
         .map(d => ({
           ...d,
-          epi_cases_value: d[this.configs[0].id],
-          epi_deaths_value: d[this.configs[1].id]
+          cases_value: d[['epi_cases_new', 'epi_cases'][this.toggle]],
+          deaths_value: d[['epi_deaths_new', 'epi_deaths'][this.toggle]]
         }))
+    },
+    casesConfig () {
+      return this.casesConfigs[this.toggle]
+    },
+    deathsConfig () {
+      return this.deathsConfigs[this.toggle]
     }
   }
 }

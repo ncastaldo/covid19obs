@@ -175,7 +175,7 @@ const getVerifiedComponents = () => [
   // getLineComponent(d => 0.05, '#878787', [2, 10]),
   getLineComponent(d => 0.10, '#878787', [2, 10]),
   getLineComponent(d => d.info_tweets_verified_fraction, '#111'),
-  getLinesComponent(d => Math.max(d.info_tweets_verified_fraction, 0.1), '#878787'),
+  getLinesComponent(d => Math.max(d.info_tweets_verified_fraction, 0.15), '#878787'),
   getCirclesComponent(d => d.info_tweets_verified_fraction, '#111')
 ]
 
