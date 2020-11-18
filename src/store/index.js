@@ -27,26 +27,26 @@ const PERIODS = [
   {
     periodId: '2020Q1',
     periodName: '2020 - Q1',
-    from: new Date(Date.UTC(2020, 0, 1)),
-    to: new Date(Date.UTC(2020, 2, 31))
+    from: new Date(Date.UTC(2020, 0, 1)), // jan
+    to: new Date(Date.UTC(2020, 2, 31)) // mar
   },
   {
     periodId: '2020Q2',
     periodName: '2020 - Q2',
-    from: new Date(Date.UTC(2020, 3, 1)),
-    to: new Date(Date.UTC(2020, 5, 31))
+    from: new Date(Date.UTC(2020, 3, 1)), // apr
+    to: new Date(Date.UTC(2020, 5, 30)) // jun
   },
   {
     periodId: '2020Q3',
     periodName: '2020 - Q3',
-    from: new Date(Date.UTC(2020, 6, 1)),
-    to: new Date(Date.UTC(2020, 8, 31))
+    from: new Date(Date.UTC(2020, 6, 1)), // jul
+    to: new Date(Date.UTC(2020, 8, 30)) // sept
   },
   {
     periodId: '2020Q4',
     periodName: '2020 - Q4',
-    from: new Date(Date.UTC(2020, 9, 1)),
-    to: new Date(Date.UTC(2020, 12, 31))
+    from: new Date(Date.UTC(2020, 9, 1)), // oct
+    to: new Date(Date.UTC(2020, 11, 31)) // dec
   }
 ]
 
@@ -55,7 +55,7 @@ const INITIAL_STATE = {
 
   locationIdList: ['USA', 'CHN', 'ITA', 'ESP', 'DEU', 'FRA', 'IDN'],
 
-  periodId: PERIODS[0].periodId,
+  periodId: PERIODS[PERIODS.length - 1].periodId,
   periodList: PERIODS,
 
   monthId: +MONTHS[MONTHS.length - 1],

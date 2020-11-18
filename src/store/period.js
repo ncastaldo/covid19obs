@@ -18,12 +18,13 @@ const getters = {
 
   getDateIdRange: ({ dateIdRange }) => dateIdRange,
 
-  getDateTweets: ({ dateIdRange }, _, __, rootGetters) => {
+  getDateTweets: (_, getters, __, rootGetters) => {
+    const period = getters.getPeriod
     const tmp = rootGetters['timeseries/getFullTimeseries']
       // +(new Date(Date.UTC(2019, 1))) === +(new Date('2019-02'))
       // value: +d.info_tweets
       .map(d => ({ dateId: +(new Date(+d.date)), value: +d.info_tweets }))
-      .filter(({ dateId }) => dateId >= dateIdRange[0] && dateId <= dateIdRange[1])
+      .filter(({ dateId }) => dateId >= +period.from && dateId <= +period.to)
 
     return Object.values(tmp)
   }
@@ -48,12 +49,21 @@ const actions = {
     commit('setPeriodId', periodId)
 
     const period = periods[periodId]
-    commit('setDateIdRange', [+period.from, +period.to])
+    const dateIdRange = [+period.from, +period.to]
+    commit('setDateIdRange', dateIdRange)
   },
 
   // may be substituted directly with mutation
-  setPeriodId: ({ commit, dispatch }, periodId) => {
+  setPeriodId: ({ commit, dispatch, getters }, periodId) => {
     commit('setPeriodId', periodId)
+
+    const period = getters.getPeriod
+    const dateIdRange = [+period.from, +period.to]
+    commit('setDateIdRange', dateIdRange)
+  },
+
+  setDateIdRange: ({ commit, dispatch }, dateIdRange) => {
+    commit('setDateIdRange', dateIdRange)
   }
 }
 

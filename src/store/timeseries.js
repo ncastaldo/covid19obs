@@ -20,10 +20,9 @@ const mutations = {
 const getters = {
   getFullTimeseries: ({ fullTimeseries }) => fullTimeseries,
   getTimeseries: ({ fullTimeseries }, _, __, rootGetters) => {
-    const [from, to] = rootGetters['period/getPeriodRange']
-      .map((p, i) => i === 0 ? p.from : p.to)
+    const [from, to] = rootGetters['period/getDateIdRange']
     return fullTimeseries
-      .filter(d => +d.date >= from && +d.date < to) // stricly less
+      .filter(d => +d.date >= from && +d.date <= to) //  less or equal
   }
 
 }

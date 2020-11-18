@@ -2,8 +2,8 @@
   <DateBrushChart
     id="date-range-brush"
     :height="120"
-    :periodData="dateTweets"
-    :bandDomain="dateIdRange"
+    :dateData="dateTweets"
+    :bandDomain="bandDomain"
     :config="config"
     @endBandDomain="setDateIdRange"
   />
@@ -25,10 +25,16 @@ export default {
     config () {
       return {
         bandMinStep: 0,
-        bandMaxStep: 2,
+        bandMaxStep: 10000,
         color: 'rgb(31, 121, 179)',
         formatType: '~s'
       }
+    },
+    bandDomain () {
+      return [
+        Math.max(this.dateIdRange[0], this.dateTweets[0].dateId),
+        Math.max(this.dateIdRange[1], this.dateTweets[1].dateId)
+      ]
     }
   },
   methods: {

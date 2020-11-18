@@ -21,7 +21,7 @@ import {
   bxBrush
 } from 'd3nic'
 
-const fnDateFormat = timeFormat('%b %y')
+const fnDateFormat = timeFormat('%d/%m/%y')
 
 // function to check if inside
 const isInside = (bandDomain, d) =>
@@ -64,7 +64,14 @@ export default {
         .catch(() => {})
     },
     bandDomain (bandDomain) {
-      this.brush.bandDomain(bandDomain).snap()
+      const full = this.bandDomain[0] === this.dateData[0].dateId &&
+        this.bandDomain[1] === this.dateData[this.dateData.length - 1].dateId
+
+      if (!full) {
+        this.brush.bandDomain(bandDomain).snap()
+      } else {
+        this.brush.bandDomain(null).snap()
+      }
 
       this.fillBars(bandDomain)
     }
@@ -77,7 +84,7 @@ export default {
     this.update()
 
     this.chart.data(this.dateData)
-    this.brush.bandDomain(this.bandDomain)
+    // this.brush.bandDomain(this.bandDomain)
 
     this.drawChart()
       .then(() => this.fillBars(this.bandDomain))
@@ -88,7 +95,6 @@ export default {
       this.xAxis = bxAxisX()
         .tickSizeInner(0)
         .tickSizeOuter(0)
-        .ticks(100)
         .tickFormat(t => fnDateFormat(new Date(t)))
         .fnBefore(s =>
           s.classed('axis', true)
