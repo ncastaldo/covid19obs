@@ -49,6 +49,12 @@ export default {
       brush: null
     }
   },
+  computed: {
+    fullSelection () {
+      return this.bandDomain[0] <= this.dateData[0].dateId &&
+        this.bandDomain[1] >= this.dateData[this.dateData.length - 1].dateId
+    }
+  },
   watch: {
     config () {
       // should update also min and max, for the moment ok this way
@@ -64,14 +70,7 @@ export default {
         .catch(() => {})
     },
     bandDomain (bandDomain) {
-      const full = this.bandDomain[0] <= this.dateData[0].dateId &&
-        this.bandDomain[1] >= this.dateData[this.dateData.length - 1].dateId
-
-      if (!full) {
-        this.brush.bandDomain(bandDomain).snap()
-      } else {
-        this.brush.bandDomain(null).snap()
-      }
+      this.brush.bandDomain(this.fullSelection ? null : bandDomain).snap()
 
       this.fillBars(bandDomain)
     }
@@ -84,7 +83,7 @@ export default {
     this.update()
 
     this.chart.data(this.dateData)
-    // this.brush.bandDomain(this.bandDomain)
+    this.fullSelection || this.brush.bandDomain(this.bandDomain)
 
     this.drawChart()
       .then(() => {
@@ -120,7 +119,10 @@ export default {
           this.fillBars(bd)
           this.$emit('brushBandDomain', bd)
         })
-        .fnOn('endBandDomain', (event, bd) => this.$emit('endBandDomain', bd))
+        .fnOn('endBandDomain', (event, bd) => {
+          this.$emit('endBandDomain', bd)
+          if (!bd) { this.fillBars(this.bandDomain) }
+        })
     },
     createChart () {
       this.chart = bxChart()

@@ -6,12 +6,15 @@
     :bandDomain="bandDomain"
     :config="config"
     @endBandDomain="onEndBandDomain"
+    @brushBandDomain="onBrushBandDomain"
   />
 </template>
 
 <script>
 import DateBrushChart from '../graphics/DateBrushChart'
-import { mapGetters, mapActions } from 'vuex'
+import { mapGetters, mapActions, mapMutations } from 'vuex'
+
+import { throttle } from 'lodash'
 
 export default {
   components: {
@@ -44,13 +47,18 @@ export default {
     }
   },
   methods: {
+    ...mapMutations({
+      setFastDateIdRange: 'period/setFastDateIdRange'
+    }),
     ...mapActions({
       setDateIdRange: 'period/setDateIdRange'
     }),
     onEndBandDomain (bd) {
-      console.log(bd)
       this.setDateIdRange(bd || this.dateTweetsIdRange)
-    }
+    },
+    onBrushBandDomain: throttle(function (bd) {
+      bd && this.setFastDateIdRange(bd)
+    }, 20)
   }
 }
 </script>

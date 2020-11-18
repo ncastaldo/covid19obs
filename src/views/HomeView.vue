@@ -1,16 +1,19 @@
 <template>
   <div>
+    <NavLinks />
     <HomeControl />
     <Timeseries />
   </div>
 </template>
 
 <script>
+
 import HomeControl from '../components/HomeControl'
 import Timeseries from '../components/Timeseries'
 
 export default {
   components: {
+
     HomeControl,
     Timeseries
   }

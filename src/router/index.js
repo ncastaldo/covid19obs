@@ -12,27 +12,22 @@ const routes = [
   },
   {
     path: '/',
-    name: 'Home',
     component: HomeView
   },
   {
     path: '/compare',
-    name: 'Compare',
     component: () => import(/* webpackChunkName: "CompareView" */'../views/CompareView')
   },
   {
     path: '/choropleth',
-    name: 'Choropleth',
     component: () => import(/* webpackChunkName: "ChoroplethView" */'../views/ChoroplethView')
   },
   {
     path: '/details',
-    name: 'DetailsView',
     component: () => import(/* webpackChunkName: "DetailsView" */'../views/DetailsView')
   },
   {
     path: '/methods',
-    name: 'MethodsView',
     component: () => import(/* webpackChunkName: "MethodsView" */'../views/MethodsView')
   }
   /* {

@@ -2,6 +2,7 @@ const state = {
   periods: null,
   periodId: null,
 
+  fastDateIdRange: null,
   dateIdRange: null
 }
 
@@ -9,6 +10,7 @@ const mutations = {
   setPeriods: (state, periods) => { state.periods = periods },
   setPeriodId: (state, periodId) => { state.periodId = periodId },
 
+  setFastDateIdRange: (state, fastDateIdRange) => { state.fastDateIdRange = fastDateIdRange },
   setDateIdRange: (state, dateIdRange) => { state.dateIdRange = dateIdRange }
 }
 
@@ -16,6 +18,7 @@ const getters = {
   getPeriods: ({ periods }) => Object.values(periods),
   getPeriod: ({ periods, periodId }) => periods[periodId],
 
+  // getFastDateIdRange: ({ fastDateIdRange }) => fastDateIdRange,
   getDateIdRange: ({ dateIdRange }) => dateIdRange,
 
   getDateTweets: (_, getters, __, rootGetters) => {
@@ -50,6 +53,7 @@ const actions = {
 
     const period = periods[periodId]
     const dateIdRange = [+period.from, +period.to]
+    commit('setFastDateIdRange', dateIdRange)
     commit('setDateIdRange', dateIdRange)
   },
 
@@ -59,10 +63,11 @@ const actions = {
 
     const period = getters.getPeriod
     const dateIdRange = [+period.from, +period.to]
-    commit('setDateIdRange', dateIdRange)
+    dispatch('setDateIdRange', dateIdRange)
   },
 
   setDateIdRange: ({ commit, dispatch }, dateIdRange) => {
+    commit('setFastDateIdRange', dateIdRange)
     commit('setDateIdRange', dateIdRange)
   }
 }

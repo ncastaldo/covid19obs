@@ -2,7 +2,7 @@
   <MonthBarsChart
     id="month-bars"
     :monthData="monthData"
-    :month="month.monthId"
+    :monthId="month.monthId"
     :config="config"
     :height="60"
     @click="setMonthId"

@@ -12,6 +12,8 @@ import Gradient from './components/base/Gradient'
 import Tooltip from './components/base/Tooltip'
 import Legend from './components/base/Legend'
 
+import NavLinks from './components/NavLinks'
+
 import Background from './components/Background'
 
 import VueMobileDetection from 'vue-mobile-detection'
@@ -27,6 +29,8 @@ Vue.component('ChartsContainer', ChartsContainer)
 Vue.component('Gradient', Gradient)
 Vue.component('Tooltip', Tooltip)
 Vue.component('Legend', Legend)
+
+Vue.component('NavLinks', NavLinks)
 
 Vue.component('Background', Background)
 

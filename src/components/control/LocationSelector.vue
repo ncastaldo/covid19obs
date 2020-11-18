@@ -6,11 +6,16 @@
       </v-icon>
     </div>
     <div class="mr-3">
-      <h2>Region</h2>
+      <h2 class="thin-font">
+        Area
+      </h2>
     </div>
+
+    <v-spacer />
     <v-select
       v-model="region"
       class="mx-2"
+      label="Region"
       :items="regions"
       item-value="regionId"
       item-text="regionName"
@@ -30,6 +35,7 @@
       <v-select
         v-model="location"
         class="mx-2"
+        label="Country"
         :items="locations"
         item-value="locationId"
         item-text="locationName"

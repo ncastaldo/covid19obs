@@ -1,5 +1,6 @@
 <template>
   <div>
+    <NavLinks />
     <CompareControl />
     <Compare />
   </div>

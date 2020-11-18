@@ -38,12 +38,12 @@ const getters = {
   getLayerData: ({ layerFullData, layerVariableInfo }, _, __, rootGetters) => {
     if (!layerFullData || !layerVariableInfo) return []
 
-    const periodISO = rootGetters['period/getPeriod'].periodISO
+    const monthISO = rootGetters['month/getMonth'].monthISO
 
     return layerFullData
       .map(({ iso, variable, ...rest }) => ({
         iso,
-        value: rest[periodISO] // it should exist
+        value: rest[monthISO] // it should exist
       }))
       .map(d => ({
         ...d,

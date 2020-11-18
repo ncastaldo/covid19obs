@@ -1,14 +1,21 @@
 <template>
   <v-select
     v-model="layer"
-    class="pt-0 mt-0 mx-2"
+    class="py-2  mx-2"
     :items="layers"
     item-value="layerId"
     item-text="layerName"
+    style="width: 280px"
     hide-details
-    style="width: 180px"
-    color="#000"
-  />
+  >
+    <template
+      v-slot:selection="data"
+    >
+      <h3>
+        {{ data.item.layerName }}
+      </h3>
+    </template>
+  </v-select>
 </template>
 
 <script>

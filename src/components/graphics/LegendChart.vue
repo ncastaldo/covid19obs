@@ -49,8 +49,6 @@ export default {
 
     this.update()
 
-    console.log(this.domain)
-
     this.chart.data([this.domain])
 
     this.drawChart()

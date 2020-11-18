@@ -6,6 +6,9 @@
         v-on="on"
       >
         Presets
+        <v-icon class="ml-2">
+          mdi-cursor-default-click-outline
+        </v-icon>
       </v-btn>
     </template>
     <v-list>
@@ -25,7 +28,7 @@ import { mapMutations } from 'vuex'
 const presets = [
   {
     presetId: 'reset',
-    presetName: 'Reset',
+    presetName: '- RESET -',
     presetLocationIdList: [
 
     ]

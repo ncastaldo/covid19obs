@@ -95,7 +95,7 @@ export default {
   },
   data () {
     return {
-      showMap: false
+      showMap: null
     }
   },
   computed: {
@@ -120,6 +120,9 @@ export default {
           [l.regionId]: [...acc[l.regionId], l.locationId]
         }), base)
     }
+  },
+  created () {
+    this.showMap = true
   },
   methods: {
     ...mapActions({

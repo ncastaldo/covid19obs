@@ -4,7 +4,6 @@
   >
     <Drawer />
     <Header />
-
     <v-main>
       <router-view
         v-if="storeReady"
@@ -60,6 +59,10 @@ export default {
 
 .v-card__text, .v-card__title {
   word-break: normal; /* maybe !important  */
+}
+
+.thin-font {
+  font-weight: 300;
 }
 
 </style>

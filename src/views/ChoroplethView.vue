@@ -1,28 +1,31 @@
 <template>
-  <Map
-    id="choropleth-map"
-
-    :styleMapping="styleMapping"
-    :fnTooltips="fnTooltips"
-  >
-    <template v-slot:topright>
-      <v-card class="pa-1">
-        <div class="d-flex align-center">
-          <LayerSelector />
-          <LegendChart
-            v-if="true"
-            :width="300"
-            :variableInfo="layerVariableInfo"
-            :domain="layerDomain"
-          /></div>
-      </v-card>
-    </template>
-    <template v-slot:bottomright>
-      <v-card class="pa-2">
-        <PeriodSelector />
-      </v-card>
-    </template>
-  </Map>
+  <div>
+    <NavLinks />
+    <Map
+      id="choropleth-map"
+      :height="700"
+      :styleMapping="styleMapping"
+      :fnTooltips="fnTooltips"
+    >
+      <template v-slot:topright>
+        <v-card class="pa-1">
+          <div class="d-flex align-center flex-column">
+            <LayerSelector />
+            <LegendChart
+              v-if="true"
+              :width="300"
+              :variableInfo="layerVariableInfo"
+              :domain="layerDomain"
+            /></div>
+        </v-card>
+      </template>
+      <template v-slot:bottomright>
+        <v-card class="pa-2">
+          <MonthSelector />
+        </v-card>
+      </template>
+    </Map>
+  </div>
 </template>
 
 <script>
@@ -31,7 +34,7 @@ import Map from '../components/graphics/Map'
 
 import LayerSelector from '../components/control/LayerSelector'
 // import PeriodBars from '../components/control/PeriodBars'
-import PeriodSelector from '../components/control/PeriodSelector'
+import MonthSelector from '../components/control/MonthSelector'
 
 import LegendChart from '../components/graphics/LegendChart'
 
@@ -40,7 +43,7 @@ export default {
     Map,
     LayerSelector,
     // PeriodBars
-    PeriodSelector,
+    MonthSelector,
     LegendChart
   },
   computed: {

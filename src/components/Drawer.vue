@@ -24,7 +24,7 @@
       </v-list-item>
 
       <v-list-item
-        v-for="item in items"
+        v-for="item in routes"
         :key="item.title"
         :to="item.link"
         link
@@ -40,36 +40,13 @@
 
 <script>
 import { mapGetters, mapMutations, mapActions } from 'vuex'
+
+import { routes } from '../plugins/router'
+
 export default {
   data () {
     return {
-      items: [
-        {
-          title: 'Home',
-          link: '/',
-          icon: 'mdi-home'
-        },
-        {
-          title: 'Compare',
-          link: '/compare',
-          icon: 'mdi-scatter-plot'
-        },
-        {
-          title: 'Choropleth',
-          link: '/choropleth',
-          icon: 'mdi-map'
-        },
-        /* {
-          title: 'Details',
-          link: '/details',
-          icon: 'mdi-magnify'
-        }, */
-        {
-          title: 'Methods',
-          link: '/methods',
-          icon: 'mdi-book-open-page-variant'
-        }
-      ]
+      routes
     }
   },
   computed: {
