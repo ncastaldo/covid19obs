@@ -5,6 +5,9 @@
         mdi-calendar
       </v-icon>
     </div>
+    <div class="mr-3">
+      <h2>Tweets Recorded</h2>
+    </div>
     <v-select
       v-model="period"
       class="mx-2"

@@ -25,7 +25,7 @@ const fnDateFormat = timeFormat('%d/%m/%y')
 
 // function to check if inside
 const isInside = (bandDomain, d) =>
-  d.dateId >= bandDomain[0] && d.dateId <= bandDomain[1]
+  bandDomain && d.dateId >= bandDomain[0] && d.dateId <= bandDomain[1]
 
 export default {
   props: {
@@ -87,7 +87,9 @@ export default {
     // this.brush.bandDomain(this.bandDomain)
 
     this.drawChart()
-      .then(() => this.fillBars(this.bandDomain))
+      .then(() => {
+        this.fillBars(this.bandDomain)
+      })
       .catch(() => {})
   },
   methods: {

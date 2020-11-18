@@ -5,6 +5,9 @@
         mdi-map
       </v-icon>
     </div>
+    <div class="mr-3">
+      <h2>Region</h2>
+    </div>
     <v-select
       v-model="region"
       class="mx-2"
