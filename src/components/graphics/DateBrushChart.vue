@@ -64,8 +64,8 @@ export default {
         .catch(() => {})
     },
     bandDomain (bandDomain) {
-      const full = this.bandDomain[0] === this.dateData[0].dateId &&
-        this.bandDomain[1] === this.dateData[this.dateData.length - 1].dateId
+      const full = this.bandDomain[0] <= this.dateData[0].dateId &&
+        this.bandDomain[1] >= this.dateData[this.dateData.length - 1].dateId
 
       if (!full) {
         this.brush.bandDomain(bandDomain).snap()

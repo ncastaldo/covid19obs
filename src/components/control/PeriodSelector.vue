@@ -7,13 +7,19 @@
     </div>
     <v-select
       v-model="period"
-      class="pt-0 mt-0 mx-2"
+      class="mx-2"
       :items="periods"
       item-value="periodId"
       item-text="periodName"
-      hide-details
-      style="width: 180px"
-    />
+    >
+      <template
+        v-slot:selection="data"
+      >
+        <h3>
+          {{ data.item.periodName }}
+        </h3>
+      </template>
+    </v-select>
   </div>
 </template>
 
