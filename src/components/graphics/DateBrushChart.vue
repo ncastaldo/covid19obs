@@ -5,7 +5,7 @@
   >
     <svg
       :id="id"
-      class="period-brush-chart"
+      class="date-brush-chart"
     />
   </ChartsContainer>
 </template>
@@ -25,7 +25,7 @@ const fnDateFormat = timeFormat('%b %y')
 
 // function to check if inside
 const isInside = (bandDomain, d) =>
-  d.periodId >= bandDomain[0] && d.periodId <= bandDomain[1]
+  d.dateId >= bandDomain[0] && d.dateId <= bandDomain[1]
 
 export default {
   props: {
@@ -35,7 +35,7 @@ export default {
       default: 300
     },
     bandDomain: Array,
-    periodData: Array,
+    dateData: Array,
     config: Object
   },
   data () {
@@ -56,8 +56,8 @@ export default {
       // do not fill bars, wait for change in data
       // this.fillBars(this.bandDomain)
     },
-    periodData () {
-      this.chart.data(this.periodData)
+    dateData () {
+      this.chart.data(this.dateData)
 
       this.drawChart()
         .then(() => this.fillBars(this.bandDomain))
@@ -76,7 +76,7 @@ export default {
 
     this.update()
 
-    this.chart.data(this.periodData)
+    this.chart.data(this.dateData)
     this.brush.bandDomain(this.bandDomain)
 
     this.drawChart()
@@ -104,7 +104,7 @@ export default {
         .fnLowValue(d => 0)
         .fnHighValue(d => d.value)
         .fnFill(d => '#aeaeae')
-        // .fnBefore(s => s.classed('period-selector__bars', true))
+        // .fnBefore(s => s.classed('date-selector__bars', true))
       this.brush = bxBrush()
         .bandMinStep(this.config.bandMinStep)
         .bandMaxStep(this.config.bandMaxStep)
@@ -118,8 +118,8 @@ export default {
       this.chart = bxChart()
         .selector(`#${this.id}`)
         .padding({ left: 50, top: 10, bottom: 40, right: 30 })
-        .fnKey(d => d.periodId)
-        .fnBandValue(d => d.periodId)
+        .fnKey(d => d.dateId)
+        .fnBandValue(d => d.dateId)
     },
     update () {
       this.yAxis.tickFormatType(this.config.formatType || '~s')
@@ -146,19 +146,19 @@ export default {
 
 <style>
 
-.period-brush-chart rect.selection {
+.date-brush-chart rect.selection {
   fill-opacity: 0.3;
   fill: rgb(222, 222, 222);
   stroke: #444;
   stroke-width:1;
 }
 
-.period-brush-chart rect.handle {
+.date-brush-chart rect.handle {
   fill-opacity: 0;
   fill: rgb(31, 121, 179)
 }
 
-.period-brush-chart rect{
+.date-brush-chart rect{
   transition: fill .0s ;
 }
 

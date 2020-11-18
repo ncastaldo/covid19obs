@@ -5,7 +5,7 @@
         mdi-calendar
       </v-icon>
     </div>
-    <h2>{{ period.periodName }}</h2>
+    <h2>{{ month.monthName }}</h2>
   </div>
 </template>
 
@@ -15,7 +15,7 @@ import { mapGetters } from 'vuex'
 export default {
   computed: {
     ...mapGetters({
-      period: 'period/getPeriod'
+      month: 'month/getMonth'
     })
   }
 }

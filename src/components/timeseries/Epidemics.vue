@@ -36,6 +36,7 @@
       :getComponents="getDeathsBarsComponents"
     />
     <TimeseriesChart
+      v-if="false"
       id="rt"
       :height="200"
       :timeseries="epiTimeseries"

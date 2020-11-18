@@ -1,13 +1,20 @@
 <template>
-  <v-select
-    v-model="period"
-    class="pt-0 mt-0 mx-2"
-    :items="periods"
-    item-value="periodId"
-    item-text="periodName"
-    hide-details
-    style="width: 180px"
-  />
+  <div class="d-flex align-center justify-space-between flex-wrap">
+    <div class="display__icon mx-2">
+      <v-icon large>
+        mdi-calendar
+      </v-icon>
+    </div>
+    <v-select
+      v-model="period"
+      class="pt-0 mt-0 mx-2"
+      :items="periods"
+      item-value="periodId"
+      item-text="periodName"
+      hide-details
+      style="width: 180px"
+    />
+  </div>
 </template>
 
 <script>

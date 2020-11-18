@@ -17,17 +17,32 @@
         mandatory
         dense
       >
-        <v-btn>DYNAMIC IRI</v-btn>
         <v-btn>IRI</v-btn>
+        <v-btn>Dynamic IRI</v-btn>
       </v-btn-toggle>
+    </div>
+    <div class="d-flex align-center justify-center">
+      <LegendChart
+        :width="300"
+        :variableInfo="variableInfo"
+        :domain="[0, 1]"
+      />
     </div>
     <TimeseriesChart
       id="base-iri"
-      :height="200"
+      :height="280"
       :timeseries="iriTimereries"
       :config="baseConfig"
+      :legend="false"
       :getComponents="getBaseComponents"
-    />
+    >
+      <Gradient
+        v-if="false"
+        id="base-iri-gradient"
+        direction="y"
+        :fnInterpolator="variableInfo.fnColorInterpolator"
+      />
+    </TimeseriesChart>
     <TimeseriesChart
       id="type-iri"
       :height="130"
@@ -40,13 +55,19 @@
 
 <script>
 import TimeseriesChart from './../graphics/TimeseriesChart'
+import LegendChart from './../graphics/LegendChart'
+
 import { mapGetters } from 'vuex'
+
+import { variables } from '../../plugins/util'
 
 import { scaleSequential } from 'd3-scale'
 import { bxLine, bxBars, bxArea, bxCircles, bxLines } from 'd3nic'
 import { interpolateRgbBasis } from 'd3-interpolate'
 
 import { fillOpacityMouseout, fillOpacityMouseover, opacityMouseover, opacityMouseout } from '../../plugins/graphics'
+
+const variableInfo = variables.info_iri
 
 const fnColor = scaleSequential()
   .interpolator(interpolateRgbBasis(['#0571b0', '#92c5de', '#f4a582', '#ca0020']))
@@ -65,35 +86,24 @@ const typeColors = {
 
 const baseConfigs = [
   {
-    id: 'dyn_iri',
+    id: 'iri',
     formatType: '.2f',
-    baseDomain: [0.4, 0.6],
+    baseDomain: [0, 1], // [0.4, 0.6],
     fnTooltips: d => [
-      { name: 'DynIRI', value: d.info_dyn_iri, color: fnColor(d.info_dyn_iri), formatType: '.2f' }
+      { name: 'IRI', value: d.info_iri, color: fnColor(d.info_iri), formatType: '.3f' }
     ]
   },
   {
-    id: 'iri',
+    id: 'dyn_iri',
     formatType: '.2f',
-    baseDomain: [0.4, 0.6],
+    baseDomain: [0, 1], // [0.4, 0.6],
     fnTooltips: d => [
-      { name: 'IRI', value: d.info_iri, color: fnColor(d.info_iri), formatType: '.3f' }
+      { name: 'DynIRI', value: d.info_dyn_iri, color: fnColor(d.info_dyn_iri), formatType: '.2f' }
     ]
   }
 ]
 
 const typeConfigs = [
-  {
-    id: 'dyn_iri_type',
-    formatType: '~s',
-    bandPaddingInner: 1,
-    padding: { top: 30 },
-    // baseDomain: [0.4, 2],
-    fnTooltips: d => [
-      { name: 'DynIRI Retweets', value: d.info_dyn_iri_RT, color: typeColors.RT, formatType: '.2f' },
-      { name: 'DynIRI Replies', value: d.info_dyn_iri_RE, color: typeColors.RE, formatType: '.2f' }
-    ]
-  },
   {
     id: 'iri_type',
     formatType: '~s',
@@ -104,6 +114,17 @@ const typeConfigs = [
       { name: 'IRI Retweets', value: d.info_iri_RT, color: typeColors.RT, formatType: '.2f' },
       { name: 'IRI Replies', value: d.info_iri_RE, color: typeColors.RE, formatType: '.2f' }
     ]
+  },
+  {
+    id: 'dyn_iri_type',
+    formatType: '~s',
+    bandPaddingInner: 1,
+    padding: { top: 30 },
+    // baseDomain: [0.4, 2],
+    fnTooltips: d => [
+      { name: 'DynIRI Retweets', value: d.info_dyn_iri_RT, color: typeColors.RT, formatType: '.2f' },
+      { name: 'DynIRI Replies', value: d.info_dyn_iri_RE, color: typeColors.RE, formatType: '.2f' }
+    ]
   }
 ]
 
@@ -112,7 +133,7 @@ const getBarsComponent = () => bxBars()
   .fnLowValue(0)
   .fnHighValue(d => d.base_value)
   .fnStrokeWidth(0)
-  .fnFill(d => fnColor(d.base_value))
+  .fnFill(d => fnColor(d.base_value))// 'url(#base-iri-gradient)')
   .fnOn('mouseover', fillOpacityMouseover)
   .fnOn('mouseout', fillOpacityMouseout)
 
@@ -155,13 +176,13 @@ const getLinesComponent = (fn, color) =>
     .fnOn('mouseover', opacityMouseover)
     .fnOn('mouseout', opacityMouseout)
 
-const getMiddleLineComponent = () =>
+const getLevelLineComponent = (level) =>
   bxLine()
-    .fnValue(0.5)
+    .fnValue(level)
     .fnFillOpacity(0)
     .fnStrokeWidth(2)
     .fnStroke('#878787')
-    .fnStrokeDasharray([6, 2])
+    .fnStrokeDasharray([2, 4])
 
 // retweets: # 2b8cbe ( before #24A122 )
 // tweets: # 045a8d
@@ -169,7 +190,9 @@ const getMiddleLineComponent = () =>
 
 const getBaseComponents = () => [
   getBarsComponent(),
-  getMiddleLineComponent()
+  getLevelLineComponent(0.25),
+  getLevelLineComponent(0.5),
+  getLevelLineComponent(0.75)
 ]
 
 const getTypeComponents = () => [
@@ -187,7 +210,8 @@ const getTypeComponents = () => [
 
 export default {
   components: {
-    TimeseriesChart
+    TimeseriesChart,
+    LegendChart
   },
   data () {
     return {
@@ -202,14 +226,17 @@ export default {
     ...mapGetters({
       timeseries: 'timeseries/getTimeseries'
     }),
+    variableInfo () {
+      return variableInfo
+    },
     iriTimereries () {
       return this.timeseries
         .map(d => ({
           ...d,
-          base_value: d[['info_dyn_iri', 'info_iri'][this.toggle]],
+          base_value: d[['info_iri', 'info_dyn_iri'][this.toggle]],
           type_T_value: this.toggle === 0 ? null : d.info_iri_T,
-          type_RT_value: d[['info_dyn_iri_RT', 'info_iri_RT'][this.toggle]],
-          type_RE_value: d[['info_dyn_iri_RE', 'info_iri_RE'][this.toggle]]
+          type_RT_value: d[['info_iri_RT', 'info_dyn_iri_RT'][this.toggle]],
+          type_RE_value: d[['info_iri_RE', 'info_dyn_iri_RE'][this.toggle]]
         }))
         .map(d => ({
           ...d,

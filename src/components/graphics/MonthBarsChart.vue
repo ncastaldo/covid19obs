@@ -5,7 +5,7 @@
   >
     <svg
       :id="id"
-      class="period-bars-chart"
+      class="month-bars-chart"
     />
   </ChartsContainer>
 </template>
@@ -32,8 +32,8 @@ export default {
       type: Object,
       default: () => ({ top: 0, left: 25, right: 25, bottom: 25 })
     },
-    periodId: Number,
-    periodData: Array,
+    monthId: Number,
+    monthData: Array,
     config: Object
   },
   data () {
@@ -48,7 +48,7 @@ export default {
   watch: {
     config () {
       // should update also min and max, for the moment ok this way
-      this.fillBars(this.periodId)
+      this.fillBars(this.monthId)
     }
   },
   mounted () {
@@ -58,10 +58,10 @@ export default {
 
     this.update()
 
-    this.chart.data(this.periodData)
+    this.chart.data(this.monthData)
 
     this.drawChart()
-      .then(() => this.fillBars(this.periodId))
+      .then(() => this.fillBars(this.monthId))
       .catch(() => {})
   },
   methods: {
@@ -80,24 +80,24 @@ export default {
         .fnHighValue(d => 1)
         .fnFill(d => '#aeaeae')
         .fnOn('click', (event, d) => {
-          this.fillBars(d.periodId)
-          this.$emit('click', d.periodId)
+          this.fillBars(d.monthId)
+          this.$emit('click', d.monthId)
         })
     },
     createChart () {
       this.chart = bxChart()
         .selector(`#${this.id}`)
         .padding(this.padding)
-        .fnKey(d => d.periodId)
-        .fnBandValue(d => d.periodId)
+        .fnKey(d => d.monthId)
+        .fnBandValue(d => d.monthId)
     },
     update () {
       this.chart.components([this.xAxis, this.bars])
     },
-    fillBars (periodId) {
+    fillBars (monthId) {
       // join on bars
       this.bars.join()
-        .style('fill', d => d.periodId === periodId
+        .style('fill', d => d.monthId === monthId
           ? this.config.color
           : null)
     },
@@ -114,12 +114,12 @@ export default {
 
 <style>
 
-.period-bars-chart rect:hover {
+.month-bars-chart rect:hover {
   cursor: pointer;
   fill-opacity: 0.8;
 }
 
-.period-bars-chart rect {
+.month-bars-chart rect {
   transition: fill .25s ;
 }
 

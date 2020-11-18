@@ -1,16 +1,16 @@
 <template>
-  <PeriodBarsChart
-    id="period-bars"
-    :periodData="periodData"
-    :periodId="period.periodId"
+  <MonthBarsChart
+    id="month-bars"
+    :monthData="monthData"
+    :month="month.monthId"
     :config="config"
     :height="60"
-    @click="setPeriodId"
+    @click="setMonthId"
   />
 </template>
 
 <script>
-import PeriodBarsChart from '../graphics/PeriodBarsChart'
+import MonthBarsChart from '../graphics/MonthBarsChart'
 import { mapGetters, mapMutations } from 'vuex'
 
 const config = {
@@ -21,24 +21,24 @@ const config = {
 
 export default {
   components: {
-    PeriodBarsChart
+    MonthBarsChart
   },
   data () {
     return { config }
   },
   computed: {
     ...mapGetters({
-      periods: 'period/getPeriods',
-      period: 'period/getPeriod',
+      months: 'month/getMonths',
+      month: 'month/getMonth',
       compareVar: 'compare/first/getCompareVar'
     }),
-    periodData () {
-      return this.periods.map(({ periodId }) => ({ periodId, value: 1 }))
+    monthData () {
+      return this.months.map(({ monthId }) => ({ monthId, value: 1 }))
     }
   },
   methods: {
     ...mapMutations({
-      setPeriodId: 'period/setPeriodId'
+      setMonthId: 'month/setMonthId'
     })
   }
 }

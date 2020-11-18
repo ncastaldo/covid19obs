@@ -1,21 +1,9 @@
 <template>
   <svg id="legend-chart">
-    <defs>
-      <linearGradient
-        id="legend-gradient"
-        x1="0%"
-        y1="0%"
-        x2="100%"
-        y2="0%"
-      >
-        <stop
-          v-for="(d, i) in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
-          :key="i"
-          :style="`stop-color:${fnInterpolator(i/10)}`"
-          :offset="`${d*10}%`"
-        />
-      </linearGradient>
-    </defs>
+    <Gradient
+      id="legend-chart-gradient"
+      :fnInterpolator="fnInterpolator"
+    />
   </svg>
 </template>
 
@@ -76,7 +64,7 @@ export default {
       this.byBars = byBars()
         .fnLowValue(d => d[0])
         .fnHighValue(d => d[1])
-        .fnFill('url(#legend-gradient)')
+        .fnFill('url(#legend-chart-gradient)')
     },
     createChart () {
       this.chart = byChart()

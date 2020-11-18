@@ -4,6 +4,8 @@ import Vuex from 'vuex'
 import location from './location'
 import period from './period'
 
+import month from './month'
+
 import timeseries from './timeseries'
 
 import layer from './layer'
@@ -21,18 +23,43 @@ const MONTHS = utcMonth.range(
   new Date(Date.UTC(2020, 10, 1)) // exclusive, CHANGE IT TO LAST MONTH - 1
 )
 
+const PERIODS = [
+  {
+    periodId: '2020Q1',
+    periodName: '2020 - Q1',
+    from: new Date(Date.UTC(2020, 0, 1)),
+    to: new Date(Date.UTC(2020, 2, 31))
+  },
+  {
+    periodId: '2020Q2',
+    periodName: '2020 - Q2',
+    from: new Date(Date.UTC(2020, 3, 1)),
+    to: new Date(Date.UTC(2020, 5, 31))
+  },
+  {
+    periodId: '2020Q3',
+    periodName: '2020 - Q3',
+    from: new Date(Date.UTC(2020, 6, 1)),
+    to: new Date(Date.UTC(2020, 8, 31))
+  },
+  {
+    periodId: '2020Q4',
+    periodName: '2020 - Q4',
+    from: new Date(Date.UTC(2020, 9, 1)),
+    to: new Date(Date.UTC(2020, 12, 31))
+  }
+]
+
 const INITIAL_STATE = {
   locationId: '_WORLD', // will be added
 
   locationIdList: ['USA', 'CHN', 'ITA', 'ESP', 'DEU', 'FRA', 'IDN'],
 
-  periodList: MONTHS,
-  periodIdRange: [
-    +MONTHS[MONTHS.length - 2],
-    +MONTHS[MONTHS.length - 1]
-  ],
+  periodId: PERIODS[0].periodId,
+  periodList: PERIODS,
 
-  periodId: +MONTHS[MONTHS.length - 1],
+  monthId: +MONTHS[MONTHS.length - 1],
+  monthList: MONTHS,
 
   firstCompareId: 'epi_cases_perM',
   secondCompareId: 'epi_deaths_perM',
@@ -59,6 +86,8 @@ export default new Vuex.Store({
     location,
     period,
 
+    month,
+
     timeseries,
     layer,
 
@@ -71,6 +100,7 @@ export default new Vuex.Store({
     store => {
       store.dispatch('location/init', INITIAL_STATE)
       store.dispatch('period/init', INITIAL_STATE)
+      store.dispatch('month/init', INITIAL_STATE)
       store.dispatch('layer/init', INITIAL_STATE.layerId)
       store.dispatch('timeseries/init')
       store.dispatch('compare/first/init', INITIAL_STATE.firstCompareId)

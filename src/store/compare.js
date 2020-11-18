@@ -36,12 +36,12 @@ const getters = {
 
   getFullCompareData: ({ fullCompareData }) => fullCompareData,
   getCompareData: ({ fullCompareData }, _, __, rootGetters) => {
-    const periodISO = rootGetters['period/getPeriod'].periodISO
+    const monthISO = rootGetters['month/getMonth'].monthISO
     const locationList = rootGetters['location/getLocationList']
     return fullCompareData
       .filter(cmp => locationList.map(l => l.locationId).includes(cmp.locationId))
       // assigning the value
-      .map(cmp => ({ ...cmp, value: cmp[periodISO] }))
+      .map(cmp => ({ ...cmp, value: cmp[monthISO] }))
   }
 }
 

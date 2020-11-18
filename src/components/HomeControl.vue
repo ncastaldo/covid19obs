@@ -20,7 +20,7 @@
     <v-container>
       <v-row>
         <v-col
-          md="6"
+          md="12"
           cols="12"
         >
           <v-card class="pa-2">
@@ -29,12 +29,12 @@
           </v-card>
         </v-col>
         <v-col
-          md="6"
+          md="12"
           cols="12"
         >
           <v-card class="pa-2">
-            <PeriodRangeSelector />
-            <PeriodRangeBrush v-if="showCharts" />
+            <PeriodSelector />
+            <DateRangeBrush v-if="showCharts" />
           </v-card>
         </v-col>
       </v-row>
@@ -44,20 +44,23 @@
 
 <script>
 
-import PeriodRangeSelector from '../components/control/PeriodRangeSelector'
+import PeriodSelector from '../components/control/PeriodSelector'
 import LocationSelector from '../components/control/LocationSelector'
 
 export default {
   components: {
-    PeriodRangeSelector,
+    PeriodSelector,
     LocationSelector,
-    PeriodRangeBrush: () => import(/* webpackChunkName: "PeriodRangeBrush" */'../components/control/PeriodRangeBrush'),
+    DateRangeBrush: () => import(/* webpackChunkName: "DateRangeBrush" */'../components/control/DateRangeBrush'),
     LocationMap: () => import(/* webpackChunkName: "LocationMap" */'../components/control/LocationMap')
   },
   data () {
     return {
-      showCharts: false
+      showCharts: null
     }
+  },
+  created () {
+    this.showCharts = true
   }
 }
 </script>

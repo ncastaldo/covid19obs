@@ -2,14 +2,19 @@
   <div
     class="pa-0 ma-0"
   >
-    <Legend :fnTooltips="config.fnTooltips || null" />
+    <Legend
+      v-if="legend"
+      :fnTooltips="config.fnTooltips || null"
+    />
     <ChartsContainer
       :charts="[chart]"
       :height="height"
     >
       <svg
         :id="id"
-      />
+      >
+        <slot />
+      </svg>
     </ChartsContainer>
     <Tooltip>
       <TimeseriesHover
@@ -42,6 +47,10 @@ export default {
     height: Number,
     timeseries: Array,
     config: Object,
+    legend: {
+      type: Boolean,
+      default: true
+    },
     getComponents: Function
   },
   data () {
