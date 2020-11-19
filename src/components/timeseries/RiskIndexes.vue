@@ -86,7 +86,7 @@
             <strong>a chance between 26% and 50% of re-sharing or commenting about that information</strong>
           </font>
           <PolicyText>
-            Policy implication related to IRI. <b>Bold if it must be bold</b>
+            The two indices provide two opposite perspectives on the spreading of the infodemics. The IRI focuses on the production of misinformation while the Dynamic IRI on the engagement associated with it. A high value or IRI means that potential misinformation is being transmitted by a number of highly relevant accounts, and the infodemics can be potentially reduced by targeting those influencers (infodemic equivalent to quarantine). A high value of Dynamic IRI means that a large number of users are interacting and retransmitting the potential misinformative content, and the infodemic can be potentially reduced by increasing awareness of all users on the importance of carefully checking the sources and selective reposting behavior (infodemic equivalent of wearing a mask).
           </PolicyText>
         </div>
       </div>

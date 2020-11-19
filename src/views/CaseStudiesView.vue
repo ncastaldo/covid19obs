@@ -22,7 +22,6 @@
         </v-btn>
       </v-row>
     </v-container>
-    <br>
     <Article>
       <component :is="currentLocationId" />
     </Article>

@@ -25,7 +25,13 @@
             {{ data.item.periodName }}
           </h3>
         </template>
-      </v-select>
+      </v-select> <v-spacer />
+      <div>
+        Brush on the blue bars!
+        <v-icon class="ml-2">
+          mdi-cursor-default-click-outline
+        </v-icon>
+      </div>
       <v-spacer />
       <div class="d-flex align-center thin-font mx-3">
         <h3

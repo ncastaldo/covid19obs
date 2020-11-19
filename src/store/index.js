@@ -26,25 +26,25 @@ const MONTHS = utcMonth.range(
 const PERIODS = [
   {
     periodId: '2020Q1',
-    periodName: '2020 - Q1',
+    periodName: '2020 - 1st Quarter',
     from: new Date(Date.UTC(2020, 0, 1)), // jan
     to: new Date(Date.UTC(2020, 2, 31)) // mar
   },
   {
     periodId: '2020Q2',
-    periodName: '2020 - Q2',
+    periodName: '2020 - 2nd Quarter',
     from: new Date(Date.UTC(2020, 3, 1)), // apr
     to: new Date(Date.UTC(2020, 5, 30)) // jun
   },
   {
     periodId: '2020Q3',
-    periodName: '2020 - Q3',
+    periodName: '2020 - 3rd Quarter',
     from: new Date(Date.UTC(2020, 6, 1)), // jul
     to: new Date(Date.UTC(2020, 8, 30)) // sept
   },
   {
     periodId: '2020Q4',
-    periodName: '2020 - Q4',
+    periodName: '2020 - 4th Quarter',
     from: new Date(Date.UTC(2020, 9, 1)), // oct
     to: new Date(Date.UTC(2020, 11, 31)) // dec
   }

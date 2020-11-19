@@ -1,5 +1,5 @@
 <template>
-  <v-container class="my-2">
+  <v-container class="mt-2 mb-0">
     <v-row>
       <router-link
         v-for="(route, i) in routes"

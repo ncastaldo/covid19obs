@@ -26,13 +26,11 @@
       />
       <l-control
         position="topright"
-        class="pa-2"
       >
         <slot name="topright" />
       </l-control>
       <l-control
         position="bottomright"
-        class="pa-2"
       >
         <slot name="bottomright" />
       </l-control>

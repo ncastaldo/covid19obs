@@ -15,10 +15,13 @@
           <br>
           <br>
           The volume of messages containing reliable and unreliable information is shown over time. The difference between reliable and unreliable volumes is shown as a dashed line: the closer the line to the top, the more healthy the sources of information circulating online
+          <PolicyText>
+            Reliable news generate good behavioral responses at individual and social level. Unreliable news may induce varying degrees of unresponsible/dysfucntional behaviors, the more so the higher the level of unreliability. Levels of unreliability in the informational sphere may be compared to levels of pollution in the environmental sphere. Like for pollution, unreliable news of the conspiracy/fake type may persist over time even if debunked and are especially dangerous.
+          </PolicyText>
         </div>
       </div>
     </Article>
-    <div class="d-flex flex-row-reverse align-center justify-center mt-3 pa-4">
+    <div class="d-flex flex-row-reverse align-center justify-center  pa-4">
       <div class="col-6">
         <div class="text-justify py-1">
           We further distinguish classes of information sources into:

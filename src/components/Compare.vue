@@ -1,26 +1,23 @@
 <template>
-  <v-container>
-    <v-row>
-      <v-col>
-        <MonthSelector />
-        <v-tabs
-          v-model="index"
-          fixed-tabs
-          show-arrows
-        >
-          <v-tab
-            v-for="(t, i) in tabs"
-            :key="i"
-          >
-            <h4>{{ t.name }}</h4>
-          </v-tab>
-        </v-tabs>
-        <div style="position: relative">
-          <Background :locationList="locationList" />
-          <component :is="currentTab.is" />
-        </div>
-      </v-col>
-    </v-row>
+  <v-container class="py-0">
+    <MonthSelector />
+    <br>
+    <v-tabs
+      v-model="index"
+      fixed-tabs
+      show-arrows
+    >
+      <v-tab
+        v-for="(t, i) in tabs"
+        :key="i"
+      >
+        <h4>{{ t.name }}</h4>
+      </v-tab>
+    </v-tabs>
+    <div style="position: relative">
+      <Background :locationList="locationList" />
+      <component :is="currentTab.is" />
+    </div>
   </v-container>
 </template>
 

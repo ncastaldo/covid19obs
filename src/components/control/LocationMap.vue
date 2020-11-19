@@ -19,6 +19,16 @@
             :domain="layerDomain"
           /></div>
       </v-card>
+
+    </template>
+    <template v-slot:bottomright>
+      <v-card
+        class="pa-2"
+        flat
+        style="background-color: rgba(255,255,255, 0.6)"
+      >
+        Data: <b>17/11/2020</b>
+      </v-card>
     </template>
   </Map>
 </template>
