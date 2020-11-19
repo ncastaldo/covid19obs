@@ -20,9 +20,6 @@
     </Article>
     <div class="d-flex flex-row-reverse align-center justify-center mt-3 pa-4">
       <div class="col-6">
-        <div class="headline text-center py-1">
-          News Reliability Index
-        </div>
         <div class="text-justify py-1">
           We further distinguish classes of information sources into:
           <br>

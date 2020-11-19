@@ -1,5 +1,8 @@
 <template>
-  <v-card color="#eee">
+  <v-card
+    color="#fff"
+    flat
+  >
     <v-btn
       absolute
       fab

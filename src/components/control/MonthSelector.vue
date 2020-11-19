@@ -1,7 +1,7 @@
 <template>
   <v-card
     flat
-    class="pa-1 mb-8"
+    class="pa-1"
     color="#f4f4f4"
   >
     <div class="d-flex align-center justify-space-between flex-wrap">

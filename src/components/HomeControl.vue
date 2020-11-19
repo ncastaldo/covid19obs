@@ -1,5 +1,8 @@
 <template>
-  <v-card color="#fff">
+  <v-card
+    color="#fff"
+    flat
+  >
     <v-btn
       v-if="false"
       absolute
@@ -26,7 +29,6 @@
         >
           <v-card
             class="pa-2"
-            flat
           >
             <LocationSelector />
             <LocationMap v-if="showCharts" />

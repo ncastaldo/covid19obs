@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pt-3">
     <div class="d-flex justify-center">
       <CompareSelector />
     </div>
@@ -12,9 +12,6 @@
     />
     <Article>
       <div class="py-2">
-        <div class="headline text-center py-1 ">
-          Description
-        </div>
         <div class="text-justify py-1">
           Compare and rank countries by their Infodemic Risk Index (default) or other indices of the COVID-19 Infodemic Observatory.
           <br>

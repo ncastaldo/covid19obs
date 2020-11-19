@@ -3,13 +3,11 @@
     <v-row>
       <v-col>
         <PeriodSelector />
+        <br>
         <v-tabs
           v-model="index"
           fixed-tabs
           show-arrows
-          class="tab"
-          active-class="active-tab"
-          color="black"
         >
           <v-tab
             v-for="(t, i) in tabs"
