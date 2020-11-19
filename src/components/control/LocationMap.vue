@@ -61,7 +61,7 @@ export default {
     }),
     mapCenter () {
       return this.location.locationId === '_WORLD'
-        ? latLng(41.90, 12.49)
+        ? latLng(18, 12.49)
         : latLng(...(this.location.geoCentroid.slice().reverse())) /* ...geoCentroid(this.location.geometry */
     },
     mapZoom () {

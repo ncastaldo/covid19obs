@@ -41,7 +41,7 @@
 
             ISO3 = "ITA"<br>
 
-            url = 'https://tycho.fbk.eu/assets/timeseries/" + ${ISO3} + ".csv'<br>
+            url = 'https://tycho.fbk.eu/assets/timeseries/' + ${ISO3} + '.csv'<br>
 
             curl -O ${url} > 'infodemic_' + ${ISO3} + '.csv')
             <div />

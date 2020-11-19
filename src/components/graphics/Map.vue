@@ -79,7 +79,7 @@ export default {
     },
     mapCenter: {
       type: Object,
-      default: () => latLng(41.90, 12.49)
+      default: () => latLng(18, 12.49)
     },
     // passing the function in order to reduce overhead
     onClick: {

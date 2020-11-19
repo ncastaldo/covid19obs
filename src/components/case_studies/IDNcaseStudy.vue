@@ -12,7 +12,6 @@
       <ul>
         <li>
           <b>Coverage level: <u>High</u></b><br>
-          <br>
 
           An average of more than 40,000 tweets per day. Between 22nd Jan and 16th Nov 2020: 10.6 million tweets with self-declared location associated with Indonesia, 1.6 million tweets contain URLs linking to news sources, of which 242,000 were successfully identified as either reliable or unreliable by crossing the URL domain with our database of news domain reliability, none of which were written in Bahasa Indonesia.
         </li>
