@@ -28,6 +28,16 @@ const routes = [
     title: 'Methods',
     link: '/methods',
     icon: 'mdi-book-open-page-variant'
+  },
+  {
+    title: 'API',
+    link: '/api',
+    icon: 'mdi-magnify'
+  },
+  {
+    title: 'FAQs',
+    link: '/faqs',
+    icon: 'mdi-question' // ?
   }
 ]
 

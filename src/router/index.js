@@ -29,6 +29,15 @@ const routes = [
   {
     path: '/methods',
     component: () => import(/* webpackChunkName: "MethodsView" */'../views/MethodsView')
+  },
+
+  {
+    path: '/api',
+    component: () => import(/* webpackChunkName: "ApiView" */'../views/ApiView.vue')
+  },
+  {
+    path: '/faqs',
+    component: () => import(/* webpackChunkName: "FaqsView" */'../views/FaqsView')
   }
 ]
 

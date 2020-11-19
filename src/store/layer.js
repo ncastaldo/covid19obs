@@ -1,5 +1,5 @@
 
-import { variableList, variables, getColorScale, compareTextParser } from '../plugins/util'
+import { variableList, variables, getColorScale, lastUpdatesTextParser } from '../plugins/util'
 
 import { extent } from 'd3-array'
 
@@ -38,12 +38,12 @@ const getters = {
   getLayerData: ({ layerFullData, layerVariableInfo }, _, __, rootGetters) => {
     if (!layerFullData || !layerVariableInfo) return []
 
-    const monthISO = rootGetters['month/getMonth'].monthISO
+    // const monthISO = rootGetters['month/getMonth'].monthISO
 
     return layerFullData
-      .map(({ iso, variable, ...rest }) => ({
+      .map(({ iso, variable, value }) => ({
         iso,
-        value: rest[monthISO] // it should exist
+        value: +value// rest[monthISO] // it should exist
       }))
       .map(d => ({
         ...d,
@@ -100,12 +100,13 @@ const actions = {
   loadTweets: ({ getters, commit }) => {
     // console.log(rootGetters)
     const layerId = getters.getLayer.layerId
-    const layerUrl = `/assets/compare/${layerId}.csv`
+    const layerUrl = `/assets/last_updates/${layerId}.csv`
+    // const layerUrl = `/assets/compare/${layerId}.csv`
 
     // fetching the compare
     fetch(layerUrl)
       .then(res => res.text())
-      .then(data => compareTextParser(data))
+      .then(data => lastUpdatesTextParser(data))
       .then(layerFullData => {
         commit('setLayerFullData', layerFullData)
         commit('setLayerVariableInfo', variables[layerId])

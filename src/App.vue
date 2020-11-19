@@ -2,7 +2,7 @@
   <v-app
     id="app"
   >
-    <Drawer />
+    <Drawer v-if="false" />
     <Header />
     <v-main>
       <router-view

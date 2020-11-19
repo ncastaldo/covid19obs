@@ -55,11 +55,18 @@ const compareTextParser = (text) => csvParse(text, ({ variable, iso, ...dateValu
     .reduce((acc, [date, value]) => ({ ...acc, [date]: value }), {})
 }))
 
+const lastUpdatesTextParser = (text) => csvParse(text, ({ variable, iso, ...dateValue }) => ({
+  variable,
+  iso,
+  value: Object.values(dateValue)[0]
+}))
+
 export {
   variableList,
   variables,
 
   getColorScale,
 
-  compareTextParser
+  compareTextParser,
+  lastUpdatesTextParser
 }

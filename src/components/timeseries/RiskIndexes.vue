@@ -6,19 +6,40 @@
           Infodemic Risk Indices
         </div>
         <div class="text-justify py-1">
-          The <b>Infodemic Risk Index</b> (<b>IRI</b>) quantifies at which rate an user is exposed to online messages pointing to potentially unreliable sources of misinformation or disinformation about COVID-19.
-          <br>
-          The IRI goes from 0 (Lowest Risk) to 1 (Highest Risk), with intermediate cases:
+          Infodemic risk indices estimate the change that a user in a social media platform is pointed to potentially unreliable sources of misinformation or disinformation about COVID-19. There are two type of indices:
           <ul>
-            <li><b>Low Risk</b>: IRI between 0 and 0.25</li>
-            <li><b>Low/Medium Risk</b>: IRI between 0.26 and 0.5</li>
-            <li><b>Medium/High Risk</b>: IRI between 0.51 and 0.75</li>
-            <li><b>High Risk</b>: IRI between 0.76 and 1</li>
+            <li><strong>Infodemic Risk Index (IRI)</strong>: likelihood that a user <i>receives messages</i> pointing to potentially misleading sources. This index quantifies if and how user are exposed to circulating information.</li>
+            <li><strong>Dynamic Infodemic Risk Index (Dynamic IRI)</strong>: likelihood that a user <strong>endorses or engages with online messages</strong> pointing to potentially misleading sources. This index quantifies if and how user interact with circulating information.</li>
           </ul>
-          For instance, users living in a region with high IRI have a chance larger than 75% of reading an online post linking to a Web site with potentially misleading information about COVID-19.
           <br>
-          <br>
-          The <b>Dynamic Infodemic Risk Index</b> (<b>Dynamic IRI</b>) is another risk index, estimated directly from users' online endorsement and engagement, which quantifies at which rate an user interacts with online messages pointing to potentially unreliable sources of misinformation or disinformation about COVID-19.
+          The indices range from 0 (Lowest Risk) to 1 (Highest Risk), with intermediate cases:
+          <ul>
+            <li>
+              <font color="#2E7Cb7">
+                <strong>Low Risk</strong>
+              </font>: values between 0 and 0.25
+            </li>
+            <li>
+              <font color="99C8D8">
+                <strong>Low/Medium Risk</strong>
+              </font>: values between 0.26 and 0.5
+            </li>
+            <li>
+              <font color="#F28b56">
+                <strong>Medium/High Risk</strong>
+              </font>: values between 0.51 and 0.75
+            </li>
+            <li>
+              <font color="#d7191c">
+                <strong>High Risk</strong>
+              </font>: values between 0.76 and 1
+            </li>
+          </ul>
+          For instance, users living in a region with high IRI and low/medium Dynamic IRI have a <font color="d7191c">
+            <strong>chance larger than 75% of reading an online post linking to a Web site with potentially misleading information about COVID-19</strong>
+          </font>, as well as <font color="F28b56">
+            <strong>a chance between 26% and 50% of re-sharing or commenting about that information</strong>
+          </font>
         </div>
       </div>
     </Article>
