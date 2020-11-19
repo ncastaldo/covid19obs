@@ -3,9 +3,9 @@
     v-model="compare"
     class="px-3"
     :items="compares"
+    label="Comparing Variable"
     item-value="compareId"
     item-text="compareName"
-    hide-details
     style="max-width: 300px"
     color="#444"
   />

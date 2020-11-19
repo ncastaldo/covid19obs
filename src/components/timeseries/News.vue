@@ -3,7 +3,7 @@
     <Article>
       <div class="py-2">
         <div class="headline text-center py-1">
-          News Reliability
+          News Reliability Indices
         </div>
         <div class="text-justify py-1">
           What is the volume of online messages  about COVID-19 pointing to reliable or unreliable sources of information? A reliable source of information is, for instance, www.congress.gov, a project of the Library of Congress that provides an online database of United States Congress legislative information, according to a <a href="https://mediabiasfactcheck.com/congress-gov/">popular fact-checking Web site</a>. Conversely, a potentially unreliable source of information is, for instance, www.zerohedge.com, <a href="https://mediabiasfactcheck.com/zero-hedge/">known for sharing false or inaccurate news.</a>

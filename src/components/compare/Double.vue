@@ -1,5 +1,22 @@
 <template>
   <div>
+    <Article>
+      <div class="py-2">
+        <div class="headline text-center py-1 ">
+          Correlation
+        </div>
+        <div class="text-justify py-1">
+          Compare countries with respect to two indices simultaneously, to discover potential correlations between distinct indicators. For instance, it is possible to compare the infodemic risk index of one or more country against the incidence of COVID-19.
+          <br>
+          Click on <i>PRESETS</i> button (top of the page) to select a region involving one or more countries, or interactively select the countries of interest by clicking on the map. Select a time period from the interactive timeline.
+          <br>
+          Policy implications: @@@@@@@@@@ (in the example above, a positive correlation indicates that countries with larger infodemic risk exhibit also a larger number of COVID-19 cases and deaths)
+        </div>
+      </div>
+    </Article>
+
+    <MonthSelector />
+
     <div class="d-flex justify-center flex-wrap">
       <CompareSelector module="first" />
       <CompareSelector module="second" />
@@ -21,13 +38,15 @@ import { xyCircles, xyLine, xyTexts } from 'd3nic'
 import { mean, deviation, extent } from 'd3-array'
 
 import CompareSelector from '../control/CompareSelector'
+import MonthSelector from '../control/MonthSelector'
 
 import CompareDoubleChart from '../graphics/CompareDoubleChart'
 
 export default {
   components: {
     CompareSelector,
-    CompareDoubleChart
+    CompareDoubleChart,
+    MonthSelector
   },
   computed: {
     ...mapGetters({
@@ -51,6 +70,8 @@ export default {
           ]
         }))
         .filter(this.fnDefined)
+
+      console.log(doubleCompareData)
 
       const n = doubleCompareData.length
 
@@ -111,13 +132,13 @@ export default {
         formatTypes: compareVariableInfos.map(v => v.formatType),
         axisLabels: compareVariableInfos.map(v => v.name),
         fnComponents: () => [
-          xyLine()
+          /* xyLine()
             .fnDefined(d => d.regression)
             .fnValue(d => d.regression)
             .fnStroke('#444')
             .fnStrokeWidth(2)
             .fnStrokeDasharray([5, 5])
-            .fnFillOpacity(0),
+            .fnFillOpacity(0) */
           xyCircles()
             .fnDefined(this.fnDefined)
             .fnValue(d => d.value)

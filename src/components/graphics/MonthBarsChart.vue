@@ -49,6 +49,9 @@ export default {
     config () {
       // should update also min and max, for the moment ok this way
       this.fillBars(this.monthId)
+    },
+    monthId () {
+      this.fillBars(this.monthId)
     }
   },
   mounted () {

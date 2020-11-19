@@ -3,7 +3,7 @@
     <Article>
       <div class="text-center py-2">
         <div class="headline py-1">
-          Social Media
+          Social Media Indices
         </div>
         <div class="text-justify py-1">
           Social media data used to estimate Infodemic Risk Indices and News Reliability Indices refer to messages posted in the popular microblogging platform Twitter.

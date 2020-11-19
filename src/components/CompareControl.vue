@@ -58,23 +58,12 @@
             </div>
           </v-card>
         </v-col>
-        <v-col
-          cols="12"
-        >
-          <v-card class="pa-2">
-            <MonthDisplay />
-            <MonthBars />
-          </v-card>
-        </v-col>
       </v-row>
     </v-container>
   </v-card>
 </template>
 
 <script>
-
-import MonthDisplay from '../components/control/MonthDisplay'
-import MonthBars from '../components/control/MonthBars'
 
 import LocationListSelector from '../components/control/LocationListSelector'
 import LocationListMap from '../components/control/LocationListMap'
@@ -85,8 +74,6 @@ import { mapActions, mapGetters } from 'vuex'
 
 export default {
   components: {
-    MonthDisplay,
-    MonthBars,
 
     LocationListSelector,
     LocationListMap,

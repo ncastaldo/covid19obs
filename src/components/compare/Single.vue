@@ -1,8 +1,23 @@
 <template>
   <div>
+    <Article>
+      <div class="py-2">
+        <div class="headline text-center py-1 ">
+          Ranking
+        </div>
+        <div class="text-justify py-1">
+          Compare and rank countries by their Infodemic Risk Index (default) or other indices of the COVID-19 Infodemic Observatory.
+          <br>
+          Click on <i>PRESETS</i> button (top of the page) to select a region involving one or more countries, or interactively select the countries of interest by clicking on the map. Select a time period from the interactive timeline.
+          <br>
+          Policy implications: @@@@@@@@@@@@@
+        </div>
+      </div>
+    </Article><MonthSelector />
     <div class="d-flex justify-center">
       <CompareSelector />
     </div>
+
     <CompareSingleChart
       :id="config.id"
       :height="400"
@@ -17,6 +32,7 @@ import { mapGetters } from 'vuex'
 import { byBars } from 'd3nic'
 
 import CompareSelector from '../control/CompareSelector'
+import MonthSelector from '../control/MonthSelector'
 
 import CompareSingleChart from '../graphics/CompareSingleChart'
 
@@ -28,7 +44,8 @@ import {
 export default {
   components: {
     CompareSelector,
-    CompareSingleChart
+    CompareSingleChart,
+    MonthSelector
   },
   computed: {
     ...mapGetters({

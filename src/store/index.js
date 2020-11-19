@@ -61,8 +61,8 @@ const INITIAL_STATE = {
   monthId: +MONTHS[MONTHS.length - 1],
   monthList: MONTHS,
 
-  firstCompareId: 'epi_cases_perM',
-  secondCompareId: 'epi_deaths_perM',
+  firstCompareId: 'info_iri',
+  secondCompareId: 'epi_cases',
 
   layerId: 'info_iri'
 }

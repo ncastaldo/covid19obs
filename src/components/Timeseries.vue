@@ -28,9 +28,9 @@ import { mapGetters } from 'vuex'
 
 const tabs = [
   { name: 'Infodemic Risk Indices', is: 'RiskIndexes' },
-  { name: 'News Reliability', is: 'News' },
+  { name: 'News Reliability Indices', is: 'News' },
   { name: 'Epidemic Indices', is: 'Epidemics' },
-  { name: 'Social Media', is: 'Tweets' }
+  { name: 'Social Media Indices', is: 'Tweets' }
 ]
 
 export default {
