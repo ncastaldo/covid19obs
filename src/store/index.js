@@ -64,7 +64,7 @@ const INITIAL_STATE = {
   firstCompareId: 'epi_cases_perM',
   secondCompareId: 'epi_deaths_perM',
 
-  layerId: 'info_tweets'
+  layerId: 'info_iri'
 }
 
 const state = {}

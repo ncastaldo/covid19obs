@@ -3,10 +3,21 @@
     <Article>
       <div class="text-center py-2">
         <div class="headline py-1">
-          Tweets
+          Social Media
         </div>
-        <div class="py-1">
-          Collected tweets divided by Tweets, Retweets and Replies and their distribution based on the language
+        <div class="text-justify py-1">
+          Social media data used to estimate Infodemic Risk Indices and News Reliability Indices refer to messages posted in the popular microblogging platform Twitter.
+          <br>
+          Collected data include stand-alone messages (Tweets) and special social interactions encoding endorsement and engagement (Retweets, Replies). The evolution over time of the volume of each class is shown.
+          <br>
+          Policy implication: @@@@@@@@
+          <br>
+          Messages are further classified with respect to their language, which can be the official language of the country (Local) or another language (Foreign).
+          <br>
+          Policy implication: @@@@@@@@
+          <br>
+          Messages are also classified in terms of their originators. In fact, when an account of public interest is authentic it is labeled by Twitter as Verified. For instance, the account of the former President of the United States of America Barack Obama, as well as the account of the World Health Organization, are both Verified. User which are not verified by Twitter can belong either to real people who publicly share their names (such as physicians, professors, students, so forth so on), anonymous accounts and fictitious accounts which are potentially malicious (e.g., spreading false statements or engaging with real users sharing unreliable information). These types of accounts are Unverified.
+          A healthy online discussion has preferably a high volume of messages from Verified accounts.
         </div>
       </div>
     </Article>

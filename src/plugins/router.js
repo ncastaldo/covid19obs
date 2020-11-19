@@ -14,11 +14,11 @@ const routes = [
     link: '/case-studies',
     icon: 'mdi-magnify'
   },
-  {
+  /* {
     title: 'More Maps',
     link: '/choropleth',
     icon: 'mdi-map'
-  },
+  }, */
   /* {
     title: 'Details',
     link: '/details',

@@ -1,12 +1,15 @@
 <template>
   <div>
     <Article>
-      <div class="text-center py-2">
-        <div class="headline py-1">
-          News reliability
+      <div class="py-2">
+        <div class="headline text-center py-1">
+          News Reliability
         </div>
-        <div class="py-1">
-          Reliable and Unreliable news distribution over time
+        <div class="text-justify py-1">
+          What is the volume of online messages  about COVID-19 pointing to reliable or unreliable sources of information? A reliable source of information is, for instance, www.congress.gov, a project of the Library of Congress that provides an online database of United States Congress legislative information, according to a <a href="https://mediabiasfactcheck.com/congress-gov/">popular fact-checking Web site</a>. Conversely, a potentially unreliable source of information is, for instance, www.zerohedge.com, <a href="https://mediabiasfactcheck.com/zero-hedge/">known for sharing false or inaccurate news.</a>
+          <br>
+          <br>
+          The volume of messages containing reliable and unreliable information is shown over time. The difference between reliable and unreliable volumes is shown as a dashed line: the closer the line to the top, the more healthy the sources of information circulating online
         </div>
       </div>
     </Article>
@@ -18,15 +21,48 @@
       :config="timeseriesConfig"
       :getComponents="getTimeseriesComponents"
     />
-    <ArcChart
-      :id="arcConfig.id"
-      :key="arcConfig.id"
-      ref="arcChart"
-      :height="300"
-      :arcData="arcData"
-      :config="arcConfig"
-      :getComponents="getArcComponents"
-    />
+    <div class="d-flex flex-row-reverse align-center justify-center mt-3 pa-4">
+      <div class="col-6">
+        <div class="headline text-center py-1">
+          News Reliability Index
+        </div>
+        <div class="text-justify py-1">
+          We further distinguish classes of information sources into:
+          <br>
+          <ul>
+            <li>
+              Reliable
+              <ul>
+                <li>MSM: Recognized and politically unbiased mainstream media</li>
+                <li>Science: Recognized scientific sources</li>
+              </ul>
+            </li>
+
+            <li>
+              Unreliable
+              <ul>
+                <li>Satire: Known to use humour and irony to expose and criticize news</li>
+                <li>Clickbait: Known source of false advertisement designed to attract attention</li>
+                <li>Political: Known politically biased media</li>
+                <li>Fake: Known to spread fake news and hoaxes</li>
+                <li>Conspiracy: Known to spread false narratives and conspiracy theories</li>
+              </ul>
+            </li>
+          </ul>
+          Science and MSM are predominant in healthy online discussions. The News Reliability Index quantifies the relative volume of reliable content with respect to the overall volume of messages pointing to sources of information.
+        </div>
+      </div>
+      <ArcChart
+        :id="arcConfig.id"
+        :key="arcConfig.id"
+        ref="arcChart"
+        class="col-6"
+        :height="300"
+        :arcData="arcData"
+        :config="arcConfig"
+        :getComponents="getArcComponents"
+      />
+    </div>
   </div>
 </template>
 

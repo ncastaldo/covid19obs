@@ -1,12 +1,24 @@
 <template>
   <div>
     <Article>
-      <div class="text-center py-2">
-        <div class="headline py-1">
-          Risk Indexes
+      <div class="py-2">
+        <div class="headline text-center py-1">
+          Infodemic Risk Indices
         </div>
-        <div class="py-1">
-          Evolution over time of the Dynamic Infodemic Risk Index (DynIRI) and the Infodemic Risk Index (IRI)
+        <div class="text-justify py-1">
+          The <b>Infodemic Risk Index</b> (<b>IRI</b>) quantifies at which rate an user is exposed to online messages pointing to potentially unreliable sources of misinformation or disinformation about COVID-19.
+          <br>
+          The IRI goes from 0 (Lowest Risk) to 1 (Highest Risk), with intermediate cases:
+          <ul>
+            <li><b>Low Risk</b>: IRI between 0 and 0.25</li>
+            <li><b>Low/Medium Risk</b>: IRI between 0.26 and 0.5</li>
+            <li><b>Medium/High Risk</b>: IRI between 0.51 and 0.75</li>
+            <li><b>High Risk</b>: IRI between 0.76 and 1</li>
+          </ul>
+          For instance, users living in a region with high IRI have a chance larger than 75% of reading an online post linking to a Web site with potentially misleading information about COVID-19.
+          <br>
+          <br>
+          The <b>Dynamic Infodemic Risk Index</b> (<b>Dynamic IRI</b>) is another risk index, estimated directly from users' online endorsement and engagement, which quantifies at which rate an user interacts with online messages pointing to potentially unreliable sources of misinformation or disinformation about COVID-19.
         </div>
       </div>
     </Article>
@@ -22,11 +34,17 @@
       </v-btn-toggle>
     </div>
     <div class="d-flex align-center justify-center">
+      <h4 class="pb-4 thin-font">
+        Lowest Risk
+      </h4>
       <LegendChart
         :width="300"
         :variableInfo="variableInfo"
         :domain="[0, 1]"
       />
+      <h4 class="pb-4 thin-font">
+        Highest Risk
+      </h4>
     </div>
     <TimeseriesChart
       id="base-iri"
@@ -44,6 +62,7 @@
       />
     </TimeseriesChart>
     <TimeseriesChart
+      v-if="false"
       id="type-iri"
       :height="130"
       :timeseries="iriTimereries"
@@ -70,7 +89,8 @@ import { fillOpacityMouseout, fillOpacityMouseover, opacityMouseover, opacityMou
 const variableInfo = variables.info_iri
 
 const fnColor = scaleSequential()
-  .interpolator(interpolateRgbBasis(['#0571b0', '#92c5de', '#f4a582', '#ca0020']))
+// ["#0571b0", "#92c5de", "#f7f7f7", "#f4a582", "#ca0020"],
+  .interpolator(interpolateRgbBasis(['#2c7bb6', '#abd9e9', '#ffffbf', '#fdae61', '#d7191c']))
 
 /* const typeColors = {
   T: '#045a8d',

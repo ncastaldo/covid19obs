@@ -1,12 +1,14 @@
 <template>
   <div>
     <Article>
-      <div class="text-center py-2">
-        <div class="headline py-1 ">
-          Epidemics
+      <div class="py-2">
+        <div class="headline text-center py-1 ">
+          Epidemic Indices
         </div>
-        <div class="py-1">
-          Evolution over time of the covid-19 epidemics, in terms of cases cases and deaths.
+        <div class="text-justify py-1">
+          Researchers have found a correlation between the evolution of the COVID-19 epidemic and the evolution of the corresponding infodemic in a region. Here, we report official daily and cumulative number of cases and deaths due to COVID-19.
+          <br>
+          Source: <a href="https://ourworldindata.org/coronavirus-source-data">Our World in Data</a>
         </div>
       </div>
     </Article>

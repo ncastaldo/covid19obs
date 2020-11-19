@@ -2,7 +2,7 @@
   <defs>
     <linearGradient
       :id="id"
-      gradientUnits="userSpaceOnUse"
+
       x1="0%"
       :y1="y1"
       :x2="x2"

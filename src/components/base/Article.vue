@@ -2,10 +2,10 @@
   <v-container class="py-0">
     <v-row class="justify-center px-2">
       <v-col
-        xl="6"
-        lg="8"
-        md="10"
-        sm="10"
+        xl="12"
+        lg="12"
+        md="12"
+        sm="12"
         cols="12"
       >
         <slot />

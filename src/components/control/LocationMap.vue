@@ -6,25 +6,47 @@
     :mapCenter="mapCenter"
     :mapZoom="mapZoom"
     :onClick="onClick"
-  />
+  >
+    <template v-slot:topright>
+      <v-card class="pa-1">
+        <div class="d-flex align-center flex-column">
+          <LayerSelector />
+          <LegendChart
+            v-if="true"
+            :width="300"
+            :variableInfo="layerVariableInfo"
+            :domain="layerDomain"
+          /></div>
+      </v-card>
+    </template>
+  </Map>
 </template>
 
 <script>
 
 import { latLng } from 'leaflet'
-import { geoCentroid, geoDistance, geoBounds } from 'd3-geo'
+import { geoDistance } from 'd3-geo'
 
 import Map from '../graphics/Map'
+
+import LayerSelector from './LayerSelector'
+import LegendChart from '../graphics/LegendChart'
+
 import { mapGetters, mapActions } from 'vuex'
 
 export default {
   components: {
-    Map
+    Map,
+    LayerSelector,
+    LegendChart
   },
   computed: {
     ...mapGetters({
       locations: 'location/getLocations',
-      location: 'location/getLocation'
+      location: 'location/getLocation',
+      layerVariableInfo: 'layer/getLayerVariableInfo',
+      layerDomain: 'layer/getLayerDomain',
+      layerDict: 'layer/getLayerDict'
     }),
     mapCenter () {
       return this.location.locationId === '_WORLD'
@@ -44,13 +66,29 @@ export default {
       return this.locations.reduce((acc, { locationId }) => ({
         ...acc,
         [locationId]: {
+          fillColor: this.layerDict && locationId in this.layerDict
+            ? this.layerDict[locationId].color
+            : '#aeaeae',
+          fillOpacity: 1,
+          /* ...(this.location.locationId === '_WORLD' ||
+          this.location.locationId !== locationId
+            ? { color: '#444', weight: 0.5, toFront: false }
+            : { color: '#111', weight: 2, toFront: true }) */
+          color: '#444',
+          weight: 0.5
+        }
+      }), {})
+
+      /* return this.locations.reduce((acc, { locationId }) => ({
+        ...acc,
+        [locationId]: {
           fillColor: this.location.locationId !== '_WORLD' &&
           this.location.locationId !== locationId ? '#aeaeae' : 'rgb(31, 121, 179)',
           fillOpacity: 1,
           weight: 0.5,
           color: '#eee'
         }
-      }), {})
+      }), {}) */
     }
   },
   watch: {

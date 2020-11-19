@@ -18,28 +18,18 @@ const routes = [
     path: '/compare',
     component: () => import(/* webpackChunkName: "CompareView" */'../views/CompareView')
   },
+  // {
+  //  path: '/choropleth',
+  //  component: () => import(/* webpackChunkName: "ChoroplethView" */'../views/ChoroplethView')
+  // },
   {
-    path: '/choropleth',
-    component: () => import(/* webpackChunkName: "ChoroplethView" */'../views/ChoroplethView')
-  },
-  {
-    path: '/details',
-    component: () => import(/* webpackChunkName: "DetailsView" */'../views/DetailsView')
+    path: '/case-studies',
+    component: () => import(/* webpackChunkName: "CaseStudiesView" */'../views/CaseStudiesView')
   },
   {
     path: '/methods',
     component: () => import(/* webpackChunkName: "MethodsView" */'../views/MethodsView')
   }
-  /* {
-    path: '/project',
-    name: 'Project',
-    component: Project
-  },
-  {
-    path: '/contacts',
-    name: 'Contacts',
-    component: Contacts
-  } */
 ]
 
 const router = new VueRouter({

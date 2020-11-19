@@ -5,7 +5,7 @@
     :items="layers"
     item-value="layerId"
     item-text="layerName"
-    style="width: 280px"
+    style="width: 300px"
     hide-details
   >
     <template
