@@ -109,7 +109,7 @@ export default {
         .fnBefore(s => s.classed('axis', true))
       this.bars = bxBars()
         .fnLowValue(d => 0)
-        .fnHighValue(d => d.value)
+        .fnHighValue(d => 1)// d.value)
         .fnFill(d => '#aeaeae')
         // .fnBefore(s => s.classed('date-selector__bars', true))
       this.brush = bxBrush()
@@ -135,7 +135,7 @@ export default {
       this.yAxis.tickFormatType(this.config.formatType || '~s')
       this.chart
         .padding(this.config.padding || {}) // updating the padding
-        .components([this.xAxis, this.yAxis, this.bars, this.brush])
+        .components([this.xAxis, /* this.yAxis, */ this.bars, this.brush])
     },
     fillBars (bandDomain) {
       // join on bars
@@ -146,7 +146,7 @@ export default {
     drawChart () {
       // wait for ChartsContainer
       return this.$nextTick()
-        .then(() => this.chart.draw({ duration: 500 })
+        .then(() => this.chart.draw({ duration: 0 })
           .transition().end())
     }
   }

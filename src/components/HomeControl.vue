@@ -28,30 +28,17 @@
             <LocationMap v-if="showCharts" />
           </v-card>
         </v-col>
-        <v-col
-          md="12"
-          cols="12"
-        >
-          <v-card class="pa-2">
-            <PeriodSelector />
-            <DateRangeBrush v-if="showCharts" />
-          </v-card>
-        </v-col>
       </v-row>
     </v-container>
   </v-card>
 </template>
 
 <script>
-
-import PeriodSelector from '../components/control/PeriodSelector'
 import LocationSelector from '../components/control/LocationSelector'
 
 export default {
   components: {
-    PeriodSelector,
     LocationSelector,
-    DateRangeBrush: () => import(/* webpackChunkName: "DateRangeBrush" */'../components/control/DateRangeBrush'),
     LocationMap: () => import(/* webpackChunkName: "LocationMap" */'../components/control/LocationMap')
   },
   data () {

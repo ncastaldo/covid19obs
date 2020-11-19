@@ -12,6 +12,8 @@
         </div>
       </div>
     </Article>
+
+    <PeriodSelector />
     <div class="py-3 text-center">
       <v-btn-toggle
         v-model="toggle"
@@ -50,6 +52,8 @@
 
 <script>
 import TimeseriesChart from './../graphics/TimeseriesChart'
+import PeriodSelector from './../control/PeriodSelector'
+
 import { mapGetters } from 'vuex'
 
 import { bxBars, bxLine, bxArea } from 'd3nic'
@@ -153,7 +157,8 @@ const getRtComponents = () => [
 
 export default {
   components: {
-    TimeseriesChart
+    TimeseriesChart,
+    PeriodSelector
   },
   data () {
     return {

@@ -22,6 +22,7 @@
         </div>
       </div>
     </Article>
+    <PeriodSelector />
     <div class="py-3 text-center">
       <v-btn-toggle
         v-model="toggle"
@@ -38,6 +39,7 @@
         Lowest Risk
       </h4>
       <LegendChart
+        id="iri-legend-chart"
         :width="300"
         :variableInfo="variableInfo"
         :domain="[0, 1]"
@@ -75,6 +77,7 @@
 <script>
 import TimeseriesChart from './../graphics/TimeseriesChart'
 import LegendChart from './../graphics/LegendChart'
+import PeriodSelector from './../control/PeriodSelector'
 
 import { mapGetters } from 'vuex'
 
@@ -231,7 +234,8 @@ const getTypeComponents = () => [
 export default {
   components: {
     TimeseriesChart,
-    LegendChart
+    LegendChart,
+    PeriodSelector
   },
   data () {
     return {

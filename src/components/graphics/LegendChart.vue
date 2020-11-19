@@ -1,7 +1,7 @@
 <template>
-  <svg id="legend-chart">
+  <svg :id="id">
     <Gradient
-      id="legend-chart-gradient"
+      :id="gradientId"
       :fnInterpolator="fnInterpolator"
     />
   </svg>
@@ -12,6 +12,10 @@ import { byAxisX, byBars, byChart } from 'd3nic'
 
 export default {
   props: {
+    id: {
+      type: String,
+      default: 'legend-chart'
+    },
     variableInfo: Object,
     domain: Array,
     width: Number
@@ -26,6 +30,9 @@ export default {
   computed: {
     fnInterpolator () {
       return this.variableInfo.fnColorInterpolator
+    },
+    gradientId () {
+      return this.id + '-gradient'
     }
   },
   watch: {
@@ -62,11 +69,11 @@ export default {
       this.byBars = byBars()
         .fnLowValue(d => d[0])
         .fnHighValue(d => d[1])
-        .fnFill('url(#legend-chart-gradient)')
+        .fnFill(`url(#${this.gradientId})`)
     },
     createChart () {
       this.chart = byChart()
-        .selector('#legend-chart')
+        .selector(`#${this.id}`)
         .padding({ top: 7, right: 30, bottom: 23, left: 30 })
         .size({ width: this.width, height: 45 })
     },

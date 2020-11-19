@@ -36,7 +36,7 @@ import {
   bxMouseBars
 } from 'd3nic'
 
-const fnTimeFormat = timeFormat('%b %d, %y')
+const fnTimeFormat = timeFormat('%d/%m/%y')
 
 export default {
   components: {

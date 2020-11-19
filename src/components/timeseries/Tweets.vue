@@ -21,6 +21,7 @@
         </div>
       </div>
     </Article>
+    <PeriodSelector />
     <TimeseriesChart
       :id="typeConfig.id"
       :key="typeConfig.id"
@@ -50,6 +51,8 @@
 
 <script>
 import TimeseriesChart from './../graphics/TimeseriesChart'
+import PeriodSelector from './../control/PeriodSelector'
+
 import { mapGetters } from 'vuex'
 
 import { bxBars, bxLine, bxArea, bxLines, bxCircles } from 'd3nic'
@@ -192,7 +195,8 @@ const getVerifiedComponents = () => [
 
 export default {
   components: {
-    TimeseriesChart
+    TimeseriesChart,
+    PeriodSelector
   },
   data () {
     return {

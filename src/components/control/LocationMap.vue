@@ -5,6 +5,7 @@
     :styleMapping="styleMapping"
     :mapCenter="mapCenter"
     :mapZoom="mapZoom"
+    :fnTooltips="fnTooltips"
     :onClick="onClick"
   >
     <template v-slot:topright>
@@ -70,12 +71,12 @@ export default {
             ? this.layerDict[locationId].color
             : '#aeaeae',
           fillOpacity: 1,
-          /* ...(this.location.locationId === '_WORLD' ||
+          ...(this.location.locationId === '_WORLD' ||
           this.location.locationId !== locationId
             ? { color: '#444', weight: 0.5, toFront: false }
-            : { color: '#111', weight: 2, toFront: true }) */
-          color: '#444',
-          weight: 0.5
+            : { color: '#111', weight: 2, toFront: true })
+          // color: '#444',
+          // weight: 0.5
         }
       }), {})
 
@@ -89,6 +90,15 @@ export default {
           color: '#eee'
         }
       }), {}) */
+    },
+    fnTooltips () {
+      if (!this.layerVariableInfo) return () => []
+      return d => [{
+        name: this.layerVariableInfo.name,
+        value: this.layerDict[d.locationId].value,
+        color: this.styleMapping[d.locationId].fillColor,
+        formatType: this.layerVariableInfo.formatType
+      }]
     }
   },
   watch: {

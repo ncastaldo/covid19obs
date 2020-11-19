@@ -13,6 +13,8 @@
         </div>
       </div>
     </Article>
+
+    <PeriodSelector />
     <TimeseriesChart
       :id="timeseriesConfig.id"
       :key="timeseriesConfig.id"
@@ -69,6 +71,7 @@
 <script>
 import TimeseriesChart from './../graphics/TimeseriesChart'
 import ArcChart from './../graphics/ArcChart'
+import PeriodSelector from './../control/PeriodSelector'
 
 import { mapGetters } from 'vuex'
 
@@ -145,7 +148,8 @@ const news = [
 export default {
   components: {
     TimeseriesChart,
-    ArcChart
+    ArcChart,
+    PeriodSelector
   },
   data () {
     return {
