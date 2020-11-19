@@ -1,20 +1,6 @@
 <template>
-  <div>
-    <Article>
-      <div class="py-2">
-        <div class="headline text-center py-1 ">
-          Epidemic Indices
-        </div>
-        <div class="text-justify py-1">
-          Researchers have found a correlation between the evolution of the COVID-19 epidemic and the evolution of the corresponding infodemic in a region. Here, we report official daily and cumulative number of cases and deaths due to COVID-19.
-          <br>
-          Source: <a href="https://ourworldindata.org/coronavirus-source-data">Our World in Data</a>
-        </div>
-      </div>
-    </Article>
-
-    <PeriodSelector />
-    <div class="py-3 text-center">
+  <div class="pt-5">
+    <div class="pb-3 text-center">
       <v-btn-toggle
         v-model="toggle"
         rounded
@@ -47,12 +33,20 @@
       :config="rtConfig"
       :getComponents="getRtComponents"
     />
+    <Article>
+      <div class="py-2">
+        <div class="text-justify py-1">
+          Researchers have found a correlation between the evolution of the COVID-19 epidemic and the evolution of the corresponding infodemic in a region. Here, we report official daily and cumulative number of cases and deaths due to COVID-19.
+          <br>
+          Source: <a href="https://ourworldindata.org/coronavirus-source-data">Our World in Data</a>
+        </div>
+      </div>
+    </Article>
   </div>
 </template>
 
 <script>
 import TimeseriesChart from './../graphics/TimeseriesChart'
-import PeriodSelector from './../control/PeriodSelector'
 
 import { mapGetters } from 'vuex'
 
@@ -157,8 +151,7 @@ const getRtComponents = () => [
 
 export default {
   components: {
-    TimeseriesChart,
-    PeriodSelector
+    TimeseriesChart
   },
   data () {
     return {

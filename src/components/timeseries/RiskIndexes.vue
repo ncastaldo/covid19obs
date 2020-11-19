@@ -1,50 +1,6 @@
 <template>
-  <div>
-    <Article>
-      <div class="py-2">
-        <div class="headline text-center py-1">
-          Infodemic Risk Indices
-        </div>
-        <div class="text-justify py-1">
-          Infodemic risk indices estimate the change that a user in a social media platform is pointed to potentially unreliable sources of misinformation or disinformation about COVID-19. There are two type of indices:
-          <ul>
-            <li><strong>Infodemic Risk Index (IRI)</strong>: likelihood that a user <i>receives messages</i> pointing to potentially misleading sources. This index quantifies if and how user are exposed to circulating information.</li>
-            <li><strong>Dynamic Infodemic Risk Index (Dynamic IRI)</strong>: likelihood that a user <strong>endorses or engages with online messages</strong> pointing to potentially misleading sources. This index quantifies if and how user interact with circulating information.</li>
-          </ul>
-          <br>
-          The indices range from 0 (Lowest Risk) to 1 (Highest Risk), with intermediate cases:
-          <ul>
-            <li>
-              <font color="#2E7Cb7">
-                <strong>Low Risk</strong>
-              </font>: values between 0 and 0.25
-            </li>
-            <li>
-              <font color="99C8D8">
-                <strong>Low/Medium Risk</strong>
-              </font>: values between 0.26 and 0.5
-            </li>
-            <li>
-              <font color="#F28b56">
-                <strong>Medium/High Risk</strong>
-              </font>: values between 0.51 and 0.75
-            </li>
-            <li>
-              <font color="#d7191c">
-                <strong>High Risk</strong>
-              </font>: values between 0.76 and 1
-            </li>
-          </ul>
-          For instance, users living in a region with high IRI and low/medium Dynamic IRI have a <font color="d7191c">
-            <strong>chance larger than 75% of reading an online post linking to a Web site with potentially misleading information about COVID-19</strong>
-          </font>, as well as <font color="F28b56">
-            <strong>a chance between 26% and 50% of re-sharing or commenting about that information</strong>
-          </font>
-        </div>
-      </div>
-    </Article>
-    <PeriodSelector />
-    <div class="py-3 text-center">
+  <div class="pt-5">
+    <div class="pb-3 text-center">
       <v-btn-toggle
         v-model="toggle"
         rounded
@@ -92,13 +48,55 @@
       :config="typeConfig"
       :getComponents="getTypeComponents"
     />
+    <Article>
+      <div class="py-2">
+        <div class="text-justify py-1">
+          Infodemic risk indices estimate the change that a user in a social media platform is pointed to potentially unreliable sources of misinformation or disinformation about COVID-19. There are two type of indices:
+          <ul>
+            <li><strong>Infodemic Risk Index (IRI)</strong>: likelihood that a user <i>receives messages</i> pointing to potentially misleading sources. This index quantifies if and how user are exposed to circulating information.</li>
+            <li><strong>Dynamic Infodemic Risk Index (Dynamic IRI)</strong>: likelihood that a user <strong>endorses or engages with online messages</strong> pointing to potentially misleading sources. This index quantifies if and how user interact with circulating information.</li>
+          </ul>
+          <br>
+          The indices range from 0 (Lowest Risk) to 1 (Highest Risk), with intermediate cases:
+          <ul>
+            <li>
+              <font color="#2E7Cb7">
+                <strong>Low Risk</strong>
+              </font>: values between 0 and 0.25
+            </li>
+            <li>
+              <font color="99C8D8">
+                <strong>Low/Medium Risk</strong>
+              </font>: values between 0.26 and 0.5
+            </li>
+            <li>
+              <font color="#F28b56">
+                <strong>Medium/High Risk</strong>
+              </font>: values between 0.51 and 0.75
+            </li>
+            <li>
+              <font color="#d7191c">
+                <strong>High Risk</strong>
+              </font>: values between 0.76 and 1
+            </li>
+          </ul>
+          For instance, users living in a region with high IRI and low/medium Dynamic IRI have a <font color="d7191c">
+            <strong>chance larger than 75% of reading an online post linking to a Web site with potentially misleading information about COVID-19</strong>
+          </font>, as well as <font color="F28b56">
+            <strong>a chance between 26% and 50% of re-sharing or commenting about that information</strong>
+          </font>
+          <PolicyText>
+            Policy implication related to IRI. <b>Bold if it must be bold</b>
+          </PolicyText>
+        </div>
+      </div>
+    </Article>
   </div>
 </template>
 
 <script>
 import TimeseriesChart from './../graphics/TimeseriesChart'
 import LegendChart from './../graphics/LegendChart'
-import PeriodSelector from './../control/PeriodSelector'
 
 import { mapGetters } from 'vuex'
 
@@ -255,8 +253,7 @@ const getTypeComponents = () => [
 export default {
   components: {
     TimeseriesChart,
-    LegendChart,
-    PeriodSelector
+    LegendChart
   },
   data () {
     return {

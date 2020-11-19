@@ -1,6 +1,7 @@
 <template>
-  <v-card color="#eee">
+  <v-card color="#fff">
     <v-btn
+      v-if="false"
       absolute
       fab
       right
@@ -23,7 +24,10 @@
           md="12"
           cols="12"
         >
-          <v-card class="pa-2">
+          <v-card
+            class="pa-2"
+            flat
+          >
             <LocationSelector />
             <LocationMap v-if="showCharts" />
           </v-card>

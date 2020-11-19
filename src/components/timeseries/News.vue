@@ -1,20 +1,5 @@
 <template>
-  <div>
-    <Article>
-      <div class="py-2">
-        <div class="headline text-center py-1">
-          News Reliability Indices
-        </div>
-        <div class="text-justify py-1">
-          What is the volume of online messages  about COVID-19 pointing to reliable or unreliable sources of information? A reliable source of information is, for instance, www.congress.gov, a project of the Library of Congress that provides an online database of United States Congress legislative information, according to a <a href="https://mediabiasfactcheck.com/congress-gov/">popular fact-checking Web site</a>. Conversely, a potentially unreliable source of information is, for instance, www.zerohedge.com, <a href="https://mediabiasfactcheck.com/zero-hedge/">known for sharing false or inaccurate news.</a>
-          <br>
-          <br>
-          The volume of messages containing reliable and unreliable information is shown over time. The difference between reliable and unreliable volumes is shown as a dashed line: the closer the line to the top, the more healthy the sources of information circulating online
-        </div>
-      </div>
-    </Article>
-
-    <PeriodSelector />
+  <div class="pt-5">
     <TimeseriesChart
       :id="timeseriesConfig.id"
       :key="timeseriesConfig.id"
@@ -23,6 +8,16 @@
       :config="timeseriesConfig"
       :getComponents="getTimeseriesComponents"
     />
+    <Article>
+      <div class="py-2">
+        <div class="text-justify">
+          What is the volume of online messages  about COVID-19 pointing to reliable or unreliable sources of information? A reliable source of information is, for instance, www.congress.gov, a project of the Library of Congress that provides an online database of United States Congress legislative information, according to a <a href="https://mediabiasfactcheck.com/congress-gov/">popular fact-checking Web site</a>. Conversely, a potentially unreliable source of information is, for instance, www.zerohedge.com, <a href="https://mediabiasfactcheck.com/zero-hedge/">known for sharing false or inaccurate news.</a>
+          <br>
+          <br>
+          The volume of messages containing reliable and unreliable information is shown over time. The difference between reliable and unreliable volumes is shown as a dashed line: the closer the line to the top, the more healthy the sources of information circulating online
+        </div>
+      </div>
+    </Article>
     <div class="d-flex flex-row-reverse align-center justify-center mt-3 pa-4">
       <div class="col-6">
         <div class="headline text-center py-1">
@@ -54,6 +49,7 @@
           Science and MSM are predominant in healthy online discussions. The News Reliability Index quantifies the relative volume of reliable content with respect to the overall volume of messages pointing to sources of information.
         </div>
       </div>
+
       <ArcChart
         :id="arcConfig.id"
         :key="arcConfig.id"
@@ -71,7 +67,6 @@
 <script>
 import TimeseriesChart from './../graphics/TimeseriesChart'
 import ArcChart from './../graphics/ArcChart'
-import PeriodSelector from './../control/PeriodSelector'
 
 import { mapGetters } from 'vuex'
 
@@ -148,8 +143,7 @@ const news = [
 export default {
   components: {
     TimeseriesChart,
-    ArcChart,
-    PeriodSelector
+    ArcChart
   },
   data () {
     return {

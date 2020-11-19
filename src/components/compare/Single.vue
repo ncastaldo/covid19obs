@@ -1,19 +1,5 @@
 <template>
   <div>
-    <Article>
-      <div class="py-2">
-        <div class="headline text-center py-1 ">
-          Ranking
-        </div>
-        <div class="text-justify py-1">
-          Compare and rank countries by their Infodemic Risk Index (default) or other indices of the COVID-19 Infodemic Observatory.
-          <br>
-          Click on <i>PRESETS</i> button (top of the page) to select a region involving one or more countries, or interactively select the countries of interest by clicking on the map. Select a time period from the interactive timeline.
-          <br>
-          Policy implications: @@@@@@@@@@@@@
-        </div>
-      </div>
-    </Article><MonthSelector />
     <div class="d-flex justify-center">
       <CompareSelector />
     </div>
@@ -24,6 +10,22 @@
       :compareData="orderedCompareData"
       :config="config"
     />
+    <Article>
+      <div class="py-2">
+        <div class="headline text-center py-1 ">
+          Description
+        </div>
+        <div class="text-justify py-1">
+          Compare and rank countries by their Infodemic Risk Index (default) or other indices of the COVID-19 Infodemic Observatory.
+          <br>
+          Click on <i>PRESETS</i> button (top of the page) to select a region involving one or more countries, or interactively select the countries of interest by clicking on the map. Select a time period from the interactive timeline.
+          <br>
+          <PolicyText>
+            Country ranks according to a given index give us a clear indication of what are the countries to watch as critical players with respect to a certain phenomenon. For instance if the index is the Infodemic Risk (IRI) one, we know which countries are currently working as potential hubs for disinformation creation and spreading. This also means that countries that currently have lower levels of infodemic risk but that are culturally or geographically connected to high-risk ones are likely to be impacted by misinformation through such connection and should be monitored more carefully.
+          </PolicyText>
+        </div>
+      </div>
+    </Article>
   </div>
 </template>
 
@@ -32,7 +34,6 @@ import { mapGetters } from 'vuex'
 import { byBars } from 'd3nic'
 
 import CompareSelector from '../control/CompareSelector'
-import MonthSelector from '../control/MonthSelector'
 
 import CompareSingleChart from '../graphics/CompareSingleChart'
 
@@ -44,8 +45,7 @@ import {
 export default {
   components: {
     CompareSelector,
-    CompareSingleChart,
-    MonthSelector
+    CompareSingleChart
   },
   computed: {
     ...mapGetters({

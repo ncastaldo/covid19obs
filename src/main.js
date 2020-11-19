@@ -6,6 +6,7 @@ import store from './store/index'
 import vuetify from './plugins/vuetify'
 
 import Article from './components/base/Article'
+import PolicyText from './components/base/PolicyText'
 
 import ChartsContainer from './components/base/ChartsContainer'
 import Gradient from './components/base/Gradient'
@@ -24,6 +25,7 @@ Vue.config.productionTip = false
 Vue.use(VueMobileDetection)
 
 Vue.component('Article', Article)
+Vue.component('PolicyText', PolicyText)
 
 Vue.component('ChartsContainer', ChartsContainer)
 Vue.component('Gradient', Gradient)

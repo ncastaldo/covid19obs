@@ -2,6 +2,7 @@
   <v-container>
     <v-row>
       <v-col>
+        <MonthSelector />
         <v-tabs
           v-model="index"
           fixed-tabs
@@ -26,6 +27,8 @@
 <script>
 import Single from './compare/Single'
 import Double from './compare/Double'
+import MonthSelector from './control/MonthSelector'
+
 import { mapGetters } from 'vuex'
 
 const tabs = [
@@ -37,7 +40,8 @@ const tabs = [
 export default {
   components: {
     Single,
-    Double
+    Double,
+    MonthSelector
   },
   data () {
     return {

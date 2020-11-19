@@ -2,10 +2,14 @@
   <v-container>
     <v-row>
       <v-col>
+        <PeriodSelector />
         <v-tabs
           v-model="index"
           fixed-tabs
           show-arrows
+          class="tab"
+          active-class="active-tab"
+          color="black"
         >
           <v-tab
             v-for="(t, i) in tabs"
@@ -25,6 +29,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
+import PeriodSelector from '../components/control/PeriodSelector'
 
 const tabs = [
   { name: 'Infodemic Risk Indices', is: 'RiskIndexes' },
@@ -35,6 +40,7 @@ const tabs = [
 
 export default {
   components: {
+    PeriodSelector,
     Epidemics: () => import(/* webpackChunkName: "Epidemics" */'./timeseries/Epidemics'),
     Tweets: () => import(/* webpackChunkName: "Tweets" */'./timeseries/Tweets'),
     RiskIndexes: () => import(/* webpackChunkName: "RiskIndexes" */'./timeseries/RiskIndexes'),
@@ -57,6 +63,14 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
+.tab {
+  background-color: '#dadada'
+}
+
+.active-tab {
+  background-color: '#fff'
+}
 
 </style>
