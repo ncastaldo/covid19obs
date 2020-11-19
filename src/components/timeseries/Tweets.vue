@@ -40,7 +40,9 @@
         </PolicyText>
         Messages are also classified in terms of their originators. In fact, when an account of public interest is authentic it is labeled by Twitter as Verified. For instance, the account of the former President of the United States of America Barack Obama, as well as the account of the World Health Organization, are both Verified. User which are not verified by Twitter can belong either to real people who publicly share their names (such as physicians, professors, students, so forth so on), anonymous accounts and fictitious accounts which are potentially malicious (e.g., spreading false statements or engaging with real users sharing unreliable information). These types of accounts are Unverified.
         A healthy online discussion has preferably a high volume of messages from Verified accounts.
-        <PolicyText>Verified sources are generally more reliable and are exposed to closer screening by online moderators. Non-verified sources are also important because they reflect the views and positions of that part of the public opinion that is not made of opinion makers, but is also more manipulable and more likely to contain misinformation. A fair sampling of the infodemic flow should contain both kinds of sources, as verified users are more reliable but also the official expression of institutions and public figures, </PolicyText>
+        <PolicyText>
+          Verified sources are generally more reliable and are exposed to closer screening by online moderators. Non-verified sources are also important because they reflect the views and positions of that part of the public opinion that is not made of opinion makers, but is also more manipulable and more likely to contain misinformation. A fair sampling of the infodemic flow should contain both kinds of sources, as verified users are more reliable but also the official expression of institutions and public figures, whereas unverified users are less reliable but inform about how the current opinion is moving.
+        </PolicyText>
       </div>
     </Article>
   </div>

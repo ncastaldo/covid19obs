@@ -16,20 +16,32 @@
         </div>
         <div class="py-2">
           <b>What are the indices of the COVID-19 Infodemic Observatory?</b>
-          <br>
-          Infodemic Risk Index, or IRI in short.
-          It is estimated indirectly on the basis of the number of followers of users who tweeted, retweeted or quoted unreliable news about COVID-19. The risk is calculated by comparing the maximal potential outreach of unreliable information against that of all news. If a misleading piece of information is shared by an influencer with a large number of followers, it will cause a great increment of the IRI.
+          <ul>
+            <br>
 
-          Dynamic Infodemic Risk Index, or Dynamic IRI.
-          It is estimated directly from users' online endorsement and engagement to evaluate at which rate an user interacts with online messages pointing to potentially unreliable sources of misinformation or disinformation about COVID-19. The risk is calculated by counting the number of retweets and replies of unreliable news against that of all news. If a misleading piece of information is re-shared by a large number of users, it will cause a great increment of the Dynamic IRI.
-
-          News Unreliability Indices.
-          Characterize the relative volume of unreliable content with respect to the overall volume of messages pointing to sources of information. It shows what types of news about COVID-19 are produced in a country. The subdivision into reliable and unreliable news is further divided into: mainstream media, science, satire, clickbait, political, fake and conspiracy so that it is possible to investigate what categories of news are dominating the online discourse.
-
-          Social Media Indices.
-          Tweet types. Messages posted in Twitter include both stand-alone messages (Tweets) and special social interactions encoding endorsement and engagement (Retweets, Replies). The total number of tweets of different types are indicators of how much in the country there is a tendency of actively creating content (higher number of Tweets) or of interacting around content (higher number of Retweets and Replies) when discussing about COVID-19.
-          Local/Foreign. Not all messages circulating, and successfully classified on our side, are using the local language. We therefore provide statistics over how many tweets in our analysis are written in one of the official languages of the country (Local) or another language (Foreign). A more accurate view on a country's infodemic is available when the fraction of local messages is high.
-          Verified/Unverified. Messages are also classified in terms of their originators. On Twitter, when an account is of public interest (e.g. the World Health Organization or the former President of the United States of America Barack Obama) it is actively Verified by Twitter. Conversely, unverified users instead can belong either to real people who publicly share their names (such as physicians, professors, students, so forth so on), anonymous accounts, or fictitious accounts which are potentially malicious (e.g., spreading false statements or engaging with real users sharing unreliable information). We report the fraction of messages by verified users in a country, as a healthy online discussion has preferably a high volume of messages from verified accounts.
+            <li>
+              <u>Infodemic Risk Index, or IRI in short.</u><br>
+              It is estimated indirectly on the basis of the number of followers of users who tweeted, retweeted or quoted unreliable news about COVID-19. The risk is calculated by comparing the maximal potential outreach of unreliable information against that of all news. If a misleading piece of information is shared by an influencer with a large number of followers, it will cause a great increment of the IRI.
+            </li><li>
+              <u>Dynamic Infodemic Risk Index, or Dynamic IRI.</u><br>
+              It is estimated directly from users' online endorsement and engagement to evaluate at which rate an user interacts with online messages pointing to potentially unreliable sources of misinformation or disinformation about COVID-19. The risk is calculated by counting the number of retweets and replies of unreliable news against that of all news. If a misleading piece of information is re-shared by a large number of users, it will cause a great increment of the Dynamic IRI.
+            </li><li>
+              <u>News Unreliability Indices.</u><br>
+              Characterize the relative volume of unreliable content with respect to the overall volume of messages pointing to sources of information. It shows what types of news about COVID-19 are produced in a country. The subdivision into reliable and unreliable news is further divided into: mainstream media, science, satire, clickbait, political, fake and conspiracy so that it is possible to investigate what categories of news are dominating the online discourse.
+            </li><li>
+              <u>Social Media Indices.</u><br>
+              <ul>
+                <li>
+                  <i>Tweet types. </i>Messages posted in Twitter include both stand-alone messages (Tweets) and special social interactions encoding endorsement and engagement (Retweets, Replies). The total number of tweets of different types are indicators of how much in the country there is a tendency of actively creating content (higher number of Tweets) or of interacting around content (higher number of Retweets and Replies) when discussing about COVID-19.
+                </li><li>
+                  <i>Local/Foreign. </i>Not all messages circulating, and successfully classified on our side, are using the local language. We therefore provide statistics over how many tweets in our analysis are written in one of the official languages of the country (Local) or another language (Foreign). A more accurate view on a country's infodemic is available when the fraction of local messages is high.
+                </li><li>
+                  <i>Verified/Unverified. </i>Messages are also classified in terms of their originators. On Twitter, when an account is of public interest (e.g. the World Health Organization or the former President of the United States of America Barack Obama) it is actively Verified by Twitter. Conversely, unverified users instead can belong either to real people who publicly share their names (such as physicians, professors, students, so forth so on), anonymous accounts, or fictitious accounts which are potentially malicious (e.g., spreading false statements or engaging with real users sharing unreliable information). We report the fraction of messages by verified users in a country, as a healthy online discussion has preferably a high volume of messages from verified accounts.
+                </li>
+                <ul />
+              </ul>
+            </li>
+          </ul>
         </div>
         <div class="py-2">
           <b>When is a country at high infodemic risk?</b>
