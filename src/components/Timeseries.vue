@@ -1,11 +1,17 @@
 <template>
-  <v-container class="py-0">
+  <v-container class="pt-4">
+    <LocationSummary
+      v-if="false"
+    />
+
     <PeriodSelector />
-    <br>
+
     <v-tabs
       v-model="index"
+      class="pt-4"
       fixed-tabs
       show-arrows
+      hide-slider
     >
       <v-tab
         v-for="(t, i) in tabs"
@@ -23,6 +29,8 @@
 
 <script>
 import { mapGetters } from 'vuex'
+
+import LocationSummary from '../components/LocationSummary'
 import PeriodSelector from '../components/control/PeriodSelector'
 
 const tabs = [
@@ -34,6 +42,7 @@ const tabs = [
 
 export default {
   components: {
+    LocationSummary,
     PeriodSelector,
     Epidemics: () => import(/* webpackChunkName: "Epidemics" */'./timeseries/Epidemics'),
     Tweets: () => import(/* webpackChunkName: "Tweets" */'./timeseries/Tweets'),
@@ -57,14 +66,6 @@ export default {
 }
 </script>
 
-<style scoped>
-
-.tab {
-  background-color: '#dadada'
-}
-
-.active-tab {
-  background-color: '#fff'
-}
+<style >
 
 </style>

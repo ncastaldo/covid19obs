@@ -1,11 +1,13 @@
 <template>
-  <v-container class="py-0">
+  <v-container class="pt-4">
     <MonthSelector />
-    <br>
+
     <v-tabs
       v-model="index"
+      class="pt-4"
       fixed-tabs
       show-arrows
+      hide-slider
     >
       <v-tab
         v-for="(t, i) in tabs"

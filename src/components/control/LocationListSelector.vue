@@ -6,13 +6,14 @@
     <template v-slot:activator="{ on, attrs }">
       <v-btn
         v-bind="attrs"
+        tile
         :color="color"
         dark
-        tile
-
         v-on="on"
       >
-        <span class="mr-2">{{ name }}</span>
+        <span
+          class="mr-2"
+        >{{ name }}</span>
         <span>{{ model.length }}</span>
       </v-btn>
     </template>
@@ -20,6 +21,16 @@
       class="overflow-y-auto"
       max-height="300"
     >
+      <v-list-item
+        @click="onClickSelectAll"
+      >
+        <v-list-item-content>
+          <v-list-item-title>
+            {{ allSelected ? 'Reset' : 'Select All' }}
+          </v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+      <v-divider class="" />
       <v-list-item-group
         v-model="model"
         multiple
@@ -43,9 +54,9 @@ const fnFlagUrl = id => `https://flagcdn.com/32x24/${id.toLowerCase()}.png`
 
 export default {
   props: {
-    // array of locations
     name: String,
     color: String,
+    // array of locations
     locations: {
       type: Array,
       default: () => []
@@ -68,6 +79,9 @@ export default {
       return this.location && this.location.flagId && this.location.flagId !== '-99'
         ? fnFlagUrl(this.location.flagId)
         : null
+    },
+    allSelected () {
+      return this.locations.length === this.value.length
     }
   },
   methods: {
@@ -87,6 +101,14 @@ export default {
     },
     onError (e) {
       e.target.src = 'assets/static_img/flag.svg'
+    },
+    onClickSelectAll () {
+      console.log(this.locations)
+      if (this.allSelected) {
+        this.model = []
+      } else {
+        this.model = this.locations.map((_, i) => i)
+      }
     }
   }
 }

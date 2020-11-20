@@ -2,6 +2,9 @@
 import { variableList, variables, getColorScale, lastUpdatesTextParser } from '../plugins/util'
 
 import { extent } from 'd3-array'
+import { timeFormat } from 'd3-time-format'
+
+const fnTimeFormat = timeFormat('%d/%m/%y')
 
 const layers = variableList
   .filter(v => v.layer)
@@ -18,6 +21,8 @@ const state = {
   layerId: null,
   layers,
 
+  layerDateString: null,
+
   layerVariableInfo: {},
   layerFullData: []
 }
@@ -32,6 +37,9 @@ const mutations = {
 const getters = {
   getLayers: ({ layers }) => Object.values(layers),
   getLayer: ({ layers, layerId }) => layers[layerId],
+
+  getLayerDateString: ({ layerFullData }) => layerFullData
+    ? fnTimeFormat(new Date(layerFullData[0].dateString)) : 'Invalid',
 
   getLayerVariableInfo: ({ layerVariableInfo }) => layerVariableInfo,
 
@@ -100,7 +108,7 @@ const actions = {
   loadTweets: ({ getters, commit }) => {
     // console.log(rootGetters)
     const layerId = getters.getLayer.layerId
-    const layerUrl = `/assets/last_updates/${layerId}.csv`
+    const layerUrl = `/assets/layers/${layerId}.csv`
     // const layerUrl = `/assets/compare/${layerId}.csv`
 
     // fetching the compare

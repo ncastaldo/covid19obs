@@ -17,8 +17,6 @@
         <div class="py-2">
           <b>What are the indices of the COVID-19 Infodemic Observatory?</b>
           <ul>
-            <br>
-
             <li>
               <u>Infodemic Risk Index, or IRI in short.</u><br>
               It is estimated indirectly on the basis of the number of followers of users who tweeted, retweeted or quoted unreliable news about COVID-19. The risk is calculated by comparing the maximal potential outreach of unreliable information against that of all news. If a misleading piece of information is shared by an influencer with a large number of followers, it will cause a great increment of the IRI.

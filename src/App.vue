@@ -61,6 +61,14 @@ export default {
   word-break: normal; /* maybe !important  */
 }
 
+.v-tab {
+  box-shadow:0px 0px 0px 100% inset;
+}
+
+.v-tab--active {
+  box-shadow:0px 0px 0px 2px inset;
+}
+
 .thin-font {
   font-weight: 300;
 }

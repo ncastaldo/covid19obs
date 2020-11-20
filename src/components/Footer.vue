@@ -23,11 +23,24 @@
 
       <v-divider />
       <div class="caption py-3">
-        <div>
-          Copyright @ 2020 - All right reserved, <a
+        <div class="pb-2">
+          Copyright @ 2020-2021 - All right reserved, <a
             href="https://comunelab.fbk.eu"
             target="_blank"
           >CoMuNe Lab</a>, FBK
+        </div>
+        <div class="pb-2">
+          <a
+            rel="license"
+            href="http://creativecommons.org/licenses/by-sa/4.0/"
+          ><img
+            alt="Creative Commons License"
+            style="border-width:0"
+            src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+          ></a><br>Data and derived products are licensed under a <a
+            rel="license"
+            href="http://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons Attribution-ShareAlike 4.0 International License</a>.
         </div>
         <div>
           Designed by <a

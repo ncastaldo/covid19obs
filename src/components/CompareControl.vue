@@ -1,9 +1,10 @@
 <template>
-  <v-card
+  <!--v-card
     color="#fff"
     flat
   >
     <v-btn
+      v-if="false"
       absolute
       fab
       right
@@ -63,7 +64,39 @@
         </v-col>
       </v-row>
     </v-container>
-  </v-card>
+  </v-card-->
+  <div>
+    <v-container class="py-0">
+      <div
+        class="pa-2 d-flex align-center justify-center"
+      >
+        <v-divider class="mr-4" />
+        <div class="display__icon mr-2">
+          <v-icon large>
+            mdi-map
+          </v-icon>
+        </div>
+        <LocationPresets />
+        <v-divider class="ml-4" />
+      </div>
+      <div class="d-flex flex-wrap justify-center align-center py-2">
+        <div
+          v-for="region in regions"
+          :key="region.regionId"
+          class="px-2 py-1"
+        >
+          <LocationListSelector
+            :name="region.regionName"
+            :color="region.regionColor"
+            :value="regionValues[region.regionId]"
+            :locations="getRegionLocations(region.regionId)"
+            @input="value => change(region.regionId, value)"
+          />
+        </div>
+      </div>
+    </v-container>
+    <LocationListMap />
+  </div>
 </template>
 
 <script>

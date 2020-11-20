@@ -5,7 +5,7 @@
     <ChartsContainer
       :charts="[chart]"
       :height="height"
-
+      :maxViewHeight="maxViewHeight"
       :minWidth="400"
     >
       <svg
@@ -37,14 +37,13 @@ export default {
   props: {
     id: String,
     height: Number,
+    maxViewHeight: Number,
     compareData: Array,
     config: Object
   },
   data () {
     return {
       chart: null,
-
-      padding: { left: 200 },
 
       yAxis: null,
       xAxis: null,
@@ -83,10 +82,10 @@ export default {
   methods: {
     createAxes () {
       this.yAxis = byAxisY()
-        .ticks(100)
+        .ticks(1000) // all
         .tickSizeInner(0)
         .tickSizeOuter(0)
-        .tickFormat(t => t)
+        .tickFormat(t => t.length > 30 ? `${t.slice(0, 27)}...` : t)
         .fnBefore(s => s.classed('axis', true))
       this.xAxis = byAxisX()
         .position('top')
@@ -111,7 +110,7 @@ export default {
     createChart () {
       this.chart = byChart()
         .selector(`#${this.id}`)
-        .padding(this.padding)
+        .padding(this.config.padding || {})
         .fnKey(d => d.locationId)
         .fnBandValue(d => d.locationName)
         .bandPaddingInner(0.1)

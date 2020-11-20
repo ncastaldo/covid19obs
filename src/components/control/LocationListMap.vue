@@ -3,7 +3,7 @@
     id="location-set-selector-map"
     :styleMapping="styleMapping"
     :onClick="onClick"
-    :height="400"
+    :height="450"
   />
 </template>
 

@@ -66,18 +66,18 @@ export default {
       }
     },
     isWorld () {
-      return this.locationList.length === 1 && !this.locationList[0].geometry
+      return this.locationList.length === 1 && this.locationList[0].locationId.length > 3
     },
     circles () {
       if (this.isWorld) { return [{ cx: 0, cy: 0, r: 0 }] }
       const r = 10
-      /* return this.locationList
+      return this.locationList
         .map(l => [
           ...this.fnProjection(geoCentroid(this.getLocationGeometry(l.locationId))),
           l.regionColor
         ])
-        .map(([cx, cy, color]) => ({ cx, cy, r, color })) */
-      return []
+        .map(([cx, cy, color]) => ({ cx, cy, r, color }))
+      // return []
     }
   },
   created () {

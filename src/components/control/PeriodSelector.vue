@@ -97,10 +97,10 @@ export default {
       }
     },
     dateTweetsIdRange () {
-      return [
+      return this.dateTweets.length ? [
         this.dateTweets[0],
         this.dateTweets[this.dateTweets.length - 1]
-      ].map(d => d.dateId)
+      ].map(d => d.dateId) : this.dateIdRange
     },
     bandDomain () {
       return [

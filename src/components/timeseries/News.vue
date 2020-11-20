@@ -9,7 +9,7 @@
       :getComponents="getTimeseriesComponents"
     />
     <Article>
-      <div class="py-2">
+      <div>
         <div class="text-justify">
           What is the volume of online messages  about COVID-19 pointing to reliable or unreliable sources of information? A reliable source of information is, for instance, www.congress.gov, a project of the Library of Congress that provides an online database of United States Congress legislative information, according to a <a href="https://mediabiasfactcheck.com/congress-gov/">popular fact-checking Web site</a>. Conversely, a potentially unreliable source of information is, for instance, www.zerohedge.com, <a href="https://mediabiasfactcheck.com/zero-hedge/">known for sharing false or inaccurate news.</a>
           <br>
@@ -28,21 +28,21 @@
           <br>
           <ul>
             <li>
-              Reliable
+              <b style="color: #1b7837">Reliable</b>
               <ul>
-                <li>MSM: Recognized and politically unbiased mainstream media</li>
-                <li>Science: Recognized scientific sources</li>
+                <li><i>MSM</i>: Recognized and politically unbiased mainstream media</li>
+                <li><i>Science</i>: Recognized scientific sources</li>
               </ul>
             </li>
 
             <li>
-              Unreliable
+              <b style="color: #762a83">Potentially Unreliable</b>
               <ul>
-                <li>Satire: Known to use humour and irony to expose and criticize news</li>
-                <li>Clickbait: Known source of false advertisement designed to attract attention</li>
-                <li>Political: Known politically biased media</li>
-                <li>Fake: Known to spread fake news and hoaxes</li>
-                <li>Conspiracy: Known to spread false narratives and conspiracy theories</li>
+                <li><i>Satire</i>: Known to use humour and irony to expose and criticize news</li>
+                <li><i>Clickbait</i>: Known source of false advertisement designed to attract attention</li>
+                <li><i>Political</i>: Known politically biased media</li>
+                <li><i>Fake</i>: Known to spread fake news and hoaxes</li>
+                <li><i>Conspiracy</i>: Known to spread false narratives and conspiracy theories</li>
               </ul>
             </li>
           </ul>
@@ -92,7 +92,7 @@ const timeseriesConfig = {
   formatType: '~s',
   fnTooltips: d => [
     { name: 'Reliable', value: +d.info_fact_reliable, color: newsColors.reliable, formatType: '.3s' },
-    { name: 'Unreliable', value: +d.info_fact_unreliable, color: newsColors.unreliable, formatType: '.3s' },
+    { name: 'Potentially Unreliable', value: +d.info_fact_unreliable, color: newsColors.unreliable, formatType: '.3s' },
     { name: 'Difference', value: +d.info_fact_reliable - +d.info_fact_unreliable, color: newsColors.difference, formatType: '.3s' }
   ]
 }

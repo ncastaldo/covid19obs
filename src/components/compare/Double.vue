@@ -7,7 +7,7 @@
     <CompareDoubleChart
       :id="config.id"
       ref="chart"
-      :height="400"
+      :height="height"
       :compareData="doubleCompareData"
       :config="config"
     /><Article>
@@ -51,6 +51,9 @@ export default {
       secondCompareData: 'compare/second/getCompareData',
       secondCompareVariableInfo: 'compare/second/getCompareVariableInfo'
     }),
+    height () {
+      return this.doubleCompareData.length > 50 ? 500 : 400
+    },
     doubleCompareData () {
       if (this.firstCompareData.lentgh !== this.secondCompareData.lentgh) return []
 
@@ -64,7 +67,7 @@ export default {
         }))
         .filter(this.fnDefined)
 
-      console.log(doubleCompareData)
+      // console.log(doubleCompareData)
 
       const n = doubleCompareData.length
 

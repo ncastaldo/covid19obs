@@ -5,13 +5,7 @@
         mdi-map
       </v-icon>
     </div>
-    <div class="mr-3">
-      <h2 class="thin-font">
-        Area
-      </h2>
-    </div>
 
-    <v-spacer />
     <v-select
       v-model="region"
       class="mx-2"
@@ -68,6 +62,7 @@
         @error="onError"
       >
     </div>
+    <v-spacer />
   </div>
 </template>
 

@@ -1,5 +1,11 @@
 <template>
-  <v-card
+  <div>
+    <v-container class="py-0">
+      <LocationSelector />
+    </v-container>
+    <LocationMap v-if="showCharts" />
+  </div>
+  <!--v-card
     color="#fff"
     flat
   >
@@ -36,7 +42,7 @@
         </v-col>
       </v-row>
     </v-container>
-  </v-card>
+  </v-card-->
 </template>
 
 <script>

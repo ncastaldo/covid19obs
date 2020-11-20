@@ -7,6 +7,8 @@ import * as interpolators from 'd3-scale-chromatic'
 
 import rawVariableList from '../assets/variables.json'
 
+/* * * VARIABLES * * */
+
 const getFnDefined = varInfo => value =>
   value !== null && !isNaN(value) && value !== undefined &&
   (varInfo.minValue === null || value >= varInfo.minValue) &&
@@ -35,6 +37,8 @@ const variables = variableList
     [v.id]: v
   }), {})
 
+// color scale from variable
+
 const getColorScale = (varInfo, domain) => {
   const colorScale = varInfo.scaleType === 'scaleLog'
     ? scaleSequentialLog()
@@ -47,6 +51,7 @@ const getColorScale = (varInfo, domain) => {
   return colorScale
 }
 
+/* * * DATA PARSER * * */
 const compareTextParser = (text) => csvParse(text, ({ variable, iso, ...dateValues }) => ({
   variable,
   iso,
@@ -55,11 +60,23 @@ const compareTextParser = (text) => csvParse(text, ({ variable, iso, ...dateValu
     .reduce((acc, [date, value]) => ({ ...acc, [date]: value }), {})
 }))
 
-const lastUpdatesTextParser = (text) => csvParse(text, ({ variable, iso, ...dateValue }) => ({
+const lastUpdatesTextParser = (text) => csvParse(text, ({ variable, iso, ...rest }) => ({
   variable,
   iso,
-  value: Object.values(dateValue)[0]
+  dateString: Object.keys(rest)[0],
+  value: Object.values(rest)[0]
 }))
+
+/* * * DOWNLOAD * * */
+function fnDownload (filename, text) {
+  var element = document.createElement('a')
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text))
+  element.setAttribute('download', filename)
+  element.style.display = 'none'
+  document.body.appendChild(element)
+  element.click()
+  document.body.removeChild(element)
+}
 
 export {
   variableList,
@@ -68,5 +85,7 @@ export {
   getColorScale,
 
   compareTextParser,
-  lastUpdatesTextParser
+  lastUpdatesTextParser,
+
+  fnDownload
 }

@@ -51,8 +51,8 @@ export default {
   },
   computed: {
     fullSelection () {
-      return this.bandDomain[0] <= this.dateData[0].dateId &&
-        this.bandDomain[1] >= this.dateData[this.dateData.length - 1].dateId
+      return !this.dateData.length || (this.bandDomain[0] <= this.dateData[0].dateId &&
+        this.bandDomain[1] >= this.dateData[this.dateData.length - 1].dateId)
     }
   },
   watch: {

@@ -34,7 +34,7 @@
       :getComponents="getRtComponents"
     />
     <Article>
-      <div class="py-2">
+      <div>
         <div class="text-justify py-1">
           Researchers have found a correlation between the evolution of the COVID-19 epidemic and the evolution of the corresponding infodemic in a region. Here, we report official daily and cumulative number of cases and deaths due to COVID-19.
           <br>

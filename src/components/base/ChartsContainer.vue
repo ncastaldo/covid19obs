@@ -39,13 +39,16 @@ export default {
         ? this.height || this.chartWidth * this.ratio
         : null
     },
+    styleHeight () {
+      return this.maxViewHeight && this.chartHeight > this.maxViewHeight
+        ? this.maxViewHeight
+        : this.chartHeight
+    },
     style () {
       return {
-        height: `${this.chartHeight}px`,
+        height: `${this.styleHeight}px`,
         'overflow-x': this.minWidth ? 'scroll' : 'hidden',
-        'overflow-y': 'hidden'
-        // 'overflow-y': this.maxViewHeight ? 'scroll' : 'hidden',
-        // ...(this.maxViewHeight ? { height: `${this.maxViewHeight}px` } : {})
+        'overflow-y': (this.chartHeight > this.styleHeight) ? 'scroll' : 'hidden'
       }
     }
   },
@@ -56,10 +59,16 @@ export default {
         height: this.chartHeight
       }
       this.charts.forEach(c => c.size(size))
-      if (oldVal) {
-        this.$emit('size', size)
-        this.charts.forEach(c => c.draw({ duration: 0 }))
+      if (oldVal) { this.emitSizeDraw(size) }
+    },
+    chartHeight (newVal, oldVal) {
+      const size = {
+        width: this.chartWidth,
+        height: newVal
       }
+      this.charts.forEach(c => c.size(size))
+      // not calling 'draw', assuming this is due to a data change
+      // if (oldVal) { this.emitSizeDraw(size) }
     }
   },
   mounted () {
@@ -68,6 +77,10 @@ export default {
     // })
   },
   methods: {
+    emitSizeDraw (size) {
+      this.$emit('size', size)
+      this.charts.forEach(c => c.draw({ duration: 0 }))
+    },
     onResize () {
       const w = this.$el.offsetWidth
       this.chartWidth = Math.max(

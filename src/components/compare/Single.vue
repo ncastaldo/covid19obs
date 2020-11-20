@@ -6,10 +6,21 @@
 
     <CompareSingleChart
       :id="config.id"
-      :height="400"
+      :height="height"
+      :maxViewHeight="400"
       :compareData="orderedCompareData"
       :config="config"
     />
+    <div class="py-4 text-center">
+      <v-btn
+        @click="downloadCsv"
+      >
+        Download this Data
+        <v-icon class="ml-2">
+          mdi-download
+        </v-icon>
+      </v-btn>
+    </div>
     <Article>
       <div class="py-2">
         <div class="text-justify py-1">
@@ -30,8 +41,11 @@
 import { mapGetters } from 'vuex'
 import { byBars } from 'd3nic'
 
-import CompareSelector from '../control/CompareSelector'
+import { pick } from 'lodash'
+import { csvFormat } from 'd3-dsv'
+import { fnDownload } from '../../plugins/util'
 
+import CompareSelector from '../control/CompareSelector'
 import CompareSingleChart from '../graphics/CompareSingleChart'
 
 import {
@@ -49,18 +63,22 @@ export default {
       regions: 'location/getRegions',
       compareData: 'compare/first/getCompareData',
       compareVariableInfo: 'compare/first/getCompareVariableInfo',
+      month: 'month/getMonth',
       regionMapping: 'location/regionMapping'
     }),
     orderedCompareData () {
-      console.log('computing ord. compare', new Date().toTimeString)
       return this.compareData.slice()
         .filter(d => this.compareVariableInfo.fnDefined(d.value))
         .sort((a, b) => a.value === null ? 1 : b.value === null ? -1
           : b.value - a.value)
     },
+    height () {
+      return Math.max(this.orderedCompareData.length * 15, 300)
+    },
     config () {
       return {
         id: 'compare-single',
+        padding: { left: 200, bottom: 5 },
         scaleType: this.compareVariableInfo.scaleType,
         baseDomain: this.compareVariableInfo.baseDomain,
         fixedDomain: this.compareVariableInfo.fixedDomain,
@@ -81,6 +99,18 @@ export default {
           color: this.compareVariableInfo.color
         }]
       }
+    }
+  },
+  methods: {
+    downloadCsv () {
+      const data = this.orderedCompareData
+        .map(d => ({
+          month: this.month.monthISO,
+          ...pick(d, ['variable', 'locationId', 'locationName', 'regionId', 'value'])
+        }))
+      const text = csvFormat(data)
+      const filename = `${this.compareVariableInfo.id}_${this.month.monthISO}.csv`
+      fnDownload(filename, text)
     }
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <Map
     id="location-selector-map"
-    :height="400"
+    :height="450"
     :styleMapping="styleMapping"
     :mapCenter="mapCenter"
     :mapZoom="mapZoom"
@@ -27,7 +27,7 @@
         flat
         style="background-color: rgba(255,255,255, 0.6)"
       >
-        Data: <b>17/11/2020</b>
+        Data: <b>{{ layerDateString }}</b>
       </v-card>
     </template>
   </Map>
@@ -57,7 +57,8 @@ export default {
       location: 'location/getLocation',
       layerVariableInfo: 'layer/getLayerVariableInfo',
       layerDomain: 'layer/getLayerDomain',
-      layerDict: 'layer/getLayerDict'
+      layerDict: 'layer/getLayerDict',
+      layerDateString: 'layer/getLayerDateString'
     }),
     mapCenter () {
       return this.location.locationId === '_WORLD'

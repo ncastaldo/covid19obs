@@ -49,7 +49,7 @@
       :getComponents="getTypeComponents"
     />
     <Article>
-      <div class="py-2">
+      <div>
         <div class="text-justify py-1">
           Infodemic risk indices estimate the change that a user in a social media platform is pointed to potentially unreliable sources of misinformation or disinformation about COVID-19. There are two type of indices:
           <ul>
@@ -65,7 +65,7 @@
               </font>: values between 0 and 0.25
             </li>
             <li>
-              <font color="99C8D8">
+              <font color="82B8D3">
                 <strong>Low/Medium Risk</strong>
               </font>: values between 0.26 and 0.5
             </li>

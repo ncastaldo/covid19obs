@@ -13,6 +13,16 @@
     </template>
     <v-list>
       <v-list-item
+        @click="setLocationIdList([])"
+      >
+        <v-list-item-content>
+          <v-list-item-title>
+            Reset
+          </v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+      <v-divider />
+      <v-list-item
         v-for="p in presets"
         :key="p.presetId"
         @click="setLocationIdList(p.presetLocationIdList)"
@@ -26,13 +36,6 @@
 <script>
 import { mapMutations } from 'vuex'
 const presets = [
-  {
-    presetId: 'reset',
-    presetName: '- RESET -',
-    presetLocationIdList: [
-
-    ]
-  },
   {
     presetId: 'eu',
     presetName: 'EU members',
