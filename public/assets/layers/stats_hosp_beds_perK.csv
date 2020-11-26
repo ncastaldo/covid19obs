@@ -1,4 +1,4 @@
-variable,iso,2020-11-18
+variable,iso,2020-11-23
 stats_hosp_beds_perK,AFG,0.5000
 stats_hosp_beds_perK,AGO,
 stats_hosp_beds_perK,ALB,2.8900
@@ -157,7 +157,7 @@ stats_hosp_beds_perK,SSD,
 stats_hosp_beds_perK,SUR,3.1000
 stats_hosp_beds_perK,SVK,5.8200
 stats_hosp_beds_perK,SVN,4.5000
-stats_hosp_beds_perK,SWE,2.2200
+stats_hosp_beds_perK,SWE,
 stats_hosp_beds_perK,SWZ,2.1000
 stats_hosp_beds_perK,SYC,3.6000
 stats_hosp_beds_perK,SYR,1.5000

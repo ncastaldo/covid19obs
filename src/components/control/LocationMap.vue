@@ -3,8 +3,7 @@
     id="location-selector-map"
     :height="450"
     :styleMapping="styleMapping"
-    :mapCenter="mapCenter"
-    :mapZoom="mapZoom"
+
     :fnTooltips="fnTooltips"
     :onClick="onClick"
   >
@@ -27,7 +26,7 @@
         flat
         style="background-color: rgba(255,255,255, 0.6)"
       >
-        Data: <b>{{ layerDateString }}</b>
+        Date: <b>{{ layerDateString }}</b>
       </v-card>
     </template>
   </Map>

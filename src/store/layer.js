@@ -1,10 +1,7 @@
 
-import { variableList, variables, getColorScale, lastUpdatesTextParser } from '../plugins/util'
+import { variableList, variables, getColorScale, lastUpdatesTextParser, fnDateFormat } from '../plugins/util'
 
 import { extent } from 'd3-array'
-import { timeFormat } from 'd3-time-format'
-
-const fnTimeFormat = timeFormat('%d/%m/%y')
 
 const layers = variableList
   .filter(v => v.layer)
@@ -39,7 +36,7 @@ const getters = {
   getLayer: ({ layers, layerId }) => layers[layerId],
 
   getLayerDateString: ({ layerFullData }) => layerFullData
-    ? fnTimeFormat(new Date(layerFullData[0].dateString)) : 'Invalid',
+    ? fnDateFormat(new Date(layerFullData[0].dateString)) : 'Invalid',
 
   getLayerVariableInfo: ({ layerVariableInfo }) => layerVariableInfo,
 

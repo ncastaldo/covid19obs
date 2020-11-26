@@ -13,6 +13,9 @@ import Gradient from './components/base/Gradient'
 import Tooltip from './components/base/Tooltip'
 import Legend from './components/base/Legend'
 
+import Flag from './components/base/Flag'
+import IndexCircles from './components/base/IndexCircles'
+
 import NavLinks from './components/NavLinks'
 
 import Background from './components/Background'
@@ -33,6 +36,9 @@ Vue.component('Tooltip', Tooltip)
 Vue.component('Legend', Legend)
 
 Vue.component('NavLinks', NavLinks)
+
+Vue.component('Flag', Flag)
+Vue.component('IndexCircles', IndexCircles)
 
 Vue.component('Background', Background)
 

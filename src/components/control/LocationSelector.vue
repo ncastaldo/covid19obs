@@ -46,21 +46,19 @@
         <template
           v-slot:item="data"
         >
-          <img
+          <Flag
             width="30"
-            :src="`https://flagcdn.com/${data.item.flagId.toLowerCase()}.svg`"
             class="pr-2"
-            @error="onError"
-          >
+            :flagId="data.item.flagId"
+          />
           {{ data.item.locationName }}
         </template>
       </v-select>
-      <img
+      <Flag
         width="50"
         class="mx-2"
-        :src="`https://flagcdn.com/${location.flagId.toLowerCase()}.svg`"
-        @error="onError"
-      >
+        :flagId="location.flagId"
+      />
     </div>
     <v-spacer />
   </div>
@@ -68,9 +66,6 @@
 
 <script>
 import { mapGetters } from 'vuex'
-
-const fnFlagUrl = id => `https://flagcdn.com/32x24/${id.toLowerCase()}.png`
-// const fnFlagUrl = id => `https://www.countryflags.io/${id}/flat/64.png`
 
 export default {
   computed: {
@@ -88,16 +83,6 @@ export default {
     region: {
       get () { return this.$store.getters['location/getRegion'] },
       set (regionId) { this.$store.dispatch('location/setRegionId', regionId) }
-    },
-    flagUrl () {
-      return this.location && this.location.flagId && this.location.flagId !== '-99'
-        ? fnFlagUrl(this.location.flagId)
-        : null
-    }
-  },
-  methods: {
-    onError (e) {
-      e.target.src = 'assets/static_img/flag.svg'
     }
   }
 }

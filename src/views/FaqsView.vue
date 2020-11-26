@@ -69,7 +69,23 @@
 
           The level of coverage – i.e. the amount of messages that we collect at a given time in a given region – varies from country to country.
           To facilitate the interpretation of what level of trust can be put into our measures for a specific country, we indicate with a dedicated icon/box the level of coverage of our database for that country.
-          We excluded from our dashboard all countries with LOW COVERAGE, where, on average, we collect less than 100 messages per day. We then assign a GOOD COVERAGE quality to countries with more than 100 messages/day and less than 1000 messages/day. We assign a HIGH COVERAGE icon if the country has more than 1000 messages/day.
+          We excluded from our dashboard all countries with LOW COVERAGE
+          <IndexCircles
+            total="3"
+            size="medium"
+            active="1"
+            color="rgb(31, 121, 179)"
+          />, where, on average, we collect less than 100 messages per day. We then assign a GOOD COVERAGE <IndexCircles
+            total="3"
+            size="medium"
+            active="2"
+            color="rgb(31, 121, 179)"
+          /> quality to countries with more than 100 messages/day and less than 1000 messages/day. We assign a HIGH COVERAGE <IndexCircles
+            total="3"
+            size="medium"
+            active="3"
+            color="rgb(31, 121, 179)"
+          /> icon if the country has more than 1000 messages/day.
         </div>
         <div class="py-2">
           <b>How do you know if a tweet is sharing reliable information?</b>

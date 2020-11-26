@@ -1,10 +1,8 @@
 <template>
   <v-container class="pt-4">
-    <LocationSummary
-      v-if="false"
-    />
+    <LocationSummary />
 
-    <PeriodSelector />
+    <PeriodSelector class="mt-4" />
 
     <v-tabs
       v-model="index"

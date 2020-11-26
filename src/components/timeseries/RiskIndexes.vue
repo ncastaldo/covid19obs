@@ -100,19 +100,15 @@ import LegendChart from './../graphics/LegendChart'
 
 import { mapGetters } from 'vuex'
 
-import { variables } from '../../plugins/util'
+import { variables, getColorScale } from '../../plugins/util'
 
-import { scaleSequential } from 'd3-scale'
 import { bxLine, bxBars, bxArea, bxCircles, bxLines } from 'd3nic'
-import { interpolateRgbBasis } from 'd3-interpolate'
 
 import { fillOpacityMouseout, fillOpacityMouseover, opacityMouseover, opacityMouseout } from '../../plugins/graphics'
 
 const variableInfo = variables.info_iri
 
-const fnColor = scaleSequential()
-// ["#0571b0", "#92c5de", "#f7f7f7", "#f4a582", "#ca0020"],
-  .interpolator(interpolateRgbBasis(['#2c7bb6', '#abd9e9', '#ffffbf', '#fdae61', '#d7191c']))
+const fnColor = getColorScale(variables.info_iri, [0, 1])
 
 /* const typeColors = {
   T: '#045a8d',

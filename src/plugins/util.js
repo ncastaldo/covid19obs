@@ -3,6 +3,8 @@ import { format } from 'd3-format'
 import { interpolateRgbBasis } from 'd3-interpolate'
 import { scaleSequentialLog, scaleSequential } from 'd3-scale'
 
+import { timeFormat } from 'd3-time-format'
+
 import * as interpolators from 'd3-scale-chromatic'
 
 import rawVariableList from '../assets/variables.json'
@@ -78,6 +80,10 @@ function fnDownload (filename, text) {
   document.body.removeChild(element)
 }
 
+/* GENERAL */
+
+const fnDateFormat = timeFormat('%d/%m/%y')
+
 export {
   variableList,
   variables,
@@ -87,5 +93,7 @@ export {
   compareTextParser,
   lastUpdatesTextParser,
 
-  fnDownload
+  fnDownload,
+
+  fnDateFormat
 }
