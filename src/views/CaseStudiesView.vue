@@ -6,55 +6,87 @@
         <v-btn
           v-for="l in locations"
           :key="l.locationId"
-          height="80"
+          :outlined="l.locationId === currentLocation.locationId"
+          height="50"
           width="210"
-          class="mx-3"
-          @click="currentLocationId = l.locationId"
+          class="mx-3 my-2 col-lg-3 col-md-4 col-sm-6 col-12"
+
+          @click="currentLocation = l"
         >
-          <img
-            width="50"
-            :src="`https://flagcdn.com/${l.flagId.toLowerCase()}.svg`"
-            class="pr-2"
-          >
-          <h3 class="mx-3">
+          <Flag
+            :flagId="l.flagId"
+            outlined
+            width="40"
+          />
+          <h3 class="mx-3 center-text">
             {{ l.locationName }}
           </h3>
         </v-btn>
       </v-row>
     </v-container>
     <Article>
-      <component :is="currentLocationId" />
+      <component :is="currentLocation.component" />
     </Article>
   </div>
 </template>
 
 <script>
 
+import IDNcaseStudy from '../components/case_studies/IDNcaseStudy'
+import BRAcaseStudy from '../components/case_studies/BRAcaseStudy'
+import ESPcaseStudy from '../components/case_studies/ESPcaseStudy'
+import FRAcaseStudy from '../components/case_studies/FRAcaseStudy'
+import SGPcaseStudy from '../components/case_studies/SGPcaseStudy'
+import VENcaseStudy from '../components/case_studies/VENcaseStudy'
+
 const locations = [
   {
     locationId: 'IDN',
     locationName: 'Indonesia',
-    flagId: 'ID'
+    flagId: 'ID',
+    component: IDNcaseStudy
   },
   {
     locationId: 'BRA',
     locationName: 'Brazil',
-    flagId: 'BR'
-  }]
+    flagId: 'BR',
+    component: BRAcaseStudy
+  },
+  {
+    locationId: 'ESP',
+    locationName: 'Spain',
+    flagId: 'ES',
+    component: ESPcaseStudy
+  },
+  {
+    locationId: 'FRA',
+    locationName: 'France',
+    flagId: 'FR',
+    component: FRAcaseStudy
+  },
+  {
+    locationId: 'SGP',
+    locationName: 'Singapore',
+    flagId: 'SG',
+    component: SGPcaseStudy
+  },
+  {
+    locationId: 'VEN',
+    locationName: 'Venezuela',
+    flagId: 'VE',
+    component: VENcaseStudy
+  }
+]
 
 export default {
-  components: {
-    IDN: () => import(/* webpackChunkName: "IDNcaseStudy" */'../components/case_studies/IDNcaseStudy'),
-    BRA: () => import(/* webpackChunkName: "BRAcaseStudy" */'../components/case_studies/BRAcaseStudy')
-  },
   data () {
     return {
       locations,
-      currentLocationId: null
+      currentLocation: null
     }
   },
   created () {
-    this.currentLocationId = locations[0].locationId
+    this.currentLocation = locations[0]
   }
 }
 </script>
