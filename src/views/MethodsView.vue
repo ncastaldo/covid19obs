@@ -6,7 +6,7 @@
         <h1>Methods</h1>
         <h2 class="thin-font" />
       </div>
-      <div class="text-justify">
+      <div class="text-left">
         <div class="mb-4">
           <h3 class="pb-1">
             Data Collection

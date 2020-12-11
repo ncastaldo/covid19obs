@@ -25,13 +25,7 @@
             {{ data.item.periodName }}
           </h3>
         </template>
-      </v-select> <v-spacer />
-      <div>
-        Brush on the blue bars!
-        <v-icon class="ml-2">
-          mdi-cursor-default-click-outline
-        </v-icon>
-      </div>
+      </v-select>
       <v-spacer />
       <div class="d-flex align-center thin-font mx-3">
         <h3
@@ -55,6 +49,15 @@
       @endBandDomain="onEndBandDomain"
       @brushBandDomain="onBrushBandDomain"
     />
+    <div class="mx-3 my-1">
+      <i>Brush</i> on the blue bars to <b>select the date range</b>!
+      <v-icon
+        class="ml-1 mb-1"
+        color="rgb(31, 121, 179)"
+      >
+        mdi-arrow-up-thick
+      </v-icon>
+    </div>
   </v-card>
 </template>
 

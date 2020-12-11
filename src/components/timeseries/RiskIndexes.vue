@@ -127,6 +127,7 @@ const baseConfigs = [
     id: 'iri',
     formatType: '.2f',
     baseDomain: [0, 1], // [0.4, 0.6],
+    yLabel: 'IRI',
     fnTooltips: d => [
       { name: 'IRI', value: d.info_iri, color: fnColor(d.info_iri), formatType: '.3f' }
     ]
@@ -135,6 +136,7 @@ const baseConfigs = [
     id: 'dyn_iri',
     formatType: '.2f',
     baseDomain: [0, 1], // [0.4, 0.6],
+    yLabel: 'Dynamic IRI',
     fnTooltips: d => [
       { name: 'DynIRI', value: d.info_dyn_iri, color: fnColor(d.info_dyn_iri), formatType: '.2f' }
     ]

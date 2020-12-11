@@ -31,6 +31,11 @@ import { mapGetters } from 'vuex'
 import LocationSummary from '../components/LocationSummary'
 import PeriodSelector from '../components/control/PeriodSelector'
 
+import Epidemics from './timeseries/Epidemics'
+import Tweets from './timeseries/Tweets'
+import RiskIndexes from './timeseries/RiskIndexes'
+import News from './timeseries/News'
+
 const tabs = [
   { name: 'Infodemic Risk Indices', is: 'RiskIndexes' },
   { name: 'News Reliability Indices', is: 'News' },
@@ -42,10 +47,10 @@ export default {
   components: {
     LocationSummary,
     PeriodSelector,
-    Epidemics: () => import(/* webpackChunkName: "Epidemics" */'./timeseries/Epidemics'),
-    Tweets: () => import(/* webpackChunkName: "Tweets" */'./timeseries/Tweets'),
-    RiskIndexes: () => import(/* webpackChunkName: "RiskIndexes" */'./timeseries/RiskIndexes'),
-    News: () => import(/* webpackChunkName: "News" */'./timeseries/News')
+    Epidemics,
+    Tweets,
+    RiskIndexes,
+    News
   },
   data () {
     return {

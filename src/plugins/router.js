@@ -4,6 +4,12 @@ const routes = [
     link: '/',
     icon: 'mdi-home'
   },
+
+  {
+    title: 'FAQs',
+    link: '/faqs',
+    icon: 'mdi-question' // ?
+  },
   {
     title: 'Compare Countries',
     link: '/compare',
@@ -33,11 +39,6 @@ const routes = [
     title: 'API',
     link: '/api',
     icon: 'mdi-magnify'
-  },
-  {
-    title: 'FAQs',
-    link: '/faqs',
-    icon: 'mdi-question' // ?
   }
 ]
 

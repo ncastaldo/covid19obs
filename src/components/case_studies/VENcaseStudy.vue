@@ -34,7 +34,7 @@
       The Infodemic in Venezuela, together with Peru, represent the worst countries both in Lationamerica and worldwide, according to our data. The country has a high infodemic risk in the period of observation, but the risk seems to be dropping to medium/high in the last two months. The current medium/high value of IRI is still largely driven by influential verified accounts, which appear to be fully endorsed by the twitter user base, as is suggested by the high value of dynIRI.
       <br>
       <br>
-      <PolicyText>
+      <PolicyText initial="true">
         The combination of high information flows and high risks makes of Venezuela a country whose current infodemic profile is especially critical. Of particular concern is the fact that misinformation is driven by verified accounts. Infodemic risk has to be monitored constantly because the situation might quickly escalate in a turbulent period such as in the middle of a pandemic crisis.
       </PolicyText>
     </div>

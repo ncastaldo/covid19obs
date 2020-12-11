@@ -126,7 +126,8 @@ export default {
         fnDefined: this.fnDefined,
         scaleTypes: compareVariableInfos.map(v => v.scaleType),
         formatTypes: compareVariableInfos.map(v => v.formatType),
-        axisLabels: compareVariableInfos.map(v => v.name),
+        xLabel: compareVariableInfos[0].name,
+        yLabel: compareVariableInfos[1].name,
         fnComponents: () => [
           /* xyLine()
             .fnDefined(d => d.regression)

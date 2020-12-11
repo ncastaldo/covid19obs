@@ -33,6 +33,7 @@ import { timeFormat } from 'd3-time-format'
 import {
   bxChart,
   bxAxisX, bxAxisY,
+  labelAxisY,
   bxMouseBars
 } from 'd3nic'
 
@@ -60,6 +61,8 @@ export default {
       xAxis: null,
       yAxis: null,
 
+      yLabel: null,
+
       mouseBars: null,
 
       components: [],
@@ -75,6 +78,9 @@ export default {
       // this.update()
 
       this.drawChart()
+    },
+    config () {
+      this.update()
     }
   },
   mounted () {
@@ -105,6 +111,8 @@ export default {
         .tickSizeOuter(0)
         .ticks(2)
         .fnBefore(s => s.classed('axis', true))
+
+      this.yLabel = labelAxisY().fnFontSize(16).textPadding({ right: 60 })
     },
     createMouseBars () {
       this.mouseBars = bxMouseBars()
@@ -122,7 +130,7 @@ export default {
     createChart () {
       this.chart = bxChart()
         .selector(`#${this.id}`)
-        .padding({ left: 50, top: 10, bottom: 40, right: 30 })
+        .padding({ left: 80, top: 10, bottom: 40, right: 30 })
         .fnKey(d => +d.date)
         .fnBandValue(d => +d.date)
     },
@@ -130,6 +138,7 @@ export default {
       // nothing
 
       this.chart.components([this.xAxis, this.yAxis]
+        .concat([this.yLabel])
         .concat(this.components)
         .concat([this.mouseBars]))
     },
@@ -143,6 +152,7 @@ export default {
         .contBaseDomain(this.config.baseDomain)
         .contFixedDomain(this.config.fixedDomain)
       // .contScaleType(this.chartConfig.scaleType)
+      this.yLabel.fnText(this.config.yLabel || '')
     },
     drawChart () {
       // wait for chartscontainer

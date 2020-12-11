@@ -78,6 +78,7 @@ const colors = {
 const typeConfig = {
   id: 'type-tweets',
   formatType: '~s',
+  yLabel: '# Tweets',
   fnTooltips: d => [
     { name: 'Tweets', value: d.info_tweets_T, color: colors.T, formatType: '.3s' },
     { name: 'Retweets', value: d.info_tweets_RT, color: colors.RT, formatType: '.3s' },
@@ -116,6 +117,7 @@ const localConfig = {
   id: 'local-tweets',
   bandPaddingInner: 1,
   formatType: '.0%',
+  yLabel: 'Language',
   fnTooltips: d => [
     { name: 'Local [%]', value: d.info_tweets_local_fraction, color: colors.local, formatType: '.1%' },
     { name: 'Foreign [%]', value: 1 - d.info_tweets_local_fraction, color: colors.foreign, formatType: '.1%' }
@@ -126,6 +128,7 @@ const verifiedConfig = {
   id: 'verified-tweets',
   bandPaddingInner: 1,
   formatType: '.0%',
+  yLabel: 'Verified',
   fnTooltips: d => [
     { name: 'Verified [%]', value: d.info_tweets_verified_fraction, color: colors.verified, formatType: '.1%' },
     { name: 'Unverified [%]', value: 1 - d.info_tweets_verified_fraction, color: colors.unverified, formatType: '.1%' }

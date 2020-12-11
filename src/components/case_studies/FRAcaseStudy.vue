@@ -34,7 +34,7 @@
       France represents a largely positive example in Western Europe. The country has a low infodemic risk in the period of observation. The value of dynIRI however highly exceeds the IRI, suggesting that misinformation is highly propagated by non-influencers, that are unverified users with a small following.
       <br>
       <br>
-      <PolicyText>
+      <PolicyText initial="true">
         The combination of high information flows and low risks makes France an exemplary country whose current infodemic profile is not apparently critical. However, the fact that there is a high level of propagation of unreliable information from unverified users flags a potential criticality that could manifest itself during moments of crisis, and could cause a sudden increase of infodemic risk.
       </PolicyText>
     </div>

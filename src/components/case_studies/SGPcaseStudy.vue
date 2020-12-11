@@ -20,7 +20,7 @@
       <ul>
         <li>
           <b>Coverage level: <u>Medium</u></b><br>
-          An average of more than 3,300 tweets per day. Between 22nd Jan and 23th Nov 2020: 986,000 tweets with self-declared location associated with Singapore, 260,000 tweets contain URLs linking to news sources, of which 132,000 were successfully identified as either reliable or unreliable by crossing the URL domain with our database of news domain reliability, 117,000 of which were written in Spanish.
+          An average of more than 3,300 tweets per day. Between 22nd Jan and 23th Nov 2020: 986,000 tweets with self-declared location associated with Singapore, 260,000 tweets contain URLs linking to news sources, of which 132,000 were successfully identified as either reliable or unreliable by crossing the URL domain with our database of news domain reliability, 117,000 of which were written in English.
         </li>
         <br>
         <li>
@@ -34,7 +34,7 @@
       The Infodemic in Singapore is the lowest in South-Eastern Asia and in the World. The country has a low infodemic risk during the period of observation, and moreover such risk declines as the pandemic aggravates. After an initial minor presence of misinformation associated partly with verified accounts, linked to a single verified account, spiInfodemic threats are currently not active in Singapore.
       <br>
       <br>
-      <PolicyText>
+      <PolicyText initial="true">
         The combination of medium-sized information flows and negligible risks makes Singapore one of the currently lowest-risk countries in the world as far as infodemics are concerned, and our indicators do not flag any specific criticality that could emerge in this regard.
       </PolicyText>
     </div>

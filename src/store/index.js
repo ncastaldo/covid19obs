@@ -14,97 +14,76 @@ import makeCompare from './compare'
 
 import view from './view'
 
-import { utcMonth } from 'd3-time'
-
 Vue.use(Vuex)
 
-const MONTHS = utcMonth.range(
-  new Date(Date.UTC(2020, 0, 1)), // first month of year -> Jan
-  new Date(Date.UTC(2020, 11, 1)) // exclusive, CHANGE IT TO LAST MONTH - 1
-)
+const getInitialConfig = (config) => {
+  const initialConfig = {
+    // LOCATIONS
+    locationId: '_WORLD',
+    locationIdList: ['USA', 'CHN', 'ITA', 'ESP', 'DEU', 'FRA', 'IDN'],
 
-const PERIODS = [
-  {
-    periodId: '2020Q1',
-    periodName: '2020 - 1st Quarter',
-    from: new Date(Date.UTC(2020, 0, 1)), // jan
-    to: new Date(Date.UTC(2020, 2, 31)) // mar
-  },
-  {
-    periodId: '2020Q2',
-    periodName: '2020 - 2nd Quarter',
-    from: new Date(Date.UTC(2020, 3, 1)), // apr
-    to: new Date(Date.UTC(2020, 5, 30)) // jun
-  },
-  {
-    periodId: '2020Q3',
-    periodName: '2020 - 3rd Quarter',
-    from: new Date(Date.UTC(2020, 6, 1)), // jul
-    to: new Date(Date.UTC(2020, 8, 30)) // sept
-  },
-  {
-    periodId: '2020Q4',
-    periodName: '2020 - 4th Quarter',
-    from: new Date(Date.UTC(2020, 9, 1)), // oct
-    to: new Date(Date.UTC(2020, 11, 31)) // dec
+    // COMPARE
+    firstCompareId: 'info_iri',
+    secondCompareId: 'epi_cases',
+
+    // LAYER
+    layerId: 'info_iri'
   }
-]
 
-const INITIAL_STATE = {
-  locationId: '_WORLD', // will be added
+  // MONTHS
+  initialConfig.monthList = config.months.map(d => new Date(d))
+  // monthId is a timestamp
+  initialConfig.monthId = +initialConfig.monthList[initialConfig.monthList.length - 1]
 
-  locationIdList: ['USA', 'CHN', 'ITA', 'ESP', 'DEU', 'FRA', 'IDN'],
+  // DATES
+  initialConfig.dates = config.dates.map(d => new Date(d))
 
-  periodId: PERIODS[PERIODS.length - 1].periodId,
-  periodList: PERIODS,
+  // PERIODS
+  initialConfig.periodList = config.periods.map(p => ({
+    periodId: p.periodId,
+    periodName: p.periodName,
+    from: new Date(p.from),
+    to: new Date(p.to)
+  }))
+  initialConfig.periodId = initialConfig.periodList[initialConfig.periodList.length - 1].periodId
 
-  monthId: +MONTHS[MONTHS.length - 1],
-  monthList: MONTHS,
-
-  firstCompareId: 'info_iri',
-  secondCompareId: 'epi_cases',
-
-  layerId: 'info_iri'
-}
-
-const state = {}
-
-const mutations = {
-  setReady: (state, ready) => { state.ready = ready }
+  return initialConfig
 }
 
 const getters = {
-  isReady: ({ ready }, getters) => getters['tweets/getTweetsDict'] !== null
+  isReady: (_, getters) => getters['tweets/getTweetsDict'] !== null
 }
 
-export default new Vuex.Store({
-  strict: true,
-  state,
-  mutations,
-  getters,
-  modules: {
-    location,
-    period,
+export default function (config) {
+  const initialConfig = getInitialConfig(config)
 
-    month,
+  return new Vuex.Store({
+    strict: true,
+    getters,
+    modules: {
+      location,
+      period,
 
-    timeseries,
-    layer,
+      month,
 
-    'compare/first': makeCompare(),
-    'compare/second': makeCompare(),
+      timeseries,
+      layer,
 
-    view
-  },
-  plugins: [
-    store => {
-      store.dispatch('location/init', INITIAL_STATE)
-      store.dispatch('period/init', INITIAL_STATE)
-      store.dispatch('month/init', INITIAL_STATE)
-      store.dispatch('layer/init', INITIAL_STATE.layerId)
-      store.dispatch('timeseries/init')
-      store.dispatch('compare/first/init', INITIAL_STATE.firstCompareId)
-      store.dispatch('compare/second/init', INITIAL_STATE.secondCompareId)
-    }
-  ]
-})
+      'compare/first': makeCompare(),
+      'compare/second': makeCompare(),
+
+      view
+    },
+    plugins: [
+      store => {
+        store.dispatch('location/init', initialConfig)
+        store.dispatch('period/init', initialConfig)
+        store.dispatch('month/init', initialConfig)
+        store.dispatch('layer/init', initialConfig.layerId)
+        store.dispatch('timeseries/init')
+        store.dispatch('compare/first/init', initialConfig.firstCompareId)
+        store.dispatch('compare/second/init', initialConfig.secondCompareId)
+      }
+    ]
+  })
+}

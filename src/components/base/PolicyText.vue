@@ -19,13 +19,20 @@
 
 <script>
 export default {
+  props: {
+    initial: {
+      type: [Boolean, String],
+      default: false
+    }
+  },
   data () {
     return {
       show: null
     }
   },
   created () {
-    this.show = false
+    // eslint-disable-next-line eqeqeq
+    this.show = this.initial == 'true'
   }
 }
 </script>

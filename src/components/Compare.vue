@@ -31,9 +31,8 @@ import MonthSelector from './control/MonthSelector'
 import { mapGetters } from 'vuex'
 
 const tabs = [
-  { name: 'Ranking', is: 'Single' },
-  { name: 'Correlation', is: 'Double' }
-  // 'Tweets', 'Risk Indexes', 'News'
+  { name: 'Correlation', is: 'Double' },
+  { name: 'Ranking', is: 'Single' }
 ]
 
 export default {

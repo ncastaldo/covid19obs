@@ -122,10 +122,11 @@ export default {
         .concat(this.components))
     },
     update () {
+      this.chart.padding(this.config.padding || {}) // updating the padding
       this.xAxis.tickFormatType(this.config.formatTypes[0])
       this.yAxis.tickFormatType(this.config.formatTypes[1])
-      this.xLabel.fnText(this.config.axisLabels[0])
-      this.yLabel.fnText(this.config.axisLabels[1])
+      this.xLabel.fnText(this.config.xLabel)
+      this.yLabel.fnText(this.config.yLabel)
       this.crossLines.map(c => c.fnDefined(this.config.fnDefined))
       this.chart.doubleContScaleType(this.config.scaleTypes)
     },

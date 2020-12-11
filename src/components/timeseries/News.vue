@@ -90,6 +90,7 @@ const newsColors = {
 const timeseriesConfig = {
   id: 'news',
   formatType: '~s',
+  yLabel: 'News Type',
   fnTooltips: d => [
     { name: 'Reliable', value: +d.info_fact_reliable, color: newsColors.reliable, formatType: '.3s' },
     { name: 'Potentially Unreliable', value: +d.info_fact_unreliable, color: newsColors.unreliable, formatType: '.3s' },

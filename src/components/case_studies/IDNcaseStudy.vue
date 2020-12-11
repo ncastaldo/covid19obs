@@ -32,7 +32,7 @@
       <br>
       The Infodemic in Indonesia is in line with most countries in South-Eastern Asia. The country has a low infodemic risk during the period of observation, and moreover that such risk declines as the pandemic aggravates. This does not imply that infodemic threats are not active, but only that the online conversation in English focuses upon relatively reliable and certified sources. Better understanding the nature and characteristics of existing infodemic threats may be useful to timely anticipate possible future infodemic bursts.
       <br>
-      <PolicyText>
+      <PolicyText initial="true">
         The combination of high information flows and low risks makes of Indonesia a country whose current infodemic profile is not critical. However, infodemic risk has to be monitored constantly because the situation might change quickly in a turbulent period such as in the middle of a pandemic crisis.
       </PolicyText>
     </div>

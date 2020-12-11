@@ -62,6 +62,7 @@ const casesConfigs = [
     id: 'epi_cases_new',
     color: '#e34a33',
     formatType: '~s',
+    yLabel: '# Cases',
     scaleType: 'scaleLinear',
     padding: { top: 30 },
     fnTooltips: d => [
@@ -72,6 +73,7 @@ const casesConfigs = [
     id: 'epi_cases',
     color: '#e34a33',
     formatType: '~s',
+    yLabel: '# Cases',
     scaleType: 'scaleLinear',
     padding: { top: 30 },
     fnTooltips: d => [
@@ -84,6 +86,7 @@ const deathsConfigs = [
   {
     id: 'epi_deaths_new',
     formatType: '~s',
+    yLabel: '# Deaths',
     scaleType: 'scaleLinear',
     padding: { top: 30 },
     fnTooltips: d => [
@@ -93,6 +96,7 @@ const deathsConfigs = [
   {
     id: 'epi_deaths',
     formatType: '~s',
+    yLabel: '# Deaths',
     scaleType: 'scaleLinear',
     padding: { top: 30 },
     fnTooltips: d => [

@@ -8,6 +8,21 @@
       <router-view
         v-if="storeReady"
       />
+      <v-btn
+        v-show="false"
+        v-scroll="onScroll"
+        fab
+        dark
+        absolute
+        right
+        bottom
+        color="rgba(31, 121, 179)"
+        @click="toTop"
+      >
+        <v-icon medium>
+          mdi-arrow-up-bold
+        </v-icon>
+      </v-btn>
     </v-main>
     <Footer />
   </v-app>
@@ -28,10 +43,29 @@ export default {
     Header,
     Footer
   },
+  data () {
+    return {
+      fab: false
+    }
+  },
   computed: {
     ...mapGetters({
       storeReady: 'isReady'
     })
+  },
+  methods: {
+    onScroll (e) {
+      if (typeof window === 'undefined') return
+      this.fab = (window.pageYOffset || e.target.scrollTop || 0) > 200
+    },
+    toTop () {
+      if (typeof window === 'undefined') return
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      })
+    }
   }
 }
 </script>
@@ -62,7 +96,7 @@ export default {
 }
 
 .v-tab {
-  box-shadow:0px 0px 0px 100% inset;
+  box-shadow:0px 0px 2px 0px inset;
 }
 
 .v-tab--active {

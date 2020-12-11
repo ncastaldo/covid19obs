@@ -34,7 +34,7 @@
       The Infodemic in Brazil is in line with most countries in Lationamerica. The country has a medium/high infodemic risk in the period of observation, as the risk grows with the aggravation of the pandemic. The current medium/high value of IRI is mostly driven by influential verified accounts, whose misinformation content is however only partly endorsed by the twitter user base, as is suggested by the lower value of dynIRI.
       <br>
       <br>
-      <PolicyText>
+      <PolicyText initial="true">
         The combination of high information flows and increasing risks makes of Brazil a country whose current infodemic profile is critical. Especially critical is the fact that misinformation is driven by verified accounts. Infodemic risk has to be monitored constantly because the situation might change quickly in a turbulent period such as in the middle of a pandemic crisis.
       </PolicyText>
     </div>

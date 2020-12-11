@@ -34,7 +34,7 @@
       Together with Italy, Spain represents the positive example of Southern Europe. The country has a low infodemic risk in the period of observation, created largely by influential verified accounts that are widely endorsed by the twitter user base, as is suggested by the higher value of dynIRI.
       <br>
       <br>
-      <PolicyText>
+      <PolicyText initial="true">
         The combination of high information flows and low risks makes Spain an exemplary country whose current infodemic profile is not critical. The most outstanding criticality is the ample credit given to influential verified accounts that could negatively influence the overall level of infodemic risk despite the fact that it has remained constantly low so far.
       </PolicyText>
     </div>
