@@ -1,5 +1,5 @@
 <template>
-  <Map
+  <MapBox
     id="location-set-selector-map"
     :styleMapping="styleMapping"
     :onClick="onClick"
@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Map from '../graphics/Map'
+import MapBox from '../graphics/MapBox'
 
 import { mapGetters, mapMutations } from 'vuex'
 
@@ -18,7 +18,7 @@ const BASE_STYLE = {
 
 export default {
   components: {
-    Map
+    MapBox
   },
   computed: {
     ...mapGetters({
@@ -29,9 +29,8 @@ export default {
       return this.locations.reduce((acc, { locationId, regionColor }) => ({
         ...acc,
         [locationId]: {
-          fillOpacity: 1,
-          color: '#ddd',
-          weight: 0.5,
+          lineColor: '#ddd',
+          lineWidth: 0.5,
           ...(this.locationList.map(l => l.locationId).includes(locationId)
             ? { fillColor: regionColor } : BASE_STYLE)
         }

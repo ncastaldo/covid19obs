@@ -15,7 +15,7 @@
 export default {
   name: 'Tooltip',
   props: {
-    mapEvent: Object // leaflet map event
+    event: MouseEvent //  event
   },
   data () {
     return {
@@ -34,14 +34,12 @@ export default {
     }
   },
   watch: {
-    mapEvent (mapEvent) {
-      if (mapEvent) {
+    event (e) {
+      if (e) {
         this.show = true
 
-        const event = mapEvent.originalEvent
-
-        const x = event.clientX
-        const y = event.clientY
+        const x = e.clientX
+        const y = e.clientY
 
         const [top, bottom] = // window.innerHeight / 2 - event.clientY > 0 ?
       [y + 'px', null] // : [null, (window.innerHeight - event.clientY) + 'px']

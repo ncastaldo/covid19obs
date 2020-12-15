@@ -1,13 +1,13 @@
 <template>
-  <Map
+  <MapBox
     id="location-selector-map"
     :height="450"
     :styleMapping="styleMapping"
-
+    :bounds="bounds"
     :fnTooltips="fnTooltips"
     :onClick="onClick"
   >
-    <template v-slot:topright>
+    <template v-slot:top-right>
       <v-card class="pa-1">
         <div class="d-flex align-center flex-column">
           <LayerSelector />
@@ -16,11 +16,11 @@
             :width="300"
             :variableInfo="layerVariableInfo"
             :domain="layerDomain"
-          /></div>
+          />
+        </div>
       </v-card>
-
     </template>
-    <template v-slot:bottomright>
+    <template v-slot:bottom-right>
       <v-card
         class="pa-2"
         flat
@@ -29,15 +29,14 @@
         Date: <b>{{ layerDateString }}</b>
       </v-card>
     </template>
-  </Map>
+  </MapBox>
 </template>
 
 <script>
 
-import { latLng } from 'leaflet'
-import { geoDistance } from 'd3-geo'
+import { geoBounds } from 'd3-geo'
 
-import Map from '../graphics/Map'
+import MapBox from '../graphics/MapBox'
 
 import LayerSelector from './LayerSelector'
 import LegendChart from '../graphics/LegendChart'
@@ -46,7 +45,7 @@ import { mapGetters, mapActions } from 'vuex'
 
 export default {
   components: {
-    Map,
+    MapBox,
     LayerSelector,
     LegendChart
   },
@@ -57,21 +56,14 @@ export default {
       layerVariableInfo: 'layer/getLayerVariableInfo',
       layerDomain: 'layer/getLayerDomain',
       layerDict: 'layer/getLayerDict',
-      layerDateString: 'layer/getLayerDateString'
+      layerDateString: 'layer/getLayerDateString',
+
+      getLocationGeometry: 'location/getLocationGeometry'
     }),
-    mapCenter () {
+    bounds () {
       return this.location.locationId === '_WORLD'
-        ? latLng(18, 12.49)
-        : latLng(...(this.location.geoCentroid.slice().reverse())) /* ...geoCentroid(this.location.geometry */
-    },
-    mapZoom () {
-      if (this.location.locationId === '_WORLD') return 1
-      const d = geoDistance(...this.location.geoBounds)// geoBounds(this.location.geometry))
-      const lat = Math.abs(this.location.geoCentroid[1])// geoCentroid(this.location.geometry)[1])
-      // decrease the zoom at higher latitudes
-      const correct = lat > 50 ? 3 : lat > 45 ? 2 : lat > 40 ? 1 : 0
-      const z = Math.ceil(1 / d) - correct
-      return z < 1 ? 1 : z > 5 ? 5 : z
+        ? null
+        : geoBounds(this.getLocationGeometry(this.location.locationId))
     },
     styleMapping () {
       return this.locations.reduce((acc, { locationId }) => ({
@@ -80,11 +72,10 @@ export default {
           fillColor: this.layerDict && locationId in this.layerDict
             ? this.layerDict[locationId].color
             : '#aeaeae',
-          fillOpacity: 1,
           ...(this.location.locationId === '_WORLD' ||
           this.location.locationId !== locationId
-            ? { color: '#444', weight: 0.5, toFront: false }
-            : { color: '#111', weight: 2, toFront: true })
+            ? { lineColor: '#444', lineWidth: 0.5, toFront: false }
+            : { lineColor: '#111', lineWidth: 2, toFront: true })
           // color: '#444',
           // weight: 0.5
         }
@@ -103,17 +94,19 @@ export default {
     },
     fnTooltips () {
       if (!this.layerVariableInfo) return () => []
-      return d => [{
-        name: this.layerVariableInfo.name,
-        value: this.layerDict[d.locationId].value,
-        color: this.styleMapping[d.locationId].fillColor,
-        formatType: this.layerVariableInfo.formatType
-      }]
+      return d => d.locationId in this.layerDict
+        ? [{
+          name: this.layerVariableInfo.name,
+          value: this.layerDict[d.locationId].value,
+          color: this.styleMapping[d.locationId].fillColor,
+          formatType: this.layerVariableInfo.formatType
+        }]
+        : []
     }
   },
   watch: {
     layerDict () {
-      console.log(this.layerDict)
+      // console.log(this.layerDict)
     }
   },
   methods: {
@@ -121,7 +114,7 @@ export default {
       setLocationId: 'location/setLocationId'
     }),
     onClick (locationId) {
-      if (locationId !== this.location.locationId) {
+      if (locationId in this.layerDict && locationId !== this.location.locationId) {
         this.setLocationId(locationId)
       }
     }

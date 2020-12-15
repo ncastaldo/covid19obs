@@ -1,12 +1,8 @@
 // import WORLD from '../assets/map/world.json'
 
-import WHO_WORLD from '../assets/map/topojson-WHO-final.json'
-
-import { feature } from 'topojson-client'
+import { worldMap } from './maps'
 
 import { schemeCategory10 } from 'd3-scale-chromatic'
-
-const world = feature(WHO_WORLD, WHO_WORLD.objects['geojson-WHO-final'])
 
 const regionMapping = {
   _WORLD_REGION: { color: schemeCategory10[7], name: 'World', mainLocationId: '_WORLD', order: 7 },
@@ -19,15 +15,15 @@ const regionMapping = {
   _NOT_WHO_MEMBER: { color: schemeCategory10[5], name: 'Not WHO Member', mainLocationId: 'JEY', order: 6 }
 }
 
-const allLocationList = world.features
+const allLocationList = worldMap.features
   .map(f => ({
-    locationId: f.properties.ISO_A3, // ADM0_A3, // adm0_a3,
-    locationName: f.properties.WHO_NAME, // ADMIN, // admin,
+    locationId: f.properties.ISO_3_CODE, // ADM0_A3, // adm0_a3,
+    locationName: f.properties.CNTRY_TERR, // ADMIN, // admin,
     regionId: f.properties.WHO_REGION, // fnRegionId(f.properties.CONTINENT),
-    flagId: f.properties.ISO_A2, // WB_A2,
-    active: f.properties.ACTIVE === 1,
-    geoBounds: [f.properties.GEO_BOUNDS.slice(0, 2), f.properties.GEO_BOUNDS.slice(2, 4)],
-    geoCentroid: f.properties.GEO_CENTROID,
+    flagId: f.properties.ISO_2_CODE, // WB_A2,
+    active: true, // f.properties.ACTIVE === 1,
+    // geoBounds: [f.properties.GEO_BOUNDS.slice(0, 2), f.properties.GEO_BOUNDS.slice(2, 4)],
+    // geoCentroid: f.properties.GEO_CENTROID,
     geometry: f.geometry
   }))
 
@@ -82,7 +78,8 @@ const regions = locationList
   }), {})
 
 export {
-  allLocations, allGeometries,
+  allLocations,
+  allGeometries,
   locations,
   regions
 }
