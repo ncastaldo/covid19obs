@@ -172,7 +172,7 @@ export default {
     return {
 
       // MAP
-      accessToken: 'pk.eyJ1IjoibmNhc3RhbGRvIiwiYSI6ImNraXAzZDBlejAwMTQydGwzdDFzdnVmYnoifQ.GMltHO_4k9SrYfnPNJegrA', // your access token. Needed if you using Mapbox maps
+      accessToken: '', // 'pk.eyJ1IjoibmNhc3RhbGRvIiwiYSI6ImNraXAzZDBlejAwMTQydGwzdDFzdnVmYnoifQ.GMltHO_4k9SrYfnPNJegrA', // your access token. Needed if you using Mapbox maps
       mapStyle: {
         version: 8,
         layers: [],

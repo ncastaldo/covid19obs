@@ -30,7 +30,7 @@
     "leaflet": "^1.6.0",
     "leaflet-gesture-handling": "^1.1.8",
     "lodash": "^4.17.20",
-    "mapbox-gl": "^2.0.0",
+    "mapbox-gl": "^1.13.0",
     "vue": "^2.6.12",
     "vue-mapbox": "^0.4.1",
     "vue-mobile-detection": "^1.0.0",
