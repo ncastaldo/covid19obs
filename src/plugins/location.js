@@ -6,24 +6,24 @@ import { schemeCategory10 } from 'd3-scale-chromatic'
 
 const regionMapping = {
   _WORLD_REGION: { color: schemeCategory10[7], name: 'World', mainLocationId: '_WORLD', order: 7 },
-  EURO: { color: schemeCategory10[0], name: 'EURO (European)', mainLocationId: 'ITA', order: 3 },
-  AFRO: { color: schemeCategory10[3], name: 'AFRO (African)', mainLocationId: 'NGA', order: 0 },
-  AMRO: { color: schemeCategory10[4], name: 'AMRO (Americas)', mainLocationId: 'USA', order: 1 },
-  WPRO: { color: schemeCategory10[6], name: 'WPRO (Western Pacific)', mainLocationId: 'AUS', order: 5 },
-  EMRO: { color: schemeCategory10[1], name: 'EMRO (Eastern Mediterranean)', mainLocationId: 'IRN', order: 2 },
-  SEARO: { color: schemeCategory10[2], name: 'SEARO (South-East Asia)', mainLocationId: 'THA', order: 4 },
+  EURO: { color: schemeCategory10[0], name: 'European (EURO)', mainLocationId: 'ITA', order: 3 },
+  AFRO: { color: schemeCategory10[3], name: 'African (AFRO)', mainLocationId: 'NGA', order: 0 },
+  AMRO: { color: schemeCategory10[4], name: 'Americas (AMRO)', mainLocationId: 'USA', order: 1 },
+  WPRO: { color: schemeCategory10[6], name: 'Western Pacific (WPRO)', mainLocationId: 'AUS', order: 5 },
+  EMRO: { color: schemeCategory10[1], name: 'Eastern Mediterranean (EMRO)', mainLocationId: 'IRN', order: 2 },
+  SEARO: { color: schemeCategory10[2], name: 'South-East Asia (SEARO)', mainLocationId: 'THA', order: 4 },
   _NOT_WHO_MEMBER: { color: schemeCategory10[5], name: 'Not WHO Member', mainLocationId: 'JEY', order: 6 }
 }
 
 const allLocationList = worldMap.features
   .map(f => ({
-    locationId: f.properties.ISO_3_CODE, // ADM0_A3, // adm0_a3,
-    locationName: f.properties.CNTRY_TERR, // ADMIN, // admin,
-    regionId: f.properties.WHO_REGION, // fnRegionId(f.properties.CONTINENT),
-    flagId: f.properties.ISO_2_CODE, // WB_A2,
+    locationId: f.properties.ISO_3_CODE,
+    locationName: f.properties.CNTRY_TERR,
+    regionId: f.properties.WHO_STATUS === 'Member state'
+      ? f.properties.WHO_REGION
+      : '_NOT_WHO_MEMBER',
+    flagId: f.properties.ISO_2_CODE,
     active: true, // f.properties.ACTIVE === 1,
-    // geoBounds: [f.properties.GEO_BOUNDS.slice(0, 2), f.properties.GEO_BOUNDS.slice(2, 4)],
-    // geoCentroid: f.properties.GEO_CENTROID,
     geometry: f.geometry
   }))
 

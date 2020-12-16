@@ -33,7 +33,7 @@
       :monthData="monthData"
       :monthId="month.monthId"
       :config="config"
-      :height="60"
+      :height="50"
       @click="setMonthId"
     />
   </v-card>

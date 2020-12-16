@@ -1,83 +1,19 @@
 <template>
-  <!--v-card
-    color="#fff"
-    flat
-  >
-    <v-btn
-      v-if="false"
-      absolute
-      fab
-      right
-      medium
-      bottom
-      class="btn-fix mr-4"
-      :color="showMap ? 'primary': 'none'"
-      @click="() => {showMap = !showMap}"
-    >
-      <v-icon
-        dark
-        medium
-      >
-        mdi-poll
-      </v-icon>
-    </v-btn>
-    <v-container>
-      <v-row>
-        <v-col
-          cols="12"
-        >
-          <v-card class="pa-2">
-            <div
-              class="pa-2 d-flex align-center justify-center"
-            >
-              <v-divider class="mr-4" />
-              <div class="display__icon mr-2">
-                <v-icon large>
-                  mdi-map
-                </v-icon>
-              </div>
-              <LocationPresets />
-              <v-divider class="ml-4" />
-            </div>
-            <div class="d-flex flex-wrap justify-center align-center ">
-              <div
-                v-for="region in regions"
-                :key="region.regionId"
-                class="pa-2"
-              >
-                <LocationListSelector
-                  :name="region.regionName"
-                  :color="region.regionColor"
-                  :value="regionValues[region.regionId]"
-                  :locations="getRegionLocations(region.regionId)"
-                  @input="value => change(region.regionId, value)"
-                />
-              </div>
-            </div>
-            <div
-              v-if="showMap"
-              class="mt-2"
-            >
-              <LocationListMap />
-            </div>
-          </v-card>
-        </v-col>
-      </v-row>
-    </v-container>
-  </v-card-->
   <div>
     <v-container class="py-0">
-      <div
-        class="pa-2 d-flex align-center justify-center"
-      >
-        <v-divider class="mr-4" />
-        <div class="display__icon mr-2">
-          <v-icon large>
-            mdi-map
+      <div class="text-center">
+        <v-icon
+          large
+          class="mr-2"
+        >
+          mdi-map
+        </v-icon>
+        <h4 class="d-inline">
+          Select the countries you want to compare
+          <v-icon>
+            mdi-arrow-down-thick
           </v-icon>
-        </div>
-        <LocationPresets />
-        <v-divider class="ml-4" />
+        </h4>
       </div>
       <div class="d-flex flex-wrap justify-center align-center py-2">
         <div
@@ -93,6 +29,20 @@
             @input="value => change(region.regionId, value)"
           />
         </div>
+      </div>
+      <div
+        class="pb-3 pt-0 d-flex align-center justify-center"
+      >
+        <v-divider class="mr-4" />
+        <LocationPresets />
+        <v-btn
+          class="ml-4"
+
+          @click="setLocationIdList([])"
+        >
+          <b style="color: #D62728">Reset!</b>
+        </v-btn>
+        <v-divider class="ml-4" />
       </div>
     </v-container>
     <LocationListMap />

@@ -1,56 +1,70 @@
 <template>
-  <v-menu
-    offset-y
-    :close-on-content-click="false"
-  >
-    <template v-slot:activator="{ on, attrs }">
-      <v-btn
-        v-bind="attrs"
-        tile
-        :color="color"
-        dark
-        v-on="on"
-      >
-        <span
-          class="mr-2"
-        >{{ name }}</span>
-        <span>{{ model.length }}</span>
-      </v-btn>
-    </template>
-    <v-list
-      class="overflow-y-auto"
-      max-height="300"
+  <div>
+    <v-menu
+      offset-y
+      :close-on-content-click="false"
     >
-      <v-list-item
-        @click="onClickSelectAll"
-      >
-        <v-list-item-content>
-          <v-list-item-title>
-            {{ allSelected ? 'Reset' : 'Select All' }}
-          </v-list-item-title>
-        </v-list-item-content>
-      </v-list-item>
-      <v-divider class="" />
-      <v-list-item-group
-        v-model="model"
-        multiple
+      <template v-slot:activator="{ on, attrs }">
+        <v-btn
+          v-bind="attrs"
+          outlined
+          :color="color"
+          v-on="on"
+        >
+          <v-badge
+            :color="color"
+            :content="model.length || '0'"
+            overlap
+            inline
+            tile
+          >
+            <span
+              class="mr-2"
+              style="color: #1E1E1E"
+            >{{ name }}</span>
+          </v-badge>
+        </v-btn>
+      </template>
+      <v-list
+        class="overflow-y-auto"
+        max-height="300"
       >
         <v-list-item
-          v-for="l in locations"
-          :key="l.locationId"
-          :color="color"
+          @click="onClickSelectAll"
         >
-          <v-list-item-title>{{ l.locationName }}</v-list-item-title>
+          <v-list-item-content>
+            <v-list-item-title>
+              {{ allSelected ? 'Reset' : 'Select All' }}
+            </v-list-item-title>
+          </v-list-item-content>
         </v-list-item>
-      </v-list-item-group>
-    </v-list>
-  </v-menu>
+        <v-divider class="" />
+        <v-list-item-group
+          v-model="model"
+          multiple
+          active-class="active-location"
+        >
+          <v-list-item
+            v-for="l in locations"
+            :key="l.locationId"
+            :color="color"
+          >
+            <v-list-item-title>
+              <Flag
+                width="30"
+                class="pr-2"
+                :flagId="l.flagId"
+              />
+              {{ l.locationName }}
+            </v-list-item-title>
+          </v-list-item>
+        </v-list-item-group>
+      </v-list>
+    </v-menu>
+  </div>
 </template>
 
 <script>
-
-const fnFlagUrl = id => `https://flagcdn.com/32x24/${id.toLowerCase()}.png`
-// const fnFlagUrl = id => `https://www.countryflags.io/${id}/flat/64.png`
 
 export default {
   props: {
@@ -74,11 +88,6 @@ export default {
     model: {
       get () { return this.value.map(locationId => this.locationMapping[locationId]) },
       set (indices) { this.$emit('input', indices.map(i => this.locations[i].locationId)) }
-    },
-    flagUrl () {
-      return this.location && this.location.flagId && this.location.flagId !== '-99'
-        ? fnFlagUrl(this.location.flagId)
-        : null
     },
     allSelected () {
       return this.locations.length === this.value.length
@@ -116,8 +125,8 @@ export default {
 
 <style scoped>
 
-.black {
-  color: black
+.active-location {
+  font-weight: 600;
 }
 
 </style>
