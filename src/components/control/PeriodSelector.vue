@@ -42,15 +42,15 @@
     </div>
     <DateBrushChart
       id="date-range-brush"
-      :height="60"
-      :dateData="dateTweets"
+      :height="70"
+      :dateData="dateCoverage"
       :bandDomain="bandDomain"
       :config="config"
       @endBandDomain="onEndBandDomain"
       @brushBandDomain="onBrushBandDomain"
     />
     <div class="mx-3 my-1">
-      <i>Brush</i> on the blue bars to <b>select the date range</b>!
+      <i>Brush</i> on the blue <b>COVERAGE</b> bars to <b>select the date range</b>!
       <v-icon
         class="ml-1 mb-1"
         color="rgb(31, 121, 179)"
@@ -94,8 +94,10 @@ export default {
       return {
         bandMinStep: null,
         bandMaxStep: 10000,
+        fixedDomain: [0, 3],
+        yLabel: 'Cov.',
         color: 'rgb(31, 121, 179)',
-        padding: { bottom: 30, top: 2 },
+        padding: { left: 70, bottom: 30, top: 5 },
         formatType: '~s'
       }
     },
@@ -104,6 +106,12 @@ export default {
         this.dateTweets[0],
         this.dateTweets[this.dateTweets.length - 1]
       ].map(d => d.dateId) : this.dateIdRange
+    },
+    dateCoverage () {
+      return this.dateTweets.map(d => ({
+        ...d,
+        value: d.value < 100 ? 1 : d.value < 1000 ? 2 : 3
+      }))
     },
     bandDomain () {
       return [

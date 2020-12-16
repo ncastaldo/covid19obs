@@ -18,7 +18,8 @@ import {
   bxAxisX,
   bxAxisY,
   bxBars,
-  bxBrush
+  bxBrush,
+  labelAxisY
 } from 'd3nic'
 
 const fnDateFormat = timeFormat('%d/%m/%y')
@@ -46,7 +47,9 @@ export default {
       yAxis: null,
 
       bars: null,
-      brush: null
+      brush: null,
+
+      yLabel: null
     }
   },
   computed: {
@@ -80,6 +83,7 @@ export default {
 
     this.createChart()
 
+    this.compose()
     this.update()
 
     this.chart.data(this.dateData)
@@ -105,11 +109,11 @@ export default {
       this.yAxis = bxAxisY()
         .tickSizeInner(4)
         .tickSizeOuter(0)
-        .ticks(2)
+        .ticks(4)
         .fnBefore(s => s.classed('axis', true))
       this.bars = bxBars()
         .fnLowValue(d => 0)
-        .fnHighValue(d => 1)// d.value)
+        .fnHighValue(d => d.value)// d.value)
         .fnFill(d => '#aeaeae')
         // .fnBefore(s => s.classed('date-selector__bars', true))
       this.brush = bxBrush()
@@ -123,19 +127,27 @@ export default {
           this.$emit('endBandDomain', bd)
           if (!bd) { this.fillBars(this.bandDomain) }
         })
+
+      this.yLabel = labelAxisY().fnFontSize(16).textPadding({ right: 40 })
     },
     createChart () {
       this.chart = bxChart()
         .selector(`#${this.id}`)
-        .padding({ left: 50, top: 10, bottom: 40, right: 30 })
+        .padding({ left: 50, top: 15, bottom: 40, right: 30 })
         .fnKey(d => d.dateId)
         .fnBandValue(d => d.dateId)
     },
+    compose () {
+      this.chart.components([this.xAxis, this.yAxis]
+        .concat([this.bars, this.brush])
+        .concat([this.yLabel]))
+    },
     update () {
       this.yAxis.tickFormatType(this.config.formatType || '~s')
+      this.yLabel.fnText(this.config.yLabel || '')
       this.chart
         .padding(this.config.padding || {}) // updating the padding
-        .components([this.xAxis, /* this.yAxis, */ this.bars, this.brush])
+        .contFixedDomain(this.config.fixedDomain)
     },
     fillBars (bandDomain) {
       // join on bars

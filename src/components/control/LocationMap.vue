@@ -71,7 +71,7 @@ export default {
         [locationId]: {
           fillColor: this.layerDict && locationId in this.layerDict
             ? this.layerDict[locationId].color
-            : '#aeaeae',
+            : '#bbb',
           ...(this.location.locationId === '_WORLD' ||
           this.location.locationId !== locationId
             ? { lineColor: '#444', lineWidth: 0.5, toFront: false }
@@ -114,8 +114,10 @@ export default {
       setLocationId: 'location/setLocationId'
     }),
     onClick (locationId) {
-      if (locationId in this.layerDict && locationId !== this.location.locationId) {
-        this.setLocationId(locationId)
+      if (locationId !== this.location.locationId) {
+        if (locationId === '_WORLD' || locationId in this.layerDict) {
+          this.setLocationId(locationId)
+        }
       }
     }
   }
