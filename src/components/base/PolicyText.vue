@@ -1,7 +1,7 @@
 <template>
   <div
     class="pa-3 my-2 policy"
-    @click="show = !show"
+    @click="/*show = !show*/"
   >
     <v-icon
       color="rgba(31, 121, 179)"
@@ -32,7 +32,7 @@ export default {
   },
   created () {
     // eslint-disable-next-line eqeqeq
-    this.show = this.initial == 'true'
+    this.show = true // this.initial == 'true'
   }
 }
 </script>
@@ -40,16 +40,16 @@ export default {
 <style scoped>
 
 .policy {
-  cursor: pointer;
+  /*cursor: pointer;*/
   background: rgba(31, 121, 179, 0.1);;
 }
 
 .policy-title {
   color: rgba(31, 121, 179);
 }
-
+/*
 .policy:hover .policy-title {
   text-decoration: underline;
-}
+}*/
 
 </style>

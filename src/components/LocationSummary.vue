@@ -13,7 +13,7 @@
       <v-spacer />
       <div class="text-right">
         <h2 class="thin-font">
-          Avg. Coverage:
+          Average Coverage:
         </h2>
         <h5>{{ fnDateFormat(new Date(2020, 0, 22)) }} - {{ lastDateString }}</h5>
       </div>

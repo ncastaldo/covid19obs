@@ -1,6 +1,20 @@
 <template>
   <div>
     <v-container class="py-0">
+      <div class="text-center">
+        <v-icon
+          large
+          class="mr-2"
+        >
+          mdi-map
+        </v-icon>
+        <h4 class="d-inline">
+          SELECT the <i>Region</i> and then the <i>Country</i> or CLICK on a <i>Country</i> in the map
+          <v-icon>
+            mdi-arrow-down-thick
+          </v-icon>
+        </h4>
+      </div>
       <LocationSelector />
     </v-container>
     <LocationMap v-if="showCharts" />

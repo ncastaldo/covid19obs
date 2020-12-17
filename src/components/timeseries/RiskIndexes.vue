@@ -60,17 +60,17 @@
           The indices range from 0 (Lowest Risk) to 1 (Highest Risk), with intermediate cases:
           <ul>
             <li>
-              <font color="#2E7Cb7">
+              <font color="#1F79B3">
                 <strong>Low Risk</strong>
               </font>: values between 0 and 0.25
             </li>
             <li>
-              <font color="82B8D3">
+              <font color="#67A6CC">
                 <strong>Low/Medium Risk</strong>
               </font>: values between 0.26 and 0.5
             </li>
             <li>
-              <font color="#F28b56">
+              <font color="#EC7047">
                 <strong>Medium/High Risk</strong>
               </font>: values between 0.51 and 0.75
             </li>
@@ -82,7 +82,7 @@
           </ul>
           For instance, users living in a region with high IRI and low/medium Dynamic IRI have a <font color="d7191c">
             <strong>chance larger than 75% of reading an online post linking to a Web site with potentially misleading information about COVID-19</strong>
-          </font>, as well as <font color="F28b56">
+          </font>, as well as <font color="EC7047">
             <strong>a chance between 26% and 50% of re-sharing or commenting about that information</strong>
           </font>
           <PolicyText>

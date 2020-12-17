@@ -1,20 +1,23 @@
 <template>
-  <v-container class="mt-2 mb-0">
-    <v-row>
-      <router-link
-        v-for="(route, i) in routes"
-        :key="i"
+  <div class="bg mb-2 pb-1">
+    <v-container class="mt-2 mb-0">
+      <v-row>
+        <router-link
+          v-for="(route, i) in routes"
+          :key="i"
 
-        active-class="active"
-        exact
-        :to="route.link"
-      >
-        <h2 class="route-title mx-4 thin-font">
-          {{ route.title }}
-        </h2>
-      </router-link>
-    </v-row>
-  </v-container>
+          active-class="active"
+          exact
+          :to="route.link"
+        >
+          <h2 class="route-title mx-4 thin-font">
+            {{ route.title }}
+          </h2>
+        </router-link>
+      </v-row>
+    </v-container>
+    <v-divider />
+  </div>
 </template>
 
 <script>

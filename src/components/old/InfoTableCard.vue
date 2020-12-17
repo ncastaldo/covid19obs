@@ -35,7 +35,7 @@ const headers = [
   },
   {
     value: 'tweets_day',
-    text: 'Avg. tweets/day',
+    text: 'Average tweets/day',
     width: 160
   },
   {

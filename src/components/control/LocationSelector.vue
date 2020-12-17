@@ -1,11 +1,5 @@
 <template>
   <div class="d-flex align-center justify-space-between flex-wrap">
-    <div class="display__icon mx-2">
-      <v-icon large>
-        mdi-map
-      </v-icon>
-    </div>
-
     <v-select
       v-model="region"
       class="mx-2"

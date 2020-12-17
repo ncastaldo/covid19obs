@@ -114,7 +114,7 @@
   },
   {
     "id": "epi_cases_perM",
-    "name": "COVID-19 Cases per Mln",
+    "name": "COVID-19 Cases per Million",
     "color": "#e34a33",
     "colorInterpolator": "interpolateReds",
     "colorRange": null,
@@ -130,7 +130,7 @@
   },
 {
     "id": "epi_cases_new_perM",
-    "name": "COVID-19 Daily cases per Mln",
+    "name": "COVID-19 Daily cases per Million",
     "color": "#e34a33",
     "colorInterpolator": "interpolateReds",
     "colorRange": null,
@@ -162,7 +162,7 @@
   },
   {
     "id": "epi_deaths_perM",
-    "name": "COVID-19 Deaths per Mln",
+    "name": "COVID-19 Deaths per Million",
     "color": "#8856a7",
     "colorInterpolator": "interpolatePurples",
     "colorRange": null,
@@ -178,7 +178,7 @@
   },
 {
     "id": "epi_deaths_new_perM",
-    "name": "COVID-19 Daily deaths per Mln",
+    "name": "COVID-19 Daily deaths per Million",
     "color": "#8856a7",
     "colorInterpolator": "interpolatePurples",
     "colorRange": null,
