@@ -2,6 +2,8 @@
   <MapBox
     id="location-set-selector-map"
     :styleMapping="styleMapping"
+    invalidFillColor="#bbb"
+    lineColor="#ddd"
     :onClick="onClick"
     :height="450"
   />

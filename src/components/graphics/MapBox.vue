@@ -35,7 +35,6 @@
         :source="maskpolySource"
         :layerId="maskpolyFillLayer.id"
         :layer="maskpolyFillLayer"
-        @mousemove="fnOnMouseleave"
       />
       <MglGeojsonLayer
         sourceId="maskpoly"
@@ -80,9 +79,6 @@ import { masklineMap, maskpolyMap } from '../../plugins/maps'
 import { mapGetters } from 'vuex'
 
 const BACKGROUND_COLOR = '#ddd'
-const INVALID_COLOR = '#bbb'
-
-const LINE_COLOR = '#444'
 const LINE_WIDTH = 0.5
 
 // BACKGROUND
@@ -98,52 +94,10 @@ const masklineSource = {
   data: masklineMap
 }
 
-const masklineLineLayer = {
-  id: 'maskline-line',
-  type: 'line',
-  paint: {
-    // over
-    'line-color': [
-      'match',
-      ['get', 'NAME'],
-      'Bline_Kosovo', '#fff',
-      LINE_COLOR
-    ],
-    'line-width': LINE_WIDTH,
-    'line-dasharray': [2, 4]
-  }
-}
 // MASKPOLY
 const maskpolySource = {
   type: 'geojson',
   data: maskpolyMap
-}
-const regionColors = [
-  'Jammu and Kashmir', INVALID_COLOR,
-  'Lakes', BACKGROUND_COLOR,
-  'Aksai Chin', INVALID_COLOR,
-  'Abyei', INVALID_COLOR
-]
-const maskpolyFillLayer = {
-  id: 'maskpoly-fill',
-  type: 'fill',
-  paint: {
-    'fill-color': [
-      'match',
-      ['string', ['get', 'NAME']],
-      ...regionColors,
-      INVALID_COLOR
-
-    ]
-  }
-}
-const maskpolyLineLayer = {
-  id: 'maskpoly-line',
-  type: 'line',
-  paint: {
-    'line-color': LINE_COLOR,
-    'line-width': LINE_WIDTH
-  }
 }
 
 export default {
@@ -161,6 +115,17 @@ export default {
     styleMapping: Object,
     height: Number,
     bounds: Array,
+
+    invalidFillColor: {
+      type: String,
+      default: '#bbb'
+    },
+
+    lineColor: {
+      type: String,
+      default: '#444'
+    },
+
     // passing the function in order to reduce overhead
     onClick: {
       type: Function,
@@ -184,19 +149,17 @@ export default {
       // SOURCES AND LAYERS
       backgroundLayer,
       masklineSource,
-      masklineLineLayer,
       maskpolySource,
-      maskpolyFillLayer,
-      maskpolyLineLayer,
 
       hoverFeatureId: null,
-      clickFeatureId: null,
 
       hover: null,
 
       event: null,
 
-      clickLocationId: null
+      clickLocationId: null,
+
+      maskClicked: false
     }
   },
   computed: {
@@ -268,6 +231,55 @@ export default {
         }
       }
     },
+    // MASKLINE
+    masklineLineLayer () {
+      return {
+        id: 'maskline-line',
+        type: 'line',
+        paint: {
+        // over
+          'line-color': [
+            'match',
+            ['get', 'NAME'],
+            'Bline_Kosovo', '#fff',
+            this.lineColor
+          ],
+          'line-width': LINE_WIDTH,
+          'line-dasharray': [2, 4]
+        }
+      }
+    },
+    // MASKPOLY
+    maskpolyFillLayer () {
+      const regionColors = [
+        'Jammu and Kashmir', this.invalidFillColor,
+        'Lakes', BACKGROUND_COLOR,
+        'Aksai Chin', this.invalidFillColor,
+        'Abyei', this.invalidFillColor
+      ]
+      return {
+        id: 'maskpoly-fill',
+        type: 'fill',
+        paint: {
+          'fill-color': [
+            'match',
+            ['string', ['get', 'NAME']],
+            ...regionColors,
+            this.invalidFillColor
+          ]
+        }
+      }
+    },
+    maskpolyLineLayer () {
+      return {
+        id: 'maskpoly-line',
+        type: 'line',
+        paint: {
+          'line-color': this.lineColor,
+          'line-width': LINE_WIDTH
+        }
+      }
+    },
     style () {
       return {
         position: 'relative',
@@ -332,8 +344,13 @@ export default {
       // trick to avoid multiple calls
       if (!this.clickLocationId) {
         this.$nextTick(() => {
-          this.onClick(this.clickLocationId)
-          this.clickLocationId = null
+          // trick to avoid calls on mask
+          if (this.maskClicked) {
+            this.maskClicked = false
+          } else {
+            this.onClick(this.clickLocationId)
+            this.clickLocationId = null
+          }
         })
       }
       this.clickLocationId = e.mapboxEvent.features
