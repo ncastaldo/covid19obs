@@ -4,6 +4,10 @@ import { worldMap } from './maps'
 
 import { schemeCategory10 } from 'd3-scale-chromatic'
 
+import validCountries from '../assets/validCountries.json'
+
+const validCountriesSet = new Set(validCountries)
+
 const regionMapping = {
   _WORLD_REGION: { color: schemeCategory10[7], name: 'World', mainLocationId: '_WORLD', order: 7 },
   EURO: { color: schemeCategory10[0], name: 'European (EURO)', mainLocationId: 'ITA', order: 3 },
@@ -23,7 +27,7 @@ const allLocationList = worldMap.features
       ? f.properties.WHO_REGION
       : '_NOT_WHO_MEMBER',
     flagId: f.properties.ISO_2_CODE,
-    active: true, // f.properties.ACTIVE === 1,
+    active: validCountriesSet.has(f.properties.ISO_3_CODE),
     geometry: f.geometry
   }))
 

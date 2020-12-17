@@ -66,7 +66,8 @@ const lastUpdatesTextParser = (text) => csvParse(text, ({ variable, iso, ...rest
   variable,
   iso,
   dateString: Object.keys(rest)[0],
-  value: Object.values(rest)[0]
+  value: Object.values(rest)[0] || null,
+  rest: rest
 }))
 
 /* * * DOWNLOAD * * */

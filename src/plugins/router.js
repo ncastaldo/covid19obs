@@ -36,7 +36,7 @@ const routes = [
     icon: 'mdi-book-open-page-variant'
   },
   {
-    title: 'API',
+    title: 'Data & API',
     link: '/api',
     icon: 'mdi-magnify'
   }

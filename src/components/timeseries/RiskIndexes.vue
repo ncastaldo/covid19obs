@@ -51,7 +51,7 @@
     <Article>
       <div>
         <div class="text-justify py-1">
-          Infodemic risk indices estimate the change that a user in a social media platform is pointed to potentially unreliable sources of misinformation or disinformation about COVID-19. There are two type of indices:
+          Infodemic risk indices estimate the chance that a user in a social media platform is pointed to potentially unreliable sources of misinformation or disinformation about COVID-19. There are two type of indices:
           <ul>
             <li><strong>Infodemic Risk Index (IRI)</strong>: likelihood that a user <i>receives messages</i> pointing to potentially misleading sources. This index quantifies if and how user are exposed to circulating information.</li>
             <li><strong>Dynamic Infodemic Risk Index (Dynamic IRI)</strong>: likelihood that a user <strong>endorses or engages with online messages</strong> pointing to potentially misleading sources. This index quantifies if and how user interact with circulating information.</li>

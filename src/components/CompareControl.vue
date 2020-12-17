@@ -9,7 +9,7 @@
           mdi-map
         </v-icon>
         <h4 class="d-inline">
-          Select the countries you want to compare
+          SELECT or CLICK in the map the countries you want to compare
           <v-icon>
             mdi-arrow-down-thick
           </v-icon>

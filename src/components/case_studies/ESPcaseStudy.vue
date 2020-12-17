@@ -49,6 +49,7 @@
         </v-icon>
       </v-btn>
     </div>
+    The <i>FULL REPORT</i> includes <b>further analysis</b> and <b>policy implications</b> of time-series and aggregated statistics present in the platform, enriched by detailed information on the <b>country's top users</b> and <b>news</b>.
   </div>
 </template>
 

@@ -46,14 +46,12 @@ const getters = {
     // const monthISO = rootGetters['month/getMonth'].monthISO
 
     return layerFullData
-      .map(({ iso, variable, value }) => ({
+      .map(({ iso, value }) => ({
         iso,
-        value: +value// rest[monthISO] // it should exist
-      }))
-      .map(d => ({
-        ...d,
         // modify value to be defined
-        value: layerVariableInfo.fnDefined(d.value) ? d.value : null
+        value: value !== null && layerVariableInfo.fnDefined(value)
+          ? +value
+          : null
       }))
   },
 

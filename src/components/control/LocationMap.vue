@@ -52,6 +52,7 @@ export default {
   computed: {
     ...mapGetters({
       locations: 'location/getLocations',
+      allLocations: 'location/getAllLocations',
       location: 'location/getLocation',
       layerVariableInfo: 'layer/getLayerVariableInfo',
       layerDomain: 'layer/getLayerDomain',
@@ -66,7 +67,7 @@ export default {
         : geoBounds(this.getLocationGeometry(this.location.locationId))
     },
     styleMapping () {
-      return this.locations.reduce((acc, { locationId }) => ({
+      return this.allLocations.reduce((acc, { locationId }) => ({
         ...acc,
         [locationId]: {
           fillColor: this.layerDict && locationId in this.layerDict
@@ -80,17 +81,6 @@ export default {
           // weight: 0.5
         }
       }), {})
-
-      /* return this.locations.reduce((acc, { locationId }) => ({
-        ...acc,
-        [locationId]: {
-          fillColor: this.location.locationId !== '_WORLD' &&
-          this.location.locationId !== locationId ? '#aeaeae' : 'rgb(31, 121, 179)',
-          fillOpacity: 1,
-          weight: 0.5,
-          color: '#eee'
-        }
-      }), {}) */
     },
     fnTooltips () {
       if (!this.layerVariableInfo) return () => []

@@ -9,15 +9,15 @@
         </h2>
       </div>
       <div class="text-left py-2">
-        <FaqText>
+        <DropDownText>
           <template #question>
             What is the COVID-19 Infodemic Observatory?
           </template>
           <template #answer>
             It is an <b>interactive dashboard</b> where we present estimates of how much a country is potentially exposed to misinformation or disinformation about COVID-19, by estimating the <b>infodemic risk</b> as the online exposure to potentially misinformative messages by social media users on a given day in a specific country, and many other indices.
           </template>
-        </FaqText>
-        <FaqText>
+        </DropDownText>
+        <DropDownText>
           <template #question>
             What are the indices of the COVID-19 Infodemic Observatory?
           </template>
@@ -47,9 +47,9 @@
               </li>
             </ul>
           </template>
-        </FaqText>
+        </DropDownText>
 
-        <FaqText>
+        <DropDownText>
           <template #question>
             Can I trust these indicators? What is the Coverage level?
           </template>
@@ -80,8 +80,28 @@
               color="rgb(31, 121, 179)"
             />] if the country has more than 1000 messages/day.
           </template>
-        </FaqText>
-        <FaqText>
+        </DropDownText>
+        <DropDownText>
+          <template #question>
+            What is online engagement and how do you estimate it?
+          </template>
+          <template #answer>
+            People engage with content and pieces of news they are interested in, find relevant and believe might be also relevant for their peers.
+            <br>
+            In a social media such as Twitter, the first form of engagement is <b>the action of fully reading the tweet</b>.
+            Multiple messages are skimmed through a Twitter session but only a fraction of them are actually fully read and assimilated.
+            For estimating how much people collectively engaged with a misinformative tweet, we would need to know how many views had in total that message.
+            Since this information is not provided by Twitter, we use as a proxy <u>the total number of followers of the user</u> who sent the message.
+            Although this largely over-estimates the total collective engagement, it is appropriate to evaluate the relative engagement of misinformative tweets we need to compute the Infodemic Risk Index.
+            <br>
+            A second, stronger, form of engagement is <b>the interaction with the tweet by liking, retweeting or quoting it</b>.
+            This interactive engagement is what produces the Twitter discourse and propagates information through the social network.
+            The Twitter Stream API does not provide us with information about likes, since we capture each tweet when it is written, and it has zero likes.
+            We can however <u>track the number of retweets and replies</u>, which we use as a proxy for engagement in computing the Dynamic Infodemic Risk Index.
+          </template>
+        </DropDownText>
+
+        <DropDownText>
           <template #question>
             How do you know if a tweet is sharing reliable information?
           </template>
@@ -89,8 +109,8 @@
             A large number of these messages contain links to news or other sources (e.g., Youtube videos) which we identify as reliable or unreliable thanks to a large database of almost 4,000 web domains we prepared by integrating nine independent sources – both of scientific and journalistic origin – that label different web domains in terms of news reliability and fact-checking. These web domains cover a significant fraction of the overall web traffic in 127 countries around the world, the ones we consider in the COVID-19 Infodemic Observatory.
             We homogenized these sources, identifying a source as <u>RELIABLE</u> if it is i) scientific, ii) governamental, or iii) a main-stream online news media with negligible political bias. A source is instead considered as potentially <u>UNRELIABLE</u> if it has a large political bias or it is known to spread satirical content, fake news or hoaxes, false narratives or conspiracy theories.
           </template>
-        </FaqText>
-        <FaqText>
+        </DropDownText>
+        <DropDownText>
           <template #question>
             Can you make an example of news sources of the different categories?
           </template>
@@ -127,16 +147,16 @@
               </li>
             </ul>
           </template>
-        </FaqText>
-        <FaqText>
+        </DropDownText>
+        <DropDownText>
           <template #question>
             How do you collect all this information?
           </template>
           <template #answer>
             All social media data used here to estimate Infodemic Risk Indices and the News Unreliability Indices refer to messages posted in the popular microblogging platform Twitter. We use the <b>public Twitter API</b> to continuously collect tweets containing the words <i>coronavirus, ncov, #Wuhan, covid19, covid-19, sarscov2, covid</i>. This set of medically focused keywords and hashtags includes the different names of the sars-cov-2 virus and of the COVID-19 disease, including the early tentative ones, as well as the name of the city where the first cases were recorded. Collected data include stand-alone messages (Tweets) and special social interactions encoding endorsement and engagement (Retweets, Replies).
           </template>
-        </FaqText>
-        <FaqText>
+        </DropDownText>
+        <DropDownText>
           <template #question>
             I have some concerns about privacy. Should I?
           </template>
@@ -148,8 +168,8 @@
 
             Twitter is the only owner of the individual's data elaborated for the Research.
           </template>
-        </FaqText>
-        <FaqText>
+        </DropDownText>
+        <DropDownText>
           <template #question>
             What are the epidemic indices?
           </template>
@@ -168,18 +188,30 @@
               </li>
             </ul>
           </template>
-        </FaqText>
+        </DropDownText>
+        <DropDownText>
+          <template #question>
+            How can knowing the Infodemic Risk be useful for me?
+          </template>
+          <template #answer>
+            Our Infodemic Risk Indices provide a way of tracking how much users have been <b>potentially exposed to misinformative news</b> (IRI) and how much they <b>actively propagate potential misinformation</b> (dynIRI).
+            These behaviors change over time during the evolution of the COVID-19 pandemic and vary strongly depending on the country.
+            <br>
+            Thanks to the mapping in time and space of these quantities, a member of the general public can <u>understand with how much care she can consume news from online media in her country</u>.
+            At the same time, a decision maker can <u>track the infodemic profile</u> and be informed about what is the fraction of the population who are keeping themselves informed though official or scientific media and <u>identify moments in time when a burst of misinformation got diffused in the local news ecosystem</u>.
+          </template>
+        </DropDownText>
       </div>
     </Article>
   </div>
 </template>
 
 <script>
-import FaqText from '../components/FAQText'
+import DropDownText from '../components/DropDownText'
 
 export default {
   components: {
-    FaqText
+    DropDownText
   }
 }
 </script>

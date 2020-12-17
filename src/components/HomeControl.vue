@@ -9,7 +9,7 @@
           mdi-map
         </v-icon>
         <h4 class="d-inline">
-          SELECT the <i>Region</i> and then the <i>Country</i> or CLICK on a <i>Country</i> in the map
+          SELECT the <i>Region</i> and then the <i>Country</i> or CLICK on a country in the <i>Map</i>
           <v-icon>
             mdi-arrow-down-thick
           </v-icon>
@@ -19,44 +19,6 @@
     </v-container>
     <LocationMap v-if="showCharts" />
   </div>
-  <!--v-card
-    color="#fff"
-    flat
-  >
-    <v-btn
-      v-if="false"
-      absolute
-      fab
-      right
-      bottom
-
-      class="btn-fix mr-4"
-      :color="showCharts ? 'primary': 'none'"
-      @click="() => {showCharts = !showCharts}"
-    >
-      <v-icon
-        dark
-        medium
-      >
-        mdi-poll
-      </v-icon>
-    </v-btn>
-    <v-container>
-      <v-row>
-        <v-col
-          md="12"
-          cols="12"
-        >
-          <v-card
-            class="pa-2"
-          >
-            <LocationSelector />
-            <LocationMap v-if="showCharts" />
-          </v-card>
-        </v-col>
-      </v-row>
-    </v-container>
-  </v-card-->
 </template>
 
 <script>
@@ -77,11 +39,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-.btn-fix:focus::before {
-  opacity: 0 !important;
-}
-
-</style>
