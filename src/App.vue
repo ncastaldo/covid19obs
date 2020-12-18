@@ -6,6 +6,27 @@
     <Header />
     <v-main>
       <router-view v-if="storeReady" />
+      <v-container
+        v-else
+        fill-height
+      >
+        <v-row
+          justify="center"
+          align="center"
+        >
+          <v-col class="text-center">
+            <v-progress-circular
+              indeterminate
+              size="60"
+              width="6"
+              color="rgb(31, 121, 179)"
+            />
+            <h4 class="pt-5">
+              Loading Data...
+            </h4>
+          </v-col>
+        </v-row>
+      </v-container>
       <v-btn
         v-show="false"
         v-scroll="onScroll"
