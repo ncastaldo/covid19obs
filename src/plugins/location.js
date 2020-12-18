@@ -23,17 +23,17 @@ const getLocationProps = worldMap => {
         ? f.properties.WHO_REGION
         : '_NOT_WHO_MEMBER',
       flagId: f.properties.ISO_2_CODE,
-      active: validCountriesSet.has(f.properties.ISO_3_CODE),
       geometry: f.geometry
+    }))
+    .map(l => ({
+      ...l,
+      active: validCountriesSet.has(l.locationId),
+      regionName: regionMapping[l.regionId].name,
+      regionColor: regionMapping[l.regionId].color
     }))
 
   const locationList = allLocationList
     .filter(l => l.active)
-    .map(l => ({
-      ...l,
-      regionName: regionMapping[l.regionId].name,
-      regionColor: regionMapping[l.regionId].color
-    }))
     .sort((a, b) => a.locationName >= b.locationName ? 1 : -1)
 
   locationList.push({

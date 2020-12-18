@@ -31,7 +31,6 @@ export default {
       return new Set(this.locationList.map(l => l.locationId))
     },
     styleMapping () {
-      console.log(this.allLocations, this.locationIdSet)
       return this.allLocations.reduce((acc, { locationId, regionColor }) => ({
         ...acc,
         [locationId]: {
