@@ -28,7 +28,7 @@ const getters = {
 }
 
 const actions = {
-  init: ({ dispatch }) => { dispatch('loadTimeseries') },
+  init: ({ dispatch }) => { return dispatch('loadTimeseries') },
 
   loadTimeseries: ({ getters, rootGetters, commit }) => {
     // console.log(rootGetters)
@@ -37,7 +37,7 @@ const actions = {
     const timeseriesUrl = `/assets/timeseries/${locationId}.csv`
 
     // fetching the timeseries
-    fetch(timeseriesUrl)
+    return fetch(timeseriesUrl)
       .then(res => res.text())
       .then(data => csvParse(data, fnParse))
       .then(ts => { commit('setFullTimeseries', ts) })

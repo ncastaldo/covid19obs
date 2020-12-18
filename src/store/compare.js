@@ -54,7 +54,7 @@ const actions = {
     commit('setCompareVariableInfo', variables[compareId])
 
     // dispatching here!
-    dispatch('setCompareId', compareId)
+    return dispatch('setCompareId', compareId)
   },
 
   loadRawCompareData: ({ getters, dispatch }) => {
@@ -62,7 +62,7 @@ const actions = {
     const compareUrl = `/assets/compare/${compareId}.csv`
 
     // fetching the compare
-    fetch(compareUrl)
+    return fetch(compareUrl)
       .then(res => res.text())
       .then(data => compareTextParser(data))
       .then(rawCompareData => { dispatch('setRawCompareData', { rawCompareData, compareId }) })
@@ -70,7 +70,7 @@ const actions = {
 
   setCompareId: ({ commit, dispatch }, compareId) => {
     commit('setCompareId', compareId)
-    dispatch('loadRawCompareData')
+    return dispatch('loadRawCompareData')
   },
 
   setRawCompareData: ({ commit, rootGetters }, { rawCompareData, compareId }) => {

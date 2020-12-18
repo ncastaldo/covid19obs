@@ -1,30 +1,43 @@
-import { allLocations, allGeometries, locations, regions } from '../plugins/location'
-
 const state = {
+  ready: false,
+
+  allLocations: null,
+  allGeometries: null,
+  locations: null,
+  regions: null,
   locationId: null,
   locationIdList: null
 }
 
 const mutations = {
+  setReady: (state, ready) => { state.ready = ready },
+
+  setAllLocations: (state, allLocations) => { state.allLocations = allLocations },
+  setAllGeometries: (state, allGeometries) => { state.allGeometries = allGeometries },
+  setLocations: (state, locations) => { state.locations = locations },
+  setRegions: (state, regions) => { state.regions = regions },
+
   setLocationId: (state, locationId) => { state.locationId = locationId },
   setLocationIdList: (state, locationIdList) => { state.locationIdList = locationIdList }
 }
 
 const getters = {
-  getLocations: () => Object.values(locations),
-  getAllLocations: () => Object.values(allLocations),
+  isReady: ({ ready }) => ready,
 
-  getRegions: () => Object.values(regions),
+  getLocations: ({ locations }) => Object.values(locations),
+  getAllLocations: ({ allLocations }) => Object.values(allLocations),
 
-  getLocation: ({ locationId }) => locations[locationId],
-  getRegion: (_, getters) => regions[getters.getLocation.regionId],
+  getRegions: ({ regions }) => Object.values(regions),
 
-  getLocationList: ({ locationIdList }) => locationIdList.map(id => locations[id]),
+  getLocation: ({ locations, locationId }) => locations[locationId],
+  getRegion: ({ regions }, getters) => regions[getters.getLocation.regionId],
 
-  getLocationInfo: () => locationId => locations[locationId],
-  getLocationGeometry: () => locationId => allGeometries[locationId],
+  getLocationList: ({ locations, locationIdList }) => locationIdList.map(id => locations[id]),
 
-  getRegionLocations: () => regionId => regionId !== '_WORLD_REGION'
+  getLocationInfo: ({ locations }) => locationId => locations[locationId],
+  getLocationGeometry: ({ allGeometries }) => locationId => allGeometries[locationId],
+
+  getRegionLocations: ({ locations }) => regionId => regionId !== '_WORLD_REGION'
     ? Object.values(locations)
       .filter(l => l.regionId === regionId)
       .sort((a, b) => a.locationName > b.locationName ? 1 : -1)
@@ -32,9 +45,19 @@ const getters = {
 }
 
 const actions = {
-  init: ({ commit }, { locationId, locationIdList }) => {
+  init: ({ commit }, {
+    locationId, locationIdList,
+    allLocations, allGeometries, locations, regions
+  }) => {
+    commit('setAllLocations', Object.freeze(allLocations))
+    commit('setAllGeometries', Object.freeze(allGeometries))
+    commit('setLocations', Object.freeze(locations))
+    commit('setRegions', Object.freeze(regions))
+
     commit('setLocationId', locationId)
     commit('setLocationIdList', locationIdList)
+
+    commit('setReady', true)
   },
 
   setLocationId: ({ commit, dispatch }, locationId) => {
@@ -42,8 +65,8 @@ const actions = {
     dispatch('timeseries/loadTimeseries', {}, { root: true })
   },
 
-  setRegionId: ({ dispatch }, regionId) => {
-    const region = regions[regionId]
+  setRegionId: ({ dispatch, getters }, regionId) => {
+    const region = getters.getRegions[regionId]
     const locationId = region.mainLocationId
     console.log(locationId)
     dispatch('setLocationId', locationId)

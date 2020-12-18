@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import makeStore from './store/index'
+import store from './store/index'
 
 import vuetify from './plugins/vuetify'
 
@@ -42,15 +42,12 @@ Vue.component('IndexCircles', IndexCircles)
 
 Vue.component('Background', Background)
 
-const configUrl = '/assets/config.json'
-
-fetch(configUrl)
-  .then(res => res.json())
-  .then(config => {
-    new Vue({
-      store: makeStore(config),
-      vuetify,
-      router,
-      render: h => h(App)
-    }).$mount('#app')
-  })
+new Vue({
+  store,
+  vuetify,
+  router,
+  created () {
+    this.$store.dispatch('init')
+  },
+  render: h => h(App)
+}).$mount('#app')

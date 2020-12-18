@@ -55,7 +55,7 @@ export default {
       return this.doubleCompareData.length > 50 ? 500 : 400
     },
     doubleCompareData () {
-      if (this.firstCompareData.lentgh !== this.secondCompareData.lentgh) return []
+      if (this.firstCompareData.length !== this.secondCompareData.length) return []
 
       const doubleCompareData = this.firstCompareData
         .map((cmp, i) => ({

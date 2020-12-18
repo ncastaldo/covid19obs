@@ -87,17 +87,17 @@ const getters = {
 // in order to select month
 
 const actions = {
-  init: ({ commit, dispatch }, layerId) => {
+  init: ({ commit, dispatch }, { layerId }) => {
     // just to have something in that variable
     commit('setLayerVariableInfo', variables[layerId])
 
     // dispatching here!
-    dispatch('setLayerId', layerId)
+    return dispatch('setLayerId', layerId)
   },
 
   setLayerId: ({ commit, dispatch }, layerId) => {
     commit('setLayerId', layerId)
-    dispatch('loadTweets')
+    return dispatch('loadTweets')
   },
 
   loadTweets: ({ getters, commit }) => {
@@ -107,7 +107,7 @@ const actions = {
     // const layerUrl = `/assets/compare/${layerId}.csv`
 
     // fetching the compare
-    fetch(layerUrl)
+    return fetch(layerUrl)
       .then(res => res.text())
       .then(data => lastUpdatesTextParser(data))
       .then(layerFullData => {

@@ -5,9 +5,7 @@
     <Drawer v-if="false" />
     <Header />
     <v-main>
-      <router-view
-        v-if="storeReady"
-      />
+      <router-view v-if="storeReady" />
       <v-btn
         v-show="false"
         v-scroll="onScroll"
@@ -52,6 +50,11 @@ export default {
     ...mapGetters({
       storeReady: 'isReady'
     })
+  },
+  watch: {
+    storeReady () {
+      console.log(this.storeReady, 'change')
+    }
   },
   methods: {
     onScroll (e) {

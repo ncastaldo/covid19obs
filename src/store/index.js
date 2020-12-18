@@ -3,20 +3,21 @@ import Vuex from 'vuex'
 
 import location from './location'
 import period from './period'
-
 import month from './month'
-
 import timeseries from './timeseries'
-
 import layer from './layer'
 
 import makeCompare from './compare'
-
 import view from './view'
+
+import { getWorldMap } from '../plugins/maps'
+import { getLocationProps } from '../plugins/location'
 
 Vue.use(Vuex)
 
-const getInitialConfig = (config) => {
+const configUrl = '/assets/config.json'
+
+const computeConfig = (config) => {
   const initialConfig = {
     // LOCATIONS
     locationId: '_WORLD',
@@ -50,40 +51,40 @@ const getInitialConfig = (config) => {
   return initialConfig
 }
 
-const getters = {
-  isReady: (_, getters) => getters['tweets/getTweetsDict'] !== null
+const actions = {
+  init: ({ dispatch, commit }) =>
+    Promise.all([
+      fetch(configUrl).then(result => result.json()).then(computeConfig),
+      getWorldMap().then(getLocationProps)
+    ])
+      .then(([a, b]) => ({ ...a, ...b }))
+      .then(config => {
+        dispatch('location/init', config)
+        dispatch('period/init', config)
+        dispatch('month/init', config)
+        dispatch('layer/init', config)
+        dispatch('timeseries/init')
+        dispatch('compare/first/init', config.firstCompareId)
+        dispatch('compare/second/init', config.secondCompareId)
+      })
+      .then(() => { commit('setReady', true) })
+
 }
 
-export default function (config) {
-  const initialConfig = getInitialConfig(config)
-
-  return new Vuex.Store({
-    strict: true,
-    getters,
-    modules: {
-      location,
-      period,
-
-      month,
-
-      timeseries,
-      layer,
-
-      'compare/first': makeCompare(),
-      'compare/second': makeCompare(),
-
-      view
-    },
-    plugins: [
-      store => {
-        store.dispatch('location/init', initialConfig)
-        store.dispatch('period/init', initialConfig)
-        store.dispatch('month/init', initialConfig)
-        store.dispatch('layer/init', initialConfig.layerId)
-        store.dispatch('timeseries/init')
-        store.dispatch('compare/first/init', initialConfig.firstCompareId)
-        store.dispatch('compare/second/init', initialConfig.secondCompareId)
-      }
-    ]
-  })
-}
+export default new Vuex.Store({
+  strict: true,
+  state: { ready: false },
+  mutations: { setReady: (state, ready) => { state.ready = ready } },
+  getters: { isReady: ({ ready }) => ready },
+  actions,
+  modules: {
+    location,
+    period,
+    month,
+    timeseries,
+    layer,
+    view,
+    'compare/first': makeCompare(),
+    'compare/second': makeCompare()
+  }
+})

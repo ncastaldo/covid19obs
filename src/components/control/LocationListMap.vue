@@ -24,17 +24,22 @@ export default {
   },
   computed: {
     ...mapGetters({
-      locations: 'location/getLocations',
+      allLocations: 'location/getAllLocations',
       locationList: 'location/getLocationList'
     }),
+    locationIdSet () {
+      return new Set(this.locationList.map(l => l.locationId))
+    },
     styleMapping () {
-      return this.locations.reduce((acc, { locationId, regionColor }) => ({
+      console.log(this.allLocations, this.locationIdSet)
+      return this.allLocations.reduce((acc, { locationId, regionColor }) => ({
         ...acc,
         [locationId]: {
           lineColor: '#ddd',
           lineWidth: 0.5,
-          ...(this.locationList.map(l => l.locationId).includes(locationId)
-            ? { fillColor: regionColor } : BASE_STYLE)
+          fillColor: this.locationIdSet.has(locationId)
+            ? regionColor
+            : BASE_STYLE.fillColor
         }
       }), {})
     }

@@ -74,7 +74,7 @@ import MapTooltip from './MapTooltip'
 import MapHover from './MapHover'
 import MapControl from './MapControl'
 
-import { masklineMap, maskpolyMap } from '../../plugins/maps'
+import { getMasklineMap, getMaskpolyMap } from '../../plugins/maps'
 
 import { mapGetters } from 'vuex'
 
@@ -86,18 +86,6 @@ const backgroundLayer = {
   id: 'background',
   type: 'background',
   paint: { 'background-color': BACKGROUND_COLOR }
-}
-
-// MASKLINE
-const masklineSource = {
-  type: 'geojson',
-  data: masklineMap
-}
-
-// MASKPOLY
-const maskpolySource = {
-  type: 'geojson',
-  data: maskpolyMap
 }
 
 export default {
@@ -147,9 +135,10 @@ export default {
       mapMaxBounds: [[-180, -65], [180, 80]],
 
       // SOURCES AND LAYERS
+      masklineMap: null,
+      maskpolyMap: null,
+
       backgroundLayer,
-      masklineSource,
-      maskpolySource,
 
       hoverFeatureId: null,
 
@@ -231,7 +220,14 @@ export default {
         }
       }
     },
-    // MASKLINE
+    // MASKLINE// MASKLINE
+    masklineSource () {
+      return {
+        type: 'geojson',
+        data: this.masklineMap
+      }
+    },
+
     masklineLineLayer () {
       return {
         id: 'maskline-line',
@@ -250,6 +246,12 @@ export default {
       }
     },
     // MASKPOLY
+    maskpolySource  () {
+      return {
+        type: 'geojson',
+        data: this.maskpolyMap
+      }
+    },
     maskpolyFillLayer () {
       const regionColors = [
         'Jammu and Kashmir', this.invalidFillColor,
@@ -307,6 +309,8 @@ export default {
   },
   created () {
     // We need to set mapbox-gl library here in order to use it in template
+    getMaskpolyMap().then(m => { this.maskpolyMap = m })
+    getMasklineMap().then(m => { this.masklineMap = m })
     this.mapbox = Mapbox
   },
   methods: {

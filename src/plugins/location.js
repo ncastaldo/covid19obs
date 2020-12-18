@@ -1,11 +1,6 @@
-// import WORLD from '../assets/map/world.json'
-
-import { worldMap } from './maps'
-
 import { schemeCategory10 } from 'd3-scale-chromatic'
 
 import validCountries from '../assets/validCountries.json'
-
 const validCountriesSet = new Set(validCountries)
 
 const regionMapping = {
@@ -19,71 +14,75 @@ const regionMapping = {
   _NOT_WHO_MEMBER: { color: schemeCategory10[5], name: 'Not WHO Member', mainLocationId: 'JEY', order: 6 }
 }
 
-const allLocationList = worldMap.features
-  .map(f => ({
-    locationId: f.properties.ISO_3_CODE,
-    locationName: f.properties.CNTRY_TERR,
-    regionId: f.properties.WHO_STATUS === 'Member state'
-      ? f.properties.WHO_REGION
-      : '_NOT_WHO_MEMBER',
-    flagId: f.properties.ISO_2_CODE,
-    active: validCountriesSet.has(f.properties.ISO_3_CODE),
-    geometry: f.geometry
-  }))
+const getLocationProps = worldMap => {
+  const allLocationList = worldMap.features
+    .map(f => ({
+      locationId: f.properties.ISO_3_CODE,
+      locationName: f.properties.CNTRY_TERR,
+      regionId: f.properties.WHO_STATUS === 'Member state'
+        ? f.properties.WHO_REGION
+        : '_NOT_WHO_MEMBER',
+      flagId: f.properties.ISO_2_CODE,
+      active: validCountriesSet.has(f.properties.ISO_3_CODE),
+      geometry: f.geometry
+    }))
 
-const locationList = allLocationList
-  .filter(l => l.active)
-  .map(l => ({
-    ...l,
-    regionName: regionMapping[l.regionId].name,
-    regionColor: regionMapping[l.regionId].color
-  }))
-  .sort((a, b) => a.locationName >= b.locationName ? 1 : -1)
+  const locationList = allLocationList
+    .filter(l => l.active)
+    .map(l => ({
+      ...l,
+      regionName: regionMapping[l.regionId].name,
+      regionColor: regionMapping[l.regionId].color
+    }))
+    .sort((a, b) => a.locationName >= b.locationName ? 1 : -1)
 
-locationList.push({
-  locationId: '_WORLD',
-  locationName: 'World',
-  regionId: '_WORLD_REGION',
-  regionName: 'World',
-  regionColor: '#444',
-  flagId: '',
-  geometry: null
-})
+  locationList.push({
+    locationId: '_WORLD',
+    locationName: 'World',
+    regionId: '_WORLD_REGION',
+    regionName: 'World',
+    regionColor: '#444',
+    flagId: '',
+    geometry: null
+  })
 
-const allLocations = allLocationList
-  .reduce((locations, { geometry, ...rest }) => ({
-    ...locations,
-    [rest.locationId]: rest
-  }), {})
+  const allLocations = allLocationList
+    .reduce((locations, { geometry, ...rest }) => ({
+      ...locations,
+      [rest.locationId]: rest
+    }), {})
 
-// all geometries
-const allGeometries = allLocationList
-  .reduce((geometries, { locationId, geometry }) => ({
-    ...geometries,
-    [locationId]: geometry
-  }), {})
+  // all geometries
+  const allGeometries = allLocationList
+    .reduce((geometries, { locationId, geometry }) => ({
+      ...geometries,
+      [locationId]: geometry
+    }), {})
 
-const locations = locationList
-  .reduce((locations, { geometry, ...rest }) => ({
-    ...locations,
-    [rest.locationId]: rest
-  }), {})
+  const locations = locationList
+    .reduce((locations, { geometry, ...rest }) => ({
+      ...locations,
+      [rest.locationId]: rest
+    }), {})
 
-const regions = locationList
-  .sort((a, b) => regionMapping[a.regionId].order > regionMapping[b.regionId].order ? 1 : -1)
-  .reduce((acc, { regionId, regionName, regionColor }) => ({
-    ...acc,
-    [regionId]: {
-      regionId,
-      regionName,
-      regionColor,
-      mainLocationId: regionMapping[regionId].mainLocationId
-    }
-  }), {})
+  const regions = locationList
+    .sort((a, b) => regionMapping[a.regionId].order > regionMapping[b.regionId].order ? 1 : -1)
+    .reduce((acc, { regionId, regionName, regionColor }) => ({
+      ...acc,
+      [regionId]: {
+        regionId,
+        regionName,
+        regionColor,
+        mainLocationId: regionMapping[regionId].mainLocationId
+      }
+    }), {})
 
-export {
-  allLocations,
-  allGeometries,
-  locations,
-  regions
+  return {
+    allLocations,
+    allGeometries,
+    locations,
+    regions
+  }
 }
+
+export { getLocationProps }
