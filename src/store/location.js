@@ -37,11 +37,14 @@ const getters = {
   getLocationInfo: ({ locations }) => locationId => locations[locationId],
   getLocationGeometry: ({ allGeometries }) => locationId => allGeometries[locationId],
 
+  getRegionInfo: ({ regions }) => regionId => regions[regionId],
+
   getRegionLocations: ({ locations }) => regionId => regionId !== '_WORLD_REGION'
     ? Object.values(locations)
       .filter(l => l.regionId === regionId)
       .sort((a, b) => a.locationName > b.locationName ? 1 : -1)
     : []
+
 }
 
 const actions = {
@@ -66,9 +69,9 @@ const actions = {
   },
 
   setRegionId: ({ dispatch, getters }, regionId) => {
-    const region = getters.getRegions[regionId]
+    const region = getters.getRegionInfo(regionId)
     const locationId = region.mainLocationId
-    console.log(locationId)
+
     dispatch('setLocationId', locationId)
   },
 
