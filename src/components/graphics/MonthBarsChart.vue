@@ -2,6 +2,7 @@
   <ChartsContainer
     :charts="[chart]"
     :height="height"
+    @size="hanldeSize"
   >
     <svg
       :id="id"
@@ -72,7 +73,7 @@ export default {
       this.xAxis = bxAxisX()
         .tickSizeInner(0)
         .tickSizeOuter(0)
-        .ticks(100)
+        .ticks(6)
         .tickFormat(t => fnDateFormat(new Date(t)))
         .fnBefore(s =>
           s.classed('axis', true)
@@ -96,6 +97,12 @@ export default {
     },
     update () {
       this.chart.components([this.xAxis, this.bars])
+    },
+    hanldeSize (size) {
+      // 50px each label, 100px sum of padding left and right
+      const ticks = Math.floor((size.width - 100) / 50) || 1
+      console.log(ticks)
+      this.xAxis.ticks(ticks)
     },
     fillBars (monthId) {
       // join on bars

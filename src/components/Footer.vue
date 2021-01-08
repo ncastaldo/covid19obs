@@ -49,7 +49,7 @@
           >Nicola Castaldo</a> with Vue.js, Vuetify, D3, <a
             href="https://github.com/ncastaldo/d3nic"
             target="_blank"
-          >d3nic</a> and Leaflet
+          >d3nic</a> and Mapbox
         </div>
       </div>
     </v-container>

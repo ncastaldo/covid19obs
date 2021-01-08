@@ -9,9 +9,7 @@
       :charts="[chart]"
       :height="height"
     >
-      <svg
-        :id="id"
-      />
+      <svg :id="id" />
     </ChartsContainer>
     <Tooltip>
       <ArcHover

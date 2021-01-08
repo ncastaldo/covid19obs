@@ -34,10 +34,11 @@ export default {
   },
   computed: {
     chartHeight () {
+      if (this.height) { return this.height }
       return this.chartWidth
-        // if height is defined return it, otherwise compute it
-        ? this.height || this.chartWidth * this.ratio
+        ? this.chartWidth * this.ratio
         : null
+        // if height is defined return it, otherwise compute it
     },
     styleHeight () {
       return this.maxViewHeight && this.chartHeight > this.maxViewHeight
@@ -59,7 +60,8 @@ export default {
         height: this.chartHeight
       }
       this.charts.forEach(c => c.size(size))
-      if (oldVal) { this.emitSizeDraw(size) }
+      this.$emit('size', size)
+      if (oldVal) { this.redraw() }
     },
     chartHeight (newVal, oldVal) {
       const size = {
@@ -67,6 +69,7 @@ export default {
         height: newVal
       }
       this.charts.forEach(c => c.size(size))
+      this.$emit('size', size)
       // not calling 'draw', assuming this is due to a data change
       // if (oldVal) { this.emitSizeDraw(size) }
     }
@@ -77,8 +80,7 @@ export default {
     // })
   },
   methods: {
-    emitSizeDraw (size) {
-      this.$emit('size', size)
+    redraw () {
       this.charts.forEach(c => c.draw({ duration: 0 }))
     },
     onResize () {
