@@ -2,27 +2,28 @@
   <div>
     <NavLinks />
     <v-container>
-      <v-row class="align-center justify-center">
+      <div class="d-flex flex-wrap align-center justify-center">
         <v-btn
           v-for="l in locations"
           :key="l.locationId"
           :outlined="l.locationId === currentLocation.locationId"
-          height="50"
+          dense
+          height="40"
           width="210"
-          class="mx-3 my-2 col-lg-3 col-md-4 col-sm-6 col-12"
+          class="mx-1 my-1 col-lg-3 col-md-4 col-sm-6 col-12"
 
           @click="currentLocation = l"
         >
           <Flag
             :flagId="l.flagId"
             outlined
-            width="40"
+            width="35"
           />
           <h3 class="mx-3 center-text">
             {{ l.locationName }}
           </h3>
         </v-btn>
-      </v-row>
+      </div>
     </v-container>
     <Article>
       <component :is="currentLocation.component" />

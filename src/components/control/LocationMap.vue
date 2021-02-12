@@ -62,7 +62,7 @@ export default {
       getLocationGeometry: 'location/getLocationGeometry'
     }),
     height () {
-      return Math.min(450, window.innerHeight * 3 / 4)
+      return Math.min(450, window.innerHeight * 2 / 3)
     },
     bounds () {
       return this.location.locationId === '_WORLD'

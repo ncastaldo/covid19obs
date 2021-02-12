@@ -15,6 +15,8 @@
 <script>
 import { timeFormat } from 'd3-time-format'
 
+import { isMobile } from 'mobile-device-detect'
+
 import {
   bxChart,
   bxAxisX,
@@ -75,7 +77,9 @@ export default {
         .catch(() => {})
     },
     bandDomain (bandDomain) {
-      this.brush.bandDomain(this.fullSelection ? null : bandDomain).snap()
+      if (!isMobile) {
+        this.brush.bandDomain(this.fullSelection ? null : bandDomain).snap()
+      }
 
       this.fillBars(bandDomain)
     }
@@ -89,7 +93,10 @@ export default {
     this.update()
 
     this.chart.data(this.dateData)
-    this.fullSelection || this.brush.bandDomain(this.bandDomain)
+
+    if (!isMobile) {
+      this.fullSelection || this.brush.bandDomain(this.bandDomain)
+    }
 
     this.drawChart()
       .then(() => {
@@ -141,7 +148,8 @@ export default {
     },
     compose () {
       this.chart.components([this.xAxis, this.yAxis]
-        .concat([this.bars, this.brush])
+        .concat([this.bars])
+        .concat(!isMobile ? [this.brush] : [])
         .concat([this.yLabel]))
     },
     update () {

@@ -243,7 +243,7 @@
             To assess this limitation, we collected statistics from Amazon Alexa (<a
               href="https://alexa.com/topsites/countries"
               target="_blank"
-            >https://alexa.com/topsites/countries</a>) about web traffic (top 50 most visited websites) for all countries across the globe, matching these lists with the list of domains we used to classify reliable and unreliable sources.
+            >alexa.com/topsites/countries</a>) about web traffic (top 50 most visited websites) for all countries across the globe, matching these lists with the list of domains we used to classify reliable and unreliable sources.
             <div class="py-1" />
             Remarkably, for 127 countries we have at least one domain in the reliable top-50 news source and for 21 (iso2 codes: 'AE', 'AR', 'BB', 'BE', 'CA', 'DK', 'FR', 'KE', 'MX', 'NG', 'PA', 'PE', 'PH', 'PR', 'PT', 'QA', 'SD', 'SE', 'TT', 'US', 'VE') we have at least one domain in the top-50 websites labelled as unreliable (split equally between politically biased and real fake/hoax websites).
             <br>
@@ -265,12 +265,13 @@
             Observatory Data Pipeline
           </template>
           <template #answer>
-            <v-img
-              :src="imgSrc"
-              class="mx-2"
-              max-height="120"
-              contain
-            />
+            <div style="position: relative">
+              <img
+                :src="imgSrc"
+                class="my-2"
+                style="width: 100%; max-height: 140px; text-align: center; object-fit: contain"
+              >
+            </div>
             The data pipeline of the observatory consists of:
             <ul>
               <li>

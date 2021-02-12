@@ -44,7 +44,7 @@
         </div>
         <div>
           Designed by <a
-            href="https://github.com/ncastaldo"
+            href="https://ncastaldo.it"
             target="_blank"
           >Nicola Castaldo</a> with Vue.js, Vuetify, D3, <a
             href="https://github.com/ncastaldo/d3nic"

@@ -28,7 +28,7 @@ export default {
       locationList: 'location/getLocationList'
     }),
     height () {
-      return Math.min(450, window.innerHeight * 3 / 4)
+      return Math.min(450, window.innerHeight * 2 / 3)
     },
     locationIdSet () {
       return new Set(this.locationList.map(l => l.locationId))

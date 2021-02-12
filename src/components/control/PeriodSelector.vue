@@ -49,7 +49,10 @@
       @endBandDomain="onEndBandDomain"
       @brushBandDomain="onBrushBandDomain"
     />
-    <div class="mx-3 my-1">
+    <div
+      v-if="!isMobile"
+      class="mx-3 my-1"
+    >
       <i>Brush</i> on the blue <b>COVERAGE</b> bars to <b>select the date range</b>!
       <v-icon
         class="ml-1 mb-1"
@@ -63,7 +66,10 @@
 
 <script>
 import DateBrushChart from '../graphics/DateBrushChart'
+
 import { mapGetters, mapActions, mapMutations } from 'vuex'
+
+import { isMobile } from 'mobile-device-detect'
 
 import { timeFormat } from 'd3-time-format'
 import { throttle } from 'lodash'
@@ -73,6 +79,11 @@ const fnDateFormat = timeFormat('%d/%m/%y')
 export default {
   components: {
     DateBrushChart
+  },
+  data () {
+    return {
+      isMobile
+    }
   },
   computed: {
     ...mapGetters({
