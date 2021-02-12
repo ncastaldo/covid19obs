@@ -1,66 +1,58 @@
 <template>
   <div v-if="summary">
-    <div class="d-flex align-center">
-      <Flag
-        v-if="location.locationId !== '_WORLD'"
-        width="50"
-        class="mr-4"
-        :flagId="location.flagId"
-      />
-      <h1 class="thin-font">
-        {{ location.locationName }}
-      </h1>
-      <v-spacer />
-      <div class="text-right">
-        <h2 class="thin-font">
-          Average Coverage:
-        </h2>
-        <h5>{{ fnDateFormat(new Date(2020, 0, 22)) }} - {{ lastDateString }}</h5>
-      </div>
-      <span class="ml-2">
-        <IndexCircles
-          total="3"
-          size="30"
-          :active="locationSummary.info_tweets_mean > 1000 ? 3 : 2"
-          color="rgb(31, 121, 179)"
+    <div class="d-flex align-center flex-wrap justify-space-between">
+      <div class="d-flex flex-wrap">
+        <Flag
+          v-if="location.locationId !== '_WORLD'"
+          width="50"
+          class="mr-4"
+          :flagId="location.flagId"
         />
-      </span>
+        <h1 class="thin-font">
+          {{ location.locationName }}
+        </h1>
+      </div>
+      <div class="flex-grow-1 text-right">
+        <h3 class="thin-font">
+          Average Coverage:
+        </h3>
+        <div class="ml-2">
+          <IndexCircles
+            total="3"
+            size="26"
+            :active="locationSummary.info_tweets_mean > 1000 ? 3 : 2"
+            color="rgb(31, 121, 179)"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-end mt-2">
+      <h5>{{ fnDateFormat(new Date(2020, 0, 22)) }} - {{ lastDateString }}</h5>
     </div>
     <v-divider class="mb-2" />
-    <div class="d-flex align-end flex-wrap">
-      <table>
-        <tr
+    <div class="d-flex align-end justify-space-between flex-wrap">
+      <div class="d-flex flex-column ">
+        <div
           v-for="row in rows"
           :key="row.id"
+          class="d-flex justify-space-between flex-wrap py-1"
         >
-          <th class="text-left">
-            <span class=" mr-3">
-              {{ row.name }}
-            </span>
-          </th>
-          <th class="text-right">
-            <span class=" thin-font mr-2">
-              <i>{{ row.fnFormat(locationSummary[row.id]) }}</i>
-            </span>
-          </th>
-          <th class="text-right">
-            <span class="mr-2">
-              {{ row.fnLabel(locationSummary[row.id]) }}
-            </span>
-          </th>
-
-          <th>
+          <div class="mr-3">
+            <b class="mr-3">{{ row.name }}:</b><i>{{ row.fnFormat(locationSummary[row.id]) }}</i>
+          </div>
+          <div class="d-flex align-center flex-wrap">
+            <div class="mr-2">
+              <b>{{ row.fnLabel(locationSummary[row.id]) }}</b>
+            </div>
             <IndexCircles
-              class="mr-2"
               total="10"
               :active="Math.ceil(locationSummary[row.id] * 10)"
               :color="row.fnColor(locationSummary[row.id])"
             />
-          </th>
-        </tr>
-      </table>
-      <v-spacer />
-      <div class="text-right d-flex flex-column">
+          </div>
+        </div>
+      </div>
+      <div class="text-right d-flex flex-column flex-grow-1">
         <h3 class="thin-font">
           <i>Date: {{ lastDateString }}</i>
         </h3>

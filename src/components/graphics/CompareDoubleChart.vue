@@ -8,6 +8,9 @@
     >
       <svg
         :id="id"
+        @touchstart="onTouchstart"
+        @touchend="onTouchend"
+        @touchmove="event => {onTouchend(event); onTouchstart(event)}"
       />
     </ChartsContainer>
     <Tooltip>
@@ -21,6 +24,8 @@
 
 <script>
 import CompareDoubleHover from './CompareDoubleHover'
+
+import { select } from 'd3-selection'
 
 import {
   xyChart,
@@ -143,13 +148,24 @@ export default {
           .transition('opacity').duration(50)
           .style('opacity', 1))
     },
-    onMouseout (event, d) {
-      this.hover = null
+    onMouseout (event) {
       this.crossLines
         .map(cl => cl.join()
-          .filter(f => f.locationId === d.locationId)
+          .filter(f => this.hover && f.locationId === this.hover.locationId)
           .transition('opacity').duration(50)
           .style('opacity', null))
+      this.hover = null
+    },
+    onTouchstart (event) {
+      event.preventDefault()
+      const point = [event.touches[0].clientX, event.touches[0].clientY]
+      const d = select(document.elementFromPoint(...point)).datum()
+      if (d && typeof d === 'object' && 'locationId' in d && d !== this.hover) {
+        this.onMouseover(event, d)
+      }
+    },
+    onTouchend (event) {
+      this.onMouseout(event)
     }
   }
 

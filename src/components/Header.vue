@@ -1,7 +1,7 @@
 <template>
   <v-app-bar
-    app
     height="60"
+    max-height="60"
   >
     <v-app-bar-nav-icon
       v-if="false"

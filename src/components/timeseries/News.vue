@@ -21,8 +21,19 @@
         </div>
       </div>
     </Article>
-    <div class="d-flex flex-row-reverse align-center justify-center  pa-4">
-      <div class="col-6">
+    <div class="d-flex flex-row flex-wrap align-center justify-center ">
+      <div class="col-12 col-md-6">
+        <ArcChart
+          :id="arcConfig.id"
+          :key="arcConfig.id"
+          ref="arcChart"
+          :height="300"
+          :arcData="arcData"
+          :config="arcConfig"
+          :getComponents="getArcComponents"
+        />
+      </div>
+      <div class="col-12 col-md-6">
         <div class="text-justify py-1">
           We further distinguish classes of information sources into:
           <br>
@@ -49,17 +60,6 @@
           Science and MSM are predominant in healthy online discussions. The News Reliability Index quantifies the relative volume of reliable content with respect to the overall volume of messages pointing to sources of information.
         </div>
       </div>
-
-      <ArcChart
-        :id="arcConfig.id"
-        :key="arcConfig.id"
-        ref="arcChart"
-        class="col-6"
-        :height="300"
-        :arcData="arcData"
-        :config="arcConfig"
-        :getComponents="getArcComponents"
-      />
     </div>
   </div>
 </template>

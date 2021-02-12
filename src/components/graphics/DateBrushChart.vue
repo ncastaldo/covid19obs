@@ -2,6 +2,8 @@
   <ChartsContainer
     :charts="[chart]"
     :height="height"
+
+    @size="hanldeSize"
   >
     <svg
       :id="id"
@@ -154,6 +156,9 @@ export default {
       this.bars.join()
         .style('fill', d => isInside(bandDomain, d)
           ? this.config.color : null)
+    },
+    hanldeSize ({ width }) {
+      this.xAxis.ticks(width > 600 ? 8 : width > 300 ? 5 : 3)
     },
     drawChart () {
       // wait for ChartsContainer

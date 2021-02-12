@@ -9,9 +9,13 @@
     <ChartsContainer
       :charts="[chart]"
       :height="height"
+      @size="hanldeSize"
     >
       <svg
         :id="id"
+        @touchstart="onTouchstart"
+        @touchend="onTouchend"
+        @touchmove="event => {onTouchend(event); onTouchstart(event)}"
       >
         <slot />
       </svg>
@@ -27,6 +31,10 @@
 
 <script>
 import TimeseriesHover from './TimeseriesHover'
+
+import { isMobile } from 'mobile-device-detect'
+
+import { select } from 'd3-selection'
 
 import { timeFormat } from 'd3-time-format'
 
@@ -118,10 +126,10 @@ export default {
       this.mouseBars = bxMouseBars()
         .fnBefore(s => s.classed('mouse-bars', true))
 
-      if (!this.$isMobile()) {
+      if (!isMobile) {
         this.mouseBars
           .fnOn('mouseover', this.onMouseover)
-          .fnOn('mouseout', this.$isMobile() || this.onMouseout)
+          .fnOn('mouseout', this.onMouseout)
       }
     },
     createComponents () {
@@ -154,6 +162,9 @@ export default {
       // .contScaleType(this.chartConfig.scaleType)
       this.yLabel.fnText(this.config.yLabel || '')
     },
+    hanldeSize ({ width }) {
+      this.xAxis.ticks(width > 600 ? 8 : width > 300 ? 5 : 3)
+    },
     drawChart () {
       // wait for chartscontainer
       this.$nextTick(() =>
@@ -165,11 +176,22 @@ export default {
         .map(c => c.join().filter(f => f.dateISO === d.dateISO)
           .dispatch('mouseover', event, d))
     },
-    onMouseout (event, d) {
-      this.hover = null
+    onMouseout (event) {
       this.components
-        .map(c => c.join().filter(f => f.dateISO === d.dateISO)
-          .dispatch('mouseout', event, d))
+        .map(c => c.join().filter(f => f.dateISO === this.hover.dateISO)
+          .dispatch('mouseout', event, this.hover))
+      this.hover = null
+    },
+    onTouchstart (event) {
+      event.preventDefault()
+      const point = [event.touches[0].clientX, event.touches[0].clientY]
+      const d = select(document.elementFromPoint(...point)).datum()
+      if (d && typeof d === 'object' && 'dateISO' in d && d !== this.hover) {
+        this.onMouseover(event, d)
+      }
+    },
+    onTouchend (event) {
+      this.onMouseout(event)
     }
   }
 

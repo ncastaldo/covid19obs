@@ -5,7 +5,7 @@
     invalidFillColor="#bbb"
     lineColor="#ddd"
     :onClick="onClick"
-    :height="450"
+    :height="height"
   />
 </template>
 
@@ -27,6 +27,9 @@ export default {
       allLocations: 'location/getAllLocations',
       locationList: 'location/getLocationList'
     }),
+    height () {
+      return Math.min(450, window.innerHeight * 3 / 4)
+    },
     locationIdSet () {
       return new Set(this.locationList.map(l => l.locationId))
     },

@@ -1,10 +1,17 @@
 <template>
-  <svg :id="id">
-    <Gradient
-      :id="gradientId"
-      :fnInterpolator="fnInterpolator"
-    />
-  </svg>
+  <ChartsContainer
+    :charts="[chart]"
+    :height="height"
+    :maxWidth="maxWidth"
+    @size="hanldeSize"
+  >
+    <svg :id="id">
+      <Gradient
+        :id="gradientId"
+        :fnInterpolator="fnInterpolator"
+      />
+    </svg>
+  </ChartsContainer>
 </template>
 
 <script>
@@ -18,13 +25,19 @@ export default {
     },
     variableInfo: Object,
     domain: Array,
-    width: Number
+    height: Number,
+    maxWidth: {
+      type: Number,
+      default: 400
+    }
   },
   data () {
     return {
       chart: null,
-      byAxisX: null,
-      byBars: null
+      xAxis: null,
+      bars: null,
+
+      legendTicks: 4
     }
   },
   computed: {
@@ -40,11 +53,6 @@ export default {
       this.chart.data([this.domain])
 
       this.update()
-      this.drawChart()
-    },
-    width (value) {
-      this.chart.size({ width: value })
-
       this.drawChart()
     }
   },
@@ -62,13 +70,16 @@ export default {
   },
   methods: {
     createComponents () {
-      this.byAxisX = byAxisX()
+      this.xAxis = byAxisX()
+        .ticks(5)
         .tickSizeInner(-15)
         .tickSizeOuter(-15)
-        .fnBefore(s => s.classed('axis', true).select('.domain').style('opacity', 0))
-      this.byBars = byBars()
-        .fnLowValue(d => d[0])
-        .fnHighValue(d => d[1])
+        .fnBefore((s) =>
+          s.classed('axis', true).select('.domain').style('opacity', 0)
+        )
+      this.bars = byBars()
+        .fnLowValue((d) => d[0])
+        .fnHighValue((d) => d[1])
         .fnFill(`url(#${this.gradientId})`)
     },
     createChart () {
@@ -78,28 +89,24 @@ export default {
         .size({ width: this.width, height: 45 })
     },
     compose () {
-      this.chart.components([this.byBars, this.byAxisX])
+      this.chart.components([this.bars, this.xAxis])
     },
     update () {
-      this.byAxisX
-        .tickFormat(this.variableInfo.fnFormat || '~s')
-        .ticks(this.variableInfo.legendTicks || 4) // TODO
-      this.chart
-        .contScaleType(this.variableInfo.scaleType || 'scaleLinear')
+      this.xAxis.tickFormat(this.variableInfo.fnFormat || '~s')
+      this.chart.contScaleType(this.variableInfo.scaleType || 'scaleLinear')
+    },
+    hanldeSize ({ width }) {
+      this.xAxis.ticks(width > 600 ? 8 : width > 300 ? 5 : 3)
     },
     drawChart () {
-      this.$nextTick(() =>
-        this.chart.draw({ duration: 500 }))
+      this.$nextTick(() => this.chart.draw({ duration: 500 }))
     }
   }
 }
-
 </script>
 
 <style scoped>
-
 stop {
-  transition: all .5s;
+  transition: all 0.5s;
 }
-
 </style>

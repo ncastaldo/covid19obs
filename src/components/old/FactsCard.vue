@@ -72,7 +72,7 @@ export default {
   },
   methods: {
     onMouseover (e) {
-      console.log('a', e)
+      // console.log('a', e)
     }
   }
 }

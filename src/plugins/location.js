@@ -9,7 +9,7 @@ const regionMapping = {
   AFRO: { color: schemeCategory10[3], name: 'African (AFRO)', mainLocationId: 'NGA', order: 0 },
   AMRO: { color: schemeCategory10[4], name: 'Americas (AMRO)', mainLocationId: 'USA', order: 1 },
   WPRO: { color: schemeCategory10[6], name: 'Western Pacific (WPRO)', mainLocationId: 'AUS', order: 5 },
-  EMRO: { color: schemeCategory10[1], name: 'Eastern Mediterranean (EMRO)', mainLocationId: 'IRN', order: 2 },
+  EMRO: { color: schemeCategory10[1], name: 'East. Mediterr. (EMRO)', mainLocationId: 'IRN', order: 2 },
   SEARO: { color: schemeCategory10[2], name: 'South-East Asia (SEARO)', mainLocationId: 'THA', order: 4 },
   _NOT_WHO_MEMBER: { color: schemeCategory10[5], name: 'Not WHO Member', mainLocationId: 'ASM', order: 6 }
 }

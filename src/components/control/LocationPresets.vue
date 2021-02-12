@@ -5,7 +5,7 @@
         v-bind="attrs"
         v-on="on"
       >
-        Countries Presets
+        Presets
         <v-icon class="ml-2">
           mdi-cursor-default-click-outline
         </v-icon>

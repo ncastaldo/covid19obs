@@ -9,7 +9,12 @@
       :charts="[chart]"
       :height="height"
     >
-      <svg :id="id" />
+      <svg
+        :id="id"
+        @touchstart="onTouchstart"
+        @touchend="onTouchend"
+        @touchmove="event => {onTouchend(event); onTouchstart(event)}"
+      />
     </ChartsContainer>
     <Tooltip>
       <ArcHover
@@ -22,6 +27,8 @@
 
 <script>
 import ArcHover from './ArcHover'
+
+import { select } from 'd3-selection'
 
 import {
   brChart
@@ -103,8 +110,19 @@ export default {
     onMouseover (event, d) {
       this.hover = d
     },
-    onMouseout (event, d) {
+    onMouseout (event) {
       this.hover = null
+    },
+    onTouchstart (event) {
+      event.preventDefault()
+      const point = [event.touches[0].clientX, event.touches[0].clientY]
+      const d = select(document.elementFromPoint(...point)).datum()
+      if (d && typeof d === 'object' && 'key' in d && d !== this.hover) {
+        this.onMouseover(event, d)
+      }
+    },
+    onTouchend (event) {
+      this.onMouseout(event)
     }
   }
 

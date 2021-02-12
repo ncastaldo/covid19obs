@@ -57,7 +57,7 @@
       <slot name="bottom-right" />
     </MapControl>
 
-    <MapTooltip :event="event">
+    <MapTooltip :event="event" v-if="!isMobile">
       <MapHover
         :hover="hover"
         :fnTooltips="fnTooltips || undefined"
@@ -69,6 +69,8 @@
 <script>
 import Mapbox from 'mapbox-gl'
 import { MglMap, MglVectorLayer, MglNavigationControl, MglGeojsonLayer } from 'vue-mapbox'
+
+import { isMobile } from 'mobile-device-detect'
 
 import MapTooltip from './MapTooltip'
 import MapHover from './MapHover'
@@ -148,7 +150,9 @@ export default {
 
       clickLocationId: null,
 
-      maskClicked: false
+      maskClicked: false,
+
+      isMobile
     }
   },
   computed: {

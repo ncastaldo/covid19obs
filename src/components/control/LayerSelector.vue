@@ -5,7 +5,6 @@
     :items="layers"
     item-value="layerId"
     item-text="layerName"
-    style="width: 300px"
     hide-details
   >
     <template
@@ -31,7 +30,7 @@ export default {
     }
   },
   created () {
-    console.log(this.$store.getters['layer/getLayer'])
+    // (this.$store.getters['layer/getLayer'])
   }
 }
 </script>

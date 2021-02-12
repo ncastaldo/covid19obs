@@ -74,7 +74,7 @@ export default {
   },
   watch: {
     storeReady () {
-      console.log(this.storeReady, 'change')
+      // console.log(this.storeReady, 'change')
     }
   },
   methods: {

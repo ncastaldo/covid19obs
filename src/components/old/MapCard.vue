@@ -33,6 +33,7 @@
           :mapVariable="mapVariable"
           :domain="mapVariableDomains[dateIndex]"
           :width="legendWidth"
+          :height="45"
         />
       </v-card-actions>
 

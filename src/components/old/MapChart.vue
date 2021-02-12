@@ -33,6 +33,8 @@ import * as d3nic from 'd3nic'
 import { zoom, zoomIdentity } from 'd3-zoom'
 import { select, event } from 'd3-selection'
 
+import { isMobile } from 'mobile-device-detect'
+
 import { mapActions, mapGetters } from 'vuex'
 
 const ZOOM_SCALE_MIN = 2
@@ -115,7 +117,7 @@ export default {
         this.chart
           .size(this.size)
           .data(this.data)
-          .draw({ duration: this.$isMobile() ? 0 : 500 })
+          .draw({ duration: isMobile ? 0 : 500 })
 
         select('#map-chart__hover').raise()
 

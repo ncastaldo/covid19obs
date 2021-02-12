@@ -112,7 +112,7 @@ export default {
       e.target.src = 'assets/static_img/flag.svg'
     },
     onClickSelectAll () {
-      console.log(this.locations)
+      // console.log(this.locations)
       if (this.allSelected) {
         this.model = []
       } else {

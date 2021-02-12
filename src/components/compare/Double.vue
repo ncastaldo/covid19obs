@@ -28,9 +28,11 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import { xyCircles, xyLine, xyTexts } from 'd3nic'
+import { xyCircles, xyTexts } from 'd3nic'
 
 import { mean, deviation, extent } from 'd3-array'
+
+import { isMobile } from 'mobile-device-detect'
 
 import CompareSelector from '../control/CompareSelector'
 
@@ -88,7 +90,7 @@ export default {
           // sum(zx, xy) / n - 1
           .reduce((acc, [zx, zy]) => acc + zx * zy, 0) / (n - 1)
 
-        console.log(`R: ${r}`)
+        // console.log(`R: ${r}`)
 
         // yhat = a + bx
         const b = r * dy / dx
@@ -144,7 +146,7 @@ export default {
             .fnStrokeWidth(d => 1)
             .fnFill(d => d.regionColor)
             .fnOn('mouseover', this.$refs.chart.onMouseover)
-            .fnOn('mouseout', this.$isMobile() || this.$refs.chart.onMouseout),
+            .fnOn('mouseout', isMobile || this.$refs.chart.onMouseout),
           xyTexts()
             .fnDefined(this.fnDefined)
             .fnValue(d => d.value)

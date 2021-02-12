@@ -61,23 +61,31 @@ export default {
     geohash () {
       const { geometry } = this.getLocationInfo(iso)
 
-      this.fnProjection.fitExtent([[20, 20], [500 - 20, 500 - 20]], geometry)
+      this.fnProjection.fitExtent(
+        [
+          [20, 20],
+          [500 - 20, 500 - 20]
+        ],
+        geometry
+      )
 
-      const points = this.geohash
-        .map(p => ({ ...p, ...this.fnProjection([p.long, p.lat]) }))
+      const points = this.geohash.map((p) => ({
+        ...p,
+        ...this.fnProjection([p.long, p.lat])
+      }))
 
-      const hexPoints = this.fnHexbin
-        .size([500, 500])
-        .radius(4)(points)
+      const hexPoints = this.fnHexbin.size([500, 500]).radius(4)(points)
 
-      hexPoints.forEach(d => {
+      hexPoints.forEach((d) => {
         d.value = d.reduce((acc, cur) => acc + cur['2020-08'], 0)
       })
 
-      const fnColor = scaleSequentialSymlog(interpolateViridis)
-        .domain([0, max(hexPoints, d => d.value)])
+      const fnColor = scaleSequentialSymlog(interpolateViridis).domain([
+        0,
+        max(hexPoints, (d) => d.value)
+      ])
 
-      hexPoints.forEach(d => {
+      hexPoints.forEach((d) => {
         d.color = fnColor(d.value)
       })
 
@@ -102,7 +110,7 @@ export default {
 
       // console.log(fnColor.domain())
 
-      this.hexagons = hexPoints.map(d => ({
+      this.hexagons = hexPoints.map((d) => ({
         ...d,
         color: fnColor(d.value),
         path: 'M' + d.x + ',' + d.y + hexagon
@@ -111,18 +119,21 @@ export default {
   },
   mounted () {
     fetch(geohashUrl)
-      .then(res => res.text())
-      .then(data => csvParse(data, ({ geohash, ...rest }) => ({
-        geohash,
-        ...Object.entries(rest)
-          .map(([k, v]) => ({ [k]: +v }))
-          .reduce((acc, cur) => ({ ...acc, ...cur }), {})
-      })))
-      .then(geohash => { this.geohash = geohash })
+      .then((res) => res.text())
+      .then((data) =>
+        csvParse(data, ({ geohash, ...rest }) => ({
+          geohash,
+          ...Object.entries(rest)
+            .map(([k, v]) => ({ [k]: +v }))
+            .reduce((acc, cur) => ({ ...acc, ...cur }), {})
+        }))
+      )
+      .then((geohash) => {
+        this.geohash = geohash
+      })
   }
 }
 </script>
 
 <style>
-
 </style>

@@ -10,6 +10,9 @@
     >
       <svg
         :id="id"
+        @touchstart="onTouchstart"
+        @touchend="onTouchend"
+        @touchmove="event => {onTouchend(event); onTouchstart(event)}"
       />
     </ChartsContainer>
     <Tooltip>
@@ -23,6 +26,10 @@
 
 <script>
 import CompareSingleHover from './CompareSingleHover'
+
+import { isMobile } from 'mobile-device-detect'
+
+import { select } from 'd3-selection'
 
 import {
   byChart,
@@ -98,10 +105,10 @@ export default {
       this.mouseBars = byMouseBars()
         .fnBefore(s => s.classed('mouse-bars', true))
 
-      if (!this.$isMobile()) {
+      if (!isMobile) {
         this.mouseBars
           .fnOn('mouseover', this.onMouseover)
-          .fnOn('mouseout', this.$isMobile() || this.onMouseout)
+          .fnOn('mouseout', isMobile || this.onMouseout)
       }
     },
     createComponents () {
@@ -141,11 +148,22 @@ export default {
         .map(c => c.join().filter(f => f.locationId === d.locationId)
           .dispatch('mouseover', event, d))
     },
-    onMouseout (event, d) {
-      this.hover = null
+    onMouseout (event) {
       this.components
-        .map(c => c.join().filter(f => f.locationId === d.locationId)
-          .dispatch('mouseout', event, d))
+        .map(c => c.join().filter(f => this.hover && f.locationId === this.hover.locationId)
+          .dispatch('mouseout', event, this.hover))
+      this.hover = null
+    },
+    onTouchstart (event) {
+      // event.preventDefault() // NO, user might want to scroll
+      const point = [event.touches[0].clientX, event.touches[0].clientY]
+      const d = select(document.elementFromPoint(...point)).datum()
+      if (d && typeof d === 'object' && 'locationId' in d && d !== this.hover) {
+        this.onMouseover(event, d)
+      }
+    },
+    onTouchend (event) {
+      this.onMouseout(event)
     }
   }
 

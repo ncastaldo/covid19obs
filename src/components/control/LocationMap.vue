@@ -1,19 +1,19 @@
 <template>
   <MapBox
     id="location-selector-map"
-    :height="450"
+    :height="height"
     :styleMapping="styleMapping"
     :bounds="bounds"
     :fnTooltips="fnTooltips"
     :onClick="onClick"
   >
     <template v-slot:top-right>
-      <v-card class="pa-1">
+      <v-card class="pa-1 layer-container">
         <div class="d-flex align-center flex-column">
           <LayerSelector />
           <LegendChart
             v-if="true"
-            :width="300"
+            :height="45"
             :variableInfo="layerVariableInfo"
             :domain="layerDomain"
           />
@@ -61,6 +61,9 @@ export default {
 
       getLocationGeometry: 'location/getLocationGeometry'
     }),
+    height () {
+      return Math.min(450, window.innerHeight * 3 / 4)
+    },
     bounds () {
       return this.location.locationId === '_WORLD'
         ? null
@@ -113,3 +116,17 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+
+.layer-container {
+  width: 320px;
+}
+
+@media (max-width: 400px) {
+  .layer-container {
+    width: 200px;
+  }
+}
+
+</style>

@@ -47,6 +47,8 @@ export default {
     },
     style () {
       return {
+        width: '100%',
+        'max-width': this.maxWidth ? `${this.maxWidth}px` : 'none',
         height: `${this.styleHeight}px`,
         'overflow-x': this.minWidth ? 'scroll' : 'hidden',
         'overflow-y': (this.chartHeight > this.styleHeight) ? 'scroll' : 'hidden'
@@ -85,10 +87,12 @@ export default {
     },
     onResize () {
       const w = this.$el.offsetWidth
-      this.chartWidth = Math.max(
-        Math.min(w, this.maxWidth || w),
-        this.minWidth || w
-      )
+
+      this.chartWidth = this.maxWidth && w > this.maxWidth
+        ? this.maxWidth
+        : this.minWidth && w < this.minWidth
+          ? this.minWidth
+          : w
     }
   }
 

@@ -11,6 +11,8 @@
 <script>
 import { throttle } from 'lodash'
 
+import { isMobile } from 'mobile-device-detect'
+
 export default {
   name: 'Tooltip',
   data () {
@@ -23,18 +25,24 @@ export default {
     }
   },
   mounted () {
-    this.$parent.$el.addEventListener('mousemove', this.mousemove)
+    if (!isMobile) {
+      this.$parent.$el.addEventListener('mousemove',
+        (event) => this.mousemove(event.clientX, event.clientY))
+    } else {
+      this.$parent.$el.addEventListener('touchmove',
+        (event) => this.mousemove(event.touches[0].clientX, event.touches[0].clientY))
+    }
   },
   methods: {
     deprecated: throttle(function (event) {
       this.moveTooltip(event)
     }, 20),
-    mousemove (event) {
+    mousemove (clientX, clientY) {
       this.show = true
-      const [top, bottom] = // window.innerHeight / 2 - event.clientY > 0 ?
-      [event.clientY + 'px', null] // : [null, (window.innerHeight - event.clientY) + 'px']
-      const [left, right] = window.innerWidth / /* 3 * 2 */ 2 - event.clientX > 0
-        ? [event.clientX + 'px', null] : [null, (window.innerWidth - event.clientX) + 'px']
+      const [top, bottom] = window.innerHeight / 2 - clientY > 0
+        ? [clientY + 'px', null] : [null, (window.innerHeight - clientY) + 'px']
+      const [left, right] = window.innerWidth / /* 3 * 2 */ 2 - clientX > 0
+        ? [clientX + 'px', null] : [null, (window.innerWidth - clientX) + 'px']
       Object.assign(this, { top, left, bottom, right })
     }
   }

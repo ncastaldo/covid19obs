@@ -18,10 +18,11 @@
       <LegendChart
         id="iri-legend-chart"
         :width="300"
+        :height="45"
         :variableInfo="variableInfo"
         :domain="[0, 1]"
       />
-      <h4 class="pb-4 thin-font">
+      <h4 class="pb-4 thin-font text-right">
         Highest Risk
       </h4>
     </div>

@@ -3,6 +3,7 @@
     <v-icon
       v-for="i in Array.from(Array(+active))"
       :key="i"
+      class="icon"
       :size="size"
       :color="color"
     >
@@ -11,6 +12,7 @@
     <v-icon
       v-for="i in Array.from(Array(+total - +active))"
       :key="i"
+      class="icon"
       :size="size"
       color="#888"
     >
@@ -42,6 +44,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
-</style>
+.icon {
+  vertical-align: baseline;
+}
+
+</style>>

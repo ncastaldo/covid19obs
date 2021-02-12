@@ -1,6 +1,6 @@
 <template>
   <img
-    :width="width"
+    :style="{'width': `${width}px`, 'max-height': `${width}px`}"
     :src="`https://flagcdn.com/${flagId.toLowerCase()}.svg`"
     :class="outlined ? 'outlined': ''"
     @error="onError"
@@ -17,7 +17,7 @@ export default {
     },
     width: {
       type: [Number, String],
-      default: 30
+      default: 10
     },
     outlined: {
       type: [Boolean, String],
@@ -33,6 +33,10 @@ export default {
 </script>
 
 <style scoped>
+
+img {
+  object-fit: contain;
+}
 
 .outlined {
   outline: solid 1px #000;

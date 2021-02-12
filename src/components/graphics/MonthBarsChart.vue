@@ -101,7 +101,7 @@ export default {
     hanldeSize (size) {
       // 50px each label, 100px sum of padding left and right
       const ticks = Math.floor((size.width - 100) / 50) || 1
-      console.log(ticks)
+      // console.log(ticks)
       this.xAxis.ticks(ticks)
     },
     fillBars (monthId) {
