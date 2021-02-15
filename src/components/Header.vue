@@ -1,12 +1,5 @@
 <template>
-  <v-app-bar
-    height="60"
-    max-height="60"
-  >
-    <v-app-bar-nav-icon
-      v-if="false"
-      @click="toggleDrawer"
-    />
+  <v-app-bar>
     <v-toolbar-title class="ml-1 text-left headline">
       <a
         class="pr-2"
@@ -14,7 +7,7 @@
         href="/#/"
       > covid19obs </a>
       <span
-        v-if="!['xs', 'sm'].includes(breakpoint)"
+        v-if="!smallScreen"
         class="font-weight-light pl-2"
         :style="{ 'font-size': '18px' }"
       >
@@ -22,14 +15,17 @@
       </span>
     </v-toolbar-title>
     <v-spacer />
-    <v-img
-      v-if="false && breakpoint !== 'xs'"
-      class="mx-2"
-      :src="imgSrc"
-      max-height="40"
-      max-width="140"
-      contain
+    <v-app-bar-nav-icon
+      v-if="smallScreen"
+      class="mr-1"
+      @click="toggleDrawer"
     />
+    <template
+      v-if="!smallScreen"
+      #extension
+    >
+      <NavLinks />
+    </template>
   </v-app-bar>
 </template>
 
@@ -46,6 +42,9 @@ export default {
   computed: {
     breakpoint () {
       return this.$vuetify.breakpoint.name
+    },
+    smallScreen () {
+      return ['xs', 'sm'].includes(this.breakpoint)
     },
     style () {
       return {

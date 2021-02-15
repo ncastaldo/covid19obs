@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-container class="py-0">
+    <v-container class="pt-3">
       <div class="text-center">
         <v-icon
           large

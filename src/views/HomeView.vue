@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NavLinks />
     <HomeControl />
     <Timeseries />
   </div>
@@ -13,7 +12,6 @@ import Timeseries from '../components/Timeseries'
 
 export default {
   components: {
-
     HomeControl,
     Timeseries
   }

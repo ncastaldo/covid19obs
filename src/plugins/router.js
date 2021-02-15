@@ -8,7 +8,7 @@ const routes = [
   {
     title: 'FAQs',
     link: '/faqs',
-    icon: 'mdi-question' // ?
+    icon: 'mdi-help-circle-outline' // ?
   },
   {
     title: 'Compare Countries',
@@ -38,7 +38,7 @@ const routes = [
   {
     title: 'Data & API',
     link: '/api',
-    icon: 'mdi-magnify'
+    icon: 'mdi-cloud-download-outline'
   }
 ]
 

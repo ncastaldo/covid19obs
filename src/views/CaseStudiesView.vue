@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NavLinks />
     <v-container>
       <div class="d-flex flex-wrap align-center justify-center">
         <v-btn

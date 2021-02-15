@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NavLinks />
     <Article>
       <div class="text-center">
         <h1>FAQs</h1>

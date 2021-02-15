@@ -2,7 +2,7 @@
   <v-app
     id="app"
   >
-    <Drawer v-if="false" />
+    <Drawer />
     <Header />
     <v-main>
       <router-view v-if="storeReady" />

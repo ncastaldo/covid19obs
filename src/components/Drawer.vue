@@ -5,6 +5,8 @@
     disable-resize-watcher
     mobile-breakpoint="0"
     temporary
+    touchless
+    right
   >
     <v-list
       dense
@@ -71,5 +73,10 @@ export default {
 </script>
 
 <style>
+
+a.active .route-title,
+a:hover .route-title{
+  color: rgb(31, 121, 179);
+}
 
 </style>
