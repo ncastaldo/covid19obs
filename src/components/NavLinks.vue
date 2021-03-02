@@ -8,7 +8,7 @@
         exact
         :to="route.link"
       >
-        <h2 class="route-title mx-4 thin-font">
+        <h2 class="route-title pr-5 thin-font">
           {{ route.title }}
         </h2>
       </router-link>

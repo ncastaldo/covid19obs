@@ -39,6 +39,11 @@ const routes = [
     title: 'Data & API',
     link: '/api',
     icon: 'mdi-cloud-download-outline'
+  },
+  {
+    title: 'Press',
+    link: '/press',
+    icon: 'mdi-bullhorn-outline'
   }
 ]
 

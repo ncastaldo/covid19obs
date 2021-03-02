@@ -57,7 +57,10 @@
       <slot name="bottom-right" />
     </MapControl>
 
-    <MapTooltip :event="event" v-if="!isMobile">
+    <MapTooltip
+      v-if="!isMobile"
+      :event="event"
+    >
       <MapHover
         :hover="hover"
         :fnTooltips="fnTooltips || undefined"

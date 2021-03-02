@@ -38,6 +38,10 @@ const routes = [
   {
     path: '/faqs',
     component: () => import(/* webpackChunkName: "FaqsView" */'../views/FaqsView')
+  },
+  {
+    path: '/press',
+    component: () => import(/* webpackChunkName: "PressView" */'../views/PressView')
   }
 ]
 
