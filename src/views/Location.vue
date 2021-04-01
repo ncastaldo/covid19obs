@@ -7,7 +7,7 @@
         v-sticky
         sticky-z-index="4"
         sticky-offset="stickyOffset"
-        style="background: rgba(13, 18, 15, 0.8)"
+        style="background: #fff"
         class="pb-1"
       >
         <v-row class="px-2 pb-xs-0 pb-sm-2">

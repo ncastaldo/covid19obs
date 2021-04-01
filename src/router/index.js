@@ -1,26 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import Common from '../views/Common'
-
-import Observatory from '../views/Observatory'
-import Location from '../views/Location'
-import Project from '../views/Project'
-import Contacts from '../views/Contacts'
+import HomeView from '../views/HomeView'
 
 Vue.use(VueRouter)
-
-const commonRoutes = [
-  {
-    path: '*',
-    redirect: '/'
-  },
-  {
-    path: '/',
-    name: 'Observatory',
-    component: Common
-  }
-]
 
 const routes = [
   {
@@ -29,28 +12,42 @@ const routes = [
   },
   {
     path: '/',
-    name: 'Observatory',
-    component: Observatory
+    component: HomeView
   },
   {
-    path: '/rankings',
-    name: 'Location',
-    component: Location
+    path: '/compare',
+    component: () => import(/* webpackChunkName: "CompareView" */'../views/CompareView')
+  },
+  // {
+  //  path: '/choropleth',
+  //  component: () => import(/* webpackChunkName: "ChoroplethView" */'../views/ChoroplethView')
+  // },
+  {
+    path: '/case-studies',
+    component: () => import(/* webpackChunkName: "CaseStudiesView" */'../views/CaseStudiesView')
   },
   {
-    path: '/project',
-    name: 'Project',
-    component: Project
+    path: '/methods',
+    component: () => import(/* webpackChunkName: "MethodsView" */'../views/MethodsView')
+  },
+
+  {
+    path: '/api',
+    component: () => import(/* webpackChunkName: "ApiView" */'../views/ApiView.vue')
   },
   {
-    path: '/contacts',
-    name: 'Contacts',
-    component: Contacts
+    path: '/faqs',
+    component: () => import(/* webpackChunkName: "FaqsView" */'../views/FaqsView')
+  },
+  {
+    path: '/press',
+    component: () => import(/* webpackChunkName: "PressView" */'../views/PressView')
   }
 ]
 
 const router = new VueRouter({
-  routes: commonRoutes
+  base: process.env.BASE_URL,
+  routes
 })
 
 export default router

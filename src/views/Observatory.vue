@@ -29,23 +29,25 @@
               cols="12"
               class="pb-3"
             >
-              <v-tabs
-                v-model="tabs[i]"
-                height="35"
-                show-arrows
-                grow
-              >
-                <v-tab
-                  v-for="chart in section.charts"
-                  :key="chart.id"
+              <v-card>
+                <v-tabs
+                  v-model="tabs[i]"
+                  height="35"
+                  show-arrows
+                  grow
                 >
-                  {{ chart.label }}
-                </v-tab>
-              </v-tabs>
-              <TimeseriesCard
-                :id="section.id"
-                :chartConfig="section.charts[tabs[i]]"
-              />
+                  <v-tab
+                    v-for="chart in section.charts"
+                    :key="chart.id"
+                  >
+                    {{ chart.label }}
+                  </v-tab>
+                </v-tabs>
+                <TimeseriesCard
+                  :id="section.id"
+                  :chartConfig="section.charts[tabs[i]]"
+                />
+              </v-card>
             </v-col>
           </v-row>
         </v-col>

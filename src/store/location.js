@@ -1,83 +1,83 @@
-import { extent } from 'd3-array'
-
-import * as d3Scale from 'd3-scale'
-import * as d3ScaleChromatic from 'd3-scale-chromatic'
-
-// static file
-import _locationInfos from '../assets/locationDicts.json'
-
-const locationInfos = _locationInfos
-  .reduce((acc, cur) => ({
-    ...acc,
-    [cur.id]: cur
-  }), {})
-
-const locationInfoId = _locationInfos[0].id
-
 const state = {
-  locationInfos,
-  locationInfoId,
+  ready: false,
 
-  locationDict: null,
-  locationMappings: null,
-
-  locationFocus: null
-}
-
-const getters = {
-  getLocationInfos: ({ locationInfos }) => Object.values(locationInfos),
-  getLocationInfo: ({ locationInfos, locationInfoId }) =>
-    locationInfoId in locationInfos
-      ? locationInfos[locationInfoId]
-      : null, // error in this case
-
-  getLocationDict: ({ locationDict }) => locationDict,
-
-  getLocationMapping: (_, getters, __, rootGetters) => {
-    const fnColorScale = d3Scale[getters.getLocationInfo.scaleColorType]()
-      .interpolator(d3ScaleChromatic[getters.getLocationInfo.interpolator])
-
-    const fnGetInBounds = value => getters.getLocationInfo.bounds
-      ? value >= getters.getLocationInfo.bounds[0] && value <= getters.getLocationInfo.bounds[1]
-        ? value : null
-      : value
-    const fnGetValue = list => list !== null ? fnGetInBounds(list[rootGetters.getDateIndex]) : null
-    const fnGetColor = value => value !== null ? fnColorScale(value) : null
-
-    const locationDict = getters.getLocationDict || {}
-    const locationIds = Object.keys(locationDict)
-
-    const domain = extent(Object.values(locationDict).map(fnGetValue))
-    fnColorScale.domain(domain)
-    return locationIds
-      .map(locationId => [locationId, fnGetValue(locationDict[locationId])])
-      .reduce((acc, [locationId, value]) => ({
-        ...acc,
-        [locationId]: {
-          locationId,
-          value,
-          color: fnGetColor(value)
-        }
-      }), {})
-  },
-
-  getLocationFocus: ({ locationFocus }) => locationFocus
+  allLocations: null,
+  allGeometries: null,
+  locations: null,
+  regions: null,
+  locationId: null,
+  locationIdList: null
 }
 
 const mutations = {
-  setLocationInfoId: (state, locationInfoId) => { state.locationInfoId = locationInfoId },
-  setLocationDict: (state, { _WORLD, ...rest }) => { state.locationDict = rest },
+  setReady: (state, ready) => { state.ready = ready },
 
-  setLocationFocus: (state, locationFocus) => { state.locationFocus = locationFocus }
+  setAllLocations: (state, allLocations) => { state.allLocations = allLocations },
+  setAllGeometries: (state, allGeometries) => { state.allGeometries = allGeometries },
+  setLocations: (state, locations) => { state.locations = locations },
+  setRegions: (state, regions) => { state.regions = regions },
+
+  setLocationId: (state, locationId) => { state.locationId = locationId },
+  setLocationIdList: (state, locationIdList) => { state.locationIdList = locationIdList }
+}
+
+const getters = {
+  isReady: ({ ready }) => ready,
+
+  getLocations: ({ locations }) => Object.values(locations),
+  getAllLocations: ({ allLocations }) => Object.values(allLocations),
+
+  getRegions: ({ regions }) => Object.values(regions),
+
+  getLocation: ({ locations, locationId }) => locations[locationId],
+  getRegion: ({ regions }, getters) => regions[getters.getLocation.regionId],
+
+  getLocationList: ({ locations, locationIdList }) => locationIdList.map(id => locations[id]),
+
+  getLocationInfo: ({ locations }) => locationId => locations[locationId],
+  getLocationGeometry: ({ allGeometries }) => locationId => allGeometries[locationId],
+
+  getRegionInfo: ({ regions }) => regionId => regions[regionId],
+
+  getRegionLocations: ({ locations }) => regionId => regionId !== '_WORLD_REGION'
+    ? Object.values(locations)
+      .filter(l => l.regionId === regionId)
+      .sort((a, b) => a.locationName > b.locationName ? 1 : -1)
+    : []
+
 }
 
 const actions = {
-  setLocationInfoId: async ({ commit }, locationInfoId) => {
-    const locationDict = await fetch(`/assets/map_dicts/${locationInfoId}.json`)
-      .then(res => res.json())
-    // updating the locationInfoId only aftert the fetch of the data
-    commit('setLocationInfoId', locationInfoId)
-    commit('setLocationDict', locationDict)
+  init: ({ commit }, {
+    locationId, locationIdList,
+    allLocations, allGeometries, locations, regions
+  }) => {
+    commit('setAllLocations', Object.freeze(allLocations))
+    commit('setAllGeometries', Object.freeze(allGeometries))
+    commit('setLocations', Object.freeze(locations))
+    commit('setRegions', Object.freeze(regions))
+
+    commit('setLocationId', locationId)
+    commit('setLocationIdList', locationIdList)
+
+    commit('setReady', true)
+  },
+
+  setLocationId: ({ commit, dispatch }, locationId) => {
+    commit('setLocationId', locationId)
+    dispatch('timeseries/loadTimeseries', {}, { root: true })
+  },
+
+  setRegionId: ({ dispatch, getters }, regionId) => {
+    const region = getters.getRegionInfo(regionId)
+    const locationId = region.mainLocationId
+
+    dispatch('setLocationId', locationId)
+  },
+
+  // may not be used
+  setLocationIdList: ({ commit, dispatch }, locationIdList) => {
+    commit('setLocationIdList', locationIdList)
   }
 }
 

@@ -3,8 +3,10 @@
     v-model="drawer"
     app
     disable-resize-watcher
-    mobile-break-point="0"
+    mobile-breakpoint="0"
     temporary
+    touchless
+    right
   >
     <v-list
       dense
@@ -24,12 +26,15 @@
       </v-list-item>
 
       <v-list-item
-        v-for="item in items"
+        v-for="item in routes"
         :key="item.title"
         :to="item.link"
         link
       >
-        {{ item.title }}
+        <v-list-item-icon>
+          <v-icon v-text="item.icon" />
+        </v-list-item-icon>
+        <v-list-item-title v-text="item.title" />
       </v-list-item>
     </v-list>
   </v-navigation-drawer>
@@ -37,27 +42,13 @@
 
 <script>
 import { mapGetters, mapMutations, mapActions } from 'vuex'
+
+import { routes } from '../plugins/router'
+
 export default {
   data () {
     return {
-      items: [
-        {
-          title: 'Observatory',
-          link: '/'
-        },
-        {
-          title: 'Country Rankings',
-          link: '/rankings'
-        },
-        {
-          title: 'About the Project',
-          link: '/project'
-        },
-        {
-          title: 'Press & Contacts',
-          link: '/contacts'
-        }
-      ]
+      routes
     }
   },
   computed: {
@@ -82,5 +73,10 @@ export default {
 </script>
 
 <style>
+
+a.active .route-title,
+a:hover .route-title{
+  color: rgb(31, 121, 179);
+}
 
 </style>
