@@ -1,4 +1,6 @@
-# coronavirus
+# covid19obs
+
+The source code of the [Covid19 Infodemics Observatory](https://covid19obs.fbk.eu).
 
 ## Project setup
 ```
